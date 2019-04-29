@@ -31,11 +31,14 @@ async function main () {
 
 async function fetch (mapping) {
   const headers = {}
-  if (mapping.contentType) {
-    headers['content-type'] = mapping.contentType
+  if (mapping.mediaType) {
+    headers['accept'] = mapping.mediaType
   }
   try {
     const res = await rdfFetch(mapping.file || mapping.uri, { factory: rdf, formats, headers })
+    if (mapping.mediaType) {
+      res.headers.set('content-type', mapping.mediaType)
+    }
     const dataset = await res.dataset()
     return { mapping, dataset }
   }

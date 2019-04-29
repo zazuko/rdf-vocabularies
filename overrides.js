@@ -17,9 +17,6 @@ module.exports = {
   wdr: {
     skip: true
   },
-  sioc: {
-    contentType: 'application/rdf+xml'
-  },
   wdrs: {
     skip: true
   },
@@ -51,13 +48,13 @@ module.exports = {
     file: 'http://dbpedia.org/data4/.ttl'
   },
   gtfs: {
-    contentType: 'text/n3'
+    mediaType: 'text/n3'
   },
   schema: {
     file: 'http://schema.org/version/latest/schema.nt'
   },
   qb: {
-    contentType: 'text/turtle'
+    mediaType: 'text/turtle'
   },
   void: {
     file: 'http://vocab.deri.ie/void.ttl'
