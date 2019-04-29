@@ -1,51 +1,53 @@
+const fs = require('fs')
+const { join, resolve } = require('path')
 const rdf = require('rdf-ext')
-const formats = require('@rdfjs/formats-common')
-const rdfFetch = require('@rdfjs/fetch-lite')
-const RdfXmlParser = require('rdfxml-streaming-parser').RdfXmlParser
 
-formats.parsers.set('application/rdf+xml', new RdfXmlParser())
+const allPrefixes = require('./prefixes')
 
-async function main () {
-  const prefixes = require('./prefixes')
-  const overrides = require('./overrides')
+module.exports = {
+  prefixes: main
+}
 
-  // merge prefixes with overrides
-  for (const prefix in prefixes) {
-    const uri = prefixes[prefix]
-    const override = overrides[prefix]
-    prefixes[prefix] = Object.assign({ uri, prefix }, override)
-  }
-
-  for (const prefix in prefixes) {
-    const mapping = prefixes[prefix]
-    if (mapping.skip) {
-      continue
-    }
-    const result = await fetch(mapping)
-    console.log({
-      prefix: mapping.prefix,
-      dataset: result.dataset.size
+async function main (_prefixes) {
+  let prefixes
+  if (_prefixes && _prefixes.length) {
+    prefixes = []
+    _prefixes.forEach(prefix => {
+      if (prefix in allPrefixes) {
+        prefixes.push(allPrefixes[prefix])
+      }
+      else {
+        console.warn(`unknown prefix '${prefix}'`)
+      }
     })
   }
-}
-
-async function fetch (mapping) {
-  const headers = {}
-  if (mapping.mediaType) {
-    headers['accept'] = mapping.mediaType
+  if (!prefixes) {
+    prefixes = Object.keys(allPrefixes)
   }
-  try {
-    const res = await rdfFetch(mapping.file || mapping.uri, { factory: rdf, formats, headers })
-    if (mapping.mediaType) {
-      res.headers.set('content-type', mapping.mediaType)
+
+  const promises = prefixes.map((prefix) => loadFile(prefix, !!_prefixes))
+  const datasets = await Promise.all(promises)
+
+  const result = {}
+  datasets.forEach((dataset, i) => {
+    if (dataset && dataset.size) {
+      result[prefixes[i]] = dataset
     }
-    const dataset = await res.dataset()
-    return { mapping, dataset }
-  }
-  catch (err) {
-    console.warn(`failed fetching/processing ${mapping.prefix}`)
-    throw err
-  }
+  })
+  return result
 }
 
-Promise.resolve().then(() => main())
+function loadFile (prefix, customSelection) {
+  const stream = fs.createReadStream(buildPath(prefix), { encoding: 'utf8' })
+  return rdf.dataset().import(stream).catch(() => {
+    if (customSelection) {
+      console.warn(`unavailable prefix '${prefix}'`)
+    }
+  })
+}
+
+function buildPath (prefix) {
+  return resolve(join('.', 'ontologies', `${prefix}.nt`))
+}
+
+Promise.resolve(main())

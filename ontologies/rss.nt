@@ -1,0 +1,44 @@
+<http://purl.org/rss/1.0/channel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/rss/1.0/channel> <http://www.w3.org/2000/01/rdf-schema#comment> "An RSS information channel." .
+<http://purl.org/rss/1.0/channel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/rss/1.0/> .
+<http://purl.org/rss/1.0/channel> <http://www.w3.org/2000/01/rdf-schema#label> "Channel" .
+<http://purl.org/rss/1.0/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/rss/1.0/description> <http://www.w3.org/2000/01/rdf-schema#comment> "A short text description of the subject." .
+<http://purl.org/rss/1.0/description> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/rss/1.0/> .
+<http://purl.org/rss/1.0/description> <http://www.w3.org/2000/01/rdf-schema#label> "Description" .
+<http://purl.org/rss/1.0/description> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/description> .
+<http://purl.org/rss/1.0/image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/rss/1.0/image> <http://www.w3.org/2000/01/rdf-schema#comment> "An RSS image." .
+<http://purl.org/rss/1.0/image> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/rss/1.0/> .
+<http://purl.org/rss/1.0/image> <http://www.w3.org/2000/01/rdf-schema#label> "Image" .
+<http://purl.org/rss/1.0/item> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/rss/1.0/item> <http://www.w3.org/2000/01/rdf-schema#comment> "An RSS item." .
+<http://purl.org/rss/1.0/item> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/rss/1.0/> .
+<http://purl.org/rss/1.0/item> <http://www.w3.org/2000/01/rdf-schema#label> "Item" .
+<http://purl.org/rss/1.0/items> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/rss/1.0/items> <http://www.w3.org/2000/01/rdf-schema#comment> "Points to a list of rss:item elements that are members of the subject channel." .
+<http://purl.org/rss/1.0/items> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/rss/1.0/> .
+<http://purl.org/rss/1.0/items> <http://www.w3.org/2000/01/rdf-schema#label> "Items" .
+<http://purl.org/rss/1.0/link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/rss/1.0/link> <http://www.w3.org/2000/01/rdf-schema#comment> "The URL to which an HTML rendering of the subject will link." .
+<http://purl.org/rss/1.0/link> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/rss/1.0/> .
+<http://purl.org/rss/1.0/link> <http://www.w3.org/2000/01/rdf-schema#label> "Link" .
+<http://purl.org/rss/1.0/link> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/identifier> .
+<http://purl.org/rss/1.0/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/rss/1.0/name> <http://www.w3.org/2000/01/rdf-schema#comment> "The text input field's (variable) name." .
+<http://purl.org/rss/1.0/name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/rss/1.0/> .
+<http://purl.org/rss/1.0/name> <http://www.w3.org/2000/01/rdf-schema#label> "Name" .
+<http://purl.org/rss/1.0/textinput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://purl.org/rss/1.0/textinput> <http://www.w3.org/2000/01/rdf-schema#comment> "An RSS text input." .
+<http://purl.org/rss/1.0/textinput> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/rss/1.0/> .
+<http://purl.org/rss/1.0/textinput> <http://www.w3.org/2000/01/rdf-schema#label> "Text Input" .
+<http://purl.org/rss/1.0/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/rss/1.0/title> <http://www.w3.org/2000/01/rdf-schema#comment> "A descriptive title for the channel." .
+<http://purl.org/rss/1.0/title> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/rss/1.0/> .
+<http://purl.org/rss/1.0/title> <http://www.w3.org/2000/01/rdf-schema#label> "Title" .
+<http://purl.org/rss/1.0/title> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/title> .
+<http://purl.org/rss/1.0/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://purl.org/rss/1.0/url> <http://www.w3.org/2000/01/rdf-schema#comment> "The URL of the image to used in the 'src' attribute of the channel's image tag when rendered as HTML." .
+<http://purl.org/rss/1.0/url> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/rss/1.0/> .
+<http://purl.org/rss/1.0/url> <http://www.w3.org/2000/01/rdf-schema#label> "URL" .
+<http://purl.org/rss/1.0/url> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/identifier> .

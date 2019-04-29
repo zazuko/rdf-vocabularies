@@ -1,0 +1,60 @@
+<http://www.w3.org/2008/05/skos-xl#Label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2008/05/skos-xl#Label> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2008/05/skos-xl> .
+<http://www.w3.org/2008/05/skos-xl#Label> <http://www.w3.org/2000/01/rdf-schema#label> "Label"@en .
+<http://www.w3.org/2008/05/skos-xl#Label> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n0 .
+<http://www.w3.org/2008/05/skos-xl#Label> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/2004/02/skos/core#Collection> .
+<http://www.w3.org/2008/05/skos-xl#Label> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2008/05/skos-xl#Label> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<http://www.w3.org/2008/05/skos-xl#Label> <http://www.w3.org/2004/02/skos/core#definition> "A special class of lexical entities."@en .
+<http://www.w3.org/2008/05/skos-xl#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2008/05/skos-xl#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2008/05/skos-xl#altLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "If C skosxl:altLabel L and L skosxl:literalForm V, then X skos:altLabel V."@en .
+<http://www.w3.org/2008/05/skos-xl#altLabel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2008/05/skos-xl> .
+<http://www.w3.org/2008/05/skos-xl#altLabel> <http://www.w3.org/2000/01/rdf-schema#label> "alternative label"@en .
+<http://www.w3.org/2008/05/skos-xl#altLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/05/skos-xl#Label> .
+<http://www.w3.org/2008/05/skos-xl#altLabel> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2004/02/skos/core#altLabel> .
+<http://www.w3.org/2008/05/skos-xl#altLabel> <http://www.w3.org/2004/02/skos/core#definition> "The property skosxl:altLabel is used to associate an skosxl:Label with a skos:Concept. The property is analogous to skos:altLabel."@en .
+<http://www.w3.org/2008/05/skos-xl#hiddenLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2008/05/skos-xl#hiddenLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2008/05/skos-xl#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "If C skosxl:hiddenLabel L and L skosxl:literalForm V, then C skos:hiddenLabel V."@en .
+<http://www.w3.org/2008/05/skos-xl#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2008/05/skos-xl> .
+<http://www.w3.org/2008/05/skos-xl#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#label> "hidden label"@en .
+<http://www.w3.org/2008/05/skos-xl#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/05/skos-xl#Label> .
+<http://www.w3.org/2008/05/skos-xl#hiddenLabel> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2004/02/skos/core#hiddenLabel> .
+<http://www.w3.org/2008/05/skos-xl#hiddenLabel> <http://www.w3.org/2004/02/skos/core#definition> "The property skosxl:hiddenLabel is used to associate an skosxl:Label with a skos:Concept. The property is analogous to skos:hiddenLabel."@en .
+<http://www.w3.org/2008/05/skos-xl#labelRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2008/05/skos-xl#labelRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2008/05/skos-xl#labelRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.w3.org/2008/05/skos-xl#labelRelation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/05/skos-xl#Label> .
+<http://www.w3.org/2008/05/skos-xl#labelRelation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2008/05/skos-xl> .
+<http://www.w3.org/2008/05/skos-xl#labelRelation> <http://www.w3.org/2000/01/rdf-schema#label> "label relation"@en .
+<http://www.w3.org/2008/05/skos-xl#labelRelation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/05/skos-xl#Label> .
+<http://www.w3.org/2008/05/skos-xl#labelRelation> <http://www.w3.org/2004/02/skos/core#definition> "The property skosxl:labelRelation is used for representing binary ('direct') relations between instances of the class skosxl:Label."@en .
+<http://www.w3.org/2008/05/skos-xl#labelRelation> <http://www.w3.org/2004/02/skos/core#scopeNote> "skosxl:labelRelation is not intended to be used directly, but rather as the basis for a design pattern which can be refined for more specific labeling scenarios."@en .
+<http://www.w3.org/2008/05/skos-xl#literalForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2008/05/skos-xl#literalForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2008/05/skos-xl#literalForm> <http://www.w3.org/2000/01/rdf-schema#comment> "If two instances of the class skosxl:Label have the same literal form, they are not necessarily the same resource."@en .
+<http://www.w3.org/2008/05/skos-xl#literalForm> <http://www.w3.org/2000/01/rdf-schema#comment> "The range of skosxl:literalForm is the class of RDF plain literals."@en .
+<http://www.w3.org/2008/05/skos-xl#literalForm> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2008/05/skos-xl#Label> .
+<http://www.w3.org/2008/05/skos-xl#literalForm> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2008/05/skos-xl> .
+<http://www.w3.org/2008/05/skos-xl#literalForm> <http://www.w3.org/2000/01/rdf-schema#label> "literal form"@en .
+<http://www.w3.org/2008/05/skos-xl#literalForm> <http://www.w3.org/2004/02/skos/core#definition> "The property skosxl:literalForm is used to give the literal form of an skosxl:Label."@en .
+<http://www.w3.org/2008/05/skos-xl#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2008/05/skos-xl#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2008/05/skos-xl#prefLabel> <http://www.w3.org/2000/01/rdf-schema#comment> "If C skosxl:prefLabel L and L skosxl:literalForm V, then X skos:prefLabel V."@en .
+<http://www.w3.org/2008/05/skos-xl#prefLabel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2008/05/skos-xl> .
+<http://www.w3.org/2008/05/skos-xl#prefLabel> <http://www.w3.org/2000/01/rdf-schema#label> "preferred label"@en .
+<http://www.w3.org/2008/05/skos-xl#prefLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2008/05/skos-xl#Label> .
+<http://www.w3.org/2008/05/skos-xl#prefLabel> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2004/02/skos/core#prefLabel> .
+<http://www.w3.org/2008/05/skos-xl#prefLabel> <http://www.w3.org/2004/02/skos/core#definition> "The property skosxl:prefLabel is used to associate an skosxl:Label with a skos:Concept. The property is analogous to skos:prefLabel."@en .
+<http://www.w3.org/2008/05/skos-xl> <http://purl.org/dc/terms/contributor> "Participants in W3C's Semantic Web Deployment Working Group." .
+<http://www.w3.org/2008/05/skos-xl> <http://purl.org/dc/terms/creator> "Alistair Miles" .
+<http://www.w3.org/2008/05/skos-xl> <http://purl.org/dc/terms/creator> "Sean Bechhofer" .
+<http://www.w3.org/2008/05/skos-xl> <http://purl.org/dc/terms/description> "An RDF vocabulary extending SKOS and allowing the description and linking of lexical entities."@en .
+<http://www.w3.org/2008/05/skos-xl> <http://purl.org/dc/terms/title> "SKOS XL Vocabulary"@en .
+<http://www.w3.org/2008/05/skos-xl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.w3.org/2008/05/skos-xl> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2008/05/skos> .
+<http://www.w3.org/2008/05/skos-xl> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2004/02/skos/core> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:c14n0 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:c14n0 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2008/05/skos-xl#literalForm> .

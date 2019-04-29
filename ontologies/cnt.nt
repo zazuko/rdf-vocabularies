@@ -1,0 +1,108 @@
+<http://www.w3.org/2011/content#Content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2011/content#Content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2011/content#Content> <http://www.w3.org/2000/01/rdf-schema#comment> "The content."@en .
+<http://www.w3.org/2011/content#Content> <http://www.w3.org/2000/01/rdf-schema#label> "Content"@en .
+<http://www.w3.org/2011/content#ContentAsBase64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2011/content#ContentAsBase64> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2011/content#ContentAsBase64> <http://www.w3.org/2000/01/rdf-schema#comment> "The base64 encoded content (can be used for binary content)."@en .
+<http://www.w3.org/2011/content#ContentAsBase64> <http://www.w3.org/2000/01/rdf-schema#label> "Base64 content"@en .
+<http://www.w3.org/2011/content#ContentAsBase64> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2011/content#Content> .
+<http://www.w3.org/2011/content#ContentAsText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2011/content#ContentAsText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2011/content#ContentAsText> <http://www.w3.org/2000/01/rdf-schema#comment> "The text content (can be used for text content)."@en .
+<http://www.w3.org/2011/content#ContentAsText> <http://www.w3.org/2000/01/rdf-schema#label> "Text content"@en .
+<http://www.w3.org/2011/content#ContentAsText> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2011/content#Content> .
+<http://www.w3.org/2011/content#ContentAsXML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2011/content#ContentAsXML> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2011/content#ContentAsXML> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML content (can only be used for XML-wellformed content)."@en .
+<http://www.w3.org/2011/content#ContentAsXML> <http://www.w3.org/2000/01/rdf-schema#label> "XML content"@en .
+<http://www.w3.org/2011/content#ContentAsXML> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2011/content#Content> .
+<http://www.w3.org/2011/content#DoctypeDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2011/content#DoctypeDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2011/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type declaration."@en .
+<http://www.w3.org/2011/content#DoctypeDecl> <http://www.w3.org/2000/01/rdf-schema#label> "Document type declaration"@en .
+<http://www.w3.org/2011/content#bytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#bytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#bytes> <http://www.w3.org/2000/01/rdf-schema#comment> "The Base64 encoded byte sequence of the content."@en .
+<http://www.w3.org/2011/content#bytes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#ContentAsBase64> .
+<http://www.w3.org/2011/content#bytes> <http://www.w3.org/2000/01/rdf-schema#label> "Base64 encoded byte sequence"@en .
+<http://www.w3.org/2011/content#bytes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#base64Binary> .
+<http://www.w3.org/2011/content#characterEncoding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#characterEncoding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#characterEncoding> <http://www.w3.org/2000/01/rdf-schema#comment> "The character encoding used to create a character sequence from a byte sequence or vice versa."@en .
+<http://www.w3.org/2011/content#characterEncoding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#Content> .
+<http://www.w3.org/2011/content#characterEncoding> <http://www.w3.org/2000/01/rdf-schema#label> "Character encoding"@en .
+<http://www.w3.org/2011/content#characterEncoding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2011/content#chars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#chars> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#chars> <http://www.w3.org/2000/01/rdf-schema#comment> "The character sequence of the text content."@en .
+<http://www.w3.org/2011/content#chars> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#ContentAsText> .
+<http://www.w3.org/2011/content#chars> <http://www.w3.org/2000/01/rdf-schema#label> "Character sequence"@en .
+<http://www.w3.org/2011/content#chars> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2011/content#declaredEncoding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#declaredEncoding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#declaredEncoding> <http://www.w3.org/2000/01/rdf-schema#comment> "The character encoding declared in the XML declaration."@en .
+<http://www.w3.org/2011/content#declaredEncoding> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#ContentAsXML> .
+<http://www.w3.org/2011/content#declaredEncoding> <http://www.w3.org/2000/01/rdf-schema#label> "XML character encoding"@en .
+<http://www.w3.org/2011/content#declaredEncoding> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2011/content#doctypeName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#doctypeName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#doctypeName> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type name."@en .
+<http://www.w3.org/2011/content#doctypeName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#DoctypeDecl> .
+<http://www.w3.org/2011/content#doctypeName> <http://www.w3.org/2000/01/rdf-schema#label> "Document type name"@en .
+<http://www.w3.org/2011/content#doctypeName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2011/content#dtDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#dtDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#dtDecl> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type declaration."@en .
+<http://www.w3.org/2011/content#dtDecl> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#ContentAsXML> .
+<http://www.w3.org/2011/content#dtDecl> <http://www.w3.org/2000/01/rdf-schema#label> "Document type declaration"@en .
+<http://www.w3.org/2011/content#dtDecl> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2011/content#DoctypeDecl> .
+<http://www.w3.org/2011/content#internalSubset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#internalSubset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#internalSubset> <http://www.w3.org/2000/01/rdf-schema#comment> "The internal document type definition subset within the document type declarations."@en .
+<http://www.w3.org/2011/content#internalSubset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#DoctypeDecl> .
+<http://www.w3.org/2011/content#internalSubset> <http://www.w3.org/2000/01/rdf-schema#label> "Internal DTD subset"@en .
+<http://www.w3.org/2011/content#internalSubset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2011/content#leadingMisc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#leadingMisc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#leadingMisc> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML content preceding the document type declaration."@en .
+<http://www.w3.org/2011/content#leadingMisc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#ContentAsXML> .
+<http://www.w3.org/2011/content#leadingMisc> <http://www.w3.org/2000/01/rdf-schema#label> "XML leading misc"@en .
+<http://www.w3.org/2011/content#leadingMisc> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#XMLLiteral> .
+<http://www.w3.org/2011/content#publicId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#publicId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#publicId> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type declarations's public identifier."@en .
+<http://www.w3.org/2011/content#publicId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#DoctypeDecl> .
+<http://www.w3.org/2011/content#publicId> <http://www.w3.org/2000/01/rdf-schema#label> "Public ID"@en .
+<http://www.w3.org/2011/content#publicId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2011/content#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#rest> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML content following the document type declaration."@en .
+<http://www.w3.org/2011/content#rest> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#ContentAsXML> .
+<http://www.w3.org/2011/content#rest> <http://www.w3.org/2000/01/rdf-schema#label> "XML rest"@en .
+<http://www.w3.org/2011/content#rest> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#XMLLiteral> .
+<http://www.w3.org/2011/content#standalone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#standalone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#standalone> <http://www.w3.org/2000/01/rdf-schema#comment> "The standalone declaration in the XML declaration."@en .
+<http://www.w3.org/2011/content#standalone> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#ContentAsXML> .
+<http://www.w3.org/2011/content#standalone> <http://www.w3.org/2000/01/rdf-schema#label> "XML standalone document declaration"@en .
+<http://www.w3.org/2011/content#standalone> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2011/content#systemId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#systemId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#systemId> <http://www.w3.org/2000/01/rdf-schema#comment> "The document type declarations's system identifier (typed: xsd:anyURI)"@en .
+<http://www.w3.org/2011/content#systemId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#DoctypeDecl> .
+<http://www.w3.org/2011/content#systemId> <http://www.w3.org/2000/01/rdf-schema#label> "System ID"@en .
+<http://www.w3.org/2011/content#systemId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://www.w3.org/2011/content#version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2011/content#version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2011/content#version> <http://www.w3.org/2000/01/rdf-schema#comment> "The XML version declared in the XML declaration."@en .
+<http://www.w3.org/2011/content#version> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/content#ContentAsXML> .
+<http://www.w3.org/2011/content#version> <http://www.w3.org/2000/01/rdf-schema#label> "XML version"@en .
+<http://www.w3.org/2011/content#version> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.w3.org/2011/content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.w3.org/2011/content> <http://www.w3.org/2000/01/rdf-schema#comment> "Representing Content in RDF as defined by http://www.w3.org/TR/Content-in-RDF/"@en .
+<http://www.w3.org/2011/content> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/Content-in-RDF/> .
+<http://www.w3.org/2011/content> <http://www.w3.org/2000/01/rdf-schema#label> "Representing Content in RDF"@en .
+<http://www.w3.org/2011/content> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/WAI/intro/earl> .
+<http://www.w3.org/2011/content> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/terms/> .
+<http://www.w3.org/2011/content> <http://www.w3.org/2002/07/owl#versionInfo> "Working Draft 29 April 2011"@en .
