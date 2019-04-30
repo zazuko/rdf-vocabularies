@@ -139,7 +139,7 @@ Take a look at some [examples](./examples.js).
 
 This package is [vendoring ontologies](./ontologies/). These will be updated periodically.
 
-This package is versioned using the date at which the data was pulled, e.g. `@zazuko/rdf-vocabularies@20190430`.
+This package is versioned using the date at which the data was pulled, e.g. `@zazuko/rdf-vocabularies@2019.04.30`.
 
 Updating the vendored ontologies is achieved using `npm run fetch` in this package.
 
