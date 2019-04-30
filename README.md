@@ -108,6 +108,14 @@ console.log(rdfPrefixes.prefixes)
 
 Take a look at some [examples](./examples.js).
 
+## Versioning Scheme
+
+This package is [vendoring ontologies](./ontologies/). These will be updated periodically.
+
+This package is versioned using the date at which the data was pulled, e.g. `rdf-prefixes@20190430`.
+
+Updating the vendored ontologies is achieved using `npm run fetch` in this package.
+
 ## License
 
 (The MIT License)
