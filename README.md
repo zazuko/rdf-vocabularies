@@ -16,14 +16,15 @@ $ npm install @zazuko/rdf-vocabularies
 
 ## Usage
 
-`@zazuko/rdf-vocabularies` exposes a default function and an object:
+`@zazuko/rdf-vocabularies` exposes a (default) async function and an object:
 
 The default exposed function (`require('@zazuko/rdf-vocabularies')(options)`) accepts an optional `options` object:
 
-* `options.only: Array?` default: `undefined`, a subset of all available prefixes, will only load these.
+* `options.only: Array?`, default: `undefined`, a subset of all available prefixes, will only load these.
 * `options.factory: RDF/JS DatasetFactory`, default: [`rdf-ext`](https://github.com/rdf-ext/rdf-ext), a dataset
 factory abiding by the [RDF/JS Dataset Specification](https://rdf.js.org/dataset-spec/), used to create the
 returned datasets.
+* `options.stream: Boolean`, default: `false`, whether to return a RDF/JS quad stream instead of regular objects/datasets.
 
 Loading all ontologies as datasets:
 
@@ -123,6 +124,13 @@ Accessing the N-Quads files:
 ```js
 const path = require('path')
 console.log(path.resolve(require.resolve('@zazuko/rdf-vocabularies'), '..', 'ontologies', 'skos.nq'))
+```
+
+Getting a readable stream (quad stream):
+
+```js
+const rdfPrefixes = require('@zazuko/rdf-vocabularies')
+const stream = await rdfPrefixes({ stream: true, only: ['rdfs', 'owl', 'skos'] })
 ```
 
 Take a look at some [examples](./examples.js).

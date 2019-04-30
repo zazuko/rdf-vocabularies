@@ -8,7 +8,7 @@ const allPrefixes = require('./prefixes')
 module.exports = load
 module.exports.prefixes = allPrefixes
 
-async function load ({ only, factory = rdf } = {}) {
+async function load ({ only, factory = rdf, stream = false } = {}) {
   const customSelection = !!only && Array.isArray(only)
 
   let selectedPrefixes
@@ -29,6 +29,16 @@ async function load ({ only, factory = rdf } = {}) {
 
   const promises = selectedPrefixes.map((prefix) => loadFile(prefix, { customSelection: !!only, factory }))
   const datasets = await Promise.all(promises)
+
+  if (stream) {
+    let combinedDataset = factory.dataset()
+    datasets.forEach((dataset, i) => {
+      if (dataset && dataset.size) {
+        combinedDataset = combinedDataset.merge(dataset)
+      }
+    })
+    return combinedDataset.toStream()
+  }
 
   const result = {}
   datasets.forEach((dataset, i) => {

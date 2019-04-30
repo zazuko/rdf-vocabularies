@@ -15,6 +15,8 @@ async function run () {
     const uri = rdfPrefixes.prefixes[prefix]
     console.log(`${prefix} => ${uri}`)
   })
+
+  console.warn('\nGet a stream', await rdfPrefixes({ only: customSelection, stream: true }))
 }
 
 async function printQuadsCount (prefixSelection) {
