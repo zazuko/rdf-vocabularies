@@ -1,4 +1,7 @@
 module.exports = {
+  as: {
+    skip: true
+  },
   v: {
     skip: true
   },

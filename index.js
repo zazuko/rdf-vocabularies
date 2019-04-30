@@ -1,45 +1,49 @@
 const fs = require('fs')
 const { join, resolve } = require('path')
+const ParserN3 = require('@rdfjs/parser-n3')
 const rdf = require('rdf-ext')
 
 const allPrefixes = require('./prefixes')
 
-module.exports = {
-  prefixes: main
-}
+module.exports = load
+module.exports.prefixes = allPrefixes
 
-async function main (_prefixes) {
-  let prefixes
-  if (_prefixes && _prefixes.length) {
-    prefixes = []
+async function load (_prefixes) {
+  const customSelection = !!_prefixes && Array.isArray(_prefixes)
+
+  let selectedPrefixes
+  if (customSelection) {
+    selectedPrefixes = []
     _prefixes.forEach(prefix => {
       if (prefix in allPrefixes) {
-        prefixes.push(allPrefixes[prefix])
+        selectedPrefixes.push(prefix)
       }
       else {
         console.warn(`unknown prefix '${prefix}'`)
       }
     })
   }
-  if (!prefixes) {
-    prefixes = Object.keys(allPrefixes)
+  if (!selectedPrefixes) {
+    selectedPrefixes = Object.keys(allPrefixes)
   }
 
-  const promises = prefixes.map((prefix) => loadFile(prefix, !!_prefixes))
+  const promises = selectedPrefixes.map((prefix) => loadFile(prefix, !!_prefixes))
   const datasets = await Promise.all(promises)
 
   const result = {}
   datasets.forEach((dataset, i) => {
     if (dataset && dataset.size) {
-      result[prefixes[i]] = dataset
+      result[selectedPrefixes[i]] = dataset
     }
   })
   return result
 }
 
 function loadFile (prefix, customSelection) {
-  const stream = fs.createReadStream(buildPath(prefix), { encoding: 'utf8' })
-  return rdf.dataset().import(stream).catch(() => {
+  const parserN3 = new ParserN3()
+  const readStream = fs.createReadStream(buildPath(prefix), { encoding: 'utf8' })
+  const quadStream = parserN3.import(readStream)
+  return rdf.dataset().import(quadStream).catch(() => {
     if (customSelection) {
       console.warn(`unavailable prefix '${prefix}'`)
     }
@@ -49,5 +53,3 @@ function loadFile (prefix, customSelection) {
 function buildPath (prefix) {
   return resolve(join('.', 'ontologies', `${prefix}.nt`))
 }
-
-Promise.resolve(main())

@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/zazuko/rdf-prefixes.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Victor Felder <victor@draft.li> (https://draft.li)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zazuko/rdf-prefixes/issues"
   },
@@ -31,6 +31,7 @@
     "rdfxml-streaming-parser": "^1.2.3"
   },
   "dependencies": {
+    "@rdfjs/parser-n3": "^1.1.2",
     "rdf-ext": "^1.3.0"
   }
 }
