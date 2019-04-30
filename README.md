@@ -29,9 +29,9 @@ returned datasets.
 Loading all ontologies as datasets:
 
 ```js
-const rdfPrefixes = require('@zazuko/rdf-vocabularies')
+const rdfVocabularies = require('@zazuko/rdf-vocabularies')
 
-rdfPrefixes()
+rdfVocabularies()
   .then((datasets) => {
     /* `datasets` is:
     {
@@ -88,9 +88,9 @@ rdfPrefixes()
 Loading only some ontologies as datasets:
 
 ```js
-const rdfPrefixes = require('@zazuko/rdf-vocabularies')
+const rdfVocabularies = require('@zazuko/rdf-vocabularies')
 
-rdfPrefixes({ only: ['rdfs', 'owl', 'skos'] })
+rdfVocabularies({ only: ['rdfs', 'owl', 'skos'] })
   .then((datasets) => {
     /* `datasets` is:
     {
@@ -106,9 +106,9 @@ Getting an object with prefixes and their base URI:
 (Returns [this object](./prefixes.js).)
 
 ```js
-const rdfPrefixes = require('@zazuko/rdf-vocabularies')
+const rdfVocabularies = require('@zazuko/rdf-vocabularies')
 
-console.log(rdfPrefixes.prefixes)
+console.log(rdfVocabularies.prefixes)
 /*
  {
   v: 'http://rdf.data-vocabulary.org/#',
@@ -129,8 +129,8 @@ console.log(path.resolve(require.resolve('@zazuko/rdf-vocabularies'), '..', 'ont
 Getting a readable stream (quad stream):
 
 ```js
-const rdfPrefixes = require('@zazuko/rdf-vocabularies')
-const stream = await rdfPrefixes({ stream: true, only: ['rdfs', 'owl', 'skos'] })
+const rdfVocabularies = require('@zazuko/rdf-vocabularies')
+const stream = await rdfVocabularies({ stream: true, only: ['rdfs', 'owl', 'skos'] })
 ```
 
 Take a look at some [examples](./examples.js).

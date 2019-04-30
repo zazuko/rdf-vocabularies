@@ -1,4 +1,4 @@
-const rdfPrefixes = require('.')
+const rdfVocabularies = require('.')
 
 Promise.resolve().then(run)
 
@@ -12,15 +12,15 @@ async function run () {
 
   console.warn('\nGet base URI for', customSelection)
   customSelection.forEach((prefix) => {
-    const uri = rdfPrefixes.prefixes[prefix]
+    const uri = rdfVocabularies.prefixes[prefix]
     console.log(`${prefix} => ${uri}`)
   })
 
-  console.warn('\nGet a stream', await rdfPrefixes({ only: customSelection, stream: true }))
+  console.warn('\nGet a stream', await rdfVocabularies({ only: customSelection, stream: true }))
 }
 
 async function printQuadsCount (prefixSelection) {
-  const result = await rdfPrefixes({ only: prefixSelection })
+  const result = await rdfVocabularies({ only: prefixSelection })
 
   Object.entries(result).forEach(([prefix, dataset]) => {
     console.log(`${prefix}: ${dataset.size} triples`)

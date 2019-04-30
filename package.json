@@ -6,7 +6,7 @@
   "scripts": {
     "fetch": "node fetch.js",
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "@rdfjs/fetch-lite": "^2.0.0",
     "@rdfjs/formats-common": "^2.0.0",
+    "coveralls": "^3.0.3",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.17.2",
@@ -28,6 +29,7 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.7.1",
     "rdfxml-streaming-parser": "^1.2.3"
   },
   "dependencies": {
@@ -40,5 +42,11 @@
     "prefix",
     "vocabularies",
     "ontologies"
-  ]
+  ],
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "collectCoverage": true
+  }
 }
