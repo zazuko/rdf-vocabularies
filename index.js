@@ -51,5 +51,5 @@ function loadFile (prefix, { customSelection, factory }) {
 }
 
 function buildPath (prefix) {
-  return resolve(join('.', 'ontologies', `${prefix}.nt`))
+  return resolve(join('.', 'ontologies', `${prefix}.nq`))
 }

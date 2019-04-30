@@ -1,5 +1,5 @@
 {
-  "name": "rdf-prefixes",
+  "name": "@zazuko/rdf-vocabularies",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zazuko/rdf-prefixes.git"
+    "url": "git+https://github.com/zazuko/rdf-vocabularies.git"
   },
   "author": "Victor Felder <victor@draft.li> (https://draft.li)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zazuko/rdf-prefixes/issues"
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
   },
-  "homepage": "https://github.com/zazuko/rdf-prefixes#readme",
+  "homepage": "https://github.com/zazuko/rdf-vocabularies#readme",
   "devDependencies": {
     "@rdfjs/fetch-lite": "^2.0.0",
     "@rdfjs/formats-common": "^2.0.0",
@@ -33,5 +33,12 @@
   "dependencies": {
     "@rdfjs/parser-n3": "^1.1.2",
     "rdf-ext": "^1.3.0"
-  }
+  },
+  "keywords": [
+    "rdf",
+    "rdfjs",
+    "prefix",
+    "vocabularies",
+    "ontologies"
+  ]
 }
