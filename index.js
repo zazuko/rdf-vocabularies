@@ -8,13 +8,13 @@ const allPrefixes = require('./prefixes')
 module.exports = load
 module.exports.prefixes = allPrefixes
 
-async function load (_prefixes) {
-  const customSelection = !!_prefixes && Array.isArray(_prefixes)
+async function load ({ only, factory = rdf } = {}) {
+  const customSelection = !!only && Array.isArray(only)
 
   let selectedPrefixes
   if (customSelection) {
     selectedPrefixes = []
-    _prefixes.forEach(prefix => {
+    only.forEach(prefix => {
       if (prefix in allPrefixes) {
         selectedPrefixes.push(prefix)
       }
@@ -27,7 +27,7 @@ async function load (_prefixes) {
     selectedPrefixes = Object.keys(allPrefixes)
   }
 
-  const promises = selectedPrefixes.map((prefix) => loadFile(prefix, !!_prefixes))
+  const promises = selectedPrefixes.map((prefix) => loadFile(prefix, { customSelection: !!only, factory }))
   const datasets = await Promise.all(promises)
 
   const result = {}
@@ -39,11 +39,11 @@ async function load (_prefixes) {
   return result
 }
 
-function loadFile (prefix, customSelection) {
+function loadFile (prefix, { customSelection, factory }) {
   const parserN3 = new ParserN3()
   const readStream = fs.createReadStream(buildPath(prefix), { encoding: 'utf8' })
   const quadStream = parserN3.import(readStream)
-  return rdf.dataset().import(quadStream).catch(() => {
+  return factory.dataset().import(quadStream).catch(() => {
     if (customSelection) {
       console.warn(`unavailable prefix '${prefix}'`)
     }
