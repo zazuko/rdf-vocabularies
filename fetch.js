@@ -22,11 +22,13 @@ async function main () {
     if (mapping.skip) {
       continue
     }
-    const { dataset } = await fetch(mapping)
+    let { dataset } = await fetch(mapping)
+    const graph = rdf.namedNode(mapping.uri)
+    dataset = dataset.map(({ subject, predicate, object }) => rdf.quad(subject, predicate, object, graph))
 
     const file = `./ontologies/${mapping.prefix}.nt`
     fs.writeFileSync(file, dataset.toCanonical())
-    console.log(`${mapping.prefix}: wrote ${dataset.size} triples to ${file}`)
+    console.log(`${mapping.prefix}: wrote ${dataset.size} quads to ${file}`)
   }
 }
 

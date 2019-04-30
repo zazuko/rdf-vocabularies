@@ -1,425 +1,425 @@
-<http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "Normalmente, un catálogo de datos basado en web es representado como una sola instancia de esta clase."@es .
-<http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "Typically, a web-based data catalog is represented as a single instance of this class."@en .
-<http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "Συνήθως, ένας κατάλογος δεδομένων στον Παγκόσμιο Ιστό αναπαρίσταται ως ένα στιγμιότυπο αυτής της κλάσης."@el .
-<http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "通常、ウェブ・ベースのデータ・カタログは、このクラスの1つのインスタンスとして表わされます。"@ja .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "A curated collection of metadata about datasets"@en .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "Una colección conservada de metadatos de conjuntos de datos"@es .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "Une collection élaborée de métadonnées sur les jeux de données"@fr .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "Μια επιμελημένη συλλογή μεταδεδομένων περί συνόλων δεδομένων"@el .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "مجموعة من توصيفات قوائم البيانات"@ar .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "データ・カタログは、データセットに関するキュレートされたメタデータの集合です。"@ja .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "Catalog"@en .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "Catalogue"@fr .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "Catálogo"@es .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "Κατάλογος"@el .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "فهرس قوائم البيانات"@ar .
-<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "カタログ"@ja .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://purl.org/vocab/vann/usageNote> "C'est une classe facultative et tous les catalogues ne l'utiliseront pas. Cette classe existe pour les catalogues\n\t\t\t\t\t\tayant une distinction entre les métadonnées sur le jeu de données et les métadonnées sur une entrée du jeu de données dans le catalogue. "@fr .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://purl.org/vocab/vann/usageNote> "Esta clase es opcional y no todos los catálogos la utilizarán. Esta clase existe para catálogos\n\t\t\t\t\t\tque hacen una distinción entre los metadatos acerca de un conjunto de datos y los metadatos\n\t\t\t\t\t\tacerca de una entrada en ese conjunto de datos en el catálogo. "@es .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://purl.org/vocab/vann/usageNote> "This class is optional and not all catalogs will use it. It exists for \n            catalogs where a distinction is made between metadata about a dataset and \n            metadata about the dataset's entry in the catalog. For example, the publication \n            date property of the dataset reflects the date when the information was originally \n            made available by the publishing agency, while the publication date of the catalog \n            record is the date when the dataset was added to the catalog. In cases where both\n            dates differ, or where only the latter is known, the publication date should only \n            be specified for the catalog record. Notice that the W3C PROV Ontology allows \n            describing further provenance information such as the details of the process and the \n            agent involved in a particular change to a dataset."@en .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://purl.org/vocab/vann/usageNote> "Αυτή η κλάση είναι προαιρετική και δεν χρησιμοποιείται από όλους τους καταλόγους. Υπάρχει για τις περιπτώσεις καταλόγων όπου \n\t\t\t\t\t  γίνεται διαχωρισμός μεταξύ των μεταδεδομένων για το σύνολο των δεδομένων και των μεταδεδομένων για την καταγραφή του συνόλου δεδομένων εντός του καταλόγου.\n\t\t\t\t\t  Για παράδειγμα, η ιδιότητα της ημερομηνίας δημοσίευσης του συνόλου δεδομένων δείχνει την ημερομηνία κατά την οποία οι πληροφορίες έγιναν διαθέσιμες από τον φορέα δημοσίευσης, \n\t\t\t\t\t  ενώ η ημερομηνία δημοσίευσης της καταγραφής του καταλόγου δείχνει την ημερομηνία που το σύνολο δεδομένων προστέθηκε στον κατάλογο.\n\t\t\t\t\t  Σε περιπτώσεις που οι δύο ημερομηνίες διαφέρουν, ή που μόνο η τελευταία είναι γνωστή, η ημερομηνία δημοσίευσης θα πρέπει να δίνεται για την καταγραφή του καταλόγου. \n\t\t\t\t\t  Να σημειωθεί πως η οντολογία W3C PROV επιτρέπει την περιγραφή επιπλέον πληροφοριών ιστορικού όπως λεπτομέρειες για τη διαδικασία και τον δράστη που εμπλέκονται σε μία συγκεκριμένη αλλαγή εντός του συνόλου δεδομένων."@el .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://purl.org/vocab/vann/usageNote> "このクラスはオプションで、すべてのカタログがそれを用いるとは限りません。これは、データセットに関するメタデータとカタログ内のデータセットのエントリーに関するメタデータとで区別が行われるカタログのために存在しています。例えば、データセットの公開日プロパティーは、公開機関が情報を最初に利用可能とした日付を示しますが、カタログ・レコードの公開日は、データセットがカタログに追加された日付です。両方の日付が異っていたり、後者だけが分かっている場合は、カタログ・レコードに対してのみ公開日を指定すべきです。W3CのPROVオントロジー[prov-o]を用いれば、データセットに対する特定の変更に関連するプロセスやエージェントの詳細などの、さらに詳しい来歴情報の記述が可能となることに注意してください。"@ja .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "1つのデータセットを記述したデータ・カタログ内のレコード。"@ja .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A record in a data catalog, describing a single dataset."@en .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Un registre du catalogue ou une entrée du catalogue, décrivant un seul jeu de données"@fr .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Un registro en un catálogo de datos que describe un solo conjunto de datos."@es .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Μία καταγραφή ενός καταλόγου, η οποία περιγράφει ένα συγκεκριμένο σύνολο δεδομένων."@el .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Catalog Record"@en .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Registre du catalogue"@fr .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Registro de catálogo"@es .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Καταγραφή καταλόγου"@el .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "سجل"@ar .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "カタログ・レコード"@ja .
-<http://www.w3.org/ns/dcat#Dataset> <http://purl.org/vocab/vann/usageNote> "Cette classe représente le jeu de données publié par le fournisseur de données. Dans les cas où une distinction est nécessaire entre le jeu de donénes et son \n\t\t\t\t\t  entrée dans le catalogue, la classe registre de données peut être utilisée pour ce dernier. "@fr .
-<http://www.w3.org/ns/dcat#Dataset> <http://purl.org/vocab/vann/usageNote> "Esta clase representa el conjunto de datos publicado por el editor del conjunto de datos. En los casos donde es necesaria una distinción entre el\n\t\t\t\t\tconjunto de datos y su entrada en el catálogo de datos"@es .
-<http://www.w3.org/ns/dcat#Dataset> <http://purl.org/vocab/vann/usageNote> "This class represents the actual dataset as published by the dataset publisher. In \n          cases where a distinction between the actual dataset and its entry in the catalog is \n          necessary (because metadata such as modification date and maintainer might differ), the \n          catalog record class can be used for the latter."@en .
-<http://www.w3.org/ns/dcat#Dataset> <http://purl.org/vocab/vann/usageNote> "Η κλάση αυτή αναπαριστά το σύνολο δεδομένων αυτό καθ'εαυτό, όπως έχει δημοσιευθεί από τον εκδότη.\n          Σε περιπτώσεις όπου είναι απαραίτητος ο διαχωρισμός μεταξύ του συνόλου δεδομένων και της καταγραφής αυτού στον κατάλογο (γιατί μεταδεδομένα όπως η ημερομηνία αλλαγής και ο συντηρητής μπορεί να διαφέρουν) \n          η κλάση της καταγραφής καταλόγου μπορεί να χρησιμοποιηθεί για το τελευταίο."@el .
-<http://www.w3.org/ns/dcat#Dataset> <http://purl.org/vocab/vann/usageNote> "このクラスは、データセットの公開者が公開する実際のデータセットを表わします。カタログ内の実際のデータセットとそのエントリーとの区別が必要な場合（修正日と維持者などのメタデータが異なるかもしれないので）は、後者にcatalog recordというクラスを使用できます。"@ja .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "1つのエージェントによって公開またはキュレートされ、1つ以上の形式でアクセスまたはダウンロードできるデータの集合。"@ja .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of data, published or curated by a single source, and available for access or download in one or more formats"@en .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Una colección de datos, publicados o conservados por una única fuente, y disponibles para acceder o descagar en uno o más formatos"@es .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Une collection de données, publiée ou élaborée par une seule source, et disponible pour accès ou téléchargement dans un ou plusieurs formats"@fr .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Μία συλλογή από δεδομένα, δημοσιευμένη ή επιμελημένη από μία και μόνο πηγή, διαθέσιμη δε προς πρόσβαση ή μεταφόρτωση σε μία ή περισσότερες μορφές"@el .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "قائمة بيانات منشورة أو مجموعة من قبل مصدر ما و متاح الوصول إليها أو تحميلها"@ar .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Conjunto de datos"@es .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@en .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Jeu de données"@fr .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Σύνολο Δεδομένων"@el .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "قائمة بيانات"@ar .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "データセット"@ja .
-<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Dataset> .
-<http://www.w3.org/ns/dcat#Distribution> <http://purl.org/vocab/vann/usageNote> "Ceci représente une disponibilité générale du jeu de données, et implique qu'il n'existe pas d'information\n\t\t\t\t\tsur la méthode d'accès réelle des données, par exple, si c'est un lien de téléchargement direct ou à travers une page Web. "@fr .
-<http://www.w3.org/ns/dcat#Distribution> <http://purl.org/vocab/vann/usageNote> "Esto representa una disponibilidad general de un conjunto de datos, e implica que no existe información acerca \n          del método de acceso real a los datos, i.e., si es un enlace de descarga directa o a través de una página Web."@es .
-<http://www.w3.org/ns/dcat#Distribution> <http://purl.org/vocab/vann/usageNote> "This represents a general availability of a dataset it implies no information about the \n          actual access method of the data, i.e. whether it is a direct download, API, or some \n          through Web page. The use of dcat:downloadURL property indicates directly downloadable distributions."@en .
-<http://www.w3.org/ns/dcat#Distribution> <http://purl.org/vocab/vann/usageNote> "Αυτό αναπαριστά μία γενική διαθεσιμότητα ενός συνόλου δεδομένων και δεν υπονοεί τίποτα περί του πραγματικού τρόπου πρόσβασης στα δεδομένα, αν είναι άμεσα μεταφορτώσιμα,\n\t\t\t\t\t  μέσω API ή μέσω μίας ιστοσελίδας. Η χρήση της ιδιότητας dcat:downloadURL δείχνει μόνο άμεσα μεταφορτώσιμες διανομές."@el .
-<http://www.w3.org/ns/dcat#Distribution> <http://purl.org/vocab/vann/usageNote> "これは、データセットの一般的な利用可能性を表わし、データの実際のアクセス方式に関する情報（つまり、直接ダウンロードなのか、APIなのか、ウェブページを介したものなのか）を意味しません。dcat:downloadURLプロパティーの使用は、直接ダウンロード可能な配信を意味します。"@ja .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Representa una forma disponible y específica a un conjunto de datos. Cada conjunto de datos puede estar disponible en\n          formas diferentes, estas formas pueden representar formatos diferentes del conjunto de datos o puntos de acceso diferentes."@es .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a specific available form of a dataset. Each dataset might be available in \n          different forms, these forms might represent different formats of the dataset or different \n          endpoints. Examples of distributions include a downloadable CSV file, an API or an RSS feed"@en .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Représente une forme spécifique d'un jeu de données. Caque jeu de données peut être disponible\n\t\t\t\t\tsous différentes formes, celles-ci pouvant représenter différents formats du jeu de données ou différents endpoint. Des exemples de distribution\n\t\t\t\t\tsont des fichirs CSV, des API ou des flux RSS."@fr .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Αναπαριστά μία συγκεκριμένη διαθέσιμη μορφή ενός συνόλου δεδομένων. Κάθε σύνολο δεδομενων μπορεί να είναι διαθέσιμο σε \n\t\t\t\t\tδιαφορετικές μορφές, οι μορφές αυτές μπορεί να αναπαριστούν διαφορετικές μορφές αρχείων ή διαφορετικά σημεία διάθεσης.\n\t\t\t\t\tΠαραδείγματα διανομών συμπεριλαμβάνουν ένα μεταφορτώσιμο αρχείο μορφής CSV, ένα API ή ένα RSS feed."@el .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "شكل محدد لقائمة البيانات يمكن الوصول إليه. قائمة بيانات ما يمكن أن تكون متاحه باشكال و أنواع متعددة.  ملف يمكن تحميله أو واجهة برمجية يمكن من خلالها الوصول إلى البيانات هي أمثلة على ذلك."@ar .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "データセットの特定の利用可能な形式を表わします。各データセットは、異なる形式で利用できることがあり、これらの形式は、データセットの異なる形式や、異なるエンドポイントを表わす可能性があります。配信の例には、ダウンロード可能なCSVファイル、API、RSSフィードが含まれます。"@ja .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "Distribución"@es .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution"@en .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution"@fr .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "Διανομή"@el .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "التوزيع"@ar .
-<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "配信"@ja .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#comment> "represents a downloadable distribution of a dataset. This term has been deprecated" .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#label> "Download (Deprecated)" .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#comment> "represents availability of a dataset as a feed. This term has been deprecated" .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#label> "Feed (Deprecated)" .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#comment> "represents a web service that enables access to the data of a dataset. This term has been deprecated" .
-<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#label> "Web Service (Deprecated)" .
-<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.w3.org/ns/dcat#accessURL> <http://purl.org/vocab/vann/usageNote> "El valor es una URL.\n          Si la distribución es accesible solamente través de una página de aterrizaje (i.e., no se conoce una URL de descarga directa),\n          entonces el enlance a la página de aterrizaje debe ser duplicado como accessURL sobre la distribución."@es .
-<http://www.w3.org/ns/dcat#accessURL> <http://purl.org/vocab/vann/usageNote> "La valeur est une URL.\n\t\t\t\t\t\tSi la distribution est accessible seulement au travers d'une page d'atterrissage (c-à-dire on n'ignore une URL de téléchargement direct) ,\n\t\t\t\t\t\talors le lien à la page d'atterrissage doit être dupliqué comee accessURL sur la distribution."@fr .
-<http://www.w3.org/ns/dcat#accessURL> <http://purl.org/vocab/vann/usageNote> "The value is a URL.\n          If the distribution(s) are accessible only through a landing page (i.e. direct download URLs are \n          not known), then the landing page link should be duplicated as accessURL on a distribution."@en .
-<http://www.w3.org/ns/dcat#accessURL> <http://purl.org/vocab/vann/usageNote> "Η τιμή είναι ένα URL.\n\t\t\t\t\tΑν η/οι διανομή/ές είναι προσβάσιμη/ες μόνο μέσω μίας ιστοσελίδας αρχικής πρόσβασης (δηλαδή αν δεν υπάρχουν γνωστές διευθύνσεις άμεσης μεταφόρτωσης), τότε ο σύνδεσμος της ιστοσελίδας αρχικής πρόσβασης πρέπει να αναπαραχθεί ως accessURL σε μία διανομή."@el .
-<http://www.w3.org/ns/dcat#accessURL> <http://purl.org/vocab/vann/usageNote> "確実にダウンロードでない場合や、ダウンロードかどうかが不明である場合は、downloadURLではなく、accessURLを用いてください。\nランディング・ページを通じてしか配信にアクセスできない場合（つまり、直接的なダウンロードURLが不明）は、配信におけるaccessURLとしてランディング・ページのリンクをコピーすべきです（SHOULD）。"@ja .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Ceci peut être tout type d'URL qui donne accès à une distribution du jeu de données. Par exemple, un lien à une page HTML contenant un lien au jeu de données, \n\t\t\t\t\tun Flux RSS, un point d'accès SPARQL. Utilisez le lorsque votre catalogue ne contient pas d'information sur quoi il est ou quand ce n'est pas téléchargeable."@fr .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Could be any kind of URL that gives access to a distribution of the dataset. E.g. landing page, \n          download, feed URL, SPARQL endpoint. Use when your catalog does not have information on which it \n          is or when it is definitely not a download."@en .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Puede ser cualquier tipo de URL que de acceso a una distribución del conjunto de datos, e.g., página de aterrizaje, descarga,\n\t\t\t\t\tURL feed, punto de acceso SPARQL. Utilizado cuando su catálogo de datos no tiene información sobre donde está o cuando no se puede descargar"@es .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Μπορεί να είναι οποιουδήποτε είδους URL που δίνει πρόσβαση στη διανομή ενός συνόλου δεδομένων. Π.χ. ιστοσελίδα αρχικής πρόσβασης, \n          μεταφόρτωση, feed URL, σημείο διάθεσης SPARQL. Να χρησιμοποιείται όταν ο κατάλογος δεν περιέχει πληροφορίες εαν πρόκειται ή όχι για μεταφορτώσιμο αρχείο."@el .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "أي رابط يتيح الوصول إلى البيانات. إذا كان الرابط هو ربط مباشر لملف يمكن تحميله استخدم الخاصية downloadURL"@ar .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "データセットの配信にアクセス権を与えるランディング・ページ、フィード、SPARQLエンドポイント、その他の種類の資源。"@ja .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "URL d'accès"@fr .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "URL de acceso"@es .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "URL πρόσβασης"@el .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "access URL"@en .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "رابط وصول"@ar .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "アクセスURL"@ja .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://www.w3.org/ns/dcat#byteSize> <http://purl.org/vocab/vann/usageNote> "El tamaño en bytes puede ser aproximado cuando no es conocido el tamaño exacto.\n          El valor literal de dcat:byteSize debe ser tipado como xsd:decimal"@es .
-<http://www.w3.org/ns/dcat#byteSize> <http://purl.org/vocab/vann/usageNote> "La taille en octects peut être approximative lorsque l'on ignore la taille réelle.\n\t\t\t\t\tLa valeur littérale de dcat:byteSize doit être de type xsd:decimal"@fr .
-<http://www.w3.org/ns/dcat#byteSize> <http://purl.org/vocab/vann/usageNote> "The size in bytes can be approximated when the precise size is not known. \n          The literal value of dcat:byteSize should by typed as xsd:decimal"@en .
-<http://www.w3.org/ns/dcat#byteSize> <http://purl.org/vocab/vann/usageNote> "Το μέγεθος σε bytes μπορεί να προσεγγιστεί όταν η ακριβής τιμή δεν είναι γνωστή.\n          Η τιμή της dcat:byteSize θα πρέπει να δίνεται με τύπο δεδομένων xsd:decimal"@el .
-<http://www.w3.org/ns/dcat#byteSize> <http://purl.org/vocab/vann/usageNote> "الحجم يمكن أن يكون تقريبي إذا كان الحجم الدقيق غير معروف"@ar .
-<http://www.w3.org/ns/dcat#byteSize> <http://purl.org/vocab/vann/usageNote> "正確なサイズが不明である場合、サイズは、バイトによる近似値を示すことができます。"@ja .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#comment> "El tamaño de una distribución en bytes"@es .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#comment> "La taille de la distribution en octects"@fr .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#comment> "The size of a distribution in bytes."@en .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#comment> "Το μέγεθος μιας διανομής σε bytes."@el .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#comment> "الحجم بالبايتات "@ar .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#comment> "バイトによる配信のサイズ。"@ja .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#label> "byte size"@en .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#label> "taille en octects"@fr .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#label> "tamaño en bytes"@es .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#label> "μέγεθος σε bytes"@el .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#label> "الحجم بالبايت"@ar .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#label> "バイト・サイズ"@ja .
-<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#comment> "describe size of resource in bytes. This term has been deprecated" .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#label> "size in bytes (Deprecated)" .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Enlaza un conjunto de datos a información de contacto relevante utilizando VCard"@es .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a dataset to relevant contact information which is provided using VCard."@en .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un jeu de données à une information de contact utile en utilisant VCard."@fr .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Συνδέει ένα σύνολο δεδομένων με ένα σχετικό σημείο επικοινωνίας, μέσω VCard."@el .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "تربط قائمة البيانات بعنوان اتصال موصف  باستخدام VCard"@ar .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "データセットを、VCardを用いて提供されている適切な連絡先情報にリンクします。"@ja .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "contact point"@en .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "point de contact"@fr .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "punto de contacto"@es .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "σημείο επικοινωνίας"@el .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "عنوان اتصال"@ar .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "窓口"@ja .
-<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Kind> .
-<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#comment> "links a dataset to a dictionary that helps interpreting the data. This term has been deprecated" .
-<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#label> "data dictionary (Deprecated)" .
-<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#comment> "describes the quality of data e.g. precision. This should not be used to describe the data collection characteristics, other more specialized statistical properties can be used instead. This term has been deprecated" .
-<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#label> "data quality (Deprecated)" .
-<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Enlaza un catálogo a un conjunto de datos que es parte de ese catálogo"@es .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a catalog to a dataset that is part of the catalog."@en .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un catalogue à un jeu de données faisant partie de ce catalogue"@fr .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Συνδέει έναν κατάλογο με ένα σύνολο δεδομένων το οποίο ανήκει στον εν λόγω κατάλογο."@el .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "تربط الفهرس بقائمة بيانات ضمنه"@ar .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "カタログの一部であるデータセット。"@ja .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog> .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "conjunto de datos"@es .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "dataset"@en .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "jeu de données"@fr .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "σύνολο δεδομένων"@el .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "قائمة بيانات"@ar .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "データセット"@ja .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/hasPart> .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Conecta un conjunto de datos a una de sus distribuciones disponibles"@es .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Connecte un jeu de données à des distributions disponibles."@fr .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Connects a dataset to one of its available distributions."@en .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Συνδέει ένα σύνολο δεδομένων με μία από τις διαθέσιμες διανομές του."@el .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "تربط قائمة البيانات بطريقة أو بشكل يسمح  الوصول الى البيانات"@ar .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "データセットを、その利用可能な配信に接続します。"@ja .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "distribución"@es .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "distribution"@en .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "distribution"@fr .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "διανομή"@el .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "توزيع"@ar .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "データセット配信"@ja .
-<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#downloadURL> <http://purl.org/vocab/vann/usageNote> "La valeur est une URL."@fr .
-<http://www.w3.org/ns/dcat#downloadURL> <http://purl.org/vocab/vann/usageNote> "TEl valor es una URL."@es .
-<http://www.w3.org/ns/dcat#downloadURL> <http://purl.org/vocab/vann/usageNote> "The value is a URL."@en .
-<http://www.w3.org/ns/dcat#downloadURL> <http://purl.org/vocab/vann/usageNote> "Η τιμή είναι ένα URL."@el .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Ceci est un lien direct à un fichier téléchargeable en un format donnée. Exple fichier CSV ou RDF. Le format\n\t\t\t\t\test décrit par les propriétés de distribution dc:format et/ou dcat:mediaType"@fr .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Este es un enlace directo a un fichero descargable en un formato dado, e.g., fichero CSV o RDF. El \n          formato es descrito por las propiedades de la distribución dc:format y/o dcat:mediaType"@es .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a direct link to a downloadable file in a given format. E.g. CSV file or RDF file. The \n          format is described by the distribution's dc:format and/or dcat:mediaType"@en .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#comment> "dcat:downloadURLはdcat:accessURLの特定の形式です。しかし、DCATプロファイルが非ダウンロード・ロケーションに対してのみaccessURLを用いる場合には、より強い分離を課すことを望む可能性があるため、この含意を強化しないように、DCATは、dcat:downloadURLをdcat:accessURLのサブプロパティーであると定義しません。"@ja .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Είναι ένας σύνδεσμος άμεσης μεταφόρτωσης ενός αρχείου σε μια δεδομένη μορφή. Π.χ. ένα αρχείο CSV ή RDF. \n\t\t\t\t\tΗ μορφη αρχείου περιγράφεται από τις ιδιότητες dc:format ή/και dcat:mediaType της διανομής"@el .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#comment> "رابط مباشر لملف يمكن تحميله. نوع الملف يتم توصيفه باستخدام الخاصية dc:format dcat:mediaType "@ar .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#label> "URL de descarga"@es .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#label> "URL de téléchargement"@fr .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#label> "URL μεταφόρτωσης"@el .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#label> "download URL"@en .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#label> "رابط تحميل"@ar .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#label> "ダウンロードURL"@ja .
-<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#comment> "describes the level of granularity of data in a dataset. The granularity can be in time, place etc. This term has been deprecated" .
-<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#label> "granularity (Deprecated)" .
-<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "A keyword or tag describing the dataset."@en .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "Un mot-clé ou étiquette décrivant un jeu de donnnées."@fr .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "Una palabra clave o etiqueta que describa al conjunto de datos."@es .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "Μία λέξη-κλειδί ή μία ετικέτα που περιγράφει το σύνολο δεδομένων."@el .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "كلمة  مفتاحيه توصف قائمة البيانات"@ar .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "データセットを記述しているキーワードまたはタグ。"@ja .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "keyword"@en .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "mot-clés "@fr .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "palabra clave"@es .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "λέξη-κλειδί"@el .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "كلمة  مفتاحية "@ar .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "キーワード/タグ"@ja .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
-<http://www.w3.org/ns/dcat#landingPage> <http://purl.org/vocab/vann/usageNote> "If the distribution(s) are accessible only through a landing page (i.e. direct download \n          URLs are not known), then the landing page link should be duplicated as accessURL on a distribution."@en .
-<http://www.w3.org/ns/dcat#landingPage> <http://purl.org/vocab/vann/usageNote> "Si la distribución es accesible solamente través de una página de aterrizaje (i.e., no se conoce una URL de descarga directa),\n          entonces el enlance a la página de aterrizaje debe ser duplicado como accessURL sobre la distribución."@es .
-<http://www.w3.org/ns/dcat#landingPage> <http://purl.org/vocab/vann/usageNote> "Si la distribution est seulement accessible à travers une page d'atterrissage (exple. pas de connaissance d'URLS de téléchargement direct ), alors\n\t\t\t\t\t\tle lien de la page d'atterrissage doit être dupliqué comme accessURL sur la distribution."@fr .
-<http://www.w3.org/ns/dcat#landingPage> <http://purl.org/vocab/vann/usageNote> "Αν η/οι διανομή/ές είναι προσβάσιμη/ες μόνο μέσω μίας ιστοσελίδας αρχικής πρόσβασης (δηλαδή αν δεν υπάρχουν γνωστές διευθύνσεις άμεσης μεταφόρτωσης), τότε ο σύνδεσμος της ιστοσελίδας αρχικής πρόσβασης πρέπει να αναπαραχθεί ως accessURL σε μία διανομή."@el .
-<http://www.w3.org/ns/dcat#landingPage> <http://purl.org/vocab/vann/usageNote> "ランディング・ページを通じてしか配信にアクセスできない場合（つまり、直接的なダウンロードURLが不明）には、配信におけるaccessURLとしてランディング・ページのリンクをコピーすべきです（SHOULD）。"@ja .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "A Web page that can be navigated to in a Web browser to gain access to the dataset, its distributions and/or additional information."@en .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una página Web que puede ser visitada en un explorador Web para tener acceso al conjunto de datos, sus distribuciones y/o información adicional"@es .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une page Web accessible par un navigateur Web donnant accès au jeu de données, ses distributions et/ou des informations additionnelles."@fr .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "Μία ιστοσελίδα πλοηγίσιμη μέσω ενός φυλλομετρητή (Web browser) που δίνει πρόσβαση στο σύνολο δεδομένων, τις διανομές αυτού ή/και επιπρόσθετες πληροφορίες."@el .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "صفحة وب يمكن من خلالها الوصول الى قائمة البيانات أو إلى معلومات إضافية متعلقة بها "@ar .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "データセット、その配信および（または）追加情報にアクセスするためにウエブ・ブラウザでナビゲートできるウェブページ。"@ja .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "landing page"@en .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "page d'atterrissage"@fr .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "página de aterrizaje"@es .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "ιστοσελίδα αρχικής πρόσβασης"@el .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "صفحة وصول"@ar .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "ランディング・ページ"@ja .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document> .
-<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/Page> .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette propriété doit être utilisée quand c'est définit le type de média de la distribution\n\t\t\t\t\ten IANA, sinon dct:format DOIT être utilisé avec différentes valeurs."@fr .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta propiedad debe ser usada cuando está definido el tipo de media de la distribución \n\t\t\t\t\ten IANA, de otra manera dct:format puede ser utilizado con diferentes valores"@es .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "This property SHOULD be used when the media type of the distribution is defined \n          in IANA, otherwise dct:format MAY be used with different values."@en .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "Η ιδιότητα αυτή ΘΑ ΠΡΕΠΕΙ να χρησιμοποιείται όταν ο τύπος μέσου μίας διανομής είναι ορισμένος στο IANA, αλλιώς \n          η ιδιότητα dct:format ΔΥΝΑΤΑΙ να χρησιμοποιηθεί με διαφορετικές τιμές."@el .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "يجب استخدام هذه الخاصية إذا كان نوع الملف معرف ضمن IANA"@ar .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "このプロパティーは、配信のメディア・タイプがIANAで定義されているときに使用すべきで（SHOULD）、そうでない場合には、dct:formatを様々な値と共に使用できます（MAY）。"@ja .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#label> "media type"@en .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo de media"@es .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#label> "type de média"@fr .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#label> "τύπος μέσου"@el .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#label> "نوع الميديا"@ar .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#label> "メディア・タイプ"@ja .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/MediaTypeOrExtent> .
-<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/format> .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "Enlaza un catálogo a sus registros."@es .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a catalog to its records."@en .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un catalogue à ses registres"@fr .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "Συνδέει έναν κατάλογο με τις καταγραφές του."@el .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "تربط الفهرس بسجل ضمنه"@ar .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "カタログの一部であるカタログ・レコード。"@ja .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog> .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "record"@en .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "registre"@fr .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "registro"@es .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "καταγραφή"@el .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "سجل"@ar .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "カタログ・レコード"@ja .
-<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#CatalogRecord> .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#comment> "the size of a distribution. This term has been deprecated" .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#label> "size (Deprecated)" .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/extent> .
-<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.w3.org/ns/dcat#theme> <http://purl.org/vocab/vann/usageNote> "El conjunto de skos:Concepts utilizados para categorizar el conjunto de datos están organizados en\n          un skos:ConceptScheme que describe todas las categorías y sus relaciones en el catálogo"@es .
-<http://www.w3.org/ns/dcat#theme> <http://purl.org/vocab/vann/usageNote> "The set of skos:Concepts used to categorize the datasets are organized in \n          a skos:ConceptScheme describing all the categories and their relations in the catalog."@en .
-<http://www.w3.org/ns/dcat#theme> <http://purl.org/vocab/vann/usageNote> "Un ensemble de skos:Concepts utilisés pour catégoriser un jeu de données sont organisés en \n\t\t\t\t\t\tun skos:ConceptScheme décrivqnt toutes les catégories et ses relations dans le catalogue. "@fr .
-<http://www.w3.org/ns/dcat#theme> <http://purl.org/vocab/vann/usageNote> "Το σετ των skos:Concepts που χρησιμοποιείται για να κατηγοριοποιήσει τα σύνολα δεδομένων είναι οργανωμένο εντός \n          ενός skos:ConceptScheme που περιγράφει όλες τις κατηγορίες και τις σχέσεις αυτών στον κατάλογο."@el .
-<http://www.w3.org/ns/dcat#theme> <http://purl.org/vocab/vann/usageNote> "データセットを分類するために用いられるskos:Conceptの集合は、カタログのすべてのカテゴリーとそれらの関係を記述しているskos:ConceptSchemeで組織化されます。"@ja .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "La categoría principal del conjunto de datos. Un conjunto de datos puede tener varios temas."@es .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "La catégorie principale du jeu de données. Un jeu de données peut avoir plusieurs thèmes."@fr .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "The main category of the dataset. A dataset can have multiple themes."@en .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "Η κύρια κατηγορία του συνόλου δεδομένων. Ένα σύνολο δεδομένων δύναται να έχει πολλαπλά θέματα."@el .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "التصنيف الرئيسي لقائمة البيانات. قائمة البيانات يمكن أن تملك أكثر من تصنيف رئيسي واحد."@ar .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "データセットの主要カテゴリー。データセットは複数のテーマを持つことができます。"@ja .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "tema"@es .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "theme"@en .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "thème"@fr .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "Θέμα"@el .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "التصنيف"@ar .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "テーマ/カテゴリー"@ja .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "El sistema de organización del conocimiento utilizado para clasificar conjuntos de datos de catálogos."@es .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "Le systhème d'ogranisation de connaissances utilisé pour classifier les jeux de données du catalogue."@fr .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "The knowledge organization system (KOS) used to classify catalog's datasets."@en .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "Το σύστημα οργάνωσης γνώσης που χρησιμοποιείται για την κατηγοριοποίηση των συνόλων δεδομένων του καταλόγου."@el .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "لائحة التصنيفات المستخدمه لتصنيف قوائم البيانات ضمن الفهرس"@ar .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "カタログのデータセットを分類するために用いられる知識組織化体系（KOS；knowledge organization system）。"@ja .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog> .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "taxonomie de thèmes"@fr .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "taxonomía de temas"@es .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "theme taxonomy"@en .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "Ταξινομία θεματικών κατηγοριών."@el .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "قائمة التصنيفات"@ar .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "テーマ"@ja .
-<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n10 .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n11 .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n12 .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n13 .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n2 .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n3 .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n5 .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n6 .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n7 .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n9 .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/creator> _:c14n0 .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/creator> _:c14n4 .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/modified> "2012-04-24"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/modified> "2013-09-20"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/modified> "2013-11-28"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "DCAT es un vocabulario RDF diseñado para facilitar la interoperabilidad entre catálogo de datos publicados en la Web.\n          Gracias a utilizar DCAT para describir conjuntos de datos en los catálogo de datos, los editores aumentan el descubrimiento y permiten\n          que las aplicaciones consuman fácilmente los metadatos de varios catálogos."@es .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "DCAT est un vocabulaire développé pour faciliter l'interopérabilité entre les jeux de données publiées sur le Web.\n\t\t\t\tEn utilisant DCAT pour décrire les jeux de données dans les catalogues de données, les fournisseurs de données augmentent leur découverte et permettent\n\t\t\t\tque les applications facilement les métadonnées de plusieurs catalogues. Il permet en plus la publication décentralisée des catalogues et facilitent\n\t\t\t\tla recherche fédérée des données entre plusieurs sites. Les métadonnées DCAT aggrégées peuvent servir comme un manifeste pour faciliter la préservation digitale des ressources.\n\t\t\t\tDCAT est définie à l'adresse http://www.w3.org/TR/vocab-dcat/. Une quelconque version de ce document normatif et ce vocabulaire est une erreur dans ce vocabulaire"@fr .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.\n          By using DCAT to describe datasets in data catalogs, publishers increase discoverability and enable \n          applications easily to consume metadata from multiple catalogs. It further enables decentralized \n          publishing of catalogs and facilitates federated dataset search across sites. Aggregated DCAT metadata can \n          serve as a manifest file to facilitate digital preservation.\n          DCAT is defined at http://www.w3.org/TR/vocab-dcat/. Any variance between that normative\n          document and this schema is an error in this schema."@en .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "DCATは、ウェブ上で公開されたデータ・カタログ間の相互運用性の促進を目的とするRDFの語彙です。このドキュメントでは、その利用のために、スキーマを定義し、例を提供します。\nデータ・カタログ内のデータセットを記述するためにDCATを用いると、公開者が、発見可能性を増加させ、アプリケーションが複数のカタログのメタデータを容易に利用できるようになります。さらに、カタログの分散公開を可能にし、複数のサイトにまたがるデータセットの統合検索を促進します。集約されたDCATメタデータは、ディジタル保存を促進するためのマニフェスト・ファイルとして使用できます。"@ja .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "Το DCAT είναι ένα RDF λεξιλόγιο που σχεδιάσθηκε για να κάνει εφικτή τη διαλειτουργικότητα μεταξύ καταλόγων δεδομένων στον Παγκόσμιο Ιστό.\n          Χρησιμοποιώντας το DCAT για την περιγραφή συνόλων δεδομένων, οι εκδότες αυτών αυξάνουν την ανακαλυψιμότητα και επιτρέπουν στις εφαρμογές την εύκολη κατανάλωση μεταδεδομένων από πολλαπλούς καταλόγους.\n          Επιπλέον, δίνει τη δυνατότητα για αποκεντρωμένη έκδοση και διάθεση καταλόγων και επιτρέπει δυνατότητες ενοποιημένης αναζήτησης μεταξύ διαφορετικών πηγών.\n          Συγκεντρωτικά μεταδεδομένα που έχουν περιγραφεί με το DCAT μπορούν να χρησιμοποιηθούν σαν ένα δηλωτικό αρχείο (manifest file) ώστε να διευκολύνουν την ψηφιακή συντήρηση."@el .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "هي أنطولوجية تسهل تبادل البيانات بين مختلف الفهارس على الوب. استخدام هذه الأنطولوجية يساعد على اكتشاف قوائم  البيانات المنشورة على الوب و يمكن التطبيقات المختلفة من الاستفادة أتوماتيكيا من البيانات المتاحة من مختلف الفهارس."@ar .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "El vocabulario de catálogo de datos"@es .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "Le vocabulaire des jeux de données "@fr .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "The data catalog vocabulary"@en .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "Το λεξιλόγιο των καταλόγων δεδομένων"@el .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "أنطولوجية فهارس قوائم البيانات"@ar .
-<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "データ・カタログ語彙（DCAT）"@ja .
-<http://www.w3.org/ns/dcat> <http://xmlns.com/foaf/0.1/maker> _:c14n1 .
-_:c14n0 <http://xmlns.com/foaf/0.1/name> "John Erickson" .
-_:c14n1 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/2011/gld/> .
-_:c14n1 <http://xmlns.com/foaf/0.1/name> "Government Linked Data WG" .
-_:c14n10 <http://schema.org/affiliation> _:c14n8 .
-_:c14n10 <http://xmlns.com/foaf/0.1/name> "Rufus Pollock" .
-_:c14n11 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://makxdekkers.com/makxdekkers.rdf#me> .
-_:c14n11 <http://xmlns.com/foaf/0.1/homepage> <http://makxdekkers.com/> .
-_:c14n11 <http://xmlns.com/foaf/0.1/name> "Makx Dekkers" .
-_:c14n12 <http://xmlns.com/foaf/0.1/name> "Richard Cyganiak" .
-_:c14n13 <http://schema.org/affiliation> <http://www.w3.org/data#W3C> .
-_:c14n13 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://philarcher.org/foaf.rdf#me> .
-_:c14n13 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/People/all#phila> .
-_:c14n13 <http://xmlns.com/foaf/0.1/name> "Phil Archer" .
-_:c14n14 <http://xmlns.com/foaf/0.1/homepage> <http://ec.europa.eu/dgs/informatics/> .
-_:c14n14 <http://xmlns.com/foaf/0.1/name> "European Commission, DG DIGIT" .
-_:c14n2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eurecom.fr/~atemezin/gatemezing-foaf.rdf> .
-_:c14n2 <http://xmlns.com/foaf/0.1/name> "Ghislain Auguste Atemezing" .
-_:c14n3 <http://xmlns.com/foaf/0.1/name> "Martin Alvarez-Espinar" .
-_:c14n4 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fadmaa.me/foaf.ttl> .
-_:c14n4 <http://xmlns.com/foaf/0.1/name> "Fadi Maali" .
-_:c14n5 <http://schema.org/affiliation> _:c14n14 .
-_:c14n5 <http://xmlns.com/foaf/0.1/name> "Vassilios Peristeras" .
-_:c14n6 <http://xmlns.com/foaf/0.1/name> "Marios Meimaris" .
-_:c14n7 <http://xmlns.com/foaf/0.1/name> "Boris Villazón-Terrazas" .
-_:c14n8 <http://xmlns.com/foaf/0.1/homepage> <http://okfn.org> .
-_:c14n8 <http://xmlns.com/foaf/0.1/name> "Open Knowledge Foundation" .
-_:c14n9 <http://xmlns.com/foaf/0.1/homepage> <http://www.asahi-net.or.jp/~ax2s-kmtn/> .
-_:c14n9 <http://xmlns.com/foaf/0.1/name> "Shuji Kamitsuna" .
+<http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "Normalmente, un catálogo de datos basado en web es representado como una sola instancia de esta clase."@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "Typically, a web-based data catalog is represented as a single instance of this class."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "Συνήθως, ένας κατάλογος δεδομένων στον Παγκόσμιο Ιστό αναπαρίσταται ως ένα στιγμιότυπο αυτής της κλάσης."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "通常、ウェブ・ベースのデータ・カタログは、このクラスの1つのインスタンスとして表わされます。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "A curated collection of metadata about datasets"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "Una colección conservada de metadatos de conjuntos de datos"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "Une collection élaborée de métadonnées sur les jeux de données"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "Μια επιμελημένη συλλογή μεταδεδομένων περί συνόλων δεδομένων"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "مجموعة من توصيفات قوائم البيانات"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "データ・カタログは、データセットに関するキュレートされたメタデータの集合です。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "Catalog"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "Catalogue"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "Catálogo"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "Κατάλογος"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "فهرس قوائم البيانات"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/2000/01/rdf-schema#label> "カタログ"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://purl.org/vocab/vann/usageNote> "C'est une classe facultative et tous les catalogues ne l'utiliseront pas. Cette classe existe pour les catalogues\n\t\t\t\t\t\tayant une distinction entre les métadonnées sur le jeu de données et les métadonnées sur une entrée du jeu de données dans le catalogue. "@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://purl.org/vocab/vann/usageNote> "Esta clase es opcional y no todos los catálogos la utilizarán. Esta clase existe para catálogos\n\t\t\t\t\t\tque hacen una distinción entre los metadatos acerca de un conjunto de datos y los metadatos\n\t\t\t\t\t\tacerca de una entrada en ese conjunto de datos en el catálogo. "@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://purl.org/vocab/vann/usageNote> "This class is optional and not all catalogs will use it. It exists for \n            catalogs where a distinction is made between metadata about a dataset and \n            metadata about the dataset's entry in the catalog. For example, the publication \n            date property of the dataset reflects the date when the information was originally \n            made available by the publishing agency, while the publication date of the catalog \n            record is the date when the dataset was added to the catalog. In cases where both\n            dates differ, or where only the latter is known, the publication date should only \n            be specified for the catalog record. Notice that the W3C PROV Ontology allows \n            describing further provenance information such as the details of the process and the \n            agent involved in a particular change to a dataset."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://purl.org/vocab/vann/usageNote> "Αυτή η κλάση είναι προαιρετική και δεν χρησιμοποιείται από όλους τους καταλόγους. Υπάρχει για τις περιπτώσεις καταλόγων όπου \n\t\t\t\t\t  γίνεται διαχωρισμός μεταξύ των μεταδεδομένων για το σύνολο των δεδομένων και των μεταδεδομένων για την καταγραφή του συνόλου δεδομένων εντός του καταλόγου.\n\t\t\t\t\t  Για παράδειγμα, η ιδιότητα της ημερομηνίας δημοσίευσης του συνόλου δεδομένων δείχνει την ημερομηνία κατά την οποία οι πληροφορίες έγιναν διαθέσιμες από τον φορέα δημοσίευσης, \n\t\t\t\t\t  ενώ η ημερομηνία δημοσίευσης της καταγραφής του καταλόγου δείχνει την ημερομηνία που το σύνολο δεδομένων προστέθηκε στον κατάλογο.\n\t\t\t\t\t  Σε περιπτώσεις που οι δύο ημερομηνίες διαφέρουν, ή που μόνο η τελευταία είναι γνωστή, η ημερομηνία δημοσίευσης θα πρέπει να δίνεται για την καταγραφή του καταλόγου. \n\t\t\t\t\t  Να σημειωθεί πως η οντολογία W3C PROV επιτρέπει την περιγραφή επιπλέον πληροφοριών ιστορικού όπως λεπτομέρειες για τη διαδικασία και τον δράστη που εμπλέκονται σε μία συγκεκριμένη αλλαγή εντός του συνόλου δεδομένων."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://purl.org/vocab/vann/usageNote> "このクラスはオプションで、すべてのカタログがそれを用いるとは限りません。これは、データセットに関するメタデータとカタログ内のデータセットのエントリーに関するメタデータとで区別が行われるカタログのために存在しています。例えば、データセットの公開日プロパティーは、公開機関が情報を最初に利用可能とした日付を示しますが、カタログ・レコードの公開日は、データセットがカタログに追加された日付です。両方の日付が異っていたり、後者だけが分かっている場合は、カタログ・レコードに対してのみ公開日を指定すべきです。W3CのPROVオントロジー[prov-o]を用いれば、データセットに対する特定の変更に関連するプロセスやエージェントの詳細などの、さらに詳しい来歴情報の記述が可能となることに注意してください。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "1つのデータセットを記述したデータ・カタログ内のレコード。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A record in a data catalog, describing a single dataset."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Un registre du catalogue ou une entrée du catalogue, décrivant un seul jeu de données"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Un registro en un catálogo de datos que describe un solo conjunto de datos."@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Μία καταγραφή ενός καταλόγου, η οποία περιγράφει ένα συγκεκριμένο σύνολο δεδομένων."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Catalog Record"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Registre du catalogue"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Registro de catálogo"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Καταγραφή καταλόγου"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "سجل"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "カタログ・レコード"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://purl.org/vocab/vann/usageNote> "Cette classe représente le jeu de données publié par le fournisseur de données. Dans les cas où une distinction est nécessaire entre le jeu de donénes et son \n\t\t\t\t\t  entrée dans le catalogue, la classe registre de données peut être utilisée pour ce dernier. "@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://purl.org/vocab/vann/usageNote> "Esta clase representa el conjunto de datos publicado por el editor del conjunto de datos. En los casos donde es necesaria una distinción entre el\n\t\t\t\t\tconjunto de datos y su entrada en el catálogo de datos"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://purl.org/vocab/vann/usageNote> "This class represents the actual dataset as published by the dataset publisher. In \n          cases where a distinction between the actual dataset and its entry in the catalog is \n          necessary (because metadata such as modification date and maintainer might differ), the \n          catalog record class can be used for the latter."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://purl.org/vocab/vann/usageNote> "Η κλάση αυτή αναπαριστά το σύνολο δεδομένων αυτό καθ'εαυτό, όπως έχει δημοσιευθεί από τον εκδότη.\n          Σε περιπτώσεις όπου είναι απαραίτητος ο διαχωρισμός μεταξύ του συνόλου δεδομένων και της καταγραφής αυτού στον κατάλογο (γιατί μεταδεδομένα όπως η ημερομηνία αλλαγής και ο συντηρητής μπορεί να διαφέρουν) \n          η κλάση της καταγραφής καταλόγου μπορεί να χρησιμοποιηθεί για το τελευταίο."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://purl.org/vocab/vann/usageNote> "このクラスは、データセットの公開者が公開する実際のデータセットを表わします。カタログ内の実際のデータセットとそのエントリーとの区別が必要な場合（修正日と維持者などのメタデータが異なるかもしれないので）は、後者にcatalog recordというクラスを使用できます。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "1つのエージェントによって公開またはキュレートされ、1つ以上の形式でアクセスまたはダウンロードできるデータの集合。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of data, published or curated by a single source, and available for access or download in one or more formats"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Una colección de datos, publicados o conservados por una única fuente, y disponibles para acceder o descagar en uno o más formatos"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Une collection de données, publiée ou élaborée par une seule source, et disponible pour accès ou téléchargement dans un ou plusieurs formats"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Μία συλλογή από δεδομένα, δημοσιευμένη ή επιμελημένη από μία και μόνο πηγή, διαθέσιμη δε προς πρόσβαση ή μεταφόρτωση σε μία ή περισσότερες μορφές"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "قائمة بيانات منشورة أو مجموعة من قبل مصدر ما و متاح الوصول إليها أو تحميلها"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Conjunto de datos"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Jeu de données"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Σύνολο Δεδομένων"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "قائمة بيانات"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "データセット"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Dataset> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://purl.org/vocab/vann/usageNote> "Ceci représente une disponibilité générale du jeu de données, et implique qu'il n'existe pas d'information\n\t\t\t\t\tsur la méthode d'accès réelle des données, par exple, si c'est un lien de téléchargement direct ou à travers une page Web. "@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://purl.org/vocab/vann/usageNote> "Esto representa una disponibilidad general de un conjunto de datos, e implica que no existe información acerca \n          del método de acceso real a los datos, i.e., si es un enlace de descarga directa o a través de una página Web."@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://purl.org/vocab/vann/usageNote> "This represents a general availability of a dataset it implies no information about the \n          actual access method of the data, i.e. whether it is a direct download, API, or some \n          through Web page. The use of dcat:downloadURL property indicates directly downloadable distributions."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://purl.org/vocab/vann/usageNote> "Αυτό αναπαριστά μία γενική διαθεσιμότητα ενός συνόλου δεδομένων και δεν υπονοεί τίποτα περί του πραγματικού τρόπου πρόσβασης στα δεδομένα, αν είναι άμεσα μεταφορτώσιμα,\n\t\t\t\t\t  μέσω API ή μέσω μίας ιστοσελίδας. Η χρήση της ιδιότητας dcat:downloadURL δείχνει μόνο άμεσα μεταφορτώσιμες διανομές."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://purl.org/vocab/vann/usageNote> "これは、データセットの一般的な利用可能性を表わし、データの実際のアクセス方式に関する情報（つまり、直接ダウンロードなのか、APIなのか、ウェブページを介したものなのか）を意味しません。dcat:downloadURLプロパティーの使用は、直接ダウンロード可能な配信を意味します。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Representa una forma disponible y específica a un conjunto de datos. Cada conjunto de datos puede estar disponible en\n          formas diferentes, estas formas pueden representar formatos diferentes del conjunto de datos o puntos de acceso diferentes."@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a specific available form of a dataset. Each dataset might be available in \n          different forms, these forms might represent different formats of the dataset or different \n          endpoints. Examples of distributions include a downloadable CSV file, an API or an RSS feed"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Représente une forme spécifique d'un jeu de données. Caque jeu de données peut être disponible\n\t\t\t\t\tsous différentes formes, celles-ci pouvant représenter différents formats du jeu de données ou différents endpoint. Des exemples de distribution\n\t\t\t\t\tsont des fichirs CSV, des API ou des flux RSS."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Αναπαριστά μία συγκεκριμένη διαθέσιμη μορφή ενός συνόλου δεδομένων. Κάθε σύνολο δεδομενων μπορεί να είναι διαθέσιμο σε \n\t\t\t\t\tδιαφορετικές μορφές, οι μορφές αυτές μπορεί να αναπαριστούν διαφορετικές μορφές αρχείων ή διαφορετικά σημεία διάθεσης.\n\t\t\t\t\tΠαραδείγματα διανομών συμπεριλαμβάνουν ένα μεταφορτώσιμο αρχείο μορφής CSV, ένα API ή ένα RSS feed."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "شكل محدد لقائمة البيانات يمكن الوصول إليه. قائمة بيانات ما يمكن أن تكون متاحه باشكال و أنواع متعددة.  ملف يمكن تحميله أو واجهة برمجية يمكن من خلالها الوصول إلى البيانات هي أمثلة على ذلك."@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "データセットの特定の利用可能な形式を表わします。各データセットは、異なる形式で利用できることがあり、これらの形式は、データセットの異なる形式や、異なるエンドポイントを表わす可能性があります。配信の例には、ダウンロード可能なCSVファイル、API、RSSフィードが含まれます。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "Distribución"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "Distribution"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "Διανομή"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "التوزيع"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/2000/01/rdf-schema#label> "配信"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#comment> "represents a downloadable distribution of a dataset. This term has been deprecated" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#label> "Download (Deprecated)" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Download> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#comment> "represents availability of a dataset as a feed. This term has been deprecated" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#label> "Feed (Deprecated)" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Feed> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#comment> "represents a web service that enables access to the data of a dataset. This term has been deprecated" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#label> "Web Service (Deprecated)" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#WebService> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://purl.org/vocab/vann/usageNote> "El valor es una URL.\n          Si la distribución es accesible solamente través de una página de aterrizaje (i.e., no se conoce una URL de descarga directa),\n          entonces el enlance a la página de aterrizaje debe ser duplicado como accessURL sobre la distribución."@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://purl.org/vocab/vann/usageNote> "La valeur est une URL.\n\t\t\t\t\t\tSi la distribution est accessible seulement au travers d'une page d'atterrissage (c-à-dire on n'ignore une URL de téléchargement direct) ,\n\t\t\t\t\t\talors le lien à la page d'atterrissage doit être dupliqué comee accessURL sur la distribution."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://purl.org/vocab/vann/usageNote> "The value is a URL.\n          If the distribution(s) are accessible only through a landing page (i.e. direct download URLs are \n          not known), then the landing page link should be duplicated as accessURL on a distribution."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://purl.org/vocab/vann/usageNote> "Η τιμή είναι ένα URL.\n\t\t\t\t\tΑν η/οι διανομή/ές είναι προσβάσιμη/ες μόνο μέσω μίας ιστοσελίδας αρχικής πρόσβασης (δηλαδή αν δεν υπάρχουν γνωστές διευθύνσεις άμεσης μεταφόρτωσης), τότε ο σύνδεσμος της ιστοσελίδας αρχικής πρόσβασης πρέπει να αναπαραχθεί ως accessURL σε μία διανομή."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://purl.org/vocab/vann/usageNote> "確実にダウンロードでない場合や、ダウンロードかどうかが不明である場合は、downloadURLではなく、accessURLを用いてください。\nランディング・ページを通じてしか配信にアクセスできない場合（つまり、直接的なダウンロードURLが不明）は、配信におけるaccessURLとしてランディング・ページのリンクをコピーすべきです（SHOULD）。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Ceci peut être tout type d'URL qui donne accès à une distribution du jeu de données. Par exemple, un lien à une page HTML contenant un lien au jeu de données, \n\t\t\t\t\tun Flux RSS, un point d'accès SPARQL. Utilisez le lorsque votre catalogue ne contient pas d'information sur quoi il est ou quand ce n'est pas téléchargeable."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Could be any kind of URL that gives access to a distribution of the dataset. E.g. landing page, \n          download, feed URL, SPARQL endpoint. Use when your catalog does not have information on which it \n          is or when it is definitely not a download."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Puede ser cualquier tipo de URL que de acceso a una distribución del conjunto de datos, e.g., página de aterrizaje, descarga,\n\t\t\t\t\tURL feed, punto de acceso SPARQL. Utilizado cuando su catálogo de datos no tiene información sobre donde está o cuando no se puede descargar"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Μπορεί να είναι οποιουδήποτε είδους URL που δίνει πρόσβαση στη διανομή ενός συνόλου δεδομένων. Π.χ. ιστοσελίδα αρχικής πρόσβασης, \n          μεταφόρτωση, feed URL, σημείο διάθεσης SPARQL. Να χρησιμοποιείται όταν ο κατάλογος δεν περιέχει πληροφορίες εαν πρόκειται ή όχι για μεταφορτώσιμο αρχείο."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "أي رابط يتيح الوصول إلى البيانات. إذا كان الرابط هو ربط مباشر لملف يمكن تحميله استخدم الخاصية downloadURL"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#comment> "データセットの配信にアクセス権を与えるランディング・ページ、フィード、SPARQLエンドポイント、その他の種類の資源。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "URL d'accès"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "URL de acceso"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "URL πρόσβασης"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "access URL"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "رابط وصول"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "アクセスURL"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://purl.org/vocab/vann/usageNote> "El tamaño en bytes puede ser aproximado cuando no es conocido el tamaño exacto.\n          El valor literal de dcat:byteSize debe ser tipado como xsd:decimal"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://purl.org/vocab/vann/usageNote> "La taille en octects peut être approximative lorsque l'on ignore la taille réelle.\n\t\t\t\t\tLa valeur littérale de dcat:byteSize doit être de type xsd:decimal"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://purl.org/vocab/vann/usageNote> "The size in bytes can be approximated when the precise size is not known. \n          The literal value of dcat:byteSize should by typed as xsd:decimal"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://purl.org/vocab/vann/usageNote> "Το μέγεθος σε bytes μπορεί να προσεγγιστεί όταν η ακριβής τιμή δεν είναι γνωστή.\n          Η τιμή της dcat:byteSize θα πρέπει να δίνεται με τύπο δεδομένων xsd:decimal"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://purl.org/vocab/vann/usageNote> "الحجم يمكن أن يكون تقريبي إذا كان الحجم الدقيق غير معروف"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://purl.org/vocab/vann/usageNote> "正確なサイズが不明である場合、サイズは、バイトによる近似値を示すことができます。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#comment> "El tamaño de una distribución en bytes"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#comment> "La taille de la distribution en octects"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#comment> "The size of a distribution in bytes."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#comment> "Το μέγεθος μιας διανομής σε bytes."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#comment> "الحجم بالبايتات "@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#comment> "バイトによる配信のサイズ。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#label> "byte size"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#label> "taille en octects"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#label> "tamaño en bytes"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#label> "μέγεθος σε bytes"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#label> "الحجم بالبايت"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#label> "バイト・サイズ"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#byteSize> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#comment> "describe size of resource in bytes. This term has been deprecated" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#label> "size in bytes (Deprecated)" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#bytes> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Enlaza un conjunto de datos a información de contacto relevante utilizando VCard"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a dataset to relevant contact information which is provided using VCard."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un jeu de données à une information de contact utile en utilisant VCard."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Συνδέει ένα σύνολο δεδομένων με ένα σχετικό σημείο επικοινωνίας, μέσω VCard."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "تربط قائمة البيانات بعنوان اتصال موصف  باستخدام VCard"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "データセットを、VCardを用いて提供されている適切な連絡先情報にリンクします。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "contact point"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "point de contact"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "punto de contacto"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "σημείο επικοινωνίας"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "عنوان اتصال"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "窓口"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#contactPoint> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/vcard/ns#Kind> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#comment> "links a dataset to a dictionary that helps interpreting the data. This term has been deprecated" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2000/01/rdf-schema#label> "data dictionary (Deprecated)" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataDictionary> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#comment> "describes the quality of data e.g. precision. This should not be used to describe the data collection characteristics, other more specialized statistical properties can be used instead. This term has been deprecated" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2000/01/rdf-schema#label> "data quality (Deprecated)" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataQuality> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Enlaza un catálogo a un conjunto de datos que es parte de ese catálogo"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a catalog to a dataset that is part of the catalog."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un catalogue à un jeu de données faisant partie de ce catalogue"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Συνδέει έναν κατάλογο με ένα σύνολο δεδομένων το οποίο ανήκει στον εν λόγω κατάλογο."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "تربط الفهرس بقائمة بيانات ضمنه"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "カタログの一部であるデータセット。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "conjunto de datos"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "dataset"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "jeu de données"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "σύνολο δεδομένων"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "قائمة بيانات"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "データセット"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#dataset> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/hasPart> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Conecta un conjunto de datos a una de sus distribuciones disponibles"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Connecte un jeu de données à des distributions disponibles."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Connects a dataset to one of its available distributions."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "Συνδέει ένα σύνολο δεδομένων με μία από τις διαθέσιμες διανομές του."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "تربط قائمة البيانات بطريقة أو بشكل يسمح  الوصول الى البيانات"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#comment> "データセットを、その利用可能な配信に接続します。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "distribución"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "distribution"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "distribution"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "διανομή"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "توزيع"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#label> "データセット配信"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#distribution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://purl.org/vocab/vann/usageNote> "La valeur est une URL."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://purl.org/vocab/vann/usageNote> "TEl valor es una URL."@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://purl.org/vocab/vann/usageNote> "The value is a URL."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://purl.org/vocab/vann/usageNote> "Η τιμή είναι ένα URL."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Ceci est un lien direct à un fichier téléchargeable en un format donnée. Exple fichier CSV ou RDF. Le format\n\t\t\t\t\test décrit par les propriétés de distribution dc:format et/ou dcat:mediaType"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Este es un enlace directo a un fichero descargable en un formato dado, e.g., fichero CSV o RDF. El \n          formato es descrito por las propiedades de la distribución dc:format y/o dcat:mediaType"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a direct link to a downloadable file in a given format. E.g. CSV file or RDF file. The \n          format is described by the distribution's dc:format and/or dcat:mediaType"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#comment> "dcat:downloadURLはdcat:accessURLの特定の形式です。しかし、DCATプロファイルが非ダウンロード・ロケーションに対してのみaccessURLを用いる場合には、より強い分離を課すことを望む可能性があるため、この含意を強化しないように、DCATは、dcat:downloadURLをdcat:accessURLのサブプロパティーであると定義しません。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#comment> "Είναι ένας σύνδεσμος άμεσης μεταφόρτωσης ενός αρχείου σε μια δεδομένη μορφή. Π.χ. ένα αρχείο CSV ή RDF. \n\t\t\t\t\tΗ μορφη αρχείου περιγράφεται από τις ιδιότητες dc:format ή/και dcat:mediaType της διανομής"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#comment> "رابط مباشر لملف يمكن تحميله. نوع الملف يتم توصيفه باستخدام الخاصية dc:format dcat:mediaType "@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#label> "URL de descarga"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#label> "URL de téléchargement"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#label> "URL μεταφόρτωσης"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#label> "download URL"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#label> "رابط تحميل"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#label> "ダウンロードURL"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#downloadURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#comment> "describes the level of granularity of data in a dataset. The granularity can be in time, place etc. This term has been deprecated" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2000/01/rdf-schema#label> "granularity (Deprecated)" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#granularity> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "A keyword or tag describing the dataset."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "Un mot-clé ou étiquette décrivant un jeu de donnnées."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "Una palabra clave o etiqueta que describa al conjunto de datos."@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "Μία λέξη-κλειδί ή μία ετικέτα που περιγράφει το σύνολο δεδομένων."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "كلمة  مفتاحيه توصف قائمة البيانات"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "データセットを記述しているキーワードまたはタグ。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "keyword"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "mot-clés "@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "palabra clave"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "λέξη-κλειδί"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "كلمة  مفتاحية "@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#label> "キーワード/タグ"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#keyword> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://purl.org/vocab/vann/usageNote> "If the distribution(s) are accessible only through a landing page (i.e. direct download \n          URLs are not known), then the landing page link should be duplicated as accessURL on a distribution."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://purl.org/vocab/vann/usageNote> "Si la distribución es accesible solamente través de una página de aterrizaje (i.e., no se conoce una URL de descarga directa),\n          entonces el enlance a la página de aterrizaje debe ser duplicado como accessURL sobre la distribución."@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://purl.org/vocab/vann/usageNote> "Si la distribution est seulement accessible à travers une page d'atterrissage (exple. pas de connaissance d'URLS de téléchargement direct ), alors\n\t\t\t\t\t\tle lien de la page d'atterrissage doit être dupliqué comme accessURL sur la distribution."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://purl.org/vocab/vann/usageNote> "Αν η/οι διανομή/ές είναι προσβάσιμη/ες μόνο μέσω μίας ιστοσελίδας αρχικής πρόσβασης (δηλαδή αν δεν υπάρχουν γνωστές διευθύνσεις άμεσης μεταφόρτωσης), τότε ο σύνδεσμος της ιστοσελίδας αρχικής πρόσβασης πρέπει να αναπαραχθεί ως accessURL σε μία διανομή."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://purl.org/vocab/vann/usageNote> "ランディング・ページを通じてしか配信にアクセスできない場合（つまり、直接的なダウンロードURLが不明）には、配信におけるaccessURLとしてランディング・ページのリンクをコピーすべきです（SHOULD）。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "A Web page that can be navigated to in a Web browser to gain access to the dataset, its distributions and/or additional information."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "Una página Web que puede ser visitada en un explorador Web para tener acceso al conjunto de datos, sus distribuciones y/o información adicional"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "Une page Web accessible par un navigateur Web donnant accès au jeu de données, ses distributions et/ou des informations additionnelles."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "Μία ιστοσελίδα πλοηγίσιμη μέσω ενός φυλλομετρητή (Web browser) που δίνει πρόσβαση στο σύνολο δεδομένων, τις διανομές αυτού ή/και επιπρόσθετες πληροφορίες."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "صفحة وب يمكن من خلالها الوصول الى قائمة البيانات أو إلى معلومات إضافية متعلقة بها "@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#comment> "データセット、その配信および（または）追加情報にアクセスするためにウエブ・ブラウザでナビゲートできるウェブページ。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "landing page"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "page d'atterrissage"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "página de aterrizaje"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "ιστοσελίδα αρχικής πρόσβασης"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "صفحة وصول"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#label> "ランディング・ページ"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Document> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#landingPage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/0.1/Page> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "Cette propriété doit être utilisée quand c'est définit le type de média de la distribution\n\t\t\t\t\ten IANA, sinon dct:format DOIT être utilisé avec différentes valeurs."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta propiedad debe ser usada cuando está definido el tipo de media de la distribución \n\t\t\t\t\ten IANA, de otra manera dct:format puede ser utilizado con diferentes valores"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "This property SHOULD be used when the media type of the distribution is defined \n          in IANA, otherwise dct:format MAY be used with different values."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "Η ιδιότητα αυτή ΘΑ ΠΡΕΠΕΙ να χρησιμοποιείται όταν ο τύπος μέσου μίας διανομής είναι ορισμένος στο IANA, αλλιώς \n          η ιδιότητα dct:format ΔΥΝΑΤΑΙ να χρησιμοποιηθεί με διαφορετικές τιμές."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "يجب استخدام هذه الخاصية إذا كان نوع الملف معرف ضمن IANA"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#comment> "このプロパティーは、配信のメディア・タイプがIANAで定義されているときに使用すべきで（SHOULD）、そうでない場合には、dct:formatを様々な値と共に使用できます（MAY）。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#label> "media type"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#label> "tipo de media"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#label> "type de média"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#label> "τύπος μέσου"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#label> "نوع الميديا"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#label> "メディア・タイプ"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/MediaTypeOrExtent> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#mediaType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/format> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "Enlaza un catálogo a sus registros."@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a catalog to its records."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "Relie un catalogue à ses registres"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "Συνδέει έναν κατάλογο με τις καταγραφές του."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "تربط الفهرس بسجل ضمنه"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#comment> "カタログの一部であるカタログ・レコード。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "record"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "registre"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "registro"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "καταγραφή"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "سجل"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#label> "カタログ・レコード"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#record> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#comment> "the size of a distribution. This term has been deprecated" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#label> "size (Deprecated)" <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/extent> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#size> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://purl.org/vocab/vann/usageNote> "El conjunto de skos:Concepts utilizados para categorizar el conjunto de datos están organizados en\n          un skos:ConceptScheme que describe todas las categorías y sus relaciones en el catálogo"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://purl.org/vocab/vann/usageNote> "The set of skos:Concepts used to categorize the datasets are organized in \n          a skos:ConceptScheme describing all the categories and their relations in the catalog."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://purl.org/vocab/vann/usageNote> "Un ensemble de skos:Concepts utilisés pour catégoriser un jeu de données sont organisés en \n\t\t\t\t\t\tun skos:ConceptScheme décrivqnt toutes les catégories et ses relations dans le catalogue. "@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://purl.org/vocab/vann/usageNote> "Το σετ των skos:Concepts που χρησιμοποιείται για να κατηγοριοποιήσει τα σύνολα δεδομένων είναι οργανωμένο εντός \n          ενός skos:ConceptScheme που περιγράφει όλες τις κατηγορίες και τις σχέσεις αυτών στον κατάλογο."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://purl.org/vocab/vann/usageNote> "データセットを分類するために用いられるskos:Conceptの集合は、カタログのすべてのカテゴリーとそれらの関係を記述しているskos:ConceptSchemeで組織化されます。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "La categoría principal del conjunto de datos. Un conjunto de datos puede tener varios temas."@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "La catégorie principale du jeu de données. Un jeu de données peut avoir plusieurs thèmes."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "The main category of the dataset. A dataset can have multiple themes."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "Η κύρια κατηγορία του συνόλου δεδομένων. Ένα σύνολο δεδομένων δύναται να έχει πολλαπλά θέματα."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "التصنيف الرئيسي لقائمة البيانات. قائمة البيانات يمكن أن تملك أكثر من تصنيف رئيسي واحد."@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#comment> "データセットの主要カテゴリー。データセットは複数のテーマを持つことができます。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "tema"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "theme"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "thème"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "Θέμα"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "التصنيف"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#label> "テーマ/カテゴリー"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#theme> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/subject> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "El sistema de organización del conocimiento utilizado para clasificar conjuntos de datos de catálogos."@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "Le systhème d'ogranisation de connaissances utilisé pour classifier les jeux de données du catalogue."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "The knowledge organization system (KOS) used to classify catalog's datasets."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "Το σύστημα οργάνωσης γνώσης που χρησιμοποιείται για την κατηγοριοποίηση των συνόλων δεδομένων του καταλόγου."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "لائحة التصنيفات المستخدمه لتصنيف قوائم البيانات ضمن الفهرس"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#comment> "カタログのデータセットを分類するために用いられる知識組織化体系（KOS；knowledge organization system）。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-dcat/> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "taxonomie de thèmes"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "taxonomía de temas"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "theme taxonomy"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "Ταξινομία θεματικών κατηγοριών."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "قائمة التصنيفات"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#label> "テーマ"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n0 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n10 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n11 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n2 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n3 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n5 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n6 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n7 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n8 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n9 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/creator> _:c14n14 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/creator> _:c14n4 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/modified> "2012-04-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/modified> "2013-09-20"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/modified> "2013-11-28"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "DCAT es un vocabulario RDF diseñado para facilitar la interoperabilidad entre catálogo de datos publicados en la Web.\n          Gracias a utilizar DCAT para describir conjuntos de datos en los catálogo de datos, los editores aumentan el descubrimiento y permiten\n          que las aplicaciones consuman fácilmente los metadatos de varios catálogos."@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "DCAT est un vocabulaire développé pour faciliter l'interopérabilité entre les jeux de données publiées sur le Web.\n\t\t\t\tEn utilisant DCAT pour décrire les jeux de données dans les catalogues de données, les fournisseurs de données augmentent leur découverte et permettent\n\t\t\t\tque les applications facilement les métadonnées de plusieurs catalogues. Il permet en plus la publication décentralisée des catalogues et facilitent\n\t\t\t\tla recherche fédérée des données entre plusieurs sites. Les métadonnées DCAT aggrégées peuvent servir comme un manifeste pour faciliter la préservation digitale des ressources.\n\t\t\t\tDCAT est définie à l'adresse http://www.w3.org/TR/vocab-dcat/. Une quelconque version de ce document normatif et ce vocabulaire est une erreur dans ce vocabulaire"@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web.\n          By using DCAT to describe datasets in data catalogs, publishers increase discoverability and enable \n          applications easily to consume metadata from multiple catalogs. It further enables decentralized \n          publishing of catalogs and facilitates federated dataset search across sites. Aggregated DCAT metadata can \n          serve as a manifest file to facilitate digital preservation.\n          DCAT is defined at http://www.w3.org/TR/vocab-dcat/. Any variance between that normative\n          document and this schema is an error in this schema."@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "DCATは、ウェブ上で公開されたデータ・カタログ間の相互運用性の促進を目的とするRDFの語彙です。このドキュメントでは、その利用のために、スキーマを定義し、例を提供します。\nデータ・カタログ内のデータセットを記述するためにDCATを用いると、公開者が、発見可能性を増加させ、アプリケーションが複数のカタログのメタデータを容易に利用できるようになります。さらに、カタログの分散公開を可能にし、複数のサイトにまたがるデータセットの統合検索を促進します。集約されたDCATメタデータは、ディジタル保存を促進するためのマニフェスト・ファイルとして使用できます。"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "Το DCAT είναι ένα RDF λεξιλόγιο που σχεδιάσθηκε για να κάνει εφικτή τη διαλειτουργικότητα μεταξύ καταλόγων δεδομένων στον Παγκόσμιο Ιστό.\n          Χρησιμοποιώντας το DCAT για την περιγραφή συνόλων δεδομένων, οι εκδότες αυτών αυξάνουν την ανακαλυψιμότητα και επιτρέπουν στις εφαρμογές την εύκολη κατανάλωση μεταδεδομένων από πολλαπλούς καταλόγους.\n          Επιπλέον, δίνει τη δυνατότητα για αποκεντρωμένη έκδοση και διάθεση καταλόγων και επιτρέπει δυνατότητες ενοποιημένης αναζήτησης μεταξύ διαφορετικών πηγών.\n          Συγκεντρωτικά μεταδεδομένα που έχουν περιγραφεί με το DCAT μπορούν να χρησιμοποιηθούν σαν ένα δηλωτικό αρχείο (manifest file) ώστε να διευκολύνουν την ψηφιακή συντήρηση."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#comment> "هي أنطولوجية تسهل تبادل البيانات بين مختلف الفهارس على الوب. استخدام هذه الأنطولوجية يساعد على اكتشاف قوائم  البيانات المنشورة على الوب و يمكن التطبيقات المختلفة من الاستفادة أتوماتيكيا من البيانات المتاحة من مختلف الفهارس."@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "El vocabulario de catálogo de datos"@es <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "Le vocabulaire des jeux de données "@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "The data catalog vocabulary"@en <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "Το λεξιλόγιο των καταλόγων δεδομένων"@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "أنطولوجية فهارس قوائم البيانات"@ar <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://www.w3.org/2000/01/rdf-schema#label> "データ・カタログ語彙（DCAT）"@ja <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://xmlns.com/foaf/0.1/maker> _:c14n12 <http://www.w3.org/ns/dcat#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/name> "Richard Cyganiak" <http://www.w3.org/ns/dcat#> .
+_:c14n1 <http://xmlns.com/foaf/0.1/homepage> <http://okfn.org> <http://www.w3.org/ns/dcat#> .
+_:c14n1 <http://xmlns.com/foaf/0.1/name> "Open Knowledge Foundation" <http://www.w3.org/ns/dcat#> .
+_:c14n10 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eurecom.fr/~atemezin/gatemezing-foaf.rdf> <http://www.w3.org/ns/dcat#> .
+_:c14n10 <http://xmlns.com/foaf/0.1/name> "Ghislain Auguste Atemezing" <http://www.w3.org/ns/dcat#> .
+_:c14n11 <http://xmlns.com/foaf/0.1/name> "Martin Alvarez-Espinar" <http://www.w3.org/ns/dcat#> .
+_:c14n12 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/2011/gld/> <http://www.w3.org/ns/dcat#> .
+_:c14n12 <http://xmlns.com/foaf/0.1/name> "Government Linked Data WG" <http://www.w3.org/ns/dcat#> .
+_:c14n13 <http://xmlns.com/foaf/0.1/homepage> <http://ec.europa.eu/dgs/informatics/> <http://www.w3.org/ns/dcat#> .
+_:c14n13 <http://xmlns.com/foaf/0.1/name> "European Commission, DG DIGIT" <http://www.w3.org/ns/dcat#> .
+_:c14n14 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fadmaa.me/foaf.ttl> <http://www.w3.org/ns/dcat#> .
+_:c14n14 <http://xmlns.com/foaf/0.1/name> "Fadi Maali" <http://www.w3.org/ns/dcat#> .
+_:c14n2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://makxdekkers.com/makxdekkers.rdf#me> <http://www.w3.org/ns/dcat#> .
+_:c14n2 <http://xmlns.com/foaf/0.1/homepage> <http://makxdekkers.com/> <http://www.w3.org/ns/dcat#> .
+_:c14n2 <http://xmlns.com/foaf/0.1/name> "Makx Dekkers" <http://www.w3.org/ns/dcat#> .
+_:c14n3 <http://xmlns.com/foaf/0.1/name> "Boris Villazón-Terrazas" <http://www.w3.org/ns/dcat#> .
+_:c14n4 <http://xmlns.com/foaf/0.1/name> "John Erickson" <http://www.w3.org/ns/dcat#> .
+_:c14n5 <http://schema.org/affiliation> <http://www.w3.org/data#W3C> <http://www.w3.org/ns/dcat#> .
+_:c14n5 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://philarcher.org/foaf.rdf#me> <http://www.w3.org/ns/dcat#> .
+_:c14n5 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/People/all#phila> <http://www.w3.org/ns/dcat#> .
+_:c14n5 <http://xmlns.com/foaf/0.1/name> "Phil Archer" <http://www.w3.org/ns/dcat#> .
+_:c14n6 <http://xmlns.com/foaf/0.1/name> "Marios Meimaris" <http://www.w3.org/ns/dcat#> .
+_:c14n7 <http://schema.org/affiliation> _:c14n13 <http://www.w3.org/ns/dcat#> .
+_:c14n7 <http://xmlns.com/foaf/0.1/name> "Vassilios Peristeras" <http://www.w3.org/ns/dcat#> .
+_:c14n8 <http://schema.org/affiliation> _:c14n1 <http://www.w3.org/ns/dcat#> .
+_:c14n8 <http://xmlns.com/foaf/0.1/name> "Rufus Pollock" <http://www.w3.org/ns/dcat#> .
+_:c14n9 <http://xmlns.com/foaf/0.1/homepage> <http://www.asahi-net.or.jp/~ax2s-kmtn/> <http://www.w3.org/ns/dcat#> .
+_:c14n9 <http://xmlns.com/foaf/0.1/name> "Shuji Kamitsuna" <http://www.w3.org/ns/dcat#> .
