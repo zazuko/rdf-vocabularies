@@ -16,7 +16,9 @@ $ npm install @zazuko/rdf-vocabularies
 
 ## Usage
 
-`@zazuko/rdf-vocabularies` exposes a (default) async function and an object:
+(Read below and take a look at some [examples](./examples.js).)
+
+### Default Export: `rdfVocabularies()`
 
 The default exposed function (`require('@zazuko/rdf-vocabularies')(options)`) accepts an optional `options` object:
 
@@ -26,7 +28,7 @@ factory abiding by the [RDF/JS Dataset Specification](https://rdf.js.org/dataset
 returned datasets.
 * `options.stream: Boolean`, default: `false`, whether to return a RDF/JS quad stream instead of regular objects/datasets.
 
-Loading all ontologies as datasets:
+#### Loading all Ontologies as Datasets
 
 ```js
 const rdfVocabularies = require('@zazuko/rdf-vocabularies')
@@ -85,7 +87,7 @@ rdfVocabularies()
   })
 ```
 
-Loading only some ontologies as datasets:
+#### Loading only some Ontologies as Datasets
 
 ```js
 const rdfVocabularies = require('@zazuko/rdf-vocabularies')
@@ -101,6 +103,40 @@ rdfVocabularies({ only: ['rdfs', 'owl', 'skos'] })
     */
   })
 ```
+
+#### Getting a Readable Stream (Quad Stream)
+
+```js
+const rdfVocabularies = require('@zazuko/rdf-vocabularies')
+const stream = await rdfVocabularies({ stream: true, only: ['rdfs', 'owl', 'skos'] })
+```
+
+### Expanding a Prefix
+
+There are two ways of expanding a prefix:
+
+* `rdfVocabularies.expand(prefixedTerm): String` synchronous
+
+    Expand without checks. It is similar to prefix.cc in the sense that prefix.cc would expand
+    `schema:ImNotInSchemaDotOrg` to `http://schema.org/ImNotInSchemaDotOrg`.
+
+* `rdfVocabularies.expand(prefixedTerm, Array<String>): Promise<String>` **asynchronous**
+
+    Expand with type check:
+    ```js
+    const rdfVocabularies = require('@zazuko/rdf-vocabularies')
+    const Class = rdfVocabularies.expand('rdfs:Class')
+    const Property = rdfVocabularies.expand('rdf:Property')
+
+    // Will return `http://schema.org/Person` iff the dataset contains either
+    // <schema:Person> <rdf:type> <rdfs:Class>
+    // or
+    // <schema:Person> <rdf:type> <rdf:Property>
+    await rdfVocabularies.expand('schema:Person', [Class, Property])
+    ```
+
+
+### Accessing Prefixes: `rdfVocabularies.prefixes`
 
 Getting an object with prefixes and their base URI:  
 (Returns [this object](./prefixes.js).)
@@ -119,21 +155,14 @@ console.log(rdfVocabularies.prefixes)
 */
 ```
 
+### Accessing Data Files from the Package
+
 Accessing the N-Quads files:
 
 ```js
 const path = require('path')
 console.log(path.resolve(require.resolve('@zazuko/rdf-vocabularies'), '..', 'ontologies', 'skos.nq'))
 ```
-
-Getting a readable stream (quad stream):
-
-```js
-const rdfVocabularies = require('@zazuko/rdf-vocabularies')
-const stream = await rdfVocabularies({ stream: true, only: ['rdfs', 'owl', 'skos'] })
-```
-
-Take a look at some [examples](./examples.js).
 
 ## Versioning Scheme
 
