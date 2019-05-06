@@ -5,15 +5,7 @@ const rdfVocabularies = require('.')
 
 describe('default export', () => {
   it('loads all prefixes', async () => {
-    const prefixes = rdfVocabularies.prefixes
-    const overrides = require('./overrides')
-    for (const prefix in prefixes) {
-      const uri = prefixes[prefix]
-      const override = overrides[prefix]
-      prefixes[prefix] = Object.assign({ uri, prefix }, override)
-    }
-    const prefixesCount = Object.values(prefixes).filter(prefix => !prefix.skip).length
-    expect(Object.keys(await rdfVocabularies())).toHaveLength(prefixesCount)
+    expect(Object.keys(await rdfVocabularies())).toHaveLength(45)
   })
 
   it('has the right quads count', async () => {

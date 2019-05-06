@@ -1,6 +1,6 @@
 {
   "name": "@zazuko/rdf-vocabularies",
-  "version": "2019.04.30",
+  "version": "2019.05.06",
   "description": "Access most commonly used RDF ontologies/schemas/vocabularies as datasets or n-quads",
   "main": "index.js",
   "scripts": {
