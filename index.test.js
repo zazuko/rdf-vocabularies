@@ -5,7 +5,7 @@ const rdfVocabularies = require('.')
 
 describe('default export', () => {
   it('loads all prefixes', async () => {
-    expect(Object.keys(await rdfVocabularies())).toHaveLength(45)
+    expect(Object.keys(await rdfVocabularies())).toHaveLength(43)
   })
 
   it('has the right quads count', async () => {
