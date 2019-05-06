@@ -46,6 +46,29 @@ describe('default export', () => {
   })
 })
 
+describe('expand', () => {
+  it('expands prefixed to full IRI', () => {
+    expect(rdfVocabularies.expand('rdfs:Class')).toBe('http://www.w3.org/2000/01/rdf-schema#Class')
+    expect(rdfVocabularies.expand('rdf:Property')).toBe('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property')
+    expect(rdfVocabularies.expand('schema:Person')).toBe('http://schema.org/Person')
+    expect(rdfVocabularies.expand('xsd:dateTime')).toBe('http://www.w3.org/2001/XMLSchema#dateTime')
+  })
+
+  it('throws with unknown prefixes', () => {
+    expect(() => rdfVocabularies.expand('foo:Class')).toThrow()
+  })
+
+  it('expands only if exists with a given type', async () => {
+    const Class = rdfVocabularies.expand('rdfs:Class')
+    const Property = rdfVocabularies.expand('rdf:Property')
+    const Boolean = rdfVocabularies.expand('xsd:boolean')
+
+    expect(await rdfVocabularies.expand('schema:Person', [Boolean])).toBe('')
+    expect(await rdfVocabularies.expand('schema:DoesntExist', [Class, Property])).toBe('')
+    expect(await rdfVocabularies.expand('schema:Person', [Class, Property])).toBe('http://schema.org/Person')
+  })
+})
+
 function loadFile (prefix) {
   return fs.readFileSync(buildPath(prefix), { encoding: 'utf8' })
 }

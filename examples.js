@@ -17,6 +17,12 @@ async function run () {
   })
 
   console.warn('\nGet a stream', await rdfVocabularies({ only: customSelection, stream: true }))
+
+  const Class = rdfVocabularies.expand('rdfs:Class')
+  const Property = rdfVocabularies.expand('rdf:Property')
+  console.log(`\nexpanded rdfs:Class => ${Class}`)
+  const person = await rdfVocabularies.expand('schema:Person', [Class, Property])
+  console.log(`expanded schema:Person => ${person} while checking it exists as either a rdfs:Class or rdf:Property`)
 }
 
 async function printQuadsCount (prefixSelection) {
