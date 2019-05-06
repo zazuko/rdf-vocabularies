@@ -79,29 +79,29 @@ function expand (prefixed, types = []) {
     return iri
   }
 
-  return Promise.resolve()
-    .then(async () => {
-      if (!(prefix in loadedPrefixes)) {
-        // if not previously loaded, load and memoize for later use
-        const datasets = await load({ only: [prefix], factory: rdf })
-        loadedPrefixes[prefix] = datasets[prefix]
-      }
-      return loadedPrefixes[prefix]
-    })
-    .then((dataset) => {
-      const typesTerms = types.map((type) => rdf.namedNode(type))
-      const typeTerm = rdf.namedNode(expand('rdf:type'))
-      const graph = rdf.namedNode(baseIRI)
-      for (const type of typesTerms) {
-        const found = dataset.match(rdf.namedNode(iri), typeTerm, type, graph)
-        if (found.size) {
-          return [...found][0].subject.value
-        }
-      }
-      return ''
-    })
+  return expandWithCheck({ prefix, iri, baseIRI, types })
 }
 
 function buildPath (prefix) {
   return resolve(join('.', 'ontologies', `${prefix}.nq`))
+}
+
+async function expandWithCheck ({ prefix, iri, baseIRI, types }) {
+  if (!(prefix in loadedPrefixes)) {
+    // if not previously loaded, load and memoize for later use
+    const datasets = await load({ only: [prefix], factory: rdf })
+    loadedPrefixes[prefix] = datasets[prefix]
+  }
+  const dataset = loadedPrefixes[prefix]
+
+  const typesTerms = types.map((type) => rdf.namedNode(type))
+  const typeTerm = rdf.namedNode(expand('rdf:type'))
+  const graph = rdf.namedNode(baseIRI)
+  for (const type of typesTerms) {
+    const found = dataset.match(rdf.namedNode(iri), typeTerm, type, graph)
+    if (found.size) {
+      return [...found][0].subject.value
+    }
+  }
+  return ''
 }
