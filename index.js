@@ -94,11 +94,11 @@ async function expandWithCheck ({ prefix, iri, baseIRI, types }) {
   }
   const dataset = loadedPrefixes[prefix]
 
-  const typesTerms = types.map((type) => rdf.namedNode(type))
+  const typesNamedNodes = types.map((type) => typeof type === 'string' ? rdf.namedNode(type) : type)
   const typeTerm = rdf.namedNode(expand('rdf:type'))
   const graph = rdf.namedNode(baseIRI)
-  for (const type of typesTerms) {
-    const found = dataset.match(rdf.namedNode(iri), typeTerm, type, graph)
+  for (const typeNamedNode of typesNamedNodes) {
+    const found = dataset.match(rdf.namedNode(iri), typeTerm, typeNamedNode, graph)
     if (found.size) {
       return [...found][0].subject.value
     }

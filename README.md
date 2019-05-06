@@ -115,23 +115,24 @@ const stream = await rdfVocabularies({ stream: true, only: ['rdfs', 'owl', 'skos
 
 There are two ways of expanding a prefix:
 
-* `rdfVocabularies.expand(prefixedTerm): String` synchronous
+* `rdfVocabularies.expand(prefixedTerm: String): String` synchronous
 
     Expand without checks. It is similar to prefix.cc in the sense that prefix.cc would expand
     `schema:ImNotInSchemaDotOrg` to `http://schema.org/ImNotInSchemaDotOrg`.
 
-* `rdfVocabularies.expand(prefixedTerm, Array<String>): Promise<String>` **asynchronous**
+* `rdfVocabularies.expand(prefixedTerm: String, types: Array<String|NamedNode>): Promise<String>` **asynchronous**
 
-    Expand with type check:
+    Expand with type checks. `types` is an array of strings or NamedNodes. See this example:
     ```js
     const rdfVocabularies = require('@zazuko/rdf-vocabularies')
     const Class = rdfVocabularies.expand('rdfs:Class')
     const Property = rdfVocabularies.expand('rdf:Property')
 
-    // Will return `http://schema.org/Person` iff the dataset contains either
-    // <schema:Person> <rdf:type> <rdfs:Class>
+    // Will return <schema:person> expanded to `http://schema.org/Person`
+    // iff the dataset contains either:
+    //   <schema:Person> <rdf:type> <rdfs:Class>
     // or
-    // <schema:Person> <rdf:type> <rdf:Property>
+    //   <schema:Person> <rdf:type> <rdf:Property>
     await rdfVocabularies.expand('schema:Person', [Class, Property])
     ```
 

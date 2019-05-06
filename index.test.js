@@ -66,6 +66,7 @@ describe('expand', () => {
     expect(await rdfVocabularies.expand('schema:Person', [Boolean])).toBe('')
     expect(await rdfVocabularies.expand('schema:DoesntExist', [Class, Property])).toBe('')
     expect(await rdfVocabularies.expand('schema:Person', [Class, Property])).toBe('http://schema.org/Person')
+    expect(await rdfVocabularies.expand('schema:Person', [rdf.namedNode(Class), Property])).toBe('http://schema.org/Person')
   })
 })
 
