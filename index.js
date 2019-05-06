@@ -83,7 +83,7 @@ function expand (prefixed, types = []) {
 }
 
 function buildPath (prefix) {
-  return resolve(join('.', 'ontologies', `${prefix}.nq`))
+  return resolve(join(__dirname, 'ontologies', `${prefix}.nq`))
 }
 
 async function expandWithCheck ({ prefix, iri, baseIRI, types }) {
