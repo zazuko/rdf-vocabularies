@@ -64,5 +64,8 @@ module.exports = {
   },
   geo: {
     file: 'http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf'
+  },
+  sioc: {
+    skip: true
   }
 }

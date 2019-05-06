@@ -38,7 +38,11 @@ async function fetch (mapping) {
     headers['accept'] = mapping.mediaType
   }
   try {
-    const res = await rdfFetch(mapping.file || mapping.uri, { factory: rdf, formats, headers })
+    const uri = mapping.file || mapping.uri
+    const res = await rdfFetch(uri, { factory: rdf, formats, headers })
+    if (!res.ok) {
+      console.warn(`${mapping.prefix}: HTTP${res.status} for ${uri}`)
+    }
     if (mapping.mediaType) {
       res.headers.set('content-type', mapping.mediaType)
     }
@@ -46,7 +50,7 @@ async function fetch (mapping) {
     return { mapping, dataset }
   }
   catch (err) {
-    console.warn(`failed fetching/processing ${mapping.prefix}`)
+    console.warn(`${mapping.prefix}: failed fetching/processing`)
     throw err
   }
 }

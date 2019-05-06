@@ -408,13 +408,13 @@
 <http://schema.org/CafeOrCoffeeShop> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/FoodEstablishment> <http://schema.org/> .
 <http://schema.org/Campground> <http://purl.org/dc/terms/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology> <http://schema.org/> .
 <http://schema.org/Campground> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/Campground> <http://www.w3.org/2000/01/rdf-schema#comment> "A camping site, campsite, or campground is a place used for overnight stay in the outdoors. In British English a campsite is an area, usually divided into a number of pitches, where people can camp overnight using tents or camper vans or caravans; this British English use of the word is synonymous with the American English expression campground. In American English the term campsite generally means an area where an individual, family, group, or military unit can pitch a tent or parks a camper; a campground may contain many campsites (Source: Wikipedia, the free encyclopedia, see <a href=\"http://en.wikipedia.org/wiki/Campsite\">http://en.wikipedia.org/wiki/Campsite</a>).\n<br /><br />\nSee also the <a href=\"/docs/hotels.html\">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>." <http://schema.org/> .
+<http://schema.org/Campground> <http://www.w3.org/2000/01/rdf-schema#comment> "A camping site, campsite, or <a class=\"localLink\" href=\"http://schema.org/Campground\">Campground</a> is a place used for overnight stay in the outdoors, typically containing individual <a class=\"localLink\" href=\"http://schema.org/CampingPitch\">CampingPitch</a> locations. <br/><br/>\n\nIn British English a campsite is an area, usually divided into a number of pitches, where people can camp overnight using tents or camper vans or caravans; this British English use of the word is synonymous with the American English expression campground. In American English the term campsite generally means an area where an individual, family, group, or military unit can pitch a tent or park a camper; a campground may contain many campsites (Source: Wikipedia see <a href=\"https://en.wikipedia.org/wiki/Campsite\">https://en.wikipedia.org/wiki/Campsite</a>).<br/><br/>\n\nSee also the dedicated <a href=\"/docs/hotels.html\">document on the use of schema.org for marking up hotels and other forms of accommodations</a>." <http://schema.org/> .
 <http://schema.org/Campground> <http://www.w3.org/2000/01/rdf-schema#label> "Campground" <http://schema.org/> .
 <http://schema.org/Campground> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CivicStructure> <http://schema.org/> .
 <http://schema.org/Campground> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/LodgingBusiness> <http://schema.org/> .
 <http://schema.org/CampingPitch> <http://purl.org/dc/terms/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology> <http://schema.org/> .
 <http://schema.org/CampingPitch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/CampingPitch> <http://www.w3.org/2000/01/rdf-schema#comment> "A camping pitch is an individual place for overnight stay in the outdoors, typically being part of a larger camping site.\n<br /><br />\nSee also the <a href=\"/docs/hotels.html\">dedicated document on the use of schema.org for marking up hotels and other forms of accommodations</a>." <http://schema.org/> .
+<http://schema.org/CampingPitch> <http://www.w3.org/2000/01/rdf-schema#comment> "A <a class=\"localLink\" href=\"http://schema.org/CampingPitch\">CampingPitch</a> is an individual place for overnight stay in the outdoors, typically being part of a larger camping site, or <a class=\"localLink\" href=\"http://schema.org/Campground\">Campground</a>.<br/><br/>\n\nIn British English a campsite, or campground, is an area, usually divided into a number of pitches, where people can camp overnight using tents or camper vans or caravans; this British English use of the word is synonymous with the American English expression campground. In American English the term campsite generally means an area where an individual, family, group, or military unit can pitch a tent or park a camper; a campground may contain many campsites.\n(Source: Wikipedia see <a href=\"https://en.wikipedia.org/wiki/Campsite\">https://en.wikipedia.org/wiki/Campsite</a>).<br/><br/>\n\nSee also the dedicated <a href=\"/docs/hotels.html\">document on the use of schema.org for marking up hotels and other forms of accommodations</a>." <http://schema.org/> .
 <http://schema.org/CampingPitch> <http://www.w3.org/2000/01/rdf-schema#label> "CampingPitch" <http://schema.org/> .
 <http://schema.org/CampingPitch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Accommodation> <http://schema.org/> .
 <http://schema.org/Canal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -441,7 +441,7 @@
 <http://schema.org/CatholicChurch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/CatholicChurch> <http://www.w3.org/2000/01/rdf-schema#comment> "A Catholic church." <http://schema.org/> .
 <http://schema.org/CatholicChurch> <http://www.w3.org/2000/01/rdf-schema#label> "CatholicChurch" <http://schema.org/> .
-<http://schema.org/CatholicChurch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/PlaceOfWorship> <http://schema.org/> .
+<http://schema.org/CatholicChurch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Church> <http://schema.org/> .
 <http://schema.org/Cemetery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/Cemetery> <http://www.w3.org/2000/01/rdf-schema#comment> "A graveyard." <http://schema.org/> .
 <http://schema.org/Cemetery> <http://www.w3.org/2000/01/rdf-schema#label> "Cemetery" <http://schema.org/> .
@@ -1790,7 +1790,7 @@
 <http://schema.org/NoteDigitalDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/DigitalDocument> <http://schema.org/> .
 <http://schema.org/Number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataType> <http://schema.org/> .
 <http://schema.org/Number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/Number> <http://www.w3.org/2000/01/rdf-schema#comment> "Data type: Number." <http://schema.org/> .
+<http://schema.org/Number> <http://www.w3.org/2000/01/rdf-schema#comment> "Data type: Number.<br/><br/>\n\nUsage guidelines:<br/><br/>\n\n<ul>\n<li>Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.</li>\n<li>Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.</li>\n</ul>\n" <http://schema.org/> .
 <http://schema.org/Number> <http://www.w3.org/2000/01/rdf-schema#label> "Number" <http://schema.org/> .
 <http://schema.org/NutritionInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/NutritionInformation> <http://www.w3.org/2000/01/rdf-schema#comment> "Nutritional information about the recipe." <http://schema.org/> .
@@ -4751,6 +4751,13 @@
 <http://schema.org/educationalAlignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/educationalAlignment> <http://www.w3.org/2000/01/rdf-schema#comment> "An alignment to an established educational framework." <http://schema.org/> .
 <http://schema.org/educationalAlignment> <http://www.w3.org/2000/01/rdf-schema#label> "educationalAlignment" <http://schema.org/> .
+<http://schema.org/educationalCredentialAwarded> <http://schema.org/domainIncludes> <http://schema.org/Course> <http://schema.org/> .
+<http://schema.org/educationalCredentialAwarded> <http://schema.org/rangeIncludes> <http://schema.org/EducationalOccupationalCredential> <http://schema.org/> .
+<http://schema.org/educationalCredentialAwarded> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/educationalCredentialAwarded> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
+<http://schema.org/educationalCredentialAwarded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/educationalCredentialAwarded> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the qualification, award, certificate, diploma or other educational credential awarded as a consequence of successful completion of this course." <http://schema.org/> .
+<http://schema.org/educationalCredentialAwarded> <http://www.w3.org/2000/01/rdf-schema#label> "educationalCredentialAwarded" <http://schema.org/> .
 <http://schema.org/educationalFramework> <http://schema.org/domainIncludes> <http://schema.org/AlignmentObject> <http://schema.org/> .
 <http://schema.org/educationalFramework> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/educationalFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -4956,10 +4963,11 @@
 <http://schema.org/estimatedFlightDuration> <http://www.w3.org/2000/01/rdf-schema#label> "estimatedFlightDuration" <http://schema.org/> .
 <http://schema.org/estimatedSalary> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1698> <http://schema.org/> .
 <http://schema.org/estimatedSalary> <http://schema.org/category> "issue-1698" <http://schema.org/> .
+<http://schema.org/estimatedSalary> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
 <http://schema.org/estimatedSalary> <http://schema.org/domainIncludes> <http://schema.org/Occupation> <http://schema.org/> .
 <http://schema.org/estimatedSalary> <http://schema.org/rangeIncludes> <http://schema.org/MonetaryAmountDistribution> <http://schema.org/> .
 <http://schema.org/estimatedSalary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/estimatedSalary> <http://www.w3.org/2000/01/rdf-schema#comment> "An estimated salary for a job posting based on a variety of variables including, but not limited to industry, job title, and location. Estimated salaries  are often computed by outside organizations rather than the hiring organization, who may not have committed to the estimated value." <http://schema.org/> .
+<http://schema.org/estimatedSalary> <http://www.w3.org/2000/01/rdf-schema#comment> "An estimated salary for a job posting or occupation, based on a variety of variables including, but not limited to industry, job title, and location. Estimated salaries  are often computed by outside organizations rather than the hiring organization, who may not have committed to the estimated value." <http://schema.org/> .
 <http://schema.org/estimatedSalary> <http://www.w3.org/2000/01/rdf-schema#label> "estimatedSalary" <http://schema.org/> .
 <http://schema.org/event> <http://schema.org/domainIncludes> <http://schema.org/InformAction> <http://schema.org/> .
 <http://schema.org/event> <http://schema.org/domainIncludes> <http://schema.org/InviteAction> <http://schema.org/> .
@@ -5515,7 +5523,7 @@
 <http://schema.org/highPrice> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
 <http://schema.org/highPrice> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/highPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/highPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "The highest price of all offers available." <http://schema.org/> .
+<http://schema.org/highPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "The highest price of all offers available.<br/><br/>\n\nUsage guidelines:<br/><br/>\n\n<ul>\n<li>Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.</li>\n<li>Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.</li>\n</ul>\n" <http://schema.org/> .
 <http://schema.org/highPrice> <http://www.w3.org/2000/01/rdf-schema#label> "highPrice" <http://schema.org/> .
 <http://schema.org/hiringOrganization> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
 <http://schema.org/hiringOrganization> <http://schema.org/rangeIncludes> <http://schema.org/Organization> <http://schema.org/> .
@@ -6081,7 +6089,7 @@
 <http://schema.org/lowPrice> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
 <http://schema.org/lowPrice> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/lowPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/lowPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "The lowest price of all offers available." <http://schema.org/> .
+<http://schema.org/lowPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "The lowest price of all offers available.<br/><br/>\n\nUsage guidelines:<br/><br/>\n\n<ul>\n<li>Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.</li>\n<li>Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.</li>\n</ul>\n" <http://schema.org/> .
 <http://schema.org/lowPrice> <http://www.w3.org/2000/01/rdf-schema#label> "lowPrice" <http://schema.org/> .
 <http://schema.org/lyricist> <http://purl.org/dc/terms/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ> <http://schema.org/> .
 <http://schema.org/lyricist> <http://schema.org/domainIncludes> <http://schema.org/MusicComposition> <http://schema.org/> .
@@ -6485,6 +6493,7 @@
 <http://schema.org/numberOfRooms> <http://schema.org/domainIncludes> <http://schema.org/Accommodation> <http://schema.org/> .
 <http://schema.org/numberOfRooms> <http://schema.org/domainIncludes> <http://schema.org/Apartment> <http://schema.org/> .
 <http://schema.org/numberOfRooms> <http://schema.org/domainIncludes> <http://schema.org/House> <http://schema.org/> .
+<http://schema.org/numberOfRooms> <http://schema.org/domainIncludes> <http://schema.org/LodgingBusiness> <http://schema.org/> .
 <http://schema.org/numberOfRooms> <http://schema.org/domainIncludes> <http://schema.org/SingleFamilyResidence> <http://schema.org/> .
 <http://schema.org/numberOfRooms> <http://schema.org/domainIncludes> <http://schema.org/Suite> <http://schema.org/> .
 <http://schema.org/numberOfRooms> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
@@ -6640,6 +6649,7 @@
 <http://schema.org/orderedItem> <http://schema.org/domainIncludes> <http://schema.org/OrderItem> <http://schema.org/> .
 <http://schema.org/orderedItem> <http://schema.org/rangeIncludes> <http://schema.org/OrderItem> <http://schema.org/> .
 <http://schema.org/orderedItem> <http://schema.org/rangeIncludes> <http://schema.org/Product> <http://schema.org/> .
+<http://schema.org/orderedItem> <http://schema.org/rangeIncludes> <http://schema.org/Service> <http://schema.org/> .
 <http://schema.org/orderedItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/orderedItem> <http://www.w3.org/2000/01/rdf-schema#comment> "The item ordered." <http://schema.org/> .
 <http://schema.org/orderedItem> <http://www.w3.org/2000/01/rdf-schema#label> "orderedItem" <http://schema.org/> .
@@ -7264,7 +7274,7 @@
 <http://schema.org/ratingValue> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
 <http://schema.org/ratingValue> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/ratingValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/ratingValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The rating for the content." <http://schema.org/> .
+<http://schema.org/ratingValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The rating for the content.<br/><br/>\n\nUsage guidelines:<br/><br/>\n\n<ul>\n<li>Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.</li>\n<li>Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.</li>\n</ul>\n" <http://schema.org/> .
 <http://schema.org/ratingValue> <http://www.w3.org/2000/01/rdf-schema#label> "ratingValue" <http://schema.org/> .
 <http://schema.org/readonlyValue> <http://schema.org/domainIncludes> <http://schema.org/PropertyValueSpecification> <http://schema.org/> .
 <http://schema.org/readonlyValue> <http://schema.org/rangeIncludes> <http://schema.org/Boolean> <http://schema.org/> .
@@ -8265,7 +8275,7 @@
 <http://schema.org/timeRequired> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/timeRequired> <http://schema.org/rangeIncludes> <http://schema.org/Duration> <http://schema.org/> .
 <http://schema.org/timeRequired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/timeRequired> <http://www.w3.org/2000/01/rdf-schema#comment> "Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. 'P30M', 'P1H25M'." <http://schema.org/> .
+<http://schema.org/timeRequired> <http://www.w3.org/2000/01/rdf-schema#comment> "Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. 'PT30M', 'PT1H25M'." <http://schema.org/> .
 <http://schema.org/timeRequired> <http://www.w3.org/2000/01/rdf-schema#label> "timeRequired" <http://schema.org/> .
 <http://schema.org/title> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
 <http://schema.org/title> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -8310,7 +8320,7 @@
 <http://schema.org/totalPrice> <http://schema.org/rangeIncludes> <http://schema.org/PriceSpecification> <http://schema.org/> .
 <http://schema.org/totalPrice> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/totalPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/totalPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "The total price for the reservation or ticket, including applicable taxes, shipping, etc." <http://schema.org/> .
+<http://schema.org/totalPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "The total price for the reservation or ticket, including applicable taxes, shipping, etc.<br/><br/>\n\nUsage guidelines:<br/><br/>\n\n<ul>\n<li>Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.</li>\n<li>Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.</li>\n</ul>\n" <http://schema.org/> .
 <http://schema.org/totalPrice> <http://www.w3.org/2000/01/rdf-schema#label> "totalPrice" <http://schema.org/> .
 <http://schema.org/totalTime> <http://schema.org/domainIncludes> <http://schema.org/HowTo> <http://schema.org/> .
 <http://schema.org/totalTime> <http://schema.org/domainIncludes> <http://schema.org/HowToDirection> <http://schema.org/> .
@@ -8525,7 +8535,7 @@
 <http://schema.org/value> <http://schema.org/rangeIncludes> <http://schema.org/StructuredValue> <http://schema.org/> .
 <http://schema.org/value> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/value> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of the quantitative value or property value node.<br/><br/>\n\n<ul>\n<li>For <a class=\"localLink\" href=\"http://schema.org/QuantitativeValue\">QuantitativeValue</a> and <a class=\"localLink\" href=\"http://schema.org/MonetaryAmount\">MonetaryAmount</a>, the recommended type for values is 'Number'.</li>\n<li>For <a class=\"localLink\" href=\"http://schema.org/PropertyValue\">PropertyValue</a>, it can be 'Text;', 'Number', 'Boolean', or 'StructuredValue'.</li>\n</ul>\n" <http://schema.org/> .
+<http://schema.org/value> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of the quantitative value or property value node.<br/><br/>\n\n<ul>\n<li>For <a class=\"localLink\" href=\"http://schema.org/QuantitativeValue\">QuantitativeValue</a> and <a class=\"localLink\" href=\"http://schema.org/MonetaryAmount\">MonetaryAmount</a>, the recommended type for values is 'Number'.</li>\n<li>For <a class=\"localLink\" href=\"http://schema.org/PropertyValue\">PropertyValue</a>, it can be 'Text;', 'Number', 'Boolean', or 'StructuredValue'.</li>\n<li>Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.</li>\n<li>Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.</li>\n</ul>\n" <http://schema.org/> .
 <http://schema.org/value> <http://www.w3.org/2000/01/rdf-schema#label> "value" <http://schema.org/> .
 <http://schema.org/valueAddedTaxIncluded> <http://purl.org/dc/terms/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms> <http://schema.org/> .
 <http://schema.org/valueAddedTaxIncluded> <http://schema.org/domainIncludes> <http://schema.org/PriceSpecification> <http://schema.org/> .
