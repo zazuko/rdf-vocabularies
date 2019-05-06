@@ -41,13 +41,10 @@ module.exports = {
   xsd: {
     skip: true
   },
-  duv: {
-    skip: true
-  },
   rss: {
     file: 'http://purl.org/rss/1.0/schema.rdf'
   },
-  dbpprop: {
+  dbp: {
     file: 'http://dbpedia.org/data4/.ttl'
   },
   gtfs: {
