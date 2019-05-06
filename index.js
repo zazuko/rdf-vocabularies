@@ -81,13 +81,11 @@ function expand (prefixed, types = []) {
 
   return Promise.resolve()
     .then(async () => {
-      // if previously loaded
-      if (prefix in loadedPrefixes) {
-        return loadedPrefixes[prefix]
+      if (!(prefix in loadedPrefixes)) {
+        // if not previously loaded, load and memoize for later use
+        const datasets = await load({ only: [prefix], factory: rdf })
+        loadedPrefixes[prefix] = datasets[prefix]
       }
-      // otherwise load and memoize for later use
-      const datasets = await load({ only: [prefix], factory: rdf })
-      loadedPrefixes[prefix] = datasets[prefix]
       return loadedPrefixes[prefix]
     })
     .then((dataset) => {
