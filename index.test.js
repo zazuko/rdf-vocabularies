@@ -2,6 +2,7 @@ const fs = require('fs')
 const { join, resolve } = require('path')
 const rdf = require('rdf-ext')
 const rdfVocabularies = require('.')
+const { expand, shrink } = rdfVocabularies
 
 describe('default export', () => {
   it('loads all prefixes', async () => {
@@ -48,25 +49,50 @@ describe('default export', () => {
 
 describe('expand', () => {
   it('expands prefixed to full IRI', () => {
-    expect(rdfVocabularies.expand('rdfs:Class')).toBe('http://www.w3.org/2000/01/rdf-schema#Class')
-    expect(rdfVocabularies.expand('rdf:Property')).toBe('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property')
-    expect(rdfVocabularies.expand('schema:Person')).toBe('http://schema.org/Person')
-    expect(rdfVocabularies.expand('xsd:dateTime')).toBe('http://www.w3.org/2001/XMLSchema#dateTime')
+    expect(expand('rdfs:Class')).toBe('http://www.w3.org/2000/01/rdf-schema#Class')
+    expect(expand('rdf:Property')).toBe('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property')
+    expect(expand('schema:Person')).toBe('http://schema.org/Person')
+    expect(expand('xsd:dateTime')).toBe('http://www.w3.org/2001/XMLSchema#dateTime')
   })
 
   it('throws with unknown prefixes', () => {
-    expect(() => rdfVocabularies.expand('foo:Class')).toThrow()
+    expect(() => expand('foo:Class')).toThrow()
   })
 
   it('expands only if exists with a given type', async () => {
-    const Class = rdfVocabularies.expand('rdfs:Class')
-    const Property = rdfVocabularies.expand('rdf:Property')
-    const Boolean = rdfVocabularies.expand('xsd:boolean')
+    const Class = expand('rdfs:Class')
+    const Property = expand('rdf:Property')
+    const Boolean = expand('xsd:boolean')
 
-    expect(await rdfVocabularies.expand('schema:Person', [Boolean])).toBe('')
-    expect(await rdfVocabularies.expand('schema:DoesntExist', [Class, Property])).toBe('')
-    expect(await rdfVocabularies.expand('schema:Person', [Class, Property])).toBe('http://schema.org/Person')
-    expect(await rdfVocabularies.expand('schema:Person', [rdf.namedNode(Class), Property])).toBe('http://schema.org/Person')
+    expect(await expand('schema:Person', [Boolean])).toBe('')
+    expect(await expand('schema:DoesntExist', [Class, Property])).toBe('')
+    expect(await expand('schema:Person', [Class, Property])).toBe('http://schema.org/Person')
+    expect(await expand('schema:Person', [rdf.namedNode(Class), Property])).toBe('http://schema.org/Person')
+  })
+})
+
+describe('shrink', () => {
+  it('shrinks full IRI to prefix', () => {
+    expect(shrink('http://www.w3.org/2000/01/rdf-schema#Class')).toBe('rdfs:Class')
+    expect(shrink('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property')).toBe('rdf:Property')
+    expect(shrink('http://schema.org/Person')).toBe('schema:Person')
+    expect(shrink('http://www.w3.org/2001/XMLSchema#dateTime')).toBe('xsd:dateTime')
+  })
+
+  it('is the inverse of expand', () => {
+    expect(shrink(expand('rdfs:Class'))).toBe('rdfs:Class')
+    expect(shrink(expand('rdf:Property'))).toBe('rdf:Property')
+    expect(shrink(expand('schema:Person'))).toBe('schema:Person')
+    expect(shrink(expand('xsd:dateTime'))).toBe('xsd:dateTime')
+
+    expect(expand(shrink('http://www.w3.org/2000/01/rdf-schema#Class'))).toBe('http://www.w3.org/2000/01/rdf-schema#Class')
+    expect(expand(shrink('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property'))).toBe('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property')
+    expect(expand(shrink('http://schema.org/Person'))).toBe('http://schema.org/Person')
+    expect(expand(shrink('http://www.w3.org/2001/XMLSchema#dateTime'))).toBe('http://www.w3.org/2001/XMLSchema#dateTime')
+  })
+
+  it('returns empty string with unknown prefixes', () => {
+    expect(shrink('http://example.com/foo')).toBe('')
   })
 })
 
