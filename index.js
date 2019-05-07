@@ -3,12 +3,12 @@ const { join, resolve } = require('path')
 const ParserN3 = require('@rdfjs/parser-n3')
 const rdf = require('rdf-ext')
 
-const allPrefixes = require('./prefixes')
+const prefixes = require('./prefixes')
 // memoizing the prefixes already used in 'expand'
 const loadedPrefixes = {}
 
 module.exports = load
-module.exports.prefixes = allPrefixes
+module.exports.prefixes = prefixes
 module.exports.expand = expand
 
 async function load ({ only, factory = rdf, stream = false } = {}) {
@@ -18,7 +18,7 @@ async function load ({ only, factory = rdf, stream = false } = {}) {
   if (customSelection) {
     selectedPrefixes = []
     only.forEach(prefix => {
-      if (prefix in allPrefixes) {
+      if (prefix in prefixes) {
         selectedPrefixes.push(prefix)
       }
       else {
@@ -27,7 +27,7 @@ async function load ({ only, factory = rdf, stream = false } = {}) {
     })
   }
   if (!selectedPrefixes) {
-    selectedPrefixes = Object.keys(allPrefixes)
+    selectedPrefixes = Object.keys(prefixes)
   }
 
   const promises = selectedPrefixes.map((prefix) => loadFile(prefix, { customSelection: !!only, factory }))
@@ -69,7 +69,7 @@ function expand (prefixed, types = []) {
     return ''
   }
 
-  const baseIRI = allPrefixes[prefix]
+  const baseIRI = prefixes[prefix]
   if (!baseIRI) {
     throw new Error(`Unavailable prefix '${prefix}:'`)
   }
