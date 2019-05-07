@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/zazuko/rdf-vocabularies/badge.svg?branch=master)](https://coveralls.io/github/zazuko/rdf-vocabularies?branch=master)
 
 This package contains a distribution of the most commonly used RDF ontologies (schema/vocab, whatever you call it)
-including their default prefixes.
+including their default prefixes, together with a set of utility functions to work with prefixes.
 
 It is extending [RDFa Core Initial Context](http://www.w3.org/2011/rdfa-context/rdfa-1.1) and contains what we consider
 commonly used prefixes. Some popular prefixes do not resolve to dereferencable RDF and are thus skipped.
@@ -116,6 +116,10 @@ const stream = await rdfVocabularies({ stream: true, only: ['rdfs', 'owl', 'skos
 
 ### Expanding a Prefix
 
+`expand`ing means: `'xsd:dateTime' → 'http://www.w3.org/2001/XMLSchema#dateTime'`.
+It is the opposite of [`shrink`](#shrinking-an-iri)ing:  
+`expand(shrink('http://www.w3.org/2001/XMLSchema#dateTime')) === 'http://www.w3.org/2001/XMLSchema#dateTime'`
+
 There are two ways of expanding a prefix:
 
 * `rdfVocabularies.expand(prefixedTerm: String): String` synchronous
@@ -126,19 +130,42 @@ There are two ways of expanding a prefix:
 * `rdfVocabularies.expand(prefixedTerm: String, types: Array<String|NamedNode>): Promise<String>` **asynchronous**
 
     Expand with type checks. `types` is an array of strings or NamedNodes. See this example:
+
     ```js
-    const rdfVocabularies = require('@zazuko/rdf-vocabularies')
-    const Class = rdfVocabularies.expand('rdfs:Class')
-    const Property = rdfVocabularies.expand('rdf:Property')
+    const { expand } = require('@zazuko/rdf-vocabularies')
+    const Class = expand('rdfs:Class')
+    const Property = expand('rdf:Property')
 
     // Will return <schema:person> expanded to `http://schema.org/Person`
     // iff the dataset contains either:
     //   <schema:Person> <rdf:type> <rdfs:Class>
     // or
     //   <schema:Person> <rdf:type> <rdf:Property>
-    await rdfVocabularies.expand('schema:Person', [Class, Property])
+    await expand('schema:Person', [Class, Property])
     ```
 
+### Shrinking an IRI
+
+`shrink`ing means: `'http://www.w3.org/2001/XMLSchema#dateTime' → 'xsd:dateTime'`.
+It is the opposite of [`expand`](#expanding-a-prefix)ing:  
+`shrink(expand('xsd:dateTime')) === 'xsd:dateTime'`
+
+* `rdfVocabularies.shrink(iri: String): String`
+
+    **Note**: returns empty string when there is no corresponding prefix. Always check the output
+    when using `shrink` with user-provided strings.
+
+    ```js
+    const assert = require('assert')
+    const { shrink } = require('@zazuko/rdf-vocabularies')
+
+    assert(shrink('http://www.w3.org/2001/XMLSchema#dateTime') === 'xsd:dateTime')
+    assert(shrink('http://example.com#nothing') === '')
+
+    const iri = 'http://example.com#nothing'
+    const stringToDisplay = shrink(iri) || iri
+    console.log(stringToDisplay) // 'http://example.com#nothing'
+    ```
 
 ### Accessing Prefixes: `rdfVocabularies.prefixes`
 
