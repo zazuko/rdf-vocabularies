@@ -2,11 +2,14 @@
 [![Build Status](https://travis-ci.org/zazuko/rdf-vocabularies.svg?branch=master)](https://travis-ci.org/zazuko/rdf-vocabularies) 
 [![Coverage Status](https://coveralls.io/repos/github/zazuko/rdf-vocabularies/badge.svg?branch=master)](https://coveralls.io/github/zazuko/rdf-vocabularies?branch=master)
 
-This package contains a distribution of the most commonly used RDF ontologies (schema/vocab, whatever you call it) including their default prefixes.
+This package contains a distribution of the most commonly used RDF ontologies (schema/vocab, whatever you call it)
+including their default prefixes.
 
-It is extending [RDFa Core Initial Context](http://www.w3.org/2011/rdfa-context/rdfa-1.1) and contains what we consider commonly used prefixes. Some popular prefixes do not resolve to dereferencable RDF and are thus skipped.
+It is extending [RDFa Core Initial Context](http://www.w3.org/2011/rdfa-context/rdfa-1.1) and contains what we consider
+commonly used prefixes. Some popular prefixes do not resolve to dereferencable RDF and are thus skipped.
 
-The package is built for use in Node.js projects. We ship N-Quads files of the vocabularies so it could be useful for other programming languages as well as you do not have to take care of downloading the ontologies yourself.
+The package is built for use in Node.js projects. We ship N-Quads files of the vocabularies so it could be useful for
+other programming languages as well as you do not have to take care of downloading the ontologies yourself.
 
 ## Installation
 
@@ -175,4 +178,8 @@ Updating the vendored ontologies is achieved using `npm run fetch` in this packa
 
 ## Adding new prefixes
 
-New prefixes can be added by opening a pull request on Github. For new requests, first check if the creator/owner of the namespace defined a prefix. If not check [prefix.cc](http://prefix.cc/). In case prefix.cc is ambiguous a discussion should be raised before the pull-requests gets integrated. Last thing to check are the predefined namespaces in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popular RDF resources like [LOV](https://lov.linkeddata.es/dataset/lov/vocabs). If you find one please refer to it in the pull request.
+New prefixes can be added by opening a pull request on Github. For new requests, first check if the creator/owner
+of the namespace defined a prefix. If not check [prefix.cc](http://prefix.cc/). In case prefix.cc is ambiguous a
+discussion should be raised before the pull-requests gets integrated. Last thing to check are the predefined namespaces
+in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popular RDF resources like
+[LOV](https://lov.linkeddata.es/dataset/lov/vocabs). If you find one please refer to it in the pull request.
