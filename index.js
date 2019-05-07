@@ -10,6 +10,7 @@ const loadedPrefixes = {}
 module.exports = load
 module.exports.prefixes = prefixes
 module.exports.expand = expand
+module.exports.shrink = shrink
 
 async function load ({ only, factory = rdf, stream = false } = {}) {
   const customSelection = !!only && Array.isArray(only)
@@ -80,6 +81,14 @@ function expand (prefixed, types = []) {
   }
 
   return expandWithCheck({ prefix, iri, baseIRI, types })
+}
+
+function shrink (iri) {
+  const found = Array.from(Object.entries(prefixes)).find(([, baseIRI]) => iri.startsWith(baseIRI))
+  if (found) {
+    return iri.replace(new RegExp(`^${found[1]}`), `${found[0]}:`)
+  }
+  return ''
 }
 
 function buildPath (prefix) {
