@@ -1,6 +1,7 @@
 # @zazuko/rdf-vocabularies -- Zazuko's Default Ontologies & Prefixes
 [![Build Status](https://travis-ci.org/zazuko/rdf-vocabularies.svg?branch=master)](https://travis-ci.org/zazuko/rdf-vocabularies) 
-[![Coverage Status](https://coveralls.io/repos/github/zazuko/rdf-vocabularies/badge.svg?branch=master)](https://coveralls.io/github/zazuko/rdf-vocabularies?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/zazuko/rdf-vocabularies/badge.svg?branch=master)](https://coveralls.io/github/zazuko/rdf-vocabularies?branch=master) 
+[![npm version](https://badge.fury.io/js/%40zazuko%2Frdf-vocabularies.svg)](https://www.npmjs.com/package/@zazuko/rdf-vocabularies)
 
 This package contains a distribution of the most commonly used RDF ontologies (schema/vocab, whatever you call it)
 including their default prefixes, together with a set of utility functions to work with prefixes.

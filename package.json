@@ -41,8 +41,9 @@
     "rdf",
     "rdfjs",
     "prefix",
-    "vocabularies",
-    "ontologies"
+    "namespace",
+    "ontologies",
+    "vocabularies"
   ],
   "jest": {
     "testPathIgnorePatterns": [

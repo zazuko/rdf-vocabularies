@@ -1,5 +1,7 @@
 # `2019.05.06`
 
+Initial release:
+
 | Prefix | #Quads |
 | ---- | ---- |
 | `cc` | 115 |
