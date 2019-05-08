@@ -5,6 +5,8 @@ Promise.resolve().then(run)
 
 async function run () {
   console.warn('Count all available prefixes:')
+  console.warn('| Prefix | #Quads |')
+  console.warn('| ---- | ---- |')
   await printQuadsCount()
 
   const customSelection = ['rdfs', 'owl', 'skos']
@@ -32,6 +34,6 @@ async function printQuadsCount (prefixSelection) {
   const result = await rdfVocabularies({ only: prefixSelection })
 
   Object.entries(result).forEach(([prefix, dataset]) => {
-    console.log(`${prefix}: ${dataset.size} triples`)
+    console.log(`| \`${prefix}\` | ${dataset.size} |`)
   })
 }
