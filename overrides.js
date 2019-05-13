@@ -19,5 +19,5 @@ module.exports = {
   wdrs: { skip: true },
   xhv: { skip: true },
   xml: { skip: true },
-  xsd: { skip: true }
+  xsd: { file: 'https://raw.githubusercontent.com/ruby-rdf/rdf/develop/etc/xsd.ttl', mediaType: 'text/turtle' }
 }
