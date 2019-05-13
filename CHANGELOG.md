@@ -1,3 +1,11 @@
+# `2019.5.13`
+
+Add `xsd:` prefix and vocabulary.
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `xsd` | 199 |
+
 # `2019.05.06`
 
 Initial release:
