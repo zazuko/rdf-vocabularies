@@ -13,8 +13,8 @@
     "lint": "eslint . --ext .js,.ts",
     "pretest": "npm run lint",
     "test": "jest",
-    "build:node": "tsc --build tsconfig.node.json",
-    "build:web": "tsc --build tsconfig.web.json",
+    "build:node": "tsc --target es2017 --module commonjs --outDir lib/node",
+    "build:web": "tsc --target esnext --module esnext --outDir lib/es; tsc --build tsconfig.web.json",
     "build": "rimraf lib; npm run build:node; npm run build:web",
     "prepare": "npm run build"
   },

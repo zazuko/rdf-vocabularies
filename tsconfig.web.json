@@ -4,5 +4,6 @@
     "target": "esnext",
     "module": "esnext",
     "outDir": "lib/es"
-  }
+  },
+  "files": ["src/es/loadDataset.ts"]
 }

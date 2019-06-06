@@ -1,21 +1,14 @@
 import * as ParserN3 from '@rdfjs/parser-n3'
 import * as rdf from 'rdf-ext'
+import { loadDatasetStream } from './loadDataset'
 
 import prefixes from './prefixes'
 // memoizing the prefixes already used in 'expand'
 const loadedPrefixes = {}
 
-let loadDatasetStreamPromise
-if (require) {
-  loadDatasetStreamPromise = Promise.resolve().then(() => require('./loadDataset.node').loadDatasetStream)
-}
-else {
-  loadDatasetStreamPromise = import('./loadDataset.web').then(ld => ld.loadDatasetStream)
-}
-
 interface Datasets { [prefix: string]: any }
 
-export {default as prefixes} from './prefixes'
+export { default as prefixes } from './prefixes'
 
 export async function rdfVocabularies ({ only = null, factory = rdf, stream = false } = {}): Promise<Datasets> {
   const customSelection = !!only && Array.isArray(only)
@@ -60,7 +53,6 @@ export async function rdfVocabularies ({ only = null, factory = rdf, stream = fa
 
 async function loadFile (prefix, { customSelection, factory }) {
   const parserN3 = new ParserN3()
-  const loadDatasetStream = await loadDatasetStreamPromise
   const readStream = await loadDatasetStream(prefix)
   const quadStream = parserN3.import(readStream)
   return factory.dataset().import(quadStream).catch(() => {
