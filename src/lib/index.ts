@@ -103,7 +103,7 @@ export async function expandWithCheck ({ prefix, iri, baseIRI, types }) {
   for (const typeNamedNode of typesNamedNodes) {
     const found = dataset.match(rdf.namedNode(iri), typeTerm, typeNamedNode, graph)
     if (found.size) {
-      return [...found][0].subject.value
+      return found.toArray()[0].subject.value
     }
   }
   return ''
