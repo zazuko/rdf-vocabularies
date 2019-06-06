@@ -15,6 +15,8 @@ else {
 
 interface Datasets { [prefix: string]: any }
 
+export {default as prefixes} from './prefixes'
+
 export async function rdfVocabularies ({ only = null, factory = rdf, stream = false } = {}): Promise<Datasets> {
   const customSelection = !!only && Array.isArray(only)
 
