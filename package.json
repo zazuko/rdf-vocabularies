@@ -12,7 +12,7 @@
     "build:node": "tsc --build tsconfig.node.json",
     "build:web": "tsc --build tsconfig.web.json",
     "build": "rimraf lib; npm run build:node; npm run build:web",
-    "prepare": "npm rubn build"
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
