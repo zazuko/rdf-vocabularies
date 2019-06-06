@@ -9,9 +9,9 @@
     "lint": "eslint . --ext .js,.ts",
     "pretest": "npm run lint",
     "test": "jest",
-    "build:node": "tsc --target es2017 --module commonjs --outDir lib/node",
-    "build:web": "tsc --target esnext --module esnext --outDir lib/es",
-    "build": "npm run build:node; npm run build:web",
+    "build:node": "tsc --build tsconfig.node.json",
+    "build:web": "tsc --build tsconfig.web.json",
+    "build": "rimraf lib; npm run build:node; npm run build:web",
     "prepare": "npm rubn build"
   },
   "repository": {
@@ -41,7 +41,8 @@
     "jest": "^24.8.0",
     "rdfxml-streaming-parser": "^1.2.3",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.5.1"
+    "typescript": "^3.5.1",
+    "rimraf": "^2.6.3"
   },
   "dependencies": {
     "@rdfjs/parser-n3": "^1.1.2",

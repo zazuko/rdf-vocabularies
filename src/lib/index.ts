@@ -1,5 +1,3 @@
-import * as fs from 'fs'
-import { join, resolve } from 'path'
 import * as ParserN3 from '@rdfjs/parser-n3'
 import * as rdf from 'rdf-ext'
 
@@ -7,9 +5,17 @@ import prefixes from './prefixes'
 // memoizing the prefixes already used in 'expand'
 const loadedPrefixes = {}
 
+let loadDatasetStreamPromise
+if (require) {
+  loadDatasetStreamPromise = Promise.resolve().then(() => require('./loadDataset.node').loadDatasetStream)
+}
+else {
+  loadDatasetStreamPromise = import('./loadDataset.web').then(ld => ld.loadDatasetStream)
+}
+
 interface Datasets { [prefix: string]: any }
 
-export default async function load ({ only = null, factory = rdf, stream = false } = {}): Promise<Datasets> {
+export async function rdfVocabularies ({ only = null, factory = rdf, stream = false } = {}): Promise<Datasets> {
   const customSelection = !!only && Array.isArray(only)
 
   let selectedPrefixes
@@ -52,7 +58,8 @@ export default async function load ({ only = null, factory = rdf, stream = false
 
 async function loadFile (prefix, { customSelection, factory }) {
   const parserN3 = new ParserN3()
-  const readStream = fs.createReadStream(buildPath(prefix), { encoding: 'utf8' })
+  const loadDatasetStream = await loadDatasetStreamPromise
+  const readStream = await loadDatasetStream(prefix)
   const quadStream = parserN3.import(readStream)
   return factory.dataset().import(quadStream).catch(() => {
     if (customSelection) {
@@ -88,14 +95,10 @@ export function shrink (iri) {
   return ''
 }
 
-function buildPath (prefix) {
-  return resolve(join(__dirname, '../ontologies', `${prefix}.nq`))
-}
-
 export async function expandWithCheck ({ prefix, iri, baseIRI, types }) {
   if (!(prefix in loadedPrefixes)) {
     // if not previously loaded, load and memoize for later use
-    const datasets = await load({ only: [prefix], factory: rdf })
+    const datasets = await rdfVocabularies({ only: [prefix], factory: rdf })
     loadedPrefixes[prefix] = datasets[prefix]
   }
   const dataset = loadedPrefixes[prefix]

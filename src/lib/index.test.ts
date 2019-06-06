@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 import { join, resolve } from 'path'
 import * as rdf from 'rdf-ext'
-import rdfVocabularies, { expand, shrink } from '.'
+import { rdfVocabularies, expand, shrink } from '.'
 
 describe('default export', () => {
   it('loads all prefixes', async () => {

@@ -1,5 +1,4 @@
-const rdfVocabularies = require('./lib/node')
-const { prefixes, expand, shrink } = rdfVocabularies
+const { rdfVocabularies, prefixes, expand, shrink } = require('./lib/node')
 
 Promise.resolve().then(run)
 
