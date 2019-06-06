@@ -4,6 +4,10 @@
   "description": "Access most commonly used RDF ontologies/schemas/vocabularies as datasets or n-quads",
   "main": "lib/node/index.js",
   "module": "lib/es/index.js",
+  "files": [
+    "lib",
+    "ontologies"
+  ],
   "scripts": {
     "fetch": "node fetch.js",
     "lint": "eslint . --ext .js,.ts",
