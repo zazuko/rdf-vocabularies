@@ -2,12 +2,17 @@
   "name": "@zazuko/rdf-vocabularies",
   "version": "2019.5.13",
   "description": "Access most commonly used RDF ontologies/schemas/vocabularies as datasets or n-quads",
-  "main": "index.js",
+  "main": "lib/node/index.js",
+  "module": "lib/es/index.js",
   "scripts": {
     "fetch": "node fetch.js",
-    "lint": "eslint .",
+    "lint": "eslint . --ext .js,.ts",
     "pretest": "npm run lint",
-    "test": "jest"
+    "test": "jest",
+    "build:node": "tsc --target es2017 --module commonjs --outDir lib/node",
+    "build:web": "tsc --target esnext --module esnext --outDir lib/es",
+    "build": "npm run build:node; npm run build:web",
+    "prepare": "npm rubn build"
   },
   "repository": {
     "type": "git",
@@ -22,6 +27,9 @@
   "devDependencies": {
     "@rdfjs/fetch-lite": "^2.0.0",
     "@rdfjs/formats-common": "^2.0.0",
+    "@types/jest": "^24.0.13",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
     "coveralls": "^3.0.3",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
@@ -31,11 +39,14 @@
     "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0",
     "jest": "^24.8.0",
-    "rdfxml-streaming-parser": "^1.2.3"
+    "rdfxml-streaming-parser": "^1.2.3",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.1"
   },
   "dependencies": {
     "@rdfjs/parser-n3": "^1.1.2",
-    "rdf-ext": "^1.3.0"
+    "rdf-ext": "^1.3.0",
+    "string-to-stream": "^1.1.1"
   },
   "keywords": [
     "rdf",

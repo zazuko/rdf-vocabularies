@@ -1,8 +1,7 @@
-const fs = require('fs')
-const { join, resolve } = require('path')
-const rdf = require('rdf-ext')
-const rdfVocabularies = require('.')
-const { expand, shrink } = rdfVocabularies
+import * as fs from 'fs'
+import { join, resolve } from 'path'
+import * as rdf from 'rdf-ext'
+import rdfVocabularies, { expand, shrink } from '.'
 
 describe('default export', () => {
   it('loads all prefixes', async () => {

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   as: 'https://www.w3.org/ns/activitystreams#',
   cc: 'http://creativecommons.org/ns#',
   cnt: 'http://www.w3.org/2011/content#',
