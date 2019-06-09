@@ -5,7 +5,7 @@ import { vocabularies, expand, shrink } from '.'
 
 describe('default export', () => {
   it('loads all prefixes', async () => {
-    expect(Object.keys(await vocabularies())).toHaveLength(44)
+    expect(Object.keys(await vocabularies())).toHaveLength(47)
   })
 
   it('has the right quads count', async () => {
