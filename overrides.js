@@ -7,6 +7,7 @@ module.exports = {
   gtfs: { mediaType: 'text/n3' },
   ical: { skip: true },
   qb: { mediaType: 'text/turtle' },
+  rdau: { file: 'http://rdaregistry.info/Elements/u.nt', mediaType: 'application/n-triples' },
   rev: { skip: true },
   rif: { skip: true },
   rss: { file: 'http://purl.org/rss/1.0/schema.rdf' },
