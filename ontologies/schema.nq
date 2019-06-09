@@ -2174,13 +2174,13 @@
 <http://schema.org/PublicationEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> <http://schema.org/> .
 <http://schema.org/PublicationIssue> <http://purl.org/dc/terms/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex> <http://schema.org/> .
 <http://schema.org/PublicationIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/PublicationIssue> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of a successively published publication such as a periodical or publication volume, often numbered, usually containing a grouping of works such as articles.<br/><br/>\n\n<a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html\">blog post</a>." <http://schema.org/> .
+<http://schema.org/PublicationIssue> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of a successively published publication such as a periodical or publication volume, often numbered, usually containing a grouping of works such as articles.<br/><br/>\n\nSee also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html\">blog post</a>." <http://schema.org/> .
 <http://schema.org/PublicationIssue> <http://www.w3.org/2000/01/rdf-schema#label> "PublicationIssue" <http://schema.org/> .
 <http://schema.org/PublicationIssue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/PublicationIssue> <http://www.w3.org/2002/07/owl#equivalentClass> <http://purl.org/ontology/bibo/Issue> <http://schema.org/> .
 <http://schema.org/PublicationVolume> <http://purl.org/dc/terms/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_bibex> <http://schema.org/> .
 <http://schema.org/PublicationVolume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/PublicationVolume> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of a successively published publication such as a periodical or multi-volume work, often numbered. It may represent a time span, such as a year.<br/><br/>\n\n<pre><code>  &lt;br/&gt;&lt;br/&gt;See also &lt;a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html\"&gt;blog post&lt;/a&gt;.\n</code></pre>\n" <http://schema.org/> .
+<http://schema.org/PublicationVolume> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of a successively published publication such as a periodical or multi-volume work, often numbered. It may represent a time span, such as a year.<br/><br/>\n\nSee also <a href=\"http://blog.schema.org/2014/09/schemaorg-support-for-bibliographic_2.html\">blog post</a>." <http://schema.org/> .
 <http://schema.org/PublicationVolume> <http://www.w3.org/2000/01/rdf-schema#label> "PublicationVolume" <http://schema.org/> .
 <http://schema.org/PublicationVolume> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/QAPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -3263,12 +3263,12 @@
 <http://schema.org/addressLocality> <http://schema.org/domainIncludes> <http://schema.org/PostalAddress> <http://schema.org/> .
 <http://schema.org/addressLocality> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/addressLocality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/addressLocality> <http://www.w3.org/2000/01/rdf-schema#comment> "The locality. For example, Mountain View." <http://schema.org/> .
+<http://schema.org/addressLocality> <http://www.w3.org/2000/01/rdf-schema#comment> "The locality in which the street address is, and which is in the region. For example, Mountain View." <http://schema.org/> .
 <http://schema.org/addressLocality> <http://www.w3.org/2000/01/rdf-schema#label> "addressLocality" <http://schema.org/> .
 <http://schema.org/addressRegion> <http://schema.org/domainIncludes> <http://schema.org/PostalAddress> <http://schema.org/> .
 <http://schema.org/addressRegion> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/addressRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/addressRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "The region. For example, CA." <http://schema.org/> .
+<http://schema.org/addressRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "The region in which the locality is, and which is in the country. For example, California or another appropriate first-level <a href=\"https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country\">Administrative division</a>" <http://schema.org/> .
 <http://schema.org/addressRegion> <http://www.w3.org/2000/01/rdf-schema#label> "addressRegion" <http://schema.org/> .
 <http://schema.org/advanceBookingRequirement> <http://purl.org/dc/terms/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms> <http://schema.org/> .
 <http://schema.org/advanceBookingRequirement> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .
@@ -4965,7 +4965,9 @@
 <http://schema.org/estimatedSalary> <http://schema.org/category> "issue-1698" <http://schema.org/> .
 <http://schema.org/estimatedSalary> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
 <http://schema.org/estimatedSalary> <http://schema.org/domainIncludes> <http://schema.org/Occupation> <http://schema.org/> .
+<http://schema.org/estimatedSalary> <http://schema.org/rangeIncludes> <http://schema.org/MonetaryAmount> <http://schema.org/> .
 <http://schema.org/estimatedSalary> <http://schema.org/rangeIncludes> <http://schema.org/MonetaryAmountDistribution> <http://schema.org/> .
+<http://schema.org/estimatedSalary> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
 <http://schema.org/estimatedSalary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/estimatedSalary> <http://www.w3.org/2000/01/rdf-schema#comment> "An estimated salary for a job posting or occupation, based on a variety of variables including, but not limited to industry, job title, and location. Estimated salaries  are often computed by outside organizations rather than the hiring organization, who may not have committed to the estimated value." <http://schema.org/> .
 <http://schema.org/estimatedSalary> <http://www.w3.org/2000/01/rdf-schema#label> "estimatedSalary" <http://schema.org/> .
@@ -5757,7 +5759,7 @@
 <http://schema.org/isBasedOn> <http://schema.org/rangeIncludes> <http://schema.org/Product> <http://schema.org/> .
 <http://schema.org/isBasedOn> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
 <http://schema.org/isBasedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/isBasedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource that was used in the creation of this resource. This term can be repeated for multiple sources. For example, http://example.com/great-multiplication-intro.html." <http://schema.org/> .
+<http://schema.org/isBasedOn> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource from which this work is derived or from which it is a modification or adaption." <http://schema.org/> .
 <http://schema.org/isBasedOn> <http://www.w3.org/2000/01/rdf-schema#label> "isBasedOn" <http://schema.org/> .
 <http://schema.org/isBasedOnUrl> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/isBasedOnUrl> <http://schema.org/rangeIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
@@ -5928,11 +5930,6 @@
 <http://schema.org/jobLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/jobLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "A (typically single) geographic location associated with the job position." <http://schema.org/> .
 <http://schema.org/jobLocation> <http://www.w3.org/2000/01/rdf-schema#label> "jobLocation" <http://schema.org/> .
-<http://schema.org/jobTitle> <http://schema.org/domainIncludes> <http://schema.org/Person> <http://schema.org/> .
-<http://schema.org/jobTitle> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
-<http://schema.org/jobTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/jobTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "The job title of the person (for example, Financial Manager)." <http://schema.org/> .
-<http://schema.org/jobTitle> <http://www.w3.org/2000/01/rdf-schema#label> "jobTitle" <http://schema.org/> .
 <http://schema.org/keywords> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/keywords> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/keywords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -6541,12 +6538,15 @@
 <http://schema.org/occupationLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "The region/country for which this occupational description is appropriate. Note that educational requirements and qualifications can vary between jurisdictions." <http://schema.org/> .
 <http://schema.org/occupationLocation> <http://www.w3.org/2000/01/rdf-schema#label> "occupationLocation" <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1698> <http://schema.org/> .
+<http://schema.org/occupationalCategory> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2192> <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://schema.org/category> "issue-1698" <http://schema.org/> .
+<http://schema.org/occupationalCategory> <http://schema.org/category> "issue-2192" <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://schema.org/domainIncludes> <http://schema.org/Occupation> <http://schema.org/> .
+<http://schema.org/occupationalCategory> <http://schema.org/rangeIncludes> <http://schema.org/CategoryCode> <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Category or categories describing the job. Use BLS O*NET-SOC taxonomy: http://www.onetcenter.org/taxonomy.html. Ideally includes textual label and formal code, with the property repeated for each applicable value." <http://schema.org/> .
+<http://schema.org/occupationalCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "A category describing the job, preferably using a term from a taxonomy such as <a href=\"http://www.onetcenter.org/taxonomy.html\">BLS O*NET-SOC</a>, <a href=\"https://www.ilo.org/public/english/bureau/stat/isco/isco08/\">ISCO-08</a> or similar, with the property repeated for each applicable value. Ideally the taxonomy should be identified, and both the textual label and formal code for the category should be provided.<br/><br/>\n\nNote: for historical reasons, any textual label and formal code provided as a literal may be assumed to be from O*NET-SOC." <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://www.w3.org/2000/01/rdf-schema#label> "occupationalCategory" <http://schema.org/> .
 <http://schema.org/offerCount> <http://schema.org/domainIncludes> <http://schema.org/AggregateOffer> <http://schema.org/> .
 <http://schema.org/offerCount> <http://schema.org/rangeIncludes> <http://schema.org/Integer> <http://schema.org/> .
