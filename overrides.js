@@ -2,6 +2,7 @@ module.exports = {
   as: { skip: true },
   cc: { file: 'https://creativecommons.org/schema.rdf' },
   ctag: { skip: true },
+  frbr: { file: 'http://purl.org/spar/frbr.nt' },
   geo: { file: 'http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf' },
   gml: { skip: true },
   gtfs: { mediaType: 'text/n3' },
