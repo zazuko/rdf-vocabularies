@@ -40,9 +40,9 @@ The package can be used in browser albeit it needs a bundler such as webpack and
 
 (Read below and take a look at some [examples](./examples.js).)
 
-### Default Export: `rdfVocabularies()`
+### `rdfVocabularies()`
 
-The default exposed function (`require('@zazuko/rdf-vocabularies')(options)`) accepts an optional `options` object:
+The function (`require('@zazuko/rdf-vocabularies').rdfVocabularies(options)`) accepts an optional `options` object:
 
 * `options.only: Array?`, default: `undefined`, a subset of all available prefixes, will only load these.
 * `options.factory: RDF/JS DatasetFactory`, default: [`rdf-ext`](https://github.com/rdf-ext/rdf-ext), a dataset
@@ -53,7 +53,7 @@ returned datasets.
 #### Loading all Ontologies as Datasets
 
 ```js
-const rdfVocabularies = require('@zazuko/rdf-vocabularies')
+const { rdfVocabularies } = require('@zazuko/rdf-vocabularies')
 
 rdfVocabularies()
   .then((datasets) => {
@@ -112,7 +112,7 @@ rdfVocabularies()
 #### Loading only some Ontologies as Datasets
 
 ```js
-const rdfVocabularies = require('@zazuko/rdf-vocabularies')
+const { rdfVocabularies } = require('@zazuko/rdf-vocabularies')
 
 rdfVocabularies({ only: ['rdfs', 'owl', 'skos'] })
   .then((datasets) => {
@@ -129,7 +129,7 @@ rdfVocabularies({ only: ['rdfs', 'owl', 'skos'] })
 #### Getting a Readable Stream (Quad Stream)
 
 ```js
-const rdfVocabularies = require('@zazuko/rdf-vocabularies')
+const { rdfVocabularies } = require('@zazuko/rdf-vocabularies')
 const stream = await rdfVocabularies({ stream: true, only: ['rdfs', 'owl', 'skos'] })
 ```
 
@@ -192,9 +192,9 @@ Getting an object with prefixes and their base URI:
 (Returns [this object](./prefixes.js).)
 
 ```js
-const rdfVocabularies = require('@zazuko/rdf-vocabularies')
+const { prefixes } = require('@zazuko/rdf-vocabularies')
 
-console.log(rdfVocabularies.prefixes)
+console.log(prefixes)
 /*
  {
   v: 'http://rdf.data-vocabulary.org/#',
