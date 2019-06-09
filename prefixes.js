@@ -11,6 +11,7 @@ module.exports = {
   dqv: 'http://www.w3.org/ns/dqv#',
   duv: 'http://www.w3.org/ns/duv#',
   foaf: 'http://xmlns.com/foaf/0.1/',
+  frbr: 'http://purl.org/vocab/frbr/core#',
   geo: 'http://www.opengis.net/ont/geosparql#',
   geof: 'http://www.opengis.net/def/function/geosparql/',
   geor: 'http://www.opengis.net/def/rule/geosparql/',
