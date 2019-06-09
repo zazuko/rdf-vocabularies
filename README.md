@@ -18,6 +18,24 @@ other programming languages as well as you do not have to take care of downloadi
 $ npm install @zazuko/rdf-vocabularies
 ```
 
+### Using in browser
+
+The package can be used in browser albeit it needs a bundler such as webpack and additional steps to configure it:
+
+* Enable [dynamic imports](https://medium.com/front-end-weekly/webpack-and-dynamic-imports-doing-it-right-72549ff49234). 
+  In webpack it is done with [@babel/plugin-syntax-dynamic-import](https://babeljs.io/docs/en/babel-plugin-syntax-dynamic-import)
+* Extend the bundler setup to have it load the contents of vocabulary files (all n-triples). In
+  In webpack it can be done with [`raw-loader`](https://github.com/webpack-contrib/raw-loader):
+
+      module: {
+        rules: [
+          {
+            test: /\.nq$/,
+            use: ['raw-loader']
+          }
+        ]
+      }
+
 ## Usage
 
 (Read below and take a look at some [examples](./examples.js).)
