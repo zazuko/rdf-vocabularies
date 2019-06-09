@@ -30,6 +30,7 @@ module.exports = {
   prov: 'http://www.w3.org/ns/prov#',
   qb: 'http://purl.org/linked-data/cube#',
   rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+  rdau: 'http://rdaregistry.info/Elements/u/',
   rdfa: 'http://www.w3.org/ns/rdfa#',
   rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
   rev: 'http://purl.org/stuff/rev#',
