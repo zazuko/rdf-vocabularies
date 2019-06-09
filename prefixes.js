@@ -38,6 +38,7 @@ module.exports = {
   rss: 'http://purl.org/rss/1.0/',
   schema: 'http://schema.org/',
   sd: 'http://www.w3.org/ns/sparql-service-description#',
+  sdmx: 'http://purl.org/linked-data/sdmx#',
   sf: 'http://www.opengis.net/ont/sf#',
   sioc: 'http://rdfs.org/sioc/ns#',
   skos: 'http://www.w3.org/2004/02/skos/core#',

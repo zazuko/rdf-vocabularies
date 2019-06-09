@@ -11,6 +11,7 @@ module.exports = {
   rif: { skip: true },
   rss: { file: 'http://purl.org/rss/1.0/schema.rdf' },
   schema: { file: 'http://schema.org/version/latest/schema.nt' },
+  sdmx: { mediaType: 'text/turtle' },
   sf: { skip: true },
   sioc: { skip: true },
   v: { skip: true },
