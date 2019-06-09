@@ -1,10 +1,11 @@
-<http://defs.opengis.net/sissvoc/ogc-def/resource?uri=http://www.opengis.net/def/rule/geosparql/&_format=ttl> <http://purl.org/linked-data/api/vocab#definition> <http://defs.opengis.net/sissvoc/ogc-def/resource?_format=ttl&uri=http://www.opengis.net/def/rule/geosparql/> <http://www.opengis.net/def/rule/geosparql/> .
-<http://defs.opengis.net/sissvoc/ogc-def/resource?uri=http://www.opengis.net/def/rule/geosparql/&_format=ttl> <http://purl.org/linked-data/api/vocab#extendedMetadataVersion> <http://defs.opengis.net/sissvoc/ogc-def/resource?_format=ttl&_metadata=all&uri=http://www.opengis.net/def/rule/geosparql/> <http://www.opengis.net/def/rule/geosparql/> .
-<http://defs.opengis.net/sissvoc/ogc-def/resource?uri=http://www.opengis.net/def/rule/geosparql/&_format=ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/api/vocab#ItemEndpoint> <http://www.opengis.net/def/rule/geosparql/> .
-<http://defs.opengis.net/sissvoc/ogc-def/resource?uri=http://www.opengis.net/def/rule/geosparql/&_format=ttl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/api/vocab#Page> <http://www.opengis.net/def/rule/geosparql/> .
-<http://defs.opengis.net/sissvoc/ogc-def/resource?uri=http://www.opengis.net/def/rule/geosparql/&_format=ttl> <http://xmlns.com/foaf/0.1/primaryTopic> <http://www.opengis.net/def/rule/geosparql/> <http://www.opengis.net/def/rule/geosparql/> .
+<http://defs.opengis.net/elda-common/ogc-def/resource.ttl?uri=http://www.opengis.net/def/rule/geosparql/> <http://purl.org/linked-data/api/vocab#definition> <http://defs.opengis.net/elda-common/ogc-def/resource.ttl?uri=http://www.opengis.net/def/rule/geosparql/> <http://www.opengis.net/def/rule/geosparql/> .
+<http://defs.opengis.net/elda-common/ogc-def/resource.ttl?uri=http://www.opengis.net/def/rule/geosparql/> <http://purl.org/linked-data/api/vocab#extendedMetadataVersion> <http://defs.opengis.net/elda-common/ogc-def/resource.ttl?_metadata=all&uri=http://www.opengis.net/def/rule/geosparql/> <http://www.opengis.net/def/rule/geosparql/> .
+<http://defs.opengis.net/elda-common/ogc-def/resource.ttl?uri=http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/api/vocab#ItemEndpoint> <http://www.opengis.net/def/rule/geosparql/> .
+<http://defs.opengis.net/elda-common/ogc-def/resource.ttl?uri=http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/linked-data/api/vocab#Page> <http://www.opengis.net/def/rule/geosparql/> .
+<http://defs.opengis.net/elda-common/ogc-def/resource.ttl?uri=http://www.opengis.net/def/rule/geosparql/> <http://xmlns.com/foaf/0.1/primaryTopic> <http://www.opengis.net/def/rule/geosparql/> <http://www.opengis.net/def/rule/geosparql/> .
 <http://www.opengis.net/def/rule/geosparql/> <http://purl.org/dc/elements/1.1/source> <http://www.opengis.net/doc/geosparql/1.0> <http://www.opengis.net/def/rule/geosparql/> .
 <http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Collection> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2000/01/rdf-schema#label> "GeoSPARQL rules" <http://www.opengis.net/def/rule/geosparql/> .
 <http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.opengis.net/doc/geosparql/1.0> <http://www.opengis.net/def/rule/geosparql/> .
 <http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2002/07/owl#sameAs> <http://www.opengis.net/def/rule/geosparql> <http://www.opengis.net/def/rule/geosparql/> .
 <http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/ehContains> <http://www.opengis.net/def/rule/geosparql/> .
@@ -32,5 +33,30 @@
 <http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/sfTouches> <http://www.opengis.net/def/rule/geosparql/> .
 <http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/rule/geosparql/sfWithin> <http://www.opengis.net/def/rule/geosparql/> .
 <http://www.opengis.net/def/rule/geosparql/> <http://www.w3.org/2004/02/skos/core#prefLabel> "GeoSPARQL rules" <http://www.opengis.net/def/rule/geosparql/> .
-<http://www.opengis.net/def/rule/geosparql/> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://defs.opengis.net/sissvoc/ogc-def/resource?uri=http://www.opengis.net/def/rule/geosparql/&_format=ttl> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://defs.opengis.net/elda-common/ogc-def/resource.ttl?uri=http://www.opengis.net/def/rule/geosparql/> <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/ehContains> <http://www.w3.org/2000/01/rdf-schema#label> "contains"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/ehCoveredBy> <http://www.w3.org/2000/01/rdf-schema#label> "covered by"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/ehCovers> <http://www.w3.org/2000/01/rdf-schema#label> "covers"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/ehDisjoint> <http://www.w3.org/2000/01/rdf-schema#label> "disjoint"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/ehEquals> <http://www.w3.org/2000/01/rdf-schema#label> "equals"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/ehInside> <http://www.w3.org/2000/01/rdf-schema#label> "inside"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/ehMeet> <http://www.w3.org/2000/01/rdf-schema#label> "meet"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/ehOverlap> <http://www.w3.org/2000/01/rdf-schema#label> "overlap"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/rcc8dc> <http://www.w3.org/2000/01/rdf-schema#label> "disconnected"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/rcc8ec> <http://www.w3.org/2000/01/rdf-schema#label> "externally connected"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/rcc8eq> <http://www.w3.org/2000/01/rdf-schema#label> "equals"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/rcc8ntpp> <http://www.w3.org/2000/01/rdf-schema#label> "non-tangential proper part"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/rcc8ntppi> <http://www.w3.org/2000/01/rdf-schema#label> "non-tangential proper part inverse"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/rcc8po> <http://www.w3.org/2000/01/rdf-schema#label> "partially overlapping"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/rcc8tpp> <http://www.w3.org/2000/01/rdf-schema#label> "tangential proper part"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/rcc8tppi> <http://www.w3.org/2000/01/rdf-schema#label> "tangential proper part inverse"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/sfContains> <http://www.w3.org/2000/01/rdf-schema#label> "contains"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/sfCrosses> <http://www.w3.org/2000/01/rdf-schema#label> "crosses"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/sfDisjoint> <http://www.w3.org/2000/01/rdf-schema#label> "disjoint"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/sfEquals> <http://www.w3.org/2000/01/rdf-schema#label> "equals"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/sfIntersects> <http://www.w3.org/2000/01/rdf-schema#label> "intersects"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/sfOverlaps> <http://www.w3.org/2000/01/rdf-schema#label> "overlaps"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/sfTouches> <http://www.w3.org/2000/01/rdf-schema#label> "touches"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql/sfWithin> <http://www.w3.org/2000/01/rdf-schema#label> "within"@en <http://www.opengis.net/def/rule/geosparql/> .
+<http://www.opengis.net/def/rule/geosparql> <http://www.w3.org/2000/01/rdf-schema#label> "http://www.opengis.net/def/rule/geosparql" <http://www.opengis.net/def/rule/geosparql/> .
 <http://www.opengis.net/def/rule/geosparql> <http://www.w3.org/2002/07/owl#sameAs> <http://www.opengis.net/def/rule/geosparql/> <http://www.opengis.net/def/rule/geosparql/> .
