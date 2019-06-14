@@ -1,3 +1,14 @@
+# `next`
+
+Add bundler-friendly build.
+
+BREAKING CHANGE: The default export is replaced with a named one
+
+```diff
+- const rdfVocabularies = require('@zazuko/rdf-vocabularies')
++ const { vocabularies } = require('@zazuko/rdf-vocabularies')
+```
+
 # `2019.5.13`
 
 Add `xsd:` prefix and vocabulary.
