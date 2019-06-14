@@ -10,7 +10,7 @@ interface Datasets { [prefix: string]: any }
 
 export { default as prefixes } from './prefixes'
 
-export async function rdfVocabularies ({ only = null, factory = rdf, stream = false } = {}): Promise<Datasets> {
+export async function vocabularies ({ only = null, factory = rdf, stream = false } = {}): Promise<Datasets> {
   const customSelection = !!only && Array.isArray(only)
 
   let selectedPrefixes
@@ -92,7 +92,7 @@ export function shrink (iri) {
 export async function expandWithCheck ({ prefix, iri, baseIRI, types }) {
   if (!(prefix in loadedPrefixes)) {
     // if not previously loaded, load and memoize for later use
-    const datasets = await rdfVocabularies({ only: [prefix], factory: rdf })
+    const datasets = await vocabularies({ only: [prefix], factory: rdf })
     loadedPrefixes[prefix] = datasets[prefix]
   }
   const dataset = loadedPrefixes[prefix]
