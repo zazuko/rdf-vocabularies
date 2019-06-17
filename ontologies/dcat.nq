@@ -1,6 +1,6 @@
 <http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "Normalmente, un catálogo de datos basado en web es representado como una sola instancia de esta clase."@es <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "Typically, a web-based data catalog is represented as a single instance of this class."@en <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "Συνήθως, ένας κατάλ��γος δεδομένων στον Παγκόσμιο Ιστό αναπαρίσταται ως ένα στιγμιότυπο αυτής της κλάσης."@el <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "Συνήθως, ένας κατάλογος δεδομένων στον Παγκόσμιο Ιστό αναπαρίσταται ως ένα στιγμιότυπο αυτής της κλάσης."@el <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#Catalog> <http://purl.org/vocab/vann/usageNote> "通常、ウェブ・ベースのデータ・カタログは、このクラスの1つのインスタンスとして表わされます。"@ja <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#Catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/dcat#> .
