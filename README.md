@@ -40,9 +40,9 @@ The package can be used in browser albeit it needs a bundler such as webpack and
 
 (Read below and take a look at some [examples](./examples.js).)
 
-### `rdfVocabularies()`
+### `vocabularies()`
 
-The function (`require('@zazuko/rdf-vocabularies').rdfVocabularies(options)`) accepts an optional `options` object:
+The function (`require('@zazuko/rdf-vocabularies').vocabularies(options)`) accepts an optional `options` object:
 
 * `options.only: Array?`, default: `undefined`, a subset of all available prefixes, will only load these.
 * `options.factory: RDF/JS DatasetFactory`, default: [`rdf-ext`](https://github.com/rdf-ext/rdf-ext), a dataset
@@ -57,9 +57,9 @@ It is thus recommended to always only [load the needed ontologies][#loading-only
 to reduce the unnecessary traffic and save bandwidth.
 
 ```js
-const { rdfVocabularies } = require('@zazuko/rdf-vocabularies')
+const { vocabularies } = require('@zazuko/rdf-vocabularies')
 
-rdfVocabularies()
+vocabularies()
   .then((datasets) => {
     /* `datasets` is:
     {
@@ -116,9 +116,9 @@ rdfVocabularies()
 #### Loading only some Ontologies as Datasets
 
 ```js
-const { rdfVocabularies } = require('@zazuko/rdf-vocabularies')
+const { vocabularies } = require('@zazuko/rdf-vocabularies')
 
-rdfVocabularies({ only: ['rdfs', 'owl', 'skos'] })
+vocabularies({ only: ['rdfs', 'owl', 'skos'] })
   .then((datasets) => {
     /* `datasets` is:
     {
@@ -133,8 +133,8 @@ rdfVocabularies({ only: ['rdfs', 'owl', 'skos'] })
 #### Getting a Readable Stream (Quad Stream)
 
 ```js
-const { rdfVocabularies } = require('@zazuko/rdf-vocabularies')
-const stream = await rdfVocabularies({ stream: true, only: ['rdfs', 'owl', 'skos'] })
+const { vocabularies } = require('@zazuko/rdf-vocabularies')
+const stream = await vocabularies({ stream: true, only: ['rdfs', 'owl', 'skos'] })
 ```
 
 ### Expanding a Prefix
@@ -145,12 +145,12 @@ It is the opposite of [`shrink`](#shrinking-an-iri)ing:
 
 There are two ways of expanding a prefix:
 
-* `rdfVocabularies.expand(prefixedTerm: String): String` synchronous
+* `vocabularies.expand(prefixedTerm: String): String` synchronous
 
     Expand without checks. It is similar to prefix.cc in the sense that prefix.cc would expand
     `schema:ImNotInSchemaDotOrg` to `http://schema.org/ImNotInSchemaDotOrg`.
 
-* `rdfVocabularies.expand(prefixedTerm: String, types: Array<String|NamedNode>): Promise<String>` **asynchronous**
+* `vocabularies.expand(prefixedTerm: String, types: Array<String|NamedNode>): Promise<String>` **asynchronous**
 
     Expand with type checks. `types` is an array of strings or NamedNodes. See this example:
 
@@ -173,7 +173,7 @@ There are two ways of expanding a prefix:
 It is the opposite of [`expand`](#expanding-a-prefix)ing:  
 `shrink(expand('xsd:dateTime')) === 'xsd:dateTime'`
 
-* `rdfVocabularies.shrink(iri: String): String`
+* `vocabularies.shrink(iri: String): String`
 
     **Note**: returns empty string when there is no corresponding prefix. Always check the output
     when using `shrink` with user-provided strings.
@@ -190,7 +190,7 @@ It is the opposite of [`expand`](#expanding-a-prefix)ing:
     console.log(stringToDisplay) // 'http://example.com#nothing'
     ```
 
-### Accessing Prefixes: `rdfVocabularies.prefixes`
+### Accessing Prefixes: `vocabularies.prefixes`
 
 Getting an object with prefixes and their base URI:  
 (Returns [this object](./prefixes.js).)
