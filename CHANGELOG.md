@@ -1,4 +1,4 @@
-# `next`
+# `v2019.6.17`
 
 Add bundler-friendly build.
 
@@ -7,9 +7,32 @@ BREAKING CHANGE: The default export is replaced with a named one
 ```diff
 - const rdfVocabularies = require('@zazuko/rdf-vocabularies')
 + const { vocabularies } = require('@zazuko/rdf-vocabularies')
+- const prefixes = require('@zazuko/rdf-vocabularies/prefixes')
++ const prefixes = require('@zazuko/rdf-vocabularies/lib/node/prefixes').default
 ```
 
-# `2019.5.13`
+New prefixes:
+
+Add `frbr:` prefix and vocabulary.  
+Add `rdau:` prefix and vocabulary.  
+Add `smdx:` prefix and vocabulary.
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `frbr` | 914 |
+| `rdau` | 15722 |
+| `smdx` | 90 |
+
+Updated prefixes:
+
+| Prefix | #Quads (#quads in previous version) |
+| ---- | ---- |
+| `geof` | 82 (46) |
+| `geor` | 62 (36) |
+| `hydra` | 400 (386) |
+| `schema` | 8809 (8809) |
+
+# `v2019.5.13`
 
 Add `xsd:` prefix and vocabulary.
 
@@ -17,7 +40,7 @@ Add `xsd:` prefix and vocabulary.
 | ---- | ---- |
 | `xsd` | 199 |
 
-# `2019.05.06`
+# `v2019.5.6`
 
 Initial release:
 
