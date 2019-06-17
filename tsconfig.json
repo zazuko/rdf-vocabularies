@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "declaration": true,
+    "moduleResolution": "node"
+  },
+  "files": ["src/lib/index.ts"],
+  "exclude": ["node_modules"]
+}

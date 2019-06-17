@@ -1,18 +1,16 @@
-const fs = require('fs')
-const { join, resolve } = require('path')
-const ParserN3 = require('@rdfjs/parser-n3')
-const rdf = require('rdf-ext')
+import * as ParserN3 from '@rdfjs/parser-n3'
+import * as rdf from 'rdf-ext'
+import { loadDatasetStream } from './loadDataset'
 
-const prefixes = require('./prefixes')
+import prefixes from './prefixes'
 // memoizing the prefixes already used in 'expand'
 const loadedPrefixes = {}
 
-module.exports = load
-module.exports.prefixes = prefixes
-module.exports.expand = expand
-module.exports.shrink = shrink
+interface Datasets { [prefix: string]: any }
 
-async function load ({ only, factory = rdf, stream = false } = {}) {
+export { default as prefixes } from './prefixes'
+
+export async function vocabularies ({ only = null, factory = rdf, stream = false } = {}): Promise<Datasets> {
   const customSelection = !!only && Array.isArray(only)
 
   let selectedPrefixes
@@ -36,7 +34,7 @@ async function load ({ only, factory = rdf, stream = false } = {}) {
 
   if (stream) {
     let combinedDataset = factory.dataset()
-    datasets.forEach((dataset, i) => {
+    datasets.forEach((dataset: any) => {
       if (dataset && dataset.size) {
         combinedDataset = combinedDataset.merge(dataset)
       }
@@ -45,7 +43,7 @@ async function load ({ only, factory = rdf, stream = false } = {}) {
   }
 
   const result = {}
-  datasets.forEach((dataset, i) => {
+  datasets.forEach((dataset: any, i) => {
     if (dataset && dataset.size) {
       result[selectedPrefixes[i]] = dataset
     }
@@ -53,9 +51,9 @@ async function load ({ only, factory = rdf, stream = false } = {}) {
   return result
 }
 
-function loadFile (prefix, { customSelection, factory }) {
+async function loadFile (prefix, { customSelection, factory }) {
   const parserN3 = new ParserN3()
-  const readStream = fs.createReadStream(buildPath(prefix), { encoding: 'utf8' })
+  const readStream = await loadDatasetStream(prefix)
   const quadStream = parserN3.import(readStream)
   return factory.dataset().import(quadStream).catch(() => {
     if (customSelection) {
@@ -64,7 +62,7 @@ function loadFile (prefix, { customSelection, factory }) {
   })
 }
 
-function expand (prefixed, types = []) {
+export function expand (prefixed, types = []) {
   const [prefix, term] = prefixed.split(':')
   if (!prefix || !term) {
     return ''
@@ -83,7 +81,7 @@ function expand (prefixed, types = []) {
   return expandWithCheck({ prefix, iri, baseIRI, types })
 }
 
-function shrink (iri) {
+export function shrink (iri) {
   const found = Array.from(Object.entries(prefixes)).find(([, baseIRI]) => iri.startsWith(baseIRI))
   if (found) {
     return iri.replace(new RegExp(`^${found[1]}`), `${found[0]}:`)
@@ -91,14 +89,10 @@ function shrink (iri) {
   return ''
 }
 
-function buildPath (prefix) {
-  return resolve(join(__dirname, 'ontologies', `${prefix}.nq`))
-}
-
-async function expandWithCheck ({ prefix, iri, baseIRI, types }) {
+export async function expandWithCheck ({ prefix, iri, baseIRI, types }) {
   if (!(prefix in loadedPrefixes)) {
     // if not previously loaded, load and memoize for later use
-    const datasets = await load({ only: [prefix], factory: rdf })
+    const datasets = await vocabularies({ only: [prefix], factory: rdf })
     loadedPrefixes[prefix] = datasets[prefix]
   }
   const dataset = loadedPrefixes[prefix]
@@ -109,7 +103,7 @@ async function expandWithCheck ({ prefix, iri, baseIRI, types }) {
   for (const typeNamedNode of typesNamedNodes) {
     const found = dataset.match(rdf.namedNode(iri), typeTerm, typeNamedNode, graph)
     if (found.size) {
-      return [...found][0].subject.value
+      return found.toArray()[0].subject.value
     }
   }
   return ''

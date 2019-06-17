@@ -4,20 +4,19 @@ module.exports = {
     node: true,
     'jest/globals': true
   },
+  parser: '@typescript-eslint/parser',
   parserOptions: {
-    parser: 'babel-eslint'
+    ecmaVersion: 2017,
+    sourceType: 'module'
   },
   extends: [
-    'standard'
+    'standard',
+    'plugin:@typescript-eslint/recommended'
   ],
   plugins: [
-    'jest'
+    'jest',
+    '@typescript-eslint/eslint-plugin'
   ],
-  settings: {
-    'import/resolver': {
-      node: { extensions: ['.js', '.mjs'] }
-    }
-  },
   // add your custom rules here
   rules: {
     'callback-return': ['error', ['done', 'callback', 'cb', 'send']],
@@ -39,5 +38,16 @@ module.exports = {
     'brace-style': ['error', 'stroustrup', { 'allowSingleLine': false }],
     'curly': ['error', 'all'],
     quotes: ['error', 'single', {avoidEscape: true, allowTemplateLiterals: true}],
-  }
+    '@typescript-eslint/indent': ['error', 2],
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/no-use-before-define': 'warn'
+  },
+  overrides: [
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off'
+      }
+    }
+  ]
 }

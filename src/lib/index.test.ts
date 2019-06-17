@@ -1,16 +1,15 @@
-const fs = require('fs')
-const { join, resolve } = require('path')
-const rdf = require('rdf-ext')
-const rdfVocabularies = require('.')
-const { expand, shrink } = rdfVocabularies
+import * as fs from 'fs'
+import { join, resolve } from 'path'
+import * as rdf from 'rdf-ext'
+import { vocabularies, expand, shrink } from '.'
 
 describe('default export', () => {
   it('loads all prefixes', async () => {
-    expect(Object.keys(await rdfVocabularies())).toHaveLength(44)
+    expect(Object.keys(await vocabularies())).toHaveLength(44)
   })
 
   it('has the right quads count', async () => {
-    const result = await rdfVocabularies()
+    const result = await vocabularies()
 
     Object.entries(result).forEach(([prefix, dataset]) => {
       expect(dataset.size).toBe(loadFile(prefix).split('\n').filter(Boolean).length)
@@ -18,7 +17,7 @@ describe('default export', () => {
   })
 
   it('returns a selection of prefixes', async () => {
-    const result = await rdfVocabularies({ only: ['skos', 'dcterms'] })
+    const result = await vocabularies({ only: ['skos', 'dcterms'] })
 
     expect(Object.keys(result)).toHaveLength(2)
 
@@ -28,12 +27,12 @@ describe('default export', () => {
   })
 
   it('returns a stream of a selection of prefixes', async () => {
-    const result = await rdfVocabularies({ only: ['skos', 'dcterms'] })
+    const result = await vocabularies({ only: ['skos', 'dcterms'] })
     let mergedDataset = rdf.dataset()
     Object.values(result).forEach((dataset) => {
       mergedDataset = mergedDataset.merge(dataset)
     })
-    const stream = await rdfVocabularies({ only: ['skos', 'dcterms'], stream: true })
+    const stream = await vocabularies({ only: ['skos', 'dcterms'], stream: true })
     let i = 0
     stream.on('data', (quad) => {
       if (![quad.subject.termType, quad.predicate.termType, quad.object.termType].includes('BlankNode')) {
