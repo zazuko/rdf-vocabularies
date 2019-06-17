@@ -9,7 +9,7 @@
     "ontologies"
   ],
   "scripts": {
-    "fetch": "node fetch.js",
+    "fetch": "npm run build; node fetch.js",
     "lint": "eslint . --ext .js,.ts",
     "pretest": "npm run lint",
     "test": "jest",

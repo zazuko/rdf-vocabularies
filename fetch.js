@@ -7,7 +7,7 @@ const RdfXmlParser = require('rdfxml-streaming-parser').RdfXmlParser
 formats.parsers.set('application/rdf+xml', new RdfXmlParser())
 
 async function main () {
-  const prefixes = require('./prefixes')
+  const prefixes = require('./lib/node/prefixes').default
   const overrides = require('./overrides')
 
   // merge prefixes with overrides
