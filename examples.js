@@ -1,4 +1,4 @@
-const { rdfVocabularies, prefixes, expand, shrink } = require('.')
+const { vocabularies, prefixes, expand, shrink } = require('.')
 
 Promise.resolve().then(run)
 
@@ -18,7 +18,7 @@ async function run () {
     console.log(`${prefix} => ${uri}`)
   })
 
-  console.warn('\nGet a stream', await rdfVocabularies({ only: customSelection, stream: true }))
+  console.warn('\nGet a stream', await vocabularies({ only: customSelection, stream: true }))
 
   const Class = expand('rdfs:Class')
   const Property = expand('rdf:Property')
@@ -30,7 +30,7 @@ async function run () {
 }
 
 async function printQuadsCount (prefixSelection) {
-  const result = await rdfVocabularies({ only: prefixSelection })
+  const result = await vocabularies({ only: prefixSelection })
 
   Object.entries(result).forEach(([prefix, dataset]) => {
     console.log(`| \`${prefix}\` | ${dataset.size} |`)
