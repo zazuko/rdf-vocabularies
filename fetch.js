@@ -22,7 +22,7 @@ async function main () {
     if (mapping.skip) {
       continue
     }
-    let { dataset } = await fetch(mapping)
+    let dataset = await fetch(mapping)
     const graph = rdf.namedNode(mapping.uri)
     dataset = dataset.map(({ subject, predicate, object }) => rdf.quad(subject, predicate, object, graph))
 
@@ -32,27 +32,34 @@ async function main () {
   }
 }
 
-async function fetch (mapping) {
-  const headers = {}
-  if (mapping.mediaType) {
-    headers['accept'] = mapping.mediaType
-  }
-  try {
-    const uri = mapping.file || mapping.uri
-    const res = await rdfFetch(uri, { factory: rdf, formats, headers })
-    if (!res.ok) {
-      console.warn(`${mapping.prefix}: HTTP${res.status} for ${uri}`)
-    }
+async function fetch (mappings) {
+  mappings = mappings.files || [mappings]
+
+  let dataset = rdf.dataset()
+
+  for (const mapping of mappings) {
+    const headers = {}
     if (mapping.mediaType) {
-      res.headers.set('content-type', mapping.mediaType)
+      headers['accept'] = mapping.mediaType
     }
-    const dataset = await res.dataset()
-    return { mapping, dataset }
+    const uri = mapping.file || mapping.uri
+    try {
+      const res = await rdfFetch(uri, { factory: rdf, formats, headers })
+      if (!res.ok) {
+        console.warn(`${mapping.prefix}: HTTP${res.status} for ${uri}`)
+      }
+      if (mapping.mediaType) {
+        res.headers.set('content-type', mapping.mediaType)
+      }
+      const fetchedDataset = await res.dataset()
+      dataset = dataset.merge(fetchedDataset)
+    }
+    catch (err) {
+      console.warn(`${mapping.prefix}: failed fetching/processing`)
+      throw err
+    }
   }
-  catch (err) {
-    console.warn(`${mapping.prefix}: failed fetching/processing`)
-    throw err
-  }
+  return dataset
 }
 
 Promise.resolve().then(() => main())
