@@ -1,3 +1,15 @@
+# next
+
+New prefixes:
+
+Add `qudt:` prefix and vocabulary.  
+Add `qudtv:` prefix and vocabulary.
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `qudt` | 7738 |
+| `qudtv` | 13790 |
+
 # `v2019.6.17`
 
 Add bundler-friendly build.

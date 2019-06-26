@@ -30,6 +30,8 @@ export default {
   owl: 'http://www.w3.org/2002/07/owl#',
   prov: 'http://www.w3.org/ns/prov#',
   qb: 'http://purl.org/linked-data/cube#',
+  qudt: 'http://qudt.org/schema/qudt/',
+  qudtv: 'http://qudt.org/vocab/qudt/',
   rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
   rdau: 'http://rdaregistry.info/Elements/u/',
   rdfa: 'http://www.w3.org/ns/rdfa#',
