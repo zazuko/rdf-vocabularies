@@ -53,7 +53,7 @@ returned datasets.
 #### Loading all Ontologies as Datasets
 
 In browser environment this will cause a request for each individual dataset. 
-It is thus recommended to always only [load the needed ontologies][#loading-only-some-ontologies-as-datasets]
+It is thus recommended to always only [load the needed ontologies](#loading-only-some-ontologies-as-datasets)
 to reduce the unnecessary traffic and save bandwidth.
 
 ```js
