@@ -1,3 +1,15 @@
+# next
+
+New prefixes:
+
+Add `dtype` prefix and vocabulary.
+Add `vaem` prefix and vocabulary.
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `dtype` | 231 |
+| `vaem` | 564 |
+
 # `v2019.6.17`
 
 Add bundler-friendly build.
