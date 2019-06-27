@@ -1,11 +1,22 @@
 import * as fs from 'fs'
-import { join, resolve } from 'path'
+import { join, resolve as resolvePath } from 'path'
 import * as rdf from 'rdf-ext'
 import { vocabularies, expand, shrink } from '.'
 
+const list = (directoryPath): Promise<any[]> =>
+  new Promise((resolve, reject) => fs.readdir(directoryPath, (err, files: string[]) => {
+    if (err) {
+      reject(err)
+      return
+    }
+    resolve(files)
+  }))
+
 describe('default export', () => {
   it('loads all prefixes', async () => {
-    expect(Object.keys(await vocabularies())).toHaveLength(49)
+    const vocabsDir = resolvePath('./ontologies')
+    const ontologies = await list(vocabsDir)
+    expect(Object.keys(await vocabularies())).toHaveLength(ontologies.length)
   })
 
   it('has the right quads count', async () => {
@@ -100,5 +111,5 @@ function loadFile (prefix) {
 }
 
 function buildPath (prefix) {
-  return resolve(join('.', 'ontologies', `${prefix}.nq`))
+  return resolvePath(join('.', 'ontologies', `${prefix}.nq`))
 }
