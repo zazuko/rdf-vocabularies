@@ -2,11 +2,16 @@
 
 New prefixes:
 
+
+Add `dtype:` prefix and vocabulary.
+Add `vaem:` prefix and vocabulary.
 Add `qudt:` prefix and vocabulary.  
 Add `qudtv:` prefix and vocabulary.
 
 | Prefix | #Quads |
 | ---- | ---- |
+| `dtype` | 231 |
+| `vaem` | 564 |
 | `qudt` | 7738 |
 | `qudtv` | 13790 |
 
