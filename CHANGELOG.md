@@ -1,7 +1,6 @@
-# next
+# `v2019.6.27`
 
 New prefixes:
-
 
 Add `dtype:` prefix and vocabulary.
 Add `vaem:` prefix and vocabulary.
