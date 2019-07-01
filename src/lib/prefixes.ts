@@ -60,6 +60,7 @@ export default {
   wdrs: 'http://www.w3.org/2007/05/powder-s#',
   wgs: 'http://www.w3.org/2003/01/geo/wgs84_pos#',
   xhv: 'http://www.w3.org/1999/xhtml/vocab#',
+  xkos: 'http://rdf-vocabulary.ddialliance.org/xkos#',
   xml: 'http://www.w3.org/XML/1998/namespace',
   xsd: 'http://www.w3.org/2001/XMLSchema#'
 }
