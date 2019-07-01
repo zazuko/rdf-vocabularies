@@ -1,9 +1,21 @@
+# next
+
+New prefixes:
+
+Add `as:` prefix and vocabulary.  
+Add `xhv:` prefix and vocabulary.
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `as:` | 951 |
+| `xhv:` | 208 |
+
 # `v2019.6.27`
 
 New prefixes:
 
-Add `dtype:` prefix and vocabulary.
-Add `vaem:` prefix and vocabulary.
+Add `dtype:` prefix and vocabulary.  
+Add `vaem:` prefix and vocabulary.  
 Add `qudt:` prefix and vocabulary.  
 Add `qudtv:` prefix and vocabulary.
 

@@ -1,5 +1,5 @@
 module.exports = {
-  as: { skip: true },
+  as: { file: 'https://www.w3.org/ns/activitystreams-owl.ttl', mediaType: 'text/turtle' },
   cc: { file: 'https://creativecommons.org/schema.rdf' },
   ctag: { skip: true },
   dtype: { mediaType: 'application/rdf+xml' },
@@ -7,7 +7,7 @@ module.exports = {
   geo: { file: 'http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf' },
   gml: { skip: true },
   gtfs: { mediaType: 'text/n3' },
-  ical: { skip: true },
+  ical: { skip: true, file: 'http://www.w3.org/2002/12/cal/icaltzd.rdf', mediaType: 'application/rdf+xml' },
   qb: { mediaType: 'text/turtle' },
   qudt: {
     files: [{
@@ -85,7 +85,7 @@ module.exports = {
   void: { file: 'http://vocab.deri.ie/void.ttl' },
   wdr: { skip: true },
   wdrs: { skip: true },
-  xhv: { skip: true },
+  xhv: { file: 'https://www.w3.org/2012/pyRdfa/extract?uri=https%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%2Fvocab.xhtml&format=turtle&rdfagraph=output&vocab_expansion=false&rdfa_lite=false&embedded_rdf=true&space_preserve=true&vocab_cache=true&vocab_cache_report=false&vocab_cache_refresh=false' },
   xml: { skip: true },
   xsd: { file: 'https://raw.githubusercontent.com/ruby-rdf/rdf/develop/etc/xsd.ttl', mediaType: 'text/turtle' }
 }
