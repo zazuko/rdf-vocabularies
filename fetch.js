@@ -22,6 +22,7 @@ async function main () {
     if (mapping.skip) {
       continue
     }
+    console.log(`processing ${mapping.prefix}`)
     let dataset = await fetch(mapping)
     const graph = rdf.namedNode(mapping.uri)
     dataset = dataset.map(({ subject, predicate, object }) => rdf.quad(subject, predicate, object, graph))
