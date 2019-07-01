@@ -6,6 +6,47 @@ const RdfXmlParser = require('rdfxml-streaming-parser').RdfXmlParser
 
 formats.parsers.set('application/rdf+xml', new RdfXmlParser())
 
+function fetchWrapper (url, options, timeout) {
+  // source: https://stackoverflow.com/a/46946588/4359369
+  return new Promise((resolve, reject) => {
+    rdfFetch(url, options).then(resolve, reject)
+
+    if (timeout) {
+      const e = new Error('Connection timed out')
+      setTimeout(reject, timeout, e)
+    }
+  })
+}
+
+async function fetch (mappings) {
+  mappings = mappings.files || [mappings]
+
+  let dataset = rdf.dataset()
+
+  for (const mapping of mappings) {
+    const headers = {}
+    if (mapping.mediaType) {
+      headers['accept'] = mapping.mediaType
+    }
+    const uri = mapping.file || mapping.uri
+    try {
+      const res = await fetchWrapper(uri, { factory: rdf, formats, headers }, 5000)
+      if (!res.ok) {
+        console.warn(`${mapping.prefix}: HTTP${res.status} for ${uri}`)
+      }
+      if (mapping.mediaType) {
+        res.headers.set('content-type', mapping.mediaType)
+      }
+      const fetchedDataset = await res.dataset()
+      dataset = dataset.merge(fetchedDataset)
+    }
+    catch (err) {
+      console.warn(`${mapping.prefix}: failed fetching/processing: ${err.message}`)
+    }
+  }
+  return dataset
+}
+
 async function main () {
   const prefixes = require('./lib/node/prefixes').default
   const overrides = require('./overrides')
@@ -24,43 +65,15 @@ async function main () {
     }
     console.log(`processing ${mapping.prefix}`)
     let dataset = await fetch(mapping)
-    const graph = rdf.namedNode(mapping.uri)
-    dataset = dataset.map(({ subject, predicate, object }) => rdf.quad(subject, predicate, object, graph))
+    if (dataset.size) {
+      const graph = rdf.namedNode(mapping.uri)
+      dataset = dataset.map(({ subject, predicate, object }) => rdf.quad(subject, predicate, object, graph))
 
-    const file = `./ontologies/${mapping.prefix}.nq`
-    fs.writeFileSync(file, dataset.toCanonical())
-    console.log(`${mapping.prefix}: wrote ${dataset.size} quads to ${file}`)
-  }
-}
-
-async function fetch (mappings) {
-  mappings = mappings.files || [mappings]
-
-  let dataset = rdf.dataset()
-
-  for (const mapping of mappings) {
-    const headers = {}
-    if (mapping.mediaType) {
-      headers['accept'] = mapping.mediaType
-    }
-    const uri = mapping.file || mapping.uri
-    try {
-      const res = await rdfFetch(uri, { factory: rdf, formats, headers })
-      if (!res.ok) {
-        console.warn(`${mapping.prefix}: HTTP${res.status} for ${uri}`)
-      }
-      if (mapping.mediaType) {
-        res.headers.set('content-type', mapping.mediaType)
-      }
-      const fetchedDataset = await res.dataset()
-      dataset = dataset.merge(fetchedDataset)
-    }
-    catch (err) {
-      console.warn(`${mapping.prefix}: failed fetching/processing`)
-      throw err
+      const file = `./ontologies/${mapping.prefix}.nq`
+      fs.writeFileSync(file, dataset.toCanonical())
+      console.log(`${mapping.prefix}: wrote ${dataset.size} quads to ${file}`)
     }
   }
-  return dataset
 }
 
 Promise.resolve().then(() => main())
