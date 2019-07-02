@@ -79,7 +79,6 @@ module.exports = {
   schema: { file: 'http://schema.org/version/latest/schema.nt' },
   sdmx: { mediaType: 'text/turtle' },
   sf: { skip: true },
-  sioc: { skip: true },
   v: { skip: true },
   vaem: { mediaType: 'application/rdf+xml' },
   void: { file: 'http://vocab.deri.ie/void.ttl' },
