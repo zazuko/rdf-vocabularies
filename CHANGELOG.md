@@ -16,6 +16,12 @@ Add `xkos:` prefix and vocabulary.
 | `xhv:` | 208 |
 | `xkos:` | 327 |
 
+Updated prefixes:
+
+| Prefix | #Quads (#quads in previous version) |
+| ---- | ---- |
+| `qudtv` | 13791 (13790) |
+
 Other changes:
 
 `dtype` and `vaem` had incorrect base IRI, this release fixes them:
