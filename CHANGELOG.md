@@ -14,6 +14,17 @@ Add `xkos:` prefix and vocabulary.
 | `xhv:` | 208 |
 | `xkos:` | 327 |
 
+Other changes:
+
+`dtype` and `vaem` had incorrect base IRI, this release fixes them:
+
+```diff
+- dtype: 'http://www.linkedmodel.org/schema/dtype',
++ dtype: 'http://www.linkedmodel.org/schema/dtype#',
+- vaem: 'http://www.linkedmodel.org/schema/vaem',
++ vaem: 'http://www.linkedmodel.org/schema/vaem#',
+```
+
 # `v2019.6.27`
 
 New prefixes:
