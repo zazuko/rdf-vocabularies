@@ -7,7 +7,7 @@ module.exports = {
   geo: { file: 'http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf' },
   gml: { skip: true },
   gtfs: { mediaType: 'text/n3' },
-  ical: { skip: true, file: 'http://www.w3.org/2002/12/cal/icaltzd.rdf', mediaType: 'application/rdf+xml' },
+  ical: { file: 'http://www.w3.org/2002/12/cal/icaltzd.rdf', mediaType: 'application/rdf+xml' },
   qb: { mediaType: 'text/turtle' },
   qudt: {
     files: [{

@@ -3,12 +3,14 @@
 New prefixes:
 
 Add `as:` prefix and vocabulary.  
+Add `ical:` prefix and vocabulary.  
 Add `xhv:` prefix and vocabulary.  
 Add `xkos:` prefix and vocabulary.
 
 | Prefix | #Quads |
 | ---- | ---- |
 | `as:` | 951 |
+| `ical:` | 1255 |
 | `xhv:` | 208 |
 | `xkos:` | 327 |
 
