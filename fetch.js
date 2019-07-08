@@ -4,7 +4,7 @@ const formats = require('@rdfjs/formats-common')
 const rdfFetch = require('@rdfjs/fetch-lite')
 const RdfXmlParser = require('rdfxml-streaming-parser').RdfXmlParser
 
-formats.parsers.set('application/rdf+xml', new RdfXmlParser())
+formats.parsers.set('application/rdf+xml', new RdfXmlParser({ allowDuplicateRdfIds: true }))
 
 function fetchWrapper (url, options, timeout) {
   // source: https://stackoverflow.com/a/46946588/4359369
