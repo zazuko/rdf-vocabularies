@@ -3104,7 +3104,7 @@
 <http://schema.org/accessModeSufficient> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1100> <http://schema.org/> .
 <http://schema.org/accessModeSufficient> <http://schema.org/category> "issue-1110" <http://schema.org/> .
 <http://schema.org/accessModeSufficient> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
-<http://schema.org/accessModeSufficient> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/accessModeSufficient> <http://schema.org/rangeIncludes> <http://schema.org/ItemList> <http://schema.org/> .
 <http://schema.org/accessModeSufficient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/accessModeSufficient> <http://www.w3.org/2000/01/rdf-schema#comment> "A list of single or combined accessModes that are sufficient to understand all the intellectual content of a resource. Expected values include:  auditory, tactile, textual, visual." <http://schema.org/> .
 <http://schema.org/accessModeSufficient> <http://www.w3.org/2000/01/rdf-schema#label> "accessModeSufficient" <http://schema.org/> .
@@ -3499,6 +3499,7 @@
 <http://schema.org/arrivalTerminal> <http://www.w3.org/2000/01/rdf-schema#label> "arrivalTerminal" <http://schema.org/> .
 <http://schema.org/arrivalTime> <http://schema.org/domainIncludes> <http://schema.org/Trip> <http://schema.org/> .
 <http://schema.org/arrivalTime> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
+<http://schema.org/arrivalTime> <http://schema.org/rangeIncludes> <http://schema.org/Time> <http://schema.org/> .
 <http://schema.org/arrivalTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/arrivalTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The expected arrival time." <http://schema.org/> .
 <http://schema.org/arrivalTime> <http://www.w3.org/2000/01/rdf-schema#label> "arrivalTime" <http://schema.org/> .
@@ -3623,7 +3624,9 @@
 <http://schema.org/availabilityEnds> <http://schema.org/domainIncludes> <http://schema.org/ActionAccessSpecification> <http://schema.org/> .
 <http://schema.org/availabilityEnds> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .
 <http://schema.org/availabilityEnds> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
+<http://schema.org/availabilityEnds> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/availabilityEnds> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
+<http://schema.org/availabilityEnds> <http://schema.org/rangeIncludes> <http://schema.org/Time> <http://schema.org/> .
 <http://schema.org/availabilityEnds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/availabilityEnds> <http://www.w3.org/2000/01/rdf-schema#comment> "The end of the availability of the product or service included in the offer." <http://schema.org/> .
 <http://schema.org/availabilityEnds> <http://www.w3.org/2000/01/rdf-schema#label> "availabilityEnds" <http://schema.org/> .
@@ -3633,7 +3636,9 @@
 <http://schema.org/availabilityStarts> <http://schema.org/domainIncludes> <http://schema.org/ActionAccessSpecification> <http://schema.org/> .
 <http://schema.org/availabilityStarts> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .
 <http://schema.org/availabilityStarts> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
+<http://schema.org/availabilityStarts> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/availabilityStarts> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
+<http://schema.org/availabilityStarts> <http://schema.org/rangeIncludes> <http://schema.org/Time> <http://schema.org/> .
 <http://schema.org/availabilityStarts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/availabilityStarts> <http://www.w3.org/2000/01/rdf-schema#comment> "The beginning of the availability of the product or service included in the offer." <http://schema.org/> .
 <http://schema.org/availabilityStarts> <http://www.w3.org/2000/01/rdf-schema#label> "availabilityStarts" <http://schema.org/> .
@@ -4059,12 +4064,14 @@
 <http://schema.org/checkinTime> <http://schema.org/domainIncludes> <http://schema.org/LodgingBusiness> <http://schema.org/> .
 <http://schema.org/checkinTime> <http://schema.org/domainIncludes> <http://schema.org/LodgingReservation> <http://schema.org/> .
 <http://schema.org/checkinTime> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
+<http://schema.org/checkinTime> <http://schema.org/rangeIncludes> <http://schema.org/Time> <http://schema.org/> .
 <http://schema.org/checkinTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/checkinTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The earliest someone may check into a lodging establishment." <http://schema.org/> .
 <http://schema.org/checkinTime> <http://www.w3.org/2000/01/rdf-schema#label> "checkinTime" <http://schema.org/> .
 <http://schema.org/checkoutTime> <http://schema.org/domainIncludes> <http://schema.org/LodgingBusiness> <http://schema.org/> .
 <http://schema.org/checkoutTime> <http://schema.org/domainIncludes> <http://schema.org/LodgingReservation> <http://schema.org/> .
 <http://schema.org/checkoutTime> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
+<http://schema.org/checkoutTime> <http://schema.org/rangeIncludes> <http://schema.org/Time> <http://schema.org/> .
 <http://schema.org/checkoutTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/checkoutTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The latest someone may check out of a lodging establishment." <http://schema.org/> .
 <http://schema.org/checkoutTime> <http://www.w3.org/2000/01/rdf-schema#label> "checkoutTime" <http://schema.org/> .
@@ -4432,11 +4439,13 @@
 <http://schema.org/dateCreated> <http://www.w3.org/2000/01/rdf-schema#comment> "The date on which the CreativeWork was created or the item was added to a DataFeed." <http://schema.org/> .
 <http://schema.org/dateCreated> <http://www.w3.org/2000/01/rdf-schema#label> "dateCreated" <http://schema.org/> .
 <http://schema.org/dateDeleted> <http://schema.org/domainIncludes> <http://schema.org/DataFeedItem> <http://schema.org/> .
+<http://schema.org/dateDeleted> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/dateDeleted> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/dateDeleted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/dateDeleted> <http://www.w3.org/2000/01/rdf-schema#comment> "The datetime the item was removed from the DataFeed." <http://schema.org/> .
 <http://schema.org/dateDeleted> <http://www.w3.org/2000/01/rdf-schema#label> "dateDeleted" <http://schema.org/> .
 <http://schema.org/dateIssued> <http://schema.org/domainIncludes> <http://schema.org/Ticket> <http://schema.org/> .
+<http://schema.org/dateIssued> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/dateIssued> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/dateIssued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/dateIssued> <http://www.w3.org/2000/01/rdf-schema#comment> "The date the ticket was issued." <http://schema.org/> .
@@ -4459,6 +4468,7 @@
 <http://schema.org/datePublished> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of first broadcast/publication." <http://schema.org/> .
 <http://schema.org/datePublished> <http://www.w3.org/2000/01/rdf-schema#label> "datePublished" <http://schema.org/> .
 <http://schema.org/dateRead> <http://schema.org/domainIncludes> <http://schema.org/Message> <http://schema.org/> .
+<http://schema.org/dateRead> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/dateRead> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/dateRead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/dateRead> <http://www.w3.org/2000/01/rdf-schema#comment> "The date/time at which the message has been read by the recipient if a single recipient exists." <http://schema.org/> .
@@ -4570,6 +4580,7 @@
 <http://schema.org/departureTerminal> <http://www.w3.org/2000/01/rdf-schema#label> "departureTerminal" <http://schema.org/> .
 <http://schema.org/departureTime> <http://schema.org/domainIncludes> <http://schema.org/Trip> <http://schema.org/> .
 <http://schema.org/departureTime> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
+<http://schema.org/departureTime> <http://schema.org/rangeIncludes> <http://schema.org/Time> <http://schema.org/> .
 <http://schema.org/departureTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/departureTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The expected departure time." <http://schema.org/> .
 <http://schema.org/departureTime> <http://www.w3.org/2000/01/rdf-schema#label> "departureTime" <http://schema.org/> .
@@ -4677,6 +4688,7 @@
 <http://schema.org/distribution> <http://www.w3.org/2000/01/rdf-schema#label> "distribution" <http://schema.org/> .
 <http://schema.org/doorTime> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
 <http://schema.org/doorTime> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
+<http://schema.org/doorTime> <http://schema.org/rangeIncludes> <http://schema.org/Time> <http://schema.org/> .
 <http://schema.org/doorTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/doorTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The time admission will commence." <http://schema.org/> .
 <http://schema.org/doorTime> <http://www.w3.org/2000/01/rdf-schema#label> "doorTime" <http://schema.org/> .
@@ -4896,6 +4908,7 @@
 <http://schema.org/endTime> <http://schema.org/domainIncludes> <http://schema.org/FoodEstablishmentReservation> <http://schema.org/> .
 <http://schema.org/endTime> <http://schema.org/domainIncludes> <http://schema.org/MediaObject> <http://schema.org/> .
 <http://schema.org/endTime> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
+<http://schema.org/endTime> <http://schema.org/rangeIncludes> <http://schema.org/Time> <http://schema.org/> .
 <http://schema.org/endTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/endTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The endTime of something. For a reserved event or service (e.g. FoodEstablishmentReservation), the time that it is expected to end. For actions that span a period of time, when the action was performed. e.g. John wrote a book from January to <em>December</em>. For media, including audio and video, it's the time offset of the end of a clip within a larger file.<br/><br/>\n\nNote that Event uses startDate/endDate instead of startTime/endTime, even when describing dates with times. This situation may be clarified in future revisions." <http://schema.org/> .
 <http://schema.org/endTime> <http://www.w3.org/2000/01/rdf-schema#label> "endTime" <http://schema.org/> .
@@ -5019,11 +5032,13 @@
 <http://schema.org/exifData> <http://www.w3.org/2000/01/rdf-schema#comment> "exif data for this object." <http://schema.org/> .
 <http://schema.org/exifData> <http://www.w3.org/2000/01/rdf-schema#label> "exifData" <http://schema.org/> .
 <http://schema.org/expectedArrivalFrom> <http://schema.org/domainIncludes> <http://schema.org/ParcelDelivery> <http://schema.org/> .
+<http://schema.org/expectedArrivalFrom> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/expectedArrivalFrom> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/expectedArrivalFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/expectedArrivalFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "The earliest date the package may arrive." <http://schema.org/> .
 <http://schema.org/expectedArrivalFrom> <http://www.w3.org/2000/01/rdf-schema#label> "expectedArrivalFrom" <http://schema.org/> .
 <http://schema.org/expectedArrivalUntil> <http://schema.org/domainIncludes> <http://schema.org/ParcelDelivery> <http://schema.org/> .
+<http://schema.org/expectedArrivalUntil> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/expectedArrivalUntil> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/expectedArrivalUntil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/expectedArrivalUntil> <http://www.w3.org/2000/01/rdf-schema#comment> "The latest date the package may arrive." <http://schema.org/> .
@@ -5402,6 +5417,7 @@
 <http://schema.org/gtin12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/gtin12> <http://www.w3.org/2000/01/rdf-schema#comment> "The GTIN-12 code of the product, or the product to which the offer refers. The GTIN-12 is the 12-digit GS1 Identification Key composed of a U.P.C. Company Prefix, Item Reference, and Check Digit used to identify trade items. See <a href=\"http://www.gs1.org/barcodes/technical/idkeys/gtin\">GS1 GTIN Summary</a> for more details." <http://schema.org/> .
 <http://schema.org/gtin12> <http://www.w3.org/2000/01/rdf-schema#label> "gtin12" <http://schema.org/> .
+<http://schema.org/gtin12> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/gtin> <http://schema.org/> .
 <http://schema.org/gtin12> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/identifier> <http://schema.org/> .
 <http://schema.org/gtin13> <http://purl.org/dc/terms/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms> <http://schema.org/> .
 <http://schema.org/gtin13> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .
@@ -5411,6 +5427,7 @@
 <http://schema.org/gtin13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/gtin13> <http://www.w3.org/2000/01/rdf-schema#comment> "The GTIN-13 code of the product, or the product to which the offer refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former 12-digit UPC codes can be converted into a GTIN-13 code by simply adding a preceeding zero. See <a href=\"http://www.gs1.org/barcodes/technical/idkeys/gtin\">GS1 GTIN Summary</a> for more details." <http://schema.org/> .
 <http://schema.org/gtin13> <http://www.w3.org/2000/01/rdf-schema#label> "gtin13" <http://schema.org/> .
+<http://schema.org/gtin13> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/gtin> <http://schema.org/> .
 <http://schema.org/gtin13> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/identifier> <http://schema.org/> .
 <http://schema.org/gtin14> <http://purl.org/dc/terms/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms> <http://schema.org/> .
 <http://schema.org/gtin14> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .
@@ -5420,6 +5437,7 @@
 <http://schema.org/gtin14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/gtin14> <http://www.w3.org/2000/01/rdf-schema#comment> "The GTIN-14 code of the product, or the product to which the offer refers. See <a href=\"http://www.gs1.org/barcodes/technical/idkeys/gtin\">GS1 GTIN Summary</a> for more details." <http://schema.org/> .
 <http://schema.org/gtin14> <http://www.w3.org/2000/01/rdf-schema#label> "gtin14" <http://schema.org/> .
+<http://schema.org/gtin14> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/gtin> <http://schema.org/> .
 <http://schema.org/gtin14> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/identifier> <http://schema.org/> .
 <http://schema.org/gtin8> <http://purl.org/dc/terms/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms> <http://schema.org/> .
 <http://schema.org/gtin8> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .
@@ -5429,6 +5447,7 @@
 <http://schema.org/gtin8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/gtin8> <http://www.w3.org/2000/01/rdf-schema#comment> "The <a href=\"http://apps.gs1.org/GDD/glossary/Pages/GTIN-8.aspx\">GTIN-8</a> code of the product, or the product to which the offer refers. This code is also known as EAN/UCC-8 or 8-digit EAN. See <a href=\"http://www.gs1.org/barcodes/technical/idkeys/gtin\">GS1 GTIN Summary</a> for more details." <http://schema.org/> .
 <http://schema.org/gtin8> <http://www.w3.org/2000/01/rdf-schema#label> "gtin8" <http://schema.org/> .
+<http://schema.org/gtin8> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/gtin> <http://schema.org/> .
 <http://schema.org/gtin8> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/identifier> <http://schema.org/> .
 <http://schema.org/hasBroadcastChannel> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1004> <http://schema.org/> .
 <http://schema.org/hasBroadcastChannel> <http://schema.org/category> "issue-1004" <http://schema.org/> .
@@ -6609,6 +6628,7 @@
 <http://schema.org/option> <http://www.w3.org/2000/01/rdf-schema#label> "option" <http://schema.org/> .
 <http://schema.org/option> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/object> <http://schema.org/> .
 <http://schema.org/orderDate> <http://schema.org/domainIncludes> <http://schema.org/Order> <http://schema.org/> .
+<http://schema.org/orderDate> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/orderDate> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/orderDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/orderDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date order was placed." <http://schema.org/> .
@@ -6821,6 +6841,7 @@
 <http://schema.org/paymentDue> <http://www.w3.org/2000/01/rdf-schema#label> "paymentDue" <http://schema.org/> .
 <http://schema.org/paymentDueDate> <http://schema.org/domainIncludes> <http://schema.org/Invoice> <http://schema.org/> .
 <http://schema.org/paymentDueDate> <http://schema.org/domainIncludes> <http://schema.org/Order> <http://schema.org/> .
+<http://schema.org/paymentDueDate> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/paymentDueDate> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/paymentDueDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/paymentDueDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date that payment is due." <http://schema.org/> .
@@ -8022,6 +8043,7 @@
 <http://schema.org/startTime> <http://schema.org/domainIncludes> <http://schema.org/FoodEstablishmentReservation> <http://schema.org/> .
 <http://schema.org/startTime> <http://schema.org/domainIncludes> <http://schema.org/MediaObject> <http://schema.org/> .
 <http://schema.org/startTime> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
+<http://schema.org/startTime> <http://schema.org/rangeIncludes> <http://schema.org/Time> <http://schema.org/> .
 <http://schema.org/startTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/startTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The startTime of something. For a reserved event or service (e.g. FoodEstablishmentReservation), the time that it is expected to start. For actions that span a period of time, when the action was performed. e.g. John wrote a book from <em>January</em> to December. For media, including audio and video, it's the time offset of the start of a clip within a larger file.<br/><br/>\n\nNote that Event uses startDate/endDate instead of startTime/endTime, even when describing dates with times. This situation may be clarified in future revisions." <http://schema.org/> .
 <http://schema.org/startTime> <http://www.w3.org/2000/01/rdf-schema#label> "startTime" <http://schema.org/> .
@@ -8094,7 +8116,7 @@
 <http://schema.org/subjectOf> <http://schema.org/rangeIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/subjectOf> <http://schema.org/rangeIncludes> <http://schema.org/Event> <http://schema.org/> .
 <http://schema.org/subjectOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/subjectOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A CreativeWork or Event about this Thing.." <http://schema.org/> .
+<http://schema.org/subjectOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A CreativeWork or Event about this Thing." <http://schema.org/> .
 <http://schema.org/subjectOf> <http://www.w3.org/2000/01/rdf-schema#label> "subjectOf" <http://schema.org/> .
 <http://schema.org/subtitleLanguage> <http://schema.org/domainIncludes> <http://schema.org/Movie> <http://schema.org/> .
 <http://schema.org/subtitleLanguage> <http://schema.org/domainIncludes> <http://schema.org/ScreeningEvent> <http://schema.org/> .
@@ -8497,6 +8519,7 @@
 <http://schema.org/validFrom> <http://schema.org/domainIncludes> <http://schema.org/OpeningHoursSpecification> <http://schema.org/> .
 <http://schema.org/validFrom> <http://schema.org/domainIncludes> <http://schema.org/Permit> <http://schema.org/> .
 <http://schema.org/validFrom> <http://schema.org/domainIncludes> <http://schema.org/PriceSpecification> <http://schema.org/> .
+<http://schema.org/validFrom> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/validFrom> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/validFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/validFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "The date when the item becomes valid." <http://schema.org/> .
@@ -8517,6 +8540,7 @@
 <http://schema.org/validThrough> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
 <http://schema.org/validThrough> <http://schema.org/domainIncludes> <http://schema.org/OpeningHoursSpecification> <http://schema.org/> .
 <http://schema.org/validThrough> <http://schema.org/domainIncludes> <http://schema.org/PriceSpecification> <http://schema.org/> .
+<http://schema.org/validThrough> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/validThrough> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/validThrough> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/validThrough> <http://www.w3.org/2000/01/rdf-schema#comment> "The date after when the item is not valid. For example the end of an offer, salary period, or a period of opening hours." <http://schema.org/> .

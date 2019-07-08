@@ -21,6 +21,7 @@ Updated prefixes:
 | Prefix | #Quads (#quads in previous version) |
 | ---- | ---- |
 | `qudtv` | 13791 (13790) |
+| `schema` | 8833 (8809) |
 
 Other changes:
 
