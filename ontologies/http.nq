@@ -1,0 +1,230 @@
+<http://www.w3.org/2011/http#Connection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Connection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Connection> <http://www.w3.org/2000/01/rdf-schema#comment> "A connection used for HTTP transfer."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Connection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Connection> <http://www.w3.org/2000/01/rdf-schema#label> "Connection"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#EntityHeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#EntityHeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#EntityHeader> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity header in an HTTP message."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#EntityHeader> <http://www.w3.org/2000/01/rdf-schema#label> "Entity Header"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#EntityHeader> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2011/http#MessageHeader> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#GeneralHeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#GeneralHeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#GeneralHeader> <http://www.w3.org/2000/01/rdf-schema#comment> "A general header in an HTTP message."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#GeneralHeader> <http://www.w3.org/2000/01/rdf-schema#label> "General Header"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#GeneralHeader> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2011/http#MessageHeader> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#HeaderElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#HeaderElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#HeaderElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of a deconstructed header value."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#HeaderElement> <http://www.w3.org/2000/01/rdf-schema#label> "Header Element"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#HeaderName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#HeaderName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#HeaderName> <http://www.w3.org/2000/01/rdf-schema#comment> "A header name."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#HeaderName> <http://www.w3.org/2000/01/rdf-schema#label> "Header Name"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Message> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Message> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Message> <http://www.w3.org/2000/01/rdf-schema#comment> "An HTTP message."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Message> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Message> <http://www.w3.org/2000/01/rdf-schema#label> "Message"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#MessageHeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#MessageHeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#MessageHeader> <http://www.w3.org/2000/01/rdf-schema#comment> "A header in an HTTP message."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#MessageHeader> <http://www.w3.org/2000/01/rdf-schema#label> "Message Header"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Method> <http://www.w3.org/2000/01/rdf-schema#comment> "The HTTP method used for the request."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Method> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Method> <http://www.w3.org/2000/01/rdf-schema#label> "Method"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Parameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Parameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Parameter> <http://www.w3.org/2000/01/rdf-schema#comment> "A parameter for a part of a header value."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Parameter> <http://www.w3.org/2000/01/rdf-schema#label> "Parameter"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Request> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Request> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Request> <http://www.w3.org/2000/01/rdf-schema#comment> "An HTTP request."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Request> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Request> <http://www.w3.org/2000/01/rdf-schema#label> "Request"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Request> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2011/http#Message> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#RequestHeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#RequestHeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#RequestHeader> <http://www.w3.org/2000/01/rdf-schema#comment> "A header in an HTTP request message."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#RequestHeader> <http://www.w3.org/2000/01/rdf-schema#label> "Request Header"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#RequestHeader> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2011/http#MessageHeader> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Response> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Response> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Response> <http://www.w3.org/2000/01/rdf-schema#comment> "An HTTP response."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Response> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Response> <http://www.w3.org/2000/01/rdf-schema#label> "Response"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#Response> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2011/http#Message> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#ResponseHeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#ResponseHeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#ResponseHeader> <http://www.w3.org/2000/01/rdf-schema#comment> "A header in an HTTP response message."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#ResponseHeader> <http://www.w3.org/2000/01/rdf-schema#label> "Response Header"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#ResponseHeader> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2011/http#MessageHeader> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#StatusCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#StatusCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#StatusCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The status code of an HTTP response."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#StatusCode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#StatusCode> <http://www.w3.org/2000/01/rdf-schema#label> "Status code"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#absolutePath> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#absolutePath> <http://www.w3.org/2000/01/rdf-schema#comment> "The absolute path sort of request URI."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#absolutePath> <http://www.w3.org/2000/01/rdf-schema#label> "Absolute path"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#absolutePath> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2011/http#requestURI> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#absoluteURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#absoluteURI> <http://www.w3.org/2000/01/rdf-schema#comment> "The absolute request URI."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#absoluteURI> <http://www.w3.org/2000/01/rdf-schema#label> "Absolute URI"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#absoluteURI> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2011/http#requestURI> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#authority> <http://www.w3.org/2000/01/rdf-schema#comment> "The authority sort of request URI."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#authority> <http://www.w3.org/2000/01/rdf-schema#label> "Authority"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#authority> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2011/http#requestURI> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#body> <http://www.w3.org/2000/01/rdf-schema#comment> "The entity body of an HTTP message."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#body> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Message> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#body> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#body> <http://www.w3.org/2000/01/rdf-schema#label> "Entity Body"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#body> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2011/content#ContentAsBase64> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#connectionAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#connectionAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#connectionAuthority> <http://www.w3.org/2000/01/rdf-schema#comment> "The authority of a connection used for the HTTP transfer."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#connectionAuthority> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Connection> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#connectionAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "Connection authority"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#connectionAuthority> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#elementName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#elementName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#elementName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of a header element."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#elementName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#HeaderElement> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#elementName> <http://www.w3.org/2000/01/rdf-schema#label> "Header element name"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#elementName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#elementValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#elementValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#elementValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of a header element."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#elementValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#HeaderElement> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#elementValue> <http://www.w3.org/2000/01/rdf-schema#label> "Header element value"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#elementValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#fieldName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#fieldName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#fieldName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of an HTTP header field."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#fieldName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#MessageHeader> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#fieldName> <http://www.w3.org/2000/01/rdf-schema#label> "Field name"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#fieldName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#fieldValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#fieldValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#fieldValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of an HTTP header field."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#fieldValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#MessageHeader> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#fieldValue> <http://www.w3.org/2000/01/rdf-schema#label> "Field value"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#fieldValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#hdrName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#hdrName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#hdrName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of an HTTP header."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#hdrName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#MessageHeader> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#hdrName> <http://www.w3.org/2000/01/rdf-schema#label> "Header name"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#hdrName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2011/http#HeaderName> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#headerElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#headerElements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#headerElements> <http://www.w3.org/2000/01/rdf-schema#comment> "The deconstructed parts of an HTTP header value."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#headerElements> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#MessageHeader> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#headerElements> <http://www.w3.org/2000/01/rdf-schema#label> "Header elements"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#headers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#headers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#headers> <http://www.w3.org/2000/01/rdf-schema#comment> "The headers in an HTTP message."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#headers> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Message> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#headers> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#headers> <http://www.w3.org/2000/01/rdf-schema#label> "Headers"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#httpVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#httpVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#httpVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "The HTTP version of an HTTP message."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#httpVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Message> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#httpVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#httpVersion> <http://www.w3.org/2000/01/rdf-schema#label> "HTTP version"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#httpVersion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#methodName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#methodName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#methodName> <http://www.w3.org/2000/01/rdf-schema#comment> "The HTTP method name used for the HTTP request."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#methodName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Request> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#methodName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#methodName> <http://www.w3.org/2000/01/rdf-schema#label> "Method name"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#methodName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#mthd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#mthd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#mthd> <http://www.w3.org/2000/01/rdf-schema#comment> "The HTTP method used for the HTTP request."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#mthd> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Request> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#mthd> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#mthd> <http://www.w3.org/2000/01/rdf-schema#label> "Method"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#mthd> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2011/http#Method> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#paramName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#paramName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#paramName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of a parameter in a part of a deconstructed HTTP header value."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#paramName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Parameter> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#paramName> <http://www.w3.org/2000/01/rdf-schema#label> "Parameter name"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#paramName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#paramValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#paramValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#paramValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The value of a parameter in a part of a deconstructed HTTP header value."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#paramValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Parameter> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#paramValue> <http://www.w3.org/2000/01/rdf-schema#label> "Parameter value"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#paramValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#params> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#params> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#params> <http://www.w3.org/2000/01/rdf-schema#comment> "The parameters in a part of a deconstructed HTTP header value."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#params> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#HeaderElement> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#params> <http://www.w3.org/2000/01/rdf-schema#label> "Header parameters"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#reasonPhrase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#reasonPhrase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#reasonPhrase> <http://www.w3.org/2000/01/rdf-schema#comment> "The reason phrase (status text) of an HTTP response."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#reasonPhrase> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Response> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#reasonPhrase> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#reasonPhrase> <http://www.w3.org/2000/01/rdf-schema#label> "Reason phrase"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#reasonPhrase> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requestURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requestURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requestURI> <http://www.w3.org/2000/01/rdf-schema#comment> "The request URI of an HTTP request."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requestURI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Request> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requestURI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requestURI> <http://www.w3.org/2000/01/rdf-schema#label> "Request URI"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requestURI> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requests> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requests> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requests> <http://www.w3.org/2000/01/rdf-schema#comment> "The HTTP requests made via a connection."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requests> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Connection> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requests> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#requests> <http://www.w3.org/2000/01/rdf-schema#label> "Requests"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#resp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#resp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#resp> <http://www.w3.org/2000/01/rdf-schema#comment> "The HTTP response sent in answer to an HTTP request."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#resp> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Request> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#resp> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#resp> <http://www.w3.org/2000/01/rdf-schema#label> "Response"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#resp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2011/http#Response> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#sc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#sc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#sc> <http://www.w3.org/2000/01/rdf-schema#comment> "The status code of an HTTP response."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#sc> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Response> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#sc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#sc> <http://www.w3.org/2000/01/rdf-schema#label> "Status code"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#sc> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2011/http#StatusCode> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The status code number."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeNumber> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#StatusCode> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeNumber> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeNumber> <http://www.w3.org/2000/01/rdf-schema#label> "Status code"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeNumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeNumber> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/identifier> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The status code value of an HTTP response."@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2011/http#Response> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ietf.org/rfc/rfc2616.txt> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Status code"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http#statusCodeValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http> <http://www.w3.org/2000/01/rdf-schema#comment> "A namespace for describing HTTP messages (http://www.w3.org/Protocols/rfc2616/rfc2616.html)"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/HTTP-in-RDF/> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http> <http://www.w3.org/2000/01/rdf-schema#label> "HTTP in RDF"@en <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/Content-in-RDF/> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/WAI/intro/earl> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http> <http://www.w3.org/2002/07/owl#imports> <http://purl.org/dc/terms/> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2011/content#> <http://www.w3.org/2011/http#> .
+<http://www.w3.org/2011/http> <http://www.w3.org/2002/07/owl#versionInfo> "Working Draft 29 April 2011"@en <http://www.w3.org/2011/http#> .
