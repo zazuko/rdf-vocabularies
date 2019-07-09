@@ -5,6 +5,8 @@ const rdfFetch = require('@rdfjs/fetch-lite')
 const RdfXmlParser = require('rdfxml-streaming-parser').RdfXmlParser
 
 formats.parsers.set('application/rdf+xml', new RdfXmlParser({ allowDuplicateRdfIds: true }))
+// we need a hack for vann: https://github.com/zazuko/rdf-vocabularies/issues/26
+formats.parsers.set('vann', new RdfXmlParser({ baseIRI: 'http://vocab.org/vann/' }))
 
 function fetchWrapper (url, options, timeout) {
   // source: https://stackoverflow.com/a/46946588/4359369

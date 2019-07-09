@@ -1,0 +1,49 @@
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/permits> <http://web.resource.org/cc/DerivativeWorks> <http://purl.org/vocab/vann/> .
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/permits> <http://web.resource.org/cc/Distribution> <http://purl.org/vocab/vann/> .
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/permits> <http://web.resource.org/cc/Reproduction> <http://purl.org/vocab/vann/> .
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/requires> <http://web.resource.org/cc/Attribution> <http://purl.org/vocab/vann/> .
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/requires> <http://web.resource.org/cc/Notice> <http://purl.org/vocab/vann/> .
+<http://creativecommons.org/licenses/by/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://web.resource.org/cc/License> <http://purl.org/vocab/vann/> .
+<http://iandavis.com/id/me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://purl.org/vocab/vann/> .
+<http://iandavis.com/id/me> <http://xmlns.com/foaf/0.1/name> "Ian Davis" <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/> <http://purl.org/dc/terms/creator> <http://iandavis.com/id/me> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/> <http://purl.org/dc/terms/date> "2010-06-07" <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/> <http://purl.org/dc/terms/description> "This document describes a vocabulary for annotating descriptions of vocabularies with examples and usage notes."@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/> <http://purl.org/dc/terms/identifier> "http://purl.org/vocab/vann/vann-vocab-20050401" <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/> <http://purl.org/dc/terms/isVersionOf> <http://purl.org/vocab/vann/> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/> <http://purl.org/dc/terms/replaces> <http://purl.org/vocab/vann/vann-vocab-20040305> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/> <http://purl.org/dc/terms/rights> "Copyright © 2005 Ian Davis" <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/> <http://purl.org/dc/terms/title> "VANN: A vocabulary for annotating vocabulary descriptions"@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "vann" <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/vocab/vann/" <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/changes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/changes> <http://www.w3.org/2000/01/rdf-schema#comment> "A reference to a resource that describes changes between this version of a vocabulary and the previous."@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/changes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/vann/> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/changes> <http://www.w3.org/2000/01/rdf-schema#label> "Changes"@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/changes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/example> <http://www.w3.org/2000/01/rdf-schema#comment> "A reference to a resource that provides an example of how this resource can be used."@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/example> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/vann/> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/example> <http://www.w3.org/2000/01/rdf-schema#label> "Example"@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/example> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/2000/01/rdf-schema#comment> "The preferred namespace prefix to use when using terms from this vocabulary in an XML document."@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/vann/> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/2000/01/rdf-schema#label> "Preferred Namespace Prefix"@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/2000/01/rdf-schema#comment> "The preferred namespace URI to use when using terms from this vocabulary in an XML document."@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/vann/> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/2000/01/rdf-schema#label> "Preferred Namespace Uri"@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/termGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/termGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "A group of related terms in a vocabulary."@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/termGroup> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/vann/> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/termGroup> <http://www.w3.org/2000/01/rdf-schema#label> "Term Group"@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/usageNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/usageNote> <http://www.w3.org/2000/01/rdf-schema#comment> "A reference to a resource that provides information on how this resource is to be used."@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/usageNote> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/vocab/vann/> <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/usageNote> <http://www.w3.org/2000/01/rdf-schema#label> "Usage Note"@en <http://purl.org/vocab/vann/> .
+<http://purl.org/vocab/vann/usageNote> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/vocab/vann/> .
+<http://vocab.org/vann/> <http://purl.org/dc/terms/type> <http://purl.org/dc/dcmitype/Text> <http://purl.org/vocab/vann/> .
+<http://vocab.org/vann/> <http://web.resource.org/cc/license> <http://creativecommons.org/licenses/by/1.0/> <http://purl.org/vocab/vann/> .
+<http://vocab.org/vann/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://web.resource.org/cc/Work> <http://purl.org/vocab/vann/> .

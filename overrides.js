@@ -82,6 +82,10 @@ module.exports = {
   sf: { skip: true },
   v: { skip: true },
   vaem: { mediaType: 'application/rdf+xml' },
+  vann: {
+    file: 'http://vocab.org/vann/vann-vocab-20100607.rdf',
+    mediaType: 'vann'
+  },
   void: { file: 'http://vocab.deri.ie/void.ttl' },
   wdr: { skip: true },
   wdrs: { skip: true },
