@@ -1,3 +1,7 @@
+# `v2019.7.9-2`
+
+Fix: `as:` nq file had the wrong graph: it should be `http:` not `https:`.
+
 # `v2019.7.9`
 
 New prefixes:
