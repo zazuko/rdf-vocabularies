@@ -54,6 +54,7 @@ export default {
   time: 'http://www.w3.org/2006/time#',
   v: 'http://rdf.data-vocabulary.org/#',
   vaem: 'http://www.linkedmodel.org/schema/vaem#',
+  vann: 'http://purl.org/vocab/vann/',
   vcard: 'http://www.w3.org/2006/vcard/ns#',
   void: 'http://rdfs.org/ns/void#',
   vs: 'http://www.w3.org/2003/06/sw-vocab-status/ns#',

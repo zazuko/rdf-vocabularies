@@ -5,6 +5,7 @@ New prefixes:
 Add `as:` prefix and vocabulary.  
 Add `http:` prefix and vocabulary.  
 Add `ical:` prefix and vocabulary.  
+Add `vann:` prefix and vocabulary.  
 Add `xhv:` prefix and vocabulary.  
 Add `xkos:` prefix and vocabulary.
 
@@ -13,6 +14,7 @@ Add `xkos:` prefix and vocabulary.
 | `as:` | 951 |
 | `http:` | 230 |
 | `ical:` | 1255 |
+| `vann:` | 49 |
 | `xhv:` | 208 |
 | `xkos:` | 327 |
 
