@@ -42,6 +42,7 @@ export default {
   rif: 'http://www.w3.org/2007/rif#',
   rr: 'http://www.w3.org/ns/r2rml#',
   rss: 'http://purl.org/rss/1.0/',
+  sem: 'http://semanticweb.cs.vu.nl/2009/11/sem/',
   schema: 'http://schema.org/',
   sd: 'http://www.w3.org/ns/sparql-service-description#',
   sdmx: 'http://purl.org/linked-data/sdmx#',
