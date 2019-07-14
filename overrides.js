@@ -77,6 +77,7 @@ module.exports = {
   rev: { skip: true },
   rif: { skip: true },
   rss: { file: 'http://purl.org/rss/1.0/schema.rdf' },
+  sem: { file: 'http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf', mediaType: 'application/rdf+xml' },
   schema: { file: 'http://schema.org/version/latest/schema.nt' },
   sdmx: { mediaType: 'text/turtle' },
   sf: { skip: true },

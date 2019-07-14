@@ -1,3 +1,11 @@
+# next
+
+Add `sem:` prefix and vocabulary.
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `sem:` | 520 |
+
 # `v2019.7.9-2`
 
 Fix: `as:` nq file had the wrong graph: it should be `http:` not `https:`.
