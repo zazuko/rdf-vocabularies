@@ -4,10 +4,6 @@ const formats = require('@rdfjs/formats-common')
 const rdfFetch = require('@rdfjs/fetch-lite')
 const RdfXmlParser = require('rdfxml-streaming-parser').RdfXmlParser
 
-formats.parsers.set('application/rdf+xml', new RdfXmlParser({ allowDuplicateRdfIds: true }))
-// we need a hack for vann: https://github.com/zazuko/rdf-vocabularies/issues/26
-formats.parsers.set('vann', new RdfXmlParser({ baseIRI: 'http://vocab.org/vann/' }))
-
 function fetchWrapper (url, options, timeout) {
   // source: https://stackoverflow.com/a/46946588/4359369
   return new Promise((resolve, reject) => {
@@ -31,6 +27,12 @@ async function fetch (mappings) {
       headers['accept'] = mapping.mediaType
     }
     const uri = mapping.file || mapping.uri
+    const xmlParserOptions = { allowDuplicateRdfIds: true }
+    if (mapping.xmlParserOptions) {
+      Object.assign(xmlParserOptions, mapping.xmlParserOptions)
+    }
+    formats.parsers.set('application/rdf+xml', new RdfXmlParser(xmlParserOptions))
+
     try {
       const res = await fetchWrapper(uri, { factory: rdf, formats, headers }, 5000)
       if (!res.ok) {

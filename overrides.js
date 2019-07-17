@@ -77,7 +77,11 @@ module.exports = {
   rev: { skip: true },
   rif: { skip: true },
   rss: { file: 'http://purl.org/rss/1.0/schema.rdf' },
-  sem: { file: 'http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf', mediaType: 'application/rdf+xml' },
+  sem: {
+    file: 'http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf',
+    mediaType: 'application/rdf+xml',
+    xmlParserOptions: { baseIRI: 'http://semanticweb.cs.vu.nl/2009/11/sem' }
+  },
   schema: { file: 'http://schema.org/version/latest/schema.nt' },
   sdmx: { mediaType: 'text/turtle' },
   sf: { skip: true },
@@ -85,7 +89,8 @@ module.exports = {
   vaem: { mediaType: 'application/rdf+xml' },
   vann: {
     file: 'http://vocab.org/vann/vann-vocab-20100607.rdf',
-    mediaType: 'vann'
+    mediaType: 'application/rdf+xml',
+    xmlParserOptions: { baseIRI: 'http://vocab.org/vann/' }
   },
   void: { file: 'http://vocab.deri.ie/void.ttl' },
   wdr: { skip: true },
