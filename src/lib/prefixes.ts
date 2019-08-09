@@ -1,4 +1,4 @@
-export default {
+const prefixes = {
   as: 'http://www.w3.org/ns/activitystreams#',
   cc: 'http://creativecommons.org/ns#',
   cnt: 'http://www.w3.org/2011/content#',
@@ -67,3 +67,12 @@ export default {
   xml: 'http://www.w3.org/XML/1998/namespace',
   xsd: 'http://www.w3.org/2001/XMLSchema#'
 }
+
+type KnownPrefixes = {
+  readonly [key in keyof typeof prefixes]: string
+}
+interface CustomPrefixes {
+  [key: string]: string;
+}
+
+export default prefixes as KnownPrefixes & CustomPrefixes
