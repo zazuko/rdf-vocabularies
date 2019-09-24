@@ -3,7 +3,7 @@
 <http://metadataregistry.org/uri/RegStatus/1008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> <http://rdaregistry.info/Elements/u/> .
 <http://metadataregistry.org/uri/RegStatus/1008> <http://www.w3.org/2004/02/skos/core#prefLabel> "Deprecated"@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/> <http://purl.org/dc/elements/1.1/title> "RDA Unconstrained properties"@en <http://rdaregistry.info/Elements/u/> .
-<http://rdaregistry.info/Elements/u/> <http://www.w3.org/2004/02/skos/core#note> "Properties derived from RDA elements and relationship designators without specific or implicit restrictions to RDA entities. Warning! This element set is under development as part of the RDA Toolkit Restructure and Redesign Project. The last stable version can be found in release v2.7.3 of RDA Vocabularies in the RDA Registry."@en <http://rdaregistry.info/Elements/u/> .
+<http://rdaregistry.info/Elements/u/> <http://www.w3.org/2004/02/skos/core#note> "Properties derived from RDA elements without specific or implicit restrictions to RDA entities."@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/> <http://xmlns.com/foaf/0.1/homepage> <http://www.rdaregistry.info/Elements/u/> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60001> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://rdaregistry.info/Elements/u/respondentI.da> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60001> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://rdaregistry.info/Elements/u/respondentOf.en> <http://rdaregistry.info/Elements/u/> .
@@ -990,7 +990,7 @@
 <http://rdaregistry.info/Elements/u/P60075> <http://www.w3.org/2000/01/rdf-schema#label> "has date of usage"@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60075> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdaregistry.info/Elements/u/P60986> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60075> <http://www.w3.org/2004/02/skos/core#definition> "Relaterer et navn til et år eller dato eller række af år eller datoer datoer knyttet til brugen af det navn, der er valgt som det foretrukne navn for en agent."@da <http://rdaregistry.info/Elements/u/> .
-<http://rdaregistry.info/Elements/u/P60075> <http://www.w3.org/2004/02/skos/core#definition> "Relates an appellation of an entity to a date or range of dates associated with the use of the appellation."@en <http://rdaregistry.info/Elements/u/> .
+<http://rdaregistry.info/Elements/u/P60075> <http://www.w3.org/2004/02/skos/core#definition> "Relates a nomen to a date or range of dates that is associated with the use of an appellation of an entity."@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60076> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://rdaregistry.info/Elements/u/aktivitetsperiodeForAgent.da> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60076> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://rdaregistry.info/Elements/u/periodOfActivityOfAgent.en> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60076> <http://metadataregistry.org/uri/profile/regap/name> "aktivitetsperiodeForAgent"@da <http://rdaregistry.info/Elements/u/> .
@@ -10070,7 +10070,7 @@
 <http://rdaregistry.info/Elements/u/P60688> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://rdaregistry.info/Elements/u/sponosreretEntitet.da> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60688> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://rdaregistry.info/Elements/u/sponsoringAgentOfAgent.en> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60688> <http://metadataregistry.org/uri/profile/regap/name> "sponosreretEntitet"@da <http://rdaregistry.info/Elements/u/> .
-<http://rdaregistry.info/Elements/u/P60688> <http://metadataregistry.org/uri/profile/regap/name> "sponsoringAgentOfAgent"@en <http://rdaregistry.info/Elements/u/> .
+<http://rdaregistry.info/Elements/u/P60688> <http://metadataregistry.org/uri/profile/regap/name> "sponsoredAgentOfAgent"@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60688> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60688> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60688> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdaregistry.info/Elements/u/> <http://rdaregistry.info/Elements/u/> .
@@ -13367,7 +13367,7 @@
 <http://rdaregistry.info/Elements/u/P60928> <http://www.w3.org/2000/01/rdf-schema#label> "is identifier for entity of"@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60928> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdaregistry.info/Elements/u/P60911> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60928> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdaregistry.info/Elements/u/P60919> <http://rdaregistry.info/Elements/u/> .
-<http://rdaregistry.info/Elements/u/P60928> <http://www.w3.org/2004/02/skos/core#definition> "Relates an appellation that is a reference code taken from a vocabulary encoding scheme to an entity."@en <http://rdaregistry.info/Elements/u/> .
+<http://rdaregistry.info/Elements/u/P60928> <http://www.w3.org/2004/02/skos/core#definition> "Relates a nomen to an entity that has a reference code taken from a vocabulary encoding scheme."@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60929> <http://metadataregistry.org/uri/profile/regap/hasSubproperty> <http://rdaregistry.info/Elements/u/P60922> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60929> <http://metadataregistry.org/uri/profile/regap/hasSubproperty> <http://rdaregistry.info/Elements/u/P60923> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60929> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://rdaregistry.info/Elements/u/nameOfPlaceOf.en> <http://rdaregistry.info/Elements/u/> .
@@ -13378,7 +13378,7 @@
 <http://rdaregistry.info/Elements/u/P60929> <http://www.w3.org/2000/01/rdf-schema#label> "is name of place of"@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60929> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdaregistry.info/Elements/u/P60947> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60929> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdaregistry.info/Elements/u/P60366> <http://rdaregistry.info/Elements/u/> .
-<http://rdaregistry.info/Elements/u/P60929> <http://www.w3.org/2004/02/skos/core#definition> "Relates an appellation of place in natural language and phrasing used in common discourse to a place."@en <http://rdaregistry.info/Elements/u/> .
+<http://rdaregistry.info/Elements/u/P60929> <http://www.w3.org/2004/02/skos/core#definition> "Relates a nomen to a place that has a name in natural language and phrasing used in common discourse."@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60930> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://rdaregistry.info/Elements/u/preferredNameOfTimespan.en> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60930> <http://metadataregistry.org/uri/profile/regap/name> "preferredNameOfTimespan"@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60930> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> <http://rdaregistry.info/Elements/u/> .
@@ -13398,7 +13398,7 @@
 <http://rdaregistry.info/Elements/u/P60931> <http://www.w3.org/2000/01/rdf-schema#label> "is name of timespan of"@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60931> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://rdaregistry.info/Elements/u/P60947> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60931> <http://www.w3.org/2002/07/owl#inverseOf> <http://rdaregistry.info/Elements/u/P60935> <http://rdaregistry.info/Elements/u/> .
-<http://rdaregistry.info/Elements/u/P60931> <http://www.w3.org/2004/02/skos/core#definition> "Relates an appellation of timespan in natural language and phrasing used in common discourse.to a timespan."@en <http://rdaregistry.info/Elements/u/> .
+<http://rdaregistry.info/Elements/u/P60931> <http://www.w3.org/2004/02/skos/core#definition> "Relates a nomen to a timespan that has a name in natural language and phrasing used in common discourse."@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60932> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://rdaregistry.info/Elements/u/variantNameOfTimespanOf.en> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60932> <http://metadataregistry.org/uri/profile/regap/name> "variantNameOfTimespanOf"@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P60932> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> <http://rdaregistry.info/Elements/u/> .
@@ -15356,11 +15356,11 @@
 <http://rdaregistry.info/Elements/u/P61120> <http://metadataregistry.org/uri/profile/regap/hasSubproperty> <http://rdaregistry.info/Elements/n/P80166> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P61120> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://rdaregistry.info/Elements/u/dateOfUsage.en> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P61120> <http://metadataregistry.org/uri/profile/regap/name> "dateOfUsage" <http://rdaregistry.info/Elements/u/> .
-<http://rdaregistry.info/Elements/u/P61120> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1001> <http://rdaregistry.info/Elements/u/> .
+<http://rdaregistry.info/Elements/u/P61120> <http://metadataregistry.org/uri/profile/regap/status> <http://metadataregistry.org/uri/RegStatus/1008> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P61120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P61120> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdaregistry.info/Elements/u/> <http://rdaregistry.info/Elements/u/> .
-<http://rdaregistry.info/Elements/u/P61120> <http://www.w3.org/2000/01/rdf-schema#label> "has date of usage"@en <http://rdaregistry.info/Elements/u/> .
-<http://rdaregistry.info/Elements/u/P61120> <http://www.w3.org/2004/02/skos/core#definition> "Relates a nomen to a date or range of dates that is associated with the use of an appellation of an entity."@en <http://rdaregistry.info/Elements/u/> .
+<http://rdaregistry.info/Elements/u/P61120> <http://www.w3.org/2000/01/rdf-schema#label> "has date of usage (Deprecated)"@en <http://rdaregistry.info/Elements/u/> .
+<http://rdaregistry.info/Elements/u/P61120> <http://www.w3.org/2004/02/skos/core#definition> "Relates a nomen to a date or range of dates that is associated with the use of an appellation of an entity. (Deprecated)"@en <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P61121> <http://metadataregistry.org/uri/profile/regap/hasSubproperty> <http://rdaregistry.info/Elements/n/P80060> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P61121> <http://metadataregistry.org/uri/profile/regap/lexicalAlias> <http://rdaregistry.info/Elements/u/derivation.en> <http://rdaregistry.info/Elements/u/> .
 <http://rdaregistry.info/Elements/u/P61121> <http://metadataregistry.org/uri/profile/regap/name> "derivation" <http://rdaregistry.info/Elements/u/> .
