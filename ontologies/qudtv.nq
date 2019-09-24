@@ -201,7 +201,7 @@
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://purl.org/dc/terms/created> "2011-04-20"^^<http://www.w3.org/2001/XMLSchema#date> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://purl.org/dc/terms/creator> "Ralph Hodgson" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://purl.org/dc/terms/description> "Electromagnetism Units Ontology Version 2.0" <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://purl.org/dc/terms/modified> "2019-06-06T18:43:11.875-04:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://purl.org/dc/terms/modified> "2019-07-25T18:43:11.875-04:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://purl.org/dc/terms/rights> "The QUDT Ontologies are issued under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0), available at https://creativecommons.org/licenses/by-sa/4.0/. Attribution should be made to QUDT.org" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://purl.org/dc/terms/subject> "Units-Electromagnetism" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://purl.org/dc/terms/title> "Electromagnetism Units Ontology Version 2.0" <http://qudt.org/vocab/qudt/> .
@@ -217,7 +217,7 @@
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://www.linkedmodel.org/schema/vaem#namespace> "http://qudt.org/vocab/unit/" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://www.linkedmodel.org/schema/vaem#namespacePrefix> "unit" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://www.linkedmodel.org/schema/vaem#owner> "qudt.org" <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://www.linkedmodel.org/schema/vaem#previousPublishedVersion> "http://qudt.org/doc/2017/DOC_VOCAB-UNITS-ELECTROMAGNETISM-v2.0.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://www.linkedmodel.org/schema/vaem#previousPublishedVersion> "http://qudt.org/doc/2019/DOC_VOCAB-UNITS-ELECTROMAGNETISM-v2.0.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://www.linkedmodel.org/schema/vaem#revision> "2.0" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://www.linkedmodel.org/schema/vaem#title> "Electromagnetism Units Ontology Version 2.0" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-ELECTROMAGNETISM> <http://www.linkedmodel.org/schema/vaem#turtleFileURL> "http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-ELECTROMAGNETISM-v2.0.ttl"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
@@ -327,7 +327,7 @@
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://purl.org/dc/terms/contributor> "Jack Hodges" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://purl.org/dc/terms/contributor> "Steve Ray" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://purl.org/dc/terms/creator> "James E. Masters" <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://purl.org/dc/terms/modified> "2019-06-06"^^<http://www.w3.org/2001/XMLSchema#date> <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://purl.org/dc/terms/modified> "2019-07-25"^^<http://www.w3.org/2001/XMLSchema#date> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://purl.org/dc/terms/rights> "The QUDT Ontologies are issued under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0), available at https://creativecommons.org/licenses/by-sa/4.0/. Attribution should be made to QUDT.org" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://purl.org/dc/terms/subject> "Units-Mechanics" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#dateCreated> "2010-12-30T21:26:38"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://qudt.org/vocab/qudt/> .
@@ -338,13 +338,13 @@
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#hasLicenseType> <http://voag.linkedmodel.org/schema/voag#CC-SHAREALIKE_3PT0-US> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#intent> "To provide a vocabulary of commonly used Mechanics units." <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#isMetadataFor> <http://qudt.org/2.0/vocab/unit/mechanics> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#latestPublishedVersion> "http://qudt.org/doc/2019/DOC_VOCAB-UNITS-MECHANICS-v2.0.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#latestPublishedVersion> "http://qudt.org/doc/2019-07/DOC_VOCAB-UNITS-MECHANICS-v2.0.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#logo> "http://www.linkedmodel.org/lib/lm/images/logos/qudt_logo-300x110.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#namespace> "http://qudt.org/vocab/unit/" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#namespacePrefix> "unit" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#ownedBy> "qudt.org" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#owner> "qudt.org" <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#previousPublishedVersion> "http://qudt.org/doc/2018/DOC_VOCAB-UNITS-MECHANICS-v2.0.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#previousPublishedVersion> "http://qudt.org/doc/2019/DOC_VOCAB-UNITS-MECHANICS-v2.0.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#revision> "2.0" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#title> "Mechanics Units Ontology Version 2.0" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/schema/qudt/GMD_QUDT-UNITS-MECHANICS> <http://www.linkedmodel.org/schema/vaem#turtleFileURL> "http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-MECHANICS-v2.0.ttl"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
@@ -1316,6 +1316,7 @@
 <http://qudt.org/vocab/unit/Atto> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Atto> <http://qudt.org/schema/qudt/description> "\"atto\" is a decimal prefix for expressing a value with a scaling of \\(10^{-18}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Atto> <http://qudt.org/schema/qudt/fieldCode> "N18" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Atto> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Atto> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Atto> <http://qudt.org/schema/qudt/symbol> "a" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Atto> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "A"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -2228,19 +2229,14 @@
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://qudt.org/schema/qudt/conversionMultiplier> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://qudt.org/schema/qudt/description> "<p><strong>Coulomb Per Mol</strong> (\\(C/mol\\)) is a unit in the category of Molar electric charge. It is also known as \\(coulombs/mol\\). Coulomb Per Mol has a dimension of \\(TN{-1}I\\) where \\(T\\) is time, \\(N\\) is amount of substance, and \\(I\\) is electric current. This unit is the standard SI unit in this category.</p>"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/C-PER-MOL> <http://qudt.org/schema/qudt/description> "\"Coulomb Per Mol\" (C/mol) is a unit in the category of Molar electric charge. It is also known as coulombs/mol. Coulomb Per Mol (C/mol) has a dimension of TN-1I where T is time, N is amount of substance, and I is electric current. This unit is the standard SI unit in this category."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/ElectricChargePerAmountOfSubstance> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://qudt.org/schema/qudt/id> "U-030-0911" <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/C-PER-MOL> <http://qudt.org/schema/qudt/id> "U030E0911" <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/C-PER-MOL> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_NASA> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://qudt.org/schema/qudt/symbol> "C mol^{-1}" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/DerivedUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/ElectrochemistryUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/C-PER-MOL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/electromagnetism> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/physical-chemistry-and-molecular-physics> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/C-PER-MOL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/unit/physical-chemistry-and-molecular-physics> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://www.w3.org/2000/01/rdf-schema#label> "Coulomb per Mole" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C-PER-MOL> <http://www.w3.org/2004/02/skos/core#prefLabel> "coulomb-per-mole" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/C2-M-PER-J> <http://qudt.org/schema/qudt/abbreviation> "C^{2} m^{2} J^{-1}" <http://qudt.org/vocab/qudt/> .
@@ -2392,7 +2388,6 @@
 <http://qudt.org/vocab/unit/CD-PER-IN2> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-IN2> <http://qudt.org/schema/qudt/description> "\"Candela per Square Inch\" is a C.G.S System unit for  'Luminance' expressed as \\(cd/in^{2}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-IN2> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Luminance> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/CD-PER-IN2> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/LuminousIntensity> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-IN2> <http://qudt.org/schema/qudt/id> "U150E0340" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-IN2> <http://qudt.org/schema/qudt/symbol> "cd/in^{2}" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-IN2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/CGS-Unit> <http://qudt.org/vocab/qudt/> .
@@ -2400,7 +2395,6 @@
 <http://qudt.org/vocab/unit/CD-PER-IN2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/LuminanceUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-IN2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-IN2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/electromagnetism> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/CD-PER-IN2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/light> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-IN2> <http://www.w3.org/2000/01/rdf-schema#label> "Candela per Square Inch" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-IN2> <http://www.w3.org/2004/02/skos/core#prefLabel> "candela-per-square-inch" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-M2> <http://qudt.org/schema/qudt/abbreviation> "cd/m^2" <http://qudt.org/vocab/qudt/> .
@@ -2416,7 +2410,6 @@
 <http://qudt.org/vocab/unit/CD-PER-M2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/LuminanceUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-M2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-M2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/electromagnetism> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/CD-PER-M2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/light> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-M2> <http://www.w3.org/2000/01/rdf-schema#label> "candela per square meter" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD-PER-M2> <http://www.w3.org/2004/02/skos/core#prefLabel> "candela per square meter" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/CD> <http://qudt.org/schema/qudt/abbreviation> "cd" <http://qudt.org/vocab/qudt/> .
@@ -2691,6 +2684,7 @@
 <http://qudt.org/vocab/unit/Centi> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Centi> <http://qudt.org/schema/qudt/description> "'centi' is a decimal prefix for expressing a value with a scaling of \\(10^{-2}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Centi> <http://qudt.org/schema/qudt/fieldCode> "N02" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Centi> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Centi> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Centi> <http://qudt.org/schema/qudt/symbol> "c" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Centi> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "C" <http://qudt.org/vocab/qudt/> .
@@ -3001,6 +2995,7 @@
 <http://qudt.org/vocab/unit/DECADE> <http://qudt.org/schema/qudt/code> "0508" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/DECADE> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/DECADE> <http://qudt.org/schema/qudt/description> "One decade is a factor of 10 difference between two numbers (an order of magnitude difference) measured on a logarithmic scale. It is especially useful when referring to frequencies and when describing frequency response of electronic systems, such as audio amplifiers and filters. The factor-of-ten in a decade can be in either direction: so one decade up from 100 Hz is 1000 Hz, and one decade down is 10 Hz. The factor-of-ten is what is important, not the unit used, so $3.14 rad/s$ is one decade down from \\(31.4 rad/s\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/DECADE> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/DECADE> <http://qudt.org/schema/qudt/id> "U-150-0508" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/DECADE> <http://qudt.org/schema/qudt/symbol> "oct" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/DECADE> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "D" <http://qudt.org/vocab/qudt/> .
@@ -3471,6 +3466,7 @@
 <http://qudt.org/vocab/unit/Deca> <http://qudt.org/schema/qudt/abbreviation> "deca" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Deca> <http://qudt.org/schema/qudt/conversionMultiplier> "1.0E1"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Deca> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Deca> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Deca> <http://qudt.org/schema/qudt/symbol> "da" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Deca> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "DA"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Deca> <http://qudt.org/schema/qudt/ucumCaseSensitiveCode> "da"^^<http://qudt.org/schema/qudt/UCUMcs-term> <http://qudt.org/vocab/qudt/> .
@@ -3505,6 +3501,7 @@
 <http://qudt.org/vocab/unit/Deci> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Deci> <http://qudt.org/schema/qudt/description> "\"deci\" is a decimal prefix for expressing a value with a scaling of \\(10^{-1}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Deci> <http://qudt.org/schema/qudt/fieldCode> "N01" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Deci> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Deci> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Deci> <http://qudt.org/schema/qudt/symbol> "d" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Deci> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "D" <http://qudt.org/vocab/qudt/> .
@@ -3855,6 +3852,7 @@
 <http://qudt.org/vocab/unit/Exa> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Exa> <http://qudt.org/schema/qudt/description> "'exa' is a decimal prefix for expressing a value with a scaling of \\(10^{18}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Exa> <http://qudt.org/schema/qudt/fieldCode> "P18" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Exa> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Exa> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Exa> <http://qudt.org/schema/qudt/symbol> "E" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Exa> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "EX" <http://qudt.org/vocab/qudt/> .
@@ -3890,6 +3888,7 @@
 <http://qudt.org/vocab/unit/Exbi> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Exbi> <http://qudt.org/schema/qudt/description> "A binary prefix for expressing a value with a scaling of \\(1024^{6}\\), or \\(2^{60}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Exbi> <http://qudt.org/schema/qudt/fieldCode> "B60" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Exbi> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Exbi> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Exbi> <http://qudt.org/schema/qudt/symbol> "Ei" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Exbi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/BinaryPrefixUnit> <http://qudt.org/vocab/qudt/> .
@@ -4660,6 +4659,7 @@
 <http://qudt.org/vocab/unit/Femto> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Femto> <http://qudt.org/schema/qudt/description> "'femto' is a decimal prefix for expressing a value with a scaling of \\(10^{-15}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Femto> <http://qudt.org/schema/qudt/fieldCode> "N15" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Femto> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Femto> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Femto> <http://qudt.org/schema/qudt/symbol> "f" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Femto> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "F"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -5093,6 +5093,7 @@
 <http://qudt.org/vocab/unit/Gibi> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Gibi> <http://qudt.org/schema/qudt/description> "A binary prefix for expressing a value with a scaling of \\(1024^{3}\\), or \\(2^{30}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Gibi> <http://qudt.org/schema/qudt/fieldCode> "B30" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Gibi> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Gibi> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Gibi> <http://qudt.org/schema/qudt/symbol> "Gi" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Gibi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/BinaryPrefixUnit> <http://qudt.org/vocab/qudt/> .
@@ -5107,6 +5108,7 @@
 <http://qudt.org/vocab/unit/Giga> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Giga> <http://qudt.org/schema/qudt/description> "'giga' is a decimal prefix for expressing a value with a scaling of \\(10^{9}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Giga> <http://qudt.org/schema/qudt/fieldCode> "P09" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Giga> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Giga> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Giga> <http://qudt.org/schema/qudt/symbol> "G" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Giga> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "GA"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -5156,7 +5158,6 @@
 <http://qudt.org/vocab/unit/GigaEV> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/GigaEV> <http://qudt.org/schema/qudt/description> "\"Giga Electron Volt\" is a C.G.S System unit for  'Energy And Work' expressed as $GeV$."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/GigaEV> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/EnergyAndWork> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/GigaEV> <http://qudt.org/schema/qudt/id> "U-150-2422" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/GigaEV> <http://qudt.org/schema/qudt/id> "U150E2422" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/GigaEV> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_CGS> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/GigaEV> <http://qudt.org/schema/qudt/symbol> "GeV" <http://qudt.org/vocab/qudt/> .
@@ -5165,7 +5166,6 @@
 <http://qudt.org/vocab/unit/GigaEV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/EnergyAndWorkUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/GigaEV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/GigaEV> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/electromagnetism> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/GigaEV> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/mechanics> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/GigaEV> <http://www.w3.org/2000/01/rdf-schema#label> "Giga Electron Volt" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/GigaEV> <http://www.w3.org/2004/02/skos/core#prefLabel> "giga-electron-volt" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/GigaHZ> <http://qudt.org/schema/qudt/abbreviation> "GHz" <http://qudt.org/vocab/qudt/> .
@@ -5553,6 +5553,7 @@
 <http://qudt.org/vocab/unit/Hecto> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Hecto> <http://qudt.org/schema/qudt/description> "'hecta' is a decimal prefix for expressing a value with a scaling of \\(10^{2}\"\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Hecto> <http://qudt.org/schema/qudt/fieldCode> "P02" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Hecto> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Hecto> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Hecto> <http://qudt.org/schema/qudt/symbol> "h" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Hecto> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "H"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -5940,7 +5941,6 @@
 <http://qudt.org/vocab/unit/J-PER-KiloGM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/DerivedUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/J-PER-KiloGM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/SpecificEnergyUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/J-PER-KiloGM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/J-PER-KiloGM> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/mechanics> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/J-PER-KiloGM> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/thermodynamics> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/J-PER-KiloGM> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/unit/thermodynamics> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/J-PER-KiloGM> <http://www.w3.org/2000/01/rdf-schema#label> "Joule per Kilogram" <http://qudt.org/vocab/qudt/> .
@@ -6333,6 +6333,7 @@
 <http://qudt.org/vocab/unit/Kibi> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Kibi> <http://qudt.org/schema/qudt/description> "A binary prefix for expressing a value with a scaling of \\(1024\\), or \\(2^{10}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Kibi> <http://qudt.org/schema/qudt/fieldCode> "B10" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Kibi> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Kibi> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Kibi> <http://qudt.org/schema/qudt/symbol> "Ki" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Kibi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/BinaryPrefixUnit> <http://qudt.org/vocab/qudt/> .
@@ -6348,6 +6349,7 @@
 <http://qudt.org/vocab/unit/Kilo> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Kilo> <http://qudt.org/schema/qudt/description> "\"kilo\" is a decimal prefix for expressing a value with a scaling of \\(10^{3}\"\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Kilo> <http://qudt.org/schema/qudt/fieldCode> "P03" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Kilo> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Kilo> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Kilo> <http://qudt.org/schema/qudt/symbol> "k" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Kilo> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "K"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -6632,7 +6634,6 @@
 <http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://qudt.org/schema/qudt/description> "\"Kilo Electron Volt per Micrometer\" is a C.G.S System unit for  'Linear Energy Transfer' expressed as $keV/microM$."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/LinearEnergyTransfer> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://qudt.org/schema/qudt/id> "U-150-2370" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://qudt.org/schema/qudt/id> "U150E2370" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_CGS> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://qudt.org/schema/qudt/symbol> "keV/m^{-6}" <http://qudt.org/vocab/qudt/> .
@@ -6641,7 +6642,6 @@
 <http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/LinearEnergyTransferUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/electromagnetism> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/mechanics> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://www.w3.org/2000/01/rdf-schema#label> "Kilo Electron Volt per Micrometer" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV-PER-MicroM> <http://www.w3.org/2004/02/skos/core#prefLabel> "kilo-electron-volt-per-micrometer" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV> <http://qudt.org/schema/qudt/abbreviation> "keV" <http://qudt.org/vocab/qudt/> .
@@ -6650,7 +6650,6 @@
 <http://qudt.org/vocab/unit/KiloEV> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV> <http://qudt.org/schema/qudt/description> "\"Kilo Electron Volt\" is a C.G.S System unit for  'Energy And Work' expressed as $keV$."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/EnergyAndWork> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/KiloEV> <http://qudt.org/schema/qudt/id> "U-150-2420" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV> <http://qudt.org/schema/qudt/id> "U150E2420" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_CGS> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV> <http://qudt.org/schema/qudt/symbol> "keV" <http://qudt.org/vocab/qudt/> .
@@ -6659,7 +6658,6 @@
 <http://qudt.org/vocab/unit/KiloEV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/EnergyAndWorkUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/electromagnetism> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/KiloEV> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/mechanics> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV> <http://www.w3.org/2000/01/rdf-schema#label> "Kilo Electron Volt" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloEV> <http://www.w3.org/2004/02/skos/core#prefLabel> "kilo-electron-volt" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/KiloGM-K> <http://qudt.org/schema/qudt/abbreviation> "kg-K" <http://qudt.org/vocab/qudt/> .
@@ -8736,6 +8734,7 @@
 <http://qudt.org/vocab/unit/Mebi> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Mebi> <http://qudt.org/schema/qudt/description> "A binary prefix for expressing a value with a scaling of \\(1024^{2}\\), or \\(2^{20}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Mebi> <http://qudt.org/schema/qudt/fieldCode> "B20" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Mebi> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Mebi> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Mebi> <http://qudt.org/schema/qudt/symbol> "Mi" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Mebi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/BinaryPrefixUnit> <http://qudt.org/vocab/qudt/> .
@@ -8750,6 +8749,7 @@
 <http://qudt.org/vocab/unit/Mega> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Mega> <http://qudt.org/schema/qudt/description> "'mega' is a decimal prefix for expressing a value with a scaling of \\(10^{6}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Mega> <http://qudt.org/schema/qudt/fieldCode> "P06" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Mega> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Mega> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Mega> <http://qudt.org/schema/qudt/symbol> "M" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Mega> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "MA"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -8860,7 +8860,6 @@
 <http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://qudt.org/schema/qudt/description> "\"Mega Electron Volt per Centimeter\" is a C.G.S System unit for  'Linear Energy Transfer' expressed as $MeV/cm$."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/LinearEnergyTransfer> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://qudt.org/schema/qudt/id> "U-150-2371" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://qudt.org/schema/qudt/id> "U150E2371" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_CGS> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://qudt.org/schema/qudt/symbol> "MeV/cm" <http://qudt.org/vocab/qudt/> .
@@ -8869,7 +8868,6 @@
 <http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/LinearEnergyTransferUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/electromagnetism> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/mechanics> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://www.w3.org/2000/01/rdf-schema#label> "Mega Electron Volt per Centimeter" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV-PER-CentiM> <http://www.w3.org/2004/02/skos/core#prefLabel> "mega-electron-volt-per-centimeter" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV-PER-SpeedOfLight> <http://qudt.org/schema/qudt/abbreviation> "MeV/c" <http://qudt.org/vocab/qudt/> .
@@ -8889,24 +8887,17 @@
 <http://qudt.org/vocab/unit/MegaEV> <http://qudt.org/schema/qudt/conversionMultiplier> "1.6021765314E-13"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://qudt.org/schema/qudt/description> "<p class=\"lm-para\"><em>Mega Electron Volt</em> is a C.G.S System unit for  'Energy And Work' expressed as \\(MeV\\).</p>"^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/MegaEV> <http://qudt.org/schema/qudt/hasMultiplier> <http://qudt.org/vocab/unit/Mega> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/EnergyAndWork> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/MegaEV> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/LengthEnergy> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/MegaEV> <http://qudt.org/schema/qudt/id> "U-150-2421" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://qudt.org/schema/qudt/id> "U150E2421" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_CGS> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://qudt.org/schema/qudt/symbol> "MeV" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/CGS-Unit> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/MegaEV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/DecimalScaledUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/DerivedUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/EnergyAndWorkUnit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/Unit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/electromagnetism> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/MegaEV> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.0/vocab/unit/mechanics> <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/MegaEV> <http://www.w3.org/2000/01/rdf-schema#label> "Mega Electron Volt Femtometer" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://www.w3.org/2000/01/rdf-schema#label> "Mega Electron Volt" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaEV> <http://www.w3.org/2004/02/skos/core#prefLabel> "mega-electron-volt" <http://qudt.org/vocab/qudt/> .
-<http://qudt.org/vocab/unit/MegaEV> <http://www.w3.org/2004/02/skos/core#prefLabel> "mega-electron-volt-femtometer" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaHZ-PER-K> <http://qudt.org/schema/qudt/abbreviation> "MHz K^{-1}" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaHZ-PER-K> <http://qudt.org/schema/qudt/conversionMultiplier> "1.0E6"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/MegaHZ-PER-K> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
@@ -8984,6 +8975,7 @@
 <http://qudt.org/vocab/unit/Micro> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Micro> <http://qudt.org/schema/qudt/description> "\"micro\" is a decimal prefix for expressing a value with a scaling of \\(10^{-6}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Micro> <http://qudt.org/schema/qudt/fieldCode> "N06" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Micro> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Micro> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Micro> <http://qudt.org/schema/qudt/symbol> "\\mu" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Micro> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "U"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -9232,6 +9224,7 @@
 <http://qudt.org/vocab/unit/Milli> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Milli> <http://qudt.org/schema/qudt/description> "'milli' is a decimal prefix for expressing a value with a scaling of \\(10^{-3}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Milli> <http://qudt.org/schema/qudt/fieldCode> "N03" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Milli> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Milli> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Milli> <http://qudt.org/schema/qudt/symbol> "m" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Milli> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "M"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -9740,6 +9733,7 @@
 <http://qudt.org/vocab/unit/NUM> <http://qudt.org/schema/qudt/code> "1250" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/NUM> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/NUM> <http://qudt.org/schema/qudt/description> "\"Number\" is a C.G.S System unit for  'Dimensionless' expressed as (\\\\#\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/NUM> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/NUM> <http://qudt.org/schema/qudt/symbol> "\\#" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/NUM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/CGS-Unit> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/NUM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/CountingUnit> <http://qudt.org/vocab/qudt/> .
@@ -9754,6 +9748,7 @@
 <http://qudt.org/vocab/unit/Nano> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Nano> <http://qudt.org/schema/qudt/description> "'nano' is a  decimal prefix for expressing a value with a scaling of \\(10^{-9}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Nano> <http://qudt.org/schema/qudt/fieldCode> "N09" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Nano> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Nano> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Nano> <http://qudt.org/schema/qudt/symbol> "n" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Nano> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "N"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -10838,6 +10833,7 @@
 <http://qudt.org/vocab/unit/Pebi> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Pebi> <http://qudt.org/schema/qudt/description> "A binary prefix for expressing a value with a scaling of \\(1024^{5}\\), or \\(2^{50}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Pebi> <http://qudt.org/schema/qudt/fieldCode> "B50" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Pebi> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Pebi> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Pebi> <http://qudt.org/schema/qudt/symbol> "Pi" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Pebi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/BinaryPrefixUnit> <http://qudt.org/vocab/qudt/> .
@@ -10866,6 +10862,7 @@
 <http://qudt.org/vocab/unit/Peta> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Peta> <http://qudt.org/schema/qudt/description> "'peta' is a decimal prefix for expressing a value with a scaling of \\(10^{15}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Peta> <http://qudt.org/schema/qudt/fieldCode> "P15" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Peta> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Peta> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Peta> <http://qudt.org/schema/qudt/symbol> "P" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Peta> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "PT"^^<http://qudt.org/schema/qudt/UCUMcs-term> <http://qudt.org/vocab/qudt/> .
@@ -12314,6 +12311,7 @@
 <http://qudt.org/vocab/unit/Tebi> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Tebi> <http://qudt.org/schema/qudt/description> "A binary prefix for expressing a value with a scaling of \\(1024^4}\\), or \\(2^{40}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Tebi> <http://qudt.org/schema/qudt/fieldCode> "B40" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Tebi> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Tebi> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Tebi> <http://qudt.org/schema/qudt/symbol> "Ti" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Tebi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/BinaryPrefixUnit> <http://qudt.org/vocab/qudt/> .
@@ -12328,6 +12326,7 @@
 <http://qudt.org/vocab/unit/Tera> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Tera> <http://qudt.org/schema/qudt/description> "'tera' is a decimal prefix for expressing a value with a scaling of \\(10^{12}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Tera> <http://qudt.org/schema/qudt/fieldCode> "P12" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Tera> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Tera> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Tera> <http://qudt.org/schema/qudt/symbol> "T" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Tera> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "TR"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -12409,6 +12408,7 @@
 <http://qudt.org/vocab/unit/UNITLESS> <http://qudt.org/schema/qudt/conversionMultiplier> "1.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/UNITLESS> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/UNITLESS> <http://qudt.org/schema/qudt/description> "An explicit unit to say something has no units."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/UNITLESS> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/UNITLESS> <http://qudt.org/schema/qudt/id> "U-000-0000" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/UNITLESS> <http://qudt.org/schema/qudt/symbol> "U" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/UNITLESS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/BaseUnit> <http://qudt.org/vocab/qudt/> .
@@ -13039,6 +13039,7 @@
 <http://qudt.org/vocab/unit/Yobi> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yobi> <http://qudt.org/schema/qudt/description> "A binary prefix for expressing a value with a scaling of \\(1024^{8}\\), or \\(2^{80}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yobi> <http://qudt.org/schema/qudt/fieldCode> "B80" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Yobi> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yobi> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yobi> <http://qudt.org/schema/qudt/symbol> "Yi" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yobi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/BinaryPrefixUnit> <http://qudt.org/vocab/qudt/> .
@@ -13053,6 +13054,7 @@
 <http://qudt.org/vocab/unit/Yocto> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yocto> <http://qudt.org/schema/qudt/description> "'yocto' is a decimal prefix for expressing a value with a scaling of \\(10^{-24}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yocto> <http://qudt.org/schema/qudt/fieldCode> "N24" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Yocto> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yocto> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yocto> <http://qudt.org/schema/qudt/symbol> "y" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yocto> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "YO"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -13089,6 +13091,7 @@
 <http://qudt.org/vocab/unit/Yotta> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yotta> <http://qudt.org/schema/qudt/description> "'yotta' is a decimal prefix for expressing a value with a scaling of \\(10^{24}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yotta> <http://qudt.org/schema/qudt/fieldCode> "P24" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Yotta> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yotta> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yotta> <http://qudt.org/schema/qudt/symbol> "Y" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Yotta> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "YA"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -13140,6 +13143,7 @@
 <http://qudt.org/vocab/unit/Zebi> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zebi> <http://qudt.org/schema/qudt/description> "A binary prefix for expressing a value with a scaling of \\(1024^{7}\\), or \\(2^{70}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zebi> <http://qudt.org/schema/qudt/fieldCode> "B70" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Zebi> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zebi> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zebi> <http://qudt.org/schema/qudt/symbol> "Zi" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zebi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/BinaryPrefixUnit> <http://qudt.org/vocab/qudt/> .
@@ -13154,6 +13158,7 @@
 <http://qudt.org/vocab/unit/Zepto> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zepto> <http://qudt.org/schema/qudt/description> "'zepto' is a decimal prefix for expressing a value with a scaling of \\(10^{-21}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zepto> <http://qudt.org/schema/qudt/fieldCode> "N21" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Zepto> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zepto> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zepto> <http://qudt.org/schema/qudt/symbol> "z" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zepto> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "ZO"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -13190,6 +13195,7 @@
 <http://qudt.org/vocab/unit/Zetta> <http://qudt.org/schema/qudt/conversionOffset> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zetta> <http://qudt.org/schema/qudt/description> "'zetta' is a decimal prefix for expressing a value with a scaling of \\(10^{21}\\)."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zetta> <http://qudt.org/schema/qudt/fieldCode> "P21" <http://qudt.org/vocab/qudt/> .
+<http://qudt.org/vocab/unit/Zetta> <http://qudt.org/schema/qudt/hasQuantityKind> <http://qudt.org/vocab/quantitykind/Dimensionless> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zetta> <http://qudt.org/schema/qudt/isUnitOfSystem> <http://qudt.org/schema/qudt/SOU_SI> <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zetta> <http://qudt.org/schema/qudt/symbol> "Z" <http://qudt.org/vocab/qudt/> .
 <http://qudt.org/vocab/unit/Zetta> <http://qudt.org/schema/qudt/ucumCaseInsensitiveCode> "ZA"^^<http://qudt.org/schema/qudt/UCUMci-term> <http://qudt.org/vocab/qudt/> .
@@ -13322,7 +13328,7 @@
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://purl.org/dc/terms/contributor> "Steve Ray" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://purl.org/dc/terms/created> "2011-04-20"^^<http://www.w3.org/2001/XMLSchema#date> <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://purl.org/dc/terms/creator> "Ralph Hodgson" <http://qudt.org/vocab/qudt/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://purl.org/dc/terms/modified> "2019-06-06"^^<http://www.w3.org/2001/XMLSchema#date> <http://qudt.org/vocab/qudt/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://purl.org/dc/terms/modified> "2019-07-25"^^<http://www.w3.org/2001/XMLSchema#date> <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://purl.org/dc/terms/rights> "The QUDT Ontologies are issued under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0), available at https://creativecommons.org/licenses/by-sa/4.0/. Attribution should be made to QUDT.org" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://purl.org/dc/terms/subject> "Units-Light" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://purl.org/dc/terms/title> "Light Units Ontology Version 2.0" <http://qudt.org/vocab/qudt/> .
@@ -13333,13 +13339,13 @@
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#hasSteward> <http://www.linkedmodel.org/schema/vaem#QUDT> <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#intent> "The intent of this graph is the specification of the base units for light." <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#isMetadataFor> <http://qudt.org/2.0/vocab/unit/light> <http://qudt.org/vocab/qudt/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#latestPublishedVersion> "http://qudt.org/doc/2019/DOC_VOCAB-UNITS-LIGHT-v2.0.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#latestPublishedVersion> "http://qudt.org/doc/2019-07/DOC_VOCAB-UNITS-LIGHT-v2.0.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#logo> "http://www.linkedmodel.org/lib/lm/images/logos/qudt_logo-300x110.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#name> "qudt" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#namespace> "http://qudt.org/vocab/unit/" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#namespacePrefix> "unit" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#owner> "qudt.org" <http://qudt.org/vocab/qudt/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#previousPublishedVersion> "http://qudt.org/doc/2017/DOC_VOCAB-UNITS-LIGHT-v2.0.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#previousPublishedVersion> "http://qudt.org/doc/2019/DOC_VOCAB-UNITS-LIGHT-v2.0.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#revision> "2.0" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#title> "Light Units Ontology Version 2.0" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-UNITS-LIGHT> <http://www.linkedmodel.org/schema/vaem#turtleFileURL> "http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-LIGHT-v2.0.ttl"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
@@ -13742,7 +13748,7 @@
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://purl.org/dc/terms/created> "2011-04-20"^^<http://www.w3.org/2001/XMLSchema#date> <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://purl.org/dc/terms/creator> "Ralph Hodgson" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://purl.org/dc/terms/description> "Physical Chemistry and Molecular Physics Units Ontology Version 2.0" <http://qudt.org/vocab/qudt/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://purl.org/dc/terms/modified> "2019-05-23T13:28:04.426-04:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://qudt.org/vocab/qudt/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://purl.org/dc/terms/modified> "2019-07-25T13:28:04.426-04:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://purl.org/dc/terms/rights> "The QUDT Ontologies are issued under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0), available at https://creativecommons.org/licenses/by-sa/4.0/. Attribution should be made to QUDT.org" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://purl.org/dc/terms/subject> "Units-Physical-Chemistry-and-Molecular-Physics" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://purl.org/dc/terms/title> "Physical Chemistry and Molecular Physics Units Ontology Version 2.0" <http://qudt.org/vocab/qudt/> .
@@ -13753,13 +13759,13 @@
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#hasSteward> <http://www.linkedmodel.org/schema/vaem#QUDT> <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#intent> "The intent of this graph is the specification of the base units for physical chemistry and molecular physics." <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#isMetadataFor> <http://qudt.org/2.0/vocab/unit/physical-chemistry-and-molecular-physics> <http://qudt.org/vocab/qudt/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#latestPublishedVersion> "http://qudt.org/doc/2019/DOC_VOCAB-UNITS-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#latestPublishedVersion> "http://qudt.org/doc/2019-07/DOC_VOCAB-UNITS-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#logo> "http://www.linkedmodel.org/lib/lm/images/logos/qudt_logo-300x110.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#name> "qudt" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#namespace> "http://qudt.org/vocab/unit/" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#namespacePrefix> "unit" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#owner> "qudt.org" <http://qudt.org/vocab/qudt/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#previousPublishedVersion> "http://qudt.org/doc/2016/DOC_VOCAB-UNITS-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#previousPublishedVersion> "http://qudt.org/doc/2019/DOC_VOCAB-UNITS-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#revision> "2.0" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#title> "Physical Chemistry and Molecular Physics Units Ontology Version 2.0" <http://qudt.org/vocab/qudt/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-VOCAB-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS> <http://www.linkedmodel.org/schema/vaem#turtleFileURL> "http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS-v2.0.ttl"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/qudt/> .
