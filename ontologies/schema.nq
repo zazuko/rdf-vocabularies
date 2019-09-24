@@ -4763,12 +4763,15 @@
 <http://schema.org/educationalAlignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/educationalAlignment> <http://www.w3.org/2000/01/rdf-schema#comment> "An alignment to an established educational framework." <http://schema.org/> .
 <http://schema.org/educationalAlignment> <http://www.w3.org/2000/01/rdf-schema#label> "educationalAlignment" <http://schema.org/> .
+<http://schema.org/educationalCredentialAwarded> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2289> <http://schema.org/> .
+<http://schema.org/educationalCredentialAwarded> <http://schema.org/category> "issue-2289" <http://schema.org/> .
 <http://schema.org/educationalCredentialAwarded> <http://schema.org/domainIncludes> <http://schema.org/Course> <http://schema.org/> .
+<http://schema.org/educationalCredentialAwarded> <http://schema.org/domainIncludes> <http://schema.org/EducationalOccupationalProgram> <http://schema.org/> .
 <http://schema.org/educationalCredentialAwarded> <http://schema.org/rangeIncludes> <http://schema.org/EducationalOccupationalCredential> <http://schema.org/> .
 <http://schema.org/educationalCredentialAwarded> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/educationalCredentialAwarded> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
 <http://schema.org/educationalCredentialAwarded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/educationalCredentialAwarded> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the qualification, award, certificate, diploma or other educational credential awarded as a consequence of successful completion of this course." <http://schema.org/> .
+<http://schema.org/educationalCredentialAwarded> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of the qualification, award, certificate, diploma or other educational credential awarded as a consequence of successful completion of this course or program." <http://schema.org/> .
 <http://schema.org/educationalCredentialAwarded> <http://www.w3.org/2000/01/rdf-schema#label> "educationalCredentialAwarded" <http://schema.org/> .
 <http://schema.org/educationalFramework> <http://schema.org/domainIncludes> <http://schema.org/AlignmentObject> <http://schema.org/> .
 <http://schema.org/educationalFramework> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -6558,10 +6561,13 @@
 <http://schema.org/occupationLocation> <http://www.w3.org/2000/01/rdf-schema#label> "occupationLocation" <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1698> <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2192> <http://schema.org/> .
+<http://schema.org/occupationalCategory> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2289> <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://schema.org/category> "issue-1698" <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://schema.org/category> "issue-2192" <http://schema.org/> .
+<http://schema.org/occupationalCategory> <http://schema.org/category> "issue-2289" <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://schema.org/domainIncludes> <http://schema.org/Occupation> <http://schema.org/> .
+<http://schema.org/occupationalCategory> <http://schema.org/domainIncludes> <http://schema.org/WorkBasedProgram> <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://schema.org/rangeIncludes> <http://schema.org/CategoryCode> <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/occupationalCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -6579,8 +6585,11 @@
 <http://schema.org/offeredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/offeredBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A pointer to the organization or person making the offer." <http://schema.org/> .
 <http://schema.org/offeredBy> <http://www.w3.org/2000/01/rdf-schema#label> "offeredBy" <http://schema.org/> .
+<http://schema.org/offers> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2289> <http://schema.org/> .
+<http://schema.org/offers> <http://schema.org/category> "issue-2289" <http://schema.org/> .
 <http://schema.org/offers> <http://schema.org/domainIncludes> <http://schema.org/AggregateOffer> <http://schema.org/> .
 <http://schema.org/offers> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/offers> <http://schema.org/domainIncludes> <http://schema.org/EducationalOccupationalProgram> <http://schema.org/> .
 <http://schema.org/offers> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
 <http://schema.org/offers> <http://schema.org/domainIncludes> <http://schema.org/MenuItem> <http://schema.org/> .
 <http://schema.org/offers> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
@@ -7205,7 +7214,10 @@
 <http://schema.org/proteinContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/proteinContent> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of grams of protein." <http://schema.org/> .
 <http://schema.org/proteinContent> <http://www.w3.org/2000/01/rdf-schema#label> "proteinContent" <http://schema.org/> .
+<http://schema.org/provider> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2289> <http://schema.org/> .
+<http://schema.org/provider> <http://schema.org/category> "issue-2289" <http://schema.org/> .
 <http://schema.org/provider> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/provider> <http://schema.org/domainIncludes> <http://schema.org/EducationalOccupationalProgram> <http://schema.org/> .
 <http://schema.org/provider> <http://schema.org/domainIncludes> <http://schema.org/Invoice> <http://schema.org/> .
 <http://schema.org/provider> <http://schema.org/domainIncludes> <http://schema.org/ParcelDelivery> <http://schema.org/> .
 <http://schema.org/provider> <http://schema.org/domainIncludes> <http://schema.org/Reservation> <http://schema.org/> .
