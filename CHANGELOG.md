@@ -1,10 +1,18 @@
-# next
+# `v2019.9.24`
 
 Add `sem:` prefix and vocabulary.
 
 | Prefix | #Quads |
 | ---- | ---- |
 | `sem:` | 520 |
+
+Updated prefixes:
+
+| Prefix | #Quads (#quads in previous version) |
+| ---- | ---- |
+| `qudtv` | 13797 (13791) |
+| `rdau` | 15722 (15722) |
+| `schema` | 8845 (8833) |
 
 # `v2019.7.9-2`
 
