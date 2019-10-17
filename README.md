@@ -233,3 +233,19 @@ of the namespace defined a prefix. If not check [prefix.cc](http://prefix.cc/). 
 discussion should be raised before the pull-requests gets integrated. Last thing to check are the predefined namespaces
 in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popular RDF resources like
 [LOV](https://lov.linkeddata.es/dataset/lov/vocabs). If you find one please refer to it in the pull request.
+
+### Project-specific prefixes
+
+It is also possible to add prefix within a project so that it can be used with the functions [`expand`](#expanding-a-prefix) and [`shrink`](#shrinking-an-iri).
+
+```js
+import { prefixes, expand, shrink } from '@zazuko/rdf-vocabularies'
+
+prefixes['foo'] = 'http://example.com/'
+
+// 'http://example.com/bar'
+const foobar = expand('foo:bar')
+
+// 'foo:bar'
+const prefixed = shrink(foobar)
+```
