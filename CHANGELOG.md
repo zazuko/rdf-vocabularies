@@ -1,5 +1,11 @@
 # `v2019.10.22`
 
+Add `sh:` prefix and vocabulary.
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `sh:` | 1128 |
+
 Updated prefixes:
 
 | Prefix | #Quads |
