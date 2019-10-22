@@ -137,12 +137,14 @@
 <http://www.w3.org/ns/hydra/core#entrypoint> <http://www.w3.org/2000/01/rdf-schema#label> "entrypoint" <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#entrypoint> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/hydra/core#Resource> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#entrypoint> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/hydra/core#> .
+<http://www.w3.org/ns/hydra/core#expects> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/hydra/core#Class> <http://www.w3.org/ns/hydra/core#> .
+<http://www.w3.org/ns/hydra/core#expects> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/hydra/core#Resource> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#expects> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/hydra/core#Link> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#expects> <http://www.w3.org/2000/01/rdf-schema#comment> "The information expected by the Web API." <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#expects> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/hydra/core#Operation> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#expects> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/hydra/core> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#expects> <http://www.w3.org/2000/01/rdf-schema#label> "expects" <http://www.w3.org/ns/hydra/core#> .
-<http://www.w3.org/ns/hydra/core#expects> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/hydra/core#Class> <http://www.w3.org/ns/hydra/core#> .
+<http://www.w3.org/ns/hydra/core#expects> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/hydra/core#Resource> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#expects> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#expectsHeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#expectsHeader> <http://www.w3.org/2000/01/rdf-schema#comment> "Specification of the header expected by the operation." <http://www.w3.org/ns/hydra/core#> .
@@ -278,12 +280,14 @@
 <http://www.w3.org/ns/hydra/core#required> <http://www.w3.org/2000/01/rdf-schema#label> "required" <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#required> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#required> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/hydra/core#> .
+<http://www.w3.org/ns/hydra/core#returns> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/hydra/core#Class> <http://www.w3.org/ns/hydra/core#> .
+<http://www.w3.org/ns/hydra/core#returns> <http://schema.org/rangeIncludes> <http://www.w3.org/ns/hydra/core#Resource> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#returns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/hydra/core#Link> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#returns> <http://www.w3.org/2000/01/rdf-schema#comment> "The information returned by the Web API on success" <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#returns> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/hydra/core#Operation> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#returns> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/hydra/core> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#returns> <http://www.w3.org/2000/01/rdf-schema#label> "returns" <http://www.w3.org/ns/hydra/core#> .
-<http://www.w3.org/ns/hydra/core#returns> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/hydra/core#Class> <http://www.w3.org/ns/hydra/core#> .
+<http://www.w3.org/ns/hydra/core#returns> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/hydra/core#Resource> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#returns> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#returnsHeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#returnsHeader> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the header returned by the operation." <http://www.w3.org/ns/hydra/core#> .
