@@ -10,6 +10,7 @@ Updated prefixes:
 
 | Prefix | #Quads |
 | ---- | ---- |
+| `hydra` | 404 |
 | `qudtv` | 13797 |
 | `schema` | 8824 |
 
