@@ -5272,12 +5272,6 @@
 <http://schema.org/gameTip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/gameTip> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to tips, tactics, etc." <http://schema.org/> .
 <http://schema.org/gameTip> <http://www.w3.org/2000/01/rdf-schema#label> "gameTip" <http://schema.org/> .
-<http://schema.org/gender> <http://schema.org/domainIncludes> <http://schema.org/Person> <http://schema.org/> .
-<http://schema.org/gender> <http://schema.org/rangeIncludes> <http://schema.org/GenderType> <http://schema.org/> .
-<http://schema.org/gender> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
-<http://schema.org/gender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/gender> <http://www.w3.org/2000/01/rdf-schema#comment> "Gender of the person. While http://schema.org/Male and http://schema.org/Female may be used, text strings are also acceptable for people who do not identify as a binary gender." <http://schema.org/> .
-<http://schema.org/gender> <http://www.w3.org/2000/01/rdf-schema#label> "gender" <http://schema.org/> .
 <http://schema.org/genre> <http://schema.org/domainIncludes> <http://schema.org/BroadcastChannel> <http://schema.org/> .
 <http://schema.org/genre> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/genre> <http://schema.org/domainIncludes> <http://schema.org/MusicGroup> <http://schema.org/> .
@@ -5691,15 +5685,6 @@
 <http://schema.org/industry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/industry> <http://www.w3.org/2000/01/rdf-schema#comment> "The industry associated with the job position." <http://schema.org/> .
 <http://schema.org/industry> <http://www.w3.org/2000/01/rdf-schema#label> "industry" <http://schema.org/> .
-<http://schema.org/ineligibleRegion> <http://schema.org/domainIncludes> <http://schema.org/DeliveryChargeSpecification> <http://schema.org/> .
-<http://schema.org/ineligibleRegion> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .
-<http://schema.org/ineligibleRegion> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
-<http://schema.org/ineligibleRegion> <http://schema.org/rangeIncludes> <http://schema.org/GeoShape> <http://schema.org/> .
-<http://schema.org/ineligibleRegion> <http://schema.org/rangeIncludes> <http://schema.org/Place> <http://schema.org/> .
-<http://schema.org/ineligibleRegion> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
-<http://schema.org/ineligibleRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/ineligibleRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, the place, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is not valid, e.g. a region where the transaction is not allowed.<br/><br/>\n\nSee also <a class=\"localLink\" href=\"http://schema.org/eligibleRegion\">eligibleRegion</a>." <http://schema.org/> .
-<http://schema.org/ineligibleRegion> <http://www.w3.org/2000/01/rdf-schema#label> "ineligibleRegion" <http://schema.org/> .
 <http://schema.org/ingredients> <http://schema.org/domainIncludes> <http://schema.org/Recipe> <http://schema.org/> .
 <http://schema.org/ingredients> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/ingredients> <http://schema.org/supersededBy> <http://schema.org/recipeIngredient> <http://schema.org/> .
@@ -5989,6 +5974,7 @@
 <http://schema.org/lastReviewed> <http://www.w3.org/2000/01/rdf-schema#comment> "Date on which the content on this web page was last reviewed for accuracy and/or completeness." <http://schema.org/> .
 <http://schema.org/lastReviewed> <http://www.w3.org/2000/01/rdf-schema#label> "lastReviewed" <http://schema.org/> .
 <http://schema.org/latitude> <http://schema.org/domainIncludes> <http://schema.org/GeoCoordinates> <http://schema.org/> .
+<http://schema.org/latitude> <http://schema.org/domainIncludes> <http://schema.org/Place> <http://schema.org/> .
 <http://schema.org/latitude> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
 <http://schema.org/latitude> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/latitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -6093,6 +6079,7 @@
 <http://schema.org/logo> <http://www.w3.org/2000/01/rdf-schema#label> "logo" <http://schema.org/> .
 <http://schema.org/logo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/image> <http://schema.org/> .
 <http://schema.org/longitude> <http://schema.org/domainIncludes> <http://schema.org/GeoCoordinates> <http://schema.org/> .
+<http://schema.org/longitude> <http://schema.org/domainIncludes> <http://schema.org/Place> <http://schema.org/> .
 <http://schema.org/longitude> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
 <http://schema.org/longitude> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/longitude> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -6389,7 +6376,7 @@
 <http://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the item." <http://schema.org/> .
 <http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#label> "name" <http://schema.org/> .
-<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <rdfs:label> <http://schema.org/> .
+<http://schema.org/name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> <http://schema.org/> .
 <http://schema.org/name> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/title> <http://schema.org/> .
 <http://schema.org/namedPosition> <http://schema.org/domainIncludes> <http://schema.org/Role> <http://schema.org/> .
 <http://schema.org/namedPosition> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -8130,14 +8117,6 @@
 <http://schema.org/subjectOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/subjectOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A CreativeWork or Event about this Thing." <http://schema.org/> .
 <http://schema.org/subjectOf> <http://www.w3.org/2000/01/rdf-schema#label> "subjectOf" <http://schema.org/> .
-<http://schema.org/subtitleLanguage> <http://schema.org/domainIncludes> <http://schema.org/Movie> <http://schema.org/> .
-<http://schema.org/subtitleLanguage> <http://schema.org/domainIncludes> <http://schema.org/ScreeningEvent> <http://schema.org/> .
-<http://schema.org/subtitleLanguage> <http://schema.org/domainIncludes> <http://schema.org/TVEpisode> <http://schema.org/> .
-<http://schema.org/subtitleLanguage> <http://schema.org/rangeIncludes> <http://schema.org/Language> <http://schema.org/> .
-<http://schema.org/subtitleLanguage> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
-<http://schema.org/subtitleLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/subtitleLanguage> <http://www.w3.org/2000/01/rdf-schema#comment> "Languages in which subtitles/captions are available, in <a href=\"http://tools.ietf.org/html/bcp47\">IETF BCP 47 standard format</a>." <http://schema.org/> .
-<http://schema.org/subtitleLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "subtitleLanguage" <http://schema.org/> .
 <http://schema.org/successorOf> <http://purl.org/dc/terms/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms> <http://schema.org/> .
 <http://schema.org/successorOf> <http://schema.org/domainIncludes> <http://schema.org/ProductModel> <http://schema.org/> .
 <http://schema.org/successorOf> <http://schema.org/rangeIncludes> <http://schema.org/ProductModel> <http://schema.org/> .
