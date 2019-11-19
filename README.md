@@ -35,6 +35,9 @@ The package can be used in browser albeit it needs a bundler such as webpack and
           }
         ]
       }
+* Be careful with prefetching chunks. Some applications may generate prefetch links for dynamically loaded chunks. 
+Some of the ontology files are quite large and their number will grow over time. Hence, it may be desired to exclude
+certain chunks from the being eagerly loaded. Check the [wiki](https://github.com/zazuko/rdf-vocabularies/wiki/Example-web-app-config) for examples.
 
 ## Usage
 
