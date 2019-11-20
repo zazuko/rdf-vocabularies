@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 import { join, resolve as resolvePath } from 'path'
 import * as rdf from 'rdf-ext'
-import { vocabularies, expand, shrink } from '.'
+import { expand, prefixes, shrink, vocabularies } from '.'
 
 const list = (directoryPath): Promise<any[]> =>
   new Promise((resolve, reject) => fs.readdir(directoryPath, (err, files: string[]) => {
@@ -103,6 +103,21 @@ describe('shrink', () => {
 
   it('returns empty string with unknown prefixes', () => {
     expect(shrink('http://example.com/foo')).toBe('')
+  })
+})
+
+describe('user-defined prefixes', () => {
+  beforeAll(() => {
+    prefixes['zzz'] = 'http://foo/'
+  })
+  afterAll(() => {
+    delete prefixes['zzz']
+  })
+  it('expands', () => {
+    expect(expand('zzz:bar')).toBe('http://foo/bar')
+  })
+  it('shrinks', () => {
+    expect(shrink('http://foo/bar')).toBe('zzz:bar')
   })
 })
 
