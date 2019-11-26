@@ -1,3 +1,11 @@
+# vNext
+
+Updated prefixes:
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `dbo` | 39069 |
+
 # `v2019.10.22`
 
 Add `sh:` prefix and vocabulary.
