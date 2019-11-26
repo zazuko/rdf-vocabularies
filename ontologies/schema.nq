@@ -7882,12 +7882,15 @@
 <http://schema.org/significantLinks> <http://www.w3.org/2000/01/rdf-schema#comment> "The most significant URLs on the page. Typically, these are the non-navigation links that are clicked on the most." <http://schema.org/> .
 <http://schema.org/significantLinks> <http://www.w3.org/2000/01/rdf-schema#label> "significantLinks" <http://schema.org/> .
 <http://schema.org/skills> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1698> <http://schema.org/> .
+<http://schema.org/skills> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2322> <http://schema.org/> .
 <http://schema.org/skills> <http://schema.org/category> "issue-1698" <http://schema.org/> .
+<http://schema.org/skills> <http://schema.org/category> "issue-2322" <http://schema.org/> .
 <http://schema.org/skills> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
 <http://schema.org/skills> <http://schema.org/domainIncludes> <http://schema.org/Occupation> <http://schema.org/> .
+<http://schema.org/skills> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
 <http://schema.org/skills> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/skills> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/skills> <http://www.w3.org/2000/01/rdf-schema#comment> "Skills required to fulfill this role or in this Occupation." <http://schema.org/> .
+<http://schema.org/skills> <http://www.w3.org/2000/01/rdf-schema#comment> "A statement of knowledge, skill, ability, task or any other assertion expressing a competency that is desired or required to fulfill this role or to work in this occupation." <http://schema.org/> .
 <http://schema.org/skills> <http://www.w3.org/2000/01/rdf-schema#label> "skills" <http://schema.org/> .
 <http://schema.org/sku> <http://purl.org/dc/terms/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms> <http://schema.org/> .
 <http://schema.org/sku> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .

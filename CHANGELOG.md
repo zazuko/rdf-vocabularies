@@ -1,3 +1,11 @@
+# vNext
+
+Updated prefixes:
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `schema` | 8827 |
+
 # `v2019.10.22`
 
 Add `sh:` prefix and vocabulary.
