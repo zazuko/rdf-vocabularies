@@ -31,55 +31,10 @@ module.exports = {
       file: 'http://qudt.org/2.0/schema/SCHEMA_QUDT-SCIENCE-v2.0.ttl'
     }]
   },
-  qudtv: {
+  unit: {
     files: [{
       mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-DISCIPLINES-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-ACOUSTICS-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-ATOMIC-AND-NUCLEAR-PHYSICS-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-BASE-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-ELECTROMAGNETISM-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-ENVIRONMENTAL-SCIENCE-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-INFORMATICS-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-LIFE-SCIENCES-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-LIGHT-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-MATHEMATICS-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-MECHANICS-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-PHYSICAL-CHEMISTRY-AND-MOLECULAR-PHYSICS-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-SOLID-STATE-PHYSICS-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-SPACE-AND-TIME-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-TELEBIOMETRICS-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/vocab/VOCAB_QUDT-UNITS-THERMODYNAMICS-v2.0.ttl'
+      file: 'http://qudt.org/2.1/vocab/unit'
     }]
   },
   rdau: { file: 'http://rdaregistry.info/Elements/u.nt', mediaType: 'application/n-triples' },
