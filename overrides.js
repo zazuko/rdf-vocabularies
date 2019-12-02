@@ -1,5 +1,14 @@
 module.exports = {
   as: { file: 'https://www.w3.org/ns/activitystreams-owl.ttl', mediaType: 'text/turtle' },
+  dbo: {
+    files: [{
+      mediaType: 'text/n3',
+      file: 'http://downloads.dbpedia.org/2016-10/dbpedia_2016-10.nt'
+    }, {
+      mediaType: 'text/turtle',
+      file: 'http://dbpedia.org/ontology/'
+    }]
+  },
   cc: { file: 'https://creativecommons.org/schema.rdf' },
   ctag: { skip: true },
   dtype: { mediaType: 'application/rdf+xml' },

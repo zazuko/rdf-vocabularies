@@ -4,6 +4,7 @@ Updated prefixes:
 
 | Prefix | #Quads |
 | ---- | ---- |
+| `dbo` | 39069 |
 | `schema` | 8827 |
 
 # `v2019.10.22`
