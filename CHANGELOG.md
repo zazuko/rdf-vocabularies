@@ -4,6 +4,7 @@ Add `unit:` prefix and vocabulary.
 
 | Prefix | #Quads |
 | ---- | ---- |
+| `qudt:` |  |
 | `unit:` | 14481 |
 
 Updated prefixes:

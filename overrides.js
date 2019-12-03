@@ -20,16 +20,20 @@ module.exports = {
   ical: { file: 'http://www.w3.org/2002/12/cal/icaltzd.rdf', mediaType: 'application/rdf+xml' },
   qb: { mediaType: 'text/turtle' },
   qudt: {
-    files: [{
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/schema/SCHEMA_QUDT-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/schema/SCHEMA_QUDT-DATATYPES-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/schema/SCHEMA_QUDT-SCIENCE-v2.0.ttl'
-    }]
+    files: [
+      {
+        mediaType: 'text/turtle',
+        file: 'http://qudt.org/2.1/schema/qudt/'
+      },
+      {
+        mediaType: 'text/turtle',
+        file: 'http://qudt.org/2.1/schema/SCHEMA_QUDT-DATATYPE-v2.1.ttl'
+      }
+      {
+        mediaType: 'text/turtle',
+        file: 'http://qudt.org/2.0/schema/SCHEMA_QUDT-SCIENCE-v2.0.ttl'
+      }
+    ]
   },
   unit: {
     files: [{
