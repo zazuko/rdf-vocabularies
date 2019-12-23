@@ -63,7 +63,7 @@
 <http://www.w3.org/2001/XMLSchema#base64Binary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2001/XMLSchema#anyAtomicType> <http://www.w3.org/2001/XMLSchema#> .
 <http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://www.w3.org/2001/XMLSchema#> .
 <http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/2000/01/rdf-schema#comment> "\n    boolean represents the values of two-valued logic.\n  " <http://www.w3.org/2001/XMLSchema#> .
-<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/2000/01/rdf-schema#label> "base64Binary" <http://www.w3.org/2001/XMLSchema#> .
+<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/2000/01/rdf-schema#label> "boolean" <http://www.w3.org/2001/XMLSchema#> .
 <http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2001/XMLSchema#anyAtomicType> <http://www.w3.org/2001/XMLSchema#> .
 <http://www.w3.org/2001/XMLSchema#byte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://www.w3.org/2001/XMLSchema#> .
 <http://www.w3.org/2001/XMLSchema#byte> <http://www.w3.org/2000/01/rdf-schema#comment> "\n    byte is ·derived· from short by setting the value of ·maxInclusive· to be\n    127 and ·minInclusive· to be -128. The ·base type· of byte is short.\n  " <http://www.w3.org/2001/XMLSchema#> .
