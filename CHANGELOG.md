@@ -5,6 +5,7 @@ Updated prefixes:
 | Prefix | #Quads |
 | ---- | ---- |
 | `dbo` | 39069 |
+| `rdf` | 127 |
 | `schema` | 8827 |
 | `xsd` | 199 |
 
