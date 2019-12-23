@@ -1,6 +1,6 @@
-import * as fs from 'fs'
+import fs from 'fs'
 import { join, resolve as resolvePath } from 'path'
-import * as rdf from 'rdf-ext'
+import rdf from 'rdf-ext'
 import { expand, prefixes, shrink, vocabularies } from '.'
 
 const list = (directoryPath): Promise<any[]> =>
@@ -9,7 +9,7 @@ const list = (directoryPath): Promise<any[]> =>
       reject(err)
       return
     }
-    resolve(files)
+    resolve(files.filter((filename) => !filename.startsWith('_')))
   }))
 
 describe('default export', () => {

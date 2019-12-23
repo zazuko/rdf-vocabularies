@@ -1,6 +1,10 @@
-# vNext
+# `v2019.12.23`
 
-Updated prefixes:
+## New feature
+
+Prefixes Index / Vocabularies metadata: [`ontologies/_index.nq`](ontologies/_index.nq) holds an index of all provided vocabularies with some metadata, as N-Quads.
+
+## Updated prefixes
 
 | Prefix | #Quads |
 | ---- | ---- |
@@ -11,13 +15,15 @@ Updated prefixes:
 
 # `v2019.10.22`
 
+## New prefix
+
 Add `sh:` prefix and vocabulary.
 
 | Prefix | #Quads |
 | ---- | ---- |
 | `sh:` | 1128 |
 
-Updated prefixes:
+## Updated prefixes
 
 | Prefix | #Quads |
 | ---- | ---- |
@@ -27,13 +33,15 @@ Updated prefixes:
 
 # `v2019.9.24`
 
+## New prefix
+
 Add `sem:` prefix and vocabulary.
 
 | Prefix | #Quads |
 | ---- | ---- |
 | `sem:` | 520 |
 
-Updated prefixes:
+## Updated prefixes
 
 | Prefix | #Quads (#quads in previous version) |
 | ---- | ---- |
@@ -43,11 +51,13 @@ Updated prefixes:
 
 # `v2019.7.9-2`
 
+## Bugfix
+
 Fix: `as:` nq file had the wrong graph: it should be `http:` not `https:`.
 
 # `v2019.7.9`
 
-New prefixes:
+## New prefixes
 
 Add `as:` prefix and vocabulary.  
 Add `http:` prefix and vocabulary.  
@@ -65,14 +75,14 @@ Add `xkos:` prefix and vocabulary.
 | `xhv:` | 208 |
 | `xkos:` | 327 |
 
-Updated prefixes:
+## Updated prefixes
 
 | Prefix | #Quads (#quads in previous version) |
 | ---- | ---- |
 | `qudtv` | 13791 (13790) |
 | `schema` | 8833 (8809) |
 
-Other changes:
+## Misc
 
 `dtype` and `vaem` had incorrect base IRI, this release fixes them:
 
@@ -85,7 +95,7 @@ Other changes:
 
 # `v2019.6.27`
 
-New prefixes:
+## New prefixes
 
 Add `dtype:` prefix and vocabulary.  
 Add `vaem:` prefix and vocabulary.  
@@ -101,6 +111,8 @@ Add `qudtv:` prefix and vocabulary.
 
 # `v2019.6.17`
 
+## Feature
+
 Add bundler-friendly build.
 
 BREAKING CHANGE: The default export is replaced with a named one
@@ -112,7 +124,7 @@ BREAKING CHANGE: The default export is replaced with a named one
 + const prefixes = require('@zazuko/rdf-vocabularies/lib/node/prefixes').default
 ```
 
-New prefixes:
+## New prefixes
 
 Add `frbr:` prefix and vocabulary.  
 Add `rdau:` prefix and vocabulary.  
@@ -124,7 +136,7 @@ Add `smdx:` prefix and vocabulary.
 | `rdau` | 15722 |
 | `smdx` | 90 |
 
-Updated prefixes:
+## Updated prefixes
 
 | Prefix | #Quads (#quads in previous version) |
 | ---- | ---- |
@@ -134,6 +146,8 @@ Updated prefixes:
 | `schema` | 8809 (8809) |
 
 # `v2019.5.13`
+
+## New prefix
 
 Add `xsd:` prefix and vocabulary.
 

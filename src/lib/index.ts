@@ -1,5 +1,5 @@
-import * as ParserN3 from '@rdfjs/parser-n3'
-import * as rdf from 'rdf-ext'
+import ParserN3 from '@rdfjs/parser-n3'
+import rdf from 'rdf-ext'
 import { loadDatasetStream } from './loadDataset'
 
 import prefixes from './prefixes'
@@ -31,7 +31,7 @@ export async function vocabularies ({ only = null, factory = rdf, stream = false
   const promises = selectedPrefixes.map((prefix) => loadFile(prefix, { customSelection: !!only, factory }))
   const datasets = await Promise.all(promises)
 
-  if (stream) {
+  if (stream !== false) {
     let combinedDataset = factory.dataset()
     datasets.forEach((dataset: any) => {
       if (dataset && dataset.size) {
@@ -50,9 +50,9 @@ export async function vocabularies ({ only = null, factory = rdf, stream = false
   return result
 }
 
-async function loadFile (prefix: string, { customSelection, factory }) {
+export function loadFile (prefix: string, { customSelection, factory }) {
   const parserN3 = new ParserN3()
-  const readStream = await loadDatasetStream(prefix)
+  const readStream = loadDatasetStream(prefix)
   const quadStream = parserN3.import(readStream)
   return factory.dataset().import(quadStream).catch(() => {
     if (customSelection) {

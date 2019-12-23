@@ -1,4 +1,4 @@
-import * as fs from 'fs'
+import fs from 'fs'
 import { join, resolve } from 'path'
 
 function buildPath (prefix) {

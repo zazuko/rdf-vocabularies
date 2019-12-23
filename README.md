@@ -43,6 +43,10 @@ certain chunks from the being eagerly loaded. Check the [wiki](https://github.co
 
 (Read below and take a look at some [examples](./examples.js).)
 
+### Vocabularies Metadata
+
+See [`_index.nq`](./ontologies/_index.nq).
+
 ### `vocabularies()`
 
 The function (`require('@zazuko/rdf-vocabularies').vocabularies(options)`) accepts an optional `options` object:
@@ -53,7 +57,7 @@ factory abiding by the [RDF/JS Dataset Specification](https://rdf.js.org/dataset
 returned datasets.
 * `options.stream: Boolean`, default: `false`, whether to return a RDF/JS quad stream instead of regular objects/datasets.
 
-#### Loading all Ontologies as Datasets
+#### Loading all Vocabularies as Datasets
 
 In browser environment this will cause a request for each individual dataset. 
 It is thus recommended to always only [load the needed ontologies](#loading-only-some-ontologies-as-datasets)
@@ -116,7 +120,7 @@ vocabularies()
   })
 ```
 
-#### Loading only some Ontologies as Datasets
+#### Loading only some Vocabularies as Datasets
 
 ```js
 const { vocabularies } = require('@zazuko/rdf-vocabularies')
