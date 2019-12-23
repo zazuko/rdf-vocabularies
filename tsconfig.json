@@ -3,7 +3,8 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "declaration": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "esModuleInterop": true
   },
   "files": ["src/lib/index.ts"],
   "exclude": ["node_modules"]

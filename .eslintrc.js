@@ -40,7 +40,7 @@ module.exports = {
     quotes: ['error', 'single', {avoidEscape: true, allowTemplateLiterals: true}],
     '@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/no-use-before-define': 'warn'
+    '@typescript-eslint/no-use-before-define': 'off'
   },
   overrides: [
     {
