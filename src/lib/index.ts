@@ -1,20 +1,37 @@
 import ParserN3 from '@rdfjs/parser-n3'
 import rdf from 'rdf-ext'
+import DatasetExt from 'rdf-ext/lib/Dataset'
+import { NamedNode, Stream } from 'rdf-js'
 import { loadDatasetStream } from './loadDataset'
-
 import prefixes from './prefixes'
-// memoizing the prefixes already used in 'expand'
-const loadedPrefixes = {}
 
-interface Datasets { [prefix: string]: any }
+// memoizing the prefixes already used in 'expand'
+const loadedPrefixes: Datasets = {}
+
+type Datasets = Record<string, DatasetExt>
 
 export { default as prefixes } from './prefixes'
 
-export async function vocabularies ({ only = null, factory = rdf, stream = false } = {}): Promise<Datasets> {
-  const customSelection = !!only && Array.isArray(only)
+interface VocabulariesOptions {
+  only?: string[] | null;
+  factory?: typeof rdf;
+}
 
-  let selectedPrefixes = []
-  if (customSelection) {
+interface VocabulariesDatasetOptions extends VocabulariesOptions {
+  stream?: false;
+}
+
+interface VocabulariesStreamOptions extends VocabulariesOptions {
+  stream: true;
+}
+
+export async function vocabularies (options?: VocabulariesDatasetOptions): Promise<Datasets>
+export async function vocabularies (options: VocabulariesStreamOptions): Promise<Stream>
+export async function vocabularies (options: VocabulariesDatasetOptions | VocabulariesStreamOptions = {}) {
+  const { only = null, factory = rdf, stream = false } = options
+  let selectedPrefixes: string[] = []
+
+  if (!!only && Array.isArray(only)) {
     only.forEach((prefix: string) => {
       if (prefix in prefixes) {
         selectedPrefixes.push(prefix)
@@ -33,7 +50,7 @@ export async function vocabularies ({ only = null, factory = rdf, stream = false
 
   if (stream !== false) {
     let combinedDataset = factory.dataset()
-    datasets.forEach((dataset: any) => {
+    datasets.forEach((dataset) => {
       if (dataset && dataset.size) {
         combinedDataset = combinedDataset.merge(dataset)
       }
@@ -41,8 +58,8 @@ export async function vocabularies ({ only = null, factory = rdf, stream = false
     return combinedDataset.toStream()
   }
 
-  const result = {}
-  datasets.forEach((dataset: any, i) => {
+  const result: Datasets = {}
+  datasets.forEach((dataset, i) => {
     if (dataset && dataset.size) {
       result[selectedPrefixes[i]] = dataset
     }
@@ -50,7 +67,12 @@ export async function vocabularies ({ only = null, factory = rdf, stream = false
   return result
 }
 
-export function loadFile (prefix: string, { customSelection, factory }) {
+interface LoadFileOptions {
+  customSelection?: boolean;
+  factory: typeof rdf;
+}
+
+export function loadFile (prefix: string, { customSelection, factory }: LoadFileOptions) {
   const parserN3 = new ParserN3()
   const readStream = loadDatasetStream(prefix)
   const quadStream = parserN3.import(readStream)
@@ -61,7 +83,9 @@ export function loadFile (prefix: string, { customSelection, factory }) {
   })
 }
 
-export function expand (prefixed: string, types = []) {
+export function expand (prefixed: string): string;
+export function expand (prefixed: string, types: (string | NamedNode)[]): Promise<string>;
+export function expand (prefixed: string, types: (string | NamedNode)[] = []): string | Promise<string> {
   const [prefix, term] = prefixed.split(':')
   if (!prefix || !term) {
     return ''
@@ -88,7 +112,14 @@ export function shrink (iri: string) {
   return ''
 }
 
-export async function expandWithCheck ({ prefix, iri, baseIRI, types }) {
+interface ExpandWithCheckOptions {
+  prefix: string;
+  iri: string;
+  baseIRI: string;
+  types: (string | NamedNode)[];
+}
+
+export async function expandWithCheck ({ prefix, iri, baseIRI, types }: ExpandWithCheckOptions): Promise<string> {
   if (!(prefix in loadedPrefixes)) {
     // if not previously loaded, load and memoize for later use
     const datasets = await vocabularies({ only: [prefix], factory: rdf })
@@ -96,7 +127,7 @@ export async function expandWithCheck ({ prefix, iri, baseIRI, types }) {
   }
   const dataset = loadedPrefixes[prefix]
 
-  const typesNamedNodes = types.map((type: any) => typeof type === 'string' ? rdf.namedNode(type) : type)
+  const typesNamedNodes = types.map(type => typeof type === 'string' ? rdf.namedNode(type) : type)
   const typeTerm = rdf.namedNode(expand('rdf:type'))
   const graph = rdf.namedNode(baseIRI)
   for (const typeNamedNode of typesNamedNodes) {
