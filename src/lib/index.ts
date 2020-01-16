@@ -3,8 +3,8 @@ import rdf from 'rdf-ext'
 import DatasetExt from 'rdf-ext/lib/Dataset'
 import { NamedNode, Stream } from 'rdf-js'
 import { loadDatasetStream } from './loadDataset'
-import prefixes from './prefixes'
 
+import prefixes from './prefixes'
 // memoizing the prefixes already used in 'expand'
 const loadedPrefixes: Datasets = {}
 

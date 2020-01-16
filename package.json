@@ -16,7 +16,7 @@
     "build:node": "tsc --target es2017 --module commonjs --outDir lib/node",
     "build:web": "tsc --target esnext --module esnext --outDir lib/es; tsc --build tsconfig.web.json",
     "build": "rimraf lib; npm run build:node; npm run build:web",
-    "prepare": "npm run build"
+    "prepack": "npm run build"
   },
   "repository": {
     "type": "git",
