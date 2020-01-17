@@ -3,13 +3,11 @@
 import fs from 'fs'
 import rdf from 'rdf-ext'
 import formats from '@rdfjs/formats-common'
-import rdfFetch from '@rdfjs/fetch-lite'
+import rdfFetch, { FactoryInit, DatasetResponse } from '@rdfjs/fetch-lite'
 import { RdfXmlParser } from 'rdfxml-streaming-parser'
 import { expand, loadFile } from './src/lib'
-import { NamedNode, DatasetCore } from 'rdf-js'
-
-type RDFFetchOptions = RequestInit & { factory: any; formats: any }
-type RDFFetchResponse = Response & { dataset(): Promise<DatasetCore> }
+import { NamedNode } from 'rdf-js'
+import DatasetExt = require('rdf-ext/lib/Dataset')
 
 // this script gets your IP banned from w3.org unless you wait long enough between w3.org requests
 const w3Timeout = 5000
@@ -17,7 +15,7 @@ let lastW3FetchAt = 0
 
 // other workarounds to avoid w3.org banning us for making 30 requests over 10 minutes every two months...
 const randomInt = (a: number, b: number) => Math.floor(a + Math.random() * (b + 1 - a))
-const fetchOptions = () => ({
+const fetchOptions = (): RequestInit => ({
   'credentials': 'omit',
   'headers': {
     'accept-language': 'en-US,en',
@@ -44,26 +42,26 @@ async function wait (milliseconds: number) {
   return new Promise((resolve) => setTimeout(resolve, milliseconds))
 }
 
-function fetchWrapper (url: string, options: RDFFetchOptions, timeout: number): Promise<RDFFetchResponse> {
+function fetchWrapper (url: string, options: FactoryInit<DatasetExt>, timeout: number) {
   // source: https://stackoverflow.com/a/46946588/4359369
   return new Promise((resolve, reject) => {
-    rdfFetch(url, { ...fetchOptions(), ...options }).then(resolve, reject)
+    rdfFetch <DatasetExt>(url, { ...options, ...fetchOptions() }).then(resolve, reject)
 
     if (timeout) {
       const e = new Error('Connection timed out')
       setTimeout(reject, timeout, e)
     }
-  })
+  }) as Promise<DatasetResponse<DatasetExt>>
 }
 
-async function fetch (mappings, indexOnly = false) {
+async function fetch (mappings: any, indexOnly = false) {
   const prefix = mappings.prefix
   mappings = mappings.files || [mappings]
 
   let dataset = rdf.dataset()
 
   for (const mapping of (indexOnly ? [] : mappings)) {
-    const headers = {}
+    const headers: HeadersInit = {}
     if (mapping.mediaType) {
       headers['accept'] = mapping.mediaType
     }
@@ -105,13 +103,13 @@ async function fetch (mappings, indexOnly = false) {
   return dataset
 }
 
-function firstVal (dataset) {
+function firstVal (dataset: DatasetExt) {
   if (dataset.size) {
-    const english = dataset.toArray().find(({ object }) => object.language === 'en')
+    const english = dataset.toArray().find(({ object }: any) => object.language === 'en')
     if (english) {
       return english.object.value
     }
-    const noLanguage = dataset.toArray().find(({ object }) => object.language === '')
+    const noLanguage = dataset.toArray().find(({ object }: any) => object.language === '')
     if (noLanguage) {
       return noLanguage.object.value
     }
@@ -119,7 +117,7 @@ function firstVal (dataset) {
   }
 }
 
-function getTitle (dataset) {
+function getTitle (dataset: DatasetExt) {
   const potentialValues = [
     firstVal(dataset.match(null, rdf.namedNode(expand('dc11:title')))),
     firstVal(dataset.match(null, rdf.namedNode(expand('dcterms:title')))),
@@ -128,7 +126,7 @@ function getTitle (dataset) {
   return potentialValues.length ? potentialValues[0] : ''
 }
 
-function getDescription (dataset) {
+function getDescription (dataset: DatasetExt) {
   const potentialValues = [
     firstVal(dataset.match(null, rdf.namedNode(expand('dc11:description')))),
     firstVal(dataset.match(null, rdf.namedNode(expand('dcterms:description')))),
@@ -137,7 +135,7 @@ function getDescription (dataset) {
   return potentialValues.length ? potentialValues[0] : ''
 }
 
-function generateIndex (mappings, dataset) {
+function generateIndex (mappings: any, dataset: DatasetExt) {
   const vocabUri = rdf.namedNode(mappings.uri)
   const filteredDataset = dataset.match(vocabUri)
   const prefixDataset = rdf.dataset()
@@ -168,9 +166,9 @@ function generateIndex (mappings, dataset) {
     rdf.quad(subject, expandToNamedNode('dbo:filename'), rdf.literal(`ontologies/${mappings.prefix}.nq`))
   )
   const files = Array.isArray(mappings.files)
-    ? (mappings.files || [mappings]).map(({ file }) => file)
+    ? (mappings.files || [mappings]).map(({ file }: any) => file)
     : [mappings.file || mappings.uri]
-  files.filter(Boolean).forEach((file) => {
+  files.filter(Boolean).forEach((file: string) => {
     prefixDataset.add(
       rdf.quad(subject, expandToNamedNode('rdfs:isDefinedBy'), rdf.namedNode(file))
     )
@@ -198,7 +196,7 @@ async function main () {
     }
     console.log(`processing ${mappings.prefix}`)
     let dataset = await fetch(mappings)
-    if (dataset.size) {
+    if (dataset && dataset.size) {
       const graph = rdf.namedNode(mappings.uri)
       dataset = dataset.map(({ subject, predicate, object }) => rdf.quad(subject, predicate, object, graph))
 

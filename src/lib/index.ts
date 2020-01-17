@@ -2,6 +2,7 @@ import ParserN3 from '@rdfjs/parser-n3'
 import rdf from 'rdf-ext'
 import DatasetExt from 'rdf-ext/lib/Dataset'
 import { NamedNode, Stream } from 'rdf-js'
+import { Readable } from 'stream'
 import { loadDatasetStream } from './loadDataset'
 
 import prefixes from './prefixes'
@@ -26,7 +27,7 @@ interface VocabulariesStreamOptions extends VocabulariesOptions {
 }
 
 export async function vocabularies (options?: VocabulariesDatasetOptions): Promise<Datasets>
-export async function vocabularies (options: VocabulariesStreamOptions): Promise<Stream>
+export async function vocabularies (options: VocabulariesStreamOptions): Promise<Stream & Readable>
 export async function vocabularies (options: VocabulariesDatasetOptions | VocabulariesStreamOptions = {}) {
   const { only = null, factory = rdf, stream = false } = options
   let selectedPrefixes: string[] = []

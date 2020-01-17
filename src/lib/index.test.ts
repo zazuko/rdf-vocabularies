@@ -2,9 +2,8 @@ import fs from 'fs'
 import { join, resolve as resolvePath } from 'path'
 import rdf from 'rdf-ext'
 import { expand, prefixes, shrink, vocabularies } from '.'
-import DatasetExt = require('rdf-ext/lib/Dataset');
 
-const list = (directoryPath: string): Promise<any[]> =>
+const list = (directoryPath: string): Promise<string[]> =>
   new Promise((resolve, reject) => fs.readdir(directoryPath, (err, files: string[]) => {
     if (err) {
       reject(err)
