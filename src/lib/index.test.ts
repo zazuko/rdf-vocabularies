@@ -3,7 +3,7 @@ import { join, resolve as resolvePath } from 'path'
 import rdf from 'rdf-ext'
 import { expand, prefixes, shrink, vocabularies } from '.'
 
-const list = (directoryPath): Promise<any[]> =>
+const list = (directoryPath: string): Promise<string[]> =>
   new Promise((resolve, reject) => fs.readdir(directoryPath, (err, files: string[]) => {
     if (err) {
       reject(err)
@@ -121,10 +121,10 @@ describe('user-defined prefixes', () => {
   })
 })
 
-function loadFile (prefix) {
+function loadFile (prefix: string) {
   return fs.readFileSync(buildPath(prefix), { encoding: 'utf8' })
 }
 
-function buildPath (prefix) {
+function buildPath (prefix: string) {
   return resolvePath(join('.', 'ontologies', `${prefix}.nq`))
 }

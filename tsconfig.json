@@ -4,7 +4,14 @@
     "noUnusedParameters": true,
     "declaration": true,
     "moduleResolution": "node",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "lib": [
+      "es2015",
+      "webworker"
+    ]
   },
   "files": ["src/lib/index.ts"],
   "exclude": ["node_modules"]
