@@ -14,5 +14,5 @@
       "webworker"
     ]
   },
-  "files": ["src/node/index.ts"]
+  "files": ["src/lib/index.ts"]
 }
