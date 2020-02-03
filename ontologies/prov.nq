@@ -16,7 +16,6 @@
 <http://www.w3.org/ns/prov#> <http://www.w3.org/2000/01/rdf-schema#comment> "This document is published by the Provenance Working Group (http://www.w3.org/2011/prov/wiki/Main_Page).\n\nIf you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/\nArchives/Public/public-prov-comments/). All feedback is welcome."@en <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/2000/01/rdf-schema#label> "W3C PROVenance Interchange"@en <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/prov-o/#names-of-inverse-properties> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/prov-overview/> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/prov-aq#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/prov-dc#> <http://www.w3.org/ns/prov#> .
@@ -25,17 +24,13 @@
 <http://www.w3.org/ns/prov#> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/prov-o#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/prov-o-inverses#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.w3.org/ns/prov-20130430> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.w3.org/ns/prov-o-inverses-20130430> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#specializationOf> <http://www.w3.org/ns/prov-o-inverses> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov-aq#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov-dc#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov-dictionary#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov-links#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov-o#> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov-o-20130430> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov-o-inverses#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/ns/prov-20130312> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/ns/prov-o-inverses-20120312> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Accept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Accept> <http://www.w3.org/2000/01/rdf-schema#label> "Accept"@en <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Accept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
@@ -1477,6 +1472,13 @@
 <http://www.w3.org/ns/prov-o#> <http://www.w3.org/2002/07/owl#versionInfo> "Recommendation version 2013-04-30"@en <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov-o#> <http://www.w3.org/ns/prov#specializationOf> <http://www.w3.org/ns/prov-o> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov-o#> <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/ns/prov-o-20120312> <http://www.w3.org/ns/prov#> .
+<https://www.w3.org/ns/prov#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/ns/prov#> .
+<https://www.w3.org/ns/prov#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/prov-o/#names-of-inverse-properties> <http://www.w3.org/ns/prov#> .
+<https://www.w3.org/ns/prov#> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/prov-o#> <http://www.w3.org/ns/prov#> .
+<https://www.w3.org/ns/prov#> <http://www.w3.org/2002/07/owl#versionIRI> <http://www.w3.org/ns/prov-o-inverses-20130430> <http://www.w3.org/ns/prov#> .
+<https://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#specializationOf> <http://www.w3.org/ns/prov-o-inverses> <http://www.w3.org/ns/prov#> .
+<https://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov-o-20130430> <http://www.w3.org/ns/prov#> .
+<https://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/ns/prov-o-inverses-20120312> <http://www.w3.org/ns/prov#> .
 _:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
 _:c14n0 <http://www.w3.org/2002/07/owl#unionOf> _:c14n20 <http://www.w3.org/ns/prov#> .
 _:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .

@@ -7,7 +7,7 @@ import rdfFetch, { FactoryInit, DatasetResponse } from '@rdfjs/fetch-lite'
 import { RdfXmlParser } from 'rdfxml-streaming-parser'
 import { expand, loadFile } from './src/lib'
 import { NamedNode } from 'rdf-js'
-import DatasetExt = require('rdf-ext/lib/Dataset')
+import DatasetExt from 'rdf-ext/lib/Dataset'
 
 // this script gets your IP banned from w3.org unless you wait long enough between w3.org requests
 const w3Timeout = 5000

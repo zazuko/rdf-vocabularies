@@ -11,7 +11,7 @@
     "*.d.ts.map"
   ],
   "scripts": {
-    "fetch": "npm run build; ts-node fetch.ts",
+    "fetch": "tsc --esModuleInterop fetch.ts; node fetch.js",
     "lint": "eslint . --ext .js,.ts",
     "pretest": "npm run lint",
     "test": "jest",

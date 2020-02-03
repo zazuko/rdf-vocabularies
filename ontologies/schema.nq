@@ -64,7 +64,7 @@
 <http://schema.org/AdultEntertainment> <http://www.w3.org/2000/01/rdf-schema#label> "AdultEntertainment" <http://schema.org/> .
 <http://schema.org/AdultEntertainment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/EntertainmentBusiness> <http://schema.org/> .
 <http://schema.org/AggregateOffer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/AggregateOffer> <http://www.w3.org/2000/01/rdf-schema#comment> "When a single product is associated with multiple offers (for example, the same pair of shoes is offered by different merchants), then AggregateOffer can be used." <http://schema.org/> .
+<http://schema.org/AggregateOffer> <http://www.w3.org/2000/01/rdf-schema#comment> "When a single product is associated with multiple offers (for example, the same pair of shoes is offered by different merchants), then AggregateOffer can be used.<br/><br/>\n\nNote: AggregateOffers are normally expected to associate multiple offers that all share the same defined <a class=\"localLink\" href=\"http://schema.org/businessFunction\">businessFunction</a> value, or default to http://purl.org/goodrelations/v1#Sell if businessFunction is not explicitly defined." <http://schema.org/> .
 <http://schema.org/AggregateOffer> <http://www.w3.org/2000/01/rdf-schema#label> "AggregateOffer" <http://schema.org/> .
 <http://schema.org/AggregateOffer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Offer> <http://schema.org/> .
 <http://schema.org/AggregateRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -1328,7 +1328,7 @@
 <http://schema.org/ImageGallery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/ImageGallery> <http://www.w3.org/2000/01/rdf-schema#comment> "Web page type: Image gallery page." <http://schema.org/> .
 <http://schema.org/ImageGallery> <http://www.w3.org/2000/01/rdf-schema#label> "ImageGallery" <http://schema.org/> .
-<http://schema.org/ImageGallery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CollectionPage> <http://schema.org/> .
+<http://schema.org/ImageGallery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MediaGallery> <http://schema.org/> .
 <http://schema.org/ImageObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/ImageObject> <http://www.w3.org/2000/01/rdf-schema#comment> "An image file." <http://schema.org/> .
 <http://schema.org/ImageObject> <http://www.w3.org/2000/01/rdf-schema#label> "ImageObject" <http://schema.org/> .
@@ -1576,6 +1576,10 @@
 <http://schema.org/Mass> <http://www.w3.org/2000/01/rdf-schema#comment> "Properties that take Mass as values are of the form '&lt;Number&gt; &lt;Mass unit of measure&gt;'. E.g., '7 kg'." <http://schema.org/> .
 <http://schema.org/Mass> <http://www.w3.org/2000/01/rdf-schema#label> "Mass" <http://schema.org/> .
 <http://schema.org/Mass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Quantity> <http://schema.org/> .
+<http://schema.org/MediaGallery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/MediaGallery> <http://www.w3.org/2000/01/rdf-schema#comment> "Web page type: Media gallery page. A mixed-media page that can contains media such as images, videos, and other multimedia." <http://schema.org/> .
+<http://schema.org/MediaGallery> <http://www.w3.org/2000/01/rdf-schema#label> "MediaGallery" <http://schema.org/> .
+<http://schema.org/MediaGallery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CollectionPage> <http://schema.org/> .
 <http://schema.org/MediaObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/MediaObject> <http://www.w3.org/2000/01/rdf-schema#comment> "A media object, such as an image, video, or audio object embedded in a web page or a downloadable dataset i.e. DataDownload. Note that a creative work may have many media objects associated with it on the same web page. For example, a page about a single song (MusicRecording) may have a music video (VideoObject), and a high and low bandwidth audio stream (2 AudioObject's)." <http://schema.org/> .
 <http://schema.org/MediaObject> <http://www.w3.org/2000/01/rdf-schema#label> "MediaObject" <http://schema.org/> .
@@ -1808,7 +1812,7 @@
 <http://schema.org/OceanBodyOfWater> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/BodyOfWater> <http://schema.org/> .
 <http://schema.org/Offer> <http://purl.org/dc/terms/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms> <http://schema.org/> .
 <http://schema.org/Offer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/Offer> <http://www.w3.org/2000/01/rdf-schema#comment> "An offer to transfer some rights to an item or to provide a service — for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.<br/><br/>\n\nFor <a href=\"http://www.gs1.org/barcodes/technical/idkeys/gtin\">GTIN</a>-related fields, see <a href=\"http://www.gs1.org/barcodes/support/check_digit_calculator\">Check Digit calculator</a> and <a href=\"http://www.gs1us.org/resources/standards/gtin-validation-guide\">validation guide</a> from <a href=\"http://www.gs1.org/\">GS1</a>." <http://schema.org/> .
+<http://schema.org/Offer> <http://www.w3.org/2000/01/rdf-schema#comment> "An offer to transfer some rights to an item or to provide a service — for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.<br/><br/>\n\nNote: As the <a class=\"localLink\" href=\"http://schema.org/businessFunction\">businessFunction</a> property, which identifies the form of offer (e.g. sell, lease, repair, dispose), defaults to http://purl.org/goodrelations/v1#Sell; an Offer without a defined businessFunction value can be assumed to be an offer to sell.<br/><br/>\n\nFor <a href=\"http://www.gs1.org/barcodes/technical/idkeys/gtin\">GTIN</a>-related fields, see <a href=\"http://www.gs1.org/barcodes/support/check_digit_calculator\">Check Digit calculator</a> and <a href=\"http://www.gs1us.org/resources/standards/gtin-validation-guide\">validation guide</a> from <a href=\"http://www.gs1.org/\">GS1</a>." <http://schema.org/> .
 <http://schema.org/Offer> <http://www.w3.org/2000/01/rdf-schema#label> "Offer" <http://schema.org/> .
 <http://schema.org/Offer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Intangible> <http://schema.org/> .
 <http://schema.org/OfferCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -2100,7 +2104,7 @@
 <http://schema.org/PotentialActionStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of an action that is supported." <http://schema.org/> .
 <http://schema.org/PotentialActionStatus> <http://www.w3.org/2000/01/rdf-schema#label> "PotentialActionStatus" <http://schema.org/> .
 <http://schema.org/PreOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ItemAvailability> <http://schema.org/> .
-<http://schema.org/PreOrder> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the item is available for pre-order, but will be delivered when generally available." <http://schema.org/> .
+<http://schema.org/PreOrder> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the item is available for pre-order." <http://schema.org/> .
 <http://schema.org/PreOrder> <http://www.w3.org/2000/01/rdf-schema#label> "PreOrder" <http://schema.org/> .
 <http://schema.org/PreOrderAction> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1125> <http://schema.org/> .
 <http://schema.org/PreOrderAction> <http://schema.org/category> "issue-1125" <http://schema.org/> .
@@ -2914,7 +2918,7 @@
 <http://schema.org/VideoGallery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/VideoGallery> <http://www.w3.org/2000/01/rdf-schema#comment> "Web page type: Video gallery page." <http://schema.org/> .
 <http://schema.org/VideoGallery> <http://www.w3.org/2000/01/rdf-schema#label> "VideoGallery" <http://schema.org/> .
-<http://schema.org/VideoGallery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CollectionPage> <http://schema.org/> .
+<http://schema.org/VideoGallery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MediaGallery> <http://schema.org/> .
 <http://schema.org/VideoGame> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/VideoGame> <http://www.w3.org/2000/01/rdf-schema#comment> "A video game is an electronic game that involves human interaction with a user interface to generate visual feedback on a video device." <http://schema.org/> .
 <http://schema.org/VideoGame> <http://www.w3.org/2000/01/rdf-schema#label> "VideoGame" <http://schema.org/> .
@@ -3592,9 +3596,12 @@
 <http://schema.org/audienceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/audienceType> <http://www.w3.org/2000/01/rdf-schema#comment> "The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.)." <http://schema.org/> .
 <http://schema.org/audienceType> <http://www.w3.org/2000/01/rdf-schema#label> "audienceType" <http://schema.org/> .
+<http://schema.org/audio> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2420> <http://schema.org/> .
+<http://schema.org/audio> <http://schema.org/category> "issue-2420" <http://schema.org/> .
 <http://schema.org/audio> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/audio> <http://schema.org/rangeIncludes> <http://schema.org/AudioObject> <http://schema.org/> .
 <http://schema.org/audio> <http://schema.org/rangeIncludes> <http://schema.org/Clip> <http://schema.org/> .
+<http://schema.org/audio> <http://schema.org/rangeIncludes> <http://schema.org/MusicRecording> <http://schema.org/> .
 <http://schema.org/audio> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/audio> <http://www.w3.org/2000/01/rdf-schema#comment> "An embedded audio object." <http://schema.org/> .
 <http://schema.org/audio> <http://www.w3.org/2000/01/rdf-schema#label> "audio" <http://schema.org/> .
@@ -4024,6 +4031,7 @@
 <http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/PhysicalActivity> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
+<http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/Recommendation> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/Service> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/rangeIncludes> <http://schema.org/PhysicalActivityCategory> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -4458,12 +4466,14 @@
 <http://schema.org/dateModified> <http://www.w3.org/2000/01/rdf-schema#comment> "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed." <http://schema.org/> .
 <http://schema.org/dateModified> <http://www.w3.org/2000/01/rdf-schema#label> "dateModified" <http://schema.org/> .
 <http://schema.org/datePosted> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
+<http://schema.org/datePosted> <http://schema.org/domainIncludes> <http://schema.org/RealEstateListing> <http://schema.org/> .
 <http://schema.org/datePosted> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/datePosted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/datePosted> <http://www.w3.org/2000/01/rdf-schema#comment> "Publication date for the job posting." <http://schema.org/> .
+<http://schema.org/datePosted> <http://www.w3.org/2000/01/rdf-schema#comment> "Publication date of an online listing." <http://schema.org/> .
 <http://schema.org/datePosted> <http://www.w3.org/2000/01/rdf-schema#label> "datePosted" <http://schema.org/> .
 <http://schema.org/datePublished> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/datePublished> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
+<http://schema.org/datePublished> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/datePublished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/datePublished> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of first broadcast/publication." <http://schema.org/> .
 <http://schema.org/datePublished> <http://www.w3.org/2000/01/rdf-schema#label> "datePublished" <http://schema.org/> .
@@ -4495,6 +4505,7 @@
 <http://schema.org/dateline> <http://www.w3.org/2000/01/rdf-schema#comment> "A <a href=\"https://en.wikipedia.org/wiki/Dateline\">dateline</a> is a brief piece of text included in news articles that describes where and when the story was written or filed though the date is often omitted. Sometimes only a placename is provided.<br/><br/>\n\nStructured representations of dateline-related information can also be expressed more explicitly using <a class=\"localLink\" href=\"http://schema.org/locationCreated\">locationCreated</a> (which represents where a work was created e.g. where a news report was written).  For location depicted or described in the content, use <a class=\"localLink\" href=\"http://schema.org/contentLocation\">contentLocation</a>.<br/><br/>\n\nDateline summaries are oriented more towards human readers than towards automated processing, and can vary substantially. Some examples: \"BEIRUT, Lebanon, June 2.\", \"Paris, France\", \"December 19, 2017 11:43AM Reporting from Washington\", \"Beijing/Moscow\", \"QUEZON CITY, Philippines\"." <http://schema.org/> .
 <http://schema.org/dateline> <http://www.w3.org/2000/01/rdf-schema#label> "dateline" <http://schema.org/> .
 <http://schema.org/dayOfWeek> <http://purl.org/dc/terms/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms> <http://schema.org/> .
+<http://schema.org/dayOfWeek> <http://schema.org/domainIncludes> <http://schema.org/EducationalOccupationalProgram> <http://schema.org/> .
 <http://schema.org/dayOfWeek> <http://schema.org/domainIncludes> <http://schema.org/OpeningHoursSpecification> <http://schema.org/> .
 <http://schema.org/dayOfWeek> <http://schema.org/rangeIncludes> <http://schema.org/DayOfWeek> <http://schema.org/> .
 <http://schema.org/dayOfWeek> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -4728,7 +4739,9 @@
 <http://schema.org/duns> <http://www.w3.org/2000/01/rdf-schema#comment> "The Dun &amp; Bradstreet DUNS number for identifying an organization or business person." <http://schema.org/> .
 <http://schema.org/duns> <http://www.w3.org/2000/01/rdf-schema#label> "duns" <http://schema.org/> .
 <http://schema.org/duns> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/identifier> <http://schema.org/> .
+<http://schema.org/duration> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1457> <http://schema.org/> .
 <http://schema.org/duration> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1698> <http://schema.org/> .
+<http://schema.org/duration> <http://schema.org/category> "issue-1457" <http://schema.org/> .
 <http://schema.org/duration> <http://schema.org/category> "issue-1698" <http://schema.org/> .
 <http://schema.org/duration> <http://schema.org/domainIncludes> <http://schema.org/Audiobook> <http://schema.org/> .
 <http://schema.org/duration> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
@@ -4737,6 +4750,7 @@
 <http://schema.org/duration> <http://schema.org/domainIncludes> <http://schema.org/MusicRecording> <http://schema.org/> .
 <http://schema.org/duration> <http://schema.org/domainIncludes> <http://schema.org/MusicRelease> <http://schema.org/> .
 <http://schema.org/duration> <http://schema.org/domainIncludes> <http://schema.org/QuantitativeValueDistribution> <http://schema.org/> .
+<http://schema.org/duration> <http://schema.org/domainIncludes> <http://schema.org/Schedule> <http://schema.org/> .
 <http://schema.org/duration> <http://schema.org/rangeIncludes> <http://schema.org/Duration> <http://schema.org/> .
 <http://schema.org/duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/duration> <http://www.w3.org/2000/01/rdf-schema#comment> "The duration of the item (movie, audio recording, event, etc.) in <a href=\"http://en.wikipedia.org/wiki/ISO_8601\">ISO 8601 date format</a>." <http://schema.org/> .
@@ -4900,6 +4914,7 @@
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/CreativeWorkSeason> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/CreativeWorkSeries> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/DatedMoneySpecification> <http://schema.org/> .
+<http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/EducationalOccupationalProgram> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/Role> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
@@ -5629,10 +5644,14 @@
 <http://schema.org/inBroadcastLineup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/inBroadcastLineup> <http://www.w3.org/2000/01/rdf-schema#comment> "The CableOrSatelliteService offering the channel." <http://schema.org/> .
 <http://schema.org/inBroadcastLineup> <http://www.w3.org/2000/01/rdf-schema#label> "inBroadcastLineup" <http://schema.org/> .
+<http://schema.org/inLanguage> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2382> <http://schema.org/> .
+<http://schema.org/inLanguage> <http://schema.org/category> "issue-2382" <http://schema.org/> .
+<http://schema.org/inLanguage> <http://schema.org/domainIncludes> <http://schema.org/BroadcastService> <http://schema.org/> .
 <http://schema.org/inLanguage> <http://schema.org/domainIncludes> <http://schema.org/CommunicateAction> <http://schema.org/> .
 <http://schema.org/inLanguage> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/inLanguage> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
 <http://schema.org/inLanguage> <http://schema.org/domainIncludes> <http://schema.org/LinkRole> <http://schema.org/> .
+<http://schema.org/inLanguage> <http://schema.org/domainIncludes> <http://schema.org/PronounceableText> <http://schema.org/> .
 <http://schema.org/inLanguage> <http://schema.org/domainIncludes> <http://schema.org/WriteAction> <http://schema.org/> .
 <http://schema.org/inLanguage> <http://schema.org/rangeIncludes> <http://schema.org/Language> <http://schema.org/> .
 <http://schema.org/inLanguage> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -5681,6 +5700,7 @@
 <http://schema.org/includesObject> <http://www.w3.org/2000/01/rdf-schema#comment> "This links to a node or nodes indicating the exact quantity of the products included in the offer." <http://schema.org/> .
 <http://schema.org/includesObject> <http://www.w3.org/2000/01/rdf-schema#label> "includesObject" <http://schema.org/> .
 <http://schema.org/industry> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
+<http://schema.org/industry> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
 <http://schema.org/industry> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/industry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/industry> <http://www.w3.org/2000/01/rdf-schema#comment> "The industry associated with the job position." <http://schema.org/> .
@@ -5717,7 +5737,11 @@
 <http://schema.org/interactionService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/interactionService> <http://www.w3.org/2000/01/rdf-schema#comment> "The WebSite or SoftwareApplication where the interactions took place." <http://schema.org/> .
 <http://schema.org/interactionService> <http://www.w3.org/2000/01/rdf-schema#label> "interactionService" <http://schema.org/> .
+<http://schema.org/interactionStatistic> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2421> <http://schema.org/> .
+<http://schema.org/interactionStatistic> <http://schema.org/category> "issue-2421" <http://schema.org/> .
 <http://schema.org/interactionStatistic> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/interactionStatistic> <http://schema.org/domainIncludes> <http://schema.org/Organization> <http://schema.org/> .
+<http://schema.org/interactionStatistic> <http://schema.org/domainIncludes> <http://schema.org/Person> <http://schema.org/> .
 <http://schema.org/interactionStatistic> <http://schema.org/rangeIncludes> <http://schema.org/InteractionCounter> <http://schema.org/> .
 <http://schema.org/interactionStatistic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/interactionStatistic> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of interactions for the CreativeWork using the WebSite or SoftwareApplication. The most specific child type of InteractionCounter should be used." <http://schema.org/> .
@@ -5800,6 +5824,7 @@
 <http://schema.org/isPartOf> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/isPartOf> <http://schema.org/inverseOf> <http://schema.org/hasPart> <http://schema.org/> .
 <http://schema.org/isPartOf> <http://schema.org/rangeIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/isPartOf> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
 <http://schema.org/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/isPartOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates an item or CreativeWork that this item, or CreativeWork (in some sense), is part of." <http://schema.org/> .
 <http://schema.org/isPartOf> <http://www.w3.org/2000/01/rdf-schema#label> "isPartOf" <http://schema.org/> .
@@ -5911,10 +5936,16 @@
 <http://schema.org/itemListOrder> <http://www.w3.org/2000/01/rdf-schema#label> "itemListOrder" <http://schema.org/> .
 <http://schema.org/itemOffered> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .
 <http://schema.org/itemOffered> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
+<http://schema.org/itemOffered> <http://schema.org/inverseOf> <http://schema.org/offers> <http://schema.org/> .
+<http://schema.org/itemOffered> <http://schema.org/rangeIncludes> <http://schema.org/AggregateOffer> <http://schema.org/> .
+<http://schema.org/itemOffered> <http://schema.org/rangeIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/itemOffered> <http://schema.org/rangeIncludes> <http://schema.org/Event> <http://schema.org/> .
+<http://schema.org/itemOffered> <http://schema.org/rangeIncludes> <http://schema.org/MenuItem> <http://schema.org/> .
 <http://schema.org/itemOffered> <http://schema.org/rangeIncludes> <http://schema.org/Product> <http://schema.org/> .
 <http://schema.org/itemOffered> <http://schema.org/rangeIncludes> <http://schema.org/Service> <http://schema.org/> .
+<http://schema.org/itemOffered> <http://schema.org/rangeIncludes> <http://schema.org/Trip> <http://schema.org/> .
 <http://schema.org/itemOffered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/itemOffered> <http://www.w3.org/2000/01/rdf-schema#comment> "The item being offered." <http://schema.org/> .
+<http://schema.org/itemOffered> <http://www.w3.org/2000/01/rdf-schema#comment> "An item being offered (or demanded). The transactional nature of the offer or demand is documented using <a class=\"localLink\" href=\"http://schema.org/businessFunction\">businessFunction</a>, e.g. sell, lease etc. While several common expected types are listed explicitly in this definition, others can be used. Using a second type, such as Product or a subtype of Product, can clarify the nature of the offer." <http://schema.org/> .
 <http://schema.org/itemOffered> <http://www.w3.org/2000/01/rdf-schema#label> "itemOffered" <http://schema.org/> .
 <http://schema.org/itemReviewed> <http://schema.org/domainIncludes> <http://schema.org/AggregateRating> <http://schema.org/> .
 <http://schema.org/itemReviewed> <http://schema.org/domainIncludes> <http://schema.org/Review> <http://schema.org/> .
@@ -6498,6 +6529,7 @@
 <http://schema.org/numberOfRooms> <http://purl.org/dc/terms/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology> <http://schema.org/> .
 <http://schema.org/numberOfRooms> <http://schema.org/domainIncludes> <http://schema.org/Accommodation> <http://schema.org/> .
 <http://schema.org/numberOfRooms> <http://schema.org/domainIncludes> <http://schema.org/Apartment> <http://schema.org/> .
+<http://schema.org/numberOfRooms> <http://schema.org/domainIncludes> <http://schema.org/FloorPlan> <http://schema.org/> .
 <http://schema.org/numberOfRooms> <http://schema.org/domainIncludes> <http://schema.org/House> <http://schema.org/> .
 <http://schema.org/numberOfRooms> <http://schema.org/domainIncludes> <http://schema.org/LodgingBusiness> <http://schema.org/> .
 <http://schema.org/numberOfRooms> <http://schema.org/domainIncludes> <http://schema.org/SingleFamilyResidence> <http://schema.org/> .
@@ -6582,9 +6614,11 @@
 <http://schema.org/offers> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
 <http://schema.org/offers> <http://schema.org/domainIncludes> <http://schema.org/Service> <http://schema.org/> .
 <http://schema.org/offers> <http://schema.org/domainIncludes> <http://schema.org/Trip> <http://schema.org/> .
+<http://schema.org/offers> <http://schema.org/inverseOf> <http://schema.org/itemOffered> <http://schema.org/> .
+<http://schema.org/offers> <http://schema.org/rangeIncludes> <http://schema.org/Demand> <http://schema.org/> .
 <http://schema.org/offers> <http://schema.org/rangeIncludes> <http://schema.org/Offer> <http://schema.org/> .
 <http://schema.org/offers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/offers> <http://www.w3.org/2000/01/rdf-schema#comment> "An offer to provide this item&#x2014;for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event." <http://schema.org/> .
+<http://schema.org/offers> <http://www.w3.org/2000/01/rdf-schema#comment> "An offer to provide this item&#x2014;for example, an offer to sell a product, rent the DVD of a movie, perform a service, or give away tickets to an event. Use <a class=\"localLink\" href=\"http://schema.org/businessFunction\">businessFunction</a> to indicate the kind of transaction offered, i.e. sell, lease, etc. This property can also be used to describe a <a class=\"localLink\" href=\"http://schema.org/Demand\">Demand</a>. While this property is listed as expected on a number of common types, it can be used in others. In that case, using a second type, such as Product or a subtype of Product, can clarify the nature of the offer." <http://schema.org/> .
 <http://schema.org/offers> <http://www.w3.org/2000/01/rdf-schema#label> "offers" <http://schema.org/> .
 <http://schema.org/openingHours> <http://schema.org/domainIncludes> <http://schema.org/CivicStructure> <http://schema.org/> .
 <http://schema.org/openingHours> <http://schema.org/domainIncludes> <http://schema.org/LocalBusiness> <http://schema.org/> .
@@ -7589,6 +7623,7 @@
 <http://schema.org/review> <http://www.w3.org/2000/01/rdf-schema#label> "review" <http://schema.org/> .
 <http://schema.org/reviewAspect> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1689> <http://schema.org/> .
 <http://schema.org/reviewAspect> <http://schema.org/category> "issue-1689" <http://schema.org/> .
+<http://schema.org/reviewAspect> <http://schema.org/domainIncludes> <http://schema.org/Guide> <http://schema.org/> .
 <http://schema.org/reviewAspect> <http://schema.org/domainIncludes> <http://schema.org/Rating> <http://schema.org/> .
 <http://schema.org/reviewAspect> <http://schema.org/domainIncludes> <http://schema.org/Review> <http://schema.org/> .
 <http://schema.org/reviewAspect> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -7701,6 +7736,7 @@
 <http://schema.org/season> <http://schema.org/domainIncludes> <http://schema.org/TVSeries> <http://schema.org/> .
 <http://schema.org/season> <http://schema.org/domainIncludes> <http://schema.org/VideoGameSeries> <http://schema.org/> .
 <http://schema.org/season> <http://schema.org/rangeIncludes> <http://schema.org/CreativeWorkSeason> <http://schema.org/> .
+<http://schema.org/season> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
 <http://schema.org/season> <http://schema.org/supersededBy> <http://schema.org/containsSeason> <http://schema.org/> .
 <http://schema.org/season> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/season> <http://www.w3.org/2000/01/rdf-schema#comment> "A season in a media series." <http://schema.org/> .
@@ -7995,12 +8031,6 @@
 <http://schema.org/sponsor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/sponsor> <http://www.w3.org/2000/01/rdf-schema#comment> "A person or organization that supports a thing through a pledge, promise, or financial contribution. e.g. a sponsor of a Medical Study or a corporate sponsor of an event." <http://schema.org/> .
 <http://schema.org/sponsor> <http://www.w3.org/2000/01/rdf-schema#label> "sponsor" <http://schema.org/> .
-<http://schema.org/sport> <http://schema.org/domainIncludes> <http://schema.org/SportsOrganization> <http://schema.org/> .
-<http://schema.org/sport> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
-<http://schema.org/sport> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
-<http://schema.org/sport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/sport> <http://www.w3.org/2000/01/rdf-schema#comment> "A type of sport (e.g. Baseball)." <http://schema.org/> .
-<http://schema.org/sport> <http://www.w3.org/2000/01/rdf-schema#label> "sport" <http://schema.org/> .
 <http://schema.org/sportsActivityLocation> <http://schema.org/domainIncludes> <http://schema.org/ExerciseAction> <http://schema.org/> .
 <http://schema.org/sportsActivityLocation> <http://schema.org/rangeIncludes> <http://schema.org/SportsActivityLocation> <http://schema.org/> .
 <http://schema.org/sportsActivityLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -8034,6 +8064,7 @@
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/CreativeWorkSeason> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/CreativeWorkSeries> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/DatedMoneySpecification> <http://schema.org/> .
+<http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/EducationalOccupationalProgram> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/Role> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .

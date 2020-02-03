@@ -1,10 +1,28 @@
+# `v2020.2.3`
+
+## Changes
+
+- Strict typings
+- Package only includes a single copy of the types definition, at the root
+
+## Updated vocabularies
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `dc11` | 107 |
+| `dcat` | 1170 |
+| `dcterms` | 619 |
+| `hydra` | 407 |
+| `prov` | 1664 |
+| `schema` | 8858 |
+
 # `v2019.12.23`
 
 ## New feature
 
 Prefixes Index / Vocabularies metadata: [`ontologies/_index.nq`](ontologies/_index.nq) holds an index of all provided vocabularies with some metadata, as N-Quads.
 
-## Updated prefixes
+## Updated vocabularies
 
 | Prefix | #Quads |
 | ---- | ---- |
@@ -23,7 +41,7 @@ Add `sh:` prefix and vocabulary.
 | ---- | ---- |
 | `sh:` | 1128 |
 
-## Updated prefixes
+## Updated vocabularies
 
 | Prefix | #Quads |
 | ---- | ---- |
@@ -41,7 +59,7 @@ Add `sem:` prefix and vocabulary.
 | ---- | ---- |
 | `sem:` | 520 |
 
-## Updated prefixes
+## Updated vocabularies
 
 | Prefix | #Quads (#quads in previous version) |
 | ---- | ---- |
@@ -75,7 +93,7 @@ Add `xkos:` prefix and vocabulary.
 | `xhv:` | 208 |
 | `xkos:` | 327 |
 
-## Updated prefixes
+## Updated vocabularies
 
 | Prefix | #Quads (#quads in previous version) |
 | ---- | ---- |
@@ -136,7 +154,7 @@ Add `smdx:` prefix and vocabulary.
 | `rdau` | 15722 |
 | `smdx` | 90 |
 
-## Updated prefixes
+## Updated vocabularies
 
 | Prefix | #Quads (#quads in previous version) |
 | ---- | ---- |
