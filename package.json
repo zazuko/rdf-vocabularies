@@ -7,8 +7,8 @@
   "files": [
     "lib",
     "ontologies",
-    "index.d.ts",
-    "index.d.ts.map"
+    "*.d.ts",
+    "*.d.ts.map"
   ],
   "scripts": {
     "fetch": "npm run build; ts-node fetch.ts",
