@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "declaration": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "noImplicitAny": true,
@@ -13,6 +14,5 @@
       "webworker"
     ]
   },
-  "files": ["src/lib/index.ts"],
-  "exclude": ["node_modules"]
+  "files": ["src/lib/index.ts"]
 }

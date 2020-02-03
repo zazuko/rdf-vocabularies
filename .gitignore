@@ -1,3 +1,5 @@
 node_modules
 coverage
 /lib/
+*.d.ts
+*.d.ts.map

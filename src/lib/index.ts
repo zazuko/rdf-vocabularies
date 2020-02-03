@@ -73,9 +73,9 @@ interface LoadFileOptions {
   factory: typeof rdf;
 }
 
-export function loadFile (prefix: string, { customSelection, factory }: LoadFileOptions) {
+export async function loadFile (prefix: string, { customSelection, factory }: LoadFileOptions) {
   const parserN3 = new ParserN3()
-  const readStream = loadDatasetStream(prefix)
+  const readStream = await loadDatasetStream(prefix)
   const quadStream = parserN3.import(readStream)
   return factory.dataset().import(quadStream).catch(() => {
     if (customSelection) {

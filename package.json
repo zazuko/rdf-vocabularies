@@ -6,7 +6,9 @@
   "module": "lib/es/index.js",
   "files": [
     "lib",
-    "ontologies"
+    "ontologies",
+    "*.d.ts",
+    "*.d.ts.map"
   ],
   "scripts": {
     "fetch": "npm run build; ts-node fetch.ts",
@@ -14,8 +16,10 @@
     "pretest": "npm run lint",
     "test": "jest",
     "build:node": "tsc --target es2017 --module commonjs --outDir lib/node",
-    "build:web": "tsc --target esnext --module esnext --outDir lib/es; tsc --build tsconfig.web.json",
-    "build": "rimraf lib; npm run build:node; npm run build:web",
+    "build:modern": "tsc --outDir lib/es",
+    "build:types": "tsc --outDir . --declaration --declarationMap --emitDeclarationOnly",
+    "build:es-loader": "tsc src/es/loadDataset.ts --target esnext --module esnext --esModuleInterop --moduleResolution node --outDir lib/es",
+    "build": "rimraf lib; npm run build:node; npm run build:modern; npm run build:es-loader; npm run build:types",
     "prepack": "npm run build"
   },
   "repository": {
