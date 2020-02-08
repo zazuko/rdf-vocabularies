@@ -246,7 +246,7 @@ in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popu
 1. Add an entry in [`src/lib/prefixes.ts`](src/lib/prefixes.ts)
 1. If necessary, add an entry to [`overrides.ts`](overrides.ts) similar to the others
 1. Run `npm run fetch -- <prefix>` with the prefix passed as parameter.
-  * multiple prefixes can also be to fetch multiple ontologies
+   * multiple prefixes can also be to fetch multiple ontologies
 1. Commit changes and submit a PR
 
 ### Project-specific prefixes
