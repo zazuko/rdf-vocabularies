@@ -11,12 +11,12 @@
     "*.d.ts.map"
   ],
   "scripts": {
-    "fetch": "tsc --esModuleInterop fetch.ts; node fetch.js",
+    "fetch": "ts-node fetch.ts",
     "lint": "eslint . --ext .js,.ts",
     "pretest": "npm run lint",
     "test": "jest",
-    "build:node": "tsc --target es2017 --module commonjs --outDir lib/node",
-    "build:modern": "tsc --outDir lib/es",
+    "build:node": "tsc --target es2017 --outDir lib/node",
+    "build:modern": "tsc --module esnext --outDir lib/es",
     "build:types": "tsc --outDir . --declaration --declarationMap --emitDeclarationOnly",
     "build:es-loader": "tsc src/es/loadDataset.ts --target esnext --module esnext --esModuleInterop --moduleResolution node --outDir lib/es",
     "build": "rimraf lib; npm run build:node; npm run build:modern; npm run build:es-loader; npm run build:types",
