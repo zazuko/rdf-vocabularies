@@ -1,4 +1,17 @@
-export default {
+interface FileSpec {
+  file?: string;
+  mediaType?: string;
+  xmlParserOptions?: {
+    baseIRI: string;
+  };
+}
+
+export interface Override extends FileSpec {
+  skip?: boolean;
+  files?: FileSpec[];
+}
+
+export const overrides: Record<string, Override> = {
   as: { file: 'https://www.w3.org/ns/activitystreams-owl.ttl', mediaType: 'text/turtle' },
   dbo: {
     files: [{

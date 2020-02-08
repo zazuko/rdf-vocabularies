@@ -6,6 +6,12 @@ import { RdfXmlParser } from 'rdfxml-streaming-parser'
 import { expand, loadFile, prefixes } from './src/lib'
 import { NamedNode } from 'rdf-js'
 import DatasetExt from 'rdf-ext/lib/Dataset'
+import { overrides, Override } from './overrides'
+
+interface Prefix {
+  prefix: string;
+  uri: string;
+}
 
 // this script gets your IP banned from w3.org unless you wait long enough between w3.org requests
 const w3Timeout = 5000
@@ -176,8 +182,6 @@ function generateIndex (subject: NamedNode, mappings: any, dataset: DatasetExt) 
 async function main () {
   const prefixesToDownload = process.argv.slice(2)
 
-  const overrides = require('./overrides').default
-
   const indexPath = './ontologies/_index.nq'
   let existingIndex
   if (fs.existsSync(indexPath)) {
@@ -190,7 +194,7 @@ async function main () {
   }
 
   // merge prefixes with overrides
-  const merged = Object.entries(prefixes).reduce<Record<string, any>>((current, [prefix, uri]) => {
+  const merged = Object.entries(prefixes).reduce<Record<string, Prefix & Override>>((current, [prefix, uri]) => {
     const override = overrides[prefix]
     return {
       ...current,
