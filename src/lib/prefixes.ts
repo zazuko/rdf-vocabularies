@@ -25,6 +25,7 @@ const prefixes = {
   hydra: 'http://www.w3.org/ns/hydra/core#',
   ical: 'http://www.w3.org/2002/12/cal/icaltzd#',
   ldp: 'http://www.w3.org/ns/ldp#',
+  lvont: 'http://lexvo.org/ontology',
   ma: 'http://www.w3.org/ns/ma-ont#',
   oa: 'http://www.w3.org/ns/oa#',
   og: 'http://ogp.me/ns#',

@@ -1,11 +1,9 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
-
 import fs from 'fs'
 import rdf from 'rdf-ext'
 import formats from '@rdfjs/formats-common'
 import rdfFetch, { FactoryInit, DatasetResponse } from '@rdfjs/fetch-lite'
 import { RdfXmlParser } from 'rdfxml-streaming-parser'
-import { expand, loadFile } from './src/lib'
+import { expand, loadFile, prefixes } from './src/lib'
 import { NamedNode } from 'rdf-js'
 import DatasetExt from 'rdf-ext/lib/Dataset'
 
@@ -135,11 +133,10 @@ function getDescription (dataset: DatasetExt) {
   return potentialValues.length ? potentialValues[0] : ''
 }
 
-function generateIndex (mappings: any, dataset: DatasetExt) {
+function generateIndex (subject: NamedNode, mappings: any, dataset: DatasetExt) {
   const vocabUri = rdf.namedNode(mappings.uri)
   const filteredDataset = dataset.match(vocabUri)
   const prefixDataset = rdf.dataset()
-  const subject = rdf.namedNode(`https://prefix.zazuko.com/${mappings.prefix}:`)
   const title = getTitle(filteredDataset)
   const description = getDescription(filteredDataset)
 
@@ -177,21 +174,36 @@ function generateIndex (mappings: any, dataset: DatasetExt) {
 }
 
 async function main () {
-  const prefixes = require('./lib/node/prefixes').default
-  const overrides = require('./overrides')
-  let indexDataset = rdf.dataset()
+  const prefixesToDownload = process.argv.slice(2)
 
-  // merge prefixes with overrides
-  for (const prefix in prefixes) {
-    const uri = prefixes[prefix]
-    const override = overrides[prefix]
-    prefixes[prefix] = Object.assign({ uri, prefix }, override)
+  const overrides = require('./overrides').default
+
+  const indexPath = './ontologies/_index.nq'
+  let existingIndex
+  if (fs.existsSync(indexPath)) {
+    existingIndex = formats.parsers.import('application/n-triples', fs.createReadStream(indexPath))
   }
 
+  let indexDataset = rdf.dataset()
+  if (existingIndex) {
+    await indexDataset.import(existingIndex)
+  }
+
+  // merge prefixes with overrides
+  const merged = Object.entries(prefixes).reduce<Record<string, any>>((current, [prefix, uri]) => {
+    const override = overrides[prefix]
+    return {
+      ...current,
+      [prefix]: { uri, prefix, ...override }
+    }
+  }, {})
+
   for (const prefix in prefixes) {
-    const mappings = prefixes[prefix]
+    const shouldNotFetch = prefixesToDownload.length > 0 && !prefixesToDownload.includes(prefix)
+    const mappings = merged[prefix]
     mappings.prefix = prefix
-    if (mappings.skip) {
+    if (mappings.skip || shouldNotFetch) {
+      console.log(`skipping ${mappings.prefix}`)
       continue
     }
     console.log(`processing ${mappings.prefix}`)
@@ -204,11 +216,13 @@ async function main () {
       fs.writeFileSync(file, dataset.toCanonical())
       console.log(`${mappings.prefix}: wrote ${dataset.size} quads to ${file}`)
 
-      indexDataset = indexDataset.merge(generateIndex(mappings, dataset))
+      const indexSubject = rdf.namedNode(`https://prefix.zazuko.com/${mappings.prefix}:`)
+      indexDataset.removeMatches(indexSubject, null, null, null)
+      indexDataset = indexDataset.merge(generateIndex(indexSubject, mappings, dataset))
     }
   }
 
-  fs.writeFileSync(`./ontologies/_index.nq`, indexDataset.toCanonical())
+  fs.writeFileSync(indexPath, indexDataset.toCanonical())
 }
 
 Promise.resolve().then(() => main())

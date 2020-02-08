@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   as: { file: 'https://www.w3.org/ns/activitystreams-owl.ttl', mediaType: 'text/turtle' },
   dbo: {
     files: [{
