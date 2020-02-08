@@ -18,6 +18,7 @@ export default {
   gtfs: { mediaType: 'text/n3' },
   http: { mediaType: 'application/rdf+xml' },
   ical: { file: 'http://www.w3.org/2002/12/cal/icaltzd.rdf', mediaType: 'application/rdf+xml' },
+  lvont: { mediaType: 'application/rdf+xml' },
   qb: { mediaType: 'text/turtle' },
   qudt: {
     files: [{
