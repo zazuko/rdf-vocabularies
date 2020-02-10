@@ -1,3 +1,17 @@
+# `v2020.2.10`
+
+## Changes
+
+- Possibility to fetch a single vocab with `npm run fetch prefix`, eg. `npm run fetch schema`
+  - Replaces index triples for that vocab only
+  - Does not regenerate the entire index dataset
+
+## New vocabulary
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `lvont` | 212 |
+
 # `v2020.2.3`
 
 ## Changes
