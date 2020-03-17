@@ -973,6 +973,9 @@
 <http://schema.org/EventCancelled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EventStatusType> <http://schema.org/> .
 <http://schema.org/EventCancelled> <http://www.w3.org/2000/01/rdf-schema#comment> "The event has been cancelled. If the event has multiple startDate values, all are assumed to be cancelled. Either startDate or previousStartDate may be used to specify the event's cancelled date(s)." <http://schema.org/> .
 <http://schema.org/EventCancelled> <http://www.w3.org/2000/01/rdf-schema#label> "EventCancelled" <http://schema.org/> .
+<http://schema.org/EventMovedOnline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EventStatusType> <http://schema.org/> .
+<http://schema.org/EventMovedOnline> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the event was changed to allow online participation. See <a class=\"localLink\" href=\"http://schema.org/eventAttendanceMode\">eventAttendanceMode</a> for specifics of whether it is now fully or partially online." <http://schema.org/> .
+<http://schema.org/EventMovedOnline> <http://www.w3.org/2000/01/rdf-schema#label> "EventMovedOnline" <http://schema.org/> .
 <http://schema.org/EventPostponed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EventStatusType> <http://schema.org/> .
 <http://schema.org/EventPostponed> <http://www.w3.org/2000/01/rdf-schema#comment> "The event has been postponed and no new date has been set. The event's previousStartDate should be set." <http://schema.org/> .
 <http://schema.org/EventPostponed> <http://www.w3.org/2000/01/rdf-schema#label> "EventPostponed" <http://schema.org/> .
@@ -3377,6 +3380,7 @@
 <http://schema.org/alumniOf> <http://www.w3.org/2000/01/rdf-schema#label> "alumniOf" <http://schema.org/> .
 <http://schema.org/amenityFeature> <http://purl.org/dc/terms/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology> <http://schema.org/> .
 <http://schema.org/amenityFeature> <http://schema.org/domainIncludes> <http://schema.org/Accommodation> <http://schema.org/> .
+<http://schema.org/amenityFeature> <http://schema.org/domainIncludes> <http://schema.org/FloorPlan> <http://schema.org/> .
 <http://schema.org/amenityFeature> <http://schema.org/domainIncludes> <http://schema.org/LodgingBusiness> <http://schema.org/> .
 <http://schema.org/amenityFeature> <http://schema.org/domainIncludes> <http://schema.org/Place> <http://schema.org/> .
 <http://schema.org/amenityFeature> <http://schema.org/rangeIncludes> <http://schema.org/LocationFeatureSpecification> <http://schema.org/> .
@@ -4025,6 +4029,7 @@
 <http://schema.org/catalogNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "The catalog number for the release." <http://schema.org/> .
 <http://schema.org/catalogNumber> <http://www.w3.org/2000/01/rdf-schema#label> "catalogNumber" <http://schema.org/> .
 <http://schema.org/category> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1741> <http://schema.org/> .
+<http://schema.org/category> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2490> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/category> "issue-1741" <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/ActionAccessSpecification> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/Invoice> <http://schema.org/> .
@@ -4033,6 +4038,8 @@
 <http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/Recommendation> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/Service> <http://schema.org/> .
+<http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/SpecialAnnouncement> <http://schema.org/> .
+<http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/URL> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/rangeIncludes> <http://schema.org/PhysicalActivityCategory> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/rangeIncludes> <http://schema.org/Thing> <http://schema.org/> .
@@ -4911,12 +4918,15 @@
 <http://schema.org/encodings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/encodings> <http://www.w3.org/2000/01/rdf-schema#comment> "A media object that encodes this CreativeWork." <http://schema.org/> .
 <http://schema.org/encodings> <http://www.w3.org/2000/01/rdf-schema#label> "encodings" <http://schema.org/> .
+<http://schema.org/endDate> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2486> <http://schema.org/> .
+<http://schema.org/endDate> <http://schema.org/category> "issue-2486" <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/CreativeWorkSeason> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/CreativeWorkSeries> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/DatedMoneySpecification> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/EducationalOccupationalProgram> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/Role> <http://schema.org/> .
+<http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/Schedule> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/endDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -5152,6 +5162,7 @@
 <http://schema.org/flightNumber> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/identifier> <http://schema.org/> .
 <http://schema.org/floorSize> <http://purl.org/dc/terms/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology> <http://schema.org/> .
 <http://schema.org/floorSize> <http://schema.org/domainIncludes> <http://schema.org/Accommodation> <http://schema.org/> .
+<http://schema.org/floorSize> <http://schema.org/domainIncludes> <http://schema.org/FloorPlan> <http://schema.org/> .
 <http://schema.org/floorSize> <http://schema.org/rangeIncludes> <http://schema.org/QuantitativeValue> <http://schema.org/> .
 <http://schema.org/floorSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/floorSize> <http://www.w3.org/2000/01/rdf-schema#comment> "The size of the accommodation, e.g. in square meter or squarefoot.\nTypical unit code(s): MTK for square meter, FTK for square foot, or YDK for square yard" <http://schema.org/> .
@@ -6078,6 +6089,7 @@
 <http://schema.org/location> <http://schema.org/rangeIncludes> <http://schema.org/Place> <http://schema.org/> .
 <http://schema.org/location> <http://schema.org/rangeIncludes> <http://schema.org/PostalAddress> <http://schema.org/> .
 <http://schema.org/location> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/location> <http://schema.org/rangeIncludes> <http://schema.org/VirtualLocation> <http://schema.org/> .
 <http://schema.org/location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#comment> "The location of for example where the event is happening, an organization is located, or where an action takes place." <http://schema.org/> .
 <http://schema.org/location> <http://www.w3.org/2000/01/rdf-schema#label> "location" <http://schema.org/> .
@@ -6578,20 +6590,6 @@
 <http://schema.org/occupationLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/occupationLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "The region/country for which this occupational description is appropriate. Note that educational requirements and qualifications can vary between jurisdictions." <http://schema.org/> .
 <http://schema.org/occupationLocation> <http://www.w3.org/2000/01/rdf-schema#label> "occupationLocation" <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1698> <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2192> <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2289> <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://schema.org/category> "issue-1698" <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://schema.org/category> "issue-2192" <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://schema.org/category> "issue-2289" <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://schema.org/domainIncludes> <http://schema.org/Occupation> <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://schema.org/domainIncludes> <http://schema.org/WorkBasedProgram> <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://schema.org/rangeIncludes> <http://schema.org/CategoryCode> <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "A category describing the job, preferably using a term from a taxonomy such as <a href=\"http://www.onetcenter.org/taxonomy.html\">BLS O*NET-SOC</a>, <a href=\"https://www.ilo.org/public/english/bureau/stat/isco/isco08/\">ISCO-08</a> or similar, with the property repeated for each applicable value. Ideally the taxonomy should be identified, and both the textual label and formal code for the category should be provided.<br/><br/>\n\nNote: for historical reasons, any textual label and formal code provided as a literal may be assumed to be from O*NET-SOC." <http://schema.org/> .
-<http://schema.org/occupationalCategory> <http://www.w3.org/2000/01/rdf-schema#label> "occupationalCategory" <http://schema.org/> .
 <http://schema.org/offerCount> <http://schema.org/domainIncludes> <http://schema.org/AggregateOffer> <http://schema.org/> .
 <http://schema.org/offerCount> <http://schema.org/rangeIncludes> <http://schema.org/Integer> <http://schema.org/> .
 <http://schema.org/offerCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -6974,6 +6972,8 @@
 <http://schema.org/permittedUsage> <http://www.w3.org/2000/01/rdf-schema#label> "permittedUsage" <http://schema.org/> .
 <http://schema.org/petsAllowed> <http://purl.org/dc/terms/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology> <http://schema.org/> .
 <http://schema.org/petsAllowed> <http://schema.org/domainIncludes> <http://schema.org/Accommodation> <http://schema.org/> .
+<http://schema.org/petsAllowed> <http://schema.org/domainIncludes> <http://schema.org/ApartmentComplex> <http://schema.org/> .
+<http://schema.org/petsAllowed> <http://schema.org/domainIncludes> <http://schema.org/FloorPlan> <http://schema.org/> .
 <http://schema.org/petsAllowed> <http://schema.org/domainIncludes> <http://schema.org/LodgingBusiness> <http://schema.org/> .
 <http://schema.org/petsAllowed> <http://schema.org/rangeIncludes> <http://schema.org/Boolean> <http://schema.org/> .
 <http://schema.org/petsAllowed> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -8061,12 +8061,15 @@
 <http://schema.org/starRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/starRating> <http://www.w3.org/2000/01/rdf-schema#comment> "An official rating for a lodging business or food establishment, e.g. from national associations or standards bodies. Use the author property to indicate the rating organization, e.g. as an Organization with name such as (e.g. HOTREC, DEHOGA, WHR, or Hotelstars)." <http://schema.org/> .
 <http://schema.org/starRating> <http://www.w3.org/2000/01/rdf-schema#label> "starRating" <http://schema.org/> .
+<http://schema.org/startDate> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/2486> <http://schema.org/> .
+<http://schema.org/startDate> <http://schema.org/category> "issue-2486" <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/CreativeWorkSeason> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/CreativeWorkSeries> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/DatedMoneySpecification> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/EducationalOccupationalProgram> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/Role> <http://schema.org/> .
+<http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/Schedule> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/startDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .

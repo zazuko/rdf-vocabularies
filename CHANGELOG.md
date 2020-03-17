@@ -1,3 +1,11 @@
+# `v2020.3.17`
+
+## Updated vocabularies
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `schema` | 8861 |
+
 # `v2020.2.10-2`
 
 Fix `lvont:` base IRI.
