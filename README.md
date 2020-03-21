@@ -225,6 +225,22 @@ const path = require('path')
 console.log(path.resolve(require.resolve('@zazuko/rdf-vocabularies'), '..', 'ontologies', 'skos.nq'))
 ```
 
+### Command line
+
+The package also includes a simple command line interface which forwards the vocabulary datasets to standard output. It can be used in two ways.
+
+By prefix:
+
+```
+rdf-vocab prefix foaf
+```
+
+By namespace URI:
+
+```
+rdf-vocab prefix http://schema.org/
+```
+
 ## Versioning Scheme
 
 This package is [vendoring ontologies](./ontologies/). These will be updated periodically.
