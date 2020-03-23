@@ -1,3 +1,9 @@
+# `v2020.3.23`
+
+## Changes
+
+- Add [CLI](https://github.com/zazuko/rdf-vocabularies/blob/50f979f04c642409e6e1848219f9280a7fc35b31/README.md#command-line) (`rdf-vocab -h`)
+
 # `v2020.3.17`
 
 ## Updated vocabularies
