@@ -1,3 +1,21 @@
+# `v2020.6.17`
+
+## New prefix
+
+Add `dash:` prefix and vocabulary.
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `dash:` | 1271 |
+
+## Updated vocabularies
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `hydra` | 408 |
+| `schema` | 8885 |
+| `time` | 1296 |
+
 # `v2020.3.23`
 
 ## Changes

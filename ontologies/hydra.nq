@@ -324,6 +324,7 @@
 <http://www.w3.org/ns/hydra/core#supportedClass> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#supportedOperation> <http://schema.org/domainIncludes> <http://www.w3.org/ns/hydra/core#Class> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#supportedOperation> <http://schema.org/domainIncludes> <http://www.w3.org/ns/hydra/core#Link> <http://www.w3.org/ns/hydra/core#> .
+<http://www.w3.org/ns/hydra/core#supportedOperation> <http://schema.org/domainIncludes> <http://www.w3.org/ns/hydra/core#SupportedProperty> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#supportedOperation> <http://schema.org/domainIncludes> <http://www.w3.org/ns/hydra/core#TemplatedLink> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#supportedOperation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/hydra/core#Link> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#supportedOperation> <http://www.w3.org/2000/01/rdf-schema#comment> "An operation supported by instances of the specific Hydra class or the target of the Hydra link" <http://www.w3.org/ns/hydra/core#> .
