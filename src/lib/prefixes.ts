@@ -4,6 +4,7 @@ const prefixes = {
   cnt: 'http://www.w3.org/2011/content#',
   csvw: 'http://www.w3.org/ns/csvw#',
   ctag: 'http://commontag.org/ns#',
+  dash: 'http://datashapes.org/dash#',
   dbo: 'http://dbpedia.org/ontology/',
   dc11: 'http://purl.org/dc/elements/1.1/',
   dcat: 'http://www.w3.org/ns/dcat#',
