@@ -22,6 +22,11 @@
 <https://prefix.zazuko.com/csvw:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/csvw#> .
 <https://prefix.zazuko.com/csvw:> <http://www.w3.org/ns/rdfa#prefix> "csvw" .
 <https://prefix.zazuko.com/csvw:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/csvw#> .
+<https://prefix.zazuko.com/dash:> <http://dbpedia.org/ontology/filename> "ontologies/dash.nq" .
+<https://prefix.zazuko.com/dash:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/dash:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://datashapes.org/dash#> .
+<https://prefix.zazuko.com/dash:> <http://www.w3.org/ns/rdfa#prefix> "dash" .
+<https://prefix.zazuko.com/dash:> <http://www.w3.org/ns/rdfa#uri> <http://datashapes.org/dash#> .
 <https://prefix.zazuko.com/dbo:> <http://dbpedia.org/ontology/filename> "ontologies/dbo.nq" .
 <https://prefix.zazuko.com/dbo:> <http://purl.org/dc/terms/description> "\n              The DBpedia ontology provides the classes and properties used in the DBpedia data set.\n            " .
 <https://prefix.zazuko.com/dbo:> <http://purl.org/dc/terms/title> "The DBpedia Ontology" .
