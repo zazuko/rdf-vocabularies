@@ -12,7 +12,10 @@
     "lib": [
       "es2015",
       "webworker"
-    ]
+    ],
+    "outDir": "lib",
+    "declaration": true,
+    "declarationMap": true
   },
-  "files": ["src/lib/index.ts"]
+  "files": ["src/index.ts"]
 }

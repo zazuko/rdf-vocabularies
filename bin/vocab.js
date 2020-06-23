@@ -2,8 +2,8 @@
 const program = require('commander')
 const { promisify } = require('util')
 const stream = require('readable-stream')
-const { loadDatasetStream } = require('../lib/node/loadDataset')
-const prefixes = require('../lib/node/prefixes')
+const { loadDatasetStream } = require('../lib/loadDataset')
+const prefixes = require('../lib/prefixes')
 
 const finished = promisify(stream.finished)
 
