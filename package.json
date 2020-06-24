@@ -4,6 +4,7 @@
   "description": "Access most commonly used RDF ontologies/schemas/vocabularies as datasets or n-quads",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
+  "browser": "lib/index.mjs",
   "bin": {
     "rdf-vocab": "bin/vocab.js"
   },
