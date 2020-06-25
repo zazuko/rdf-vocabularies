@@ -1,3 +1,7 @@
+# (pre-release) `v2020.6.25-1`
+
+Revamped build to change the way we publish this as a dual, commonjs/esm package.
+
 # `v2020.6.17`
 
 ## New prefix
@@ -127,11 +131,11 @@ Fix: `as:` nq file had the wrong graph: it should be `http:` not `https:`.
 
 ## New prefixes
 
-Add `as:` prefix and vocabulary.  
-Add `http:` prefix and vocabulary.  
-Add `ical:` prefix and vocabulary.  
-Add `vann:` prefix and vocabulary.  
-Add `xhv:` prefix and vocabulary.  
+Add `as:` prefix and vocabulary.
+Add `http:` prefix and vocabulary.
+Add `ical:` prefix and vocabulary.
+Add `vann:` prefix and vocabulary.
+Add `xhv:` prefix and vocabulary.
 Add `xkos:` prefix and vocabulary.
 
 | Prefix | #Quads |
@@ -165,9 +169,9 @@ Add `xkos:` prefix and vocabulary.
 
 ## New prefixes
 
-Add `dtype:` prefix and vocabulary.  
-Add `vaem:` prefix and vocabulary.  
-Add `qudt:` prefix and vocabulary.  
+Add `dtype:` prefix and vocabulary.
+Add `vaem:` prefix and vocabulary.
+Add `qudt:` prefix and vocabulary.
 Add `qudtv:` prefix and vocabulary.
 
 | Prefix | #Quads |
@@ -194,8 +198,8 @@ BREAKING CHANGE: The default export is replaced with a named one
 
 ## New prefixes
 
-Add `frbr:` prefix and vocabulary.  
-Add `rdau:` prefix and vocabulary.  
+Add `frbr:` prefix and vocabulary.
+Add `rdau:` prefix and vocabulary.
 Add `smdx:` prefix and vocabulary.
 
 | Prefix | #Quads |
