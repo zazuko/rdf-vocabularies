@@ -1,5 +1,7 @@
 node_modules
 coverage
-/lib/
-*.d.ts
-*.d.ts.map
+lib/**/*.d.ts
+lib/**/*.d.ts.map
+lib/**/*.js
+lib/**/*.mjs
+!lib/loadDataset/index.mjs
