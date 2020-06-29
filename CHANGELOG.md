@@ -1,6 +1,14 @@
-# (pre-release) `v2020.6.25-1`
+# `v2020.6.29`
 
-Revamped build to change the way we publish this as a dual, commonjs/esm package.
+## Changes
+
+- Revamped build to change the way we publish this as a dual, commonjs/esm package.
+
+## Updated vocabularies
+
+| Prefix | #Quads |
+| ---- | ---- |
+| `dash` | 1524 |
 
 # `v2020.6.17`
 
