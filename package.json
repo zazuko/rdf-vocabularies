@@ -9,8 +9,8 @@
     "rdf-vocab": "bin/vocab.js"
   },
   "exports": {
-    "require": "lib/index.js",
-    "import": "lib/index.mjs"
+    "require": "./lib/index.js",
+    "import": "./lib/index.mjs"
   },
   "files": [
     "bin",
