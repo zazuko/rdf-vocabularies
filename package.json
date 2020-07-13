@@ -9,8 +9,26 @@
     "rdf-vocab": "bin/vocab.js"
   },
   "exports": {
-    "require": "./lib/index.js",
-    "import": "./lib/index.mjs"
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./lib/index.mjs"
+    },
+    "./expand": {
+      "require": "./lib/expand.js",
+      "import": "./lib/expand.mjs"
+    },
+    "./expandWithCheck": {
+      "require": "./lib/expandWithCheck.js",
+      "import": "./lib/expandWithCheck.mjs"
+    },
+    "./shrink": {
+      "require": "./lib/shrink.js",
+      "import": "./lib/shrink.mjs"
+    },
+    "./vocabularies": {
+      "require": "./lib/vocabularies.js",
+      "import": "./lib/vocabularies.mjs"
+    }
   },
   "files": [
     "bin",
