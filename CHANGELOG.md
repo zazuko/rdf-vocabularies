@@ -1,3 +1,12 @@
+# `v2020.7.13`
+
+Make it possible to use this package directly in a browser, for instance via unpkg.com.
+
+By splitting the main module and re-exporting it, it is now possible to cherry-pick the necessary pieces (`expand`, `prefixes` and `shrink` are natively usable) while the general usage in node or existing bundled code remains unchanged.
+
+* unpkg/jsfiddle example: https://jsfiddle.net/n4whdrb2/
+* node/runkit example: https://runkit.com/embed/nqutvg2l4tph
+
 # `v2020.6.29`
 
 ## Changes
