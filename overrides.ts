@@ -105,7 +105,7 @@ export const overrides: Record<string, Override> = {
     mediaType: 'application/rdf+xml',
     xmlParserOptions: { baseIRI: 'http://semanticweb.cs.vu.nl/2009/11/sem' }
   },
-  schema: { file: 'http://schema.org/version/latest/schema.nt' },
+  schema: { file: 'https://schema.org/version/latest/schemaorg-current-http.nt' },
   sdmx: { mediaType: 'text/turtle' },
   sf: { skip: true },
   v: { skip: true },

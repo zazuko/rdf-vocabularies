@@ -1,3 +1,12 @@
+# `v2020.7.23`
+
+## Updated vocabularies
+
+| Prefix   | #Quads |
+| -------- | ------ |
+| `dash`   | 1561   |
+| `schema` | 15163  |
+
 # `v2020.7.13`
 
 Make it possible to use this package directly in a browser, for instance via unpkg.com.
@@ -16,8 +25,8 @@ By splitting the main module and re-exporting it, it is now possible to cherry-p
 ## Updated vocabularies
 
 | Prefix | #Quads |
-| ---- | ---- |
-| `dash` | 1524 |
+| ------ | ------ |
+| `dash` | 1524   |
 
 # `v2020.6.17`
 
@@ -25,17 +34,17 @@ By splitting the main module and re-exporting it, it is now possible to cherry-p
 
 Add `dash:` prefix and vocabulary.
 
-| Prefix | #Quads |
-| ---- | ---- |
-| `dash:` | 1271 |
+| Prefix  | #Quads |
+| ------- | ------ |
+| `dash:` | 1271   |
 
 ## Updated vocabularies
 
-| Prefix | #Quads |
-| ---- | ---- |
-| `hydra` | 408 |
-| `schema` | 8885 |
-| `time` | 1296 |
+| Prefix   | #Quads |
+| -------- | ------ |
+| `hydra`  | 408    |
+| `schema` | 8885   |
+| `time`   | 1296   |
 
 # `v2020.3.23`
 
@@ -47,9 +56,9 @@ Add `dash:` prefix and vocabulary.
 
 ## Updated vocabularies
 
-| Prefix | #Quads |
-| ---- | ---- |
-| `schema` | 8861 |
+| Prefix   | #Quads |
+| -------- | ------ |
+| `schema` | 8861   |
 
 # `v2020.2.10-2`
 
@@ -65,9 +74,9 @@ Fix `lvont:` base IRI.
 
 ## New vocabulary
 
-| Prefix | #Quads |
-| ---- | ---- |
-| `lvont` | 212 |
+| Prefix  | #Quads |
+| ------- | ------ |
+| `lvont` | 212    |
 
 # `v2020.2.3`
 
@@ -78,14 +87,14 @@ Fix `lvont:` base IRI.
 
 ## Updated vocabularies
 
-| Prefix | #Quads |
-| ---- | ---- |
-| `dc11` | 107 |
-| `dcat` | 1170 |
-| `dcterms` | 619 |
-| `hydra` | 407 |
-| `prov` | 1664 |
-| `schema` | 8858 |
+| Prefix    | #Quads |
+| --------- | ------ |
+| `dc11`    | 107    |
+| `dcat`    | 1170   |
+| `dcterms` | 619    |
+| `hydra`   | 407    |
+| `prov`    | 1664   |
+| `schema`  | 8858   |
 
 # `v2019.12.23`
 
@@ -95,12 +104,12 @@ Prefixes Index / Vocabularies metadata: [`ontologies/_index.nq`](ontologies/_ind
 
 ## Updated vocabularies
 
-| Prefix | #Quads |
-| ---- | ---- |
-| `dbo` | 39069 |
-| `rdf` | 127 |
-| `schema` | 8827 |
-| `xsd` | 199 |
+| Prefix   | #Quads |
+| -------- | ------ |
+| `dbo`    | 39069  |
+| `rdf`    | 127    |
+| `schema` | 8827   |
+| `xsd`    | 199    |
 
 # `v2019.10.22`
 
@@ -109,16 +118,16 @@ Prefixes Index / Vocabularies metadata: [`ontologies/_index.nq`](ontologies/_ind
 Add `sh:` prefix and vocabulary.
 
 | Prefix | #Quads |
-| ---- | ---- |
-| `sh:` | 1128 |
+| ------ | ------ |
+| `sh:`  | 1128   |
 
 ## Updated vocabularies
 
-| Prefix | #Quads |
-| ---- | ---- |
-| `hydra` | 404 |
-| `qudtv` | 13797 |
-| `schema` | 8824 |
+| Prefix   | #Quads |
+| -------- | ------ |
+| `hydra`  | 404    |
+| `qudtv`  | 13797  |
+| `schema` | 8824   |
 
 # `v2019.9.24`
 
@@ -127,16 +136,16 @@ Add `sh:` prefix and vocabulary.
 Add `sem:` prefix and vocabulary.
 
 | Prefix | #Quads |
-| ---- | ---- |
-| `sem:` | 520 |
+| ------ | ------ |
+| `sem:` | 520    |
 
 ## Updated vocabularies
 
-| Prefix | #Quads (#quads in previous version) |
-| ---- | ---- |
-| `qudtv` | 13797 (13791) |
-| `rdau` | 15722 (15722) |
-| `schema` | 8845 (8833) |
+| Prefix   | #Quads (#quads in previous version) |
+| -------- | ----------------------------------- |
+| `qudtv`  | 13797 (13791)                       |
+| `rdau`   | 15722 (15722)                       |
+| `schema` | 8845 (8833)                         |
 
 # `v2019.7.9-2`
 
@@ -155,21 +164,21 @@ Add `vann:` prefix and vocabulary.
 Add `xhv:` prefix and vocabulary.
 Add `xkos:` prefix and vocabulary.
 
-| Prefix | #Quads |
-| ---- | ---- |
-| `as:` | 951 |
-| `http:` | 230 |
-| `ical:` | 1255 |
-| `vann:` | 49 |
-| `xhv:` | 208 |
-| `xkos:` | 327 |
+| Prefix  | #Quads |
+| ------- | ------ |
+| `as:`   | 951    |
+| `http:` | 230    |
+| `ical:` | 1255   |
+| `vann:` | 49     |
+| `xhv:`  | 208    |
+| `xkos:` | 327    |
 
 ## Updated vocabularies
 
-| Prefix | #Quads (#quads in previous version) |
-| ---- | ---- |
-| `qudtv` | 13791 (13790) |
-| `schema` | 8833 (8809) |
+| Prefix   | #Quads (#quads in previous version) |
+| -------- | ----------------------------------- |
+| `qudtv`  | 13791 (13790)                       |
+| `schema` | 8833 (8809)                         |
 
 ## Misc
 
@@ -191,12 +200,12 @@ Add `vaem:` prefix and vocabulary.
 Add `qudt:` prefix and vocabulary.
 Add `qudtv:` prefix and vocabulary.
 
-| Prefix | #Quads |
-| ---- | ---- |
-| `dtype` | 231 |
-| `vaem` | 564 |
-| `qudt` | 7738 |
-| `qudtv` | 13790 |
+| Prefix  | #Quads |
+| ------- | ------ |
+| `dtype` | 231    |
+| `vaem`  | 564    |
+| `qudt`  | 7738   |
+| `qudtv` | 13790  |
 
 # `v2019.6.17`
 
@@ -220,19 +229,19 @@ Add `rdau:` prefix and vocabulary.
 Add `smdx:` prefix and vocabulary.
 
 | Prefix | #Quads |
-| ---- | ---- |
-| `frbr` | 914 |
-| `rdau` | 15722 |
-| `smdx` | 90 |
+| ------ | ------ |
+| `frbr` | 914    |
+| `rdau` | 15722  |
+| `smdx` | 90     |
 
 ## Updated vocabularies
 
-| Prefix | #Quads (#quads in previous version) |
-| ---- | ---- |
-| `geof` | 82 (46) |
-| `geor` | 62 (36) |
-| `hydra` | 400 (386) |
-| `schema` | 8809 (8809) |
+| Prefix   | #Quads (#quads in previous version) |
+| -------- | ----------------------------------- |
+| `geof`   | 82 (46)                             |
+| `geor`   | 62 (36)                             |
+| `hydra`  | 400 (386)                           |
+| `schema` | 8809 (8809)                         |
 
 # `v2019.5.13`
 
@@ -241,55 +250,55 @@ Add `smdx:` prefix and vocabulary.
 Add `xsd:` prefix and vocabulary.
 
 | Prefix | #Quads |
-| ---- | ---- |
-| `xsd` | 199 |
+| ------ | ------ |
+| `xsd`  | 199    |
 
 # `v2019.5.6`
 
 Initial release:
 
-| Prefix | #Quads |
-| ---- | ---- |
-| `cc` | 115 |
-| `cnt` | 108 |
-| `csvw` | 632 |
-| `dbo` | 8035 |
-| `dc11` | 138 |
-| `dcat` | 425 |
-| `dcterms` | 866 |
-| `dqv` | 152 |
-| `duv` | 56 |
-| `foaf` | 620 |
-| `geo` | 518 |
-| `geof` | 46 |
-| `geor` | 36 |
-| `gn` | 6846 |
-| `gr` | 1834 |
-| `grddl` | 74 |
-| `gtfs` | 870 |
-| `hydra` | 386 |
-| `ldp` | 200 |
-| `ma` | 340 |
-| `oa` | 334 |
-| `og` | 231 |
-| `org` | 748 |
-| `owl` | 450 |
-| `prov` | 1662 |
-| `qb` | 265 |
-| `rdf` | 102 |
-| `rdfa` | 68 |
-| `rdfs` | 87 |
-| `rr` | 297 |
-| `rss` | 44 |
-| `schema` | 8809 |
-| `sd` | 165 |
-| `sioc` | 669 |
-| `skos` | 252 |
-| `skosxl` | 60 |
-| `sosa` | 345 |
-| `ssn` | 520 |
-| `time` | 1044 |
-| `vcard` | 870 |
-| `void` | 216 |
-| `vs` | 27 |
-| `wgs` | 33 |
+| Prefix    | #Quads |
+| --------- | ------ |
+| `cc`      | 115    |
+| `cnt`     | 108    |
+| `csvw`    | 632    |
+| `dbo`     | 8035   |
+| `dc11`    | 138    |
+| `dcat`    | 425    |
+| `dcterms` | 866    |
+| `dqv`     | 152    |
+| `duv`     | 56     |
+| `foaf`    | 620    |
+| `geo`     | 518    |
+| `geof`    | 46     |
+| `geor`    | 36     |
+| `gn`      | 6846   |
+| `gr`      | 1834   |
+| `grddl`   | 74     |
+| `gtfs`    | 870    |
+| `hydra`   | 386    |
+| `ldp`     | 200    |
+| `ma`      | 340    |
+| `oa`      | 334    |
+| `og`      | 231    |
+| `org`     | 748    |
+| `owl`     | 450    |
+| `prov`    | 1662   |
+| `qb`      | 265    |
+| `rdf`     | 102    |
+| `rdfa`    | 68     |
+| `rdfs`    | 87     |
+| `rr`      | 297    |
+| `rss`     | 44     |
+| `schema`  | 8809   |
+| `sd`      | 165    |
+| `sioc`    | 669    |
+| `skos`    | 252    |
+| `skosxl`  | 60     |
+| `sosa`    | 345    |
+| `ssn`     | 520    |
+| `time`    | 1044   |
+| `vcard`   | 870    |
+| `void`    | 216    |
+| `vs`      | 27     |
+| `wgs`     | 33     |
