@@ -74,6 +74,11 @@
 <https://prefix.zazuko.com/duv:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/duv#> .
 <https://prefix.zazuko.com/duv:> <http://www.w3.org/ns/rdfa#prefix> "duv" .
 <https://prefix.zazuko.com/duv:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/duv#> .
+<https://prefix.zazuko.com/earl:> <http://dbpedia.org/ontology/filename> "ontologies/earl.nq" .
+<https://prefix.zazuko.com/earl:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/earl:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/ns/earl#> .
+<https://prefix.zazuko.com/earl:> <http://www.w3.org/ns/rdfa#prefix> "earl" .
+<https://prefix.zazuko.com/earl:> <http://www.w3.org/ns/rdfa#uri> <https://www.w3.org/ns/earl#> .
 <https://prefix.zazuko.com/foaf:> <http://dbpedia.org/ontology/filename> "ontologies/foaf.nq" .
 <https://prefix.zazuko.com/foaf:> <http://purl.org/dc/terms/description> "The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language." .
 <https://prefix.zazuko.com/foaf:> <http://purl.org/dc/terms/title> "Friend of a Friend (FOAF) vocabulary" .

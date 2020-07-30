@@ -13,6 +13,7 @@ const prefixes = {
   dqv: 'http://www.w3.org/ns/dqv#',
   dtype: 'http://www.linkedmodel.org/schema/dtype#',
   duv: 'http://www.w3.org/ns/duv#',
+  earl: 'https://www.w3.org/ns/earl#',
   foaf: 'http://xmlns.com/foaf/0.1/',
   frbr: 'http://purl.org/vocab/frbr/core#',
   geo: 'http://www.opengis.net/ont/geosparql#',
