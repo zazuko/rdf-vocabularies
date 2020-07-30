@@ -108,6 +108,7 @@ export const overrides: Record<string, Override> = {
   schema: { file: 'https://schema.org/version/latest/schemaorg-current-http.nt' },
   sdmx: { mediaType: 'text/turtle' },
   sf: { skip: true },
+  test: { mediaType: 'text/n3' },
   v: { skip: true },
   vaem: { mediaType: 'application/rdf+xml' },
   vann: {

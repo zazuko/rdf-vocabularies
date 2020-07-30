@@ -55,6 +55,7 @@ const prefixes = {
   skosxl: 'http://www.w3.org/2008/05/skos-xl#',
   sosa: 'http://www.w3.org/ns/sosa/',
   ssn: 'http://www.w3.org/ns/ssn/',
+  test: 'http://www.w3.org/2006/03/test-description#',
   time: 'http://www.w3.org/2006/time#',
   v: 'http://rdf.data-vocabulary.org/#',
   vaem: 'http://www.linkedmodel.org/schema/vaem#',
