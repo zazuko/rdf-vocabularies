@@ -24,6 +24,7 @@ export const overrides: Record<string, Override> = {
   },
   cc: { file: 'https://creativecommons.org/schema.rdf' },
   ctag: { skip: true },
+  doap: { mediaType: 'application/rdf+xml' },
   dtype: { mediaType: 'application/rdf+xml' },
   frbr: { file: 'http://purl.org/spar/frbr.nt' },
   geo: { file: 'http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf' },

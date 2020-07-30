@@ -52,6 +52,13 @@
 <https://prefix.zazuko.com/dcterms:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> .
 <https://prefix.zazuko.com/dcterms:> <http://www.w3.org/ns/rdfa#prefix> "dcterms" .
 <https://prefix.zazuko.com/dcterms:> <http://www.w3.org/ns/rdfa#uri> <http://purl.org/dc/terms/> .
+<https://prefix.zazuko.com/doap:> <http://dbpedia.org/ontology/filename> "ontologies/doap.nq" .
+<https://prefix.zazuko.com/doap:> <http://purl.org/dc/terms/description> "The Description of a Project (DOAP) vocabulary, described using W3C RDF Schema and the Web Ontology Language." .
+<https://prefix.zazuko.com/doap:> <http://purl.org/dc/terms/title> "Description of a Project (DOAP) vocabulary" .
+<https://prefix.zazuko.com/doap:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/doap:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://usefulinc.com/ns/doap#> .
+<https://prefix.zazuko.com/doap:> <http://www.w3.org/ns/rdfa#prefix> "doap" .
+<https://prefix.zazuko.com/doap:> <http://www.w3.org/ns/rdfa#uri> <http://usefulinc.com/ns/doap#> .
 <https://prefix.zazuko.com/dqv:> <http://dbpedia.org/ontology/filename> "ontologies/dqv.nq" .
 <https://prefix.zazuko.com/dqv:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/dqv:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dqv#> .

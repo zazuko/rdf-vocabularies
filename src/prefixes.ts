@@ -9,6 +9,7 @@ const prefixes = {
   dc11: 'http://purl.org/dc/elements/1.1/',
   dcat: 'http://www.w3.org/ns/dcat#',
   dcterms: 'http://purl.org/dc/terms/',
+  doap: 'http://usefulinc.com/ns/doap#',
   dqv: 'http://www.w3.org/ns/dqv#',
   dtype: 'http://www.linkedmodel.org/schema/dtype#',
   duv: 'http://www.w3.org/ns/duv#',
