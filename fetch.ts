@@ -143,7 +143,12 @@ function getDescription (dataset: DatasetExt) {
 
 function generateIndex (subject: NamedNode, mappings: any, dataset: DatasetExt) {
   const vocabUri = rdf.namedNode(mappings.uri)
-  const filteredDataset = dataset.match(vocabUri)
+  let filteredDataset = dataset.match(vocabUri)
+  if (vocabUri.value.endsWith('/') || vocabUri.value.endsWith('#')) {
+    const vocabUri2 = rdf.namedNode(vocabUri.value.substr(0, vocabUri.value.length - 1))
+    filteredDataset = filteredDataset.merge(dataset.match(vocabUri2))
+  }
+
   const prefixDataset = rdf.dataset()
   const title = getTitle(filteredDataset)
   const description = getDescription(filteredDataset)
