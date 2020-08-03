@@ -1,3 +1,20 @@
+# `v2020.8.3`
+
+## New prefixes
+
+Add `doap:`, `earl:`, `test:`  prefixes and vocabularies.
+
+| Prefix  | #Quads |
+| ------- | ------ |
+| `doap:` | 722    |
+| `earl:` | 162    |
+| `test:` | 116    |
+
+
+## Changes
+
+- Fixes to the way a vocab label and description are extracted.
+
 # `v2020.7.23`
 
 ## Updated vocabularies
