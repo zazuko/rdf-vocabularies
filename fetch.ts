@@ -123,22 +123,30 @@ function firstVal (dataset: DatasetExt) {
   }
 }
 
-function getTitle (dataset: DatasetExt) {
+function getTitle (dataset: DatasetExt): string {
   const potentialValues = [
     firstVal(dataset.match(null, rdf.namedNode(expand('dc11:title')))),
     firstVal(dataset.match(null, rdf.namedNode(expand('dcterms:title')))),
     firstVal(dataset.match(null, rdf.namedNode(expand('rdfs:label'))))
   ].filter(Boolean)
-  return potentialValues.length ? potentialValues[0] : ''
+
+  if (potentialValues.length && potentialValues[0]) {
+    return potentialValues[0]
+  }
+  return ''
 }
 
-function getDescription (dataset: DatasetExt) {
+function getDescription (dataset: DatasetExt): string {
   const potentialValues = [
     firstVal(dataset.match(null, rdf.namedNode(expand('dc11:description')))),
     firstVal(dataset.match(null, rdf.namedNode(expand('dcterms:description')))),
     firstVal(dataset.match(null, rdf.namedNode(expand('rdfs:comment'))))
   ].filter(Boolean)
-  return potentialValues.length ? potentialValues[0] : ''
+
+  if (potentialValues.length && potentialValues[0]) {
+    return potentialValues[0]
+  }
+  return ''
 }
 
 function generateIndex (subject: NamedNode, mappings: any, dataset: DatasetExt) {
@@ -155,12 +163,12 @@ function generateIndex (subject: NamedNode, mappings: any, dataset: DatasetExt) 
 
   if (title) {
     prefixDataset.add(
-      rdf.quad(subject, expandToNamedNode('dcterms:title'), rdf.literal(title))
+      rdf.quad(subject, expandToNamedNode('dcterms:title'), rdf.literal(title.trim()))
     )
   }
   if (description) {
     prefixDataset.add(
-      rdf.quad(subject, expandToNamedNode('dcterms:description'), rdf.literal(description))
+      rdf.quad(subject, expandToNamedNode('dcterms:description'), rdf.literal(description.trim()))
     )
   }
   prefixDataset.add(
