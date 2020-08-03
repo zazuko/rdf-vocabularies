@@ -200,7 +200,7 @@ It is the opposite of [`expand`](#expanding-a-prefix)ing:
 ### Accessing Prefixes: `vocabularies.prefixes`
 
 Getting an object with prefixes and their base URI:  
-(Returns [this object](./prefixes.js).)
+(Returns [this object](./src/prefixes.ts).)
 
 ```js
 const { prefixes } = require('@zazuko/rdf-vocabularies')
@@ -259,7 +259,7 @@ in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popu
 
 ### Steps to add a prefix
 
-1. Add an entry in [`src/lib/prefixes.ts`](src/lib/prefixes.ts)
+1. Add an entry in [`src/prefixes.ts`](src/prefixes.ts)
 1. If necessary, add an entry to [`overrides.ts`](overrides.ts) similar to the others
 1. Run `npm run fetch -- <prefix>` with the prefix passed as parameter.
    * multiple prefixes can also be to fetch multiple ontologies

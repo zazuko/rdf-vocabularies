@@ -24,7 +24,13 @@ export const overrides: Record<string, Override> = {
   },
   cc: { file: 'https://creativecommons.org/schema.rdf' },
   ctag: { skip: true },
+  doap: { mediaType: 'application/rdf+xml' },
   dtype: { mediaType: 'application/rdf+xml' },
+  earl: {
+    xmlParserOptions: {
+      baseIRI: 'https://www.w3.org/ns/earl#'
+    }
+  },
   frbr: { file: 'http://purl.org/spar/frbr.nt' },
   geo: { file: 'http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf' },
   gml: { skip: true },
@@ -108,6 +114,7 @@ export const overrides: Record<string, Override> = {
   schema: { file: 'https://schema.org/version/latest/schemaorg-current-http.nt' },
   sdmx: { mediaType: 'text/turtle' },
   sf: { skip: true },
+  test: { mediaType: 'text/n3' },
   v: { skip: true },
   vaem: { mediaType: 'application/rdf+xml' },
   vann: {

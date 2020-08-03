@@ -1,0 +1,116 @@
+<http://www.w3.org/2006/03/test-description#ReviewStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#ReviewStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "A particular stage in a review process" <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#ReviewStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Status in a review process"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#SimpleReviewStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#SimpleReviewStatus> <http://www.w3.org/2000/01/rdf-schema#label> "A status for a simple review process containing 6 possible stages"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#SimpleReviewStatus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/03/test-description#ReviewStatus> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#SimpleReviewStatus> <http://www.w3.org/2002/07/owl#oneOf> _:c14n8 <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#SpecificationTestCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#SpecificationTestCase> <http://www.w3.org/2000/01/rdf-schema#comment> "A test case which relates to a requirement set in a specification" <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#SpecificationTestCase> <http://www.w3.org/2000/01/rdf-schema#label> "A Test Case based on a specification"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#SpecificationTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#SpecificationTestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n0 <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2000/01/rdf-schema#comment> "A set of test inputs, execution conditions, and expected results developed for a particular objective, such as to exercise a particular program path or to verify compliance with a specific requirement" <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2000/01/rdf-schema#label> "A Test Case"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n1 <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n12 <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n13 <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n14 <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n2 <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n4 <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n6 <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n7 <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#accepted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/03/test-description#ReviewStatus> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#accepted> <http://www.w3.org/2000/01/rdf-schema#comment> "the item has gone through a first review, which shows it as valid for further processing" <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#accepted> <http://www.w3.org/2000/01/rdf-schema#label> "accepted"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#approved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/03/test-description#ReviewStatus> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#approved> <http://www.w3.org/2000/01/rdf-schema#comment> "the item has gone through the review process and was approved" <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#approved> <http://www.w3.org/2000/01/rdf-schema#label> "approved"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#assigned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/03/test-description#ReviewStatus> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#assigned> <http://www.w3.org/2000/01/rdf-schema#comment> "a more specific review of the item has been assigned to someone" <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#assigned> <http://www.w3.org/2000/01/rdf-schema#label> "assigned"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#expectedResults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#expectedResults> <http://www.w3.org/2000/01/rdf-schema#comment> "The results that a conformant implementation is expected to produce when this test is executed" <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#expectedResults> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#expectedResults> <http://www.w3.org/2000/01/rdf-schema#label> "expected results"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#informationResourceInput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#informationResourceInput> <http://www.w3.org/2000/01/rdf-schema#comment> "Information Resource (e.g. a file) used as input for the test case"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#informationResourceInput> <http://www.w3.org/2000/01/rdf-schema#label> "information resource as input"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#informationResourceInput> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/tag/fdesc54/webarch#InformationResource> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#informationResourceInput> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2006/03/test-description#input> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#informationResourceResults> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#informationResourceResults> <http://www.w3.org/2000/01/rdf-schema#comment> "Information Resource (e.g. a file) that contains the expected results for the test case" <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#informationResourceResults> <http://www.w3.org/2000/01/rdf-schema#label> "information resource as expected results"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#informationResourceResults> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/tag/fdesc54/webarch#InformationResource> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#informationResourceResults> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2006/03/test-description#expectedResults> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#input> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#input> <http://www.w3.org/2000/01/rdf-schema#comment> "Parameters or data that are needed for the test execution."@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#input> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#input> <http://www.w3.org/2000/01/rdf-schema#label> "input"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#onhold> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/03/test-description#ReviewStatus> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#onhold> <http://www.w3.org/2000/01/rdf-schema#comment> "the item had already gone through the review process, but the results of the review need to be re-assessed due to new input" <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#onhold> <http://www.w3.org/2000/01/rdf-schema#label> "on hold" <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#preCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#preCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "a condition that must be met before the test is executed"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#preCondition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#preCondition> <http://www.w3.org/2000/01/rdf-schema#label> "precondition"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#preCondition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#purpose> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#purpose> <http://www.w3.org/2000/01/rdf-schema#label> "purpose"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#purpose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#rejected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/03/test-description#ReviewStatus> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#rejected> <http://www.w3.org/2000/01/rdf-schema#comment> "the item has gone through the review process and was rejected" <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#rejected> <http://www.w3.org/2000/01/rdf-schema#label> "rejected"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#reviewStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#reviewStatus> <http://www.w3.org/2000/01/rdf-schema#label> "status of review"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#reviewStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/03/test-description#ReviewStatus> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#specificationReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#specificationReference> <http://www.w3.org/2000/01/rdf-schema#comment> "a description or a link of what part of which specification lead to the creation of this test case"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#specificationReference> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/03/test-description#TestCase> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#specificationReference> <http://www.w3.org/2000/01/rdf-schema#label> "reference in specification"@en <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#specificationReference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#unreviewed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2006/03/test-description#ReviewStatus> <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#unreviewed> <http://www.w3.org/2000/01/rdf-schema#comment> "the item has been proposed, but hasn't been reviewed (e.g. for completeness) yet" <http://www.w3.org/2006/03/test-description#> .
+<http://www.w3.org/2006/03/test-description#unreviewed> <http://www.w3.org/2000/01/rdf-schema#label> "unreviewed"@en <http://www.w3.org/2006/03/test-description#> .
+<https://www.w3.org/2006/03/test-description> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/2005/NOTE-test-metadata-20050914/> <http://www.w3.org/2006/03/test-description#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/2006/03/test-description#> .
+_:c14n0 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2006/03/test-description#> .
+_:c14n0 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2006/03/test-description#specificationReference> <http://www.w3.org/2006/03/test-description#> .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/2006/03/test-description#> .
+_:c14n1 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2006/03/test-description#> .
+_:c14n1 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/description> <http://www.w3.org/2006/03/test-description#> .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2006/03/test-description#approved> <http://www.w3.org/2006/03/test-description#> .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n9 <http://www.w3.org/2006/03/test-description#> .
+_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2006/03/test-description#onhold> <http://www.w3.org/2006/03/test-description#> .
+_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/2006/03/test-description#> .
+_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/2006/03/test-description#> .
+_:c14n12 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2006/03/test-description#> .
+_:c14n12 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/2006/03/test-description#> .
+_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/2006/03/test-description#> .
+_:c14n13 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2006/03/test-description#> .
+_:c14n13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2006/03/test-description#purpose> <http://www.w3.org/2006/03/test-description#> .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/2006/03/test-description#> .
+_:c14n14 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2006/03/test-description#> .
+_:c14n14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2006/03/test-description#reviewStatus> <http://www.w3.org/2006/03/test-description#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/2006/03/test-description#> .
+_:c14n2 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2006/03/test-description#> .
+_:c14n2 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/2006/03/test-description#> .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2006/03/test-description#accepted> <http://www.w3.org/2006/03/test-description#> .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n5 <http://www.w3.org/2006/03/test-description#> .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/2006/03/test-description#> .
+_:c14n4 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2006/03/test-description#> .
+_:c14n4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2006/03/test-description#> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2006/03/test-description#assigned> <http://www.w3.org/2006/03/test-description#> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n10 <http://www.w3.org/2006/03/test-description#> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/2006/03/test-description#> .
+_:c14n6 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2006/03/test-description#> .
+_:c14n6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2006/03/test-description#purpose> <http://www.w3.org/2006/03/test-description#> .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/2006/03/test-description#> .
+_:c14n7 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2006/03/test-description#> .
+_:c14n7 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/elements/1.1/title> <http://www.w3.org/2006/03/test-description#> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2006/03/test-description#unreviewed> <http://www.w3.org/2006/03/test-description#> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n3 <http://www.w3.org/2006/03/test-description#> .
+_:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2006/03/test-description#rejected> <http://www.w3.org/2006/03/test-description#> .
+_:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n11 <http://www.w3.org/2006/03/test-description#> .

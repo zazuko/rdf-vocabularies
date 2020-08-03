@@ -1,0 +1,162 @@
+<https://www.w3.org/ns/earl#Assertion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Assertion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Assertion> <http://www.w3.org/2000/01/rdf-schema#comment> "a statement that embodies the results of a test"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Assertion> <http://www.w3.org/2000/01/rdf-schema#label> "Assertion"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Assertor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Assertor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Assertor> <http://www.w3.org/2000/01/rdf-schema#comment> "an entity such as a person, a software tool, an organization, or any other grouping that carries out a test collectively"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Assertor> <http://www.w3.org/2000/01/rdf-schema#label> "Assertor"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#CannotTell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#CannotTell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#CannotTell> <http://www.w3.org/2000/01/rdf-schema#comment> "the class of outcomes to denote an undetermined outcome"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#CannotTell> <http://www.w3.org/2000/01/rdf-schema#label> "Undetermined"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#CannotTell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.w3.org/ns/earl#OutcomeValue> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Fail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Fail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Fail> <http://www.w3.org/2000/01/rdf-schema#comment> "the class of outcomes to denote failing a test"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Fail> <http://www.w3.org/2000/01/rdf-schema#label> "Fail"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Fail> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.w3.org/ns/earl#OutcomeValue> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#NotApplicable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#NotApplicable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#NotApplicable> <http://www.w3.org/2000/01/rdf-schema#comment> "the class of outcomes to denote the test is not applicable"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#NotApplicable> <http://www.w3.org/2000/01/rdf-schema#label> "Not applicable"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#NotApplicable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.w3.org/ns/earl#OutcomeValue> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#NotTested> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#NotTested> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#NotTested> <http://www.w3.org/2000/01/rdf-schema#comment> "the class of outcomes to denote the test has not been carried out"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#NotTested> <http://www.w3.org/2000/01/rdf-schema#label> "Not tested"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#NotTested> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.w3.org/ns/earl#OutcomeValue> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#OutcomeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#OutcomeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#OutcomeValue> <http://www.w3.org/2000/01/rdf-schema#comment> "a discrete value that describes a resulting condition from carrying out the test"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#OutcomeValue> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome Value"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Pass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Pass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Pass> <http://www.w3.org/2000/01/rdf-schema#comment> "the class of outcomes to denote passing a test"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Pass> <http://www.w3.org/2000/01/rdf-schema#label> "Pass"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Pass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.w3.org/ns/earl#OutcomeValue> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Software> <http://www.w3.org/2000/01/rdf-schema#comment> "any piece of software such as an authoring tool, browser, or evaluation tool"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Software> <http://www.w3.org/2000/01/rdf-schema#label> "Software"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#Software> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://usefulinc.com/ns/doap#Project> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestCase> <http://www.w3.org/2000/01/rdf-schema#comment> "an atomic test, usually one that is a partial test for a requirement"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestCase> <http://www.w3.org/2000/01/rdf-schema#label> "Test Case"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestCase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.w3.org/ns/earl#TestCriterion> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestCriterion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestCriterion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestCriterion> <http://www.w3.org/2000/01/rdf-schema#comment> "a testable statement, usually one that can be passed or failed"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestCriterion> <http://www.w3.org/2000/01/rdf-schema#label> "Test Criterion"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestMode> <http://www.w3.org/2000/01/rdf-schema#comment> "describes how a test was carried out"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestMode> <http://www.w3.org/2000/01/rdf-schema#label> "Test Mode"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestRequirement> <http://www.w3.org/2000/01/rdf-schema#comment> "a higher-level requirement that is tested by executing one or more sub-tests"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestRequirement> <http://www.w3.org/2000/01/rdf-schema#label> "Test Requirement"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestRequirement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://www.w3.org/ns/earl#TestCriterion> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestResult> <http://www.w3.org/2000/01/rdf-schema#comment> "the actual result of performing the test"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestResult> <http://www.w3.org/2000/01/rdf-schema#label> "Test Result"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestSubject> <http://www.w3.org/2000/01/rdf-schema#comment> "the class of things that have been tested against some test criterion"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#TestSubject> <http://www.w3.org/2000/01/rdf-schema#label> "Test Subject"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#assertedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#assertedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#assertedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "assertor of an assertion"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#assertedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/earl#Assertion> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#assertedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Asserted By"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#assertedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/earl#Assertor> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#automatic> <http://purl.org/dc/terms/description> "where the test was carried out automatically by the software tool and without any human intervention"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#automatic> <http://purl.org/dc/terms/title> "Automatic"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#automatic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/earl#TestMode> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#cantTell> <http://purl.org/dc/terms/description> "it is unclear if the subject passed or failed the test"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#cantTell> <http://purl.org/dc/terms/title> "Cannot tell"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#cantTell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/earl#CannotTell> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#failed> <http://purl.org/dc/terms/description> "the subject failed the test"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#failed> <http://purl.org/dc/terms/title> "Failed"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#failed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/earl#Fail> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#inapplicable> <http://purl.org/dc/terms/description> "the test is not applicable to the subject"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#inapplicable> <http://purl.org/dc/terms/title> "Inapplicable"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#inapplicable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/earl#NotApplicable> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#info> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#info> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#info> <http://www.w3.org/2000/01/rdf-schema#comment> "additional warnings or error messages in a human-readable form"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#info> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/earl#TestResult> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#info> <http://www.w3.org/2000/01/rdf-schema#label> "Info"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#info> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mainAssertor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mainAssertor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mainAssertor> <http://www.w3.org/2000/01/rdf-schema#comment> "assertor that is primarily responsible for performing the test"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mainAssertor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/earl#Assertor> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mainAssertor> <http://www.w3.org/2000/01/rdf-schema#label> "Main Assertor"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mainAssertor> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/earl#Assertor> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mainAssertor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://xmlns.com/foaf/spec/#term_member> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#manual> <http://purl.org/dc/terms/description> "where the test was carried out by human evaluators"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#manual> <http://purl.org/dc/terms/title> "Manual"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#manual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/earl#TestMode> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mode> <http://www.w3.org/2000/01/rdf-schema#comment> "mode in which the test was performed"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mode> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/earl#Assertion> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mode> <http://www.w3.org/2000/01/rdf-schema#label> "Mode"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#mode> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/earl#TestMode> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#outcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#outcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#outcome> <http://www.w3.org/2000/01/rdf-schema#comment> "outcome of performing the test"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#outcome> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/earl#TestResult> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#outcome> <http://www.w3.org/2000/01/rdf-schema#label> "Outcome"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#outcome> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/earl#OutcomeValue> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#passed> <http://purl.org/dc/terms/description> "the subject passed the test"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#passed> <http://purl.org/dc/terms/title> "Passed"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#passed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/earl#Pass> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#pointer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#pointer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#pointer> <http://www.w3.org/2000/01/rdf-schema#comment> "location within a test subject that are most relevant to a test result"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#pointer> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/TestResult> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#pointer> <http://www.w3.org/2000/01/rdf-schema#label> "Pointer"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#pointer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2009/pointers#Pointer> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#result> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#result> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#result> <http://www.w3.org/2000/01/rdf-schema#comment> "result of an assertion"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#result> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/earl#Assertion> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#result> <http://www.w3.org/2000/01/rdf-schema#label> "Result"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#result> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/earl#TestResult> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#semiAuto> <http://purl.org/dc/terms/description> "where the test was partially carried out by software tools, but where human input or judgment was still required to decide or help decide the outcome of the test"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#semiAuto> <http://purl.org/dc/terms/title> "Semi-Automatic"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#semiAuto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/earl#TestMode> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#subject> <http://www.w3.org/2000/01/rdf-schema#comment> "test subject of an assertion"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#subject> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/earl#Assertion> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#subject> <http://www.w3.org/2000/01/rdf-schema#label> "Subject"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#subject> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/earl#TestSubject> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#test> <http://www.w3.org/2000/01/rdf-schema#comment> "test criterion of an assertion"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#test> <http://www.w3.org/2000/01/rdf-schema#domain> <https://www.w3.org/ns/earl#Assertion> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#test> <http://www.w3.org/2000/01/rdf-schema#label> "Test"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#test> <http://www.w3.org/2000/01/rdf-schema#range> <https://www.w3.org/ns/earl#TestCriterion> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#undisclosed> <http://purl.org/dc/terms/description> "where the exact testing process is undisclosed"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#undisclosed> <http://purl.org/dc/terms/title> "Undisclosed"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#undisclosed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/earl#TestMode> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#unknownMode> <http://purl.org/dc/terms/description> "where the testing process is unknown or undetermined"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#unknownMode> <http://purl.org/dc/terms/title> "Unknown"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#unknownMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/earl#TestMode> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#untested> <http://purl.org/dc/terms/description> "the test has not been carried out"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#untested> <http://purl.org/dc/terms/title> "Untested"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl#untested> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/earl#NotTested> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owlOntology> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl> <http://www.w3.org/2000/01/rdf-schema#comment> "Formal schema of the Evaluation and Report Language (EARL) 1.0"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/EARL10/> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl> <http://www.w3.org/2000/01/rdf-schema#label> "Evaluation and Report Language (EARL) 1.0 Schema"@en <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/Content-in-RDF/> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/HTTP-in-RDF/> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/Pointers-in-RDF/> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/WAI/intro/earl> <https://www.w3.org/ns/earl#> .
+<https://www.w3.org/ns/earl> <http://www.w3.org/2002/07/owlversionInfo> "Editor's Working Draft 10 June 2009"@en <https://www.w3.org/ns/earl#> .
