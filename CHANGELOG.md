@@ -1,3 +1,9 @@
+# `v2020.8.17`
+
+## Changes
+
+- Fixed an [issue](https://github.com/zazuko/rdf-vocabularies/issues/69) where prefixes were not applied by specificity.
+
 # `v2020.8.3`
 
 ## New prefixes
