@@ -104,6 +104,20 @@ describe('shrink', () => {
   it('returns empty string with unknown prefixes', () => {
     expect(shrink('http://example.com/foo')).toBe('')
   })
+
+  it('handles overlapping prefixes', () => {
+    prefixes['foo'] = 'http://example.com/foo/'
+    prefixes['bar'] = 'http://example.com/foo/bar/'
+
+    expect(shrink('http://example.com/foo/test')).toBe('foo:test')
+    expect(shrink('http://example.com/foo/bar/test')).toBe('bar:test')
+
+    prefixes['bar2'] = 'http://example.com/foo2/bar/'
+    prefixes['foo2'] = 'http://example.com/foo2/'
+
+    expect(shrink('http://example.com/foo2/test')).toBe('foo2:test')
+    expect(shrink('http://example.com/foo2/bar/test')).toBe('bar2:test')
+  })
 })
 
 describe('user-defined prefixes', () => {
