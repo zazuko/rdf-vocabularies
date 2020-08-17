@@ -1,8 +1,10 @@
 import prefixes from './prefixes'
 
 export function shrink (iri: string) {
-  const found = Array.from(Object.entries(prefixes)).find(([, baseIRI]) => iri.startsWith(baseIRI))
-  if (found) {
+  const candidates = Array.from(Object.entries(prefixes)).filter(([, baseIRI]) => iri.startsWith(baseIRI))
+  if (candidates.length) {
+    candidates.sort(([, iri1], [, iri2]) => iri2.length - iri1.length)
+    const found = candidates[0]
     return iri.replace(new RegExp(`^${found[1]}`), `${found[0]}:`)
   }
   return ''
