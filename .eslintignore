@@ -1,2 +1,4 @@
 /lib/
 *.d.ts
+*.js
+!jest.config.js
