@@ -13,7 +13,7 @@
       "es2015",
       "webworker"
     ],
-    "outDir": "lib",
+    "outDir": ".",
     "declaration": true,
     "declarationMap": true
   },
