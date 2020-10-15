@@ -18,41 +18,22 @@ other programming languages as well as you do not have to take care of downloadi
 $ npm install @zazuko/rdf-vocabularies
 ```
 
-### Using in browser
-
-The preferred usage in browser projects is to avoid importing from `@zazuko/rdf-vocabularies` because that will require additional bundling of dynamic n-quads modules.
-
-Instead, import from the partial modules:
-
-* `import { expand } from '@zazuko/rdf-vocabularies/expand'`
-* `import { expandWithCheck } from '@zazuko/rdf-vocabularies/expandWithCheck'`
-* `import { prefixes } from '@zazuko/rdf-vocabularies/prefixes'`
-* `import { shrink } from '@zazuko/rdf-vocabularies/shrink'`
-
-Except for `expandWithCheck`, which imports `rdf-ext`, all those other modules have no dependencies.
-
-The package's main module can also be used in browser albeit it needs a bundler such as webpack and additional steps to configure it:
-
-* Enable [dynamic imports](https://medium.com/front-end-weekly/webpack-and-dynamic-imports-doing-it-right-72549ff49234). 
-  In webpack it is done with [@babel/plugin-syntax-dynamic-import](https://babeljs.io/docs/en/babel-plugin-syntax-dynamic-import)
-* Extend the bundler setup to have it load the contents of vocabulary files (all n-triples). In
-  In webpack it can be done with [`raw-loader`](https://github.com/webpack-contrib/raw-loader):
-
-      module: {
-        rules: [
-          {
-            test: /\.nq$/,
-            use: ['raw-loader']
-          }
-        ]
-      }
-* Be careful with prefetching chunks. Some applications may generate prefetch links for dynamically loaded chunks. 
-Some of the ontology files are quite large and their number will grow over time. Hence, it may be desired to exclude
-certain chunks from the being eagerly loaded. Check the [wiki](https://github.com/zazuko/rdf-vocabularies/wiki/Example-web-app-config) for examples.
-
 ## Usage
 
 (Read below and take a look at some [examples](./examples.js).)
+
+### Dataset-as-code modules
+
+All vocabularies published by this package are also exported as JS modules so that then can be imported synchronously (no parsing required) and without additional dependencies when in web app setting (see the `raw-loader` instructions below).
+
+All modules `@rdf-vocabularies/datasets/{prefix}` default-export a factory which returns an array of quads `Quad` and take RDF/JS `DataFactory` as parameter.
+
+```javascript
+const $rdf = require('rdf-ext')
+const schema = require('@zazuko/rdf-vocabularies/datasets/schema')
+
+const dataset = $rdf.dataset(schema($rdf))
+```
 
 ### Vocabularies Metadata
 
@@ -154,6 +135,40 @@ vocabularies({ only: ['rdfs', 'owl', 'skos'] })
 const { vocabularies } = require('@zazuko/rdf-vocabularies')
 const stream = await vocabularies({ stream: true, only: ['rdfs', 'owl', 'skos'] })
 ```
+
+### Using `vocabularies` function in browser
+
+The preferred usage in browser projects is to avoid importing from `@zazuko/rdf-vocabularies` because that will require additional bundling of dynamic n-quads modules.
+
+Instead, import from the partial modules:
+
+* `import { expand } from '@zazuko/rdf-vocabularies/expand'`
+* `import { expandWithCheck } from '@zazuko/rdf-vocabularies/expandWithCheck'`
+* `import { prefixes } from '@zazuko/rdf-vocabularies/prefixes'`
+* `import { shrink } from '@zazuko/rdf-vocabularies/shrink'`
+
+Except for `expandWithCheck`, which imports `rdf-ext`, all those other modules have no dependencies.
+
+The package's main module can also be used in browser albeit it needs a bundler such as webpack and additional steps to configure it:
+
+The package can be used in browser albeit it needs a bundler such as webpack and additional steps to configure it:
+
+* Enable [dynamic imports](https://medium.com/front-end-weekly/webpack-and-dynamic-imports-doing-it-right-72549ff49234).
+  In webpack it is done with [@babel/plugin-syntax-dynamic-import](https://babeljs.io/docs/en/babel-plugin-syntax-dynamic-import)
+* Extend the bundler setup to have it load the contents of vocabulary files (all n-triples). In
+  In webpack it can be done with [`raw-loader`](https://github.com/webpack-contrib/raw-loader):
+
+      module: {
+        rules: [
+          {
+            test: /\.nq$/,
+            use: ['raw-loader']
+          }
+        ]
+      }
+* Be careful with prefetching chunks. Some applications may generate prefetch links for dynamically loaded chunks.
+Some of the ontology files are quite large and their number will grow over time. Hence, it may be desired to exclude
+certain chunks from the being eagerly loaded. Check the [wiki](https://github.com/zazuko/rdf-vocabularies/wiki/Example-web-app-config) for examples.
 
 ### Expanding a Prefix
 

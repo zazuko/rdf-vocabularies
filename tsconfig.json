@@ -17,5 +17,8 @@
     "declaration": true,
     "declarationMap": true
   },
-  "files": ["src/index.ts"]
+  "files": [
+    "src/index.ts",
+    "src/datasets/index.ts"
+  ]
 }

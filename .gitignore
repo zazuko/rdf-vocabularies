@@ -5,3 +5,4 @@ coverage
 *.js
 *.mjs
 !loadDataset/index.mjs
+src/datasets/
