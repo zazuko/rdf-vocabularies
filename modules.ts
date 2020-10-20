@@ -9,7 +9,7 @@ async function serializeRdfjsModule (prefix: string, dataset: DatasetExt) {
   const code = rdfjsSerializer.transform(dataset.toArray())
   const path = `./src/datasets/${prefix}.ts`
 
-  await fs.promises.writeFile(path, code)
+  fs.writeFileSync(path, code)
 }
 
 async function main () {
@@ -27,7 +27,7 @@ async function main () {
   const index = Object.keys(datasets).reduce((source, prefix) => {
     return `${source}\nexport { default as ${prefix} } from './${prefix}'`
   }, '')
-  await fs.promises.writeFile('./src/datasets/index.ts', index)
+  fs.writeFileSync('./src/datasets/index.ts', index)
 }
 
 Promise.resolve().then(() => main())
