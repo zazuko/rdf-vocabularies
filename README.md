@@ -20,7 +20,18 @@ $ npm install @zazuko/rdf-vocabularies
 
 ### Using in browser
 
-The package can be used in browser albeit it needs a bundler such as webpack and additional steps to configure it:
+The preferred usage in browser projects is to avoid importing from `@zazuko/rdf-vocabularies` because that will require additional bundling of dynamic n-quads modules.
+
+Instead, import from the partial modules:
+
+* `import { expand } from '@zazuko/rdf-vocabularies/expand'`
+* `import { expandWithCheck } from '@zazuko/rdf-vocabularies/expandWithCheck'`
+* `import { prefixes } from '@zazuko/rdf-vocabularies/prefixes'`
+* `import { shrink } from '@zazuko/rdf-vocabularies/shrink'`
+
+Except for `expandWithCheck`, which imports `rdf-ext`, all those other modules have no dependencies.
+
+The package's main module can also be used in browser albeit it needs a bundler such as webpack and additional steps to configure it:
 
 * Enable [dynamic imports](https://medium.com/front-end-weekly/webpack-and-dynamic-imports-doing-it-right-72549ff49234). 
   In webpack it is done with [@babel/plugin-syntax-dynamic-import](https://babeljs.io/docs/en/babel-plugin-syntax-dynamic-import)

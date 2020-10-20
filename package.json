@@ -2,38 +2,40 @@
   "name": "@zazuko/rdf-vocabularies",
   "version": "2020.8.17",
   "description": "Access most commonly used RDF ontologies/schemas/vocabularies as datasets or n-quads",
-  "main": "lib/index.js",
-  "module": "lib/index.mjs",
-  "browser": "lib/index.mjs",
+  "main": "index.js",
+  "module": "index.mjs",
+  "browser": "index.mjs",
   "bin": {
     "rdf-vocab": "bin/vocab.js"
   },
   "exports": {
     ".": {
-      "require": "./lib/index.js",
-      "import": "./lib/index.mjs"
+      "require": "./index.js",
+      "import": "./index.mjs"
     },
     "./expand": {
-      "require": "./lib/expand.js",
-      "import": "./lib/expand.mjs"
+      "require": "./expand.js",
+      "import": "./expand.mjs"
     },
     "./expandWithCheck": {
-      "require": "./lib/expandWithCheck.js",
-      "import": "./lib/expandWithCheck.mjs"
+      "require": "./expandWithCheck.js",
+      "import": "./expandWithCheck.mjs"
     },
     "./shrink": {
-      "require": "./lib/shrink.js",
-      "import": "./lib/shrink.mjs"
+      "require": "./shrink.js",
+      "import": "./shrink.mjs"
     },
     "./vocabularies": {
-      "require": "./lib/vocabularies.js",
-      "import": "./lib/vocabularies.mjs"
+      "require": "./vocabularies.js",
+      "import": "./vocabularies.mjs"
     }
   },
   "files": [
     "bin",
-    "lib",
+    "loadDataset",
     "ontologies",
+    "*.js",
+    "*.mjs",
     "*.d.ts",
     "*.d.ts.map"
   ],
@@ -44,7 +46,7 @@
     "pretest": "npm run lint",
     "test": "jest",
     "build:node": "tsc",
-    "build:modern": "babel src --out-dir lib --extensions .ts --out-file-extension .mjs --ignore *.test.js --ignore src/loadDataset/index.ts",
+    "build:modern": "babel src --out-dir . --extensions .ts --out-file-extension .mjs --ignore *.test.js --ignore src/loadDataset/index.ts",
     "build": "run-p build:*",
     "prepack": "npm run build"
   },
