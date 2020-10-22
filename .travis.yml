@@ -16,8 +16,8 @@ install:
   - npm ci
 
 script:
-  - npm run build
   - npm run test
+  - npm run build
 
 after_success:
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
