@@ -1,6 +1,6 @@
 # @zazuko/rdf-vocabularies -- Zazuko's Default Ontologies & Prefixes
-[![Build Status](https://travis-ci.org/zazuko/rdf-vocabularies.svg?branch=master)](https://travis-ci.org/zazuko/rdf-vocabularies) 
-[![Coverage Status](https://coveralls.io/repos/github/zazuko/rdf-vocabularies/badge.svg?branch=master)](https://coveralls.io/github/zazuko/rdf-vocabularies?branch=master) 
+[![Build Status](https://travis-ci.org/zazuko/rdf-vocabularies.svg?branch=master)](https://travis-ci.org/zazuko/rdf-vocabularies)
+[![Coverage Status](https://coveralls.io/repos/github/zazuko/rdf-vocabularies/badge.svg?branch=master)](https://coveralls.io/github/zazuko/rdf-vocabularies?branch=master)
 [![npm version](https://badge.fury.io/js/%40zazuko%2Frdf-vocabularies.svg)](https://www.npmjs.com/package/@zazuko/rdf-vocabularies)
 
 This package contains a distribution of the most commonly used RDF ontologies (schema/vocab, whatever you call it)
@@ -26,14 +26,16 @@ $ npm install @zazuko/rdf-vocabularies
 
 All vocabularies published by this package are also exported as JS modules so that then can be imported synchronously (no parsing required) and without additional dependencies when in web app setting (see the `raw-loader` instructions below).
 
-All modules `@rdf-vocabularies/datasets/{prefix}` default-export a factory which returns an array of quads `Quad` and take RDF/JS `DataFactory` as parameter.
+Modules `@rdf-vocabularies/datasets` exports factories which returns an array of quads `Quad` and take RDF/JS `DataFactory` as parameter.
 
 ```javascript
 const $rdf = require('rdf-ext')
-const schema = require('@zazuko/rdf-vocabularies/datasets/schema')
+const { schema } = require('@zazuko/rdf-vocabularies/datasets')
 
 const dataset = $rdf.dataset(schema($rdf))
 ```
+
+In a bundled web project it is also possible to directly import a single dataset like `import schema from '@zazuko/rdf-vocabularies/datasets/schema'`. At the time of writing this is not supported by newer versions of node (12-14) but has already been fixed and scheduled for release.
 
 ### Vocabularies Metadata
 
@@ -51,7 +53,7 @@ returned datasets.
 
 #### Loading all Vocabularies as Datasets
 
-In browser environment this will cause a request for each individual dataset. 
+In browser environment this will cause a request for each individual dataset.
 It is thus recommended to always only [load the needed ontologies](#loading-only-some-ontologies-as-datasets)
 to reduce the unnecessary traffic and save bandwidth.
 
