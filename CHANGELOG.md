@@ -1,3 +1,10 @@
+# `vNext`
+
+## Changes
+
+- Bundle all vocabularies as code modules serialized using [@rdfjs/serializer-rdfjs](https://npm.im/@rdfjs/serializer-rdfjs) ([#74](https://github.com/zazuko/rdf-vocabularies/issues/74))
+- Build and package without a `lib` directory ([#73](https://github.com/zazuko/rdf-vocabularies/issues/73))
+
 # `v2020.8.17`
 
 ## Changes
