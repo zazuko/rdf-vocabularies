@@ -6,3 +6,4 @@ coverage
 *.mjs
 !loadDataset/index.mjs
 src/datasets/
+!mocha-setup.js

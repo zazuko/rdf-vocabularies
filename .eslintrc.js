@@ -1,8 +1,7 @@
 module.exports = {
   root: true,
   env: {
-    node: true,
-    'jest/globals': true
+    node: true
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -14,7 +13,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended'
   ],
   plugins: [
-    'jest',
     '@typescript-eslint/eslint-plugin'
   ],
   // add your custom rules here
