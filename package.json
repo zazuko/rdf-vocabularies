@@ -1,6 +1,6 @@
 {
   "name": "@zazuko/rdf-vocabularies",
-  "version": "2020.8.17",
+  "version": "2020.10.22-pre",
   "description": "Access most commonly used RDF ontologies/schemas/vocabularies as datasets or n-quads",
   "main": "index.js",
   "module": "index.mjs",
@@ -28,11 +28,20 @@
     "./vocabularies": {
       "require": "./vocabularies.js",
       "import": "./vocabularies.mjs"
+    },
+    "./datasets": {
+      "require": "./datasets/index.js",
+      "import": "./datasets/index.mjs"
+    },
+    "./datasets/*": {
+      "require": "./datasets/*.js",
+      "import": "./datasets/*.mjs"
     }
   },
   "files": [
     "bin",
     "loadDataset",
+    "datasets",
     "ontologies",
     "*.js",
     "*.mjs",
@@ -42,9 +51,10 @@
   "scripts": {
     "prefetch": "mkdirp ontologies",
     "fetch": "ts-node fetch.ts",
-    "lint": "eslint . --ext .js,.ts",
+    "lint": "eslint . --ext .js,.ts --ignore-path .gitignore --quiet",
     "pretest": "npm run lint",
-    "test": "jest",
+    "test": "c8 -i src mocha src/index.test.ts",
+    "prepare": "mkdirp src/datasets; ts-node modules",
     "build:node": "tsc",
     "build:modern": "babel src --out-dir . --extensions .ts --out-file-extension .mjs --ignore *.test.js --ignore src/loadDataset/index.ts",
     "build": "run-p build:*",
@@ -64,30 +74,35 @@
     "@babel/cli": "^7.10.3",
     "@babel/preset-env": "^7.10.3",
     "@babel/preset-typescript": "^7.10.1",
+    "@babel/core": "^7.12.3",
+    "@babel/register": "^7.12.1",
     "@rdfjs/fetch-lite": "^2.0.0",
     "@rdfjs/formats-common": "^2.1.0",
-    "@types/jest": "^24.9.1",
+    "@rdfjs/serializer-rdfjs": "^0.0.4",
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.0.3",
     "@types/rdf-ext": "^1.3.2",
     "@types/rdf-js": "^2.0.8",
     "@types/rdfjs__fetch-lite": "^2.0.1",
     "@types/rdfjs__formats-common": "^2.0.0",
     "@types/rdfjs__parser-n3": "^1.1.2",
+    "@types/rdfjs__serializer-rdfjs": "^0.0.0",
     "@typescript-eslint/eslint-plugin": "^1.12.0",
     "@typescript-eslint/parser": "^1.12.0",
     "babel-plugin-add-import-extension": "^1.3.1",
+    "c8": "^7.3.4",
+    "chai": "^4.2.0",
     "coveralls": "^3.0.11",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jest": "^22.20.0",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
-    "jest": "^24.8.0",
+    "mocha": "^8.2.0",
     "npm-run-all": "^4.1.5",
     "rdfxml-streaming-parser": "^1.3.6",
     "rimraf": "^3.0.2",
-    "ts-jest": "^24.3.0",
     "ts-node": "^8.8.1",
     "typescript": "^3.8.3"
   },
@@ -106,10 +121,13 @@
     "ontologies",
     "vocabularies"
   ],
-  "jest": {
-    "testPathIgnorePatterns": [
-      "/node_modules/"
+  "mocha": {
+    "extension": "ts",
+    "watch-files": [
+      "./**/*.ts"
     ],
-    "collectCoverage": true
+    "require": [
+      "mocha-setup.js"
+    ]
   }
 }

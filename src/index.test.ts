@@ -1,7 +1,12 @@
+import { describe, it, before, after } from 'mocha'
+import { expect } from 'chai'
 import fs from 'fs'
 import { join, resolve as resolvePath } from 'path'
 import rdf from 'rdf-ext'
-import { expand, prefixes, shrink, vocabularies } from '.'
+import { vocabularies } from './vocabularies'
+import { shrink } from './shrink'
+import { expand } from './expand'
+import prefixes from './prefixes'
 
 const list = (directoryPath: string): Promise<string[]> =>
   new Promise((resolve, reject) => fs.readdir(directoryPath, (err, files: string[]) => {
@@ -12,28 +17,30 @@ const list = (directoryPath: string): Promise<string[]> =>
     resolve(files.filter((filename) => !filename.startsWith('_')))
   }))
 
-describe('default export', () => {
+describe('default export', function () {
+  this.timeout(10000)
+
   it('loads all prefixes', async () => {
     const vocabsDir = resolvePath('./ontologies')
     const ontologies = await list(vocabsDir)
-    expect(Object.keys(await vocabularies())).toHaveLength(ontologies.length)
+    expect(Object.keys(await vocabularies())).to.have.length(ontologies.length)
   })
 
   it('has the right quads count', async () => {
     const result = await vocabularies()
 
     Object.entries(result).forEach(([prefix, dataset]) => {
-      expect(dataset.size).toBe(loadFile(prefix).split('\n').filter(Boolean).length)
+      expect(dataset.size).to.eq(loadFile(prefix).split('\n').filter(Boolean).length)
     })
   })
 
   it('returns a selection of prefixes', async () => {
     const result = await vocabularies({ only: ['skos', 'dcterms'] })
 
-    expect(Object.keys(result)).toHaveLength(2)
+    expect(Object.keys(result)).to.have.length(2)
 
     Object.entries(result).forEach(([prefix, dataset]) => {
-      expect(dataset.size).toBe(loadFile(prefix).split('\n').filter(Boolean).length)
+      expect(dataset.size).to.eq(loadFile(prefix).split('\n').filter(Boolean).length)
     })
   })
 
@@ -47,26 +54,26 @@ describe('default export', () => {
     let i = 0
     stream.on('data', (quad) => {
       if (![quad.subject.termType, quad.predicate.termType, quad.object.termType].includes('BlankNode')) {
-        expect(mergedDataset.has(quad)).toBe(true)
+        expect(mergedDataset.has(quad)).to.eq(true)
       }
       i++
     })
     stream.on('end', () => {
-      expect(mergedDataset.size).toBe(i)
+      expect(mergedDataset.size).to.eq(i)
     })
   })
 })
 
 describe('expand', () => {
   it('expands prefixed to full IRI', () => {
-    expect(expand('rdfs:Class')).toBe('http://www.w3.org/2000/01/rdf-schema#Class')
-    expect(expand('rdf:Property')).toBe('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property')
-    expect(expand('schema:Person')).toBe('http://schema.org/Person')
-    expect(expand('xsd:dateTime')).toBe('http://www.w3.org/2001/XMLSchema#dateTime')
+    expect(expand('rdfs:Class')).to.eq('http://www.w3.org/2000/01/rdf-schema#Class')
+    expect(expand('rdf:Property')).to.eq('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property')
+    expect(expand('schema:Person')).to.eq('http://schema.org/Person')
+    expect(expand('xsd:dateTime')).to.eq('http://www.w3.org/2001/XMLSchema#dateTime')
   })
 
   it('throws with unknown prefixes', () => {
-    expect(() => expand('foo:Class')).toThrow()
+    expect(() => expand('foo:Class')).to.throw()
   })
 
   it('expands only if exists with a given type', async () => {
@@ -74,64 +81,64 @@ describe('expand', () => {
     const Property = expand('rdf:Property')
     const Boolean = expand('xsd:boolean')
 
-    expect(await expand('schema:Person', [Boolean])).toBe('')
-    expect(await expand('schema:DoesntExist', [Class, Property])).toBe('')
-    expect(await expand('schema:Person', [Class, Property])).toBe('http://schema.org/Person')
-    expect(await expand('schema:Person', [rdf.namedNode(Class), Property])).toBe('http://schema.org/Person')
+    expect(await expand('schema:Person', [Boolean])).to.eq('')
+    expect(await expand('schema:DoesntExist', [Class, Property])).to.eq('')
+    expect(await expand('schema:Person', [Class, Property])).to.eq('http://schema.org/Person')
+    expect(await expand('schema:Person', [rdf.namedNode(Class), Property])).to.eq('http://schema.org/Person')
   })
 })
 
 describe('shrink', () => {
   it('shrinks full IRI to prefix', () => {
-    expect(shrink('http://www.w3.org/2000/01/rdf-schema#Class')).toBe('rdfs:Class')
-    expect(shrink('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property')).toBe('rdf:Property')
-    expect(shrink('http://schema.org/Person')).toBe('schema:Person')
-    expect(shrink('http://www.w3.org/2001/XMLSchema#dateTime')).toBe('xsd:dateTime')
+    expect(shrink('http://www.w3.org/2000/01/rdf-schema#Class')).to.eq('rdfs:Class')
+    expect(shrink('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property')).to.eq('rdf:Property')
+    expect(shrink('http://schema.org/Person')).to.eq('schema:Person')
+    expect(shrink('http://www.w3.org/2001/XMLSchema#dateTime')).to.eq('xsd:dateTime')
   })
 
   it('is the inverse of expand', () => {
-    expect(shrink(expand('rdfs:Class'))).toBe('rdfs:Class')
-    expect(shrink(expand('rdf:Property'))).toBe('rdf:Property')
-    expect(shrink(expand('schema:Person'))).toBe('schema:Person')
-    expect(shrink(expand('xsd:dateTime'))).toBe('xsd:dateTime')
+    expect(shrink(expand('rdfs:Class'))).to.eq('rdfs:Class')
+    expect(shrink(expand('rdf:Property'))).to.eq('rdf:Property')
+    expect(shrink(expand('schema:Person'))).to.eq('schema:Person')
+    expect(shrink(expand('xsd:dateTime'))).to.eq('xsd:dateTime')
 
-    expect(expand(shrink('http://www.w3.org/2000/01/rdf-schema#Class'))).toBe('http://www.w3.org/2000/01/rdf-schema#Class')
-    expect(expand(shrink('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property'))).toBe('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property')
-    expect(expand(shrink('http://schema.org/Person'))).toBe('http://schema.org/Person')
-    expect(expand(shrink('http://www.w3.org/2001/XMLSchema#dateTime'))).toBe('http://www.w3.org/2001/XMLSchema#dateTime')
+    expect(expand(shrink('http://www.w3.org/2000/01/rdf-schema#Class'))).to.eq('http://www.w3.org/2000/01/rdf-schema#Class')
+    expect(expand(shrink('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property'))).to.eq('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property')
+    expect(expand(shrink('http://schema.org/Person'))).to.eq('http://schema.org/Person')
+    expect(expand(shrink('http://www.w3.org/2001/XMLSchema#dateTime'))).to.eq('http://www.w3.org/2001/XMLSchema#dateTime')
   })
 
   it('returns empty string with unknown prefixes', () => {
-    expect(shrink('http://example.com/foo')).toBe('')
+    expect(shrink('http://example.com/foo')).to.eq('')
   })
 
   it('handles overlapping prefixes', () => {
     prefixes['foo'] = 'http://example.com/foo/'
     prefixes['bar'] = 'http://example.com/foo/bar/'
 
-    expect(shrink('http://example.com/foo/test')).toBe('foo:test')
-    expect(shrink('http://example.com/foo/bar/test')).toBe('bar:test')
+    expect(shrink('http://example.com/foo/test')).to.eq('foo:test')
+    expect(shrink('http://example.com/foo/bar/test')).to.eq('bar:test')
 
     prefixes['bar2'] = 'http://example.com/foo2/bar/'
     prefixes['foo2'] = 'http://example.com/foo2/'
 
-    expect(shrink('http://example.com/foo2/test')).toBe('foo2:test')
-    expect(shrink('http://example.com/foo2/bar/test')).toBe('bar2:test')
+    expect(shrink('http://example.com/foo2/test')).to.eq('foo2:test')
+    expect(shrink('http://example.com/foo2/bar/test')).to.eq('bar2:test')
   })
 })
 
 describe('user-defined prefixes', () => {
-  beforeAll(() => {
+  before(() => {
     prefixes['zzz'] = 'http://foo/'
   })
-  afterAll(() => {
+  after(() => {
     delete prefixes['zzz']
   })
   it('expands', () => {
-    expect(expand('zzz:bar')).toBe('http://foo/bar')
+    expect(expand('zzz:bar')).to.eq('http://foo/bar')
   })
   it('shrinks', () => {
-    expect(shrink('http://foo/bar')).toBe('zzz:bar')
+    expect(shrink('http://foo/bar')).to.eq('zzz:bar')
   })
 })
 
