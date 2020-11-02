@@ -29,6 +29,10 @@
       "require": "./vocabularies.js",
       "import": "./vocabularies.mjs"
     },
+    "./prefixes": {
+      "require": "./prefixes.js",
+      "import": "./prefixes.mjs"
+    },
     "./datasets": {
       "require": "./datasets/index.js",
       "import": "./datasets/index.mjs"
