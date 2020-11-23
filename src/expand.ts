@@ -1,12 +1,9 @@
-import { NamedNode } from 'rdf-js'
 import prefixes from './prefixes'
 
-export function expand (prefixed: string): string;
-export function expand (prefixed: string, types: (string | NamedNode)[]): Promise<string>;
-export function expand (prefixed: string, types: (string | NamedNode)[] = []): string | Promise<string> {
+export function getParts (prefixed: string): { term: string; baseIRI: string; prefix: string } | null {
   const [prefix, term] = prefixed.split(':')
   if (!prefix || !term) {
-    return ''
+    return null
   }
 
   const baseIRI = prefixes[prefix]
@@ -14,11 +11,14 @@ export function expand (prefixed: string, types: (string | NamedNode)[] = []): s
     throw new Error(`Unavailable prefix '${prefix}:'`)
   }
 
-  const iri = `${baseIRI}${term}`
-  if (!types.length) {
-    return iri
+  return { prefix, term, baseIRI }
+}
+
+export function expand (prefixed: string): string {
+  const parts = getParts(prefixed)
+  if (!parts) {
+    return ''
   }
 
-  return import('./expandWithCheck')
-    .then(({ expandWithCheck }) => expandWithCheck({ prefix, iri, baseIRI, types }))
+  return `${parts.baseIRI}${parts.term}`
 }
