@@ -6,10 +6,10 @@ import DatasetExt from 'rdf-ext/lib/Dataset'
 import ParserN3 from '@rdfjs/parser-n3'
 import { loadDatasetStream } from './loadDataset'
 
-export type Datasets = Record<string, DatasetExt>
+export type Datasets = Record<keyof typeof prefixes, DatasetExt>
 
 interface VocabulariesOptions {
-  only?: string[] | null;
+  only?: (keyof typeof prefixes)[] | null;
   factory?: typeof rdf;
 }
 
@@ -25,10 +25,10 @@ export async function vocabularies (options?: VocabulariesDatasetOptions): Promi
 export async function vocabularies (options: VocabulariesStreamOptions): Promise<Stream & Readable>
 export async function vocabularies (options: VocabulariesDatasetOptions | VocabulariesStreamOptions = {}) {
   const { only = null, factory = rdf, stream = false } = options
-  let selectedPrefixes: string[] = []
+  let selectedPrefixes: (keyof typeof prefixes)[] = []
 
   if (!!only && Array.isArray(only)) {
-    only.forEach((prefix: string) => {
+    only.forEach((prefix: keyof typeof prefixes) => {
       if (prefix in prefixes) {
         selectedPrefixes.push(prefix)
       }
@@ -68,7 +68,7 @@ interface LoadFileOptions {
   factory: typeof rdf;
 }
 
-export async function loadFile (prefix: string, { customSelection, factory }: LoadFileOptions) {
+export async function loadFile (prefix: keyof typeof prefixes, { customSelection, factory }: LoadFileOptions) {
   const parserN3 = new ParserN3()
   const readStream = await loadDatasetStream(prefix)
   const quadStream = parserN3.import(readStream)
