@@ -8,32 +8,13 @@ export const loadedPrefixes: Datasets = {}
 
 type Types = (string | NamedNode)[]
 
-interface ExpandWithCheckOptions {
-  prefix: string;
-  iri: string;
-  baseIRI: string;
-  types: Types;
-}
-
-export async function expandWithCheck (prefixed: string, types: Types): Promise<string>
-export async function expandWithCheck ({ prefix, iri, baseIRI, types }: ExpandWithCheckOptions): Promise<string>
-export async function expandWithCheck (arg: ExpandWithCheckOptions | string, _types: Types = []): Promise<string> {
-  let prefix: string
-  let term: string
-  let baseIRI: string
-  let types: (string | NamedNode)[] = _types
-
-  if (typeof arg === 'string') {
-    const parts = getParts(arg)
-    if (!parts) {
-      return ''
-    }
-
-    ({ prefix, term, baseIRI } = parts)
+export async function expandWithCheck (prefixed: string, types: Types): Promise<string> {
+  const parts = getParts(prefixed)
+  if (!parts) {
+    return ''
   }
-  else {
-    ({ prefix, iri: term, baseIRI, types } = arg)
-  }
+
+  const { prefix, term, baseIRI } = parts
 
   if (!(prefix in loadedPrefixes)) {
     // if not previously loaded, load and memoize for later use
