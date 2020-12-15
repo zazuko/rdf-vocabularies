@@ -1,3 +1,9 @@
+# `vNext`
+
+## Changes
+
+- The module `@zazuko/rdf-vocabularies/expand` now only does simple expansion (no second parameter).
+
 # `v2020.11.2`
 
 ## Changes

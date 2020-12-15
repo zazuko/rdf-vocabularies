@@ -145,11 +145,10 @@ The preferred usage in browser projects is to avoid importing from `@zazuko/rdf-
 Instead, import from the partial modules:
 
 * `import { expand } from '@zazuko/rdf-vocabularies/expand'`
-* `import { expandWithCheck } from '@zazuko/rdf-vocabularies/expandWithCheck'`
 * `import { prefixes } from '@zazuko/rdf-vocabularies/prefixes'`
 * `import { shrink } from '@zazuko/rdf-vocabularies/shrink'`
 
-Except for `expandWithCheck`, which imports `rdf-ext`, all those other modules have no dependencies.
+The module `@zazuko/rdf-vocabularies/expandWithCheck` requires `rdf-ext` and parses datasets. See the instructions below for examples how to configure the application.
 
 The package's main module can also be used in browser albeit it needs a bundler such as webpack and additional steps to configure it:
 

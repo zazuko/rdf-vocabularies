@@ -5,7 +5,7 @@ import { join, resolve as resolvePath } from 'path'
 import rdf from 'rdf-ext'
 import { vocabularies } from './vocabularies'
 import { shrink } from './shrink'
-import { expand } from './expand'
+import { expand } from './'
 import prefixes from './prefixes'
 
 const list = (directoryPath: string): Promise<string[]> =>
