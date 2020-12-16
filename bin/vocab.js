@@ -2,13 +2,13 @@
 const program = require('commander')
 const { promisify } = require('util')
 const stream = require('readable-stream')
-const { loadDatasetStream } = require('../lib/loadDataset')
-const prefixes = require('../lib/prefixes')
+const { loadDatasetStream } = require('../loadDataset')
+const prefixes = require('../prefixes')
 
 const finished = promisify(stream.finished)
 
-function forwardStream (prefix) {
-  const vocabStream = loadDatasetStream(prefix)
+async function forwardStream (prefix) {
+  const vocabStream = await loadDatasetStream(prefix)
   vocabStream.pipe(process.stdout)
 
   return finished(vocabStream)
