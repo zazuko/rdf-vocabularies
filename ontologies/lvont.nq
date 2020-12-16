@@ -183,7 +183,7 @@
 <http://lexvo.org/ontology#translation> <http://www.w3.org/2000/01/rdf-schema#label> "translation"@en <http://lexvo.org/ontology#> .
 <http://lexvo.org/ontology#translation> <http://www.w3.org/2004/02/skos/core#note> "Domain and range are usually Term objects, however string literals are acceptable as well for the range."@en <http://lexvo.org/ontology#> .
 <http://lexvo.org/ontology#usedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://lexvo.org/ontology#> .
-<http://lexvo.org/ontology#usedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "The property of an object\n    (e.g., a language, writing system, or a specific element or aspect of a language or writing system)\n    being used somewhat extensively in a particular geographical region \n    at some point in time."@en <http://lexvo.org/ontology#> .
+<http://lexvo.org/ontology#usedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "The property of a language or writing system\n    being used somewhat extensively in a particular geographical region \n    at some point in time."@en <http://lexvo.org/ontology#> .
 <http://lexvo.org/ontology#usedIn> <http://www.w3.org/2000/01/rdf-schema#label> "used in"@en <http://lexvo.org/ontology#> .
 <http://lexvo.org/ontology#usedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://lexvo.org/ontology#GeographicRegion> <http://lexvo.org/ontology#> .
 <http://lexvo.org/ontology#usesScript> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://lexvo.org/ontology#> .

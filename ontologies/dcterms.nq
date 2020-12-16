@@ -58,7 +58,7 @@
 <http://purl.org/dc/terms/ISO3166> <http://www.w3.org/2000/01/rdf-schema#comment> "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/ISO3166> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/ISO3166> <http://www.w3.org/2000/01/rdf-schema#label> "ISO 3166"@en <http://purl.org/dc/terms/> .
-<http://purl.org/dc/terms/ISO3166> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.iso.org/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1.html> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/ISO3166> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.iso.org/obp/ui/#search> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/ISO639-2> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/ISO639-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/ISO639-2> <http://www.w3.org/2000/01/rdf-schema#comment> "The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages."@en <http://purl.org/dc/terms/> .
@@ -257,6 +257,8 @@
 <http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#comment> "A summary of the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#label> "Abstract"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/description> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/abstract> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/description> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/accessRights> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/RightsStatement> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/accessRights> <http://purl.org/dc/terms/description> "Access Rights may include information regarding access or restrictions based on privacy, security, or other policies."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/accessRights> <http://purl.org/dc/terms/issued> "2003-02-15"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -264,6 +266,8 @@
 <http://purl.org/dc/terms/accessRights> <http://www.w3.org/2000/01/rdf-schema#comment> "Information about who access the resource or an indication of its security status."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/accessRights> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/accessRights> <http://www.w3.org/2000/01/rdf-schema#label> "Access Rights"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/accessRights> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/rights> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/accessRights> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/rights> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/accrualMethod> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/MethodOfAccrual> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/accrualMethod> <http://purl.org/dc/terms/description> "Recommended practice is to use a value from the Collection Description Accrual Method Vocabulary [[DCMI-ACCRUALMETHOD](https://dublincore.org/groups/collections/accrual-method/)]."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/accrualMethod> <http://purl.org/dc/terms/issued> "2005-06-13"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -295,6 +299,8 @@
 <http://purl.org/dc/terms/alternative> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/alternative> <http://www.w3.org/2000/01/rdf-schema#label> "Alternative Title"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/alternative> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/alternative> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/title> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/alternative> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/title> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/audience> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/AgentClass> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/audience> <http://purl.org/dc/terms/description> "Recommended practice is to use this property with non-literal values from a vocabulary of audience types."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/audience> <http://purl.org/dc/terms/issued> "2001-05-21"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -309,6 +315,8 @@
 <http://purl.org/dc/terms/available> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/available> <http://www.w3.org/2000/01/rdf-schema#label> "Date Available"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/available> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/available> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/available> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/bibliographicCitation> <http://purl.org/dc/terms/description> "Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/bibliographicCitation> <http://purl.org/dc/terms/issued> "2003-02-15"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
@@ -316,12 +324,16 @@
 <http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/2000/01/rdf-schema#label> "Bibliographic Citation"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/identifier> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/identifier> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/conformsTo> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/Standard> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/conformsTo> <http://purl.org/dc/terms/issued> "2001-05-21"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/conformsTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/conformsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "An established standard to which the described resource conforms."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/conformsTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/conformsTo> <http://www.w3.org/2000/01/rdf-schema#label> "Conforms To"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/conformsTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/conformsTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/contributor> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/Agent> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/contributor> <http://purl.org/dc/terms/description> "The guidelines for using names of persons or organizations as creators apply to contributors."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/contributor> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -329,6 +341,7 @@
 <http://purl.org/dc/terms/contributor> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity responsible for making contributions to the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/contributor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/contributor> <http://www.w3.org/2000/01/rdf-schema#label> "Contributor"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/contributor> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/coverage> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/Jurisdiction> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/coverage> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/Location> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/coverage> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/Period> <http://purl.org/dc/terms/> .
@@ -338,6 +351,7 @@
 <http://purl.org/dc/terms/coverage> <http://www.w3.org/2000/01/rdf-schema#comment> "The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/coverage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/coverage> <http://www.w3.org/2000/01/rdf-schema#label> "Coverage"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/coverage> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/coverage> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/created> <http://purl.org/dc/terms/description> "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/created> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
@@ -345,6 +359,8 @@
 <http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#label> "Date Created"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/creator> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/Agent> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/creator> <http://purl.org/dc/terms/description> "Recommended practice is to identify the creator with a URI.  If this is not possible or feasible, a literal value that identifies the creator may be provided."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/creator> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -352,6 +368,8 @@
 <http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity responsible for making the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#label> "Creator"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/creator> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/creator> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/contributor> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/creator> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://xmlns.com/foaf/0.1/maker> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/date> <http://purl.org/dc/terms/description> "Date may be used to express temporal information at any level of granularity.  Recommended practice is to express the date, date/time, or period of time according to ISO 8601-1 [[ISO 8601-1](https://www.iso.org/iso-8601-date-and-time-format.html)] or a published profile of the ISO standard, such as the W3C Note on Date and Time Formats [[W3CDTF](https://www.w3.org/TR/NOTE-datetime)] or the Extended Date/Time Format Specification [[EDTF](http://www.loc.gov/standards/datetime/)].  If the full date is unknown, month and year (YYYY-MM) or just year (YYYY) may be used. Date ranges may be specified using ISO 8601 period of time specification in which start and end dates are separated by a '/' (slash) character.  Either the start or end date may be missing."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/date> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -360,6 +378,7 @@
 <http://purl.org/dc/terms/date> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/date> <http://www.w3.org/2000/01/rdf-schema#label> "Date"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/date> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateAccepted> <http://purl.org/dc/terms/description> "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty.  Examples of resources to which a date of acceptance may be relevant are a thesis (accepted by a university department) or an article (accepted by a journal)."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateAccepted> <http://purl.org/dc/terms/issued> "2002-07-13"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateAccepted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
@@ -367,6 +386,8 @@
 <http://purl.org/dc/terms/dateAccepted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateAccepted> <http://www.w3.org/2000/01/rdf-schema#label> "Date Accepted"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateAccepted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/dateAccepted> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/dateAccepted> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateCopyrighted> <http://purl.org/dc/terms/description> "Typically a year.  Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateCopyrighted> <http://purl.org/dc/terms/issued> "2002-07-13"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
@@ -374,6 +395,8 @@
 <http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/2000/01/rdf-schema#label> "Date Copyrighted"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/dateCopyrighted> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateSubmitted> <http://purl.org/dc/terms/description> "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty.  Examples of resources to which a 'Date Submitted' may be relevant include a thesis (submitted to a university department) or an article (submitted to a journal)."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateSubmitted> <http://purl.org/dc/terms/issued> "2002-07-13"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateSubmitted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
@@ -381,18 +404,22 @@
 <http://purl.org/dc/terms/dateSubmitted> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateSubmitted> <http://www.w3.org/2000/01/rdf-schema#label> "Date Submitted"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/dateSubmitted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/dateSubmitted> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/dateSubmitted> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/description> <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/description> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#comment> "An account of the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#label> "Description"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/description> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/description> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/educationLevel> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/AgentClass> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/educationLevel> <http://purl.org/dc/terms/issued> "2002-07-13"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/educationLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/educationLevel> <http://www.w3.org/2000/01/rdf-schema#comment> "A class of agents, defined in terms of progression through an educational or training context, for which the described resource is intended."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/educationLevel> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/educationLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Audience Education Level"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/educationLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/audience> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/extent> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/SizeOrDuration> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/extent> <http://purl.org/dc/terms/description> "Recommended practice is to specify the file size in megabytes and duration in ISO 8601 format."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/extent> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -400,6 +427,8 @@
 <http://purl.org/dc/terms/extent> <http://www.w3.org/2000/01/rdf-schema#comment> "The size or duration of the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/extent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/extent> <http://www.w3.org/2000/01/rdf-schema#label> "Extent"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/extent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/format> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/extent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/format> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/format> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/Extent> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/format> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/MediaType> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/format> <http://purl.org/dc/terms/description> "Recommended practice is to use a controlled vocabulary where available. For example, for file formats one could use the list of Internet Media Types [[MIME](https://www.iana.org/assignments/media-types/media-types.xhtml)].  Examples of dimensions include size and duration."@en <http://purl.org/dc/terms/> .
@@ -408,24 +437,31 @@
 <http://purl.org/dc/terms/format> <http://www.w3.org/2000/01/rdf-schema#comment> "The file format, physical medium, or dimensions of the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/format> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/format> <http://www.w3.org/2000/01/rdf-schema#label> "Format"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/format> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/format> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasFormat> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Is Format Of."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasFormat> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource that is substantially the same as the pre-existing described resource, but in another format."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2000/01/rdf-schema#label> "Has Format"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasPart> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Is Part Of."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasPart> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource that is included either physically or logically in the described resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "Has Part"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasVersion> <http://purl.org/dc/terms/description> "Changes in version imply substantive changes in content rather than differences in format. This property is intended to be used with non-literal values. This property is an inverse property of Is Version Of."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasVersion> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource that is a version, edition, or adaptation of the described resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasVersion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/hasVersion> <http://www.w3.org/2000/01/rdf-schema#label> "Has Version"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/hasVersion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/hasVersion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/identifier> <http://purl.org/dc/terms/description> "Recommended practice is to identify the resource by means of a string conforming to an identification system. Examples include International Standard Book Number (ISBN), Digital Object Identifier (DOI), and Uniform Resource Name (URN).  Persistent identifiers should be provided as HTTP URIs."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/identifier> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
@@ -433,6 +469,7 @@
 <http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#label> "Identifier"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/identifier> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/instructionalMethod> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/MethodOfInstruction> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/instructionalMethod> <http://purl.org/dc/terms/description> "Instructional Method typically includes ways of presenting instructional materials or conducting instructional activities, patterns of learner-to-learner and learner-to-instructor interactions, and mechanisms by which group and individual levels of learning are measured.  Instructional methods include all aspects of the instruction and learning processes from planning and implementation through evaluation and feedback."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/instructionalMethod> <http://purl.org/dc/terms/issued> "2005-06-13"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -446,36 +483,48 @@
 <http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A pre-existing related resource that is substantially the same as the described resource, but in another format."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/2000/01/rdf-schema#label> "Is Format Of"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/isFormatOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isPartOf> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Has Part."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isPartOf> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource in which the described resource is physically or logically included."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2000/01/rdf-schema#label> "Is Part Of"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isReferencedBy> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of References."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isReferencedBy> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource that references, cites, or otherwise points to the described resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Is Referenced By"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isReplacedBy> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Replaces."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isReplacedBy> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource that supplants, displaces, or supersedes the described resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Is Replaced By"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/isReplacedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isRequiredBy> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Requires."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isRequiredBy> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource that requires the described resource to support its function, delivery, or coherence."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2000/01/rdf-schema#label> "Is Required By"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/description> "Changes in version imply substantive changes in content rather than differences in format. This property is intended to be used with non-literal values. This property is an inverse property of Has Version."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isVersionOf> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource of which the described resource is a version, edition, or adaptation."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#label> "Is Version Of"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/issued> <http://purl.org/dc/terms/description> "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/issued> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
@@ -483,6 +532,8 @@
 <http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#label> "Date Issued"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/language> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/LinguisticSystem> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/language> <http://purl.org/dc/terms/description> "Recommended practice is to use either a non-literal value representing a language from a controlled vocabulary such as ISO 639-2 or ISO 639-3, or a literal value consisting of an IETF Best Current Practice 47 [[IETF-BCP47](https://tools.ietf.org/html/bcp47)] language tag."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/language> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -490,6 +541,7 @@
 <http://purl.org/dc/terms/language> <http://www.w3.org/2000/01/rdf-schema#comment> "A language of the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/language> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/language> <http://www.w3.org/2000/01/rdf-schema#label> "Language"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/language> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/language> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/license> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/LicenseDocument> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/license> <http://purl.org/dc/terms/description> "Recommended practice is to identify the license document with a URI. If this is not possible or feasible, a literal value that identifies the license may be provided."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/license> <http://purl.org/dc/terms/issued> "2004-06-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -497,6 +549,8 @@
 <http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#comment> "A legal document giving official permission to do something with the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#label> "License"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/rights> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/license> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/rights> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/mediator> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/AgentClass> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/mediator> <http://purl.org/dc/terms/description> "In an educational context, a mediator might be a parent, teacher, teaching assistant, or care-giver."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/mediator> <http://purl.org/dc/terms/issued> "2001-05-21"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -504,6 +558,7 @@
 <http://purl.org/dc/terms/mediator> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity that mediates access to the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/mediator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/mediator> <http://www.w3.org/2000/01/rdf-schema#label> "Mediator"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/mediator> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/audience> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/medium> <http://purl.org/dc/dcam/domainIncludes> <http://purl.org/dc/terms/PhysicalResource> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/medium> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/PhysicalMedium> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/medium> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -511,6 +566,8 @@
 <http://purl.org/dc/terms/medium> <http://www.w3.org/2000/01/rdf-schema#comment> "The material or physical carrier of the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/medium> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/medium> <http://www.w3.org/2000/01/rdf-schema#label> "Medium"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/medium> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/format> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/medium> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/format> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/modified> <http://purl.org/dc/terms/description> "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/modified> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
@@ -518,6 +575,8 @@
 <http://purl.org/dc/terms/modified> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/modified> <http://www.w3.org/2000/01/rdf-schema#label> "Date Modified"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/modified> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/modified> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/modified> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/provenance> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/ProvenanceStatement> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/provenance> <http://purl.org/dc/terms/description> "The statement may include a description of any changes successive custodians made to the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/provenance> <http://purl.org/dc/terms/issued> "2004-09-20"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -531,30 +590,38 @@
 <http://purl.org/dc/terms/publisher> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity responsible for making the resource available."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/publisher> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/publisher> <http://www.w3.org/2000/01/rdf-schema#label> "Publisher"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/publisher> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/references> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Is Referenced By."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/references> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/references> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource that is referenced, cited, or otherwise pointed to by the described resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#label> "References"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/references> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/description> "Recommended practice is to identify the related resource by means of a URI.  If this is not possible or feasible, a string conforming to a formal identification system may be provided."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/relation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#label> "Relation"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/relation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/replaces> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Is Replaced By."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/replaces> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/replaces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/replaces> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource that is supplanted, displaced, or superseded by the described resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/replaces> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/replaces> <http://www.w3.org/2000/01/rdf-schema#label> "Replaces"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/replaces> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/replaces> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/requires> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Is Required By."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/requires> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/requires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/requires> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource that is required by the described resource to support its function, delivery, or coherence."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/requires> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/requires> <http://www.w3.org/2000/01/rdf-schema#label> "Requires"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/requires> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/relation> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/requires> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/rights> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/RightsStatement> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/rights> <http://purl.org/dc/terms/description> "Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.  Recommended practice is to refer to a rights statement with a URI.  If this is not possible or feasible, a literal value (name, label, or short text) may be provided."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/rights> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -562,6 +629,7 @@
 <http://purl.org/dc/terms/rights> <http://www.w3.org/2000/01/rdf-schema#comment> "Information about rights held in and over the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/rights> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/rights> <http://www.w3.org/2000/01/rdf-schema#label> "Rights"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/rights> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/rightsHolder> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/Agent> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/rightsHolder> <http://purl.org/dc/terms/description> "Recommended practice is to refer to the rights holder with a URI. If this is not possible or feasible, a literal value that identifies the rights holder may be provided."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/rightsHolder> <http://purl.org/dc/terms/issued> "2004-06-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
@@ -575,41 +643,52 @@
 <http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#comment> "A related resource from which the described resource is derived."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#label> "Source"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/source> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/source> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/spatial> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/Location> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/spatial> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/spatial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/spatial> <http://www.w3.org/2000/01/rdf-schema#comment> "Spatial characteristics of the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/spatial> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/spatial> <http://www.w3.org/2000/01/rdf-schema#label> "Spatial Coverage"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/spatial> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/coverage> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/spatial> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/coverage> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/subject> <http://purl.org/dc/terms/description> "Recommended practice is to refer to the subject with a URI. If this is not possible or feasible, a literal value that identifies the subject may be provided. Both should preferably refer to a subject in a controlled vocabulary."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/subject> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#comment> "A topic of the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#label> "Subject"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/subject> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/subject> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/tableOfContents> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/tableOfContents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/tableOfContents> <http://www.w3.org/2000/01/rdf-schema#comment> "A list of subunits of the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/tableOfContents> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/tableOfContents> <http://www.w3.org/2000/01/rdf-schema#label> "Table Of Contents"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/tableOfContents> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/description> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/tableOfContents> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/description> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/temporal> <http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/PeriodOfTime> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/temporal> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/temporal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/temporal> <http://www.w3.org/2000/01/rdf-schema#comment> "Temporal characteristics of the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/temporal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/temporal> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal Coverage"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/temporal> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/coverage> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/temporal> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/coverage> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/title> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#comment> "A name given to the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#label> "Title"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/title> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/title> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/type> <http://purl.org/dc/terms/description> "Recommended practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [[DCMI-TYPE](http://dublincore.org/documents/dcmi-type-vocabulary/)]. To describe the file format, physical medium, or dimensions of the resource, use the property Format."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/type> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/type> <http://www.w3.org/2000/01/rdf-schema#comment> "The nature or genre of the resource."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/type> <http://www.w3.org/2000/01/rdf-schema#label> "Type"@en <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/type> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/type> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/valid> <http://purl.org/dc/terms/description> "Recommended practice is to describe the date, date/time, or period of time as recommended for the property Date, of which this is a subproperty."@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/valid> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/valid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/terms/> .
@@ -617,3 +696,5 @@
 <http://purl.org/dc/terms/valid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/valid> <http://www.w3.org/2000/01/rdf-schema#label> "Date Valid"@en <http://purl.org/dc/terms/> .
 <http://purl.org/dc/terms/valid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/valid> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/date> <http://purl.org/dc/terms/> .
+<http://purl.org/dc/terms/valid> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/date> <http://purl.org/dc/terms/> .

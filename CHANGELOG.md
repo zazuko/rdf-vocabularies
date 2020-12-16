@@ -1,8 +1,18 @@
-# `vNext`
+# `v2020.12.16`
 
 ## Changes
 
 - The module `@zazuko/rdf-vocabularies/expand` now only does simple expansion (no second parameter).
+- Fixed an [issue](https://github.com/zazuko/rdf-vocabularies/issues/81) where buildPath returned incorrect path
+
+## Updated vocabularies
+
+| Prefix    | #Quads |
+| --------- | ------ |
+| `dcat`    | 1353   |
+| `dcterms` | 700    |
+| `lvont`   | 212    |
+| `schema`  | 14936  |
 
 # `v2020.11.2`
 
