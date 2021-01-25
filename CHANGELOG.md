@@ -8,6 +8,14 @@ Add `rico:`  prefix and vocabulary.
 | ------ | ------ |
 | `rico` | 6952   |
 
+## Updated vocabularies
+
+| Prefix  | #Quads |
+| ------- | ------ |
+| `dash`  | 1466   |
+| `dbo`   | 39297  |
+| `hydra` | 431    |
+
 # `v2020.12.16`
 
 ## Changes

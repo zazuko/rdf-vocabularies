@@ -324,7 +324,7 @@
 <http://www.w3.org/ns/hydra/core#search> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/hydra/core#IriTemplate> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#search> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#statusCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/hydra/core#> .
-<http://www.w3.org/ns/hydra/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The HTTP status code" <http://www.w3.org/ns/hydra/core#> .
+<http://www.w3.org/ns/hydra/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The HTTP status code. Please note it may happen this value will be different to actual status code received." <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/hydra/core#Status> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/hydra/core> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#statusCode> <http://www.w3.org/2000/01/rdf-schema#label> "status code" <http://www.w3.org/ns/hydra/core#> .
