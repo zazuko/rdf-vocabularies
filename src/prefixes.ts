@@ -43,6 +43,7 @@ const prefixes = {
   rdfa: 'http://www.w3.org/ns/rdfa#',
   rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
   rev: 'http://purl.org/stuff/rev#',
+  rico: 'https://www.ica.org/standards/RiC/ontology#',
   rif: 'http://www.w3.org/2007/rif#',
   rr: 'http://www.w3.org/ns/r2rml#',
   rss: 'http://purl.org/rss/1.0/',

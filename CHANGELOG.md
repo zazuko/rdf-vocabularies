@@ -1,3 +1,13 @@
+# `v2021.1.25`
+
+## New prefix
+
+Add `rico:`  prefix and vocabulary.
+
+| Prefix | #Quads |
+| ------ | ------ |
+| `rico` | 6952   |
+
 # `v2020.12.16`
 
 ## Changes
