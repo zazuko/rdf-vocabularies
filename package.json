@@ -58,6 +58,7 @@
     "lint": "eslint . --ext .js,.ts --ignore-path .gitignore --quiet",
     "pretest": "npm run lint",
     "test": "c8 -i src mocha src/index.test.ts",
+    "posttest": "c8 report --reporter=text-lcov >> ./coverage/lcov.info",
     "prepare": "mkdirp src/datasets; ts-node modules",
     "build:node": "tsc",
     "build:modern": "babel src --out-dir . --extensions .ts --out-file-extension .mjs --ignore *.test.js --ignore src/loadDataset/index.ts",
