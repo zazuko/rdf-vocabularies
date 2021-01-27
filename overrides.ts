@@ -104,7 +104,7 @@ export const overrides: Record<string, Override> = {
   },
   rdau: { file: 'http://rdaregistry.info/Elements/u.nt', mediaType: 'application/n-triples' },
   rev: { skip: true },
-  rico: { file: 'https://raw.githubusercontent.com/ICA-EGAD/RiC-O/next-version/ontology/current-version/RiC-O_v0-2.rdf', mediaType: 'application/rdf+xml'},
+  rico: { file: 'https://raw.githubusercontent.com/ICA-EGAD/RiC-O/next-version/ontology/current-version/RiC-O_v0-2.rdf', mediaType: 'application/rdf+xml' },
   rif: { skip: true },
   rss: { file: 'http://purl.org/rss/1.0/schema.rdf' },
   sem: {
