@@ -8,6 +8,8 @@ import { NamedNode } from 'rdf-js'
 import DatasetExt from 'rdf-ext/lib/Dataset'
 import { overrides, Override } from './overrides'
 
+// foo
+
 interface Prefix {
   prefix: string;
   uri: string;
