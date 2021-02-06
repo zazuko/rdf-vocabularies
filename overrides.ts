@@ -25,6 +25,21 @@ export const overrides: Record<string, Override> = {
   cc: { file: 'https://creativecommons.org/schema.rdf' },
   ctag: { skip: true },
   doap: { mediaType: 'application/rdf+xml' },
+  dpv: {
+    files: [{
+      mediaType: 'application/ld+json',
+      file: 'https://dpvcg.github.io/dpv/dpv.jsonld'
+    }, {
+      mediaType: 'application/rdf+xml',
+      file: 'https://dpvcg.github.io/dpv/dpv.rdf'
+    }, {
+      mediaType: 'text/n3',
+      file: 'https://dpvcg.github.io/dpv/dpv.n3'
+    }, {
+      mediaType: 'text/turtle',
+      file: 'https://dpvcg.github.io/dpv/dpv.ttl'
+    }]
+  },
   dtype: { mediaType: 'application/rdf+xml' },
   earl: {
     xmlParserOptions: {
