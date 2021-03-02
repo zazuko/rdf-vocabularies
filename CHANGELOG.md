@@ -1,3 +1,13 @@
+# `v2021.3.2`
+
+## New prefix
+
+Add `shex:`  prefix and vocabulary.
+
+| Prefix | #Quads |
+| ------ | ------ |
+| `shex` | 474    |
+
 # `v2021.2.8`
 
 ## New prefix
