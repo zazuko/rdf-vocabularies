@@ -1,3 +1,23 @@
+# `v2021.3.8`
+
+## New prefix
+
+| Prefix         | #Quads |
+| -------------- | ------ |
+| `constant`     | 5387   |
+| `discipline`   | 1815   |
+| `prefix`       | 336    |
+| `qkdv`         | 3119   |
+| `quantitykind` | 16036  |
+| `sou`          | 210    |
+
+## Updated vocabularies
+
+| Prefix | #Quads |
+| ------ | ------ |
+| `qudt` | 7827   |
+| `rico` | 7511   |
+
 # `v2021.3.2`
 
 ## New prefix
