@@ -57,13 +57,10 @@ export const overrides: Record<string, Override> = {
   qudt: {
     files: [{
       mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/schema/SCHEMA_QUDT-v2.0.ttl'
+      file: 'http://qudt.org/schema/qudt/'
     }, {
       mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/schema/SCHEMA_QUDT-DATATYPES-v2.0.ttl'
-    }, {
-      mediaType: 'text/turtle',
-      file: 'http://qudt.org/2.0/schema/SCHEMA_QUDT-SCIENCE-v2.0.ttl'
+      file: 'http://qudt.org/schema/datatype.ttl'
     }]
   },
   qudtv: {
@@ -119,7 +116,7 @@ export const overrides: Record<string, Override> = {
   },
   rdau: { file: 'http://rdaregistry.info/Elements/u.nt', mediaType: 'application/n-triples' },
   rev: { skip: true },
-  rico: { file: 'https://raw.githubusercontent.com/ICA-EGAD/RiC-O/next-version/ontology/current-version/RiC-O_v0-2.rdf', mediaType: 'application/rdf+xml' },
+  rico: { file: 'https://github.com/ICA-EGAD/RiC-O/raw/master/ontology/current-version/RiC-O_v0-2.rdf', mediaType: 'application/rdf+xml' },
   rif: { skip: true },
   rss: { file: 'http://purl.org/rss/1.0/schema.rdf' },
   sem: {
