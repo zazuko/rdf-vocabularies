@@ -59,7 +59,7 @@
 <http://schema.org/ActivationFee> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/ActivationFee> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2689> <http://schema.org/> .
 <http://schema.org/ActivationFee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PriceComponentTypeEnumeration> <http://schema.org/> .
-<http://schema.org/ActivationFee> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the activation fee part of the total price for an offered product, for example a cellphone contract" <http://schema.org/> .
+<http://schema.org/ActivationFee> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the activation fee part of the total price for an offered product, for example a cellphone contract." <http://schema.org/> .
 <http://schema.org/ActivationFee> <http://www.w3.org/2000/01/rdf-schema#label> "ActivationFee" <http://schema.org/> .
 <http://schema.org/ActiveActionStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ActionStatusType> <http://schema.org/> .
 <http://schema.org/ActiveActionStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "An in-progress action (e.g, while watching the movie, or driving to a location)." <http://schema.org/> .
@@ -124,6 +124,11 @@
 <http://schema.org/AllWheelDriveConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DriveWheelConfigurationValue> <http://schema.org/> .
 <http://schema.org/AllWheelDriveConfiguration> <http://www.w3.org/2000/01/rdf-schema#comment> "All-wheel Drive is a transmission layout where the engine drives all four wheels." <http://schema.org/> .
 <http://schema.org/AllWheelDriveConfiguration> <http://www.w3.org/2000/01/rdf-schema#label> "AllWheelDriveConfiguration" <http://schema.org/> .
+<http://schema.org/AllergiesHealthAspect> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/AllergiesHealthAspect> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2799> <http://schema.org/> .
+<http://schema.org/AllergiesHealthAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HealthAspectEnumeration> <http://schema.org/> .
+<http://schema.org/AllergiesHealthAspect> <http://www.w3.org/2000/01/rdf-schema#comment> "Content about the allergy-related aspects of a health topic." <http://schema.org/> .
+<http://schema.org/AllergiesHealthAspect> <http://www.w3.org/2000/01/rdf-schema#label> "AllergiesHealthAspect" <http://schema.org/> .
 <http://schema.org/AllocateAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/AllocateAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of organizing tasks/objects/events by associating resources to it." <http://schema.org/> .
 <http://schema.org/AllocateAction> <http://www.w3.org/2000/01/rdf-schema#label> "AllocateAction" <http://schema.org/> .
@@ -280,11 +285,6 @@
 <http://schema.org/AudiobookFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BookFormatType> <http://schema.org/> .
 <http://schema.org/AudiobookFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "Book format: Audiobook. This is an enumerated value for use with the bookFormat property. There is also a type 'Audiobook' in the bib extension which includes Audiobook specific properties." <http://schema.org/> .
 <http://schema.org/AudiobookFormat> <http://www.w3.org/2000/01/rdf-schema#label> "AudiobookFormat" <http://schema.org/> .
-<http://schema.org/AuthenticContent> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
-<http://schema.org/AuthenticContent> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
-<http://schema.org/AuthenticContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaManipulationRatingEnumeration> <http://schema.org/> .
-<http://schema.org/AuthenticContent> <http://www.w3.org/2000/01/rdf-schema#comment> "AuthenticMediaObject: An unaltered image that is presented in an accurate way." <http://schema.org/> .
-<http://schema.org/AuthenticContent> <http://www.w3.org/2000/01/rdf-schema#label> "AuthenticContent" <http://schema.org/> .
 <http://schema.org/AuthoritativeLegalValue> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/AuthoritativeLegalValue> <http://schema.org/source> <http://publications.europa.eu/mdr/eli/index.html> <http://schema.org/> .
 <http://schema.org/AuthoritativeLegalValue> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1156> <http://schema.org/> .
@@ -333,6 +333,9 @@
 <http://schema.org/Ayurvedic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MedicineSystem> <http://schema.org/> .
 <http://schema.org/Ayurvedic> <http://www.w3.org/2000/01/rdf-schema#comment> "A system of medicine that originated in India over thousands of years and that focuses on integrating and balancing the body, mind, and spirit." <http://schema.org/> .
 <http://schema.org/Ayurvedic> <http://www.w3.org/2000/01/rdf-schema#label> "Ayurvedic" <http://schema.org/> .
+<http://schema.org/BackOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ItemAvailability> <http://schema.org/> .
+<http://schema.org/BackOrder> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the item is available on back order." <http://schema.org/> .
+<http://schema.org/BackOrder> <http://www.w3.org/2000/01/rdf-schema#label> "BackOrder" <http://schema.org/> .
 <http://schema.org/BackgroundNewsArticle> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/BackgroundNewsArticle> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1525> <http://schema.org/> .
 <http://schema.org/BackgroundNewsArticle> <http://schema.org/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#TP> <http://schema.org/> .
@@ -445,6 +448,77 @@
 <http://schema.org/BoatTrip> <http://www.w3.org/2000/01/rdf-schema#comment> "A trip on a commercial ferry line." <http://schema.org/> .
 <http://schema.org/BoatTrip> <http://www.w3.org/2000/01/rdf-schema#label> "BoatTrip" <http://schema.org/> .
 <http://schema.org/BoatTrip> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Trip> <http://schema.org/> .
+<http://schema.org/BodyMeasurementArm> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementArm> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementArm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementArm> <http://www.w3.org/2000/01/rdf-schema#comment> "Arm length (measured between arms/shoulder line intersection and the prominent wrist bone). Used, for example, to fit shirts." <http://schema.org/> .
+<http://schema.org/BodyMeasurementArm> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementArm" <http://schema.org/> .
+<http://schema.org/BodyMeasurementBust> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementBust> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementBust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementBust> <http://www.w3.org/2000/01/rdf-schema#comment> "Maximum girth of bust. Used, for example, to fit women's suits." <http://schema.org/> .
+<http://schema.org/BodyMeasurementBust> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementBust" <http://schema.org/> .
+<http://schema.org/BodyMeasurementChest> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementChest> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementChest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementChest> <http://www.w3.org/2000/01/rdf-schema#comment> "Maximum girth of chest. Used, for example, to fit men's suits." <http://schema.org/> .
+<http://schema.org/BodyMeasurementChest> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementChest" <http://schema.org/> .
+<http://schema.org/BodyMeasurementFoot> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementFoot> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementFoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementFoot> <http://www.w3.org/2000/01/rdf-schema#comment> "Foot length (measured between end of the most prominent toe and the most prominent part of the heel). Used, for example, to measure socks." <http://schema.org/> .
+<http://schema.org/BodyMeasurementFoot> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementFoot" <http://schema.org/> .
+<http://schema.org/BodyMeasurementHand> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementHand> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementHand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementHand> <http://www.w3.org/2000/01/rdf-schema#comment> "Maximum hand girth (measured over the knuckles of the open right hand excluding thumb, fingers together). Used, for example, to fit gloves." <http://schema.org/> .
+<http://schema.org/BodyMeasurementHand> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementHand" <http://schema.org/> .
+<http://schema.org/BodyMeasurementHead> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementHead> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementHead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementHead> <http://www.w3.org/2000/01/rdf-schema#comment> "Maximum girth of head above the ears. Used, for example, to fit hats." <http://schema.org/> .
+<http://schema.org/BodyMeasurementHead> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementHead" <http://schema.org/> .
+<http://schema.org/BodyMeasurementHeight> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementHeight> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Body height (measured between crown of head and soles of feet). Used, for example, to fit jackets." <http://schema.org/> .
+<http://schema.org/BodyMeasurementHeight> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementHeight" <http://schema.org/> .
+<http://schema.org/BodyMeasurementHips> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementHips> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementHips> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementHips> <http://www.w3.org/2000/01/rdf-schema#comment> "Girth of hips (measured around the buttocks). Used, for example, to fit skirts." <http://schema.org/> .
+<http://schema.org/BodyMeasurementHips> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementHips" <http://schema.org/> .
+<http://schema.org/BodyMeasurementInsideLeg> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementInsideLeg> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementInsideLeg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementInsideLeg> <http://www.w3.org/2000/01/rdf-schema#comment> "Inside leg (measured between crotch and soles of feet). Used, for example, to fit pants." <http://schema.org/> .
+<http://schema.org/BodyMeasurementInsideLeg> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementInsideLeg" <http://schema.org/> .
+<http://schema.org/BodyMeasurementNeck> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementNeck> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementNeck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementNeck> <http://www.w3.org/2000/01/rdf-schema#comment> "Girth of neck. Used, for example, to fit shirts." <http://schema.org/> .
+<http://schema.org/BodyMeasurementNeck> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementNeck" <http://schema.org/> .
+<http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementTypeEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/BodyMeasurementTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates types (or dimensions) of a person's body measurements, for example for fitting of clothes." <http://schema.org/> .
+<http://schema.org/BodyMeasurementTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementTypeEnumeration" <http://schema.org/> .
+<http://schema.org/BodyMeasurementTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementUnderbust> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementUnderbust> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementUnderbust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementUnderbust> <http://www.w3.org/2000/01/rdf-schema#comment> "Girth of body just below the bust. Used, for example, to fit women's swimwear." <http://schema.org/> .
+<http://schema.org/BodyMeasurementUnderbust> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementUnderbust" <http://schema.org/> .
+<http://schema.org/BodyMeasurementWaist> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementWaist> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementWaist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementWaist> <http://www.w3.org/2000/01/rdf-schema#comment> "Girth of natural waistline (between hip bones and lower ribs). Used, for example, to fit pants." <http://schema.org/> .
+<http://schema.org/BodyMeasurementWaist> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementWaist" <http://schema.org/> .
+<http://schema.org/BodyMeasurementWeight> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BodyMeasurementWeight> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/BodyMeasurementWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/BodyMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/BodyMeasurementWeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Body weight. Used, for example, to measure pantyhose." <http://schema.org/> .
+<http://schema.org/BodyMeasurementWeight> <http://www.w3.org/2000/01/rdf-schema#label> "BodyMeasurementWeight" <http://schema.org/> .
 <http://schema.org/BodyOfWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/BodyOfWater> <http://www.w3.org/2000/01/rdf-schema#comment> "A body of water, such as a sea, ocean, or lake." <http://schema.org/> .
 <http://schema.org/BodyOfWater> <http://www.w3.org/2000/01/rdf-schema#label> "BodyOfWater" <http://schema.org/> .
@@ -747,7 +821,7 @@
 <http://schema.org/Claim> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/Claim> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1828> <http://schema.org/> .
 <http://schema.org/Claim> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/Claim> <http://www.w3.org/2000/01/rdf-schema#comment> "A [[Claim]] in Schema.org represents a specific, factually-oriented claim that could be the [[itemReviewed]] in a [[ClaimReview]]. The content of a claim can be summarized with the [[text]] property. Variations on well known claims can have their common identity indicated via [[sameAs]] links, and summarized with a [[name]]. Ideally, a [[Claim]] description includes enough contextual information to minimize the risk of ambiguity or inclarity. In practice, many claims are better understood in the context in which they appear or the interpretations provided by claim reviews.\n\n  Beyond [[ClaimReview]], the Claim type can be associated with related creative works - for example a [[ScholaryArticle]] or [[Question]] might be [[about]] some [[Claim]].\n\n  At this time, Schema.org does not define any types of relationship between claims. This is a natural area for future exploration.\n  " <http://schema.org/> .
+<http://schema.org/Claim> <http://www.w3.org/2000/01/rdf-schema#comment> "A [[Claim]] in Schema.org represents a specific, factually-oriented claim that could be the [[itemReviewed]] in a [[ClaimReview]]. The content of a claim can be summarized with the [[text]] property. Variations on well known claims can have their common identity indicated via [[sameAs]] links, and summarized with a [[name]]. Ideally, a [[Claim]] description includes enough contextual information to minimize the risk of ambiguity or inclarity. In practice, many claims are better understood in the context in which they appear or the interpretations provided by claim reviews.\n\n  Beyond [[ClaimReview]], the Claim type can be associated with related creative works - for example a [[ScholarlyArticle]] or [[Question]] might be [[about]] some [[Claim]].\n\n  At this time, Schema.org does not define any types of relationship between claims. This is a natural area for future exploration.\n  " <http://schema.org/> .
 <http://schema.org/Claim> <http://www.w3.org/2000/01/rdf-schema#label> "Claim" <http://schema.org/> .
 <http://schema.org/Claim> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/ClaimReview> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1061> <http://schema.org/> .
@@ -764,7 +838,7 @@
 <http://schema.org/CleaningFee> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/CleaningFee> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2689> <http://schema.org/> .
 <http://schema.org/CleaningFee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PriceComponentTypeEnumeration> <http://schema.org/> .
-<http://schema.org/CleaningFee> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the cleaning fee part of the total price for an offered product, for example a vacation rental" <http://schema.org/> .
+<http://schema.org/CleaningFee> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the cleaning fee part of the total price for an offered product, for example a vacation rental." <http://schema.org/> .
 <http://schema.org/CleaningFee> <http://www.w3.org/2000/01/rdf-schema#label> "CleaningFee" <http://schema.org/> .
 <http://schema.org/Clinician> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/Clinician> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MedicalAudienceType> <http://schema.org/> .
@@ -849,7 +923,7 @@
 <http://schema.org/CommunicateAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/InteractAction> <http://schema.org/> .
 <http://schema.org/CommunityHealth> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/CommunityHealth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MedicalSpecialty> <http://schema.org/> .
-<http://schema.org/CommunityHealth> <http://www.w3.org/2000/01/rdf-schema#comment> "A field of public health focusing on improving health characteristics of a defined population in relation with their geographical or environment areas" <http://schema.org/> .
+<http://schema.org/CommunityHealth> <http://www.w3.org/2000/01/rdf-schema#comment> "A field of public health focusing on improving health characteristics of a defined population in relation with their geographical or environment areas." <http://schema.org/> .
 <http://schema.org/CommunityHealth> <http://www.w3.org/2000/01/rdf-schema#label> "CommunityHealth" <http://schema.org/> .
 <http://schema.org/CommunityHealth> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MedicalBusiness> <http://schema.org/> .
 <http://schema.org/CompilationAlbum> <http://schema.org/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ> <http://schema.org/> .
@@ -1104,6 +1178,11 @@
 <http://schema.org/DeactivateAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of stopping or deactivating a device or application (e.g. stopping a timer or turning off a flashlight)." <http://schema.org/> .
 <http://schema.org/DeactivateAction> <http://www.w3.org/2000/01/rdf-schema#label> "DeactivateAction" <http://schema.org/> .
 <http://schema.org/DeactivateAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/ControlAction> <http://schema.org/> .
+<http://schema.org/DecontextualizedContent> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/DecontextualizedContent> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/DecontextualizedContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaManipulationRatingEnumeration> <http://schema.org/> .
+<http://schema.org/DecontextualizedContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Content coded 'missing context' in a [[MediaReview]], considered in the context of how it was published or shared.\n\nFor a [[VideoObject]] to be 'missing context': Presenting unaltered video in an inaccurate manner that misrepresents the footage. For example, using incorrect dates or locations, altering the transcript or sharing brief clips from a longer video to mislead viewers. (A video rated 'original' can also be missing context.)\n\nFor an [[ImageObject]] to be 'missing context': Presenting unaltered images in an inaccurate manner to misrepresent the image and mislead the viewer. For example, a common tactic is using an unaltered image but saying it came from a different time or place. (An image rated 'original' can also be missing context.)\n\nFor an [[ImageObject]] with embedded text to be 'missing context': An unaltered image presented in an inaccurate manner to misrepresent the image and mislead the viewer. For example, a common tactic is using an unaltered image but saying it came from a different time or place. (An 'original' image with inaccurate text would generally fall in this category.)\n\nFor an [[AudioObject]] to be 'missing context': Unaltered audio presented in an inaccurate manner that misrepresents it. For example, using incorrect dates or locations, or sharing brief clips from a longer recording to mislead viewers. (Audio rated “original” can also be missing context.)\n" <http://schema.org/> .
+<http://schema.org/DecontextualizedContent> <http://www.w3.org/2000/01/rdf-schema#label> "DecontextualizedContent" <http://schema.org/> .
 <http://schema.org/DefenceEstablishment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/DefenceEstablishment> <http://www.w3.org/2000/01/rdf-schema#comment> "A defence establishment, such as an army or navy base." <http://schema.org/> .
 <http://schema.org/DefenceEstablishment> <http://www.w3.org/2000/01/rdf-schema#label> "DefenceEstablishment" <http://schema.org/> .
@@ -1193,7 +1272,7 @@
 <http://schema.org/Dermatologic> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/Dermatologic> <http://schema.org/supersededBy> <http://schema.org/Dermatology> <http://schema.org/> .
 <http://schema.org/Dermatologic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MedicalSpecialty> <http://schema.org/> .
-<http://schema.org/Dermatologic> <http://www.w3.org/2000/01/rdf-schema#comment> "Something relating to or practicing dermatology" <http://schema.org/> .
+<http://schema.org/Dermatologic> <http://www.w3.org/2000/01/rdf-schema#comment> "Something relating to or practicing dermatology." <http://schema.org/> .
 <http://schema.org/Dermatologic> <http://www.w3.org/2000/01/rdf-schema#label> "Dermatologic" <http://schema.org/> .
 <http://schema.org/Dermatology> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/Dermatology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MedicalSpecialty> <http://schema.org/> .
@@ -1225,7 +1304,7 @@
 <http://schema.org/Diet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/LifestyleModification> <http://schema.org/> .
 <http://schema.org/DietNutrition> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/DietNutrition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MedicalSpecialty> <http://schema.org/> .
-<http://schema.org/DietNutrition> <http://www.w3.org/2000/01/rdf-schema#comment> "Dietetic and nutrition as a medical speciality." <http://schema.org/> .
+<http://schema.org/DietNutrition> <http://www.w3.org/2000/01/rdf-schema#comment> "Dietetic and nutrition as a medical specialty." <http://schema.org/> .
 <http://schema.org/DietNutrition> <http://www.w3.org/2000/01/rdf-schema#label> "DietNutrition" <http://schema.org/> .
 <http://schema.org/DietNutrition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MedicalBusiness> <http://schema.org/> .
 <http://schema.org/DietarySupplement> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
@@ -1284,7 +1363,7 @@
 <http://schema.org/DistanceFee> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/DistanceFee> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2689> <http://schema.org/> .
 <http://schema.org/DistanceFee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PriceComponentTypeEnumeration> <http://schema.org/> .
-<http://schema.org/DistanceFee> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the distance fee (e.g., price per km or mile) part of the total price for an offered product, for example a car rental" <http://schema.org/> .
+<http://schema.org/DistanceFee> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the distance fee (e.g., price per km or mile) part of the total price for an offered product, for example a car rental." <http://schema.org/> .
 <http://schema.org/DistanceFee> <http://www.w3.org/2000/01/rdf-schema#label> "DistanceFee" <http://schema.org/> .
 <http://schema.org/Distillery> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/743> <http://schema.org/> .
 <http://schema.org/Distillery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -1311,7 +1390,7 @@
 <http://schema.org/Downpayment> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/Downpayment> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2689> <http://schema.org/> .
 <http://schema.org/Downpayment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PriceComponentTypeEnumeration> <http://schema.org/> .
-<http://schema.org/Downpayment> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the downpayment (up-front payment) price component of the total price for an offered product that has additional installment payments" <http://schema.org/> .
+<http://schema.org/Downpayment> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the downpayment (up-front payment) price component of the total price for an offered product that has additional installment payments." <http://schema.org/> .
 <http://schema.org/Downpayment> <http://www.w3.org/2000/01/rdf-schema#label> "Downpayment" <http://schema.org/> .
 <http://schema.org/DrawAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/DrawAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of producing a visual/graphical representation of an object, typically with a pen/pencil and paper as instruments." <http://schema.org/> .
@@ -1396,57 +1475,57 @@
 <http://schema.org/EUEnergyEfficiencyCategoryA1Plus> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA1Plus> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA1Plus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EUEnergyEfficiencyEnumeration> <http://schema.org/> .
-<http://schema.org/EUEnergyEfficiencyCategoryA1Plus> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class A+ as defined in EU energy labeling regulations" <http://schema.org/> .
+<http://schema.org/EUEnergyEfficiencyCategoryA1Plus> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class A+ as defined in EU energy labeling regulations." <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA1Plus> <http://www.w3.org/2000/01/rdf-schema#label> "EUEnergyEfficiencyCategoryA1Plus" <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA2Plus> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA2Plus> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA2Plus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EUEnergyEfficiencyEnumeration> <http://schema.org/> .
-<http://schema.org/EUEnergyEfficiencyCategoryA2Plus> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class A++ as defined in EU energy labeling regulations" <http://schema.org/> .
+<http://schema.org/EUEnergyEfficiencyCategoryA2Plus> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class A++ as defined in EU energy labeling regulations." <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA2Plus> <http://www.w3.org/2000/01/rdf-schema#label> "EUEnergyEfficiencyCategoryA2Plus" <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA3Plus> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA3Plus> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA3Plus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EUEnergyEfficiencyEnumeration> <http://schema.org/> .
-<http://schema.org/EUEnergyEfficiencyCategoryA3Plus> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class A+++ as defined in EU energy labeling regulations" <http://schema.org/> .
+<http://schema.org/EUEnergyEfficiencyCategoryA3Plus> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class A+++ as defined in EU energy labeling regulations." <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA3Plus> <http://www.w3.org/2000/01/rdf-schema#label> "EUEnergyEfficiencyCategoryA3Plus" <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EUEnergyEfficiencyEnumeration> <http://schema.org/> .
-<http://schema.org/EUEnergyEfficiencyCategoryA> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class A as defined in EU energy labeling regulations" <http://schema.org/> .
+<http://schema.org/EUEnergyEfficiencyCategoryA> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class A as defined in EU energy labeling regulations." <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryA> <http://www.w3.org/2000/01/rdf-schema#label> "EUEnergyEfficiencyCategoryA" <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryB> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryB> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EUEnergyEfficiencyEnumeration> <http://schema.org/> .
-<http://schema.org/EUEnergyEfficiencyCategoryB> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class B as defined in EU energy labeling regulations" <http://schema.org/> .
+<http://schema.org/EUEnergyEfficiencyCategoryB> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class B as defined in EU energy labeling regulations." <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryB> <http://www.w3.org/2000/01/rdf-schema#label> "EUEnergyEfficiencyCategoryB" <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryC> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryC> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EUEnergyEfficiencyEnumeration> <http://schema.org/> .
-<http://schema.org/EUEnergyEfficiencyCategoryC> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class C as defined in EU energy labeling regulations" <http://schema.org/> .
+<http://schema.org/EUEnergyEfficiencyCategoryC> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class C as defined in EU energy labeling regulations." <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryC> <http://www.w3.org/2000/01/rdf-schema#label> "EUEnergyEfficiencyCategoryC" <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryD> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryD> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EUEnergyEfficiencyEnumeration> <http://schema.org/> .
-<http://schema.org/EUEnergyEfficiencyCategoryD> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class D as defined in EU energy labeling regulations" <http://schema.org/> .
+<http://schema.org/EUEnergyEfficiencyCategoryD> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class D as defined in EU energy labeling regulations." <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryD> <http://www.w3.org/2000/01/rdf-schema#label> "EUEnergyEfficiencyCategoryD" <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryE> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryE> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EUEnergyEfficiencyEnumeration> <http://schema.org/> .
-<http://schema.org/EUEnergyEfficiencyCategoryE> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class E as defined in EU energy labeling regulations" <http://schema.org/> .
+<http://schema.org/EUEnergyEfficiencyCategoryE> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class E as defined in EU energy labeling regulations." <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryE> <http://www.w3.org/2000/01/rdf-schema#label> "EUEnergyEfficiencyCategoryE" <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryF> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryF> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EUEnergyEfficiencyEnumeration> <http://schema.org/> .
-<http://schema.org/EUEnergyEfficiencyCategoryF> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class F as defined in EU energy labeling regulations" <http://schema.org/> .
+<http://schema.org/EUEnergyEfficiencyCategoryF> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class F as defined in EU energy labeling regulations." <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryF> <http://www.w3.org/2000/01/rdf-schema#label> "EUEnergyEfficiencyCategoryF" <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryG> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryG> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryG> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EUEnergyEfficiencyEnumeration> <http://schema.org/> .
-<http://schema.org/EUEnergyEfficiencyCategoryG> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class G as defined in EU energy labeling regulations" <http://schema.org/> .
+<http://schema.org/EUEnergyEfficiencyCategoryG> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EU Energy Efficiency Class G as defined in EU energy labeling regulations." <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyCategoryG> <http://www.w3.org/2000/01/rdf-schema#label> "EUEnergyEfficiencyCategoryG" <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/EUEnergyEfficiencyEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates the EU energy efficiency classes A-G as well as A+, A++, and A+++ as defined in EU directive 2017/1369" <http://schema.org/> .
+<http://schema.org/EUEnergyEfficiencyEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates the EU energy efficiency classes A-G as well as A+, A++, and A+++ as defined in EU directive 2017/1369." <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "EUEnergyEfficiencyEnumeration" <http://schema.org/> .
 <http://schema.org/EUEnergyEfficiencyEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/EnergyEfficiencyEnumeration> <http://schema.org/> .
 <http://schema.org/Ear> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
@@ -1457,6 +1536,11 @@
 <http://schema.org/EatAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of swallowing solid objects." <http://schema.org/> .
 <http://schema.org/EatAction> <http://www.w3.org/2000/01/rdf-schema#label> "EatAction" <http://schema.org/> .
 <http://schema.org/EatAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/ConsumeAction> <http://schema.org/> .
+<http://schema.org/EditedOrCroppedContent> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/EditedOrCroppedContent> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/EditedOrCroppedContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaManipulationRatingEnumeration> <http://schema.org/> .
+<http://schema.org/EditedOrCroppedContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Content coded 'edited or cropped content' in a [[MediaReview]], considered in the context of how it was published or shared.\n\nFor a [[VideoObject]] to be 'edited or cropped content': The video has been edited or rearranged. This category applies to time edits, including editing multiple videos together to alter the story being told or editing out large portions from a video.\n\nFor an [[ImageObject]] to be 'edited or cropped content': Presenting a part of an image from a larger whole to mislead the viewer.\n\nFor an [[ImageObject]] with embedded text to be 'edited or cropped content': Presenting a part of an image from a larger whole to mislead the viewer.\n\nFor an [[AudioObject]] to be 'edited or cropped content': The audio has been edited or rearranged. This category applies to time edits, including editing multiple audio clips together to alter the story being told or editing out large portions from the recording.\n" <http://schema.org/> .
+<http://schema.org/EditedOrCroppedContent> <http://www.w3.org/2000/01/rdf-schema#label> "EditedOrCroppedContent" <http://schema.org/> .
 <http://schema.org/EducationEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/EducationEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Education event." <http://schema.org/> .
 <http://schema.org/EducationEvent> <http://www.w3.org/2000/01/rdf-schema#label> "EducationEvent" <http://schema.org/> .
@@ -1483,6 +1567,11 @@
 <http://schema.org/EducationalOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "EducationalOrganization" <http://schema.org/> .
 <http://schema.org/EducationalOrganization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CivicStructure> <http://schema.org/> .
 <http://schema.org/EducationalOrganization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> <http://schema.org/> .
+<http://schema.org/EffectivenessHealthAspect> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/EffectivenessHealthAspect> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2799> <http://schema.org/> .
+<http://schema.org/EffectivenessHealthAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HealthAspectEnumeration> <http://schema.org/> .
+<http://schema.org/EffectivenessHealthAspect> <http://www.w3.org/2000/01/rdf-schema#comment> "Content about the effectiveness-related aspects of a health topic." <http://schema.org/> .
+<http://schema.org/EffectivenessHealthAspect> <http://www.w3.org/2000/01/rdf-schema#label> "EffectivenessHealthAspect" <http://schema.org/> .
 <http://schema.org/Electrician> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/Electrician> <http://www.w3.org/2000/01/rdf-schema#comment> "An electrician." <http://schema.org/> .
 <http://schema.org/Electrician> <http://www.w3.org/2000/01/rdf-schema#label> "Electrician" <http://schema.org/> .
@@ -1551,7 +1640,7 @@
 <http://schema.org/EnergyConsumptionDetails> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EnergyConsumptionDetails> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EnergyConsumptionDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/EnergyConsumptionDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "EnergyConsumptionDetails represents information related to the energy efficiency of a product that consumes energy. The information that can be provided is based on international regulations such as for example [EU directive 2017/1369](https://eur-lex.europa.eu/eli/reg/2017/1369/oj) for energy labeling and the [Energy labeling rule](https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/energy-water-use-labeling-consumer) under the Energy Policy and Conservation Act (EPCA) in the US" <http://schema.org/> .
+<http://schema.org/EnergyConsumptionDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "EnergyConsumptionDetails represents information related to the energy efficiency of a product that consumes energy. The information that can be provided is based on international regulations such as for example [EU directive 2017/1369](https://eur-lex.europa.eu/eli/reg/2017/1369/oj) for energy labeling and the [Energy labeling rule](https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/energy-water-use-labeling-consumer) under the Energy Policy and Conservation Act (EPCA) in the US." <http://schema.org/> .
 <http://schema.org/EnergyConsumptionDetails> <http://www.w3.org/2000/01/rdf-schema#label> "EnergyConsumptionDetails" <http://schema.org/> .
 <http://schema.org/EnergyConsumptionDetails> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Intangible> <http://schema.org/> .
 <http://schema.org/EnergyEfficiencyEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
@@ -1563,12 +1652,12 @@
 <http://schema.org/EnergyStarCertified> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EnergyStarCertified> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EnergyStarCertified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EnergyStarEnergyEfficiencyEnumeration> <http://schema.org/> .
-<http://schema.org/EnergyStarCertified> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EnergyStar certification" <http://schema.org/> .
+<http://schema.org/EnergyStarCertified> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents EnergyStar certification." <http://schema.org/> .
 <http://schema.org/EnergyStarCertified> <http://www.w3.org/2000/01/rdf-schema#label> "EnergyStarCertified" <http://schema.org/> .
 <http://schema.org/EnergyStarEnergyEfficiencyEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/EnergyStarEnergyEfficiencyEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/EnergyStarEnergyEfficiencyEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/EnergyStarEnergyEfficiencyEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to indicate whether a product is EnergyStar certified" <http://schema.org/> .
+<http://schema.org/EnergyStarEnergyEfficiencyEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to indicate whether a product is EnergyStar certified." <http://schema.org/> .
 <http://schema.org/EnergyStarEnergyEfficiencyEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "EnergyStarEnergyEfficiencyEnumeration" <http://schema.org/> .
 <http://schema.org/EnergyStarEnergyEfficiencyEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/EnergyEfficiencyEnumeration> <http://schema.org/> .
 <http://schema.org/EngineSpecification> <http://schema.org/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Automotive_Ontology_Working_Group> <http://schema.org/> .
@@ -1919,6 +2008,11 @@
 <http://schema.org/Geriatric> <http://www.w3.org/2000/01/rdf-schema#comment> "A specific branch of medical science that is concerned with the diagnosis and treatment of diseases, debilities and provision of care to the aged." <http://schema.org/> .
 <http://schema.org/Geriatric> <http://www.w3.org/2000/01/rdf-schema#label> "Geriatric" <http://schema.org/> .
 <http://schema.org/Geriatric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MedicalBusiness> <http://schema.org/> .
+<http://schema.org/GettingAccessHealthAspect> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/GettingAccessHealthAspect> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2799> <http://schema.org/> .
+<http://schema.org/GettingAccessHealthAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HealthAspectEnumeration> <http://schema.org/> .
+<http://schema.org/GettingAccessHealthAspect> <http://www.w3.org/2000/01/rdf-schema#comment> "Content that discusses practical and policy aspects for getting access to specific kinds of healthcare (e.g. distribution mechanisms for vaccines)." <http://schema.org/> .
+<http://schema.org/GettingAccessHealthAspect> <http://www.w3.org/2000/01/rdf-schema#label> "GettingAccessHealthAspect" <http://schema.org/> .
 <http://schema.org/GiveAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/GiveAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of transferring ownership of an object to a destination. Reciprocal of TakeAction.\\n\\nRelated actions:\\n\\n* [[TakeAction]]: Reciprocal of GiveAction.\\n* [[SendAction]]: Unlike SendAction, GiveAction implies that ownership is being transferred (e.g. I may send my laptop to you, but that doesn't mean I'm giving it to you)." <http://schema.org/> .
 <http://schema.org/GiveAction> <http://www.w3.org/2000/01/rdf-schema#label> "GiveAction" <http://schema.org/> .
@@ -2126,6 +2220,11 @@
 <http://schema.org/HousePainter> <http://www.w3.org/2000/01/rdf-schema#comment> "A house painting service." <http://schema.org/> .
 <http://schema.org/HousePainter> <http://www.w3.org/2000/01/rdf-schema#label> "HousePainter" <http://schema.org/> .
 <http://schema.org/HousePainter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/HomeAndConstructionBusiness> <http://schema.org/> .
+<http://schema.org/HowItWorksHealthAspect> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/HowItWorksHealthAspect> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2799> <http://schema.org/> .
+<http://schema.org/HowItWorksHealthAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HealthAspectEnumeration> <http://schema.org/> .
+<http://schema.org/HowItWorksHealthAspect> <http://www.w3.org/2000/01/rdf-schema#comment> "Content that discusses and explains how a particular health-related topic works, e.g. in terms of mechanisms and underlying science." <http://schema.org/> .
+<http://schema.org/HowItWorksHealthAspect> <http://www.w3.org/2000/01/rdf-schema#label> "HowItWorksHealthAspect" <http://schema.org/> .
 <http://schema.org/HowOrWhereHealthAspect> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/HowOrWhereHealthAspect> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2374> <http://schema.org/> .
 <http://schema.org/HowOrWhereHealthAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HealthAspectEnumeration> <http://schema.org/> .
@@ -2239,6 +2338,11 @@
 <http://schema.org/InformAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of notifying someone of information pertinent to them, with no expectation of a response." <http://schema.org/> .
 <http://schema.org/InformAction> <http://www.w3.org/2000/01/rdf-schema#label> "InformAction" <http://schema.org/> .
 <http://schema.org/InformAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CommunicateAction> <http://schema.org/> .
+<http://schema.org/IngredientsHealthAspect> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/IngredientsHealthAspect> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2799> <http://schema.org/> .
+<http://schema.org/IngredientsHealthAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HealthAspectEnumeration> <http://schema.org/> .
+<http://schema.org/IngredientsHealthAspect> <http://www.w3.org/2000/01/rdf-schema#comment> "Content discussing ingredients-related aspects of a health topic." <http://schema.org/> .
+<http://schema.org/IngredientsHealthAspect> <http://www.w3.org/2000/01/rdf-schema#label> "IngredientsHealthAspect" <http://schema.org/> .
 <http://schema.org/InsertAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/InsertAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of adding at a specific location in an ordered collection." <http://schema.org/> .
 <http://schema.org/InsertAction> <http://www.w3.org/2000/01/rdf-schema#label> "InsertAction" <http://schema.org/> .
@@ -2250,7 +2354,7 @@
 <http://schema.org/Installment> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/Installment> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2689> <http://schema.org/> .
 <http://schema.org/Installment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PriceComponentTypeEnumeration> <http://schema.org/> .
-<http://schema.org/Installment> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the installment pricing component of the total price for an offered product" <http://schema.org/> .
+<http://schema.org/Installment> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the installment pricing component of the total price for an offered product." <http://schema.org/> .
 <http://schema.org/Installment> <http://www.w3.org/2000/01/rdf-schema#label> "Installment" <http://schema.org/> .
 <http://schema.org/InsuranceAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/InsuranceAgency> <http://www.w3.org/2000/01/rdf-schema#comment> "An Insurance agency." <http://schema.org/> .
@@ -2352,7 +2456,7 @@
 <http://schema.org/KosherDiet> <http://www.w3.org/2000/01/rdf-schema#label> "KosherDiet" <http://schema.org/> .
 <http://schema.org/LaboratoryScience> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/LaboratoryScience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MedicalSpecialty> <http://schema.org/> .
-<http://schema.org/LaboratoryScience> <http://www.w3.org/2000/01/rdf-schema#comment> "A medical science pertaining to chemical, hematological, immunologic, microscopic, or bacteriological diagnostic analyses or research" <http://schema.org/> .
+<http://schema.org/LaboratoryScience> <http://www.w3.org/2000/01/rdf-schema#comment> "A medical science pertaining to chemical, hematological, immunologic, microscopic, or bacteriological diagnostic analyses or research." <http://schema.org/> .
 <http://schema.org/LaboratoryScience> <http://www.w3.org/2000/01/rdf-schema#label> "LaboratoryScience" <http://schema.org/> .
 <http://schema.org/LakeBodyOfWater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/LakeBodyOfWater> <http://www.w3.org/2000/01/rdf-schema#comment> "A lake (for example, Lake Pontrachain)." <http://schema.org/> .
@@ -2377,7 +2481,7 @@
 <http://schema.org/LearningResource> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/LearningResource> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1401> <http://schema.org/> .
 <http://schema.org/LearningResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/LearningResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The LearningResource type can be used to indicate [[CreativeWork]]s (whether physical or digital) that have a particular and explicit orientation towards learning, education, skill acquisition, and other educational purposes.\n\n[[LearningResource]] is expected to be used as an addition to a primary type such as [[Book]], [[Video]], [[Product]] etc.\n\n[[EducationEvent]] serves a similar purpose for event-like things (e.g. a [[Trip]]). A [[LearningResource]] may be created as a result of an [[EducationEvent]], for example by recording one." <http://schema.org/> .
+<http://schema.org/LearningResource> <http://www.w3.org/2000/01/rdf-schema#comment> "The LearningResource type can be used to indicate [[CreativeWork]]s (whether physical or digital) that have a particular and explicit orientation towards learning, education, skill acquisition, and other educational purposes.\n\n[[LearningResource]] is expected to be used as an addition to a primary type such as [[Book]], [[VideoObject]], [[Product]] etc.\n\n[[EducationEvent]] serves a similar purpose for event-like things (e.g. a [[Trip]]). A [[LearningResource]] may be created as a result of an [[EducationEvent]], for example by recording one." <http://schema.org/> .
 <http://schema.org/LearningResource> <http://www.w3.org/2000/01/rdf-schema#label> "LearningResource" <http://schema.org/> .
 <http://schema.org/LearningResource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/LeaveAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -2620,6 +2724,12 @@
 <http://schema.org/MayTreatHealthAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HealthAspectEnumeration> <http://schema.org/> .
 <http://schema.org/MayTreatHealthAspect> <http://www.w3.org/2000/01/rdf-schema#comment> "Related topics may be treated by a Topic." <http://schema.org/> .
 <http://schema.org/MayTreatHealthAspect> <http://www.w3.org/2000/01/rdf-schema#label> "MayTreatHealthAspect" <http://schema.org/> .
+<http://schema.org/MeasurementTypeEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/MeasurementTypeEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/MeasurementTypeEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/MeasurementTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumeration of common measurement types (or dimensions), for example \"chest\" for a person, \"inseam\" for pants, \"gauge\" for screws, or \"wheel\" for bicycles." <http://schema.org/> .
+<http://schema.org/MeasurementTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "MeasurementTypeEnumeration" <http://schema.org/> .
+<http://schema.org/MeasurementTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
 <http://schema.org/MediaGallery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/MediaGallery> <http://www.w3.org/2000/01/rdf-schema#comment> "Web page type: Media gallery page. A mixed-media page that can contains media such as images, videos, and other multimedia." <http://schema.org/> .
 <http://schema.org/MediaGallery> <http://www.w3.org/2000/01/rdf-schema#label> "MediaGallery" <http://schema.org/> .
@@ -2627,7 +2737,7 @@
 <http://schema.org/MediaManipulationRatingEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/MediaManipulationRatingEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
 <http://schema.org/MediaManipulationRatingEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/MediaManipulationRatingEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "(editorial work in progress, this definition is incomplete and unreviewed) MediaManipulationRatingEnumeration classifies a number of ways in which a media item (video, image, audio) can be manipulated, taking into account the context within which they are published or presented." <http://schema.org/> .
+<http://schema.org/MediaManipulationRatingEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> " Codes for use with the [[mediaAuthenticityCategory]] property, indicating the authenticity of a media object (in the context of how it was published or shared). In general these codes are not mutually exclusive, although some combinations (such as 'original' versus 'transformed', 'edited' and 'staged') would be contradictory if applied in the same [[MediaReview]]. Note that the application of these codes is with regard to a piece of media shared or published in a particular context." <http://schema.org/> .
 <http://schema.org/MediaManipulationRatingEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "MediaManipulationRatingEnumeration" <http://schema.org/> .
 <http://schema.org/MediaManipulationRatingEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
 <http://schema.org/MediaObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -2637,7 +2747,7 @@
 <http://schema.org/MediaReview> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/MediaReview> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
 <http://schema.org/MediaReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/MediaReview> <http://www.w3.org/2000/01/rdf-schema#comment> "(editorial work in progress, this definition is incomplete and unreviewed)\n    A [[MediaReview]] is a more specialized form of Review dedicated to the evaluation of media content online, typically in the context of fact-checking and misinformation.\n    For more general reviews of media in the broader sense, use [[UserReview]], [[CriticReview]] or other [[Review]] types." <http://schema.org/> .
+<http://schema.org/MediaReview> <http://www.w3.org/2000/01/rdf-schema#comment> "A [[MediaReview]] is a more specialized form of Review dedicated to the evaluation of media content online, typically in the context of fact-checking and misinformation.\n    For more general reviews of media in the broader sense, use [[UserReview]], [[CriticReview]] or other [[Review]] types. This definition is\n    a work in progress. While the [[MediaManipulationRatingEnumeration]] list reflects significant community review amongst fact-checkers and others working\n    to combat misinformation, the specific structures for representing media objects, their versions and publication context, is still evolving. Similarly, best practices for the relationship between [[MediaReview]] and [[ClaimReview]] markup has not yet been finalized." <http://schema.org/> .
 <http://schema.org/MediaReview> <http://www.w3.org/2000/01/rdf-schema#label> "MediaReview" <http://schema.org/> .
 <http://schema.org/MediaReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Review> <http://schema.org/> .
 <http://schema.org/MediaSubscription> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1741> <http://schema.org/> .
@@ -2946,11 +3056,6 @@
 <http://schema.org/MisconceptionsHealthAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HealthAspectEnumeration> <http://schema.org/> .
 <http://schema.org/MisconceptionsHealthAspect> <http://www.w3.org/2000/01/rdf-schema#comment> "Content about common misconceptions and myths that are related to a topic." <http://schema.org/> .
 <http://schema.org/MisconceptionsHealthAspect> <http://www.w3.org/2000/01/rdf-schema#label> "MisconceptionsHealthAspect" <http://schema.org/> .
-<http://schema.org/MissingContext> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
-<http://schema.org/MissingContext> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
-<http://schema.org/MissingContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaManipulationRatingEnumeration> <http://schema.org/> .
-<http://schema.org/MissingContext> <http://www.w3.org/2000/01/rdf-schema#comment> "MissingContext: ..." <http://schema.org/> .
-<http://schema.org/MissingContext> <http://www.w3.org/2000/01/rdf-schema#label> "MissingContext" <http://schema.org/> .
 <http://schema.org/MixedEventAttendanceMode> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/MixedEventAttendanceMode> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1842> <http://schema.org/> .
 <http://schema.org/MixedEventAttendanceMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EventAttendanceModeEnumeration> <http://schema.org/> .
@@ -3000,7 +3105,7 @@
 <http://schema.org/MortgageLoan> <http://schema.org/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO> <http://schema.org/> .
 <http://schema.org/MortgageLoan> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1253> <http://schema.org/> .
 <http://schema.org/MortgageLoan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/MortgageLoan> <http://www.w3.org/2000/01/rdf-schema#comment> "A loan in which property or real estate is used as collateral. (A loan securitized against some real estate.)" <http://schema.org/> .
+<http://schema.org/MortgageLoan> <http://www.w3.org/2000/01/rdf-schema#comment> "A loan in which property or real estate is used as collateral. (A loan securitized against some real estate)." <http://schema.org/> .
 <http://schema.org/MortgageLoan> <http://www.w3.org/2000/01/rdf-schema#label> "MortgageLoan" <http://schema.org/> .
 <http://schema.org/MortgageLoan> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/LoanOrCredit> <http://schema.org/> .
 <http://schema.org/Mosque> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -3470,6 +3575,12 @@
 <http://schema.org/OccupationalActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PhysicalActivityCategory> <http://schema.org/> .
 <http://schema.org/OccupationalActivity> <http://www.w3.org/2000/01/rdf-schema#comment> "Any physical activity engaged in for job-related purposes. Examples may include waiting tables, maid service, carrying a mailbag, picking fruits or vegetables, construction work, etc." <http://schema.org/> .
 <http://schema.org/OccupationalActivity> <http://www.w3.org/2000/01/rdf-schema#label> "OccupationalActivity" <http://schema.org/> .
+<http://schema.org/OccupationalExperienceRequirements> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/OccupationalExperienceRequirements> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2681> <http://schema.org/> .
+<http://schema.org/OccupationalExperienceRequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/OccupationalExperienceRequirements> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates employment-related experience requirements, e.g. [[monthsOfExperience]]." <http://schema.org/> .
+<http://schema.org/OccupationalExperienceRequirements> <http://www.w3.org/2000/01/rdf-schema#label> "OccupationalExperienceRequirements" <http://schema.org/> .
+<http://schema.org/OccupationalExperienceRequirements> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Intangible> <http://schema.org/> .
 <http://schema.org/OccupationalTherapy> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/OccupationalTherapy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/OccupationalTherapy> <http://www.w3.org/2000/01/rdf-schema#comment> "A treatment of people with physical, emotional, or social problems, using purposeful activity to help them overcome or learn to deal with their problems." <http://schema.org/> .
@@ -3507,7 +3618,7 @@
 <http://schema.org/OfferShippingDetails> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/OfferShippingDetails> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2506> <http://schema.org/> .
 <http://schema.org/OfferShippingDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/OfferShippingDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "OfferShippingDetails represents information about shipping destinations.\n\nMultiple of these entities can be used to represent different shipping rates for different destinations:\n\nOne entity for Alaska/Hawaii. A different one for continental US.A different one for all France.\n\nMultiple of these entities can be used to represent different shipping costs and delivery times.\n\nTwo entities that are identical but differ in rate and time:\n\ne.g. Cheaper and slower: $5 in 5-7days\nor Fast and expensive: $15 in 1-2 days\n" <http://schema.org/> .
+<http://schema.org/OfferShippingDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "OfferShippingDetails represents information about shipping destinations.\n\nMultiple of these entities can be used to represent different shipping rates for different destinations:\n\nOne entity for Alaska/Hawaii. A different one for continental US.A different one for all France.\n\nMultiple of these entities can be used to represent different shipping costs and delivery times.\n\nTwo entities that are identical but differ in rate and time:\n\ne.g. Cheaper and slower: $5 in 5-7days\nor Fast and expensive: $15 in 1-2 days." <http://schema.org/> .
 <http://schema.org/OfferShippingDetails> <http://www.w3.org/2000/01/rdf-schema#label> "OfferShippingDetails" <http://schema.org/> .
 <http://schema.org/OfferShippingDetails> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/StructuredValue> <http://schema.org/> .
 <http://schema.org/OfficeEquipmentStore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -3641,6 +3752,11 @@
 <http://schema.org/OrganizeAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of manipulating/administering/supervising/controlling one or more objects." <http://schema.org/> .
 <http://schema.org/OrganizeAction> <http://www.w3.org/2000/01/rdf-schema#label> "OrganizeAction" <http://schema.org/> .
 <http://schema.org/OrganizeAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Action> <http://schema.org/> .
+<http://schema.org/OriginalMediaContent> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/OriginalMediaContent> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/OriginalMediaContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaManipulationRatingEnumeration> <http://schema.org/> .
+<http://schema.org/OriginalMediaContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Content coded 'as original media content' in a [[MediaReview]], considered in the context of how it was published or shared.\n\nFor a [[VideoObject]] to be 'original': No evidence the footage has been misleadingly altered or manipulated, though it may contain false or misleading claims.\n\nFor an [[ImageObject]] to be 'original': No evidence the image has been misleadingly altered or manipulated, though it may still contain false or misleading claims.\n\nFor an [[ImageObject]] with embedded text to be 'original': No evidence the image has been misleadingly altered or manipulated, though it may still contain false or misleading claims.\n\nFor an [[AudioObject]] to be 'original': No evidence the audio has been misleadingly altered or manipulated, though it may contain false or misleading claims.\n" <http://schema.org/> .
+<http://schema.org/OriginalMediaContent> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalMediaContent" <http://schema.org/> .
 <http://schema.org/OriginalShippingFees> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/OriginalShippingFees> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/OriginalShippingFees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ReturnFeesEnumeration> <http://schema.org/> .
@@ -4004,6 +4120,11 @@
 <http://schema.org/PreSale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ItemAvailability> <http://schema.org/> .
 <http://schema.org/PreSale> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the item is available for ordering and delivery before general availability." <http://schema.org/> .
 <http://schema.org/PreSale> <http://www.w3.org/2000/01/rdf-schema#label> "PreSale" <http://schema.org/> .
+<http://schema.org/PregnancyHealthAspect> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/PregnancyHealthAspect> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2799> <http://schema.org/> .
+<http://schema.org/PregnancyHealthAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HealthAspectEnumeration> <http://schema.org/> .
+<http://schema.org/PregnancyHealthAspect> <http://www.w3.org/2000/01/rdf-schema#comment> "Content discussing pregnancy-related aspects of a health topic." <http://schema.org/> .
+<http://schema.org/PregnancyHealthAspect> <http://www.w3.org/2000/01/rdf-schema#label> "PregnancyHealthAspect" <http://schema.org/> .
 <http://schema.org/PrependAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/PrependAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of inserting at the beginning if an ordered collection." <http://schema.org/> .
 <http://schema.org/PrependAction> <http://www.w3.org/2000/01/rdf-schema#label> "PrependAction" <http://schema.org/> .
@@ -4576,6 +4697,11 @@
 <http://schema.org/SRP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PriceTypeEnumeration> <http://schema.org/> .
 <http://schema.org/SRP> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the suggested retail price (\"SRP\") of an offered product." <http://schema.org/> .
 <http://schema.org/SRP> <http://www.w3.org/2000/01/rdf-schema#label> "SRP" <http://schema.org/> .
+<http://schema.org/SafetyHealthAspect> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/SafetyHealthAspect> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2799> <http://schema.org/> .
+<http://schema.org/SafetyHealthAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HealthAspectEnumeration> <http://schema.org/> .
+<http://schema.org/SafetyHealthAspect> <http://www.w3.org/2000/01/rdf-schema#comment> "Content about the safety-related aspects of a health topic." <http://schema.org/> .
+<http://schema.org/SafetyHealthAspect> <http://www.w3.org/2000/01/rdf-schema#label> "SafetyHealthAspect" <http://schema.org/> .
 <http://schema.org/SaleEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/SaleEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Sales event." <http://schema.org/> .
 <http://schema.org/SaleEvent> <http://www.w3.org/2000/01/rdf-schema#label> "SaleEvent" <http://schema.org/> .
@@ -4585,6 +4711,11 @@
 <http://schema.org/SalePrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PriceTypeEnumeration> <http://schema.org/> .
 <http://schema.org/SalePrice> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a sale price (usually active for a limited period) of an offered product." <http://schema.org/> .
 <http://schema.org/SalePrice> <http://www.w3.org/2000/01/rdf-schema#label> "SalePrice" <http://schema.org/> .
+<http://schema.org/SatireOrParodyContent> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/SatireOrParodyContent> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/SatireOrParodyContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaManipulationRatingEnumeration> <http://schema.org/> .
+<http://schema.org/SatireOrParodyContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Content coded 'satire or content' in a [[MediaReview]], considered in the context of how it was published or shared.\n\nFor a [[VideoObject]] to be 'satire or parody content': A video that was created as political or humorous commentary and is presented in that context. (Reshares of satire/parody content that do not include relevant context are more likely to fall under the “missing context” rating.)\n\nFor an [[ImageObject]] to be 'satire or parody content': An image that was created as political or humorous commentary and is presented in that context. (Reshares of satire/parody content that do not include relevant context are more likely to fall under the “missing context” rating.)\n\nFor an [[ImageObject]] with embedded text to be 'satire or parody content': An image that was created as political or humorous commentary and is presented in that context. (Reshares of satire/parody content that do not include relevant context are more likely to fall under the “missing context” rating.)\n\nFor an [[AudioObject]] to be 'satire or parody content': Audio that was created as political or humorous commentary and is presented in that context. (Reshares of satire/parody content that do not include relevant context are more likely to fall under the “missing context” rating.)\n" <http://schema.org/> .
+<http://schema.org/SatireOrParodyContent> <http://www.w3.org/2000/01/rdf-schema#label> "SatireOrParodyContent" <http://schema.org/> .
 <http://schema.org/SatiricalArticle> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/SatiricalArticle> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1525> <http://schema.org/> .
 <http://schema.org/SatiricalArticle> <http://schema.org/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#TP> <http://schema.org/> .
@@ -4761,6 +4892,34 @@
 <http://schema.org/SiteNavigationElement> <http://www.w3.org/2000/01/rdf-schema#comment> "A navigation element of the page." <http://schema.org/> .
 <http://schema.org/SiteNavigationElement> <http://www.w3.org/2000/01/rdf-schema#label> "SiteNavigationElement" <http://schema.org/> .
 <http://schema.org/SiteNavigationElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/WebPageElement> <http://schema.org/> .
+<http://schema.org/SizeGroupEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/SizeGroupEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/SizeGroupEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/SizeGroupEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates common size groups for various product categories." <http://schema.org/> .
+<http://schema.org/SizeGroupEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "SizeGroupEnumeration" <http://schema.org/> .
+<http://schema.org/SizeGroupEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
+<http://schema.org/SizeSpecification> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/SizeSpecification> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/SizeSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/SizeSpecification> <http://www.w3.org/2000/01/rdf-schema#comment> "Size related properties of a product, typically a size code ([[name]]) and optionally a [[sizeSystem]], [[sizeGroup]], and product measurements ([[hasMeasurement]]). In addition, the intended audience can be defined through [[suggestedAge]], [[suggestedGender]], and suggested body measurements ([[suggestedMeasurement]])." <http://schema.org/> .
+<http://schema.org/SizeSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "SizeSpecification" <http://schema.org/> .
+<http://schema.org/SizeSpecification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/QualitativeValue> <http://schema.org/> .
+<http://schema.org/SizeSystemEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/SizeSystemEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/SizeSystemEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/SizeSystemEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates common size systems for different categories of products, for example \"EN-13402\" or \"UK\" for wearables or \"Imperial\" for screws." <http://schema.org/> .
+<http://schema.org/SizeSystemEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "SizeSystemEnumeration" <http://schema.org/> .
+<http://schema.org/SizeSystemEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
+<http://schema.org/SizeSystemImperial> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/SizeSystemImperial> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/SizeSystemImperial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/SizeSystemImperial> <http://www.w3.org/2000/01/rdf-schema#comment> "Imperial size system." <http://schema.org/> .
+<http://schema.org/SizeSystemImperial> <http://www.w3.org/2000/01/rdf-schema#label> "SizeSystemImperial" <http://schema.org/> .
+<http://schema.org/SizeSystemMetric> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/SizeSystemMetric> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/SizeSystemMetric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/SizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/SizeSystemMetric> <http://www.w3.org/2000/01/rdf-schema#comment> "Metric size system." <http://schema.org/> .
+<http://schema.org/SizeSystemMetric> <http://www.w3.org/2000/01/rdf-schema#label> "SizeSystemMetric" <http://schema.org/> .
 <http://schema.org/SkiResort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/SkiResort> <http://www.w3.org/2000/01/rdf-schema#comment> "A ski resort." <http://schema.org/> .
 <http://schema.org/SkiResort> <http://www.w3.org/2000/01/rdf-schema#label> "SkiResort" <http://schema.org/> .
@@ -4812,7 +4971,7 @@
 <http://schema.org/SpecialAnnouncement> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/SpecialAnnouncement> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2490> <http://schema.org/> .
 <http://schema.org/SpecialAnnouncement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/SpecialAnnouncement> <http://www.w3.org/2000/01/rdf-schema#comment> "A SpecialAnnouncement combines a simple date-stamped textual information update\n      with contextualized Web links and other structured data.  It represents an information update made by a\n      locally-oriented organization, for example schools, pharmacies, healthcare providers,  community groups, police,\n      local government.\n\nFor work in progress guidelines on Coronavirus-related markup see [this doc](https://docs.google.com/document/d/14ikaGCKxo50rRM7nvKSlbUpjyIk2WMQd3IkB1lItlrM/edit#).\n\nThe motivating scenario for SpecialAnnouncement is the [Coronavirus pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic), and the initial vocabulary is oriented to this urgent situation. Schema.org\nexpect to improve the markup iteratively as it is deployed and as feedback emerges from use. In addition to our\nusual [Github entry](https://github.com/schemaorg/schemaorg/issues/2490), feedback comments can also be provided in [this document](https://docs.google.com/document/d/1fpdFFxk8s87CWwACs53SGkYv3aafSxz_DTtOQxMrBJQ/edit#).\n\n\nWhile this schema is designed to communicate urgent crisis-related information, it is not the same as an emergency warning technology like [CAP](https://en.wikipedia.org/wiki/Common_Alerting_Protocol), although there may be overlaps. The intent is to cover\nthe kinds of everyday practical information being posted to existing websites during an emergency situation.\n\nSeveral kinds of information can be provided:\n\nWe encourage the provision of \"name\", \"text\", \"datePosted\", \"expires\" (if appropriate), \"category\" and\n\"url\" as a simple baseline. It is important to provide a value for \"category\" where possible, most ideally as a well known\nURL from Wikipedia or Wikidata. In the case of the 2019-2020 Coronavirus pandemic, this should be \"https://en.wikipedia.org/w/index.php?title=2019-20\\_coronavirus\\_pandemic\" or \"https://www.wikidata.org/wiki/Q81068910\".\n\nFor many of the possible properties, values can either be simple links or an inline description, depending on whether a summary is available. For a link, provide just the URL of the appropriate page as the property's value. For an inline description, use a [[WebContent]] type, and provide the url as a property of that, alongside at least a simple \"[[text]]\" summary of the page. It is\nunlikely that a single SpecialAnnouncement will need all of the possible properties simultaneously.\n\nWe expect that in many cases the page referenced might contain more specialized structured data, e.g. contact info, [[openingHours]], [[Event]], [[FAQPage]] etc. By linking to those pages from a [[SpecialAnnouncement]] you can help make it clearer that the events are related to the situation (e.g. Coronavirus) indicated by the [[category]] property of the [[SpecialAnnouncement]].\n\nMany [[SpecialAnnouncement]]s will relate to particular regions and to identifiable local organizations. Use [[spatialCoverage]] for the region, and [[announcementLocation]] to indicate specific [[LocalBusiness]]es and [[CivicStructures]]. If the announcement affects both a particular region and a specific location (for example, a library closure that serves an entire region), use both [[spatialCoverage]] and [[announcementLocation]].\n\nThe [[about]] property can be used to indicate entities that are the focus of the announcement. We now recommend using [[about]] only\nfor representing non-location entities (e.g. a [[Course]] or a [[RadioStation]]). For places, use [[announcementLocation]] and [[spatialCoverage]]. Consumers of this markup should be aware that the initial design encouraged the use of /about for locations too.\n\nThe basic content of [[SpecialAnnouncement]] is similar to that of an [RSS](https://en.wikipedia.org/wiki/RSS) or [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) feed. For publishers without such feeds, basic feed-like information can be shared by posting\n[[SpecialAnnouncement]] updates in a page, e.g. using JSON-LD. For sites with Atom/RSS functionality, you can point to a feed\nwith the [[webFeed]] property. This can be a simple URL, or an inline [[DataFeed]] object, with [[encodingFormat]] providing\nmedia type information e.g. \"application/rss+xml\" or \"application/atom+xml\".\n" <http://schema.org/> .
+<http://schema.org/SpecialAnnouncement> <http://www.w3.org/2000/01/rdf-schema#comment> "A SpecialAnnouncement combines a simple date-stamped textual information update\n      with contextualized Web links and other structured data.  It represents an information update made by a\n      locally-oriented organization, for example schools, pharmacies, healthcare providers,  community groups, police,\n      local government.\n\nFor work in progress guidelines on Coronavirus-related markup see [this doc](https://docs.google.com/document/d/14ikaGCKxo50rRM7nvKSlbUpjyIk2WMQd3IkB1lItlrM/edit#).\n\nThe motivating scenario for SpecialAnnouncement is the [Coronavirus pandemic](https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic), and the initial vocabulary is oriented to this urgent situation. Schema.org\nexpect to improve the markup iteratively as it is deployed and as feedback emerges from use. In addition to our\nusual [Github entry](https://github.com/schemaorg/schemaorg/issues/2490), feedback comments can also be provided in [this document](https://docs.google.com/document/d/1fpdFFxk8s87CWwACs53SGkYv3aafSxz_DTtOQxMrBJQ/edit#).\n\n\nWhile this schema is designed to communicate urgent crisis-related information, it is not the same as an emergency warning technology like [CAP](https://en.wikipedia.org/wiki/Common_Alerting_Protocol), although there may be overlaps. The intent is to cover\nthe kinds of everyday practical information being posted to existing websites during an emergency situation.\n\nSeveral kinds of information can be provided:\n\nWe encourage the provision of \"name\", \"text\", \"datePosted\", \"expires\" (if appropriate), \"category\" and\n\"url\" as a simple baseline. It is important to provide a value for \"category\" where possible, most ideally as a well known\nURL from Wikipedia or Wikidata. In the case of the 2019-2020 Coronavirus pandemic, this should be \"https://en.wikipedia.org/w/index.php?title=2019-20\\_coronavirus\\_pandemic\" or \"https://www.wikidata.org/wiki/Q81068910\".\n\nFor many of the possible properties, values can either be simple links or an inline description, depending on whether a summary is available. For a link, provide just the URL of the appropriate page as the property's value. For an inline description, use a [[WebContent]] type, and provide the url as a property of that, alongside at least a simple \"[[text]]\" summary of the page. It is\nunlikely that a single SpecialAnnouncement will need all of the possible properties simultaneously.\n\nWe expect that in many cases the page referenced might contain more specialized structured data, e.g. contact info, [[openingHours]], [[Event]], [[FAQPage]] etc. By linking to those pages from a [[SpecialAnnouncement]] you can help make it clearer that the events are related to the situation (e.g. Coronavirus) indicated by the [[category]] property of the [[SpecialAnnouncement]].\n\nMany [[SpecialAnnouncement]]s will relate to particular regions and to identifiable local organizations. Use [[spatialCoverage]] for the region, and [[announcementLocation]] to indicate specific [[LocalBusiness]]es and [[CivicStructure]]s. If the announcement affects both a particular region and a specific location (for example, a library closure that serves an entire region), use both [[spatialCoverage]] and [[announcementLocation]].\n\nThe [[about]] property can be used to indicate entities that are the focus of the announcement. We now recommend using [[about]] only\nfor representing non-location entities (e.g. a [[Course]] or a [[RadioStation]]). For places, use [[announcementLocation]] and [[spatialCoverage]]. Consumers of this markup should be aware that the initial design encouraged the use of /about for locations too.\n\nThe basic content of [[SpecialAnnouncement]] is similar to that of an [RSS](https://en.wikipedia.org/wiki/RSS) or [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)) feed. For publishers without such feeds, basic feed-like information can be shared by posting\n[[SpecialAnnouncement]] updates in a page, e.g. using JSON-LD. For sites with Atom/RSS functionality, you can point to a feed\nwith the [[webFeed]] property. This can be a simple URL, or an inline [[DataFeed]] object, with [[encodingFormat]] providing\nmedia type information e.g. \"application/rss+xml\" or \"application/atom+xml\".\n" <http://schema.org/> .
 <http://schema.org/SpecialAnnouncement> <http://www.w3.org/2000/01/rdf-schema#label> "SpecialAnnouncement" <http://schema.org/> .
 <http://schema.org/SpecialAnnouncement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/Specialty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -4860,6 +5019,11 @@
 <http://schema.org/StadiumOrArena> <http://www.w3.org/2000/01/rdf-schema#label> "StadiumOrArena" <http://schema.org/> .
 <http://schema.org/StadiumOrArena> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CivicStructure> <http://schema.org/> .
 <http://schema.org/StadiumOrArena> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/SportsActivityLocation> <http://schema.org/> .
+<http://schema.org/StagedContent> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/StagedContent> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/StagedContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaManipulationRatingEnumeration> <http://schema.org/> .
+<http://schema.org/StagedContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Content coded 'staged content' in a [[MediaReview]], considered in the context of how it was published or shared.\n\nFor a [[VideoObject]] to be 'staged content': A video that has been created using actors or similarly contrived.\n\nFor an [[ImageObject]] to be 'staged content': An image that was created using actors or similarly contrived, such as a screenshot of a fake tweet.\n\nFor an [[ImageObject]] with embedded text to be 'staged content': An image that was created using actors or similarly contrived, such as a screenshot of a fake tweet.\n\nFor an [[AudioObject]] to be 'staged content': Audio that has been created using actors or similarly contrived.\n" <http://schema.org/> .
+<http://schema.org/StagedContent> <http://www.w3.org/2000/01/rdf-schema#label> "StagedContent" <http://schema.org/> .
 <http://schema.org/StagesHealthAspect> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/StagesHealthAspect> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2374> <http://schema.org/> .
 <http://schema.org/StagesHealthAspect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/HealthAspectEnumeration> <http://schema.org/> .
@@ -4872,7 +5036,7 @@
 <http://schema.org/StatisticalPopulation> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/StatisticalPopulation> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2291> <http://schema.org/> .
 <http://schema.org/StatisticalPopulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/StatisticalPopulation> <http://www.w3.org/2000/01/rdf-schema#comment> "A StatisticalPopulation is a set of instances of a certain given type that satisfy some set of constraints. The property [[populationType]] is used to specify the type. Any property that can be used on instances of that type can appear on the statistical population. For example, a [[StatisticalPopulation]] representing all [[Person]]s with a [[homeLocation]] of East Podunk California, would be described by applying the appropriate [[homeLocation]] and [[populationType]] properties to a [[StatisticalPopulation]] item that stands for that set of people.\nThe properties [[numConstraints]] and [[constrainingProperties]] are used to specify which of the populations properties are used to specify the population. Note that the sense of \"population\" used here is the general sense of a statistical\npopulation, and does not imply that the population consists of people. For example, a [[populationType]] of [[Event]] or [[NewsArticle]] could be used. See also [[Observation]], and the [data and datasets](/docs/data-and-datasets.html) overview for more details.\n  " <http://schema.org/> .
+<http://schema.org/StatisticalPopulation> <http://www.w3.org/2000/01/rdf-schema#comment> "A StatisticalPopulation is a set of instances of a certain given type that satisfy some set of constraints. The property [[populationType]] is used to specify the type. Any property that can be used on instances of that type can appear on the statistical population. For example, a [[StatisticalPopulation]] representing all [[Person]]s with a [[homeLocation]] of East Podunk California, would be described by applying the appropriate [[homeLocation]] and [[populationType]] properties to a [[StatisticalPopulation]] item that stands for that set of people.\nThe properties [[numConstraints]] and [[constrainingProperty]] are used to specify which of the populations properties are used to specify the population. Note that the sense of \"population\" used here is the general sense of a statistical\npopulation, and does not imply that the population consists of people. For example, a [[populationType]] of [[Event]] or [[NewsArticle]] could be used. See also [[Observation]], and the [data and datasets](/docs/data-and-datasets.html) overview for more details.\n  " <http://schema.org/> .
 <http://schema.org/StatisticalPopulation> <http://www.w3.org/2000/01/rdf-schema#label> "StatisticalPopulation" <http://schema.org/> .
 <http://schema.org/StatisticalPopulation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Intangible> <http://schema.org/> .
 <http://schema.org/StatusEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2604> <http://schema.org/> .
@@ -4913,7 +5077,7 @@
 <http://schema.org/Subscription> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/Subscription> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2689> <http://schema.org/> .
 <http://schema.org/Subscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PriceComponentTypeEnumeration> <http://schema.org/> .
-<http://schema.org/Subscription> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the subscription pricing component of the total price for an offered product" <http://schema.org/> .
+<http://schema.org/Subscription> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the subscription pricing component of the total price for an offered product." <http://schema.org/> .
 <http://schema.org/Subscription> <http://www.w3.org/2000/01/rdf-schema#label> "Subscription" <http://schema.org/> .
 <http://schema.org/Substance> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/Substance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -5115,7 +5279,7 @@
 <http://schema.org/TouristDestination> <http://schema.org/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#Tourism> <http://schema.org/> .
 <http://schema.org/TouristDestination> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1810> <http://schema.org/> .
 <http://schema.org/TouristDestination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/TouristDestination> <http://www.w3.org/2000/01/rdf-schema#comment> "A tourist destination. In principle any [[Place]] can be a [[TouristDestination]] from a [[City]], [[Region]] or [[Country]] to an [[AmusementPark]] or [[Hotel]]. This Type can be used on its own to describe a general [[TouristDestination]], or be used as an [[additionalType]] to add tourist relevant properties to any other [[Place]].  A [[TouristDestination]] is defined as a [[Place]] that contains, or is colocated with, one or more [[TouristAttraction]]s, often linked by a similar theme or interest to a particular [[touristType]]. The [UNWTO](http://www2.unwto.org/) defines Destination (main destination of a tourism trip) as the place visited that is central to the decision to take the trip.\n  (See examples below)." <http://schema.org/> .
+<http://schema.org/TouristDestination> <http://www.w3.org/2000/01/rdf-schema#comment> "A tourist destination. In principle any [[Place]] can be a [[TouristDestination]] from a [[City]], Region or [[Country]] to an [[AmusementPark]] or [[Hotel]]. This Type can be used on its own to describe a general [[TouristDestination]], or be used as an [[additionalType]] to add tourist relevant properties to any other [[Place]].  A [[TouristDestination]] is defined as a [[Place]] that contains, or is colocated with, one or more [[TouristAttraction]]s, often linked by a similar theme or interest to a particular [[touristType]]. The [UNWTO](http://www2.unwto.org/) defines Destination (main destination of a tourism trip) as the place visited that is central to the decision to take the trip.\n  (See examples below)." <http://schema.org/> .
 <http://schema.org/TouristDestination> <http://www.w3.org/2000/01/rdf-schema#label> "TouristDestination" <http://schema.org/> .
 <http://schema.org/TouristDestination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Place> <http://schema.org/> .
 <http://schema.org/TouristInformationCenter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -5166,6 +5330,11 @@
 <http://schema.org/TransferAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of transferring/moving (abstract or concrete) animate or inanimate objects from one place to another." <http://schema.org/> .
 <http://schema.org/TransferAction> <http://www.w3.org/2000/01/rdf-schema#label> "TransferAction" <http://schema.org/> .
 <http://schema.org/TransferAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Action> <http://schema.org/> .
+<http://schema.org/TransformedContent> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/TransformedContent> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/TransformedContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaManipulationRatingEnumeration> <http://schema.org/> .
+<http://schema.org/TransformedContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Content coded 'transformed content' in a [[MediaReview]], considered in the context of how it was published or shared.\n\nFor a [[VideoObject]] to be 'transformed content':  or all of the video has been manipulated to transform the footage itself. This category includes using tools like the Adobe Suite to change the speed of the video, add or remove visual elements or dub audio. Deepfakes are also a subset of transformation.\n\nFor an [[ImageObject]] to be transformed content': Adding or deleting visual elements to give the image a different meaning with the intention to mislead.\n\nFor an [[ImageObject]] with embedded text to be 'transformed content': Adding or deleting visual elements to give the image a different meaning with the intention to mislead.\n\nFor an [[AudioObject]] to be 'transformed content': Part or all of the audio has been manipulated to alter the words or sounds, or the audio has been synthetically generated, such as to create a sound-alike voice.\n" <http://schema.org/> .
+<http://schema.org/TransformedContent> <http://www.w3.org/2000/01/rdf-schema#label> "TransformedContent" <http://schema.org/> .
 <http://schema.org/TransitMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MapCategoryType> <http://schema.org/> .
 <http://schema.org/TransitMap> <http://www.w3.org/2000/01/rdf-schema#comment> "A transit map." <http://schema.org/> .
 <http://schema.org/TransitMap> <http://www.w3.org/2000/01/rdf-schema#label> "TransitMap" <http://schema.org/> .
@@ -5473,6 +5642,239 @@
 <http://schema.org/WearAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of dressing oneself in clothing." <http://schema.org/> .
 <http://schema.org/WearAction> <http://www.w3.org/2000/01/rdf-schema#label> "WearAction" <http://schema.org/> .
 <http://schema.org/WearAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/UseAction> <http://schema.org/> .
+<http://schema.org/WearableMeasurementBack> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementBack> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementBack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementBack> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement of the back section, for example of a jacket" <http://schema.org/> .
+<http://schema.org/WearableMeasurementBack> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementBack" <http://schema.org/> .
+<http://schema.org/WearableMeasurementChestOrBust> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementChestOrBust> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementChestOrBust> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementChestOrBust> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement of the chest/bust section, for example of a suit" <http://schema.org/> .
+<http://schema.org/WearableMeasurementChestOrBust> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementChestOrBust" <http://schema.org/> .
+<http://schema.org/WearableMeasurementCollar> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementCollar> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementCollar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementCollar> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement of the collar, for example of a shirt" <http://schema.org/> .
+<http://schema.org/WearableMeasurementCollar> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementCollar" <http://schema.org/> .
+<http://schema.org/WearableMeasurementCup> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementCup> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementCup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementCup> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement of the cup, for example of a bra" <http://schema.org/> .
+<http://schema.org/WearableMeasurementCup> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementCup" <http://schema.org/> .
+<http://schema.org/WearableMeasurementHeight> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementHeight> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementHeight> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement of the height, for example the heel height of a shoe" <http://schema.org/> .
+<http://schema.org/WearableMeasurementHeight> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementHeight" <http://schema.org/> .
+<http://schema.org/WearableMeasurementHips> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementHips> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementHips> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementHips> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement of the hip section, for example of a skirt" <http://schema.org/> .
+<http://schema.org/WearableMeasurementHips> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementHips" <http://schema.org/> .
+<http://schema.org/WearableMeasurementInseam> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementInseam> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementInseam> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementInseam> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement of the inseam, for example of pants" <http://schema.org/> .
+<http://schema.org/WearableMeasurementInseam> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementInseam" <http://schema.org/> .
+<http://schema.org/WearableMeasurementLength> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementLength> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementLength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementLength> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the length, for example of a dress" <http://schema.org/> .
+<http://schema.org/WearableMeasurementLength> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementLength" <http://schema.org/> .
+<http://schema.org/WearableMeasurementOutsideLeg> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementOutsideLeg> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementOutsideLeg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementOutsideLeg> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement of the outside leg, for example of pants" <http://schema.org/> .
+<http://schema.org/WearableMeasurementOutsideLeg> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementOutsideLeg" <http://schema.org/> .
+<http://schema.org/WearableMeasurementSleeve> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementSleeve> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementSleeve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementSleeve> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement of the sleeve length, for example of a shirt" <http://schema.org/> .
+<http://schema.org/WearableMeasurementSleeve> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementSleeve" <http://schema.org/> .
+<http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementTypeEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/WearableMeasurementTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates common types of measurement for wearables products." <http://schema.org/> .
+<http://schema.org/WearableMeasurementTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementTypeEnumeration" <http://schema.org/> .
+<http://schema.org/WearableMeasurementTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementWaist> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementWaist> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementWaist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementWaist> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement of the waist section, for example of pants" <http://schema.org/> .
+<http://schema.org/WearableMeasurementWaist> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementWaist" <http://schema.org/> .
+<http://schema.org/WearableMeasurementWidth> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableMeasurementWidth> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableMeasurementWidth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableMeasurementTypeEnumeration> <http://schema.org/> .
+<http://schema.org/WearableMeasurementWidth> <http://www.w3.org/2000/01/rdf-schema#comment> "Measurement of the width, for example of shoes" <http://schema.org/> .
+<http://schema.org/WearableMeasurementWidth> <http://www.w3.org/2000/01/rdf-schema#label> "WearableMeasurementWidth" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupBig> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupBig> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupBig> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupBig> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Big\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupBig> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupBig" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupBoys> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupBoys> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupBoys> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupBoys> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Boys\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupBoys> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupBoys" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates common size groups (also known as \"size types\") for wearable products." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupEnumeration" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/SizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupExtraShort> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupExtraShort> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupExtraShort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupExtraShort> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Extra Short\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupExtraShort> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupExtraShort" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupExtraTall> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupExtraTall> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupExtraTall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupExtraTall> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Extra Tall\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupExtraTall> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupExtraTall" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupGirls> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupGirls> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupGirls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupGirls> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Girls\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupGirls> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupGirls" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupHusky> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupHusky> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupHusky> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupHusky> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Husky\" (or \"Stocky\") for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupHusky> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupHusky" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupInfants> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupInfants> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupInfants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupInfants> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Infants\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupInfants> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupInfants" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupJuniors> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupJuniors> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupJuniors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupJuniors> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Juniors\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupJuniors> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupJuniors" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMaternity> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMaternity> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMaternity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMaternity> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Maternity\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMaternity> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupMaternity" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMens> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMens> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMens> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Mens\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMens> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupMens" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMisses> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMisses> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMisses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMisses> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Misses\" (also known as \"Missy\") for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupMisses> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupMisses" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupPetite> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupPetite> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupPetite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupPetite> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Petite\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupPetite> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupPetite" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupPlus> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupPlus> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupPlus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupPlus> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Plus\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupPlus> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupPlus" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupRegular> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupRegular> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupRegular> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupRegular> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Regular\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupRegular> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupRegular" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupShort> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupShort> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupShort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupShort> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Short\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupShort> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupShort" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupTall> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupTall> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupTall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupTall> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Tall\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupTall> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupTall" <http://schema.org/> .
+<http://schema.org/WearableSizeGroupWomens> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupWomens> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupWomens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeGroupWomens> <http://www.w3.org/2000/01/rdf-schema#comment> "Size group \"Womens\" for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeGroupWomens> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeGroupWomens" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemAU> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemAU> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemAU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemAU> <http://www.w3.org/2000/01/rdf-schema#comment> "Australian size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemAU> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemAU" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemBR> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemBR> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemBR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemBR> <http://www.w3.org/2000/01/rdf-schema#comment> "Brazilian size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemBR> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemBR" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemCN> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemCN> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemCN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemCN> <http://www.w3.org/2000/01/rdf-schema#comment> "Chinese size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemCN> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemCN" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemContinental> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemContinental> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemContinental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemContinental> <http://www.w3.org/2000/01/rdf-schema#comment> "Continental size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemContinental> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemContinental" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemDE> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemDE> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemDE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemDE> <http://www.w3.org/2000/01/rdf-schema#comment> "German size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemDE> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemDE" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEN13402> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEN13402> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEN13402> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEN13402> <http://www.w3.org/2000/01/rdf-schema#comment> "EN 13402 (joint European standard for size labelling of clothes)." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEN13402> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemEN13402" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates common size systems specific for wearable products" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemEnumeration" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/SizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEurope> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEurope> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEurope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEurope> <http://www.w3.org/2000/01/rdf-schema#comment> "European size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemEurope> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemEurope" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemFR> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemFR> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemFR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemFR> <http://www.w3.org/2000/01/rdf-schema#comment> "French size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemFR> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemFR" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemGS1> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemGS1> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemGS1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemGS1> <http://www.w3.org/2000/01/rdf-schema#comment> "GS1 (formerly NRF) size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemGS1> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemGS1" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemIT> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemIT> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemIT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemIT> <http://www.w3.org/2000/01/rdf-schema#comment> "Italian size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemIT> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemIT" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemJP> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemJP> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemJP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemJP> <http://www.w3.org/2000/01/rdf-schema#comment> "Japanese size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemJP> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemJP" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemMX> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemMX> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemMX> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemMX> <http://www.w3.org/2000/01/rdf-schema#comment> "Mexican size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemMX> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemMX" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemUK> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemUK> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemUK> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemUK> <http://www.w3.org/2000/01/rdf-schema#comment> "United Kingdom size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemUK> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemUK" <http://schema.org/> .
+<http://schema.org/WearableSizeSystemUS> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemUS> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemUS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/WearableSizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/WearableSizeSystemUS> <http://www.w3.org/2000/01/rdf-schema#comment> "United States size system for wearables." <http://schema.org/> .
+<http://schema.org/WearableSizeSystemUS> <http://www.w3.org/2000/01/rdf-schema#label> "WearableSizeSystemUS" <http://schema.org/> .
 <http://schema.org/WebAPI> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/WebAPI> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1423> <http://schema.org/> .
 <http://schema.org/WebAPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -5486,7 +5888,7 @@
 <http://schema.org/WebContent> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/WebContent> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2358> <http://schema.org/> .
 <http://schema.org/WebContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/WebContent> <http://www.w3.org/2000/01/rdf-schema#comment> "WebContent is a type representing all [[WebPage]], [[WebSite]] and [[WebPageElement]] content. It is sometimes the case that detailed distinctions between Web pages, sites and their parts is not always important or obvious. The  [[WebContent]] type makes it easier to describe Web-addressable content without requiring such distinctions to always be stated. (The intent is that the existing types [[WebPage]], [[WebSite]] and [[WebPageElement]] will eventually be declared as subtypes of [[WebContent]].)\n  " <http://schema.org/> .
+<http://schema.org/WebContent> <http://www.w3.org/2000/01/rdf-schema#comment> "WebContent is a type representing all [[WebPage]], [[WebSite]] and [[WebPageElement]] content. It is sometimes the case that detailed distinctions between Web pages, sites and their parts is not always important or obvious. The  [[WebContent]] type makes it easier to describe Web-addressable content without requiring such distinctions to always be stated. (The intent is that the existing types [[WebPage]], [[WebSite]] and [[WebPageElement]] will eventually be declared as subtypes of [[WebContent]])." <http://schema.org/> .
 <http://schema.org/WebContent> <http://www.w3.org/2000/01/rdf-schema#label> "WebContent" <http://schema.org/> .
 <http://schema.org/WebContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/WebPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -6575,7 +6977,7 @@
 <http://schema.org/beneficiaryBank> <http://schema.org/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FIBO> <http://schema.org/> .
 <http://schema.org/beneficiaryBank> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1253> <http://schema.org/> .
 <http://schema.org/beneficiaryBank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/beneficiaryBank> <http://www.w3.org/2000/01/rdf-schema#comment> "A bank or bank’s branch, financial institution or international financial institution operating the beneficiary’s bank account or releasing funds for the beneficiary" <http://schema.org/> .
+<http://schema.org/beneficiaryBank> <http://www.w3.org/2000/01/rdf-schema#comment> "A bank or bank’s branch, financial institution or international financial institution operating the beneficiary’s bank account or releasing funds for the beneficiary." <http://schema.org/> .
 <http://schema.org/beneficiaryBank> <http://www.w3.org/2000/01/rdf-schema#label> "beneficiaryBank" <http://schema.org/> .
 <http://schema.org/benefits> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
 <http://schema.org/benefits> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -6608,7 +7010,7 @@
 <http://schema.org/billingDuration> <http://schema.org/rangeIncludes> <http://schema.org/QuantitativeValue> <http://schema.org/> .
 <http://schema.org/billingDuration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2689> <http://schema.org/> .
 <http://schema.org/billingDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/billingDuration> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies for how long this price (or price component) will be billed. Can be used, for example, to model the contractual duration of a subscription or payment plan. Type can be either a Duration or a Number (in which case the unit of measurement, for example month, is specified by the unitCode property)" <http://schema.org/> .
+<http://schema.org/billingDuration> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies for how long this price (or price component) will be billed. Can be used, for example, to model the contractual duration of a subscription or payment plan. Type can be either a Duration or a Number (in which case the unit of measurement, for example month, is specified by the unitCode property)." <http://schema.org/> .
 <http://schema.org/billingDuration> <http://www.w3.org/2000/01/rdf-schema#label> "billingDuration" <http://schema.org/> .
 <http://schema.org/billingIncrement> <http://schema.org/domainIncludes> <http://schema.org/UnitPriceSpecification> <http://schema.org/> .
 <http://schema.org/billingIncrement> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
@@ -6626,7 +7028,7 @@
 <http://schema.org/billingStart> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
 <http://schema.org/billingStart> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2689> <http://schema.org/> .
 <http://schema.org/billingStart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/billingStart> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies after how much time this price (or price component) becomes valid and billing starts. Can be used, for example, to model a price increase after the first year of a subscription. The unit of measurement is specified by the unitCode property" <http://schema.org/> .
+<http://schema.org/billingStart> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies after how much time this price (or price component) becomes valid and billing starts. Can be used, for example, to model a price increase after the first year of a subscription. The unit of measurement is specified by the unitCode property." <http://schema.org/> .
 <http://schema.org/billingStart> <http://www.w3.org/2000/01/rdf-schema#label> "billingStart" <http://schema.org/> .
 <http://schema.org/biomechnicalClass> <http://schema.org/domainIncludes> <http://schema.org/Joint> <http://schema.org/> .
 <http://schema.org/biomechnicalClass> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
@@ -6730,8 +7132,6 @@
 <http://schema.org/branch> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/branch> <http://schema.org/rangeIncludes> <http://schema.org/AnatomicalStructure> <http://schema.org/> .
 <http://schema.org/branch> <http://schema.org/supersededBy> <http://schema.org/arterialBranch> <http://schema.org/> .
-<http://schema.org/branch> <http://schema.org/supersededBy> <http://schema.org/nerveBranch> <http://schema.org/> .
-<http://schema.org/branch> <http://schema.org/supersededBy> <http://schema.org/veinBranch> <http://schema.org/> .
 <http://schema.org/branch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/branch> <http://www.w3.org/2000/01/rdf-schema#comment> "The branches that delineate from the nerve bundle. Not to be confused with [[branchOf]]." <http://schema.org/> .
 <http://schema.org/branch> <http://www.w3.org/2000/01/rdf-schema#label> "branch" <http://schema.org/> .
@@ -6813,7 +7213,7 @@
 <http://schema.org/broadcastSignalModulation> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/broadcastSignalModulation> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2111> <http://schema.org/> .
 <http://schema.org/broadcastSignalModulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/broadcastSignalModulation> <http://www.w3.org/2000/01/rdf-schema#comment> "The modulation (e.g. FM, AM, etc) used by a particular broadcast service" <http://schema.org/> .
+<http://schema.org/broadcastSignalModulation> <http://www.w3.org/2000/01/rdf-schema#comment> "The modulation (e.g. FM, AM, etc) used by a particular broadcast service." <http://schema.org/> .
 <http://schema.org/broadcastSignalModulation> <http://www.w3.org/2000/01/rdf-schema#label> "broadcastSignalModulation" <http://schema.org/> .
 <http://schema.org/broadcastSubChannel> <http://schema.org/domainIncludes> <http://schema.org/BroadcastFrequencySpecification> <http://schema.org/> .
 <http://schema.org/broadcastSubChannel> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
@@ -6890,7 +7290,7 @@
 <http://schema.org/byDay> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/byDay> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1457> <http://schema.org/> .
 <http://schema.org/byDay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/byDay> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the day(s) of the week on which a recurring [[Event]] takes place. May be specified using either [[DayOfWeek]], or alternatively [[Text]] conforming to iCal's syntax for byDay recurrence rules" <http://schema.org/> .
+<http://schema.org/byDay> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the day(s) of the week on which a recurring [[Event]] takes place. May be specified using either [[DayOfWeek]], or alternatively [[Text]] conforming to iCal's syntax for byDay recurrence rules." <http://schema.org/> .
 <http://schema.org/byDay> <http://www.w3.org/2000/01/rdf-schema#label> "byDay" <http://schema.org/> .
 <http://schema.org/byMonth> <http://schema.org/domainIncludes> <http://schema.org/Schedule> <http://schema.org/> .
 <http://schema.org/byMonth> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
@@ -7438,7 +7838,7 @@
 <http://schema.org/costCurrency> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/costCurrency> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/costCurrency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/costCurrency> <http://www.w3.org/2000/01/rdf-schema#comment> "The currency (in 3-letter of the drug cost. See: http://en.wikipedia.org/wiki/ISO_4217 " <http://schema.org/> .
+<http://schema.org/costCurrency> <http://www.w3.org/2000/01/rdf-schema#comment> "The currency (in 3-letter of the drug cost. See: http://en.wikipedia.org/wiki/ISO_4217. " <http://schema.org/> .
 <http://schema.org/costCurrency> <http://www.w3.org/2000/01/rdf-schema#label> "costCurrency" <http://schema.org/> .
 <http://schema.org/costOrigin> <http://schema.org/domainIncludes> <http://schema.org/DrugCost> <http://schema.org/> .
 <http://schema.org/costOrigin> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
@@ -8194,7 +8594,7 @@
 <http://schema.org/drug> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/drug> <http://schema.org/rangeIncludes> <http://schema.org/Drug> <http://schema.org/> .
 <http://schema.org/drug> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/drug> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifying a drug or medicine used in a medication procedure" <http://schema.org/> .
+<http://schema.org/drug> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifying a drug or medicine used in a medication procedure." <http://schema.org/> .
 <http://schema.org/drug> <http://www.w3.org/2000/01/rdf-schema#label> "drug" <http://schema.org/> .
 <http://schema.org/drugClass> <http://schema.org/domainIncludes> <http://schema.org/Drug> <http://schema.org/> .
 <http://schema.org/drugClass> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
@@ -8224,6 +8624,7 @@
 <http://schema.org/duplicateTherapy> <http://www.w3.org/2000/01/rdf-schema#comment> "A therapy that duplicates or overlaps this one." <http://schema.org/> .
 <http://schema.org/duplicateTherapy> <http://www.w3.org/2000/01/rdf-schema#label> "duplicateTherapy" <http://schema.org/> .
 <http://schema.org/duration> <http://schema.org/domainIncludes> <http://schema.org/Audiobook> <http://schema.org/> .
+<http://schema.org/duration> <http://schema.org/domainIncludes> <http://schema.org/Episode> <http://schema.org/> .
 <http://schema.org/duration> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
 <http://schema.org/duration> <http://schema.org/domainIncludes> <http://schema.org/MediaObject> <http://schema.org/> .
 <http://schema.org/duration> <http://schema.org/domainIncludes> <http://schema.org/Movie> <http://schema.org/> .
@@ -8782,8 +9183,16 @@
 <http://schema.org/expectsAcceptanceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/expectsAcceptanceOf> <http://www.w3.org/2000/01/rdf-schema#comment> "An Offer which must be accepted before the user can perform the Action. For example, the user may need to buy a movie before being able to watch it." <http://schema.org/> .
 <http://schema.org/expectsAcceptanceOf> <http://www.w3.org/2000/01/rdf-schema#label> "expectsAcceptanceOf" <http://schema.org/> .
+<http://schema.org/experienceInPlaceOfEducation> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
+<http://schema.org/experienceInPlaceOfEducation> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/experienceInPlaceOfEducation> <http://schema.org/rangeIncludes> <http://schema.org/Boolean> <http://schema.org/> .
+<http://schema.org/experienceInPlaceOfEducation> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2681> <http://schema.org/> .
+<http://schema.org/experienceInPlaceOfEducation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/experienceInPlaceOfEducation> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether a [[JobPosting]] will accept experience (as indicated by [[OccupationalExperienceRequirements]]) in place of its formal educational qualifications (as indicated by [[educationRequirements]]). If true, indicates that satisfying one of these requirements is sufficient." <http://schema.org/> .
+<http://schema.org/experienceInPlaceOfEducation> <http://www.w3.org/2000/01/rdf-schema#label> "experienceInPlaceOfEducation" <http://schema.org/> .
 <http://schema.org/experienceRequirements> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
 <http://schema.org/experienceRequirements> <http://schema.org/domainIncludes> <http://schema.org/Occupation> <http://schema.org/> .
+<http://schema.org/experienceRequirements> <http://schema.org/rangeIncludes> <http://schema.org/OccupationalExperienceRequirements> <http://schema.org/> .
 <http://schema.org/experienceRequirements> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/experienceRequirements> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1698> <http://schema.org/> .
 <http://schema.org/experienceRequirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -9287,7 +9696,7 @@
 <http://schema.org/gtin8> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/gtin8> <http://schema.org/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms> <http://schema.org/> .
 <http://schema.org/gtin8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/gtin8> <http://www.w3.org/2000/01/rdf-schema#comment> "The [GTIN-8](http://apps.gs1.org/GDD/glossary/Pages/GTIN-8.aspx) code of the product, or the product to which the offer refers. This code is also known as EAN/UCC-8 or 8-digit EAN. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details." <http://schema.org/> .
+<http://schema.org/gtin8> <http://www.w3.org/2000/01/rdf-schema#comment> "The GTIN-8 code of the product, or the product to which the offer refers. This code is also known as EAN/UCC-8 or 8-digit EAN. See [GS1 GTIN Summary](http://www.gs1.org/barcodes/technical/idkeys/gtin) for more details." <http://schema.org/> .
 <http://schema.org/gtin8> <http://www.w3.org/2000/01/rdf-schema#label> "gtin8" <http://schema.org/> .
 <http://schema.org/gtin8> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/gtin> <http://schema.org/> .
 <http://schema.org/gtin8> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/identifier> <http://schema.org/> .
@@ -9391,14 +9800,14 @@
 <http://schema.org/hasEnergyConsumptionDetails> <http://schema.org/rangeIncludes> <http://schema.org/EnergyConsumptionDetails> <http://schema.org/> .
 <http://schema.org/hasEnergyConsumptionDetails> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/hasEnergyConsumptionDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/hasEnergyConsumptionDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the energy efficiency Category (also known as \"class\" or \"rating\") for a product according to an international energy efficiency standard" <http://schema.org/> .
+<http://schema.org/hasEnergyConsumptionDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the energy efficiency Category (also known as \"class\" or \"rating\") for a product according to an international energy efficiency standard." <http://schema.org/> .
 <http://schema.org/hasEnergyConsumptionDetails> <http://www.w3.org/2000/01/rdf-schema#label> "hasEnergyConsumptionDetails" <http://schema.org/> .
 <http://schema.org/hasEnergyEfficiencyCategory> <http://schema.org/domainIncludes> <http://schema.org/EnergyConsumptionDetails> <http://schema.org/> .
 <http://schema.org/hasEnergyEfficiencyCategory> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/hasEnergyEfficiencyCategory> <http://schema.org/rangeIncludes> <http://schema.org/EnergyEfficiencyEnumeration> <http://schema.org/> .
 <http://schema.org/hasEnergyEfficiencyCategory> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2670> <http://schema.org/> .
 <http://schema.org/hasEnergyEfficiencyCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/hasEnergyEfficiencyCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the energy efficiency Category (which could be either a rating out of range of values or a yes/no certification) for a product according to an international energy efficiency standard" <http://schema.org/> .
+<http://schema.org/hasEnergyEfficiencyCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the energy efficiency Category (which could be either a rating out of range of values or a yes/no certification) for a product according to an international energy efficiency standard." <http://schema.org/> .
 <http://schema.org/hasEnergyEfficiencyCategory> <http://www.w3.org/2000/01/rdf-schema#label> "hasEnergyEfficiencyCategory" <http://schema.org/> .
 <http://schema.org/hasHealthAspect> <http://schema.org/domainIncludes> <http://schema.org/HealthTopicContent> <http://schema.org/> .
 <http://schema.org/hasHealthAspect> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
@@ -9413,6 +9822,15 @@
 <http://schema.org/hasMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/hasMap> <http://www.w3.org/2000/01/rdf-schema#comment> "A URL to a map of the place." <http://schema.org/> .
 <http://schema.org/hasMap> <http://www.w3.org/2000/01/rdf-schema#label> "hasMap" <http://schema.org/> .
+<http://schema.org/hasMeasurement> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
+<http://schema.org/hasMeasurement> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
+<http://schema.org/hasMeasurement> <http://schema.org/domainIncludes> <http://schema.org/SizeSpecification> <http://schema.org/> .
+<http://schema.org/hasMeasurement> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/hasMeasurement> <http://schema.org/rangeIncludes> <http://schema.org/QuantitativeValue> <http://schema.org/> .
+<http://schema.org/hasMeasurement> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/hasMeasurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/hasMeasurement> <http://www.w3.org/2000/01/rdf-schema#comment> "A product measurement, for example the inseam of pants, the wheel size of a bicycle, or the gauge of a screw. Usually an exact measurement, but can also be a range of measurements for adjustable products, for example belts and ski bindings." <http://schema.org/> .
+<http://schema.org/hasMeasurement> <http://www.w3.org/2000/01/rdf-schema#label> "hasMeasurement" <http://schema.org/> .
 <http://schema.org/hasMenu> <http://schema.org/domainIncludes> <http://schema.org/FoodEstablishment> <http://schema.org/> .
 <http://schema.org/hasMenu> <http://schema.org/rangeIncludes> <http://schema.org/Menu> <http://schema.org/> .
 <http://schema.org/hasMenu> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -9866,6 +10284,7 @@
 <http://schema.org/ineligibleRegion> <http://schema.org/domainIncludes> <http://schema.org/ActionAccessSpecification> <http://schema.org/> .
 <http://schema.org/ineligibleRegion> <http://schema.org/domainIncludes> <http://schema.org/DeliveryChargeSpecification> <http://schema.org/> .
 <http://schema.org/ineligibleRegion> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .
+<http://schema.org/ineligibleRegion> <http://schema.org/domainIncludes> <http://schema.org/MediaObject> <http://schema.org/> .
 <http://schema.org/ineligibleRegion> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
 <http://schema.org/ineligibleRegion> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/ineligibleRegion> <http://schema.org/rangeIncludes> <http://schema.org/GeoShape> <http://schema.org/> .
@@ -10045,7 +10464,7 @@
 <http://schema.org/isLiveBroadcast> <http://schema.org/domainIncludes> <http://schema.org/BroadcastEvent> <http://schema.org/> .
 <http://schema.org/isLiveBroadcast> <http://schema.org/rangeIncludes> <http://schema.org/Boolean> <http://schema.org/> .
 <http://schema.org/isLiveBroadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/isLiveBroadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "True is the broadcast is of a live event." <http://schema.org/> .
+<http://schema.org/isLiveBroadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "True if the broadcast is of a live event." <http://schema.org/> .
 <http://schema.org/isLiveBroadcast> <http://www.w3.org/2000/01/rdf-schema#label> "isLiveBroadcast" <http://schema.org/> .
 <http://schema.org/isPartOf> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/isPartOf> <http://schema.org/inverseOf> <http://schema.org/hasPart> <http://schema.org/> .
@@ -10775,7 +11194,7 @@
 <http://schema.org/maps> <http://www.w3.org/2000/01/rdf-schema#label> "maps" <http://schema.org/> .
 <http://schema.org/marginOfError> <http://schema.org/domainIncludes> <http://schema.org/Observation> <http://schema.org/> .
 <http://schema.org/marginOfError> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
-<http://schema.org/marginOfError> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
+<http://schema.org/marginOfError> <http://schema.org/rangeIncludes> <http://schema.org/QuantitativeValue> <http://schema.org/> .
 <http://schema.org/marginOfError> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2291> <http://schema.org/> .
 <http://schema.org/marginOfError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/marginOfError> <http://www.w3.org/2000/01/rdf-schema#comment> "A marginOfError for an [[Observation]]." <http://schema.org/> .
@@ -11099,6 +11518,13 @@
 <http://schema.org/monthlyMinimumRepaymentAmount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/monthlyMinimumRepaymentAmount> <http://www.w3.org/2000/01/rdf-schema#comment> "The minimum payment is the lowest amount of money that one is required to pay on a credit card statement each month." <http://schema.org/> .
 <http://schema.org/monthlyMinimumRepaymentAmount> <http://www.w3.org/2000/01/rdf-schema#label> "monthlyMinimumRepaymentAmount" <http://schema.org/> .
+<http://schema.org/monthsOfExperience> <http://schema.org/domainIncludes> <http://schema.org/OccupationalExperienceRequirements> <http://schema.org/> .
+<http://schema.org/monthsOfExperience> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/monthsOfExperience> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
+<http://schema.org/monthsOfExperience> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2681> <http://schema.org/> .
+<http://schema.org/monthsOfExperience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/monthsOfExperience> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the minimal number of months of experience required for a position." <http://schema.org/> .
+<http://schema.org/monthsOfExperience> <http://www.w3.org/2000/01/rdf-schema#label> "monthsOfExperience" <http://schema.org/> .
 <http://schema.org/mpn> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .
 <http://schema.org/mpn> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
 <http://schema.org/mpn> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
@@ -12843,7 +13269,7 @@
 <http://schema.org/repeatFrequency> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/repeatFrequency> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1457> <http://schema.org/> .
 <http://schema.org/repeatFrequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/repeatFrequency> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the frequency at which [[Events]] will occur according to a schedule [[Schedule]]. The intervals between\n      events should be defined as a [[Duration]] of time." <http://schema.org/> .
+<http://schema.org/repeatFrequency> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the frequency at which [[Event]]s will occur according to a schedule [[Schedule]]. The intervals between\n      events should be defined as a [[Duration]] of time." <http://schema.org/> .
 <http://schema.org/repeatFrequency> <http://www.w3.org/2000/01/rdf-schema#label> "repeatFrequency" <http://schema.org/> .
 <http://schema.org/repeatFrequency> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/frequency> <http://schema.org/> .
 <http://schema.org/repetitions> <http://schema.org/domainIncludes> <http://schema.org/ExercisePlan> <http://schema.org/> .
@@ -13152,7 +13578,7 @@
 <http://schema.org/schemaVersion> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/schemaVersion> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
 <http://schema.org/schemaVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/schemaVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates (by URL or string) a particular version of a schema used in some CreativeWork. For example, a document could declare a schemaVersion using an URL such as http://schema.org/version/2.0/ if precise indication of schema version was required by some application. " <http://schema.org/> .
+<http://schema.org/schemaVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates (by URL or string) a particular version of a schema used in some CreativeWork. This property was created primarily to\n    indicate the use of a specific schema.org release, e.g. ```10.0``` as a simple string, or more explicitly via URL, ```http://schema.org/docs/releases.html#v10.0```. There may be situations in which other schemas might usefully be referenced this way, e.g. ```http://dublincore.org/specifications/dublin-core/dces/1999-07-02/``` but this has not been carefully explored in the community." <http://schema.org/> .
 <http://schema.org/schemaVersion> <http://www.w3.org/2000/01/rdf-schema#label> "schemaVersion" <http://schema.org/> .
 <http://schema.org/schoolClosuresInfo> <http://schema.org/domainIncludes> <http://schema.org/SpecialAnnouncement> <http://schema.org/> .
 <http://schema.org/schoolClosuresInfo> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
@@ -13489,11 +13915,28 @@
 <http://schema.org/size> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/size> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
 <http://schema.org/size> <http://schema.org/rangeIncludes> <http://schema.org/QuantitativeValue> <http://schema.org/> .
+<http://schema.org/size> <http://schema.org/rangeIncludes> <http://schema.org/SizeSpecification> <http://schema.org/> .
 <http://schema.org/size> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/size> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1797> <http://schema.org/> .
 <http://schema.org/size> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/size> <http://www.w3.org/2000/01/rdf-schema#comment> "A standardized size of a product or creative work, often simplifying richer information into a simple textual string, either through referring to named sizes or (in the case of product markup), by adopting conventional simplifications. Use of QuantitativeValue with a unitCode or unitText can add more structure; in other cases, the /width, /height, /depth and /weight properties may be more applicable. " <http://schema.org/> .
+<http://schema.org/size> <http://www.w3.org/2000/01/rdf-schema#comment> "A standardized size of a product or creative work, specified either through a simple textual string (for example 'XL', '32Wx34L'), a  QuantitativeValue with a unitCode, or a comprehensive and structured [[SizeSpecification]]; in other cases, the [[width]], [[height]], [[depth]] and [[weight]] properties may be more applicable. " <http://schema.org/> .
 <http://schema.org/size> <http://www.w3.org/2000/01/rdf-schema#label> "size" <http://schema.org/> .
+<http://schema.org/sizeGroup> <http://schema.org/domainIncludes> <http://schema.org/SizeSpecification> <http://schema.org/> .
+<http://schema.org/sizeGroup> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/sizeGroup> <http://schema.org/rangeIncludes> <http://schema.org/SizeGroupEnumeration> <http://schema.org/> .
+<http://schema.org/sizeGroup> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/sizeGroup> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/sizeGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/sizeGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "The size group (also known as \"size type\") for a product's size. Size groups are common in the fashion industry to define size segments and suggested audiences for wearable products. Multiple values can be combined, for example \"men's big and tall\", \"petite maternity\" or \"regular\"" <http://schema.org/> .
+<http://schema.org/sizeGroup> <http://www.w3.org/2000/01/rdf-schema#label> "sizeGroup" <http://schema.org/> .
+<http://schema.org/sizeSystem> <http://schema.org/domainIncludes> <http://schema.org/SizeSpecification> <http://schema.org/> .
+<http://schema.org/sizeSystem> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/sizeSystem> <http://schema.org/rangeIncludes> <http://schema.org/SizeSystemEnumeration> <http://schema.org/> .
+<http://schema.org/sizeSystem> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/sizeSystem> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/sizeSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/sizeSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "The size system used to identify a product's size. Typically either a standard (for example, \"GS1\" or \"ISO-EN13402\"), country code (for example \"US\" or \"JP\"), or a measuring system (for example \"Metric\" or \"Imperial\")." <http://schema.org/> .
+<http://schema.org/sizeSystem> <http://www.w3.org/2000/01/rdf-schema#label> "sizeSystem" <http://schema.org/> .
 <http://schema.org/skills> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
 <http://schema.org/skills> <http://schema.org/domainIncludes> <http://schema.org/Occupation> <http://schema.org/> .
 <http://schema.org/skills> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
@@ -13886,6 +14329,14 @@
 <http://schema.org/sugarContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/sugarContent> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of grams of sugar." <http://schema.org/> .
 <http://schema.org/sugarContent> <http://www.w3.org/2000/01/rdf-schema#label> "sugarContent" <http://schema.org/> .
+<http://schema.org/suggestedAge> <http://schema.org/domainIncludes> <http://schema.org/PeopleAudience> <http://schema.org/> .
+<http://schema.org/suggestedAge> <http://schema.org/domainIncludes> <http://schema.org/SizeSpecification> <http://schema.org/> .
+<http://schema.org/suggestedAge> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/suggestedAge> <http://schema.org/rangeIncludes> <http://schema.org/QuantitativeValue> <http://schema.org/> .
+<http://schema.org/suggestedAge> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/suggestedAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/suggestedAge> <http://www.w3.org/2000/01/rdf-schema#comment> "The age or age range for the intended audience or person, for example 3-12 months for infants, 1-5 years for toddlers." <http://schema.org/> .
+<http://schema.org/suggestedAge> <http://www.w3.org/2000/01/rdf-schema#label> "suggestedAge" <http://schema.org/> .
 <http://schema.org/suggestedAnswer> <http://schema.org/domainIncludes> <http://schema.org/Question> <http://schema.org/> .
 <http://schema.org/suggestedAnswer> <http://schema.org/rangeIncludes> <http://schema.org/Answer> <http://schema.org/> .
 <http://schema.org/suggestedAnswer> <http://schema.org/rangeIncludes> <http://schema.org/ItemList> <http://schema.org/> .
@@ -13893,19 +14344,29 @@
 <http://schema.org/suggestedAnswer> <http://www.w3.org/2000/01/rdf-schema#comment> "An answer (possibly one of several, possibly incorrect) to a Question, e.g. on a Question/Answer site." <http://schema.org/> .
 <http://schema.org/suggestedAnswer> <http://www.w3.org/2000/01/rdf-schema#label> "suggestedAnswer" <http://schema.org/> .
 <http://schema.org/suggestedGender> <http://schema.org/domainIncludes> <http://schema.org/PeopleAudience> <http://schema.org/> .
+<http://schema.org/suggestedGender> <http://schema.org/domainIncludes> <http://schema.org/SizeSpecification> <http://schema.org/> .
+<http://schema.org/suggestedGender> <http://schema.org/rangeIncludes> <http://schema.org/GenderType> <http://schema.org/> .
 <http://schema.org/suggestedGender> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/suggestedGender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/suggestedGender> <http://www.w3.org/2000/01/rdf-schema#comment> "The gender of the person or audience." <http://schema.org/> .
+<http://schema.org/suggestedGender> <http://www.w3.org/2000/01/rdf-schema#comment> "The suggested gender of the intended person or audience, for example \"male\", \"female\", or \"unisex\"." <http://schema.org/> .
 <http://schema.org/suggestedGender> <http://www.w3.org/2000/01/rdf-schema#label> "suggestedGender" <http://schema.org/> .
 <http://schema.org/suggestedMaxAge> <http://schema.org/domainIncludes> <http://schema.org/PeopleAudience> <http://schema.org/> .
 <http://schema.org/suggestedMaxAge> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
 <http://schema.org/suggestedMaxAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/suggestedMaxAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Maximal age recommended for viewing content." <http://schema.org/> .
+<http://schema.org/suggestedMaxAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Maximum recommended age in years for the audience or user." <http://schema.org/> .
 <http://schema.org/suggestedMaxAge> <http://www.w3.org/2000/01/rdf-schema#label> "suggestedMaxAge" <http://schema.org/> .
+<http://schema.org/suggestedMeasurement> <http://schema.org/domainIncludes> <http://schema.org/PeopleAudience> <http://schema.org/> .
+<http://schema.org/suggestedMeasurement> <http://schema.org/domainIncludes> <http://schema.org/SizeSpecification> <http://schema.org/> .
+<http://schema.org/suggestedMeasurement> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/suggestedMeasurement> <http://schema.org/rangeIncludes> <http://schema.org/QuantitativeValue> <http://schema.org/> .
+<http://schema.org/suggestedMeasurement> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2811> <http://schema.org/> .
+<http://schema.org/suggestedMeasurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/suggestedMeasurement> <http://www.w3.org/2000/01/rdf-schema#comment> "A suggested range of body measurements for the intended audience or person, for example inseam between 32 and 34 inches or height between 170 and 190 cm. Typically found on a size chart for wearable products." <http://schema.org/> .
+<http://schema.org/suggestedMeasurement> <http://www.w3.org/2000/01/rdf-schema#label> "suggestedMeasurement" <http://schema.org/> .
 <http://schema.org/suggestedMinAge> <http://schema.org/domainIncludes> <http://schema.org/PeopleAudience> <http://schema.org/> .
 <http://schema.org/suggestedMinAge> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
 <http://schema.org/suggestedMinAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/suggestedMinAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Minimal age recommended for viewing content." <http://schema.org/> .
+<http://schema.org/suggestedMinAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Minimum recommended age in years for the audience or user." <http://schema.org/> .
 <http://schema.org/suggestedMinAge> <http://www.w3.org/2000/01/rdf-schema#label> "suggestedMinAge" <http://schema.org/> .
 <http://schema.org/suitableForDiet> <http://schema.org/domainIncludes> <http://schema.org/MenuItem> <http://schema.org/> .
 <http://schema.org/suitableForDiet> <http://schema.org/domainIncludes> <http://schema.org/Recipe> <http://schema.org/> .
@@ -14603,14 +15064,17 @@
 <http://schema.org/valueReference> <http://schema.org/domainIncludes> <http://schema.org/PropertyValue> <http://schema.org/> .
 <http://schema.org/valueReference> <http://schema.org/domainIncludes> <http://schema.org/QualitativeValue> <http://schema.org/> .
 <http://schema.org/valueReference> <http://schema.org/domainIncludes> <http://schema.org/QuantitativeValue> <http://schema.org/> .
+<http://schema.org/valueReference> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
 <http://schema.org/valueReference> <http://schema.org/rangeIncludes> <http://schema.org/Enumeration> <http://schema.org/> .
+<http://schema.org/valueReference> <http://schema.org/rangeIncludes> <http://schema.org/MeasurementTypeEnumeration> <http://schema.org/> .
 <http://schema.org/valueReference> <http://schema.org/rangeIncludes> <http://schema.org/PropertyValue> <http://schema.org/> .
 <http://schema.org/valueReference> <http://schema.org/rangeIncludes> <http://schema.org/QualitativeValue> <http://schema.org/> .
 <http://schema.org/valueReference> <http://schema.org/rangeIncludes> <http://schema.org/QuantitativeValue> <http://schema.org/> .
 <http://schema.org/valueReference> <http://schema.org/rangeIncludes> <http://schema.org/StructuredValue> <http://schema.org/> .
+<http://schema.org/valueReference> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/valueReference> <http://schema.org/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_GoodRelationsTerms> <http://schema.org/> .
 <http://schema.org/valueReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/valueReference> <http://www.w3.org/2000/01/rdf-schema#comment> "A pointer to a secondary value that provides additional information on the original value, e.g. a reference temperature." <http://schema.org/> .
+<http://schema.org/valueReference> <http://www.w3.org/2000/01/rdf-schema#comment> "A secondary value that provides additional information on the original value, e.g. a reference temperature or a type of measurement." <http://schema.org/> .
 <http://schema.org/valueReference> <http://www.w3.org/2000/01/rdf-schema#label> "valueReference" <http://schema.org/> .
 <http://schema.org/valueRequired> <http://schema.org/domainIncludes> <http://schema.org/PropertyValueSpecification> <http://schema.org/> .
 <http://schema.org/valueRequired> <http://schema.org/rangeIncludes> <http://schema.org/Boolean> <http://schema.org/> .

@@ -1,3 +1,25 @@
+# `v`
+
+## Removed prefix
+
+| Prefix  | #Quads |
+| ------- | ------ |
+| `qudtv` | 13797  |
+
+## New prefix
+
+| Prefix | #Quads |
+| ------ | ------ |
+| `unit` | 21164  |
+
+## Updated vocabularies
+
+| Prefix   | #Quads |
+| -------- | ------ |
+| `prefix` | 305    |
+| `qudt`   | 6815   |
+| `schema` | 15400  |
+
 # `v2021.3.8`
 
 ## New prefix
