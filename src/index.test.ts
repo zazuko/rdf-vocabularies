@@ -93,7 +93,16 @@ describe('shrink', () => {
     expect(shrink('http://www.w3.org/2000/01/rdf-schema#Class')).to.eq('rdfs:Class')
     expect(shrink('http://www.w3.org/1999/02/22-rdf-syntax-ns#Property')).to.eq('rdf:Property')
     expect(shrink('http://schema.org/Person')).to.eq('schema:Person')
-    expect(shrink('http://www.w3.org/2001/XMLSchema#dateTime')).to.eq('xsd:dateTime')
+
+    expect(shrink('http://qudt.org/vocab/constant/AlphaParticleMass')).to.eq('constant:AlphaParticleMass')
+    expect(shrink('http://qudt.org/vocab/discipline/AtomicPhysics')).to.eq('discipline:AtomicPhysics')
+    expect(shrink('http://qudt.org/2.1/vocab/prefix/Deka')).to.eq('prefix:Deka')
+    expect(shrink('http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T-4D0')).to.eq('qkdv:A0E0L2I0M0H0T-4D0')
+    expect(shrink('http://qudt.org/vocab/quantitykind/AngularCrossSection')).to.eq('quantitykind:AngularCrossSection')
+    expect(shrink('http://qudt.org/vocab/sou/SOU_PLANCK')).to.eq('sou:SOU_PLANCK')
+    expect(shrink('http://qudt.org/schema/qudt/baseImperialUnitDimensions')).to.eq('qudt:baseImperialUnitDimensions')
+    expect(shrink('https://www.ica.org/standards/RiC/ontology#Activity')).to.eq('rico:Activity')
+    expect(shrink('http://qudt.org/vocab/unit/KiloM')).to.eq('unit:KiloM')
   })
 
   it('is the inverse of expand', () => {
