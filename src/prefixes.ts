@@ -1,6 +1,6 @@
 const prefixes = {
   acl: 'http://www.w3.org/ns/auth/acl#',
-  as: 'http://www.w3.org/ns/activitystreams#',
+  as: 'https://www.w3.org/ns/activitystreams#',
   cc: 'http://creativecommons.org/ns#',
   cnt: 'http://www.w3.org/2011/content#',
   constant: 'http://qudt.org/vocab/constant/',
