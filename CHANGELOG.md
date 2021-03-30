@@ -1,3 +1,13 @@
+# `v2021.3.31`
+
+## Updated vocabularies
+
+Fix `as` base URL.
+
+| Prefix | #Quads |
+| ------ | ------ |
+| `as`   | 939    |
+
 # `v2021.3.30`
 
 ## Updated vocabularies
