@@ -1,3 +1,11 @@
+# `v2021.3.30`
+
+## Updated vocabularies
+
+| Prefix | #Quads |
+| ------ | ------ |
+| `as`   | 939    |
+
 # `v2021.3.17`
 
 ## New prefix
