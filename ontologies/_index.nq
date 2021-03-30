@@ -7,7 +7,7 @@
 <https://prefix.zazuko.com/as:> <http://purl.org/dc/terms/description> "Extended Activity Streams 2.0 Vocabulary" .
 <https://prefix.zazuko.com/as:> <http://purl.org/dc/terms/title> "Activity Streams 2.0" .
 <https://prefix.zazuko.com/as:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
-<https://prefix.zazuko.com/as:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/ns/activitystreams-owl.ttl> .
+<https://prefix.zazuko.com/as:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl> .
 <https://prefix.zazuko.com/as:> <http://www.w3.org/ns/rdfa#prefix> "as" .
 <https://prefix.zazuko.com/as:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/activitystreams#> .
 <https://prefix.zazuko.com/cc:> <http://dbpedia.org/ontology/filename> "ontologies/cc.nq" .
