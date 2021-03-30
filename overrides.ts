@@ -12,7 +12,7 @@ export interface Override extends FileSpec {
 }
 
 export const overrides: Record<string, Override> = {
-  as: { file: 'https://www.w3.org/ns/activitystreams-owl.ttl', mediaType: 'text/turtle' },
+  as: { file: 'https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl', mediaType: 'text/turtle' },
   dbo: {
     files: [{
       mediaType: 'text/n3',
