@@ -105,6 +105,17 @@
 <http://qudt.org/vocab/quantitykind/Acceleration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Acceleration> <http://www.w3.org/2000/01/rdf-schema#label> "Acceleration"@en <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Acceleration> <http://www.w3.org/2002/07/owl#sameAs> <http://qudt.org/vocab/quantitykind/LinearAcceleration> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-SEC2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-SEC2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/G> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/GAL> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/IN-PER-SEC2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KN-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloPA-M2-PER-GM> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-SEC2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroG> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliG> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliGAL> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/plainTextDescription> "The acceleration of freely falling bodies under the influence of terrestrial gravity, equal to approximately 9.81 meters (32 feet) per second per second." <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://qudt.org/schema/qudt/symbol> "g" <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/AccelerationOfGravity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityKind> <http://qudt.org/vocab/quantitykind/> .
@@ -860,6 +871,7 @@
 <http://qudt.org/vocab/quantitykind/Area> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIL_Circ> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Area> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Area> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Area> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Area> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckArea> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Area> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YD2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Area> <http://qudt.org/schema/qudt/baseCGSUnitDimensions> "cm^2" <http://qudt.org/vocab/quantitykind/> .
@@ -1057,6 +1069,7 @@
 <http://qudt.org/vocab/quantitykind/AtomicAttenuationCoefficient> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIL_Circ> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/AtomicAttenuationCoefficient> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/AtomicAttenuationCoefficient> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/AtomicAttenuationCoefficient> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/AtomicAttenuationCoefficient> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckArea> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/AtomicAttenuationCoefficient> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YD2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/AtomicAttenuationCoefficient> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T0D0> <http://qudt.org/vocab/quantitykind/> .
@@ -1616,6 +1629,31 @@
 <http://qudt.org/vocab/quantitykind/BurgersVector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/BurgersVector> <http://www.w3.org/2000/01/rdf-schema#label> "Burgers Vector"@en <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/BurgersVector> <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/vocab/quantitykind/Length> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-KiloYR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/GigaHZ-M> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/IN-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-YR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/BurnRate> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-YR> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/BurnRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityKind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/BurnRate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.1/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/BurnRate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
@@ -1979,49 +2017,49 @@
 <http://qudt.org/vocab/quantitykind/Capacity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.1/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Capacity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Capacity> <http://www.w3.org/2000/01/rdf-schema#label> "Capacity"@en <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiPOISE-PER-BAR> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/DAY> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/DAY_Sidereal> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/H-PER-KiloOHM> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/H-PER-OHM> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/HR> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/HR_Sidereal> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloSEC> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIN> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIN_Sidereal> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MO> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MO_MeanGREGORIAN> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MO_MeanJulian> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MO_Synodic> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MegaYR> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroH-PER-KiloOHM> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroH-PER-OHM> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroSEC> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliH-PER-KiloOHM> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliH-PER-OHM> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliPA-SEC-PER-BAR> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliSEC> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoSEC> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PA-SEC-PER-BAR> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/POISE-PER-BAR> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PicoSEC> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckTime> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/SEC> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/SH> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/WK> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YR> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YR_Common> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YR_Sidereal> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YR_TROPICAL> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/informativeReference> "http://en.wikipedia.org/wiki/Carrier_lifetime"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/isoNormativeReference> "http://www.iso.org/iso/catalogue_detail?csnumber=31897"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/latexSymbol> "\\(\\tau, \\tau_n, \\tau_p\\)"^^<http://qudt.org/schema/qudt/LatexString> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://qudt.org/schema/qudt/plainTextDescription> "\"Carrier LifetIme\" is a time constant for recombination or trapping of minority charge carriers in semiconductors." <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityKind> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.1/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://www.w3.org/2000/01/rdf-schema#label> "Carrier LifetIme"@en <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind/CarrierLifetIme> <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/vocab/quantitykind/Time> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiPOISE-PER-BAR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/DAY_Sidereal> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/H-PER-KiloOHM> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/H-PER-OHM> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/HR_Sidereal> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloSEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIN_Sidereal> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MO> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MO_MeanGREGORIAN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MO_MeanJulian> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MO_Synodic> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MegaYR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroH-PER-KiloOHM> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroH-PER-OHM> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroSEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliH-PER-KiloOHM> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliH-PER-OHM> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliPA-SEC-PER-BAR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliSEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoSEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PA-SEC-PER-BAR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/POISE-PER-BAR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PicoSEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckTime> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/SH> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/WK> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YR_Common> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YR_Sidereal> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YR_TROPICAL> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/informativeReference> "http://en.wikipedia.org/wiki/Carrier_lifetime"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/isoNormativeReference> "http://www.iso.org/iso/catalogue_detail?csnumber=31897"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/latexSymbol> "\\(\\tau, \\tau_n, \\tau_p\\)"^^<http://qudt.org/schema/qudt/LatexString> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://qudt.org/schema/qudt/plainTextDescription> "\"Carrier LifetIme\" is a time constant for recombination or trapping of minority charge carriers in semiconductors." <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityKind> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.1/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://www.w3.org/2000/01/rdf-schema#label> "Carrier LifetIme"@en <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CarrierLifetime> <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/vocab/quantitykind/Time> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CartesianArea> <http://qudt.org/schema/qudt/abbreviation> "area" <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CartesianArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/AC> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CartesianArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/ARE> <http://qudt.org/vocab/quantitykind/> .
@@ -2037,6 +2075,7 @@
 <http://qudt.org/vocab/quantitykind/CartesianArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIL_Circ> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CartesianArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CartesianArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CartesianArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CartesianArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckArea> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CartesianArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YD2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CartesianArea> <http://qudt.org/schema/qudt/hasDimension> <http://qudt.org/schema/qudt/DIM_CGS-L2> <http://qudt.org/vocab/quantitykind/> .
@@ -2487,6 +2526,7 @@
 <http://qudt.org/vocab/quantitykind/CrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIL_Circ> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/CrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckArea> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YD2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/CrossSection> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T0D0> <http://qudt.org/vocab/quantitykind/> .
@@ -3135,6 +3175,7 @@
 <http://qudt.org/vocab/quantitykind/DiffusionArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIL_Circ> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/DiffusionArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/DiffusionArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/DiffusionArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/DiffusionArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckArea> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/DiffusionArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YD2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/DiffusionArea> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T0D0> <http://qudt.org/vocab/quantitykind/> .
@@ -3723,6 +3764,31 @@
 <http://qudt.org/vocab/quantitykind/DynamicViscosity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/DynamicViscosity> <http://www.w3.org/2000/01/rdf-schema#label> "Dynamic Viscosity"@en <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/DynamicViscosity> <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/vocab/quantitykind/Viscosity> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-KiloYR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/GigaHZ-M> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/IN-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-YR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-YR> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T-1D0> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://qudt.org/schema/qudt/symbol> "V_o" <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EarthClosestApproachVehicleVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityKind> <http://qudt.org/vocab/quantitykind/> .
@@ -4597,6 +4663,31 @@
 <http://qudt.org/vocab/quantitykind/ElementaryCharge> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/ElementaryCharge> <http://www.w3.org/2000/01/rdf-schema#label> "Elementary Charge"@en <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/ElementaryCharge> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://qudt.org/vocab/quantitykind/AtomicUnitOfCharge> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-KiloYR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/GigaHZ-M> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/IN-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-YR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-YR> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T-1D0> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/plainTextDescription> "Velocity at apogee for an elliptical orbit velocity" <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://qudt.org/schema/qudt/symbol> "V_a" <http://qudt.org/vocab/quantitykind/> .
@@ -4605,6 +4696,31 @@
 <http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://www.w3.org/2000/01/rdf-schema#label> "Elliptical Orbit Apogee Velocity"@en <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EllipticalOrbitApogeeVelocity> <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-KiloYR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/GigaHZ-M> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/IN-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-YR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-YR> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T-1D0> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/plainTextDescription> "Velocity at apogee for an elliptical orbit velocity." <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EllipticalOrbitPerigeeVelocity> <http://qudt.org/schema/qudt/symbol> "V_p" <http://qudt.org/vocab/quantitykind/> .
@@ -5189,6 +5305,7 @@
 <http://qudt.org/vocab/quantitykind/EquivalentAbsorptionArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIL_Circ> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EquivalentAbsorptionArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EquivalentAbsorptionArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/EquivalentAbsorptionArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EquivalentAbsorptionArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckArea> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EquivalentAbsorptionArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YD2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/EquivalentAbsorptionArea> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T0D0> <http://qudt.org/vocab/quantitykind/> .
@@ -8257,6 +8374,7 @@
 <http://qudt.org/vocab/quantitykind/MacroscopicCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIL_Circ> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MacroscopicCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MacroscopicCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/MacroscopicCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MacroscopicCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckArea> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MacroscopicCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YD2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MacroscopicCrossSection> <http://qudt.org/schema/qudt/informativeReference> "http://en.wikipedia.org/wiki/Cross_section_(physics)"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
@@ -8283,6 +8401,7 @@
 <http://qudt.org/vocab/quantitykind/MacroscopicTotalCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIL_Circ> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MacroscopicTotalCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MacroscopicTotalCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/MacroscopicTotalCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MacroscopicTotalCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckArea> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MacroscopicTotalCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YD2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MacroscopicTotalCrossSection> <http://qudt.org/schema/qudt/informativeReference> "http://en.wikipedia.org/wiki/Cross_section_(physics)"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
@@ -9555,6 +9674,7 @@
 <http://qudt.org/vocab/quantitykind/MigrationArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIL_Circ> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MigrationArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MigrationArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/MigrationArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MigrationArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckArea> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MigrationArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YD2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/MigrationArea> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T0D0> <http://qudt.org/vocab/quantitykind/> .
@@ -10216,6 +10336,7 @@
 <http://qudt.org/vocab/quantitykind/NozzleWallsThrustReaction> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/NozzleWallsThrustReaction> <http://www.w3.org/2000/01/rdf-schema#label> "Nozzle Walls Thrust Reaction"@en <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/NuclearQuadrupoleMoment> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/NuclearQuadrupoleMoment> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/NuclearQuadrupoleMoment> <http://qudt.org/schema/qudt/informativeReference> "http://en.wikipedia.org/wiki/Nuclear_quadrupole_resonance"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/NuclearQuadrupoleMoment> <http://qudt.org/schema/qudt/isoNormativeReference> "http://www.iso.org/iso/catalogue_detail?csnumber=31895"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/NuclearQuadrupoleMoment> <http://qudt.org/schema/qudt/latexDefinition> "\\(Q = (\\frac{1}{e}) \\int (3z^2 - r^2)\\rho(x, y, z)dV\\), in the quantum state with the nuclear spin in the field direction \\((z)\\), where \\(\\rho(x, y, z)\\) is the nuclear electric charge density, \\(e\\) is the elementary charge, \\(r^2 = x^2 + y^2 + z^2\\), and \\(dV\\) is the volume element \\(dx\\) \\(dy\\) \\(dz\\)."^^<http://qudt.org/schema/qudt/LatexString> <http://qudt.org/vocab/quantitykind/> .
@@ -12777,6 +12898,7 @@
 <http://qudt.org/vocab/quantitykind/Slowing-DownArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIL_Circ> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Slowing-DownArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Slowing-DownArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Slowing-DownArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Slowing-DownArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckArea> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Slowing-DownArea> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YD2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Slowing-DownArea> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T0D0> <http://qudt.org/vocab/quantitykind/> .
@@ -12967,6 +13089,17 @@
 <http://qudt.org/vocab/quantitykind/SoundIntensity> <http://www.w3.org/2000/01/rdf-schema#label> "Sound intensity"@en <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/SoundIntensity> <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/vocab/quantitykind/PowerPerArea> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://purl.org/dc/terms/description> "In a compressible sound transmission medium - mainly air - air particles get an accelerated motion: the particle acceleration or sound acceleration with the symbol a in \\(m/s2\\). In acoustics or physics, acceleration (symbol: \\(a\\)) is defined as the rate of change (or time derivative) of velocity."^^<http://qudt.org/schema/qudt/LatexString> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-SEC2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-SEC2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/G> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/GAL> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/IN-PER-SEC2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KN-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloPA-M2-PER-GM> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-SEC2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroG> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliG> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliGAL> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T-2D0> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/informativeReference> "http://en.wikipedia.org/wiki/Particle_acceleration"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/SoundParticleAcceleration> <http://qudt.org/schema/qudt/latexDefinition> "\\(a = \\frac{\\partial v}{\\partial t}\\), where \\(v\\) is sound particle velocity and \\(t\\) is time."^^<http://qudt.org/schema/qudt/LatexString> <http://qudt.org/vocab/quantitykind/> .
@@ -13491,6 +13624,31 @@
 <http://qudt.org/vocab/quantitykind/SpecificImpulse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/SpecificImpulse> <http://www.w3.org/2000/01/rdf-schema#label> "Specific Impulse"@en <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/SpecificImpulse> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://qudt.org/vocab/quantitykind/MassFlowRate> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-KiloYR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/GigaHZ-M> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/IN-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-YR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-YR> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T-1D0> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityKind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/SpecificImpulseByMass> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.1/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
@@ -14955,6 +15113,7 @@
 <http://qudt.org/vocab/quantitykind/TotalCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MIL_Circ> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/TotalCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/TotalCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM2> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/TotalCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/NanoM2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/TotalCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckArea> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/TotalCrossSection> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/YD2> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/TotalCrossSection> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T0D0> <http://qudt.org/vocab/quantitykind/> .
@@ -15001,6 +15160,7 @@
 <http://qudt.org/vocab/quantitykind/TotalIonization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/TotalIonization> <http://www.w3.org/2000/01/rdf-schema#label> "Total Ionization"@en <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/TotalLinearStoppingPower> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/ERG-PER-CentiM> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/TotalLinearStoppingPower> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/EV-PER-ANGSTROM> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/TotalLinearStoppingPower> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/EV-PER-M> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/TotalLinearStoppingPower> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/J-PER-M> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/TotalLinearStoppingPower> <http://qudt.org/schema/qudt/informativeReference> "http://en.wikipedia.org/wiki/Stopping_power_(particle_radiation)"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
@@ -15164,6 +15324,31 @@
 <http://qudt.org/vocab/quantitykind/VacuumThrust> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/VacuumThrust> <http://www.w3.org/2000/01/rdf-schema#label> "Vacuum Thrust"@en <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/VacuumThrust> <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/vocab/quantitykind/Thrust> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-KiloYR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/GigaHZ-M> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/IN-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-YR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-YR> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T-1D0> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://qudt.org/schema/qudt/symbol> "V" <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/VehicleVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityKind> <http://qudt.org/vocab/quantitykind/> .
@@ -15205,6 +15390,31 @@
 <http://qudt.org/vocab/quantitykind/Velocity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.1/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Velocity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Velocity> <http://www.w3.org/2000/01/rdf-schema#label> "Velocity"@en <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-KiloYR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/CentiM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/FT-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/GigaHZ-M> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/IN-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/M-PER-YR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MI_N-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-DAY> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-HR> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-MIN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-SEC> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliM-PER-YR> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/hasDimensionVector> <http://qudt.org/vocab/dimensionvector/A0E0L1I0M0H0T-1D0> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/plainTextDescription> "The rate at which a body moves upwards at an angle of 90 u00b0 to the ground. It is the component of a projectile's velocity which is concerned with lifting the projectile." <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/VerticalVelocity> <http://qudt.org/schema/qudt/symbol> "V_{Z}" <http://qudt.org/vocab/quantitykind/> .
@@ -15813,6 +16023,22 @@
 <http://qudt.org/vocab/quantitykind/WebTimeAverageThrust> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/WebTimeAverageThrust> <http://www.w3.org/2000/01/rdf-schema#label> "Web Time Average Thrust"@en <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/WebTimeAverageThrust> <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/vocab/quantitykind/Thrust> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/DYN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KIP_F> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloGM_F> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloP> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/KiloPOND> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/LB_F> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MegaLB_F> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MegaN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MicroN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/MilliN> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/N> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/OZ_F> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PDL> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/PlanckForce> <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/applicableUnit> <http://qudt.org/vocab/unit/TON_F_US> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/dbpediaMatch> "http://dbpedia.org/resource/Weight"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/plainTextDescription> "The force with which a body is attracted toward an astronomical body.  Or, the product of the mass of a body and the acceleration acting on a body.  In a dynamic situation, the weight can be a multiple of that under resting conditions. Weight also varies on other planets in accordance with their gravity." <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind/Weight> <http://qudt.org/schema/qudt/symbol> "bold letter W" <http://qudt.org/vocab/quantitykind/> .
@@ -15975,7 +16201,7 @@
 <http://qudt.org/vocab/quantitykind> <http://www.linkedmodel.org/schema/vaem#hasGraphMetadata> <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.1/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
-<http://qudt.org/vocab/quantitykind> <http://www.w3.org/2000/01/rdf-schema#label> "QUDT VOCAB Quantity Kinds  Release 2.1" <http://qudt.org/vocab/quantitykind/> .
+<http://qudt.org/vocab/quantitykind> <http://www.w3.org/2000/01/rdf-schema#label> "QUDT VOCAB Quantity Kinds  Release 2.1.10" <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind> <http://www.w3.org/2002/07/owl#imports> <http://qudt.org/2.1/schema/qudt> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind> <http://www.w3.org/2002/07/owl#imports> <http://qudt.org/2.1/vocab/dimensionvector> <http://qudt.org/vocab/quantitykind/> .
 <http://qudt.org/vocab/quantitykind> <http://www.w3.org/2002/07/owl#versionIRI> <http://qudt.org/2.1/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
@@ -15990,22 +16216,22 @@
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://purl.org/dc/terms/creator> "Ralph Hodgson" <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://purl.org/dc/terms/creator> "Steve Ray" <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://purl.org/dc/terms/description> "Provides the set of all quantity kinds."^^<http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML> <http://qudt.org/vocab/quantitykind/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://purl.org/dc/terms/modified> "2021-02-25T12:10:57.893-08:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://qudt.org/vocab/quantitykind/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://purl.org/dc/terms/modified> "2021-04-07T17:00:10.129-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://purl.org/dc/terms/rights> "The QUDT Ontologies are issued under a Creative Commons Attribution 4.0 International License (CC BY 4.0), available at https://creativecommons.org/licenses/by/4.0/. Attribution should be made to QUDT.org" <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://purl.org/dc/terms/subject> "QUANTITY-KINDS-ALL" <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#applicableDiscipline> "All disciplines" <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#applicableDomain> "Science, Medicine and Engineering" <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#dateCreated> "2019-08-01T21:26:38"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://qudt.org/vocab/quantitykind/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#graphTitle> "QUDT Quantity Kinds Version 2.1.9" <http://qudt.org/vocab/quantitykind/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#graphTitle> "QUDT Quantity Kinds Version 2.1.10" <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#hasGraphRole> <http://www.linkedmodel.org/schema/vaem#VocabularyGraph> <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#intent> "TBD" <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#isMetadataFor> <http://qudt.org/2.1/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#latestPublishedVersion> "http://www.qudt.org/doc/2021/02/DOC_VOCAB-QUANTITY-KINDS-ALL-v2.1.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#latestPublishedVersion> "http://www.qudt.org/doc/2021/04/DOC_VOCAB-QUANTITY-KINDS-ALL-v2.1.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#logo> "http://www.linkedmodel.org/lib/lm/images/logos/qudt_logo-300x110.png" <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#namespace> "http://qudt.org/vocab/quantitykind/" <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#namespacePrefix> "quantitykind" <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#owner> "qudt.org" <http://qudt.org/vocab/quantitykind/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#previousPublishedVersion> "http://www.qudt.org/doc/2021/01/DOC_VOCAB-QUANTITY-KINDS-ALL-v2.1.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#previousPublishedVersion> "http://www.qudt.org/doc/2021/03/DOC_VOCAB-QUANTITY-KINDS-ALL-v2.1.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#revision> "2.1" <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#specificity> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.linkedmodel.org/schema/vaem#turtleFileURL> "http://qudt.org/2.1/vocab/quantitykind" <http://qudt.org/vocab/quantitykind/> .
@@ -16033,4 +16259,4 @@
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphMetaData> <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.1/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind> <http://qudt.org/vocab/quantitykind/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.w3.org/2000/01/rdf-schema#label> "QUDT Quantity Kinds Vocabulary Version 2.1.9" <http://qudt.org/vocab/quantitykind/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-QUANTITY-KINDS-ALL> <http://www.w3.org/2000/01/rdf-schema#label> "QUDT Quantity Kinds Vocabulary Version 2.1.10" <http://qudt.org/vocab/quantitykind/> .

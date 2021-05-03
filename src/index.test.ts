@@ -96,7 +96,7 @@ describe('shrink', () => {
 
     expect(shrink('http://qudt.org/vocab/constant/AlphaParticleMass')).to.eq('constant:AlphaParticleMass')
     expect(shrink('http://qudt.org/vocab/discipline/AtomicPhysics')).to.eq('discipline:AtomicPhysics')
-    expect(shrink('http://qudt.org/2.1/vocab/prefix/Deka')).to.eq('prefix:Deka')
+    expect(shrink('http://qudt.org/vocab/prefix/Deka')).to.eq('prefix:Deka')
     expect(shrink('http://qudt.org/vocab/dimensionvector/A0E0L2I0M0H0T-4D0')).to.eq('qkdv:A0E0L2I0M0H0T-4D0')
     expect(shrink('http://qudt.org/vocab/quantitykind/AngularCrossSection')).to.eq('quantitykind:AngularCrossSection')
     expect(shrink('http://qudt.org/vocab/sou/SOU_PLANCK')).to.eq('sou:SOU_PLANCK')

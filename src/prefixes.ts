@@ -38,7 +38,7 @@ const prefixes = {
   og: 'http://ogp.me/ns#',
   org: 'http://www.w3.org/ns/org#',
   owl: 'http://www.w3.org/2002/07/owl#',
-  prefix: 'http://qudt.org/2.1/vocab/prefix/',
+  prefix: 'http://qudt.org/vocab/prefix/',
   prov: 'http://www.w3.org/ns/prov#',
   qb: 'http://purl.org/linked-data/cube#',
   qkdv: 'http://qudt.org/vocab/dimensionvector/',
