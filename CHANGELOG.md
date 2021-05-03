@@ -1,3 +1,23 @@
+# `v2021.5.3`
+
+## Updated vocabularies
+
+Fix `prefix` base URL: `http://qudt.org/2.1/vocab/prefix/` -> `http://qudt.org/vocab/prefix/`
+
+| Prefix         | #Quads |
+| -------------- | ------ |
+| `as`           | 939    |
+| `constant`     | 5387   |
+| `geof`         | 37     |
+| `geor`         | 26     |
+| `hydra`        | 467    |
+| `prefix`       | 305    |
+| `qkdv`         | 3119   |
+| `quantitykind` | 16262  |
+| `qudt`         | 6815   |
+| `sou`          | 210    |
+| `unit`         | 21203  |
+
 # `v2021.3.31`
 
 ## Updated vocabularies
