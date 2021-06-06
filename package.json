@@ -54,7 +54,7 @@
   ],
   "scripts": {
     "prefetch": "mkdirp ontologies",
-    "fetch": "ts-node fetch.ts --prefixServer https://prefix.example.com/",
+    "fetch": "ts-node fetch.ts --indexBase https://prefix.zazuko.com/",
     "lint": "eslint . --ext .js,.ts --ignore-path .gitignore --quiet",
     "pretest": "npm run lint",
     "test": "c8 -i src mocha src/index.test.ts",

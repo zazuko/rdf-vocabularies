@@ -196,7 +196,7 @@ function generateIndex (subject: NamedNode, mappings: any, dataset: DatasetExt) 
   return prefixDataset
 }
 
-async function main (prefixesToDownload: string[], { prefixServer }: { prefixServer: string }) {
+async function main (prefixesToDownload: string[], { indexBase }: { indexBase: string }) {
   const indexPath = './ontologies/_index.nq'
   let existingIndex
   if (fs.existsSync(indexPath)) {
@@ -235,7 +235,7 @@ async function main (prefixesToDownload: string[], { prefixServer }: { prefixSer
       fs.writeFileSync(file, dataset.toCanonical())
       console.log(`${mappings.prefix}: wrote ${dataset.size} quads to ${file}`)
 
-      const indexSubject = rdf.namedNode(`${prefixServer}${mappings.prefix}:`)
+      const indexSubject = rdf.namedNode(`${indexBase}${mappings.prefix}:`)
       indexDataset.removeMatches(indexSubject, null, null, null)
       indexDataset = indexDataset.merge(generateIndex(indexSubject, mappings, dataset))
     }
@@ -246,7 +246,7 @@ async function main (prefixesToDownload: string[], { prefixServer }: { prefixSer
 
 Program
   .command('prefixes [prefixesToDownload...]', { isDefault: true })
-  .requiredOption('--prefixServer <prefixServer>')
+  .requiredOption('--indexBase <indexBase>', 'Base URI of the index graph for a Zazuko Prefix Server')
   .action(main)
 
 Program.parse(process.argv)
