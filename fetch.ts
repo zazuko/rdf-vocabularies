@@ -1,4 +1,5 @@
 import fs from 'fs'
+import Program from 'commander'
 import rdf from 'rdf-ext'
 import formats from '@rdfjs/formats-common'
 import rdfFetch, { FactoryInit, DatasetResponse } from '@rdfjs/fetch-lite'
@@ -6,6 +7,7 @@ import { RdfXmlParser } from 'rdfxml-streaming-parser'
 import { expand, loadFile, prefixes } from './src'
 import { NamedNode } from 'rdf-js'
 import DatasetExt from 'rdf-ext/lib/Dataset'
+import rawFetch from './src/fetch'
 import { overrides, Override } from './overrides'
 
 interface Prefix {
@@ -51,7 +53,7 @@ async function wait (milliseconds: number) {
 function fetchWrapper (url: string, options: FactoryInit<DatasetExt>, timeout: number) {
   // source: https://stackoverflow.com/a/46946588/4359369
   return new Promise((resolve, reject) => {
-    rdfFetch <DatasetExt>(url, { ...fetchOptions(options) }).then(resolve, reject)
+    rdfFetch <DatasetExt>(url, { ...fetchOptions(options), fetch: rawFetch }).then(resolve, reject)
 
     if (timeout) {
       const e = new Error('Connection timed out')
@@ -194,9 +196,7 @@ function generateIndex (subject: NamedNode, mappings: any, dataset: DatasetExt) 
   return prefixDataset
 }
 
-async function main () {
-  const prefixesToDownload = process.argv.slice(2)
-
+async function main (prefixesToDownload: string[], { prefixServer }: { prefixServer: string }) {
   const indexPath = './ontologies/_index.nq'
   let existingIndex
   if (fs.existsSync(indexPath)) {
@@ -235,7 +235,7 @@ async function main () {
       fs.writeFileSync(file, dataset.toCanonical())
       console.log(`${mappings.prefix}: wrote ${dataset.size} quads to ${file}`)
 
-      const indexSubject = rdf.namedNode(`https://prefix.zazuko.com/${mappings.prefix}:`)
+      const indexSubject = rdf.namedNode(`${prefixServer}${mappings.prefix}:`)
       indexDataset.removeMatches(indexSubject, null, null, null)
       indexDataset = indexDataset.merge(generateIndex(indexSubject, mappings, dataset))
     }
@@ -244,4 +244,9 @@ async function main () {
   fs.writeFileSync(indexPath, indexDataset.toCanonical())
 }
 
-Promise.resolve().then(() => main())
+Program
+  .command('prefixes [prefixesToDownload...]', { isDefault: true })
+  .requiredOption('--prefixServer <prefixServer>')
+  .action(main)
+
+Program.parse(process.argv)
