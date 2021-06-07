@@ -287,7 +287,8 @@ in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popu
 ### Steps to add a prefix
 
 1. Add an entry in [`src/prefixes.ts`](src/prefixes.ts)
-1. If necessary, add an entry to [`overrides.ts`](overrides.ts) similar to the others
+1. If necessary, add an entry to [`overrides.ts`](overrides.ts), similar to the others
+   * for the `file` option, a `file:` scheme IRI can be used, with path relative to the repository root
 1. Run `npm run fetch -- <prefix>` with the prefix passed as parameter.
    * multiple prefixes can also be to fetch multiple ontologies
 1. Commit changes and submit a PR
