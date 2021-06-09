@@ -1,3 +1,7 @@
+# vNext
+
+Export interface of prefixes, which allows type augmentation
+
 # `v2021.5.3`
 
 ## Updated vocabularies
