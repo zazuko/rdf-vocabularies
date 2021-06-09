@@ -1,3 +1,7 @@
+# `vNext`
+
+- Support `file:` URIs in overrides to have contents generated from local sources
+
 # `v2021.5.3`
 
 ## Updated vocabularies
