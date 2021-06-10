@@ -1,4 +1,4 @@
-# vNext
+# `v2021.6.10`
 
 - Support `file:` URIs in overrides to have contents generated from local sources
 - Export interface of prefixes, which allows type augmentation
