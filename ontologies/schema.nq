@@ -276,6 +276,12 @@
 <http://schema.org/AudioObject> <http://www.w3.org/2000/01/rdf-schema#comment> "An audio file." <http://schema.org/> .
 <http://schema.org/AudioObject> <http://www.w3.org/2000/01/rdf-schema#label> "AudioObject" <http://schema.org/> .
 <http://schema.org/AudioObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MediaObject> <http://schema.org/> .
+<http://schema.org/AudioObjectSnapshot> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/AudioObjectSnapshot> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/AudioObjectSnapshot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/AudioObjectSnapshot> <http://www.w3.org/2000/01/rdf-schema#comment> "A specific and exact (byte-for-byte) version of an [[AudioObject]]. Two byte-for-byte identical files, for the purposes of this type, considered identical. If they have different embedded metadata the files will differ. Different external facts about the files, e.g. creator or dateCreated that aren't represented in their actual content, do not affect this notion of identity." <http://schema.org/> .
+<http://schema.org/AudioObjectSnapshot> <http://www.w3.org/2000/01/rdf-schema#label> "AudioObjectSnapshot" <http://schema.org/> .
+<http://schema.org/AudioObjectSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/AudioObject> <http://schema.org/> .
 <http://schema.org/Audiobook> <http://schema.org/isPartOf> <http://bib.schema.org> <http://schema.org/> .
 <http://schema.org/Audiobook> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/Audiobook> <http://www.w3.org/2000/01/rdf-schema#comment> "An audiobook." <http://schema.org/> .
@@ -413,8 +419,14 @@
 <http://schema.org/BikeStore> <http://www.w3.org/2000/01/rdf-schema#comment> "A bike store." <http://schema.org/> .
 <http://schema.org/BikeStore> <http://www.w3.org/2000/01/rdf-schema#label> "BikeStore" <http://schema.org/> .
 <http://schema.org/BikeStore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Store> <http://schema.org/> .
+<http://schema.org/BioChemEntity> <http://purl.org/dc/terms/source> <http://bioschemas.org> <http://schema.org/> .
+<http://schema.org/BioChemEntity> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/BioChemEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/BioChemEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Any biological, chemical, or biochemical thing. For example: a protein; a gene; a chemical; a synthetic chemical." <http://schema.org/> .
+<http://schema.org/BioChemEntity> <http://www.w3.org/2000/01/rdf-schema#label> "BioChemEntity" <http://schema.org/> .
+<http://schema.org/BioChemEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Thing> <http://schema.org/> .
 <http://schema.org/Blog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/Blog> <http://www.w3.org/2000/01/rdf-schema#comment> "A blog." <http://schema.org/> .
+<http://schema.org/Blog> <http://www.w3.org/2000/01/rdf-schema#comment> "A [blog](https://en.wikipedia.org/wiki/Blog), sometimes known as a \"weblog\". Note that the individual posts ([[BlogPosting]]s) in a [[Blog]] are often colloqually referred to by the same term." <http://schema.org/> .
 <http://schema.org/Blog> <http://www.w3.org/2000/01/rdf-schema#label> "Blog" <http://schema.org/> .
 <http://schema.org/Blog> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/BlogPosting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -786,6 +798,13 @@
 <http://schema.org/CheckoutPage> <http://www.w3.org/2000/01/rdf-schema#comment> "Web page type: Checkout page." <http://schema.org/> .
 <http://schema.org/CheckoutPage> <http://www.w3.org/2000/01/rdf-schema#label> "CheckoutPage" <http://schema.org/> .
 <http://schema.org/CheckoutPage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/WebPage> <http://schema.org/> .
+<http://schema.org/ChemicalSubstance> <http://purl.org/dc/terms/source> <http://bioschemas.org> <http://schema.org/> .
+<http://schema.org/ChemicalSubstance> <http://purl.org/dc/terms/source> <https://www.ebi.ac.uk/chebi/searchId.do?chebiId=59999> <http://schema.org/> .
+<http://schema.org/ChemicalSubstance> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ChemicalSubstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/ChemicalSubstance> <http://www.w3.org/2000/01/rdf-schema#comment> "A chemical substance is 'a portion of matter of constant composition, composed of molecular entities of the same type or of different types' (source: [ChEBI:59999](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=59999))." <http://schema.org/> .
+<http://schema.org/ChemicalSubstance> <http://www.w3.org/2000/01/rdf-schema#label> "ChemicalSubstance" <http://schema.org/> .
+<http://schema.org/ChemicalSubstance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/BioChemEntity> <http://schema.org/> .
 <http://schema.org/ChildCare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/ChildCare> <http://www.w3.org/2000/01/rdf-schema#comment> "A Childcare center." <http://schema.org/> .
 <http://schema.org/ChildCare> <http://www.w3.org/2000/01/rdf-schema#label> "ChildCare" <http://schema.org/> .
@@ -1753,7 +1772,7 @@
 <http://schema.org/ExchangeRefund> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/ExchangeRefund> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/ExchangeRefund> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/RefundTypeEnumeration> <http://schema.org/> .
-<http://schema.org/ExchangeRefund> <http://www.w3.org/2000/01/rdf-schema#comment> "A ExchangeRefund ..." <http://schema.org/> .
+<http://schema.org/ExchangeRefund> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that a refund can be done as an exchange for the same product." <http://schema.org/> .
 <http://schema.org/ExchangeRefund> <http://www.w3.org/2000/01/rdf-schema#label> "ExchangeRefund" <http://schema.org/> .
 <http://schema.org/ExerciseAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/ExerciseAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of participating in exertive activity for the purposes of improving health and fitness." <http://schema.org/> .
@@ -1901,6 +1920,11 @@
 <http://schema.org/FourWheelDriveConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DriveWheelConfigurationValue> <http://schema.org/> .
 <http://schema.org/FourWheelDriveConfiguration> <http://www.w3.org/2000/01/rdf-schema#comment> "Four-wheel drive is a transmission layout where the engine primarily drives two wheels with a part-time four-wheel drive capability." <http://schema.org/> .
 <http://schema.org/FourWheelDriveConfiguration> <http://www.w3.org/2000/01/rdf-schema#label> "FourWheelDriveConfiguration" <http://schema.org/> .
+<http://schema.org/FreeReturn> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/FreeReturn> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/FreeReturn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ReturnFeesEnumeration> <http://schema.org/> .
+<http://schema.org/FreeReturn> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that product returns are free of charge for the customer." <http://schema.org/> .
+<http://schema.org/FreeReturn> <http://www.w3.org/2000/01/rdf-schema#label> "FreeReturn" <http://schema.org/> .
 <http://schema.org/Friday> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q130> <http://schema.org/> .
 <http://schema.org/Friday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DayOfWeek> <http://schema.org/> .
 <http://schema.org/Friday> <http://www.w3.org/2000/01/rdf-schema#comment> "The day of the week between Thursday and Saturday." <http://schema.org/> .
@@ -1912,7 +1936,7 @@
 <http://schema.org/FullRefund> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/FullRefund> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/FullRefund> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/RefundTypeEnumeration> <http://schema.org/> .
-<http://schema.org/FullRefund> <http://www.w3.org/2000/01/rdf-schema#comment> "A FullRefund ..." <http://schema.org/> .
+<http://schema.org/FullRefund> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that a refund can be done in the full amount the customer paid for the product" <http://schema.org/> .
 <http://schema.org/FullRefund> <http://www.w3.org/2000/01/rdf-schema#label> "FullRefund" <http://schema.org/> .
 <http://schema.org/FundingAgency> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/FundingAgency> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/383> <http://schema.org/> .
@@ -1972,6 +1996,12 @@
 <http://schema.org/GenderType> <http://www.w3.org/2000/01/rdf-schema#comment> "An enumeration of genders." <http://schema.org/> .
 <http://schema.org/GenderType> <http://www.w3.org/2000/01/rdf-schema#label> "GenderType" <http://schema.org/> .
 <http://schema.org/GenderType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
+<http://schema.org/Gene> <http://purl.org/dc/terms/source> <http://bioschemas.org> <http://schema.org/> .
+<http://schema.org/Gene> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/Gene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/Gene> <http://www.w3.org/2000/01/rdf-schema#comment> "A discrete unit of inheritance which affects one or more biological traits (Source: [https://en.wikipedia.org/wiki/Gene](https://en.wikipedia.org/wiki/Gene)). Examples include FOXP2 (Forkhead box protein P2), SCARNA21 (small Cajal body-specific RNA 21), A- (agouti genotype)." <http://schema.org/> .
+<http://schema.org/Gene> <http://www.w3.org/2000/01/rdf-schema#label> "Gene" <http://schema.org/> .
+<http://schema.org/Gene> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/BioChemEntity> <http://schema.org/> .
 <http://schema.org/GeneralContractor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/GeneralContractor> <http://www.w3.org/2000/01/rdf-schema#comment> "A general contractor." <http://schema.org/> .
 <http://schema.org/GeneralContractor> <http://www.w3.org/2000/01/rdf-schema#label> "GeneralContractor" <http://schema.org/> .
@@ -2297,6 +2327,12 @@
 <http://schema.org/ImageObject> <http://www.w3.org/2000/01/rdf-schema#label> "ImageObject" <http://schema.org/> .
 <http://schema.org/ImageObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MediaObject> <http://schema.org/> .
 <http://schema.org/ImageObject> <http://www.w3.org/2002/07/owl#equivalentClass> <http://purl.org/dc/dcmitype/Image> <http://schema.org/> .
+<http://schema.org/ImageObjectSnapshot> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ImageObjectSnapshot> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/ImageObjectSnapshot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/ImageObjectSnapshot> <http://www.w3.org/2000/01/rdf-schema#comment> "A specific and exact (byte-for-byte) version of an [[ImageObject]]. Two byte-for-byte identical files, for the purposes of this type, considered identical. If they have different embedded metadata (e.g. XMP, EXIF) the files will differ. Different external facts about the files, e.g. creator or dateCreated that aren't represented in their actual content, do not affect this notion of identity." <http://schema.org/> .
+<http://schema.org/ImageObjectSnapshot> <http://www.w3.org/2000/01/rdf-schema#label> "ImageObjectSnapshot" <http://schema.org/> .
+<http://schema.org/ImageObjectSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/ImageObject> <http://schema.org/> .
 <http://schema.org/ImagingTest> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/ImagingTest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/ImagingTest> <http://www.w3.org/2000/01/rdf-schema#comment> "Any medical imaging modality typically used for diagnostic purposes." <http://schema.org/> .
@@ -2606,7 +2642,7 @@
 <http://schema.org/LiveAlbum> <http://www.w3.org/2000/01/rdf-schema#comment> "LiveAlbum." <http://schema.org/> .
 <http://schema.org/LiveAlbum> <http://www.w3.org/2000/01/rdf-schema#label> "LiveAlbum" <http://schema.org/> .
 <http://schema.org/LiveBlogPosting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/LiveBlogPosting> <http://www.w3.org/2000/01/rdf-schema#comment> "A blog post intended to provide a rolling textual coverage of an ongoing event through continuous updates." <http://schema.org/> .
+<http://schema.org/LiveBlogPosting> <http://www.w3.org/2000/01/rdf-schema#comment> "A [[LiveBlogPosting]] is a [[BlogPosting]] intended to provide a rolling textual coverage of an ongoing event through continuous updates." <http://schema.org/> .
 <http://schema.org/LiveBlogPosting> <http://www.w3.org/2000/01/rdf-schema#label> "LiveBlogPosting" <http://schema.org/> .
 <http://schema.org/LiveBlogPosting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/BlogPosting> <http://schema.org/> .
 <http://schema.org/LivingWithHealthAspect> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
@@ -2750,6 +2786,12 @@
 <http://schema.org/MediaReview> <http://www.w3.org/2000/01/rdf-schema#comment> "A [[MediaReview]] is a more specialized form of Review dedicated to the evaluation of media content online, typically in the context of fact-checking and misinformation.\n    For more general reviews of media in the broader sense, use [[UserReview]], [[CriticReview]] or other [[Review]] types. This definition is\n    a work in progress. While the [[MediaManipulationRatingEnumeration]] list reflects significant community review amongst fact-checkers and others working\n    to combat misinformation, the specific structures for representing media objects, their versions and publication context, is still evolving. Similarly, best practices for the relationship between [[MediaReview]] and [[ClaimReview]] markup has not yet been finalized." <http://schema.org/> .
 <http://schema.org/MediaReview> <http://www.w3.org/2000/01/rdf-schema#label> "MediaReview" <http://schema.org/> .
 <http://schema.org/MediaReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Review> <http://schema.org/> .
+<http://schema.org/MediaReviewItem> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/MediaReviewItem> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/MediaReviewItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/MediaReviewItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents an item or group of closely related items treated as a unit for the sake of evaluation in a [[MediaReview]]. Authorship etc. apply to the items rather than to the curation/grouping or reviewing party." <http://schema.org/> .
+<http://schema.org/MediaReviewItem> <http://www.w3.org/2000/01/rdf-schema#label> "MediaReviewItem" <http://schema.org/> .
+<http://schema.org/MediaReviewItem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/MediaSubscription> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1741> <http://schema.org/> .
 <http://schema.org/MediaSubscription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/MediaSubscription> <http://www.w3.org/2000/01/rdf-schema#comment> "A subscription which allows a user to access media including audio, video, books, etc." <http://schema.org/> .
@@ -3004,34 +3046,40 @@
 <http://schema.org/MerchantReturnEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/MerchantReturnEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/MerchantReturnEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/MerchantReturnEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "MerchantReturnEnumeration enumerates several kinds of product return policy. Note that this structure may not capture all aspects of the policy." <http://schema.org/> .
+<http://schema.org/MerchantReturnEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates several kinds of product return policies." <http://schema.org/> .
 <http://schema.org/MerchantReturnEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "MerchantReturnEnumeration" <http://schema.org/> .
 <http://schema.org/MerchantReturnEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
 <http://schema.org/MerchantReturnFiniteReturnWindow> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/MerchantReturnFiniteReturnWindow> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/MerchantReturnFiniteReturnWindow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MerchantReturnEnumeration> <http://schema.org/> .
-<http://schema.org/MerchantReturnFiniteReturnWindow> <http://www.w3.org/2000/01/rdf-schema#comment> "MerchantReturnFiniteReturnWindow: there is a finite window for product returns." <http://schema.org/> .
+<http://schema.org/MerchantReturnFiniteReturnWindow> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that there is a finite window for product returns." <http://schema.org/> .
 <http://schema.org/MerchantReturnFiniteReturnWindow> <http://www.w3.org/2000/01/rdf-schema#label> "MerchantReturnFiniteReturnWindow" <http://schema.org/> .
 <http://schema.org/MerchantReturnNotPermitted> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/MerchantReturnNotPermitted> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/MerchantReturnNotPermitted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MerchantReturnEnumeration> <http://schema.org/> .
-<http://schema.org/MerchantReturnNotPermitted> <http://www.w3.org/2000/01/rdf-schema#comment> "MerchantReturnNotPermitted: product returns are not permitted." <http://schema.org/> .
+<http://schema.org/MerchantReturnNotPermitted> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that product returns are not permitted." <http://schema.org/> .
 <http://schema.org/MerchantReturnNotPermitted> <http://www.w3.org/2000/01/rdf-schema#label> "MerchantReturnNotPermitted" <http://schema.org/> .
 <http://schema.org/MerchantReturnPolicy> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/MerchantReturnPolicy> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/MerchantReturnPolicy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/MerchantReturnPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "A MerchantReturnPolicy provides information about product return policies associated with an [[Organization]] or [[Product]]." <http://schema.org/> .
+<http://schema.org/MerchantReturnPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "A MerchantReturnPolicy provides information about product return policies associated with an [[Organization]], [[Product]], or [[Offer]]." <http://schema.org/> .
 <http://schema.org/MerchantReturnPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "MerchantReturnPolicy" <http://schema.org/> .
 <http://schema.org/MerchantReturnPolicy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Intangible> <http://schema.org/> .
+<http://schema.org/MerchantReturnPolicySeasonalOverride> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/MerchantReturnPolicySeasonalOverride> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/MerchantReturnPolicySeasonalOverride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/MerchantReturnPolicySeasonalOverride> <http://www.w3.org/2000/01/rdf-schema#comment> "A seasonal override of a return policy, for example used for holidays." <http://schema.org/> .
+<http://schema.org/MerchantReturnPolicySeasonalOverride> <http://www.w3.org/2000/01/rdf-schema#label> "MerchantReturnPolicySeasonalOverride" <http://schema.org/> .
+<http://schema.org/MerchantReturnPolicySeasonalOverride> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Intangible> <http://schema.org/> .
 <http://schema.org/MerchantReturnUnlimitedWindow> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/MerchantReturnUnlimitedWindow> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/MerchantReturnUnlimitedWindow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MerchantReturnEnumeration> <http://schema.org/> .
-<http://schema.org/MerchantReturnUnlimitedWindow> <http://www.w3.org/2000/01/rdf-schema#comment> "MerchantReturnUnlimitedWindow: there is an unlimited window for product returns." <http://schema.org/> .
+<http://schema.org/MerchantReturnUnlimitedWindow> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that there is an unlimited window for product returns." <http://schema.org/> .
 <http://schema.org/MerchantReturnUnlimitedWindow> <http://www.w3.org/2000/01/rdf-schema#label> "MerchantReturnUnlimitedWindow" <http://schema.org/> .
 <http://schema.org/MerchantReturnUnspecified> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/MerchantReturnUnspecified> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/MerchantReturnUnspecified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MerchantReturnEnumeration> <http://schema.org/> .
-<http://schema.org/MerchantReturnUnspecified> <http://www.w3.org/2000/01/rdf-schema#comment> "MerchantReturnUnspecified: a product return policy is not specified here." <http://schema.org/> .
+<http://schema.org/MerchantReturnUnspecified> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that a product return policy is not provided." <http://schema.org/> .
 <http://schema.org/MerchantReturnUnspecified> <http://www.w3.org/2000/01/rdf-schema#label> "MerchantReturnUnspecified" <http://schema.org/> .
 <http://schema.org/Message> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/Message> <http://www.w3.org/2000/01/rdf-schema#comment> "A single message from a sender to one or more organizations or people." <http://schema.org/> .
@@ -3073,6 +3121,12 @@
 <http://schema.org/MobilePhoneStore> <http://www.w3.org/2000/01/rdf-schema#comment> "A store that sells mobile phones and related accessories." <http://schema.org/> .
 <http://schema.org/MobilePhoneStore> <http://www.w3.org/2000/01/rdf-schema#label> "MobilePhoneStore" <http://schema.org/> .
 <http://schema.org/MobilePhoneStore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Store> <http://schema.org/> .
+<http://schema.org/MolecularEntity> <http://purl.org/dc/terms/source> <http://bioschemas.org> <http://schema.org/> .
+<http://schema.org/MolecularEntity> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/MolecularEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/MolecularEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity." <http://schema.org/> .
+<http://schema.org/MolecularEntity> <http://www.w3.org/2000/01/rdf-schema#label> "MolecularEntity" <http://schema.org/> .
+<http://schema.org/MolecularEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/BioChemEntity> <http://schema.org/> .
 <http://schema.org/Monday> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q105> <http://schema.org/> .
 <http://schema.org/Monday> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DayOfWeek> <http://schema.org/> .
 <http://schema.org/Monday> <http://www.w3.org/2000/01/rdf-schema#comment> "The day of the week between Sunday and Tuesday." <http://schema.org/> .
@@ -3760,7 +3814,7 @@
 <http://schema.org/OriginalShippingFees> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/OriginalShippingFees> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/OriginalShippingFees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ReturnFeesEnumeration> <http://schema.org/> .
-<http://schema.org/OriginalShippingFees> <http://www.w3.org/2000/01/rdf-schema#comment> "OriginalShippingFees ..." <http://schema.org/> .
+<http://schema.org/OriginalShippingFees> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that the customer must pay the original shipping costs when returning a product." <http://schema.org/> .
 <http://schema.org/OriginalShippingFees> <http://www.w3.org/2000/01/rdf-schema#label> "OriginalShippingFees" <http://schema.org/> .
 <http://schema.org/Osteopathic> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/Osteopathic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MedicineSystem> <http://schema.org/> .
@@ -4039,7 +4093,7 @@
 <http://schema.org/Play> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/Play> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1816> <http://schema.org/> .
 <http://schema.org/Play> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/Play> <http://www.w3.org/2000/01/rdf-schema#comment> "A play is a form of literature, usually consisting of dialogue between characters, intended for theatrical performance rather than just reading. Note the peformance of a Play would be a [[TheaterEvent]] - the *Play* being the [[workPerformed]]." <http://schema.org/> .
+<http://schema.org/Play> <http://www.w3.org/2000/01/rdf-schema#comment> "A play is a form of literature, usually consisting of dialogue between characters, intended for theatrical performance rather than just reading. Note: A performance of a Play would be a [[TheaterEvent]] or [[BroadcastEvent]] - the *Play* being the [[workPerformed]]." <http://schema.org/> .
 <http://schema.org/Play> <http://www.w3.org/2000/01/rdf-schema#label> "Play" <http://schema.org/> .
 <http://schema.org/Play> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/PlayAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -4246,6 +4300,12 @@
 <http://schema.org/PropertyValueSpecification> <http://www.w3.org/2000/01/rdf-schema#comment> "A Property value specification." <http://schema.org/> .
 <http://schema.org/PropertyValueSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "PropertyValueSpecification" <http://schema.org/> .
 <http://schema.org/PropertyValueSpecification> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Intangible> <http://schema.org/> .
+<http://schema.org/Protein> <http://purl.org/dc/terms/source> <http://bioschemas.org> <http://schema.org/> .
+<http://schema.org/Protein> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/Protein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/Protein> <http://www.w3.org/2000/01/rdf-schema#comment> "Protein is here used in its widest possible definition, as classes of amino acid based molecules. Amyloid-beta Protein in human (UniProt P05067), eukaryota (e.g. an OrthoDB group) or even a single molecule that one can point to are all of type schema:Protein. A protein can thus be a subclass of another protein, e.g. schema:Protein as a UniProt record can have multiple isoforms inside it which would also be schema:Protein. They can be imagined, synthetic, hypothetical or naturally occurring." <http://schema.org/> .
+<http://schema.org/Protein> <http://www.w3.org/2000/01/rdf-schema#label> "Protein" <http://schema.org/> .
+<http://schema.org/Protein> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/BioChemEntity> <http://schema.org/> .
 <http://schema.org/Protozoa> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/Protozoa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/InfectiousAgentClass> <http://schema.org/> .
 <http://schema.org/Protozoa> <http://www.w3.org/2000/01/rdf-schema#comment> "Single-celled organism that causes an infection." <http://schema.org/> .
@@ -4449,7 +4509,7 @@
 <http://schema.org/RefundTypeEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/RefundTypeEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/RefundTypeEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/RefundTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "RefundTypeEnumeration enumerates several kinds of product return refund types." <http://schema.org/> .
+<http://schema.org/RefundTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates several kinds of product return refund types." <http://schema.org/> .
 <http://schema.org/RefundTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "RefundTypeEnumeration" <http://schema.org/> .
 <http://schema.org/RefundTypeEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
 <http://schema.org/RefurbishedCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/OfferItemCondition> <http://schema.org/> .
@@ -4528,6 +4588,12 @@
 <http://schema.org/ReportedDoseSchedule> <http://www.w3.org/2000/01/rdf-schema#comment> "A patient-reported or observed dosing schedule for a drug or supplement." <http://schema.org/> .
 <http://schema.org/ReportedDoseSchedule> <http://www.w3.org/2000/01/rdf-schema#label> "ReportedDoseSchedule" <http://schema.org/> .
 <http://schema.org/ReportedDoseSchedule> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/DoseSchedule> <http://schema.org/> .
+<http://schema.org/ResearchOrganization> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ResearchOrganization> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2877> <http://schema.org/> .
+<http://schema.org/ResearchOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/ResearchOrganization> <http://www.w3.org/2000/01/rdf-schema#comment> "A Research Organization (e.g. scientific institute, research company)." <http://schema.org/> .
+<http://schema.org/ResearchOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "ResearchOrganization" <http://schema.org/> .
+<http://schema.org/ResearchOrganization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> <http://schema.org/> .
 <http://schema.org/ResearchProject> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/ResearchProject> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/383> <http://schema.org/> .
 <http://schema.org/ResearchProject> <http://schema.org/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#FundInfoCollab> <http://schema.org/> .
@@ -4592,7 +4658,7 @@
 <http://schema.org/RestockingFees> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/RestockingFees> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/RestockingFees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ReturnFeesEnumeration> <http://schema.org/> .
-<http://schema.org/RestockingFees> <http://www.w3.org/2000/01/rdf-schema#comment> "RestockingFees ..." <http://schema.org/> .
+<http://schema.org/RestockingFees> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that the customer must pay a restocking fee when returning a product" <http://schema.org/> .
 <http://schema.org/RestockingFees> <http://www.w3.org/2000/01/rdf-schema#label> "RestockingFees" <http://schema.org/> .
 <http://schema.org/RestrictedDiet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/RestrictedDiet> <http://www.w3.org/2000/01/rdf-schema#comment> "A diet restricted to certain foods or preparations for cultural, religious, health or lifestyle reasons. " <http://schema.org/> .
@@ -4618,16 +4684,63 @@
 <http://schema.org/ReturnAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of returning to the origin that which was previously received (concrete objects) or taken (ownership)." <http://schema.org/> .
 <http://schema.org/ReturnAction> <http://www.w3.org/2000/01/rdf-schema#label> "ReturnAction" <http://schema.org/> .
 <http://schema.org/ReturnAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/TransferAction> <http://schema.org/> .
+<http://schema.org/ReturnAtKiosk> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ReturnAtKiosk> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/ReturnAtKiosk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ReturnMethodEnumeration> <http://schema.org/> .
+<http://schema.org/ReturnAtKiosk> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that product returns must be made at a kiosk." <http://schema.org/> .
+<http://schema.org/ReturnAtKiosk> <http://www.w3.org/2000/01/rdf-schema#label> "ReturnAtKiosk" <http://schema.org/> .
+<http://schema.org/ReturnByMail> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ReturnByMail> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/ReturnByMail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ReturnMethodEnumeration> <http://schema.org/> .
+<http://schema.org/ReturnByMail> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that product returns must to be done by mail." <http://schema.org/> .
+<http://schema.org/ReturnByMail> <http://www.w3.org/2000/01/rdf-schema#label> "ReturnByMail" <http://schema.org/> .
+<http://schema.org/ReturnFeesCustomerResponsibility> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ReturnFeesCustomerResponsibility> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/ReturnFeesCustomerResponsibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ReturnFeesEnumeration> <http://schema.org/> .
+<http://schema.org/ReturnFeesCustomerResponsibility> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that product returns must be paid for, and are the responsibility of, the customer." <http://schema.org/> .
+<http://schema.org/ReturnFeesCustomerResponsibility> <http://www.w3.org/2000/01/rdf-schema#label> "ReturnFeesCustomerResponsibility" <http://schema.org/> .
 <http://schema.org/ReturnFeesEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/ReturnFeesEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/ReturnFeesEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
-<http://schema.org/ReturnFeesEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "ReturnFeesEnumeration expresses policies for return fees." <http://schema.org/> .
+<http://schema.org/ReturnFeesEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates several kinds of policies for product return fees." <http://schema.org/> .
 <http://schema.org/ReturnFeesEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "ReturnFeesEnumeration" <http://schema.org/> .
 <http://schema.org/ReturnFeesEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
+<http://schema.org/ReturnInStore> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ReturnInStore> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/ReturnInStore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ReturnMethodEnumeration> <http://schema.org/> .
+<http://schema.org/ReturnInStore> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that product returns must be made in a store." <http://schema.org/> .
+<http://schema.org/ReturnInStore> <http://www.w3.org/2000/01/rdf-schema#label> "ReturnInStore" <http://schema.org/> .
+<http://schema.org/ReturnLabelCustomerResponsibility> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ReturnLabelCustomerResponsibility> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/ReturnLabelCustomerResponsibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ReturnLabelSourceEnumeration> <http://schema.org/> .
+<http://schema.org/ReturnLabelCustomerResponsibility> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicated that creating a return label is the responsibility of the customer." <http://schema.org/> .
+<http://schema.org/ReturnLabelCustomerResponsibility> <http://www.w3.org/2000/01/rdf-schema#label> "ReturnLabelCustomerResponsibility" <http://schema.org/> .
+<http://schema.org/ReturnLabelDownloadAndPrint> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ReturnLabelDownloadAndPrint> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/ReturnLabelDownloadAndPrint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ReturnLabelSourceEnumeration> <http://schema.org/> .
+<http://schema.org/ReturnLabelDownloadAndPrint> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicated that a return label must be downloaded and printed by the customer." <http://schema.org/> .
+<http://schema.org/ReturnLabelDownloadAndPrint> <http://www.w3.org/2000/01/rdf-schema#label> "ReturnLabelDownloadAndPrint" <http://schema.org/> .
+<http://schema.org/ReturnLabelInBox> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ReturnLabelInBox> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/ReturnLabelInBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ReturnLabelSourceEnumeration> <http://schema.org/> .
+<http://schema.org/ReturnLabelInBox> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that a return label will be provided by the seller in the shipping box." <http://schema.org/> .
+<http://schema.org/ReturnLabelInBox> <http://www.w3.org/2000/01/rdf-schema#label> "ReturnLabelInBox" <http://schema.org/> .
+<http://schema.org/ReturnLabelSourceEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ReturnLabelSourceEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/ReturnLabelSourceEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/ReturnLabelSourceEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates several types of return labels for product returns." <http://schema.org/> .
+<http://schema.org/ReturnLabelSourceEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "ReturnLabelSourceEnumeration" <http://schema.org/> .
+<http://schema.org/ReturnLabelSourceEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
+<http://schema.org/ReturnMethodEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ReturnMethodEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/ReturnMethodEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/ReturnMethodEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates several types of product return methods." <http://schema.org/> .
+<http://schema.org/ReturnMethodEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "ReturnMethodEnumeration" <http://schema.org/> .
+<http://schema.org/ReturnMethodEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
 <http://schema.org/ReturnShippingFees> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/ReturnShippingFees> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/ReturnShippingFees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ReturnFeesEnumeration> <http://schema.org/> .
-<http://schema.org/ReturnShippingFees> <http://www.w3.org/2000/01/rdf-schema#comment> "ReturnShippingFees ..." <http://schema.org/> .
+<http://schema.org/ReturnShippingFees> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that the customer must pay the return shipping costs when returning a product" <http://schema.org/> .
 <http://schema.org/ReturnShippingFees> <http://www.w3.org/2000/01/rdf-schema#label> "ReturnShippingFees" <http://schema.org/> .
 <http://schema.org/Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/Review> <http://www.w3.org/2000/01/rdf-schema#comment> "A review of an item - for example, of a restaurant, movie, or store." <http://schema.org/> .
@@ -4714,7 +4827,7 @@
 <http://schema.org/SatireOrParodyContent> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/SatireOrParodyContent> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
 <http://schema.org/SatireOrParodyContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaManipulationRatingEnumeration> <http://schema.org/> .
-<http://schema.org/SatireOrParodyContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Content coded 'satire or content' in a [[MediaReview]], considered in the context of how it was published or shared.\n\nFor a [[VideoObject]] to be 'satire or parody content': A video that was created as political or humorous commentary and is presented in that context. (Reshares of satire/parody content that do not include relevant context are more likely to fall under the “missing context” rating.)\n\nFor an [[ImageObject]] to be 'satire or parody content': An image that was created as political or humorous commentary and is presented in that context. (Reshares of satire/parody content that do not include relevant context are more likely to fall under the “missing context” rating.)\n\nFor an [[ImageObject]] with embedded text to be 'satire or parody content': An image that was created as political or humorous commentary and is presented in that context. (Reshares of satire/parody content that do not include relevant context are more likely to fall under the “missing context” rating.)\n\nFor an [[AudioObject]] to be 'satire or parody content': Audio that was created as political or humorous commentary and is presented in that context. (Reshares of satire/parody content that do not include relevant context are more likely to fall under the “missing context” rating.)\n" <http://schema.org/> .
+<http://schema.org/SatireOrParodyContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Content coded 'satire or parody content' in a [[MediaReview]], considered in the context of how it was published or shared.\n\nFor a [[VideoObject]] to be 'satire or parody content': A video that was created as political or humorous commentary and is presented in that context. (Reshares of satire/parody content that do not include relevant context are more likely to fall under the “missing context” rating.)\n\nFor an [[ImageObject]] to be 'satire or parody content': An image that was created as political or humorous commentary and is presented in that context. (Reshares of satire/parody content that do not include relevant context are more likely to fall under the “missing context” rating.)\n\nFor an [[ImageObject]] with embedded text to be 'satire or parody content': An image that was created as political or humorous commentary and is presented in that context. (Reshares of satire/parody content that do not include relevant context are more likely to fall under the “missing context” rating.)\n\nFor an [[AudioObject]] to be 'satire or parody content': Audio that was created as political or humorous commentary and is presented in that context. (Reshares of satire/parody content that do not include relevant context are more likely to fall under the “missing context” rating.)\n" <http://schema.org/> .
 <http://schema.org/SatireOrParodyContent> <http://www.w3.org/2000/01/rdf-schema#label> "SatireOrParodyContent" <http://schema.org/> .
 <http://schema.org/SatiricalArticle> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/SatiricalArticle> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1525> <http://schema.org/> .
@@ -5033,6 +5146,12 @@
 <http://schema.org/State> <http://www.w3.org/2000/01/rdf-schema#comment> "A state or province of a country." <http://schema.org/> .
 <http://schema.org/State> <http://www.w3.org/2000/01/rdf-schema#label> "State" <http://schema.org/> .
 <http://schema.org/State> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/AdministrativeArea> <http://schema.org/> .
+<http://schema.org/Statement> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/Statement> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2912> <http://schema.org/> .
+<http://schema.org/Statement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/Statement> <http://www.w3.org/2000/01/rdf-schema#comment> "A statement about something, for example a fun or interesting fact. If known, the main entity this statement is about, can be indicated using mainEntity. For more formal claims (e.g. in Fact Checking), consider using [[Claim]] instead. Use the [[text]] property to capture the text of the statement." <http://schema.org/> .
+<http://schema.org/Statement> <http://www.w3.org/2000/01/rdf-schema#label> "Statement" <http://schema.org/> .
+<http://schema.org/Statement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/StatisticalPopulation> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/StatisticalPopulation> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2291> <http://schema.org/> .
 <http://schema.org/StatisticalPopulation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -5056,7 +5175,7 @@
 <http://schema.org/StoreCreditRefund> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/StoreCreditRefund> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/StoreCreditRefund> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/RefundTypeEnumeration> <http://schema.org/> .
-<http://schema.org/StoreCreditRefund> <http://www.w3.org/2000/01/rdf-schema#comment> "A StoreCreditRefund ..." <http://schema.org/> .
+<http://schema.org/StoreCreditRefund> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies that the customer receives a store credit as refund when returning a product" <http://schema.org/> .
 <http://schema.org/StoreCreditRefund> <http://www.w3.org/2000/01/rdf-schema#label> "StoreCreditRefund" <http://schema.org/> .
 <http://schema.org/StrengthTraining> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/StrengthTraining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PhysicalActivityCategory> <http://schema.org/> .
@@ -5182,6 +5301,12 @@
 <http://schema.org/TaxiVehicleUsage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CarUsageType> <http://schema.org/> .
 <http://schema.org/TaxiVehicleUsage> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the usage of the car as a taxi." <http://schema.org/> .
 <http://schema.org/TaxiVehicleUsage> <http://www.w3.org/2000/01/rdf-schema#label> "TaxiVehicleUsage" <http://schema.org/> .
+<http://schema.org/Taxon> <http://purl.org/dc/terms/source> <http://bioschemas.org> <http://schema.org/> .
+<http://schema.org/Taxon> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/Taxon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/Taxon> <http://www.w3.org/2000/01/rdf-schema#comment> "A set of organisms asserted to represent a natural cohesive biological unit." <http://schema.org/> .
+<http://schema.org/Taxon> <http://www.w3.org/2000/01/rdf-schema#label> "Taxon" <http://schema.org/> .
+<http://schema.org/Taxon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Thing> <http://schema.org/> .
 <http://schema.org/TechArticle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/TechArticle> <http://www.w3.org/2000/01/rdf-schema#comment> "A technical article - Example: How-to (task) topics, step-by-step, procedural troubleshooting, specifications, etc." <http://schema.org/> .
 <http://schema.org/TechArticle> <http://www.w3.org/2000/01/rdf-schema#label> "TechArticle" <http://schema.org/> .
@@ -5560,6 +5685,12 @@
 <http://schema.org/VideoObject> <http://www.w3.org/2000/01/rdf-schema#comment> "A video file." <http://schema.org/> .
 <http://schema.org/VideoObject> <http://www.w3.org/2000/01/rdf-schema#label> "VideoObject" <http://schema.org/> .
 <http://schema.org/VideoObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MediaObject> <http://schema.org/> .
+<http://schema.org/VideoObjectSnapshot> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/VideoObjectSnapshot> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/VideoObjectSnapshot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/VideoObjectSnapshot> <http://www.w3.org/2000/01/rdf-schema#comment> "A specific and exact (byte-for-byte) version of a [[VideoObject]]. Two byte-for-byte identical files, for the purposes of this type, considered identical. If they have different embedded metadata the files will differ. Different external facts about the files, e.g. creator or dateCreated that aren't represented in their actual content, do not affect this notion of identity." <http://schema.org/> .
+<http://schema.org/VideoObjectSnapshot> <http://www.w3.org/2000/01/rdf-schema#label> "VideoObjectSnapshot" <http://schema.org/> .
+<http://schema.org/VideoObjectSnapshot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/VideoObject> <http://schema.org/> .
 <http://schema.org/ViewAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/ViewAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of consuming static visual content." <http://schema.org/> .
 <http://schema.org/ViewAction> <http://www.w3.org/2000/01/rdf-schema#label> "ViewAction" <http://schema.org/> .
@@ -6201,6 +6332,7 @@
 <http://schema.org/actor> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
 <http://schema.org/actor> <http://schema.org/domainIncludes> <http://schema.org/Movie> <http://schema.org/> .
 <http://schema.org/actor> <http://schema.org/domainIncludes> <http://schema.org/MovieSeries> <http://schema.org/> .
+<http://schema.org/actor> <http://schema.org/domainIncludes> <http://schema.org/PodcastSeries> <http://schema.org/> .
 <http://schema.org/actor> <http://schema.org/domainIncludes> <http://schema.org/RadioSeries> <http://schema.org/> .
 <http://schema.org/actor> <http://schema.org/domainIncludes> <http://schema.org/TVSeries> <http://schema.org/> .
 <http://schema.org/actor> <http://schema.org/domainIncludes> <http://schema.org/VideoGame> <http://schema.org/> .
@@ -6240,6 +6372,7 @@
 <http://schema.org/additionalNumberOfGuests> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/additionalNumberOfGuests> <http://www.w3.org/2000/01/rdf-schema#comment> "If responding yes, the number of guests who will attend in addition to the invitee." <http://schema.org/> .
 <http://schema.org/additionalNumberOfGuests> <http://www.w3.org/2000/01/rdf-schema#label> "additionalNumberOfGuests" <http://schema.org/> .
+<http://schema.org/additionalProperty> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
 <http://schema.org/additionalProperty> <http://schema.org/domainIncludes> <http://schema.org/Place> <http://schema.org/> .
 <http://schema.org/additionalProperty> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
 <http://schema.org/additionalProperty> <http://schema.org/domainIncludes> <http://schema.org/QualitativeValue> <http://schema.org/> .
@@ -6410,6 +6543,13 @@
 <http://schema.org/alternativeHeadline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/alternativeHeadline> <http://www.w3.org/2000/01/rdf-schema#comment> "A secondary title of the CreativeWork." <http://schema.org/> .
 <http://schema.org/alternativeHeadline> <http://www.w3.org/2000/01/rdf-schema#label> "alternativeHeadline" <http://schema.org/> .
+<http://schema.org/alternativeOf> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/Gene> <http://schema.org/> .
+<http://schema.org/alternativeOf> <http://schema.org/domainIncludes> <http://schema.org/Gene> <http://schema.org/> .
+<http://schema.org/alternativeOf> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/alternativeOf> <http://schema.org/rangeIncludes> <http://schema.org/Gene> <http://schema.org/> .
+<http://schema.org/alternativeOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/alternativeOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Another gene which is a variation of this one." <http://schema.org/> .
+<http://schema.org/alternativeOf> <http://www.w3.org/2000/01/rdf-schema#label> "alternativeOf" <http://schema.org/> .
 <http://schema.org/alumni> <http://schema.org/domainIncludes> <http://schema.org/EducationalOrganization> <http://schema.org/> .
 <http://schema.org/alumni> <http://schema.org/domainIncludes> <http://schema.org/Organization> <http://schema.org/> .
 <http://schema.org/alumni> <http://schema.org/inverseOf> <http://schema.org/alumniOf> <http://schema.org/> .
@@ -6573,6 +6713,14 @@
 <http://schema.org/archiveHeld> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/archiveHeld> <http://www.w3.org/2000/01/rdf-schema#comment> "Collection, [fonds](https://en.wikipedia.org/wiki/Fonds), or item held, kept or maintained by an [[ArchiveOrganization]]."@en <http://schema.org/> .
 <http://schema.org/archiveHeld> <http://www.w3.org/2000/01/rdf-schema#label> "archiveHeld"@en <http://schema.org/> .
+<http://schema.org/archivedAt> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/archivedAt> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/archivedAt> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
+<http://schema.org/archivedAt> <http://schema.org/rangeIncludes> <http://schema.org/WebPage> <http://schema.org/> .
+<http://schema.org/archivedAt> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/archivedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/archivedAt> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a page or other link involved in archival of a [[CreativeWork]]. In the case of [[MediaReview]], the items in a [[MediaReviewItem]] may often become inaccessible, but be archived by archival, journalistic, activist, or law enforcement organizations. In such cases, the referenced page may not directly publish the content." <http://schema.org/> .
+<http://schema.org/archivedAt> <http://www.w3.org/2000/01/rdf-schema#label> "archivedAt" <http://schema.org/> .
 <http://schema.org/area> <http://schema.org/domainIncludes> <http://schema.org/BroadcastService> <http://schema.org/> .
 <http://schema.org/area> <http://schema.org/rangeIncludes> <http://schema.org/Place> <http://schema.org/> .
 <http://schema.org/area> <http://schema.org/supersededBy> <http://schema.org/serviceArea> <http://schema.org/> .
@@ -6727,6 +6875,23 @@
 <http://schema.org/associatedArticle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/associatedArticle> <http://www.w3.org/2000/01/rdf-schema#comment> "A NewsArticle associated with the Media Object." <http://schema.org/> .
 <http://schema.org/associatedArticle> <http://www.w3.org/2000/01/rdf-schema#label> "associatedArticle" <http://schema.org/> .
+<http://schema.org/associatedClaimReview> <http://schema.org/domainIncludes> <http://schema.org/Review> <http://schema.org/> .
+<http://schema.org/associatedClaimReview> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/associatedClaimReview> <http://schema.org/rangeIncludes> <http://schema.org/Review> <http://schema.org/> .
+<http://schema.org/associatedClaimReview> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/associatedClaimReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/associatedClaimReview> <http://www.w3.org/2000/01/rdf-schema#comment> "An associated [[ClaimReview]], related by specific common content, topic or claim. The expectation is that this property would be most typically used in cases where a single activity is conducting both claim reviews and media reviews, in which case [[relatedMediaReview]] would commonly be used on a [[ClaimReview]], while [[relatedClaimReview]] would be used on [[MediaReview]]." <http://schema.org/> .
+<http://schema.org/associatedClaimReview> <http://www.w3.org/2000/01/rdf-schema#label> "associatedClaimReview" <http://schema.org/> .
+<http://schema.org/associatedClaimReview> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/associatedReview> <http://schema.org/> .
+<http://schema.org/associatedDisease> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/associatedDisease> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/associatedDisease> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/associatedDisease> <http://schema.org/rangeIncludes> <http://schema.org/MedicalCondition> <http://schema.org/> .
+<http://schema.org/associatedDisease> <http://schema.org/rangeIncludes> <http://schema.org/PropertyValue> <http://schema.org/> .
+<http://schema.org/associatedDisease> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
+<http://schema.org/associatedDisease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/associatedDisease> <http://www.w3.org/2000/01/rdf-schema#comment> "Disease associated to this BioChemEntity. Such disease can be a MedicalCondition or a URL. If you want to add an evidence supporting the association, please use PropertyValue." <http://schema.org/> .
+<http://schema.org/associatedDisease> <http://www.w3.org/2000/01/rdf-schema#label> "associatedDisease" <http://schema.org/> .
 <http://schema.org/associatedMedia> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/associatedMedia> <http://schema.org/domainIncludes> <http://schema.org/HyperToc> <http://schema.org/> .
 <http://schema.org/associatedMedia> <http://schema.org/domainIncludes> <http://schema.org/HyperTocEntry> <http://schema.org/> .
@@ -6734,6 +6899,14 @@
 <http://schema.org/associatedMedia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/associatedMedia> <http://www.w3.org/2000/01/rdf-schema#comment> "A media object that encodes this CreativeWork. This property is a synonym for encoding." <http://schema.org/> .
 <http://schema.org/associatedMedia> <http://www.w3.org/2000/01/rdf-schema#label> "associatedMedia" <http://schema.org/> .
+<http://schema.org/associatedMediaReview> <http://schema.org/domainIncludes> <http://schema.org/Review> <http://schema.org/> .
+<http://schema.org/associatedMediaReview> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/associatedMediaReview> <http://schema.org/rangeIncludes> <http://schema.org/Review> <http://schema.org/> .
+<http://schema.org/associatedMediaReview> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/associatedMediaReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/associatedMediaReview> <http://www.w3.org/2000/01/rdf-schema#comment> "An associated [[MediaReview]], related by specific common content, topic or claim. The expectation is that this property would be most typically used in cases where a single activity is conducting both claim reviews and media reviews, in which case [[relatedMediaReview]] would commonly be used on a [[ClaimReview]], while [[relatedClaimReview]] would be used on [[MediaReview]]." <http://schema.org/> .
+<http://schema.org/associatedMediaReview> <http://www.w3.org/2000/01/rdf-schema#label> "associatedMediaReview" <http://schema.org/> .
+<http://schema.org/associatedMediaReview> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/associatedReview> <http://schema.org/> .
 <http://schema.org/associatedPathophysiology> <http://schema.org/domainIncludes> <http://schema.org/AnatomicalStructure> <http://schema.org/> .
 <http://schema.org/associatedPathophysiology> <http://schema.org/domainIncludes> <http://schema.org/AnatomicalSystem> <http://schema.org/> .
 <http://schema.org/associatedPathophysiology> <http://schema.org/domainIncludes> <http://schema.org/SuperficialAnatomy> <http://schema.org/> .
@@ -6742,6 +6915,13 @@
 <http://schema.org/associatedPathophysiology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/associatedPathophysiology> <http://www.w3.org/2000/01/rdf-schema#comment> "If applicable, a description of the pathophysiology associated with the anatomical system, including potential abnormal changes in the mechanical, physical, and biochemical functions of the system." <http://schema.org/> .
 <http://schema.org/associatedPathophysiology> <http://www.w3.org/2000/01/rdf-schema#label> "associatedPathophysiology" <http://schema.org/> .
+<http://schema.org/associatedReview> <http://schema.org/domainIncludes> <http://schema.org/Review> <http://schema.org/> .
+<http://schema.org/associatedReview> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/associatedReview> <http://schema.org/rangeIncludes> <http://schema.org/Review> <http://schema.org/> .
+<http://schema.org/associatedReview> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/associatedReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/associatedReview> <http://www.w3.org/2000/01/rdf-schema#comment> "An associated [[Review]]." <http://schema.org/> .
+<http://schema.org/associatedReview> <http://www.w3.org/2000/01/rdf-schema#label> "associatedReview" <http://schema.org/> .
 <http://schema.org/athlete> <http://schema.org/domainIncludes> <http://schema.org/SportsTeam> <http://schema.org/> .
 <http://schema.org/athlete> <http://schema.org/rangeIncludes> <http://schema.org/Person> <http://schema.org/> .
 <http://schema.org/athlete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -7030,6 +7210,27 @@
 <http://schema.org/billingStart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/billingStart> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies after how much time this price (or price component) becomes valid and billing starts. Can be used, for example, to model a price increase after the first year of a subscription. The unit of measurement is specified by the unitCode property." <http://schema.org/> .
 <http://schema.org/billingStart> <http://www.w3.org/2000/01/rdf-schema#label> "billingStart" <http://schema.org/> .
+<http://schema.org/bioChemInteraction> <http://purl.org/dc/terms/source> <http://www.bioschemas.org> <http://schema.org/> .
+<http://schema.org/bioChemInteraction> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/bioChemInteraction> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/bioChemInteraction> <http://schema.org/rangeIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/bioChemInteraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/bioChemInteraction> <http://www.w3.org/2000/01/rdf-schema#comment> "A BioChemEntity that is known to interact with this item." <http://schema.org/> .
+<http://schema.org/bioChemInteraction> <http://www.w3.org/2000/01/rdf-schema#label> "bioChemInteraction" <http://schema.org/> .
+<http://schema.org/bioChemSimilarity> <http://purl.org/dc/terms/source> <http://www.bioschemas.org> <http://schema.org/> .
+<http://schema.org/bioChemSimilarity> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/bioChemSimilarity> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/bioChemSimilarity> <http://schema.org/rangeIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/bioChemSimilarity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/bioChemSimilarity> <http://www.w3.org/2000/01/rdf-schema#comment> "A similar BioChemEntity, e.g., obtained by fingerprint similarity algorithms." <http://schema.org/> .
+<http://schema.org/bioChemSimilarity> <http://www.w3.org/2000/01/rdf-schema#label> "bioChemSimilarity" <http://schema.org/> .
+<http://schema.org/biologicalRole> <http://purl.org/dc/terms/source> <http://www.bioschemas.org> <http://schema.org/> .
+<http://schema.org/biologicalRole> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/biologicalRole> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/biologicalRole> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
+<http://schema.org/biologicalRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/biologicalRole> <http://www.w3.org/2000/01/rdf-schema#comment> "A role played by the BioChemEntity within a biological context." <http://schema.org/> .
+<http://schema.org/biologicalRole> <http://www.w3.org/2000/01/rdf-schema#label> "biologicalRole" <http://schema.org/> .
 <http://schema.org/biomechnicalClass> <http://schema.org/domainIncludes> <http://schema.org/Joint> <http://schema.org/> .
 <http://schema.org/biomechnicalClass> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/biomechnicalClass> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -7060,7 +7261,7 @@
 <http://schema.org/blogPosts> <http://schema.org/rangeIncludes> <http://schema.org/BlogPosting> <http://schema.org/> .
 <http://schema.org/blogPosts> <http://schema.org/supersededBy> <http://schema.org/blogPost> <http://schema.org/> .
 <http://schema.org/blogPosts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/blogPosts> <http://www.w3.org/2000/01/rdf-schema#comment> "The postings that are part of this blog." <http://schema.org/> .
+<http://schema.org/blogPosts> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a post that is part of a [[Blog]]. Note that historically, what we term a \"Blog\" was once known as a \"weblog\", and that what we term a \"BlogPosting\" is now often colloquially referred to as a \"blog\"." <http://schema.org/> .
 <http://schema.org/blogPosts> <http://www.w3.org/2000/01/rdf-schema#label> "blogPosts" <http://schema.org/> .
 <http://schema.org/bloodSupply> <http://schema.org/domainIncludes> <http://schema.org/Muscle> <http://schema.org/> .
 <http://schema.org/bloodSupply> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
@@ -7272,6 +7473,7 @@
 <http://schema.org/businessFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "The business function (e.g. sell, lease, repair, dispose) of the offer or component of a bundle (TypeAndQuantityNode). The default is http://purl.org/goodrelations/v1#Sell." <http://schema.org/> .
 <http://schema.org/businessFunction> <http://www.w3.org/2000/01/rdf-schema#label> "businessFunction" <http://schema.org/> .
 <http://schema.org/buyer> <http://schema.org/domainIncludes> <http://schema.org/SellAction> <http://schema.org/> .
+<http://schema.org/buyer> <http://schema.org/rangeIncludes> <http://schema.org/Organization> <http://schema.org/> .
 <http://schema.org/buyer> <http://schema.org/rangeIncludes> <http://schema.org/Person> <http://schema.org/> .
 <http://schema.org/buyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/buyer> <http://www.w3.org/2000/01/rdf-schema#comment> "A sub property of participant. The participant/person/organization that bought the object." <http://schema.org/> .
@@ -7453,6 +7655,21 @@
 <http://schema.org/checkoutTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/checkoutTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The latest someone may check out of a lodging establishment." <http://schema.org/> .
 <http://schema.org/checkoutTime> <http://www.w3.org/2000/01/rdf-schema#label> "checkoutTime" <http://schema.org/> .
+<http://schema.org/chemicalComposition> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/ChemicalSubstance> <http://schema.org/> .
+<http://schema.org/chemicalComposition> <http://schema.org/domainIncludes> <http://schema.org/ChemicalSubstance> <http://schema.org/> .
+<http://schema.org/chemicalComposition> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/chemicalComposition> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/chemicalComposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/chemicalComposition> <http://www.w3.org/2000/01/rdf-schema#comment> "The chemical composition describes the identity and relative ratio of the chemical elements that make up the substance." <http://schema.org/> .
+<http://schema.org/chemicalComposition> <http://www.w3.org/2000/01/rdf-schema#label> "chemicalComposition" <http://schema.org/> .
+<http://schema.org/chemicalRole> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/ChemicalSubstance> <http://schema.org/> .
+<http://schema.org/chemicalRole> <http://schema.org/domainIncludes> <http://schema.org/ChemicalSubstance> <http://schema.org/> .
+<http://schema.org/chemicalRole> <http://schema.org/domainIncludes> <http://schema.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/chemicalRole> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/chemicalRole> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
+<http://schema.org/chemicalRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/chemicalRole> <http://www.w3.org/2000/01/rdf-schema#comment> "A role played by the BioChemEntity within a chemical context." <http://schema.org/> .
+<http://schema.org/chemicalRole> <http://www.w3.org/2000/01/rdf-schema#label> "chemicalRole" <http://schema.org/> .
 <http://schema.org/childMaxAge> <http://schema.org/domainIncludes> <http://schema.org/ParentAudience> <http://schema.org/> .
 <http://schema.org/childMaxAge> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
 <http://schema.org/childMaxAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -7463,6 +7680,16 @@
 <http://schema.org/childMinAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/childMinAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Minimal age of the child." <http://schema.org/> .
 <http://schema.org/childMinAge> <http://www.w3.org/2000/01/rdf-schema#label> "childMinAge" <http://schema.org/> .
+<http://schema.org/childTaxon> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/Taxon> <http://schema.org/> .
+<http://schema.org/childTaxon> <http://schema.org/domainIncludes> <http://schema.org/Taxon> <http://schema.org/> .
+<http://schema.org/childTaxon> <http://schema.org/inverseOf> <http://schema.org/parentTaxon> <http://schema.org/> .
+<http://schema.org/childTaxon> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/childTaxon> <http://schema.org/rangeIncludes> <http://schema.org/Taxon> <http://schema.org/> .
+<http://schema.org/childTaxon> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/childTaxon> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
+<http://schema.org/childTaxon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/childTaxon> <http://www.w3.org/2000/01/rdf-schema#comment> "Closest child taxa of the taxon in question." <http://schema.org/> .
+<http://schema.org/childTaxon> <http://www.w3.org/2000/01/rdf-schema#label> "childTaxon" <http://schema.org/> .
 <http://schema.org/children> <http://schema.org/domainIncludes> <http://schema.org/Person> <http://schema.org/> .
 <http://schema.org/children> <http://schema.org/rangeIncludes> <http://schema.org/Person> <http://schema.org/> .
 <http://schema.org/children> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -7484,6 +7711,14 @@
 <http://schema.org/citation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/citation> <http://www.w3.org/2000/01/rdf-schema#comment> "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc." <http://schema.org/> .
 <http://schema.org/citation> <http://www.w3.org/2000/01/rdf-schema#label> "citation" <http://schema.org/> .
+<http://schema.org/claimInterpreter> <http://schema.org/domainIncludes> <http://schema.org/Claim> <http://schema.org/> .
+<http://schema.org/claimInterpreter> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/claimInterpreter> <http://schema.org/rangeIncludes> <http://schema.org/Organization> <http://schema.org/> .
+<http://schema.org/claimInterpreter> <http://schema.org/rangeIncludes> <http://schema.org/Person> <http://schema.org/> .
+<http://schema.org/claimInterpreter> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/claimInterpreter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/claimInterpreter> <http://www.w3.org/2000/01/rdf-schema#comment> "For a [[Claim]] interpreted from [[MediaObject]] content\n    sed to indicate a claim contained, implied or refined from the content of a [[MediaObject]]." <http://schema.org/> .
+<http://schema.org/claimInterpreter> <http://www.w3.org/2000/01/rdf-schema#label> "claimInterpreter" <http://schema.org/> .
 <http://schema.org/claimReviewed> <http://schema.org/domainIncludes> <http://schema.org/ClaimReview> <http://schema.org/> .
 <http://schema.org/claimReviewed> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/claimReviewed> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1061> <http://schema.org/> .
@@ -7864,13 +8099,29 @@
 <http://schema.org/countriesSupported> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/countriesSupported> <http://www.w3.org/2000/01/rdf-schema#comment> "Countries for which the application is supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code." <http://schema.org/> .
 <http://schema.org/countriesSupported> <http://www.w3.org/2000/01/rdf-schema#label> "countriesSupported" <http://schema.org/> .
+<http://schema.org/countryOfAssembly> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
+<http://schema.org/countryOfAssembly> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/countryOfAssembly> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/countryOfAssembly> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/991> <http://schema.org/> .
+<http://schema.org/countryOfAssembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/countryOfAssembly> <http://www.w3.org/2000/01/rdf-schema#comment> "The place where the product was assembled." <http://schema.org/> .
+<http://schema.org/countryOfAssembly> <http://www.w3.org/2000/01/rdf-schema#label> "countryOfAssembly" <http://schema.org/> .
+<http://schema.org/countryOfLastProcessing> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
+<http://schema.org/countryOfLastProcessing> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/countryOfLastProcessing> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/countryOfLastProcessing> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/991> <http://schema.org/> .
+<http://schema.org/countryOfLastProcessing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/countryOfLastProcessing> <http://www.w3.org/2000/01/rdf-schema#comment> "The place where the item (typically [[Product]]) was last processed and tested before importation." <http://schema.org/> .
+<http://schema.org/countryOfLastProcessing> <http://www.w3.org/2000/01/rdf-schema#label> "countryOfLastProcessing" <http://schema.org/> .
+<http://schema.org/countryOfOrigin> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/countryOfOrigin> <http://schema.org/domainIncludes> <http://schema.org/Movie> <http://schema.org/> .
+<http://schema.org/countryOfOrigin> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
 <http://schema.org/countryOfOrigin> <http://schema.org/domainIncludes> <http://schema.org/TVEpisode> <http://schema.org/> .
 <http://schema.org/countryOfOrigin> <http://schema.org/domainIncludes> <http://schema.org/TVSeason> <http://schema.org/> .
 <http://schema.org/countryOfOrigin> <http://schema.org/domainIncludes> <http://schema.org/TVSeries> <http://schema.org/> .
 <http://schema.org/countryOfOrigin> <http://schema.org/rangeIncludes> <http://schema.org/Country> <http://schema.org/> .
 <http://schema.org/countryOfOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/countryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "The country of the principal offices of the production company or individual responsible for the movie or program." <http://schema.org/> .
+<http://schema.org/countryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "The country of origin of something, including products as well as creative  works such as movie and TV content.\n\nIn the case of TV and movie, this would be the country of the principle offices of the production company or individual responsible for the movie. For other kinds of [[CreativeWork]] it is difficult to provide fully general guidance, and properties such as [[contentLocation]] and [[locationCreated]] may be more applicable.\n\nIn the case of products, the country of origin of the product. The exact interpretation of this may vary by context and product type, and cannot be fully enumerated here." <http://schema.org/> .
 <http://schema.org/countryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "countryOfOrigin" <http://schema.org/> .
 <http://schema.org/course> <http://schema.org/domainIncludes> <http://schema.org/ExerciseAction> <http://schema.org/> .
 <http://schema.org/course> <http://schema.org/rangeIncludes> <http://schema.org/Place> <http://schema.org/> .
@@ -7989,6 +8240,27 @@
 <http://schema.org/customer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/customer> <http://www.w3.org/2000/01/rdf-schema#comment> "Party placing the order or paying the invoice." <http://schema.org/> .
 <http://schema.org/customer> <http://www.w3.org/2000/01/rdf-schema#label> "customer" <http://schema.org/> .
+<http://schema.org/customerRemorseReturnFees> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnFees> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnFees> <http://schema.org/rangeIncludes> <http://schema.org/ReturnFeesEnumeration> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnFees> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnFees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnFees> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of return fees if the product is returned due to customer remorse." <http://schema.org/> .
+<http://schema.org/customerRemorseReturnFees> <http://www.w3.org/2000/01/rdf-schema#label> "customerRemorseReturnFees" <http://schema.org/> .
+<http://schema.org/customerRemorseReturnLabelSource> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnLabelSource> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnLabelSource> <http://schema.org/rangeIncludes> <http://schema.org/ReturnLabelSourceEnumeration> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnLabelSource> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnLabelSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnLabelSource> <http://www.w3.org/2000/01/rdf-schema#comment> "The method (from an enumeration) by which the customer obtains a return shipping label for a product returned due to customer remorse." <http://schema.org/> .
+<http://schema.org/customerRemorseReturnLabelSource> <http://www.w3.org/2000/01/rdf-schema#label> "customerRemorseReturnLabelSource" <http://schema.org/> .
+<http://schema.org/customerRemorseReturnShippingFeesAmount> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnShippingFeesAmount> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnShippingFeesAmount> <http://schema.org/rangeIncludes> <http://schema.org/MonetaryAmount> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnShippingFeesAmount> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnShippingFeesAmount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/customerRemorseReturnShippingFeesAmount> <http://www.w3.org/2000/01/rdf-schema#comment> "The amount of shipping costs if a product is returned due to customer remorse. Applicable when property [[customerRemorseReturnFees]] equals [[ReturnShippingFees]]." <http://schema.org/> .
+<http://schema.org/customerRemorseReturnShippingFeesAmount> <http://www.w3.org/2000/01/rdf-schema#label> "customerRemorseReturnShippingFeesAmount" <http://schema.org/> .
 <http://schema.org/cutoffTime> <http://schema.org/domainIncludes> <http://schema.org/ShippingDeliveryTime> <http://schema.org/> .
 <http://schema.org/cutoffTime> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/cutoffTime> <http://schema.org/rangeIncludes> <http://schema.org/Time> <http://schema.org/> .
@@ -8361,6 +8633,13 @@
 <http://schema.org/differentialDiagnosis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/differentialDiagnosis> <http://www.w3.org/2000/01/rdf-schema#comment> "One of a set of differential diagnoses for the condition. Specifically, a closely-related or competing diagnosis typically considered later in the cognitive process whereby this medical condition is distinguished from others most likely responsible for a similar collection of signs and symptoms to reach the most parsimonious diagnosis or diagnoses in a patient." <http://schema.org/> .
 <http://schema.org/differentialDiagnosis> <http://www.w3.org/2000/01/rdf-schema#label> "differentialDiagnosis" <http://schema.org/> .
+<http://schema.org/directApply> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
+<http://schema.org/directApply> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/directApply> <http://schema.org/rangeIncludes> <http://schema.org/Boolean> <http://schema.org/> .
+<http://schema.org/directApply> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2907> <http://schema.org/> .
+<http://schema.org/directApply> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/directApply> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether an [[url]] that is associated with a [[JobPosting]] enables direct application for the job, via the posting website. A job posting is considered to have directApply of [[True]] if an application process for the specified job can be directly initiated via the url(s) given (noting that e.g. multiple internet domains might nevertheless be involved at an implementation level). A value of [[False]] is appropriate if there is no clear path to applying directly online for the specified job, navigating directly from the JobPosting url(s) supplied." <http://schema.org/> .
+<http://schema.org/directApply> <http://www.w3.org/2000/01/rdf-schema#label> "directApply" <http://schema.org/> .
 <http://schema.org/director> <http://schema.org/domainIncludes> <http://schema.org/Clip> <http://schema.org/> .
 <http://schema.org/director> <http://schema.org/domainIncludes> <http://schema.org/CreativeWorkSeason> <http://schema.org/> .
 <http://schema.org/director> <http://schema.org/domainIncludes> <http://schema.org/Episode> <http://schema.org/> .
@@ -8811,6 +9090,16 @@
 <http://schema.org/embedUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/embedUrl> <http://www.w3.org/2000/01/rdf-schema#comment> "A URL pointing to a player for a specific video. In general, this is the information in the ```src``` element of an ```embed``` tag and should not be the same as the content of the ```loc``` tag." <http://schema.org/> .
 <http://schema.org/embedUrl> <http://www.w3.org/2000/01/rdf-schema#label> "embedUrl" <http://schema.org/> .
+<http://schema.org/embeddedTextCaption> <http://schema.org/domainIncludes> <http://schema.org/AudioObject> <http://schema.org/> .
+<http://schema.org/embeddedTextCaption> <http://schema.org/domainIncludes> <http://schema.org/ImageObject> <http://schema.org/> .
+<http://schema.org/embeddedTextCaption> <http://schema.org/domainIncludes> <http://schema.org/VideoObject> <http://schema.org/> .
+<http://schema.org/embeddedTextCaption> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/embeddedTextCaption> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/embeddedTextCaption> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/embeddedTextCaption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/embeddedTextCaption> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents textual captioning from a [[MediaObject]], e.g. text of a 'meme'." <http://schema.org/> .
+<http://schema.org/embeddedTextCaption> <http://www.w3.org/2000/01/rdf-schema#label> "embeddedTextCaption" <http://schema.org/> .
+<http://schema.org/embeddedTextCaption> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/caption> <http://schema.org/> .
 <http://schema.org/emissionsCO2> <http://schema.org/domainIncludes> <http://schema.org/Vehicle> <http://schema.org/> .
 <http://schema.org/emissionsCO2> <http://schema.org/isPartOf> <http://auto.schema.org> <http://schema.org/> .
 <http://schema.org/emissionsCO2> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
@@ -8848,6 +9137,14 @@
 <http://schema.org/employmentUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/employmentUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the department, unit and/or facility where the employee reports and/or in which the job is to be performed." <http://schema.org/> .
 <http://schema.org/employmentUnit> <http://www.w3.org/2000/01/rdf-schema#label> "employmentUnit" <http://schema.org/> .
+<http://schema.org/encodesBioChemEntity> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/Gene> <http://schema.org/> .
+<http://schema.org/encodesBioChemEntity> <http://schema.org/domainIncludes> <http://schema.org/Gene> <http://schema.org/> .
+<http://schema.org/encodesBioChemEntity> <http://schema.org/inverseOf> <http://schema.org/isEncodedByBioChemEntity> <http://schema.org/> .
+<http://schema.org/encodesBioChemEntity> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/encodesBioChemEntity> <http://schema.org/rangeIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/encodesBioChemEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/encodesBioChemEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Another BioChemEntity encoded by this one. " <http://schema.org/> .
+<http://schema.org/encodesBioChemEntity> <http://www.w3.org/2000/01/rdf-schema#label> "encodesBioChemEntity" <http://schema.org/> .
 <http://schema.org/encodesCreativeWork> <http://schema.org/domainIncludes> <http://schema.org/MediaObject> <http://schema.org/> .
 <http://schema.org/encodesCreativeWork> <http://schema.org/inverseOf> <http://schema.org/encoding> <http://schema.org/> .
 <http://schema.org/encodesCreativeWork> <http://schema.org/rangeIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
@@ -8883,6 +9180,7 @@
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/DatedMoneySpecification> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/EducationalOccupationalProgram> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
+<http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicySeasonalOverride> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/Role> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/domainIncludes> <http://schema.org/Schedule> <http://schema.org/> .
 <http://schema.org/endDate> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
@@ -8901,6 +9199,7 @@
 <http://schema.org/endOffset> <http://www.w3.org/2000/01/rdf-schema#label> "endOffset" <http://schema.org/> .
 <http://schema.org/endTime> <http://schema.org/domainIncludes> <http://schema.org/Action> <http://schema.org/> .
 <http://schema.org/endTime> <http://schema.org/domainIncludes> <http://schema.org/FoodEstablishmentReservation> <http://schema.org/> .
+<http://schema.org/endTime> <http://schema.org/domainIncludes> <http://schema.org/InteractionCounter> <http://schema.org/> .
 <http://schema.org/endTime> <http://schema.org/domainIncludes> <http://schema.org/MediaObject> <http://schema.org/> .
 <http://schema.org/endTime> <http://schema.org/domainIncludes> <http://schema.org/Schedule> <http://schema.org/> .
 <http://schema.org/endTime> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
@@ -9209,6 +9508,16 @@
 <http://schema.org/expires> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/expires> <http://www.w3.org/2000/01/rdf-schema#comment> "Date the content expires and is no longer useful or available. For example a [[VideoObject]] or [[NewsArticle]] whose availability or relevance is time-limited, or a [[ClaimReview]] fact check whose publisher wants to indicate that it may no longer be relevant (or helpful to highlight) after some date." <http://schema.org/> .
 <http://schema.org/expires> <http://www.w3.org/2000/01/rdf-schema#label> "expires" <http://schema.org/> .
+<http://schema.org/expressedIn> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/Gene> <http://schema.org/> .
+<http://schema.org/expressedIn> <http://schema.org/domainIncludes> <http://schema.org/Gene> <http://schema.org/> .
+<http://schema.org/expressedIn> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/expressedIn> <http://schema.org/rangeIncludes> <http://schema.org/AnatomicalStructure> <http://schema.org/> .
+<http://schema.org/expressedIn> <http://schema.org/rangeIncludes> <http://schema.org/AnatomicalSystem> <http://schema.org/> .
+<http://schema.org/expressedIn> <http://schema.org/rangeIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/expressedIn> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
+<http://schema.org/expressedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/expressedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Tissue, organ, biological sample, etc in which activity of this gene has been observed experimentally. For example brain, digestive system." <http://schema.org/> .
+<http://schema.org/expressedIn> <http://www.w3.org/2000/01/rdf-schema#label> "expressedIn" <http://schema.org/> .
 <http://schema.org/familyName> <http://schema.org/domainIncludes> <http://schema.org/Person> <http://schema.org/> .
 <http://schema.org/familyName> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/familyName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -9735,6 +10044,23 @@
 <http://schema.org/handlingTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/handlingTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The typical delay between the receipt of the order and the goods either leaving the warehouse or being prepared for pickup, in case the delivery method is on site pickup. Typical properties: minValue, maxValue, unitCode (d for DAY).  This is by common convention assumed to mean business days (if a unitCode is used, coded as \"d\"), i.e. only counting days when the business normally operates." <http://schema.org/> .
 <http://schema.org/handlingTime> <http://www.w3.org/2000/01/rdf-schema#label> "handlingTime" <http://schema.org/> .
+<http://schema.org/hasBioChemEntityPart> <http://purl.org/dc/terms/source> <http://www.bioschemas.org> <http://schema.org/> .
+<http://schema.org/hasBioChemEntityPart> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/hasBioChemEntityPart> <http://schema.org/inverseOf> <http://schema.org/isPartOfBioChemEntity> <http://schema.org/> .
+<http://schema.org/hasBioChemEntityPart> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/hasBioChemEntityPart> <http://schema.org/rangeIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/hasBioChemEntityPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/hasBioChemEntityPart> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a BioChemEntity that (in some sense) has this BioChemEntity as a part. " <http://schema.org/> .
+<http://schema.org/hasBioChemEntityPart> <http://www.w3.org/2000/01/rdf-schema#label> "hasBioChemEntityPart" <http://schema.org/> .
+<http://schema.org/hasBioPolymerSequence> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/Gene> <http://schema.org/> .
+<http://schema.org/hasBioPolymerSequence> <http://schema.org/domainIncludes> <http://schema.org/Gene> <http://schema.org/> .
+<http://schema.org/hasBioPolymerSequence> <http://schema.org/domainIncludes> <http://schema.org/Protein> <http://schema.org/> .
+<http://schema.org/hasBioPolymerSequence> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/hasBioPolymerSequence> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/hasBioPolymerSequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/hasBioPolymerSequence> <http://www.w3.org/2000/01/rdf-schema#comment> "A symbolic representation of a BioChemEnity. For example, a nucleotide sequence of a Gene or an amino acid sequence of a Protein." <http://schema.org/> .
+<http://schema.org/hasBioPolymerSequence> <http://www.w3.org/2000/01/rdf-schema#label> "hasBioPolymerSequence" <http://schema.org/> .
+<http://schema.org/hasBioPolymerSequence> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/hasRepresentation> <http://schema.org/> .
 <http://schema.org/hasBroadcastChannel> <http://schema.org/domainIncludes> <http://schema.org/BroadcastService> <http://schema.org/> .
 <http://schema.org/hasBroadcastChannel> <http://schema.org/inverseOf> <http://schema.org/providesBroadcastService> <http://schema.org/> .
 <http://schema.org/hasBroadcastChannel> <http://schema.org/rangeIncludes> <http://schema.org/BroadcastChannel> <http://schema.org/> .
@@ -9771,6 +10097,7 @@
 <http://schema.org/hasCredential> <http://www.w3.org/2000/01/rdf-schema#comment> "A credential awarded to the Person or Organization." <http://schema.org/> .
 <http://schema.org/hasCredential> <http://www.w3.org/2000/01/rdf-schema#label> "hasCredential" <http://schema.org/> .
 <http://schema.org/hasDefinedTerm> <http://schema.org/domainIncludes> <http://schema.org/DefinedTermSet> <http://schema.org/> .
+<http://schema.org/hasDefinedTerm> <http://schema.org/domainIncludes> <http://schema.org/Taxon> <http://schema.org/> .
 <http://schema.org/hasDefinedTerm> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/hasDefinedTerm> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
 <http://schema.org/hasDefinedTerm> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/894> <http://schema.org/> .
@@ -9850,14 +10177,24 @@
 <http://schema.org/hasMenuSection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/hasMenuSection> <http://www.w3.org/2000/01/rdf-schema#comment> "A subgrouping of the menu (by dishes, course, serving time period, etc.)." <http://schema.org/> .
 <http://schema.org/hasMenuSection> <http://www.w3.org/2000/01/rdf-schema#label> "hasMenuSection" <http://schema.org/> .
+<http://schema.org/hasMerchantReturnPolicy> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
 <http://schema.org/hasMerchantReturnPolicy> <http://schema.org/domainIncludes> <http://schema.org/Organization> <http://schema.org/> .
 <http://schema.org/hasMerchantReturnPolicy> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
 <http://schema.org/hasMerchantReturnPolicy> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/hasMerchantReturnPolicy> <http://schema.org/rangeIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
 <http://schema.org/hasMerchantReturnPolicy> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/hasMerchantReturnPolicy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/hasMerchantReturnPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a MerchantReturnPolicy that may be applicable." <http://schema.org/> .
+<http://schema.org/hasMerchantReturnPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a MerchantReturnPolicy that may be applicable." <http://schema.org/> .
 <http://schema.org/hasMerchantReturnPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "hasMerchantReturnPolicy" <http://schema.org/> .
+<http://schema.org/hasMolecularFunction> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/hasMolecularFunction> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/hasMolecularFunction> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/hasMolecularFunction> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
+<http://schema.org/hasMolecularFunction> <http://schema.org/rangeIncludes> <http://schema.org/PropertyValue> <http://schema.org/> .
+<http://schema.org/hasMolecularFunction> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
+<http://schema.org/hasMolecularFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/hasMolecularFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "Molecular function performed by this BioChemEntity; please use PropertyValue if you want to include any evidence." <http://schema.org/> .
+<http://schema.org/hasMolecularFunction> <http://www.w3.org/2000/01/rdf-schema#label> "hasMolecularFunction" <http://schema.org/> .
 <http://schema.org/hasOccupation> <http://schema.org/domainIncludes> <http://schema.org/Person> <http://schema.org/> .
 <http://schema.org/hasOccupation> <http://schema.org/rangeIncludes> <http://schema.org/Occupation> <http://schema.org/> .
 <http://schema.org/hasOccupation> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1698> <http://schema.org/> .
@@ -9885,6 +10222,15 @@
 <http://schema.org/hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/hasPart> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates an item or CreativeWork that is part of this item, or CreativeWork (in some sense)." <http://schema.org/> .
 <http://schema.org/hasPart> <http://www.w3.org/2000/01/rdf-schema#label> "hasPart" <http://schema.org/> .
+<http://schema.org/hasRepresentation> <http://purl.org/dc/terms/source> <http://www.bioschemas.org> <http://schema.org/> .
+<http://schema.org/hasRepresentation> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/hasRepresentation> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/hasRepresentation> <http://schema.org/rangeIncludes> <http://schema.org/PropertyValue> <http://schema.org/> .
+<http://schema.org/hasRepresentation> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/hasRepresentation> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
+<http://schema.org/hasRepresentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/hasRepresentation> <http://www.w3.org/2000/01/rdf-schema#comment> "A common representation such as a protein sequence or chemical structure for this entity. For images use schema.org/image." <http://schema.org/> .
+<http://schema.org/hasRepresentation> <http://www.w3.org/2000/01/rdf-schema#label> "hasRepresentation" <http://schema.org/> .
 <http://schema.org/hasVariant> <http://schema.org/domainIncludes> <http://schema.org/ProductGroup> <http://schema.org/> .
 <http://schema.org/hasVariant> <http://schema.org/inverseOf> <http://schema.org/isVariantOf> <http://schema.org/> .
 <http://schema.org/hasVariant> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
@@ -10140,6 +10486,22 @@
 <http://schema.org/inBroadcastLineup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/inBroadcastLineup> <http://www.w3.org/2000/01/rdf-schema#comment> "The CableOrSatelliteService offering the channel." <http://schema.org/> .
 <http://schema.org/inBroadcastLineup> <http://www.w3.org/2000/01/rdf-schema#label> "inBroadcastLineup" <http://schema.org/> .
+<http://schema.org/inChI> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/inChI> <http://schema.org/domainIncludes> <http://schema.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/inChI> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/inChI> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/inChI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/inChI> <http://www.w3.org/2000/01/rdf-schema#comment> "Non-proprietary identifier for molecular entity that can be used in printed and electronic data sources thus enabling easier linking of diverse data compilations." <http://schema.org/> .
+<http://schema.org/inChI> <http://www.w3.org/2000/01/rdf-schema#label> "inChI" <http://schema.org/> .
+<http://schema.org/inChI> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/hasRepresentation> <http://schema.org/> .
+<http://schema.org/inChIKey> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/inChIKey> <http://schema.org/domainIncludes> <http://schema.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/inChIKey> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/inChIKey> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/inChIKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/inChIKey> <http://www.w3.org/2000/01/rdf-schema#comment> "InChIKey is a hashed version of the full InChI (using the SHA-256 algorithm)." <http://schema.org/> .
+<http://schema.org/inChIKey> <http://www.w3.org/2000/01/rdf-schema#label> "inChIKey" <http://schema.org/> .
+<http://schema.org/inChIKey> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/hasRepresentation> <http://schema.org/> .
 <http://schema.org/inCodeSet> <http://schema.org/domainIncludes> <http://schema.org/CategoryCode> <http://schema.org/> .
 <http://schema.org/inCodeSet> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/inCodeSet> <http://schema.org/rangeIncludes> <http://schema.org/CategoryCodeSet> <http://schema.org/> .
@@ -10188,7 +10550,7 @@
 <http://schema.org/inStoreReturnsOffered> <http://schema.org/rangeIncludes> <http://schema.org/Boolean> <http://schema.org/> .
 <http://schema.org/inStoreReturnsOffered> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/inStoreReturnsOffered> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/inStoreReturnsOffered> <http://www.w3.org/2000/01/rdf-schema#comment> "Are in-store returns offered?" <http://schema.org/> .
+<http://schema.org/inStoreReturnsOffered> <http://www.w3.org/2000/01/rdf-schema#comment> "Are in-store returns offered? (for more advanced return methods use the [[returnMethod]] property)" <http://schema.org/> .
 <http://schema.org/inStoreReturnsOffered> <http://www.w3.org/2000/01/rdf-schema#label> "inStoreReturnsOffered" <http://schema.org/> .
 <http://schema.org/inSupportOf> <http://schema.org/domainIncludes> <http://schema.org/Thesis> <http://schema.org/> .
 <http://schema.org/inSupportOf> <http://schema.org/isPartOf> <http://bib.schema.org> <http://schema.org/> .
@@ -10390,6 +10752,15 @@
 <http://schema.org/interestRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/interestRate> <http://www.w3.org/2000/01/rdf-schema#comment> "The interest rate, charged or paid, applicable to the financial product. Note: This is different from the calculated annualPercentageRate." <http://schema.org/> .
 <http://schema.org/interestRate> <http://www.w3.org/2000/01/rdf-schema#label> "interestRate" <http://schema.org/> .
+<http://schema.org/interpretedAsClaim> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/interpretedAsClaim> <http://schema.org/domainIncludes> <http://schema.org/MediaObject> <http://schema.org/> .
+<http://schema.org/interpretedAsClaim> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/interpretedAsClaim> <http://schema.org/rangeIncludes> <http://schema.org/Claim> <http://schema.org/> .
+<http://schema.org/interpretedAsClaim> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/interpretedAsClaim> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/interpretedAsClaim> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to indicate a specific claim contained, implied, translated or refined from the content of a [[MediaObject]] or other [[CreativeWork]]. The interpreting party can be indicated using [[claimInterpreter]]." <http://schema.org/> .
+<http://schema.org/interpretedAsClaim> <http://www.w3.org/2000/01/rdf-schema#label> "interpretedAsClaim" <http://schema.org/> .
+<http://schema.org/interpretedAsClaim> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/description> <http://schema.org/> .
 <http://schema.org/inventoryLevel> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .
 <http://schema.org/inventoryLevel> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
 <http://schema.org/inventoryLevel> <http://schema.org/domainIncludes> <http://schema.org/SomeProducts> <http://schema.org/> .
@@ -10451,6 +10822,14 @@
 <http://schema.org/isConsumableFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/isConsumableFor> <http://www.w3.org/2000/01/rdf-schema#comment> "A pointer to another product (or multiple products) for which this product is a consumable." <http://schema.org/> .
 <http://schema.org/isConsumableFor> <http://www.w3.org/2000/01/rdf-schema#label> "isConsumableFor" <http://schema.org/> .
+<http://schema.org/isEncodedByBioChemEntity> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/Gene> <http://schema.org/> .
+<http://schema.org/isEncodedByBioChemEntity> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/isEncodedByBioChemEntity> <http://schema.org/inverseOf> <http://schema.org/encodesBioChemEntity> <http://schema.org/> .
+<http://schema.org/isEncodedByBioChemEntity> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/isEncodedByBioChemEntity> <http://schema.org/rangeIncludes> <http://schema.org/Gene> <http://schema.org/> .
+<http://schema.org/isEncodedByBioChemEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/isEncodedByBioChemEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Another BioChemEntity encoding by this one." <http://schema.org/> .
+<http://schema.org/isEncodedByBioChemEntity> <http://www.w3.org/2000/01/rdf-schema#label> "isEncodedByBioChemEntity" <http://schema.org/> .
 <http://schema.org/isFamilyFriendly> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/isFamilyFriendly> <http://schema.org/rangeIncludes> <http://schema.org/Boolean> <http://schema.org/> .
 <http://schema.org/isFamilyFriendly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -10461,11 +10840,29 @@
 <http://schema.org/isGift> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/isGift> <http://www.w3.org/2000/01/rdf-schema#comment> "Was the offer accepted as a gift for someone other than the buyer." <http://schema.org/> .
 <http://schema.org/isGift> <http://www.w3.org/2000/01/rdf-schema#label> "isGift" <http://schema.org/> .
+<http://schema.org/isInvolvedInBiologicalProcess> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/isInvolvedInBiologicalProcess> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/isInvolvedInBiologicalProcess> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/isInvolvedInBiologicalProcess> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
+<http://schema.org/isInvolvedInBiologicalProcess> <http://schema.org/rangeIncludes> <http://schema.org/PropertyValue> <http://schema.org/> .
+<http://schema.org/isInvolvedInBiologicalProcess> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
+<http://schema.org/isInvolvedInBiologicalProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/isInvolvedInBiologicalProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "Biological process this BioChemEntity is involved in; please use PropertyValue if you want to include any evidence." <http://schema.org/> .
+<http://schema.org/isInvolvedInBiologicalProcess> <http://www.w3.org/2000/01/rdf-schema#label> "isInvolvedInBiologicalProcess" <http://schema.org/> .
 <http://schema.org/isLiveBroadcast> <http://schema.org/domainIncludes> <http://schema.org/BroadcastEvent> <http://schema.org/> .
 <http://schema.org/isLiveBroadcast> <http://schema.org/rangeIncludes> <http://schema.org/Boolean> <http://schema.org/> .
 <http://schema.org/isLiveBroadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/isLiveBroadcast> <http://www.w3.org/2000/01/rdf-schema#comment> "True if the broadcast is of a live event." <http://schema.org/> .
 <http://schema.org/isLiveBroadcast> <http://www.w3.org/2000/01/rdf-schema#label> "isLiveBroadcast" <http://schema.org/> .
+<http://schema.org/isLocatedInSubcellularLocation> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/isLocatedInSubcellularLocation> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/isLocatedInSubcellularLocation> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/isLocatedInSubcellularLocation> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
+<http://schema.org/isLocatedInSubcellularLocation> <http://schema.org/rangeIncludes> <http://schema.org/PropertyValue> <http://schema.org/> .
+<http://schema.org/isLocatedInSubcellularLocation> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
+<http://schema.org/isLocatedInSubcellularLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/isLocatedInSubcellularLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Subcellular location where this BioChemEntity is located; please use PropertyValue if you want to include any evidence." <http://schema.org/> .
+<http://schema.org/isLocatedInSubcellularLocation> <http://www.w3.org/2000/01/rdf-schema#label> "isLocatedInSubcellularLocation" <http://schema.org/> .
 <http://schema.org/isPartOf> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/isPartOf> <http://schema.org/inverseOf> <http://schema.org/hasPart> <http://schema.org/> .
 <http://schema.org/isPartOf> <http://schema.org/rangeIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
@@ -10473,6 +10870,14 @@
 <http://schema.org/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/isPartOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates an item or CreativeWork that this item, or CreativeWork (in some sense), is part of." <http://schema.org/> .
 <http://schema.org/isPartOf> <http://www.w3.org/2000/01/rdf-schema#label> "isPartOf" <http://schema.org/> .
+<http://schema.org/isPartOfBioChemEntity> <http://purl.org/dc/terms/source> <http://www.bioschemas.org> <http://schema.org/> .
+<http://schema.org/isPartOfBioChemEntity> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/isPartOfBioChemEntity> <http://schema.org/inverseOf> <http://schema.org/hasBioChemEntityPart> <http://schema.org/> .
+<http://schema.org/isPartOfBioChemEntity> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/isPartOfBioChemEntity> <http://schema.org/rangeIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/isPartOfBioChemEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/isPartOfBioChemEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a BioChemEntity that is (in some sense) a part of this BioChemEntity. " <http://schema.org/> .
+<http://schema.org/isPartOfBioChemEntity> <http://www.w3.org/2000/01/rdf-schema#label> "isPartOfBioChemEntity" <http://schema.org/> .
 <http://schema.org/isPlanForApartment> <http://schema.org/domainIncludes> <http://schema.org/FloorPlan> <http://schema.org/> .
 <http://schema.org/isPlanForApartment> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/isPlanForApartment> <http://schema.org/rangeIncludes> <http://schema.org/Accommodation> <http://schema.org/> .
@@ -10592,12 +10997,34 @@
 <http://schema.org/item> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity represented by an entry in a list or data feed (e.g. an 'artist' in a list of 'artists')’." <http://schema.org/> .
 <http://schema.org/item> <http://www.w3.org/2000/01/rdf-schema#label> "item" <http://schema.org/> .
 <http://schema.org/itemCondition> <http://schema.org/domainIncludes> <http://schema.org/Demand> <http://schema.org/> .
+<http://schema.org/itemCondition> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
 <http://schema.org/itemCondition> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
 <http://schema.org/itemCondition> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
 <http://schema.org/itemCondition> <http://schema.org/rangeIncludes> <http://schema.org/OfferItemCondition> <http://schema.org/> .
 <http://schema.org/itemCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/itemCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "A predefined value from OfferItemCondition or a textual description of the condition of the product or service, or the products or services included in the offer." <http://schema.org/> .
+<http://schema.org/itemCondition> <http://www.w3.org/2000/01/rdf-schema#comment> "A predefined value from OfferItemCondition specifying the condition of the product or service, or the products or services included in the offer. Also used for product return policies to specify the condition of products accepted for returns." <http://schema.org/> .
 <http://schema.org/itemCondition> <http://www.w3.org/2000/01/rdf-schema#label> "itemCondition" <http://schema.org/> .
+<http://schema.org/itemDefectReturnFees> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/itemDefectReturnFees> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/itemDefectReturnFees> <http://schema.org/rangeIncludes> <http://schema.org/ReturnFeesEnumeration> <http://schema.org/> .
+<http://schema.org/itemDefectReturnFees> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/itemDefectReturnFees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/itemDefectReturnFees> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of return fees for returns of defect products." <http://schema.org/> .
+<http://schema.org/itemDefectReturnFees> <http://www.w3.org/2000/01/rdf-schema#label> "itemDefectReturnFees" <http://schema.org/> .
+<http://schema.org/itemDefectReturnLabelSource> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/itemDefectReturnLabelSource> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/itemDefectReturnLabelSource> <http://schema.org/rangeIncludes> <http://schema.org/ReturnLabelSourceEnumeration> <http://schema.org/> .
+<http://schema.org/itemDefectReturnLabelSource> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/itemDefectReturnLabelSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/itemDefectReturnLabelSource> <http://www.w3.org/2000/01/rdf-schema#comment> "The method (from an enumeration) by which the customer obtains a return shipping label for a defect product." <http://schema.org/> .
+<http://schema.org/itemDefectReturnLabelSource> <http://www.w3.org/2000/01/rdf-schema#label> "itemDefectReturnLabelSource" <http://schema.org/> .
+<http://schema.org/itemDefectReturnShippingFeesAmount> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/itemDefectReturnShippingFeesAmount> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/itemDefectReturnShippingFeesAmount> <http://schema.org/rangeIncludes> <http://schema.org/MonetaryAmount> <http://schema.org/> .
+<http://schema.org/itemDefectReturnShippingFeesAmount> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/itemDefectReturnShippingFeesAmount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/itemDefectReturnShippingFeesAmount> <http://www.w3.org/2000/01/rdf-schema#comment> "Amount of shipping costs for defect product returns. Applicable when property [[itemDefectReturnFees]] equals [[ReturnShippingFees]]." <http://schema.org/> .
+<http://schema.org/itemDefectReturnShippingFeesAmount> <http://www.w3.org/2000/01/rdf-schema#label> "itemDefectReturnShippingFeesAmount" <http://schema.org/> .
 <http://schema.org/itemListElement> <http://schema.org/domainIncludes> <http://schema.org/ItemList> <http://schema.org/> .
 <http://schema.org/itemListElement> <http://schema.org/rangeIncludes> <http://schema.org/ListItem> <http://schema.org/> .
 <http://schema.org/itemListElement> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -10654,6 +11081,13 @@
 <http://schema.org/itinerary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/itinerary> <http://www.w3.org/2000/01/rdf-schema#comment> "Destination(s) ( [[Place]] ) that make up a trip. For a trip where destination order is important use [[ItemList]] to specify that order (see examples)." <http://schema.org/> .
 <http://schema.org/itinerary> <http://www.w3.org/2000/01/rdf-schema#label> "itinerary" <http://schema.org/> .
+<http://schema.org/iupacName> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/iupacName> <http://schema.org/domainIncludes> <http://schema.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/iupacName> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/iupacName> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/iupacName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/iupacName> <http://www.w3.org/2000/01/rdf-schema#comment> "Systematic method of naming chemical compounds as recommended by the International Union of Pure and Applied Chemistry (IUPAC)." <http://schema.org/> .
+<http://schema.org/iupacName> <http://www.w3.org/2000/01/rdf-schema#label> "iupacName" <http://schema.org/> .
 <http://schema.org/jobBenefits> <http://schema.org/domainIncludes> <http://schema.org/JobPosting> <http://schema.org/> .
 <http://schema.org/jobBenefits> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/jobBenefits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -11066,6 +11500,7 @@
 <http://schema.org/loanType> <http://www.w3.org/2000/01/rdf-schema#label> "loanType" <http://schema.org/> .
 <http://schema.org/location> <http://schema.org/domainIncludes> <http://schema.org/Action> <http://schema.org/> .
 <http://schema.org/location> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
+<http://schema.org/location> <http://schema.org/domainIncludes> <http://schema.org/InteractionCounter> <http://schema.org/> .
 <http://schema.org/location> <http://schema.org/domainIncludes> <http://schema.org/Organization> <http://schema.org/> .
 <http://schema.org/location> <http://schema.org/rangeIncludes> <http://schema.org/Place> <http://schema.org/> .
 <http://schema.org/location> <http://schema.org/rangeIncludes> <http://schema.org/PostalAddress> <http://schema.org/> .
@@ -11328,6 +11763,13 @@
 <http://schema.org/mediaAuthenticityCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/mediaAuthenticityCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a MediaManipulationRatingEnumeration classification of a media object (in the context of how it was published or shared)." <http://schema.org/> .
 <http://schema.org/mediaAuthenticityCategory> <http://www.w3.org/2000/01/rdf-schema#label> "mediaAuthenticityCategory" <http://schema.org/> .
+<http://schema.org/mediaItemAppearance> <http://schema.org/domainIncludes> <http://schema.org/MediaReviewItem> <http://schema.org/> .
+<http://schema.org/mediaItemAppearance> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/mediaItemAppearance> <http://schema.org/rangeIncludes> <http://schema.org/MediaObject> <http://schema.org/> .
+<http://schema.org/mediaItemAppearance> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/mediaItemAppearance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/mediaItemAppearance> <http://www.w3.org/2000/01/rdf-schema#comment> "In the context of a [[MediaReview]], indicates specific media item(s) that are grouped using a [[MediaReviewItem]]." <http://schema.org/> .
+<http://schema.org/mediaItemAppearance> <http://www.w3.org/2000/01/rdf-schema#label> "mediaItemAppearance" <http://schema.org/> .
 <http://schema.org/median> <http://schema.org/domainIncludes> <http://schema.org/QuantitativeValueDistribution> <http://schema.org/> .
 <http://schema.org/median> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
 <http://schema.org/median> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1698> <http://schema.org/> .
@@ -11436,18 +11878,21 @@
 <http://schema.org/merchant> <http://www.w3.org/2000/01/rdf-schema#comment> "'merchant' is an out-dated term for 'seller'." <http://schema.org/> .
 <http://schema.org/merchant> <http://www.w3.org/2000/01/rdf-schema#label> "merchant" <http://schema.org/> .
 <http://schema.org/merchantReturnDays> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/merchantReturnDays> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicySeasonalOverride> <http://schema.org/> .
 <http://schema.org/merchantReturnDays> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/merchantReturnDays> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
+<http://schema.org/merchantReturnDays> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
 <http://schema.org/merchantReturnDays> <http://schema.org/rangeIncludes> <http://schema.org/Integer> <http://schema.org/> .
 <http://schema.org/merchantReturnDays> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/merchantReturnDays> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/merchantReturnDays> <http://www.w3.org/2000/01/rdf-schema#comment> "The merchantReturnDays property indicates the number of days (from purchase) within which relevant merchant return policy is applicable." <http://schema.org/> .
+<http://schema.org/merchantReturnDays> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies either a fixed return date or the number of days (from the delivery date) that a product can be returned. Used when the [[returnPolicyCategory]] property is specified as [[MerchantReturnFiniteReturnWindow]]." <http://schema.org/> .
 <http://schema.org/merchantReturnDays> <http://www.w3.org/2000/01/rdf-schema#label> "merchantReturnDays" <http://schema.org/> .
 <http://schema.org/merchantReturnLink> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
 <http://schema.org/merchantReturnLink> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/merchantReturnLink> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
 <http://schema.org/merchantReturnLink> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/merchantReturnLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/merchantReturnLink> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a Web page or service by URL, for product return." <http://schema.org/> .
+<http://schema.org/merchantReturnLink> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a Web page or service by URL, for product returns." <http://schema.org/> .
 <http://schema.org/merchantReturnLink> <http://www.w3.org/2000/01/rdf-schema#label> "merchantReturnLink" <http://schema.org/> .
 <http://schema.org/messageAttachment> <http://schema.org/domainIncludes> <http://schema.org/Message> <http://schema.org/> .
 <http://schema.org/messageAttachment> <http://schema.org/rangeIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
@@ -11509,6 +11954,29 @@
 <http://schema.org/modifiedTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/modifiedTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The date and time the reservation was modified." <http://schema.org/> .
 <http://schema.org/modifiedTime> <http://www.w3.org/2000/01/rdf-schema#label> "modifiedTime" <http://schema.org/> .
+<http://schema.org/molecularFormula> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/molecularFormula> <http://schema.org/domainIncludes> <http://schema.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/molecularFormula> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/molecularFormula> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/molecularFormula> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/molecularFormula> <http://www.w3.org/2000/01/rdf-schema#comment> "The empirical formula is the simplest whole number ratio of all the atoms in a molecule." <http://schema.org/> .
+<http://schema.org/molecularFormula> <http://www.w3.org/2000/01/rdf-schema#label> "molecularFormula" <http://schema.org/> .
+<http://schema.org/molecularWeight> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/molecularWeight> <http://schema.org/domainIncludes> <http://schema.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/molecularWeight> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/molecularWeight> <http://schema.org/rangeIncludes> <http://schema.org/QuantitativeValue> <http://schema.org/> .
+<http://schema.org/molecularWeight> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/molecularWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/molecularWeight> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the molecular weight of the entity being described, not of the parent. Units should be included in the form '&lt;Number&gt; &lt;unit&gt;', for example '12 amu' or as '&lt;QuantitativeValue&gt;." <http://schema.org/> .
+<http://schema.org/molecularWeight> <http://www.w3.org/2000/01/rdf-schema#label> "molecularWeight" <http://schema.org/> .
+<http://schema.org/monoisotopicMolecularWeight> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/monoisotopicMolecularWeight> <http://schema.org/domainIncludes> <http://schema.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/monoisotopicMolecularWeight> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/monoisotopicMolecularWeight> <http://schema.org/rangeIncludes> <http://schema.org/QuantitativeValue> <http://schema.org/> .
+<http://schema.org/monoisotopicMolecularWeight> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/monoisotopicMolecularWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/monoisotopicMolecularWeight> <http://www.w3.org/2000/01/rdf-schema#comment> "The monoisotopic mass is the sum of the masses of the atoms in a molecule using the unbound, ground-state, rest mass of the principal (most abundant) isotope for each element instead of the isotopic average mass. Please include the units the form '&lt;Number&gt; &lt;unit&gt;', for example '770.230488 g/mol' or as '&lt;QuantitativeValue&gt;." <http://schema.org/> .
+<http://schema.org/monoisotopicMolecularWeight> <http://www.w3.org/2000/01/rdf-schema#label> "monoisotopicMolecularWeight" <http://schema.org/> .
 <http://schema.org/monthlyMinimumRepaymentAmount> <http://schema.org/domainIncludes> <http://schema.org/PaymentCard> <http://schema.org/> .
 <http://schema.org/monthlyMinimumRepaymentAmount> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/monthlyMinimumRepaymentAmount> <http://schema.org/rangeIncludes> <http://schema.org/MonetaryAmount> <http://schema.org/> .
@@ -11620,6 +12088,16 @@
 <http://schema.org/naturalProgression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/naturalProgression> <http://www.w3.org/2000/01/rdf-schema#comment> "The expected progression of the condition if it is not treated and allowed to progress naturally." <http://schema.org/> .
 <http://schema.org/naturalProgression> <http://www.w3.org/2000/01/rdf-schema#label> "naturalProgression" <http://schema.org/> .
+<http://schema.org/negativeNotes> <http://schema.org/domainIncludes> <http://schema.org/Review> <http://schema.org/> .
+<http://schema.org/negativeNotes> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/negativeNotes> <http://schema.org/rangeIncludes> <http://schema.org/ItemList> <http://schema.org/> .
+<http://schema.org/negativeNotes> <http://schema.org/rangeIncludes> <http://schema.org/ListItem> <http://schema.org/> .
+<http://schema.org/negativeNotes> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/negativeNotes> <http://schema.org/rangeIncludes> <http://schema.org/WebContent> <http://schema.org/> .
+<http://schema.org/negativeNotes> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2832> <http://schema.org/> .
+<http://schema.org/negativeNotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/negativeNotes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates, in the context of a [[Review]] (e.g. framed as 'pro' vs 'con' considerations), negative considerations - either as unstructured text, or a list." <http://schema.org/> .
+<http://schema.org/negativeNotes> <http://www.w3.org/2000/01/rdf-schema#label> "negativeNotes" <http://schema.org/> .
 <http://schema.org/nerve> <http://schema.org/domainIncludes> <http://schema.org/Muscle> <http://schema.org/> .
 <http://schema.org/nerve> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/nerve> <http://schema.org/rangeIncludes> <http://schema.org/Nerve> <http://schema.org/> .
@@ -12075,6 +12553,23 @@
 <http://schema.org/originAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/originAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Shipper's address." <http://schema.org/> .
 <http://schema.org/originAddress> <http://www.w3.org/2000/01/rdf-schema#label> "originAddress" <http://schema.org/> .
+<http://schema.org/originalMediaContextDescription> <http://schema.org/domainIncludes> <http://schema.org/MediaReview> <http://schema.org/> .
+<http://schema.org/originalMediaContextDescription> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/originalMediaContextDescription> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/originalMediaContextDescription> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/originalMediaContextDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/originalMediaContextDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Describes, in a [[MediaReview]] when dealing with [[DecontextualizedContent]], background information that can contribute to better interpretation of the [[MediaObject]]." <http://schema.org/> .
+<http://schema.org/originalMediaContextDescription> <http://www.w3.org/2000/01/rdf-schema#label> "originalMediaContextDescription" <http://schema.org/> .
+<http://schema.org/originalMediaContextDescription> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/description> <http://schema.org/> .
+<http://schema.org/originalMediaLink> <http://schema.org/domainIncludes> <http://schema.org/MediaReview> <http://schema.org/> .
+<http://schema.org/originalMediaLink> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/originalMediaLink> <http://schema.org/rangeIncludes> <http://schema.org/MediaObject> <http://schema.org/> .
+<http://schema.org/originalMediaLink> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
+<http://schema.org/originalMediaLink> <http://schema.org/rangeIncludes> <http://schema.org/WebPage> <http://schema.org/> .
+<http://schema.org/originalMediaLink> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/originalMediaLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/originalMediaLink> <http://www.w3.org/2000/01/rdf-schema#comment> "Link to the page containing an original version of the content, or directly to an online copy of the original [[MediaObject]] content, e.g. video file." <http://schema.org/> .
+<http://schema.org/originalMediaLink> <http://www.w3.org/2000/01/rdf-schema#label> "originalMediaLink" <http://schema.org/> .
 <http://schema.org/originatesFrom> <http://schema.org/domainIncludes> <http://schema.org/LymphaticVessel> <http://schema.org/> .
 <http://schema.org/originatesFrom> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/originatesFrom> <http://schema.org/rangeIncludes> <http://schema.org/Vessel> <http://schema.org/> .
@@ -12173,6 +12668,16 @@
 <http://schema.org/parentService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/parentService> <http://www.w3.org/2000/01/rdf-schema#comment> "A broadcast service to which the broadcast service may belong to such as regional variations of a national channel." <http://schema.org/> .
 <http://schema.org/parentService> <http://www.w3.org/2000/01/rdf-schema#label> "parentService" <http://schema.org/> .
+<http://schema.org/parentTaxon> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/Taxon> <http://schema.org/> .
+<http://schema.org/parentTaxon> <http://schema.org/domainIncludes> <http://schema.org/Taxon> <http://schema.org/> .
+<http://schema.org/parentTaxon> <http://schema.org/inverseOf> <http://schema.org/childTaxon> <http://schema.org/> .
+<http://schema.org/parentTaxon> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/parentTaxon> <http://schema.org/rangeIncludes> <http://schema.org/Taxon> <http://schema.org/> .
+<http://schema.org/parentTaxon> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/parentTaxon> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
+<http://schema.org/parentTaxon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/parentTaxon> <http://www.w3.org/2000/01/rdf-schema#comment> "Closest parent taxon of the taxon in question." <http://schema.org/> .
+<http://schema.org/parentTaxon> <http://www.w3.org/2000/01/rdf-schema#label> "parentTaxon" <http://schema.org/> .
 <http://schema.org/parents> <http://schema.org/domainIncludes> <http://schema.org/Person> <http://schema.org/> .
 <http://schema.org/parents> <http://schema.org/rangeIncludes> <http://schema.org/Person> <http://schema.org/> .
 <http://schema.org/parents> <http://schema.org/supersededBy> <http://schema.org/parent> <http://schema.org/> .
@@ -12493,6 +12998,16 @@
 <http://schema.org/position> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/position> <http://www.w3.org/2000/01/rdf-schema#comment> "The position of an item in a series or sequence of items." <http://schema.org/> .
 <http://schema.org/position> <http://www.w3.org/2000/01/rdf-schema#label> "position" <http://schema.org/> .
+<http://schema.org/positiveNotes> <http://schema.org/domainIncludes> <http://schema.org/Review> <http://schema.org/> .
+<http://schema.org/positiveNotes> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/positiveNotes> <http://schema.org/rangeIncludes> <http://schema.org/ItemList> <http://schema.org/> .
+<http://schema.org/positiveNotes> <http://schema.org/rangeIncludes> <http://schema.org/ListItem> <http://schema.org/> .
+<http://schema.org/positiveNotes> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/positiveNotes> <http://schema.org/rangeIncludes> <http://schema.org/WebContent> <http://schema.org/> .
+<http://schema.org/positiveNotes> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2832> <http://schema.org/> .
+<http://schema.org/positiveNotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/positiveNotes> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates, in the context of a [[Review]] (e.g. framed as 'pro' vs 'con' considerations), positive considerations - either as unstructured text, or a list." <http://schema.org/> .
+<http://schema.org/positiveNotes> <http://www.w3.org/2000/01/rdf-schema#label> "positiveNotes" <http://schema.org/> .
 <http://schema.org/possibleComplication> <http://schema.org/domainIncludes> <http://schema.org/MedicalCondition> <http://schema.org/> .
 <http://schema.org/possibleComplication> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/possibleComplication> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -12559,6 +13074,14 @@
 <http://schema.org/potentialAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/potentialAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role." <http://schema.org/> .
 <http://schema.org/potentialAction> <http://www.w3.org/2000/01/rdf-schema#label> "potentialAction" <http://schema.org/> .
+<http://schema.org/potentialUse> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/ChemicalSubstance> <http://schema.org/> .
+<http://schema.org/potentialUse> <http://schema.org/domainIncludes> <http://schema.org/ChemicalSubstance> <http://schema.org/> .
+<http://schema.org/potentialUse> <http://schema.org/domainIncludes> <http://schema.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/potentialUse> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/potentialUse> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
+<http://schema.org/potentialUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/potentialUse> <http://www.w3.org/2000/01/rdf-schema#comment> "Intended use of the BioChemEntity by humans." <http://schema.org/> .
+<http://schema.org/potentialUse> <http://www.w3.org/2000/01/rdf-schema#label> "potentialUse" <http://schema.org/> .
 <http://schema.org/preOp> <http://schema.org/domainIncludes> <http://schema.org/MedicalDevice> <http://schema.org/> .
 <http://schema.org/preOp> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/preOp> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -13147,7 +13670,7 @@
 <http://schema.org/refundType> <http://schema.org/rangeIncludes> <http://schema.org/RefundTypeEnumeration> <http://schema.org/> .
 <http://schema.org/refundType> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/refundType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/refundType> <http://www.w3.org/2000/01/rdf-schema#comment> "A refundType, from an enumerated list." <http://schema.org/> .
+<http://schema.org/refundType> <http://www.w3.org/2000/01/rdf-schema#comment> "A refund type, from an enumerated list." <http://schema.org/> .
 <http://schema.org/refundType> <http://www.w3.org/2000/01/rdf-schema#label> "refundType" <http://schema.org/> .
 <http://schema.org/regionDrained> <http://schema.org/domainIncludes> <http://schema.org/LymphaticVessel> <http://schema.org/> .
 <http://schema.org/regionDrained> <http://schema.org/domainIncludes> <http://schema.org/Vein> <http://schema.org/> .
@@ -13384,6 +13907,14 @@
 <http://schema.org/restPeriods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/restPeriods> <http://www.w3.org/2000/01/rdf-schema#comment> "How often one should break from the activity." <http://schema.org/> .
 <http://schema.org/restPeriods> <http://www.w3.org/2000/01/rdf-schema#label> "restPeriods" <http://schema.org/> .
+<http://schema.org/restockingFee> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/restockingFee> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/restockingFee> <http://schema.org/rangeIncludes> <http://schema.org/MonetaryAmount> <http://schema.org/> .
+<http://schema.org/restockingFee> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
+<http://schema.org/restockingFee> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/restockingFee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/restockingFee> <http://www.w3.org/2000/01/rdf-schema#comment> "Use [[MonetaryAmount]] to specify a fixed restocking fee for product returns, or use [[Number]] to specify a percentage of the product price paid by the customer." <http://schema.org/> .
+<http://schema.org/restockingFee> <http://www.w3.org/2000/01/rdf-schema#label> "restockingFee" <http://schema.org/> .
 <http://schema.org/result> <http://schema.org/domainIncludes> <http://schema.org/Action> <http://schema.org/> .
 <http://schema.org/result> <http://schema.org/rangeIncludes> <http://schema.org/Thing> <http://schema.org/> .
 <http://schema.org/result> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -13407,15 +13938,52 @@
 <http://schema.org/returnFees> <http://schema.org/rangeIncludes> <http://schema.org/ReturnFeesEnumeration> <http://schema.org/> .
 <http://schema.org/returnFees> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/returnFees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/returnFees> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates (via enumerated options) the return fees policy for a MerchantReturnPolicy" <http://schema.org/> .
+<http://schema.org/returnFees> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of return fees for purchased products (for any return reason)" <http://schema.org/> .
 <http://schema.org/returnFees> <http://www.w3.org/2000/01/rdf-schema#label> "returnFees" <http://schema.org/> .
+<http://schema.org/returnLabelSource> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/returnLabelSource> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/returnLabelSource> <http://schema.org/rangeIncludes> <http://schema.org/ReturnLabelSourceEnumeration> <http://schema.org/> .
+<http://schema.org/returnLabelSource> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/returnLabelSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/returnLabelSource> <http://www.w3.org/2000/01/rdf-schema#comment> "The method (from an enumeration) by which the customer obtains a return shipping label for a product returned for any reason." <http://schema.org/> .
+<http://schema.org/returnLabelSource> <http://www.w3.org/2000/01/rdf-schema#label> "returnLabelSource" <http://schema.org/> .
+<http://schema.org/returnMethod> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/returnMethod> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/returnMethod> <http://schema.org/rangeIncludes> <http://schema.org/ReturnMethodEnumeration> <http://schema.org/> .
+<http://schema.org/returnMethod> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/returnMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/returnMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of return method offered, specified from an enumeration." <http://schema.org/> .
+<http://schema.org/returnMethod> <http://www.w3.org/2000/01/rdf-schema#label> "returnMethod" <http://schema.org/> .
 <http://schema.org/returnPolicyCategory> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/returnPolicyCategory> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicySeasonalOverride> <http://schema.org/> .
 <http://schema.org/returnPolicyCategory> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/returnPolicyCategory> <http://schema.org/rangeIncludes> <http://schema.org/MerchantReturnEnumeration> <http://schema.org/> .
 <http://schema.org/returnPolicyCategory> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/returnPolicyCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/returnPolicyCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "A returnPolicyCategory expresses at most one of several enumerated kinds of return." <http://schema.org/> .
+<http://schema.org/returnPolicyCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies an applicable return policy (from an enumeration)." <http://schema.org/> .
 <http://schema.org/returnPolicyCategory> <http://www.w3.org/2000/01/rdf-schema#label> "returnPolicyCategory" <http://schema.org/> .
+<http://schema.org/returnPolicyCountry> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/returnPolicyCountry> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/returnPolicyCountry> <http://schema.org/rangeIncludes> <http://schema.org/Country> <http://schema.org/> .
+<http://schema.org/returnPolicyCountry> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/returnPolicyCountry> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/returnPolicyCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/returnPolicyCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "The country where the product has to be sent to for returns, for example \"Ireland\" using the [[name]] property of [[Country]]. You can also provide the two-letter [ISO 3166-1 alpha-2 country code](http://en.wikipedia.org/wiki/ISO_3166-1). Note that this can be different from the country where the product was originally shipped from or sent too." <http://schema.org/> .
+<http://schema.org/returnPolicyCountry> <http://www.w3.org/2000/01/rdf-schema#label> "returnPolicyCountry" <http://schema.org/> .
+<http://schema.org/returnPolicySeasonalOverride> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/returnPolicySeasonalOverride> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/returnPolicySeasonalOverride> <http://schema.org/rangeIncludes> <http://schema.org/MerchantReturnPolicySeasonalOverride> <http://schema.org/> .
+<http://schema.org/returnPolicySeasonalOverride> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/returnPolicySeasonalOverride> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/returnPolicySeasonalOverride> <http://www.w3.org/2000/01/rdf-schema#comment> "Seasonal override of a return policy." <http://schema.org/> .
+<http://schema.org/returnPolicySeasonalOverride> <http://www.w3.org/2000/01/rdf-schema#label> "returnPolicySeasonalOverride" <http://schema.org/> .
+<http://schema.org/returnShippingFeesAmount> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/returnShippingFeesAmount> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/returnShippingFeesAmount> <http://schema.org/rangeIncludes> <http://schema.org/MonetaryAmount> <http://schema.org/> .
+<http://schema.org/returnShippingFeesAmount> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2880> <http://schema.org/> .
+<http://schema.org/returnShippingFeesAmount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/returnShippingFeesAmount> <http://www.w3.org/2000/01/rdf-schema#comment> "Amount of shipping costs for product returns (for any reason). Applicable when property [[returnFees]] equals [[ReturnShippingFees]]." <http://schema.org/> .
+<http://schema.org/returnShippingFeesAmount> <http://www.w3.org/2000/01/rdf-schema#label> "returnShippingFeesAmount" <http://schema.org/> .
 <http://schema.org/review> <http://schema.org/domainIncludes> <http://schema.org/Brand> <http://schema.org/> .
 <http://schema.org/review> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/review> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
@@ -13826,6 +14394,14 @@
 <http://schema.org/servingSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/servingSize> <http://www.w3.org/2000/01/rdf-schema#comment> "The serving size, in terms of the number of volume or mass." <http://schema.org/> .
 <http://schema.org/servingSize> <http://www.w3.org/2000/01/rdf-schema#label> "servingSize" <http://schema.org/> .
+<http://schema.org/sha256> <http://schema.org/domainIncludes> <http://schema.org/MediaObject> <http://schema.org/> .
+<http://schema.org/sha256> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/sha256> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/sha256> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2450> <http://schema.org/> .
+<http://schema.org/sha256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/sha256> <http://www.w3.org/2000/01/rdf-schema#comment> "The [SHA-2](https://en.wikipedia.org/wiki/SHA-2) SHA256 hash of the content of the item. For example, a zero-length input has value 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'" <http://schema.org/> .
+<http://schema.org/sha256> <http://www.w3.org/2000/01/rdf-schema#label> "sha256" <http://schema.org/> .
+<http://schema.org/sha256> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/description> <http://schema.org/> .
 <http://schema.org/sharedContent> <http://schema.org/domainIncludes> <http://schema.org/SocialMediaPosting> <http://schema.org/> .
 <http://schema.org/sharedContent> <http://schema.org/rangeIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/sharedContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -13964,6 +14540,14 @@
 <http://schema.org/slogan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/slogan> <http://www.w3.org/2000/01/rdf-schema#comment> "A slogan or motto associated with the item." <http://schema.org/> .
 <http://schema.org/slogan> <http://www.w3.org/2000/01/rdf-schema#label> "slogan" <http://schema.org/> .
+<http://schema.org/smiles> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/smiles> <http://schema.org/domainIncludes> <http://schema.org/MolecularEntity> <http://schema.org/> .
+<http://schema.org/smiles> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/smiles> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/smiles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/smiles> <http://www.w3.org/2000/01/rdf-schema#comment> "A specification in form of a line notation for describing the structure of chemical species using short ASCII strings.  Double bond stereochemistry \\ indicators may need to be escaped in the string in formats where the backslash is an escape character." <http://schema.org/> .
+<http://schema.org/smiles> <http://www.w3.org/2000/01/rdf-schema#label> "smiles" <http://schema.org/> .
+<http://schema.org/smiles> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/hasRepresentation> <http://schema.org/> .
 <http://schema.org/smokingAllowed> <http://schema.org/domainIncludes> <http://schema.org/Place> <http://schema.org/> .
 <http://schema.org/smokingAllowed> <http://schema.org/rangeIncludes> <http://schema.org/Boolean> <http://schema.org/> .
 <http://schema.org/smokingAllowed> <http://schema.org/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology> <http://schema.org/> .
@@ -14132,6 +14716,7 @@
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/DatedMoneySpecification> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/EducationalOccupationalProgram> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
+<http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicySeasonalOverride> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/Role> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/domainIncludes> <http://schema.org/Schedule> <http://schema.org/> .
 <http://schema.org/startDate> <http://schema.org/rangeIncludes> <http://schema.org/Date> <http://schema.org/> .
@@ -14141,6 +14726,7 @@
 <http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The start date and time of the item (in [ISO 8601 date format](http://en.wikipedia.org/wiki/ISO_8601))." <http://schema.org/> .
 <http://schema.org/startDate> <http://www.w3.org/2000/01/rdf-schema#label> "startDate" <http://schema.org/> .
 <http://schema.org/startOffset> <http://schema.org/domainIncludes> <http://schema.org/Clip> <http://schema.org/> .
+<http://schema.org/startOffset> <http://schema.org/domainIncludes> <http://schema.org/SeekToAction> <http://schema.org/> .
 <http://schema.org/startOffset> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/startOffset> <http://schema.org/rangeIncludes> <http://schema.org/HyperTocEntry> <http://schema.org/> .
 <http://schema.org/startOffset> <http://schema.org/rangeIncludes> <http://schema.org/Number> <http://schema.org/> .
@@ -14150,6 +14736,7 @@
 <http://schema.org/startOffset> <http://www.w3.org/2000/01/rdf-schema#label> "startOffset" <http://schema.org/> .
 <http://schema.org/startTime> <http://schema.org/domainIncludes> <http://schema.org/Action> <http://schema.org/> .
 <http://schema.org/startTime> <http://schema.org/domainIncludes> <http://schema.org/FoodEstablishmentReservation> <http://schema.org/> .
+<http://schema.org/startTime> <http://schema.org/domainIncludes> <http://schema.org/InteractionCounter> <http://schema.org/> .
 <http://schema.org/startTime> <http://schema.org/domainIncludes> <http://schema.org/MediaObject> <http://schema.org/> .
 <http://schema.org/startTime> <http://schema.org/domainIncludes> <http://schema.org/Schedule> <http://schema.org/> .
 <http://schema.org/startTime> <http://schema.org/rangeIncludes> <http://schema.org/DateTime> <http://schema.org/> .
@@ -14468,6 +15055,25 @@
 <http://schema.org/taxID> <http://www.w3.org/2000/01/rdf-schema#comment> "The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain." <http://schema.org/> .
 <http://schema.org/taxID> <http://www.w3.org/2000/01/rdf-schema#label> "taxID" <http://schema.org/> .
 <http://schema.org/taxID> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/identifier> <http://schema.org/> .
+<http://schema.org/taxonRank> <http://purl.org/dc/terms/source> <http://www.bioschemas.org/Taxon> <http://schema.org/> .
+<http://schema.org/taxonRank> <http://schema.org/domainIncludes> <http://schema.org/Taxon> <http://schema.org/> .
+<http://schema.org/taxonRank> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/taxonRank> <http://schema.org/rangeIncludes> <http://schema.org/PropertyValue> <http://schema.org/> .
+<http://schema.org/taxonRank> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/taxonRank> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
+<http://schema.org/taxonRank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/taxonRank> <http://www.w3.org/2000/01/rdf-schema#comment> "The taxonomic rank of this taxon given preferably as a URI from a controlled vocabulary – (typically the ranks from TDWG TaxonRank ontology or equivalent Wikidata URIs)." <http://schema.org/> .
+<http://schema.org/taxonRank> <http://www.w3.org/2000/01/rdf-schema#label> "taxonRank" <http://schema.org/> .
+<http://schema.org/taxonomicRange> <http://purl.org/dc/terms/source> <http://www.bioschemas.org> <http://schema.org/> .
+<http://schema.org/taxonomicRange> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/taxonomicRange> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/taxonomicRange> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
+<http://schema.org/taxonomicRange> <http://schema.org/rangeIncludes> <http://schema.org/Taxon> <http://schema.org/> .
+<http://schema.org/taxonomicRange> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/taxonomicRange> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
+<http://schema.org/taxonomicRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/taxonomicRange> <http://www.w3.org/2000/01/rdf-schema#comment> "The taxonomic grouping of the organism that expresses, encodes, or in someway related to the BioChemEntity." <http://schema.org/> .
+<http://schema.org/taxonomicRange> <http://www.w3.org/2000/01/rdf-schema#label> "taxonomicRange" <http://schema.org/> .
 <http://schema.org/teaches> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/teaches> <http://schema.org/domainIncludes> <http://schema.org/EducationEvent> <http://schema.org/> .
 <http://schema.org/teaches> <http://schema.org/domainIncludes> <http://schema.org/LearningResource> <http://schema.org/> .
