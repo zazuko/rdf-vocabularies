@@ -1,3 +1,30 @@
+# `v2021.9.15`
+
+## New prefix
+
+| Prefix    | #Quads |
+| --------- | ------ |
+| `ebucore` | 5780   |
+
+## Updated vocabularies
+
+| Prefix         | #Quads |
+| -------------- | ------ |
+| `constant`     | 5387   |
+| `dbo`          | 31050  |
+| `hydra`        | 467    |
+| `org`          | 748    |
+| `prefix`       | 305    |
+| `qkdv`         | 3135   |
+| `quantitykind` | 16433  |
+| `qudt`         | 6813   |
+| `schema`       | 16006  |
+| `shex`         | 474    |
+| `sou`          | 210    |
+| `unit`         | 21225  |
+| `void`         | 208    |
+
+
 # `v2021.6.10`
 
 - Support `file:` URIs in overrides to have contents generated from local sources

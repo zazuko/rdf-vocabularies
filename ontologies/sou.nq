@@ -181,24 +181,24 @@
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://purl.org/dc/terms/contributor> "Steve Ray" <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://purl.org/dc/terms/created> "2016-07-04"^^<http://www.w3.org/2001/XMLSchema#date> <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://purl.org/dc/terms/creator> "Ralph Hodgson" <http://qudt.org/vocab/sou/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://purl.org/dc/terms/description> "QUDT Systems of Units Vocabulary Version 2.1.10" <http://qudt.org/vocab/sou/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://purl.org/dc/terms/modified> "2021-04-07T17:13:38.659-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://qudt.org/vocab/sou/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://purl.org/dc/terms/description> "QUDT Systems of Units Vocabulary Version 2.1.12" <http://qudt.org/vocab/sou/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://purl.org/dc/terms/modified> "2021-08-05T11:50:48.408-07:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://purl.org/dc/terms/rights> "The QUDT Ontologies are issued under a Creative Commons Attribution 4.0 International License (CC BY 4.0), available at https://creativecommons.org/licenses/by/4.0/. Attribution should be made to QUDT.org" <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://purl.org/dc/terms/subject> "Systems of Units" <http://qudt.org/vocab/sou/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://purl.org/dc/terms/title> "QUDT Systems of Units Ontology Version 2.1.10" <http://qudt.org/vocab/sou/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#graphTitle> "Systems of Units Ontology Version 2.1.10" <http://qudt.org/vocab/sou/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://purl.org/dc/terms/title> "QUDT Systems of Units Ontology Version 2.1.12" <http://qudt.org/vocab/sou/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#graphTitle> "Systems of Units Ontology Version 2.1.12" <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#hasGraphRole> <http://www.linkedmodel.org/schema/vaem#VocabularyGraph> <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#hasOwner> <http://www.linkedmodel.org/schema/vaem#QUDT> <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#hasSteward> <http://www.linkedmodel.org/schema/vaem#QUDT> <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#intent> "The intent of this graph is the specification of all Systems of Units" <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#isMetadataFor> <http://qudt.org/2.1/vocab/sou> <http://qudt.org/vocab/sou/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#latestPublishedVersion> "http://www.qudt.org/doc/2021/04/DOC_VOCAB-SYSTEMS-OF-UNITS-v2.1.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/sou/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#latestPublishedVersion> "http://www.qudt.org/doc/2021/08/DOC_VOCAB-SYSTEMS-OF-UNITS-v2.1.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#logo> "http://www.linkedmodel.org/lib/lm/images/logos/qudt_logo-300x110.png"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#name> "sou" <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#namespace> "http://qudt.org/vocab/sou/" <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#namespacePrefix> "sou" <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#owner> "qudt.org" <http://qudt.org/vocab/sou/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#previousPublishedVersion> "http://www.qudt.org/doc/2021/03/DOC_VOCAB-SYSTEMS-OF-UNITS-v2.1.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/sou/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#previousPublishedVersion> "http://www.qudt.org/doc/2021/07/DOC_VOCAB-SYSTEMS-OF-UNITS-v2.1.html"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#revision> "2.1" <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#turtleFileURL> "http://qudt.org/2.1/vocab/sou"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.linkedmodel.org/schema/vaem#usesNonImportedResource> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://qudt.org/vocab/sou/> .
@@ -206,5 +206,5 @@
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.linkedmodel.org/schema/vaem#GraphMetaData> <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.1/vocab/sou> <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/sou> <http://qudt.org/vocab/sou/> .
-<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.w3.org/2000/01/rdf-schema#label> "QUDT Systems of Units Ontology Version 2.1.10" <http://qudt.org/vocab/sou/> .
+<http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.w3.org/2000/01/rdf-schema#label> "QUDT Systems of Units Ontology Version 2.1.12" <http://qudt.org/vocab/sou/> .
 <http://www.linkedmodel.org/schema/vaem#GMD_QUDT-SOU> <http://www.w3.org/2002/07/owl#versionIRI> <http://qudt.org/2.1/vocab/sou> <http://qudt.org/vocab/sou/> .

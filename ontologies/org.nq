@@ -349,7 +349,7 @@
 <http://www.w3.org/ns/org#headOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique qu'une personne est le directeur ou le responsable formel d'une Organisation. Ceci indique souvent qu'il est au sommet de du graphe acyclique des `org:reportsTo`, même si une organisation peut avoir plus d'un responsable."@fr <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#headOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Persona que es jefe o jefa, representante ,,director o directora de la organización. Esto significa que dicha persona es el rango de la relación `org:reportsTo` en el organigrama de la organización (acíclico), aunque una organización puede tener más de un jefe."@es <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#headOf> <http://www.w3.org/2000/01/rdf-schema#comment> "人（または他のエージェント）が組織のリーダーや正式なトップであることを示します。"@ja <http://www.w3.org/ns/org#> .
-<http://www.w3.org/ns/org#headOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/ns/org#> .
+<http://www.w3.org/ns/org#headOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#headOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/org> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#headOf> <http://www.w3.org/2000/01/rdf-schema#label> "es director ejecutivo de"@es <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#headOf> <http://www.w3.org/2000/01/rdf-schema#label> "head of"@en <http://www.w3.org/ns/org#> .
