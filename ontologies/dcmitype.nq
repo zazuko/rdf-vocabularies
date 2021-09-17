@@ -1,0 +1,89 @@
+<http://purl.org/dc/dcmitype/> <http://purl.org/dc/terms/modified> "2012-06-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/> <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/> <http://purl.org/dc/terms/title> "DCMI Type Vocabulary"@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Collection> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Collection> <http://purl.org/dc/terms/description> "A collection is described as a group; its parts may also be separately described."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Collection> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Collection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "An aggregation of resources."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Collection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection"@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Dataset> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Dataset> <http://purl.org/dc/terms/description> "Examples include lists, tables, and databases.  A dataset may be useful for direct machine processing."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Dataset> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Data encoded in a defined structure."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset"@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Event> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Event> <http://purl.org/dc/terms/description> "Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party, conflagration."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Event> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "A non-persistent, time-based occurrence."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event"@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Image> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Image> <http://purl.org/dc/terms/description> "Examples include images and photographs of physical objects, paintings, prints, drawings, other images and graphics, animations and moving pictures, film, diagrams, maps, musical notation.  Note that Image may include both electronic and physical representations."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Image> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Image> <http://www.w3.org/2000/01/rdf-schema#comment> "A visual representation other than text."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Image> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Image> <http://www.w3.org/2000/01/rdf-schema#label> "Image"@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://purl.org/dc/terms/description> "Examples include forms on Web pages, applets, multimedia learning objects, chat services, or virtual reality environments."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource requiring interaction from the user to be understood, executed, or experienced."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/InteractiveResource> <http://www.w3.org/2000/01/rdf-schema#label> "Interactive Resource"@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://purl.org/dc/terms/description> "Examples include animations, movies, television programs, videos, zoetropes, or visual output from a simulation.  Instances of the type Moving Image must also be describable as instances of the broader type Image."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://purl.org/dc/terms/issued> "2003-11-18"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://www.w3.org/2000/01/rdf-schema#comment> "A series of visual representations imparting an impression of motion when shown in succession."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://www.w3.org/2000/01/rdf-schema#label> "Moving Image"@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/MovingImage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Image> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://purl.org/dc/terms/description> "Note that digital representations of, or surrogates for, these objects should use Image, Text or one of the other types."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://purl.org/dc/terms/issued> "2002-07-13"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://www.w3.org/2000/01/rdf-schema#comment> "An inanimate, three-dimensional object or substance."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/PhysicalObject> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Object"@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Service> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Service> <http://purl.org/dc/terms/description> "Examples include a photocopying service, a banking service, an authentication service, interlibrary loans, a Z39.50 or Web server."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Service> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Service> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Service> <http://www.w3.org/2000/01/rdf-schema#comment> "A system that provides one or more functions."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Service> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Service> <http://www.w3.org/2000/01/rdf-schema#label> "Service"@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Software> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Software> <http://purl.org/dc/terms/description> "Examples include a C source file, MS-Windows .exe executable, or Perl script."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Software> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Software> <http://www.w3.org/2000/01/rdf-schema#comment> "A computer program in source or compiled form."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Software> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Software> <http://www.w3.org/2000/01/rdf-schema#label> "Software"@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Sound> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Sound> <http://purl.org/dc/terms/description> "Examples include a music playback file format, an audio compact disc, and recorded speech or sounds."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Sound> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Sound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Sound> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource primarily intended to be heard."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Sound> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Sound> <http://www.w3.org/2000/01/rdf-schema#label> "Sound"@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/StillImage> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/StillImage> <http://purl.org/dc/terms/description> "Examples include paintings, drawings, graphic designs, plans and maps. Recommended best practice is to assign the type Text to images of textual materials. Instances of the type Still Image must also be describable as instances of the broader type Image."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/StillImage> <http://purl.org/dc/terms/issued> "2003-11-18"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/StillImage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/StillImage> <http://www.w3.org/2000/01/rdf-schema#comment> "A static visual representation."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/StillImage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/StillImage> <http://www.w3.org/2000/01/rdf-schema#label> "Still Image"@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/StillImage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/dcmitype/Image> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Text> <http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/DCMIType> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Text> <http://purl.org/dc/terms/description> "Examples include books, letters, dissertations, poems, newspapers, articles, archives of mailing lists. Note that facsimiles or images of texts are still of the genre Text."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Text> <http://purl.org/dc/terms/issued> "2000-07-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Text> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource consisting primarily of words for reading."@en <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Text> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> <http://purl.org/dc/dcmitype/> .
+<http://purl.org/dc/dcmitype/Text> <http://www.w3.org/2000/01/rdf-schema#label> "Text"@en <http://purl.org/dc/dcmitype/> .
