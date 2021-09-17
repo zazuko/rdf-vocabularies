@@ -46,6 +46,7 @@ export const overrides: Record<string, Override> = {
       baseIRI: 'https://www.w3.org/ns/earl#'
     }
   },
+  exif: { file: 'http://www.w3.org/2003/12/exif/ns' },
   frbr: { file: 'http://purl.org/spar/frbr.nt' },
   geo: { file: 'http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf' },
   gml: { skip: true },
