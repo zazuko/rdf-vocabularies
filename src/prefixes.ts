@@ -1,6 +1,7 @@
 const prefixes = {
   acl: 'http://www.w3.org/ns/auth/acl#',
   as: 'https://www.w3.org/ns/activitystreams#',
+  bibo: 'http://purl.org/ontology/bibo/',
   cc: 'http://creativecommons.org/ns#',
   cnt: 'http://www.w3.org/2011/content#',
   constant: 'http://qudt.org/vocab/constant/',
