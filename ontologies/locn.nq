@@ -1,0 +1,206 @@
+<http://purl.org/dc/terms/Location> <http://purl.org/dc/terms/identifier> "dcterms:Location" <http://www.w3.org/ns/locn#> .
+<http://purl.org/dc/terms/Location> <http://purl.org/vocab/vann/usageNote> "This is the key class for the ISA Programme Location Core Vocabulary and represents any location, irrespective of size or other restriction."@en <http://www.w3.org/ns/locn#> .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#comment> "dcterms:Location class fully represents the ISA Programme Location Core Vocabulary class of Location."@en <http://www.w3.org/ns/locn#> .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/terms/> <http://www.w3.org/ns/locn#> .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location"@en <http://www.w3.org/ns/locn#> .
+<http://purl.org/dc/terms/Location> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/dc/terms/identifier> "rdfs:seeAlso" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://purl.org/vocab/vann/usageNote> "Used in the ISA Programme Location Core Vocabulary to provide a URI that identifies the location. This should be expressed using the rdfs:seeAlso property unless the identifier is already the subject of the description. Examples include URIs from GeoNames.org and DBpedia such as http://dbpedia.org/resource/ISO_3166-2:XX where XX is the ISO 3166 two character code for a country."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2000/01/rdf-schema#comment> "rdfs:seeAlso fully represents the ISA Programme Location Core Vocabulary concept of a geographic identifier."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2000/01/rdf-schema#> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2000/01/rdf-schema#label> "geographic identifier"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Address> <http://purl.org/dc/terms/identifier> "locn:Address" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Address> <http://www.w3.org/2000/01/rdf-schema#comment> "An \"address representation\" as conceptually defined by the INSPIRE Address Representation data type. The locn:addressId property may be used to link this locn:Address to other representations."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Address> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Address> <http://www.w3.org/2000/01/rdf-schema#label> "Address"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Address> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Address> <http://www.w3.org/2007/05/powder-s#describedby> <https://joinup.ec.europa.eu/node/55858> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Geometry> <http://purl.org/dc/terms/identifier> "locn:Geometry" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Geometry> <http://purl.org/vocab/vann/usageNote> "This class defines the notion of \"geometry\" at the conceptual level, and it shall be encoded by using different formats (see usage note of the locn:geometry property)."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Geometry> <http://www.w3.org/2000/01/rdf-schema#comment> "The locn:Geometry class provides the means to identify a location as a point, line, polygon, etc. expressed using coordinates in some coordinate reference system."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Geometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Geometry> <http://www.w3.org/2000/01/rdf-schema#label> "Geometry"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#Geometry> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#address> <http://purl.org/dc/terms/identifier> "locn:address" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#address> <http://www.w3.org/2000/01/rdf-schema#comment> "The locn:address property relationship associates any resource with the locn:Address class "@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#address> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#address> <http://www.w3.org/2000/01/rdf-schema#label> "address"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#address> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Address> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#address> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressArea> <http://purl.org/dc/terms/identifier> "locn:addressArea" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressArea> <http://www.w3.org/2000/01/rdf-schema#comment> "The name or names of a geographic area or locality that groups a number of addressable objects for addressing purposes, without being an administrative unit. This would typically be part of a city, a neighbourhood or village. The domain of locn:addressArea is locn:Address."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressArea> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressArea> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressArea> <http://www.w3.org/2000/01/rdf-schema#label> "address area"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressArea> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressArea> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressId> <http://purl.org/dc/terms/identifier> "locn:addressId" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressId> <http://www.w3.org/2000/01/rdf-schema#comment> "The concept of adding a globally unique identifier for each instance of an address is a crucial part of the INSPIRE data spec. The domain of locn:addressId is locn:Address."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressId> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressId> <http://www.w3.org/2000/01/rdf-schema#label> "address ID"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#addressId> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL1> <http://purl.org/dc/terms/identifier> "locn:adminUnitL1" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL1> <http://purl.org/vocab/vann/usageNote> "Best practice is to use the ISO 3166-1 code but if this is inappropriate for the context, country names should be provided in a consistent manner to reduce ambiguity. For example, either write 'United Kingdom' or 'UK' consistently throughout the data set and avoid mixing the two."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL1> <http://www.w3.org/2000/01/rdf-schema#comment> "The uppermost administrative unit for the address, almost always a country. The domain of locn:adminUnitL1 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL1> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL1> <http://www.w3.org/2000/01/rdf-schema#label> "admin unit level 1"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL1> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL2> <http://purl.org/dc/terms/identifier> "locn:adminUnitL2" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL2> <http://www.w3.org/2000/01/rdf-schema#comment> "The region of the address, usually a county, state or other such area that typically encompasses several localities. The domain of  locn:adminUnitL2 is locn:Address and the range is a literal, conceptually defined by the INSPIRE Geographical Name data type."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL2> <http://www.w3.org/2000/01/rdf-schema#label> "admin unit level 2"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#adminUnitL2> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#fullAddress> <http://purl.org/dc/terms/identifier> "locn:fullAddress" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#fullAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#fullAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "The complete address written as a string, with or without formatting. The domain of locn:fullAddress is locn:Address."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#fullAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#fullAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#fullAddress> <http://www.w3.org/2000/01/rdf-schema#label> "full address"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#fullAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#fullAddress> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geographicName> <http://purl.org/dc/terms/identifier> "locn:geographicName" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geographicName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geographicName> <http://www.w3.org/2000/01/rdf-schema#comment> "\nA geographic name is a proper noun applied to a spatial object. Taking the example used in the relevant INSPIRE data specification (page 18), the following are all valid geographic names for the Greek capital:\n- Αθήνα (the Greek endonym written in the Greek script)\n- Athína (the standard Romanisation of the endonym)\n- Athens (the English language exonym)\nFor INSPIRE-conformant data, provide the metadata for the geographic name using a skos:Concept as a datatype.\n"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geographicName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geographicName> <http://www.w3.org/2000/01/rdf-schema#label> "geographic name"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geographicName> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geographicName> <http://www.w3.org/2007/05/powder-s#describedby> <https://joinup.ec.europa.eu/node/55858> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geometry> <http://purl.org/dc/terms/identifier> "locn:geometry" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geometry> <http://purl.org/vocab/vann/example> "\nThe following are examples of equivalent statements using different geometry encodings. In the examples, prefix gsp is used for namespace URI http://www.opengis.net/ont/geosparql#, whereas prefix sf is used for namespace URI http://www.opengis.net/ont/sf#.\n- WKT (GeoSPARQL)\n:Resource locn:geometry\n  \"<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-0.001475 51.477811)\"^^gsp:wktLiteral .\n- GML\n:Resource locn:geometry\n  \"<gml:Point srsName='http://www.opengis.net/def/crs/OGC/1.3/CRS84'>\n  <gml:coordinates>-0.001475, 51.477811</gml:coordinates></gml:Point>\"^^gsp:gmlLiteral .\n- RDF+WKT (GeoSPARQL)\n:Resource locn:geometry\n  [ a sf:Point; gsp:asWKT \"<http://www.opengis.net/def/crs/OGC/1.3/CRS84> Point(-0.001475 51.477811)\"^^gsp:wktLiteral ] .\n- RDF+GML (GeoSPARQL)\n:Resource locn:geometry\n  [ a sf:Point; gsp:asGML\n     \"<gml:Point srsName='http://www.opengis.net/def/crs/OGC/1.3/CRS84'>\n      <gml:coordinates>-0.001475, 51.477811</gml:coordinates></gml:Point>\"^^gsp:gmlLiteral ] .\n- RDF (WGS84 lat/long)\n:Resource locn:geometry [ a geo:Point; geo:lat \"51.477811\"; geo:long \"-0.001475\" ] .\n- RDF (schema.org)\n:Resource locn:geometry [ a schema:GeoCoordinates; schema:latitude \"51.477811\"; schema:longitude \"-0.001475\" ] .\n- geo URI\n:Resource locn:geometry <geo:51.477811,-0.001475;u=0;crs=wgs84> .\n- GeoHash URI\n:Resource locn:geometry <http://geohash.org/gcpuzgnzvxkp> .\n    "@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geometry> <http://purl.org/vocab/vann/usageNote> "\nDepending on how a geometry is encoded, the range of this property may be one of the following:\n- a literal (e.g., WKT - string literal -, GML, KML - XML literal)\n- a geometry class, as those defined in the OGC's GeoSPARQL specification, in the W3C's Basic Geo (WGS84 lat/long) vocabulary, and at schema.org;\n- geocoded URIs, as geo or GeoHash URIs, treated as URI references.\nFor interoperability reasons, it is recommended using one of the following:\n- Any geometry:\n  - WKT, GML, and RDF+WKT/GML, as per the GeoSPARQL specification.\n  - KML (Keyhole Markup Language) - note that KML supports the following geometries only: point, line string, linear ring, and polygon.\n  - RDF as per the schema.org vocabulary (see classes schema:GeoCoordinates and schema:GeoShape).\n- Points: one of the above, or:\n  - RDF as per the W3C Basic Geo (WGS84 lat/long) vocabulary.\n  - GeoHash URIs.\n  - geo URIs.\n    "@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geometry> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates any resource with the corresponding geometry."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geometry> <http://www.w3.org/2000/01/rdf-schema#label> "geometry"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geometry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/locn#Geometry> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geometry> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#geometry> <http://www.w3.org/2007/05/powder-s#describedby> <https://joinup.ec.europa.eu/node/55858> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#location> <http://purl.org/dc/terms/identifier> "locn:location" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#location> <http://www.w3.org/2000/01/rdf-schema#comment> "The location property links any resource to the Location Class. Asserting the location relationship implies only that the domain has some connection to a Location in time or space. It does not imply that the resource is necessarily at that location at the time when the assertion is made."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#location> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#location> <http://www.w3.org/2000/01/rdf-schema#label> "location"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#location> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/terms/Location> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#location> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#locatorDesignator> <http://purl.org/dc/terms/identifier> "locn:locatorDesignator" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#locatorDesignator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#locatorDesignator> <http://www.w3.org/2000/01/rdf-schema#comment> "A number or a sequence of characters that uniquely identifies the locator within the relevant scope(s). The full identification of the locator could include one or more locator designators.\n    "@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#locatorDesignator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#locatorDesignator> <http://www.w3.org/2000/01/rdf-schema#label> "locator designator"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#locatorDesignator> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#locatorName> <http://purl.org/dc/terms/identifier> "locn:locatorName" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#locatorName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#locatorName> <http://www.w3.org/2000/01/rdf-schema#comment> "Proper noun(s) applied to the real world entity identified by the locator. The locator name could be the name of the property or complex, of the building or part of the building, or it could be the name of a room inside a building. \n    "@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#locatorName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#locatorName> <http://www.w3.org/2000/01/rdf-schema#label> "locator name"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#locatorName> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#poBox> <http://purl.org/dc/terms/identifier> "locn:poBox" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#poBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#poBox> <http://www.w3.org/2000/01/rdf-schema#comment> "The Post Office Box number. The domain of locn:poBox is locn:Address."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#poBox> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#poBox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#poBox> <http://www.w3.org/2000/01/rdf-schema#label> "PO box"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#poBox> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#poBox> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postCode> <http://purl.org/dc/terms/identifier> "locn:postCode" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postCode> <http://www.w3.org/2000/01/rdf-schema#comment> "The post code (a.k.a postal code, zip code etc.). Post codes are common elements in many countries' postal address systems. The domain of locn:postCode is locn:Address."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postCode> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postCode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postCode> <http://www.w3.org/2000/01/rdf-schema#label> "post code"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postCode> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postCode> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postName> <http://purl.org/dc/terms/identifier> "locn:postName" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postName> <http://www.w3.org/2000/01/rdf-schema#comment> "The key postal division of the address, usually the city. (INSPIRE's definition is \"One or more names created and maintained for postal purposes to identify a subdivision of addresses and postal delivery points.\"). The domain of locn:postName is locn:Address."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postName> <http://www.w3.org/2000/01/rdf-schema#label> "post name"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#postName> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#thoroughfare> <http://purl.org/dc/terms/identifier> "locn:thoroughfare" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#thoroughfare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#thoroughfare> <http://www.w3.org/2000/01/rdf-schema#comment> "An address component that represents the name of a passage or way through from one location to another. A thoroughfare is not necessarily a road, it might be a waterway or some other feature. The domain of locn:thoroughfare is locn:Address."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#thoroughfare> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/locn#Address> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#thoroughfare> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#thoroughfare> <http://www.w3.org/2000/01/rdf-schema#label> "thoroughfare"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#thoroughfare> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn#thoroughfare> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn.html> <http://www.w3.org/2000/01/rdf-schema#label> "HTML version of the ISA Programme Location Core Vocabulary"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn.html> <http://www.w3.org/ns/dcat#mediaType> "text/html"^^<http://purl.org/dc/terms/IMT> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn.rdf> <http://purl.org/dc/terms/format> <http://www.w3.org/ns/formats/data/RDF_XML> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn.rdf> <http://www.w3.org/2000/01/rdf-schema#label> "RDF/XML version of the ISA Programme Location Core Vocabulary"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn.rdf> <http://www.w3.org/ns/dcat#mediaType> "application/rdf+xml"^^<http://purl.org/dc/terms/IMT> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn.ttl> <http://purl.org/dc/terms/format> <http://www.w3.org/ns/formats/data/Turtle> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn.ttl> <http://www.w3.org/2000/01/rdf-schema#label> "Turtle version of the ISA Programme Location Core Vocabulary"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn.ttl> <http://www.w3.org/ns/dcat#mediaType> "text/turtle"^^<http://purl.org/dc/terms/IMT> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://creativecommons.org/ns#attributionName> "European Commission"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://creativecommons.org/ns#attributionURL> <http://ec.europa.eu/> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/abstract> "The ISA Programme Location Core Vocabulary provides a minimum set of classes and properties for describing any place in terms of its name, address or geometry. The vocabulary is specifically designed to aid the publication of data that is interoperable with EU INSPIRE Directive. It is closely integrated with the Business and Person Core Vocabularies of the EU ISA Programme, now available in W3C space as, respectively, the Registered Organization vocabulary and ISA Person Core Vocabulary."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/conformsTo> <https://joinup.ec.europa.eu/node/43160> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/hasFormat> <http://www.w3.org/ns/locn.html> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/hasFormat> <http://www.w3.org/ns/locn.rdf> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/hasFormat> <http://www.w3.org/ns/locn.ttl> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/issued> "2013-11-25"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/license> <https://joinup.ec.europa.eu/category/licence/isa-open-metadata-licence-v11> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/mediator> _:c14n3 <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/modified> "2015-03-23"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/rights> "Copyright © European Union, 2012-2015."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/title> "ISA Programme Location Core Vocabulary"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/vocab/vann/changes> "\n2015-03-23: Updates in the namespace document and in the RDF/XML and Turtle schemas:\n- Fixed copyright notice.\n- Added class and property diagram.\n- Updated GeoSPARQL (a) namespace URIs  and (b) datatype names in the examples of property locn:geometry, based on version 1.0 of the GeoSPARQL specification, and added a note in the examples.\n  - prefix ogc (http://www.opengis.net/rdf#) replaced with gsp (http://www.opengis.net/ont/geosparql#) and sf (http://www.opengis.net/ont/sf#)\n  - ogc:WKTLiteral → gsp:wktLiteral\n  - ogc:GMLLiteral → gsp:gmlLiteral\n- Added namespace declarations for all namespace prefixes used in LOCN namespace document, even though they are not used in class/property definitions.\n- Corrected the endonym of the Greek capital written in the Greek script in the definition of class locn:geographicName (Aθnνa → Αθήνα).\n- Fixed links and typos, minor revisions made to the textual descriptions.\n2013-12-21: (PhilA) Update in RDF/XML and Turtle schemas:\n- Updated voaf namespace.\n- Corrected links to different distributions of the schema.\n- Removed xml:base and used http://www/w3/org/ns/locn as the schema URI cf. original which used the namespace URI (with the final # character).\n2013-11-25: Changes since final draft version released by the EU ISA Programme Core Vocabularies Working Group (Location Task Force)\n- Revised usage note of class locn:Geometry. The text describing its recommended usage has been moved to usage note of property locn:geometry.\n- Dropped domain/range restriction for locn:geographicName.\n- Dropped domain/range restriction for locn:locatorDesignator. Free text definition updated accordingly.\n- Dropped domain/range restriction for locn:locatorName. Free text definition updated accordingly.\n- Corrected free text definition of property locn:geometry (its domain is \"any resource\", and not a \"location\").\n- Revised usage note of property locn:geometry to include text about recommended usage, formerly included in the usage note of class locn:Geometry.\n- Revised usage note and examples of property locn:geometry to include support to geocoded URIs (e.g., geo URIs, GeoHash URIs).\n- Added term status. All terms have been set to \"testing\", with the exception of class locn:Geometry and properties rdfs:seeAlso (geographic identifier) and locn:addressId.\n- Renamed subject in Turtle examples (ex:a → :Resource).\n- Fixed links and typos, minor revisions made to the textual descriptions.\n    "@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/vocab/vann/preferredNamespacePrefix> "locn" <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/ns/locn#"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/vocommons/voaf#classNumber> "3"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/vocommons/voaf#propertyNumber> "16"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/vocommons/voaf#reliesOn> <http://purl.org/dc/terms/> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/vocommons/voaf#reliesOn> <http://www.w3.org/2000/01/rdf-schema#> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a new version of the final draft published by the European Commission in May 2012, revised according to the results of the ISA Core Location Pilot (see Section Change History for the list of changes). It is currently under the control of the Locations and Addresses Community Group, but is not under active development or review. Comments and queries should be sent to that group via public-locadd@w3.org. Terms defined here may be deprecated by that or future groups but will not disappear or their definition change."@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://www.w3.org/2000/01/rdf-schema#label> "ISA Programme Location Core Vocabulary"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://www.w3.org/2001/02pd/rec54#editor> _:c14n0 <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://www.w3.org/2001/02pd/rec54#editor> _:c14n4 <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://www.w3.org/2001/02pd/rec54#editor> _:c14n5 <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://www.w3.org/2002/07/owl#versionInfo> "First version in w3.org/ns space"@en <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://www.w3.org/2007/05/powder-s#describedby> <https://joinup.ec.europa.eu/node/55858> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://xmlns.com/foaf/0.1/depiction> <https://www.w3.org/ns/locn.svg> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://xmlns.com/foaf/0.1/maker> _:c14n2 <http://www.w3.org/ns/locn#> .
+<https://joinup.ec.europa.eu/category/licence/isa-open-metadata-licence-v11> <http://creativecommons.org/ns#attributionName> "European Commission"@en <http://www.w3.org/ns/locn#> .
+<https://joinup.ec.europa.eu/category/licence/isa-open-metadata-licence-v11> <http://creativecommons.org/ns#attributionURL> <http://ec.europa.eu/> <http://www.w3.org/ns/locn#> .
+<https://joinup.ec.europa.eu/category/licence/isa-open-metadata-licence-v11> <http://purl.org/dc/terms/title> "ISA Open Metadata Licence v1.1" <http://www.w3.org/ns/locn#> .
+<https://joinup.ec.europa.eu/node/43160> <http://purl.org/dc/terms/title> "Process and Methodology for Developing Core Vocabularies" <http://www.w3.org/ns/locn#> .
+<https://joinup.ec.europa.eu/node/55858> <http://purl.org/dc/terms/title> "Core Vocabularies Specification" <http://www.w3.org/ns/locn#> .
+<https://www.w3.org/ns/locn.svg> <http://www.w3.org/2000/01/rdf-schema#label> "Class and property diagram of the LOCN vocabulary" <http://www.w3.org/ns/locn#> .
+_:c14n0 <http://schema.org/affiliation> _:c14n6 <http://www.w3.org/ns/locn#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/name> "Michael Lutz" <http://www.w3.org/ns/locn#> .
+_:c14n1 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/> <http://www.w3.org/ns/locn#> .
+_:c14n1 <http://xmlns.com/foaf/0.1/name> "W3C/ERCIM" <http://www.w3.org/ns/locn#> .
+_:c14n2 <http://xmlns.com/foaf/0.1/homepage> <https://joinup.ec.europa.eu/node/42444> <http://www.w3.org/ns/locn#> .
+_:c14n2 <http://xmlns.com/foaf/0.1/name> "EU ISA Programme Core Vocabularies Working Group (Location Task Force)" <http://www.w3.org/ns/locn#> .
+_:c14n3 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/community/locadd/> <http://www.w3.org/ns/locn#> .
+_:c14n3 <http://xmlns.com/foaf/0.1/mbox> <mailto:public-locadd@w3.org> <http://www.w3.org/ns/locn#> .
+_:c14n3 <http://xmlns.com/foaf/0.1/name> "Locations and Addresses Community Group" <http://www.w3.org/ns/locn#> .
+_:c14n4 <http://schema.org/affiliation> _:c14n7 <http://www.w3.org/ns/locn#> .
+_:c14n4 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://andrea-perego.name/foaf/#me> <http://www.w3.org/ns/locn#> .
+_:c14n4 <http://xmlns.com/foaf/0.1/homepage> <http://about.me/andrea.perego> <http://www.w3.org/ns/locn#> .
+_:c14n4 <http://xmlns.com/foaf/0.1/name> "Andrea Perego" <http://www.w3.org/ns/locn#> .
+_:c14n5 <http://schema.org/affiliation> _:c14n1 <http://www.w3.org/ns/locn#> .
+_:c14n5 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://philarcher.org/foaf.rdf#me> <http://www.w3.org/ns/locn#> .
+_:c14n5 <http://xmlns.com/foaf/0.1/homepage> <http://philarcher.org/> <http://www.w3.org/ns/locn#> .
+_:c14n5 <http://xmlns.com/foaf/0.1/name> "Phil Archer" <http://www.w3.org/ns/locn#> .
+_:c14n6 <http://xmlns.com/foaf/0.1/homepage> <https://ec.europa.eu/jrc/> <http://www.w3.org/ns/locn#> .
+_:c14n6 <http://xmlns.com/foaf/0.1/name> "European Commission - Joint Research Centre (JRC)"@en <http://www.w3.org/ns/locn#> .
+_:c14n7 <http://xmlns.com/foaf/0.1/homepage> <https://ec.europa.eu/jrc/> <http://www.w3.org/ns/locn#> .
+_:c14n7 <http://xmlns.com/foaf/0.1/name> "European Commission - Joint Research Centre (JRC)"@en <http://www.w3.org/ns/locn#> .
