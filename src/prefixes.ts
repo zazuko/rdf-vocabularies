@@ -1,6 +1,7 @@
 const prefixes = {
   acl: 'http://www.w3.org/ns/auth/acl#',
   as: 'https://www.w3.org/ns/activitystreams#',
+  bibo: 'http://purl.org/ontology/bibo/',
   cc: 'http://creativecommons.org/ns#',
   cnt: 'http://www.w3.org/2011/content#',
   constant: 'http://qudt.org/vocab/constant/',
@@ -18,7 +19,7 @@ const prefixes = {
   dtype: 'http://www.linkedmodel.org/schema/dtype#',
   duv: 'http://www.w3.org/ns/duv#',
   earl: 'https://www.w3.org/ns/earl#',
-  ebucore: 'https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf',
+  ebucore: 'http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#',
   foaf: 'http://xmlns.com/foaf/0.1/',
   frbr: 'http://purl.org/vocab/frbr/core#',
   geo: 'http://www.opengis.net/ont/geosparql#',
