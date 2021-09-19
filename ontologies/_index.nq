@@ -62,6 +62,12 @@
 <https://prefix.zazuko.com/dc11:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/elements/1.1/> .
 <https://prefix.zazuko.com/dc11:> <http://www.w3.org/ns/rdfa#prefix> "dc11" .
 <https://prefix.zazuko.com/dc11:> <http://www.w3.org/ns/rdfa#uri> <http://purl.org/dc/elements/1.1/> .
+<https://prefix.zazuko.com/dcam:> <http://dbpedia.org/ontology/filename> "ontologies/dcam.nq" .
+<https://prefix.zazuko.com/dcam:> <http://purl.org/dc/terms/title> "Metadata terms for vocabulary description" .
+<https://prefix.zazuko.com/dcam:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/dcam:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcam/> .
+<https://prefix.zazuko.com/dcam:> <http://www.w3.org/ns/rdfa#prefix> "dcam" .
+<https://prefix.zazuko.com/dcam:> <http://www.w3.org/ns/rdfa#uri> <http://purl.org/dc/dcam/> .
 <https://prefix.zazuko.com/dcat:> <http://dbpedia.org/ontology/filename> "ontologies/dcat.nq" .
 <https://prefix.zazuko.com/dcat:> <http://purl.org/dc/terms/description> "DCAT is an RDF vocabulary designed to facilitate interoperability between data catalogs published on the Web. By using DCAT to describe datasets in data catalogs, publishers increase discoverability and enable applications easily to consume metadata from multiple catalogs. It further enables decentralized publishing of catalogs and facilitates federated dataset search across sites. Aggregated DCAT metadata can serve as a manifest file to facilitate digital preservation. DCAT is defined at http://www.w3.org/TR/vocab-dcat/. Any variance between that normative document and this schema is an error in this schema." .
 <https://prefix.zazuko.com/dcat:> <http://purl.org/dc/terms/title> "The data catalog vocabulary" .
@@ -69,6 +75,12 @@
 <https://prefix.zazuko.com/dcat:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/dcat#> .
 <https://prefix.zazuko.com/dcat:> <http://www.w3.org/ns/rdfa#prefix> "dcat" .
 <https://prefix.zazuko.com/dcat:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/dcat#> .
+<https://prefix.zazuko.com/dcmitype:> <http://dbpedia.org/ontology/filename> "ontologies/dcmitype.nq" .
+<https://prefix.zazuko.com/dcmitype:> <http://purl.org/dc/terms/title> "DCMI Type Vocabulary" .
+<https://prefix.zazuko.com/dcmitype:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/dcmitype:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcmitype/> .
+<https://prefix.zazuko.com/dcmitype:> <http://www.w3.org/ns/rdfa#prefix> "dcmitype" .
+<https://prefix.zazuko.com/dcmitype:> <http://www.w3.org/ns/rdfa#uri> <http://purl.org/dc/dcmitype/> .
 <https://prefix.zazuko.com/dcterms:> <http://dbpedia.org/ontology/filename> "ontologies/dcterms.nq" .
 <https://prefix.zazuko.com/dcterms:> <http://purl.org/dc/terms/title> "DCMI Metadata Terms - other" .
 <https://prefix.zazuko.com/dcterms:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .

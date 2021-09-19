@@ -1,0 +1,26 @@
+<http://purl.org/dc/dcam/> <http://purl.org/dc/terms/modified> "2012-06-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/> <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/> <http://purl.org/dc/terms/title> "Metadata terms for vocabulary description"@en <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/VocabularyEncodingScheme> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/VocabularyEncodingScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/VocabularyEncodingScheme> <http://www.w3.org/2000/01/rdf-schema#comment> "An enumerated set of resources."@en <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/VocabularyEncodingScheme> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcam/> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/VocabularyEncodingScheme> <http://www.w3.org/2000/01/rdf-schema#label> "Vocabulary Encoding Scheme"@en <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/VocabularyEncodingScheme> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.dublincore.org/specifications/dublin-core/2007/06/04/abstract-model/> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/domainIncludes> <http://purl.org/dc/terms/issued> "2020-01-20"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/domainIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/domainIncludes> <http://www.w3.org/2000/01/rdf-schema#comment> "A suggested class for subjects of this property."@en <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/domainIncludes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcam/> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/domainIncludes> <http://www.w3.org/2000/01/rdf-schema#label> "Domain Includes"@en <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/memberOf> <http://purl.org/dc/terms/issued> "2008-01-14"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/memberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/memberOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A relationship between a resource and a vocabulary encoding scheme which indicates that the resource is a member of a set."@en <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/memberOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcam/> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/memberOf> <http://www.w3.org/2000/01/rdf-schema#label> "Member Of"@en <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/memberOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/dc/dcam/VocabularyEncodingScheme> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/memberOf> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.dublincore.org/specifications/dublin-core/2007/06/04/abstract-model/> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/rangeIncludes> <http://purl.org/dc/terms/issued> "2020-01-20"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/rangeIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#comment> "A suggested class for values of this property."@en <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcam/> <http://purl.org/dc/dcam/> .
+<http://purl.org/dc/dcam/rangeIncludes> <http://www.w3.org/2000/01/rdf-schema#label> "Range Includes"@en <http://purl.org/dc/dcam/> .
