@@ -141,6 +141,13 @@
 <https://prefix.zazuko.com/ebucore:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf> .
 <https://prefix.zazuko.com/ebucore:> <http://www.w3.org/ns/rdfa#prefix> "ebucore" .
 <https://prefix.zazuko.com/ebucore:> <http://www.w3.org/ns/rdfa#uri> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+<https://prefix.zazuko.com/exif:> <http://dbpedia.org/ontology/filename> "ontologies/exif.nq" .
+<https://prefix.zazuko.com/exif:> <http://purl.org/dc/terms/description> "Vocabulary to describe an Exif format picture data. All Exif 2.2 tags are defined as RDF properties, as well as several terms to help this schema." .
+<https://prefix.zazuko.com/exif:> <http://purl.org/dc/terms/title> "Exif data description vocabulary" .
+<https://prefix.zazuko.com/exif:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/exif:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2003/12/exif/ns> .
+<https://prefix.zazuko.com/exif:> <http://www.w3.org/ns/rdfa#prefix> "exif" .
+<https://prefix.zazuko.com/exif:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/2003/12/exif/ns> .
 <https://prefix.zazuko.com/foaf:> <http://dbpedia.org/ontology/filename> "ontologies/foaf.nq" .
 <https://prefix.zazuko.com/foaf:> <http://purl.org/dc/terms/description> "The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language." .
 <https://prefix.zazuko.com/foaf:> <http://purl.org/dc/terms/title> "Friend of a Friend (FOAF) vocabulary" .

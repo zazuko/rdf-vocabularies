@@ -22,6 +22,7 @@ const prefixes = {
   duv: 'http://www.w3.org/ns/duv#',
   earl: 'https://www.w3.org/ns/earl#',
   ebucore: 'http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#',
+  exif: 'http://www.w3.org/2003/12/exif/ns',
   foaf: 'http://xmlns.com/foaf/0.1/',
   frbr: 'http://purl.org/vocab/frbr/core#',
   geo: 'http://www.opengis.net/ont/geosparql#',
