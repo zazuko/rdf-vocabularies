@@ -50,6 +50,7 @@ export const overrides: Record<string, Override> = {
   ebucore: { file: 'https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf' },
   frbr: { file: 'http://purl.org/spar/frbr.nt' },
   geo: { file: 'http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf' },
+  gs1: { file: 'https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl', mediaType: 'text/turtle' },
   gml: { skip: true },
   gtfs: { mediaType: 'text/n3' },
   http: { mediaType: 'application/rdf+xml' },

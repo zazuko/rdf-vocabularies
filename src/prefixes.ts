@@ -29,6 +29,7 @@ const prefixes = {
   gn: 'http://www.geonames.org/ontology#',
   gr: 'http://purl.org/goodrelations/v1#',
   grddl: 'http://www.w3.org/2003/g/data-view#',
+  gs1: 'https://www.gs1.org/voc/',
   gtfs: 'http://vocab.gtfs.org/terms#',
   http: 'http://www.w3.org/2011/http#',
   hydra: 'http://www.w3.org/ns/hydra/core#',
