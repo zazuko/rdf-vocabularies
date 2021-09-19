@@ -226,6 +226,13 @@
 <https://prefix.zazuko.com/ldp:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
 <https://prefix.zazuko.com/ldp:> <http://www.w3.org/ns/rdfa#prefix> "ldp" .
 <https://prefix.zazuko.com/ldp:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/ldp#> .
+<https://prefix.zazuko.com/locn:> <http://dbpedia.org/ontology/filename> "ontologies/locn.nq" .
+<https://prefix.zazuko.com/locn:> <http://purl.org/dc/terms/description> "This is a new version of the final draft published by the European Commission in May 2012, revised according to the results of the ISA Core Location Pilot (see Section Change History for the list of changes). It is currently under the control of the Locations and Addresses Community Group, but is not under active development or review. Comments and queries should be sent to that group via public-locadd@w3.org. Terms defined here may be deprecated by that or future groups but will not disappear or their definition change." .
+<https://prefix.zazuko.com/locn:> <http://purl.org/dc/terms/title> "ISA Programme Location Core Vocabulary" .
+<https://prefix.zazuko.com/locn:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/locn:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/locn#> .
+<https://prefix.zazuko.com/locn:> <http://www.w3.org/ns/rdfa#prefix> "locn" .
+<https://prefix.zazuko.com/locn:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/locn#> .
 <https://prefix.zazuko.com/lvont:> <http://dbpedia.org/ontology/filename> "ontologies/lvont.nq" .
 <https://prefix.zazuko.com/lvont:> <http://purl.org/dc/terms/description> "Lexvo.org Ontology" .
 <https://prefix.zazuko.com/lvont:> <http://purl.org/dc/terms/title> "Lexvo.org Ontology" .
