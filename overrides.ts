@@ -13,6 +13,7 @@ export interface Override extends FileSpec {
 
 export const overrides: Record<string, Override> = {
   as: { file: 'https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl', mediaType: 'text/turtle' },
+  bibo: { mediaType: 'application/rdf+xml' },
   dbo: {
     files: [{
       mediaType: 'text/n3',
@@ -46,8 +47,10 @@ export const overrides: Record<string, Override> = {
       baseIRI: 'https://www.w3.org/ns/earl#'
     }
   },
+  ebucore: { file: 'https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf' },
   frbr: { file: 'http://purl.org/spar/frbr.nt' },
   geo: { file: 'http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf' },
+  gs1: { file: 'https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl', mediaType: 'text/turtle' },
   gml: { skip: true },
   gtfs: { mediaType: 'text/n3' },
   http: { mediaType: 'application/rdf+xml' },

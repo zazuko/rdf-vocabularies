@@ -10,6 +10,13 @@
 <https://prefix.zazuko.com/as:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl> .
 <https://prefix.zazuko.com/as:> <http://www.w3.org/ns/rdfa#prefix> "as" .
 <https://prefix.zazuko.com/as:> <http://www.w3.org/ns/rdfa#uri> <https://www.w3.org/ns/activitystreams#> .
+<https://prefix.zazuko.com/bibo:> <http://dbpedia.org/ontology/filename> "ontologies/bibo.nq" .
+<https://prefix.zazuko.com/bibo:> <http://purl.org/dc/terms/description> "The Bibliographic Ontology describes\nbibliographic things on the semantic Web in RDF.  This ontology can be\nused as a citation ontology, as a document classification ontology, or\nsimply as a way to describe any kind of document in RDF. It has been\ninspired by many existing document description metadata formats, and\ncan be used as a common ground for converting other bibliographic data\nsources." .
+<https://prefix.zazuko.com/bibo:> <http://purl.org/dc/terms/title> "The Bibliographic Ontology" .
+<https://prefix.zazuko.com/bibo:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/bibo:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/ontology/bibo/> .
+<https://prefix.zazuko.com/bibo:> <http://www.w3.org/ns/rdfa#prefix> "bibo" .
+<https://prefix.zazuko.com/bibo:> <http://www.w3.org/ns/rdfa#uri> <http://purl.org/ontology/bibo/> .
 <https://prefix.zazuko.com/cc:> <http://dbpedia.org/ontology/filename> "ontologies/cc.nq" .
 <https://prefix.zazuko.com/cc:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/cc:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://creativecommons.org/schema.rdf> .
@@ -128,10 +135,12 @@
 <https://prefix.zazuko.com/earl:> <http://www.w3.org/ns/rdfa#prefix> "earl" .
 <https://prefix.zazuko.com/earl:> <http://www.w3.org/ns/rdfa#uri> <https://www.w3.org/ns/earl#> .
 <https://prefix.zazuko.com/ebucore:> <http://dbpedia.org/ontology/filename> "ontologies/ebucore.nq" .
+<https://prefix.zazuko.com/ebucore:> <http://purl.org/dc/terms/description> "Guidelines: for the purpose of flexibility and interoperability with a wider range of implementations, some properties purposefully do not have a range and accept either a resource or a literal.  When a resource is used, it is recommended to reuse objects defined in the model (e.g. pair hasEvent/Event or hasRole/Role). Example 1: x hasRole 'actor'. Example 2: x hasRole _:Role_1 (a reference to the Concept identifier from a SKOS Role vocabulary defined in the ontology)." .
+<https://prefix.zazuko.com/ebucore:> <http://purl.org/dc/terms/title> "EBUCore - the Dublin Core for media" .
 <https://prefix.zazuko.com/ebucore:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/ebucore:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf> .
 <https://prefix.zazuko.com/ebucore:> <http://www.w3.org/ns/rdfa#prefix> "ebucore" .
-<https://prefix.zazuko.com/ebucore:> <http://www.w3.org/ns/rdfa#uri> <https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf> .
+<https://prefix.zazuko.com/ebucore:> <http://www.w3.org/ns/rdfa#uri> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
 <https://prefix.zazuko.com/foaf:> <http://dbpedia.org/ontology/filename> "ontologies/foaf.nq" .
 <https://prefix.zazuko.com/foaf:> <http://purl.org/dc/terms/description> "The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language." .
 <https://prefix.zazuko.com/foaf:> <http://purl.org/dc/terms/title> "Friend of a Friend (FOAF) vocabulary" .
@@ -179,6 +188,11 @@
 <https://prefix.zazuko.com/grddl:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2003/g/data-view#> .
 <https://prefix.zazuko.com/grddl:> <http://www.w3.org/ns/rdfa#prefix> "grddl" .
 <https://prefix.zazuko.com/grddl:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/2003/g/data-view#> .
+<https://prefix.zazuko.com/gs1:> <http://dbpedia.org/ontology/filename> "ontologies/gs1.nq" .
+<https://prefix.zazuko.com/gs1:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/gs1:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl> .
+<https://prefix.zazuko.com/gs1:> <http://www.w3.org/ns/rdfa#prefix> "gs1" .
+<https://prefix.zazuko.com/gs1:> <http://www.w3.org/ns/rdfa#uri> <https://www.gs1.org/voc/> .
 <https://prefix.zazuko.com/gtfs:> <http://dbpedia.org/ontology/filename> "ontologies/gtfs.nq" .
 <https://prefix.zazuko.com/gtfs:> <http://purl.org/dc/terms/description> "This ontology is a translation of the General Transit Feed Specification towards URIs. Its intended use is creating an exchange platform where the Linked GTFS model can be used as a start to get the right data into the right format. For semantics of the classes and properties, see https://developers.google.com/transit/gtfs/reference." .
 <https://prefix.zazuko.com/gtfs:> <http://purl.org/dc/terms/title> "General Transit Feed Specification" .
