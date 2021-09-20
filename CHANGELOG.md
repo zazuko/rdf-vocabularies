@@ -1,3 +1,31 @@
+# `v2021.9.xx`
+
+## New prefix
+
+| Prefix    | #Quads |
+| --------- | ------ |
+| `bibo`    | 1224   |
+| `dcam`    | 26     |
+| `dcmitype`| 89     |
+| `ebucore` | 5780   |
+| `exif`    | 891    |
+| `gs1`     | 7434   |
+| `locn`    | 206    |
+
+## Updated vocabularies
+
+Fix `ebucore` base URL: `https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf` -> `http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#`
+
+| Prefix         | #Quads |
+| -------------- | ------ |
+| `constant`     | 5387   |
+| `prefix`       | 305    |
+| `qkdv`         | 3163   |
+| `quantitykind` | 16508  |
+| `qudt`         | 6813   |
+| `sou`          | 210    |
+| `unit`         | 21290  |
+
 # `v2021.9.15`
 
 ## New prefix
@@ -23,7 +51,6 @@
 | `sou`          | 210    |
 | `unit`         | 21225  |
 | `void`         | 208    |
-
 
 # `v2021.6.10`
 
