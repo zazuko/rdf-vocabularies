@@ -1,3 +1,15 @@
+# `v2021.9.22`
+
+## Updated vocabularies
+
+Fix `exif` base URL: `http://www.w3.org/2003/12/exif/ns` -> `http://www.w3.org/2003/12/exif/ns#`
+
+Fix `xml` base URL: `http://www.w3.org/XML/1998/namespace` -> `http://www.w3.org/XML/1998/namespace/`
+
+| Prefix    | #Quads |
+| --------- | ------ |
+| `exif`    | 891    |
+
 # `v2021.9.20`
 
 ## New prefix
