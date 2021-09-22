@@ -6,6 +6,8 @@ Fix `exif` base URL: `http://www.w3.org/2003/12/exif/ns` -> `http://www.w3.org/2
 
 Fix `xml` base URL: `http://www.w3.org/XML/1998/namespace` -> `http://www.w3.org/XML/1998/namespace/`
 
+Fix `gs1` base URL: `https://www.gs1.org/voc/` -> `https://gs1.org/voc/`
+
 | Prefix    | #Quads |
 | --------- | ------ |
 | `exif`    | 891    |
