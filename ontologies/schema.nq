@@ -80,6 +80,12 @@
 <http://schema.org/AdultEntertainment> <http://www.w3.org/2000/01/rdf-schema#comment> "An adult entertainment establishment." <http://schema.org/> .
 <http://schema.org/AdultEntertainment> <http://www.w3.org/2000/01/rdf-schema#label> "AdultEntertainment" <http://schema.org/> .
 <http://schema.org/AdultEntertainment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/EntertainmentBusiness> <http://schema.org/> .
+<http://schema.org/AdultOrientedEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/AdultOrientedEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2989> <http://schema.org/> .
+<http://schema.org/AdultOrientedEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/AdultOrientedEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumeration of considerations that make a product relevant or potentially restricted for adults only." <http://schema.org/> .
+<http://schema.org/AdultOrientedEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "AdultOrientedEnumeration" <http://schema.org/> .
+<http://schema.org/AdultOrientedEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
 <http://schema.org/AdvertiserContentArticle> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/AdvertiserContentArticle> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1525> <http://schema.org/> .
 <http://schema.org/AdvertiserContentArticle> <http://schema.org/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#TP> <http://schema.org/> .
@@ -115,6 +121,11 @@
 <http://schema.org/AlbumRelease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbumReleaseType> <http://schema.org/> .
 <http://schema.org/AlbumRelease> <http://www.w3.org/2000/01/rdf-schema#comment> "AlbumRelease." <http://schema.org/> .
 <http://schema.org/AlbumRelease> <http://www.w3.org/2000/01/rdf-schema#label> "AlbumRelease" <http://schema.org/> .
+<http://schema.org/AlcoholConsideration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/AlcoholConsideration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2989> <http://schema.org/> .
+<http://schema.org/AlcoholConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdultOrientedEnumeration> <http://schema.org/> .
+<http://schema.org/AlcoholConsideration> <http://www.w3.org/2000/01/rdf-schema#comment> "Item contains alcohol or promotes alcohol consumption." <http://schema.org/> .
+<http://schema.org/AlcoholConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "AlcoholConsideration" <http://schema.org/> .
 <http://schema.org/AlignmentObject> <http://schema.org/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_LRMIClass> <http://schema.org/> .
 <http://schema.org/AlignmentObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/AlignmentObject> <http://www.w3.org/2000/01/rdf-schema#comment> "An intangible item that describes an alignment between a learning resource and a node in an educational framework.\n\nShould not be used where the nature of the alignment can be described using a simple property, for example to express that a resource [[teaches]] or [[assesses]] a competency." <http://schema.org/> .
@@ -139,6 +150,7 @@
 <http://schema.org/AmpStory> <http://www.w3.org/2000/01/rdf-schema#comment> "A creative work with a visual storytelling format intended to be viewed online, particularly on mobile devices." <http://schema.org/> .
 <http://schema.org/AmpStory> <http://www.w3.org/2000/01/rdf-schema#label> "AmpStory" <http://schema.org/> .
 <http://schema.org/AmpStory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/AmpStory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MediaObject> <http://schema.org/> .
 <http://schema.org/AmusementPark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/AmusementPark> <http://www.w3.org/2000/01/rdf-schema#comment> "An amusement park." <http://schema.org/> .
 <http://schema.org/AmusementPark> <http://www.w3.org/2000/01/rdf-schema#label> "AmusementPark" <http://schema.org/> .
@@ -164,6 +176,11 @@
 <http://schema.org/AnatomicalSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "An anatomical system is a group of anatomical structures that work together to perform a certain task. Anatomical systems, such as organ systems, are one organizing principle of anatomy, and can includes circulatory, digestive, endocrine, integumentary, immune, lymphatic, muscular, nervous, reproductive, respiratory, skeletal, urinary, vestibular, and other systems." <http://schema.org/> .
 <http://schema.org/AnatomicalSystem> <http://www.w3.org/2000/01/rdf-schema#label> "AnatomicalSystem" <http://schema.org/> .
 <http://schema.org/AnatomicalSystem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MedicalEntity> <http://schema.org/> .
+<http://schema.org/AndroidPlatform> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/AndroidPlatform> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3057> <http://schema.org/> .
+<http://schema.org/AndroidPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DigitalPlatformEnumeration> <http://schema.org/> .
+<http://schema.org/AndroidPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the broad notion of Android-based operating systems." <http://schema.org/> .
+<http://schema.org/AndroidPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "AndroidPlatform" <http://schema.org/> .
 <http://schema.org/Anesthesia> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/Anesthesia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MedicalSpecialty> <http://schema.org/> .
 <http://schema.org/Anesthesia> <http://www.w3.org/2000/01/rdf-schema#comment> "A specific branch of medical science that pertains to study of anesthetics and their application." <http://schema.org/> .
@@ -1139,6 +1156,11 @@
 <http://schema.org/DanceGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "A dance group&#x2014;for example, the Alvin Ailey Dance Theater or Riverdance." <http://schema.org/> .
 <http://schema.org/DanceGroup> <http://www.w3.org/2000/01/rdf-schema#label> "DanceGroup" <http://schema.org/> .
 <http://schema.org/DanceGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/PerformingGroup> <http://schema.org/> .
+<http://schema.org/DangerousGoodConsideration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/DangerousGoodConsideration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2989> <http://schema.org/> .
+<http://schema.org/DangerousGoodConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdultOrientedEnumeration> <http://schema.org/> .
+<http://schema.org/DangerousGoodConsideration> <http://www.w3.org/2000/01/rdf-schema#comment> "The item is dangerous and requires careful handling and/or special training of the user. See also the [UN Model Classification](https://unece.org/DAM/trans/danger/publi/unrec/rev17/English/02EREv17_Part2.pdf) defining the 9 classes of dangerous goods such as explosives, gases, flammables, and more." <http://schema.org/> .
+<http://schema.org/DangerousGoodConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "DangerousGoodConsideration" <http://schema.org/> .
 <http://schema.org/DataCatalog> <http://schema.org/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#source_DatasetClass> <http://schema.org/> .
 <http://schema.org/DataCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/DataCatalog> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of datasets." <http://schema.org/> .
@@ -1264,6 +1286,11 @@
 <http://schema.org/DemoAlbum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicAlbumProductionType> <http://schema.org/> .
 <http://schema.org/DemoAlbum> <http://www.w3.org/2000/01/rdf-schema#comment> "DemoAlbum." <http://schema.org/> .
 <http://schema.org/DemoAlbum> <http://www.w3.org/2000/01/rdf-schema#label> "DemoAlbum" <http://schema.org/> .
+<http://schema.org/DemoGameAvailability> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/DemoGameAvailability> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3058> <http://schema.org/> .
+<http://schema.org/DemoGameAvailability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/GameAvailabilityEnumeration> <http://schema.org/> .
+<http://schema.org/DemoGameAvailability> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates demo game availability, i.e. a somehow limited demonstration of the full game." <http://schema.org/> .
+<http://schema.org/DemoGameAvailability> <http://www.w3.org/2000/01/rdf-schema#label> "DemoGameAvailability" <http://schema.org/> .
 <http://schema.org/Dentist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/Dentist> <http://www.w3.org/2000/01/rdf-schema#comment> "A dentist." <http://schema.org/> .
 <http://schema.org/Dentist> <http://www.w3.org/2000/01/rdf-schema#label> "Dentist" <http://schema.org/> .
@@ -1298,6 +1325,11 @@
 <http://schema.org/Dermatology> <http://www.w3.org/2000/01/rdf-schema#comment> "A specific branch of medical science that pertains to diagnosis and treatment of disorders of skin." <http://schema.org/> .
 <http://schema.org/Dermatology> <http://www.w3.org/2000/01/rdf-schema#label> "Dermatology" <http://schema.org/> .
 <http://schema.org/Dermatology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/MedicalBusiness> <http://schema.org/> .
+<http://schema.org/DesktopWebPlatform> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/DesktopWebPlatform> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3057> <http://schema.org/> .
+<http://schema.org/DesktopWebPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DigitalPlatformEnumeration> <http://schema.org/> .
+<http://schema.org/DesktopWebPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the broad notion of 'desktop' browsers as a Web Platform." <http://schema.org/> .
+<http://schema.org/DesktopWebPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "DesktopWebPlatform" <http://schema.org/> .
 <http://schema.org/DiabeticDiet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/RestrictedDiet> <http://schema.org/> .
 <http://schema.org/DiabeticDiet> <http://www.w3.org/2000/01/rdf-schema#comment> "A diet appropriate for people with diabetes." <http://schema.org/> .
 <http://schema.org/DiabeticDiet> <http://www.w3.org/2000/01/rdf-schema#label> "DiabeticDiet" <http://schema.org/> .
@@ -1351,6 +1383,12 @@
 <http://schema.org/DigitalFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicReleaseFormatType> <http://schema.org/> .
 <http://schema.org/DigitalFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "DigitalFormat." <http://schema.org/> .
 <http://schema.org/DigitalFormat> <http://www.w3.org/2000/01/rdf-schema#label> "DigitalFormat" <http://schema.org/> .
+<http://schema.org/DigitalPlatformEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/DigitalPlatformEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3057> <http://schema.org/> .
+<http://schema.org/DigitalPlatformEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/DigitalPlatformEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "Enumerates some common technology platforms, for use with properties such as [[actionPlatform]]. It is not supposed to be comprehensive - when a suitable code is not enumerated here, textual or URL values can be used instead. These codes are at a fairly high level and do not deal with versioning and other nuance. Additional codes can be suggested [in github](https://github.com/schemaorg/schemaorg/issues/3057). " <http://schema.org/> .
+<http://schema.org/DigitalPlatformEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "DigitalPlatformEnumeration" <http://schema.org/> .
+<http://schema.org/DigitalPlatformEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
 <http://schema.org/DisabilitySupport> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/DisabilitySupport> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2534> <http://schema.org/> .
 <http://schema.org/DisabilitySupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/GovernmentBenefitsType> <http://schema.org/> .
@@ -1933,6 +1971,11 @@
 <http://schema.org/FrontWheelDriveConfiguration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DriveWheelConfigurationValue> <http://schema.org/> .
 <http://schema.org/FrontWheelDriveConfiguration> <http://www.w3.org/2000/01/rdf-schema#comment> "Front-wheel drive is a transmission layout where the engine drives the front wheels." <http://schema.org/> .
 <http://schema.org/FrontWheelDriveConfiguration> <http://www.w3.org/2000/01/rdf-schema#label> "FrontWheelDriveConfiguration" <http://schema.org/> .
+<http://schema.org/FullGameAvailability> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/FullGameAvailability> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3058> <http://schema.org/> .
+<http://schema.org/FullGameAvailability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/GameAvailabilityEnumeration> <http://schema.org/> .
+<http://schema.org/FullGameAvailability> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates full game availability." <http://schema.org/> .
+<http://schema.org/FullGameAvailability> <http://www.w3.org/2000/01/rdf-schema#label> "FullGameAvailability" <http://schema.org/> .
 <http://schema.org/FullRefund> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/FullRefund> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/FullRefund> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/RefundTypeEnumeration> <http://schema.org/> .
@@ -1964,6 +2007,12 @@
 <http://schema.org/Game> <http://www.w3.org/2000/01/rdf-schema#comment> "The Game type represents things which are games. These are typically rule-governed recreational activities, e.g. role-playing games in which players assume the role of characters in a fictional setting." <http://schema.org/> .
 <http://schema.org/Game> <http://www.w3.org/2000/01/rdf-schema#label> "Game" <http://schema.org/> .
 <http://schema.org/Game> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/GameAvailabilityEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/GameAvailabilityEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3058> <http://schema.org/> .
+<http://schema.org/GameAvailabilityEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/GameAvailabilityEnumeration> <http://www.w3.org/2000/01/rdf-schema#comment> "For a [[VideoGame]], such as used with a [[PlayGameAction]], an enumeration of the kind of game availability offered. " <http://schema.org/> .
+<http://schema.org/GameAvailabilityEnumeration> <http://www.w3.org/2000/01/rdf-schema#label> "GameAvailabilityEnumeration" <http://schema.org/> .
+<http://schema.org/GameAvailabilityEnumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> <http://schema.org/> .
 <http://schema.org/GamePlayMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/GamePlayMode> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether this game is multi-player, co-op or single-player." <http://schema.org/> .
 <http://schema.org/GamePlayMode> <http://www.w3.org/2000/01/rdf-schema#label> "GamePlayMode" <http://schema.org/> .
@@ -2006,6 +2055,11 @@
 <http://schema.org/GeneralContractor> <http://www.w3.org/2000/01/rdf-schema#comment> "A general contractor." <http://schema.org/> .
 <http://schema.org/GeneralContractor> <http://www.w3.org/2000/01/rdf-schema#label> "GeneralContractor" <http://schema.org/> .
 <http://schema.org/GeneralContractor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/HomeAndConstructionBusiness> <http://schema.org/> .
+<http://schema.org/GenericWebPlatform> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/GenericWebPlatform> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3057> <http://schema.org/> .
+<http://schema.org/GenericWebPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DigitalPlatformEnumeration> <http://schema.org/> .
+<http://schema.org/GenericWebPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the generic notion of the Web Platform. More specific codes include [[MobileWebPlatform]] and [[DesktopWebPlatform]], as an incomplete list. " <http://schema.org/> .
+<http://schema.org/GenericWebPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "GenericWebPlatform" <http://schema.org/> .
 <http://schema.org/Genetic> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/Genetic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MedicalSpecialty> <http://schema.org/> .
 <http://schema.org/Genetic> <http://www.w3.org/2000/01/rdf-schema#comment> "A specific branch of medical science that pertains to hereditary transmission and the variation of inherited characteristics and disorders." <http://schema.org/> .
@@ -2187,6 +2241,11 @@
 <http://schema.org/HealthTopicContent> <http://www.w3.org/2000/01/rdf-schema#comment> "[[HealthTopicContent]] is [[WebContent]] that is about some aspect of a health topic, e.g. a condition, its symptoms or treatments. Such content may be comprised of several parts or sections and use different types of media. Multiple instances of [[WebContent]] (and hence [[HealthTopicContent]]) can be related using [[hasPart]] / [[isPartOf]] where there is some kind of content hierarchy, and their content described with [[about]] and [[mentions]] e.g. building upon the existing [[MedicalCondition]] vocabulary.\n  " <http://schema.org/> .
 <http://schema.org/HealthTopicContent> <http://www.w3.org/2000/01/rdf-schema#label> "HealthTopicContent" <http://schema.org/> .
 <http://schema.org/HealthTopicContent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/WebContent> <http://schema.org/> .
+<http://schema.org/HealthcareConsideration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/HealthcareConsideration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2989> <http://schema.org/> .
+<http://schema.org/HealthcareConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdultOrientedEnumeration> <http://schema.org/> .
+<http://schema.org/HealthcareConsideration> <http://www.w3.org/2000/01/rdf-schema#comment> "Item is a pharmaceutical (e.g., a prescription or OTC drug) or a restricted medical device." <http://schema.org/> .
+<http://schema.org/HealthcareConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "HealthcareConsideration" <http://schema.org/> .
 <http://schema.org/HearingImpairedSupported> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPointOption> <http://schema.org/> .
 <http://schema.org/HearingImpairedSupported> <http://www.w3.org/2000/01/rdf-schema#comment> "Uses devices to support users with hearing impairments." <http://schema.org/> .
 <http://schema.org/HearingImpairedSupported> <http://www.w3.org/2000/01/rdf-schema#label> "HearingImpairedSupported" <http://schema.org/> .
@@ -2310,6 +2369,11 @@
 <http://schema.org/HyperTocEntry> <http://www.w3.org/2000/01/rdf-schema#comment> "A HyperToEntry is an item within a [[HyperToc]], which represents a hypertext table of contents for complex media objects, such as [[VideoObject]], [[AudioObject]]. The media object itself is indicated using [[associatedMedia]]. Each section of interest within that content can be described with a [[HyperTocEntry]], with associated [[startOffset]] and [[endOffset]]. When several entries are all from the same file, [[associatedMedia]] is used on the overarching [[HyperTocEntry]]; if the content has been split into multiple files, they can be referenced using [[associatedMedia]] on each [[HyperTocEntry]]." <http://schema.org/> .
 <http://schema.org/HyperTocEntry> <http://www.w3.org/2000/01/rdf-schema#label> "HyperTocEntry" <http://schema.org/> .
 <http://schema.org/HyperTocEntry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/IOSPlatform> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/IOSPlatform> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3057> <http://schema.org/> .
+<http://schema.org/IOSPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DigitalPlatformEnumeration> <http://schema.org/> .
+<http://schema.org/IOSPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the broad notion of iOS-based operating systems." <http://schema.org/> .
+<http://schema.org/IOSPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "IOSPlatform" <http://schema.org/> .
 <http://schema.org/IceCreamShop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/IceCreamShop> <http://www.w3.org/2000/01/rdf-schema#comment> "An ice cream shop." <http://schema.org/> .
 <http://schema.org/IceCreamShop> <http://www.w3.org/2000/01/rdf-schema#label> "IceCreamShop" <http://schema.org/> .
@@ -3121,6 +3185,11 @@
 <http://schema.org/MobilePhoneStore> <http://www.w3.org/2000/01/rdf-schema#comment> "A store that sells mobile phones and related accessories." <http://schema.org/> .
 <http://schema.org/MobilePhoneStore> <http://www.w3.org/2000/01/rdf-schema#label> "MobilePhoneStore" <http://schema.org/> .
 <http://schema.org/MobilePhoneStore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Store> <http://schema.org/> .
+<http://schema.org/MobileWebPlatform> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/MobileWebPlatform> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3057> <http://schema.org/> .
+<http://schema.org/MobileWebPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DigitalPlatformEnumeration> <http://schema.org/> .
+<http://schema.org/MobileWebPlatform> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the broad notion of 'mobile' browsers as a Web Platform." <http://schema.org/> .
+<http://schema.org/MobileWebPlatform> <http://www.w3.org/2000/01/rdf-schema#label> "MobileWebPlatform" <http://schema.org/> .
 <http://schema.org/MolecularEntity> <http://purl.org/dc/terms/source> <http://bioschemas.org> <http://schema.org/> .
 <http://schema.org/MolecularEntity> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/MolecularEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -3322,6 +3391,11 @@
 <http://schema.org/NailSalon> <http://www.w3.org/2000/01/rdf-schema#comment> "A nail salon." <http://schema.org/> .
 <http://schema.org/NailSalon> <http://www.w3.org/2000/01/rdf-schema#label> "NailSalon" <http://schema.org/> .
 <http://schema.org/NailSalon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/HealthAndBeautyBusiness> <http://schema.org/> .
+<http://schema.org/NarcoticConsideration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/NarcoticConsideration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2989> <http://schema.org/> .
+<http://schema.org/NarcoticConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdultOrientedEnumeration> <http://schema.org/> .
+<http://schema.org/NarcoticConsideration> <http://www.w3.org/2000/01/rdf-schema#comment> "Item is a narcotic as defined by the [1961 UN convention](https://www.incb.org/incb/en/narcotic-drugs/Yellowlist/yellow-list.html), for example marijuna or heroin." <http://schema.org/> .
+<http://schema.org/NarcoticConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "NarcoticConsideration" <http://schema.org/> .
 <http://schema.org/Neck> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/Neck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/PhysicalExam> <http://schema.org/> .
 <http://schema.org/Neck> <http://www.w3.org/2000/01/rdf-schema#comment> "Neck assessment with clinical examination." <http://schema.org/> .
@@ -3717,6 +3791,12 @@
 <http://schema.org/Online> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/GameServerStatus> <http://schema.org/> .
 <http://schema.org/Online> <http://www.w3.org/2000/01/rdf-schema#comment> "Game server status: Online. Server is available." <http://schema.org/> .
 <http://schema.org/Online> <http://www.w3.org/2000/01/rdf-schema#label> "Online" <http://schema.org/> .
+<http://schema.org/OnlineBusiness> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/OnlineBusiness> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3028> <http://schema.org/> .
+<http://schema.org/OnlineBusiness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/OnlineBusiness> <http://www.w3.org/2000/01/rdf-schema#comment> "A particular online business, either standalone or the online part of a broader organization. Examples include an eCommerce site, an online travel booking site, an online learning site, an online logistics and shipping provider, an online (virtual) doctor, etc." <http://schema.org/> .
+<http://schema.org/OnlineBusiness> <http://www.w3.org/2000/01/rdf-schema#label> "OnlineBusiness" <http://schema.org/> .
+<http://schema.org/OnlineBusiness> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> <http://schema.org/> .
 <http://schema.org/OnlineEventAttendanceMode> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/OnlineEventAttendanceMode> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1842> <http://schema.org/> .
 <http://schema.org/OnlineEventAttendanceMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EventAttendanceModeEnumeration> <http://schema.org/> .
@@ -3728,6 +3808,12 @@
 <http://schema.org/OnlineOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ItemAvailability> <http://schema.org/> .
 <http://schema.org/OnlineOnly> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the item is available only online." <http://schema.org/> .
 <http://schema.org/OnlineOnly> <http://www.w3.org/2000/01/rdf-schema#label> "OnlineOnly" <http://schema.org/> .
+<http://schema.org/OnlineStore> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/OnlineStore> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3028> <http://schema.org/> .
+<http://schema.org/OnlineStore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/OnlineStore> <http://www.w3.org/2000/01/rdf-schema#comment> "An eCommerce site." <http://schema.org/> .
+<http://schema.org/OnlineStore> <http://www.w3.org/2000/01/rdf-schema#label> "OnlineStore" <http://schema.org/> .
+<http://schema.org/OnlineStore> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/OnlineBusiness> <http://schema.org/> .
 <http://schema.org/OpenTrial> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
 <http://schema.org/OpenTrial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MedicalTrialDesign> <http://schema.org/> .
 <http://schema.org/OpenTrial> <http://www.w3.org/2000/01/rdf-schema#comment> "A trial design in which the researcher knows the full details of the treatment, and so does the patient." <http://schema.org/> .
@@ -4100,6 +4186,12 @@
 <http://schema.org/PlayAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of playing/exercising/training/performing for enjoyment, leisure, recreation, Competition or exercise.\\n\\nRelated actions:\\n\\n* [[ListenAction]]: Unlike ListenAction (which is under ConsumeAction), PlayAction refers to performing for an audience or at an event, rather than consuming music.\\n* [[WatchAction]]: Unlike WatchAction (which is under ConsumeAction), PlayAction refers to showing/displaying for an audience or at an event, rather than consuming visual content." <http://schema.org/> .
 <http://schema.org/PlayAction> <http://www.w3.org/2000/01/rdf-schema#label> "PlayAction" <http://schema.org/> .
 <http://schema.org/PlayAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Action> <http://schema.org/> .
+<http://schema.org/PlayGameAction> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/PlayGameAction> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3058> <http://schema.org/> .
+<http://schema.org/PlayGameAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/PlayGameAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of playing a video game." <http://schema.org/> .
+<http://schema.org/PlayGameAction> <http://www.w3.org/2000/01/rdf-schema#label> "PlayGameAction" <http://schema.org/> .
+<http://schema.org/PlayGameAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/ConsumeAction> <http://schema.org/> .
 <http://schema.org/Playground> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/Playground> <http://www.w3.org/2000/01/rdf-schema#comment> "A playground." <http://schema.org/> .
 <http://schema.org/Playground> <http://www.w3.org/2000/01/rdf-schema#label> "Playground" <http://schema.org/> .
@@ -4506,6 +4598,11 @@
 <http://schema.org/RecyclingCenter> <http://www.w3.org/2000/01/rdf-schema#comment> "A recycling center." <http://schema.org/> .
 <http://schema.org/RecyclingCenter> <http://www.w3.org/2000/01/rdf-schema#label> "RecyclingCenter" <http://schema.org/> .
 <http://schema.org/RecyclingCenter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/LocalBusiness> <http://schema.org/> .
+<http://schema.org/ReducedRelevanceForChildrenConsideration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ReducedRelevanceForChildrenConsideration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2989> <http://schema.org/> .
+<http://schema.org/ReducedRelevanceForChildrenConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdultOrientedEnumeration> <http://schema.org/> .
+<http://schema.org/ReducedRelevanceForChildrenConsideration> <http://www.w3.org/2000/01/rdf-schema#comment> "A general code for cases where relevance to children is reduced, e.g. adult education, mortgages, retirement-related products, etc." <http://schema.org/> .
+<http://schema.org/ReducedRelevanceForChildrenConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "ReducedRelevanceForChildrenConsideration" <http://schema.org/> .
 <http://schema.org/RefundTypeEnumeration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/RefundTypeEnumeration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2288> <http://schema.org/> .
 <http://schema.org/RefundTypeEnumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -4885,6 +4982,12 @@
 <http://schema.org/SearchAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of searching for an object.\\n\\nRelated actions:\\n\\n* [[FindAction]]: SearchAction generally leads to a FindAction, but not necessarily." <http://schema.org/> .
 <http://schema.org/SearchAction> <http://www.w3.org/2000/01/rdf-schema#label> "SearchAction" <http://schema.org/> .
 <http://schema.org/SearchAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Action> <http://schema.org/> .
+<http://schema.org/SearchRescueOrganization> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/SearchRescueOrganization> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3052> <http://schema.org/> .
+<http://schema.org/SearchRescueOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
+<http://schema.org/SearchRescueOrganization> <http://www.w3.org/2000/01/rdf-schema#comment> "A Search and Rescue organization of some kind." <http://schema.org/> .
+<http://schema.org/SearchRescueOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "SearchRescueOrganization" <http://schema.org/> .
+<http://schema.org/SearchRescueOrganization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Organization> <http://schema.org/> .
 <http://schema.org/SearchResultsPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/SearchResultsPage> <http://www.w3.org/2000/01/rdf-schema#comment> "Web page type: Search results page." <http://schema.org/> .
 <http://schema.org/SearchResultsPage> <http://www.w3.org/2000/01/rdf-schema#label> "SearchResultsPage" <http://schema.org/> .
@@ -4941,6 +5044,11 @@
 <http://schema.org/ServiceChannel> <http://www.w3.org/2000/01/rdf-schema#comment> "A means for accessing a service, e.g. a government office location, web site, or phone number." <http://schema.org/> .
 <http://schema.org/ServiceChannel> <http://www.w3.org/2000/01/rdf-schema#label> "ServiceChannel" <http://schema.org/> .
 <http://schema.org/ServiceChannel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Intangible> <http://schema.org/> .
+<http://schema.org/SexualContentConsideration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/SexualContentConsideration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2989> <http://schema.org/> .
+<http://schema.org/SexualContentConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdultOrientedEnumeration> <http://schema.org/> .
+<http://schema.org/SexualContentConsideration> <http://www.w3.org/2000/01/rdf-schema#comment> "The item contains sexually oriented content such as nudity, suggestive or explicit material, or related online services, or is intended to enhance sexual activity. Examples: Erotic videos or magazine, sexual enhancement devices, sex toys." <http://schema.org/> .
+<http://schema.org/SexualContentConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "SexualContentConsideration" <http://schema.org/> .
 <http://schema.org/ShareAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/ShareAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of distributing content to people for their amusement or edification." <http://schema.org/> .
 <http://schema.org/ShareAction> <http://www.w3.org/2000/01/rdf-schema#label> "ShareAction" <http://schema.org/> .
@@ -5390,6 +5498,11 @@
 <http://schema.org/TireShop> <http://www.w3.org/2000/01/rdf-schema#comment> "A tire shop." <http://schema.org/> .
 <http://schema.org/TireShop> <http://www.w3.org/2000/01/rdf-schema#label> "TireShop" <http://schema.org/> .
 <http://schema.org/TireShop> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Store> <http://schema.org/> .
+<http://schema.org/TobaccoNicotineConsideration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/TobaccoNicotineConsideration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2989> <http://schema.org/> .
+<http://schema.org/TobaccoNicotineConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdultOrientedEnumeration> <http://schema.org/> .
+<http://schema.org/TobaccoNicotineConsideration> <http://www.w3.org/2000/01/rdf-schema#comment> "Item contains tobacco and/or nicotine, for example cigars, cigarettes, chewing tobacco, e-cigarettes, or hookahs." <http://schema.org/> .
+<http://schema.org/TobaccoNicotineConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "TobaccoNicotineConsideration" <http://schema.org/> .
 <http://schema.org/TollFree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ContactPointOption> <http://schema.org/> .
 <http://schema.org/TollFree> <http://www.w3.org/2000/01/rdf-schema#comment> "The associated telephone number is toll free." <http://schema.org/> .
 <http://schema.org/TollFree> <http://www.w3.org/2000/01/rdf-schema#label> "TollFree" <http://schema.org/> .
@@ -5536,6 +5649,11 @@
 <http://schema.org/UnRegisterAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of un-registering from a service.\\n\\nRelated actions:\\n\\n* [[RegisterAction]]: antonym of UnRegisterAction.\\n* [[LeaveAction]]: Unlike LeaveAction, UnRegisterAction implies that you are unregistering from a service you werer previously registered, rather than leaving a team/group of people." <http://schema.org/> .
 <http://schema.org/UnRegisterAction> <http://www.w3.org/2000/01/rdf-schema#label> "UnRegisterAction" <http://schema.org/> .
 <http://schema.org/UnRegisterAction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/InteractAction> <http://schema.org/> .
+<http://schema.org/UnclassifiedAdultConsideration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/UnclassifiedAdultConsideration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2989> <http://schema.org/> .
+<http://schema.org/UnclassifiedAdultConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdultOrientedEnumeration> <http://schema.org/> .
+<http://schema.org/UnclassifiedAdultConsideration> <http://www.w3.org/2000/01/rdf-schema#comment> "The item is suitable only for adults, without indicating why. Due to widespread use of \"adult\" as a euphemism for \"sexual\", many such items are likely suited also for the SexualContentConsideration code." <http://schema.org/> .
+<http://schema.org/UnclassifiedAdultConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "UnclassifiedAdultConsideration" <http://schema.org/> .
 <http://schema.org/UnemploymentSupport> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/UnemploymentSupport> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2534> <http://schema.org/> .
 <http://schema.org/UnemploymentSupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/GovernmentBenefitsType> <http://schema.org/> .
@@ -5699,6 +5817,11 @@
 <http://schema.org/VinylFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MusicReleaseFormatType> <http://schema.org/> .
 <http://schema.org/VinylFormat> <http://www.w3.org/2000/01/rdf-schema#comment> "VinylFormat." <http://schema.org/> .
 <http://schema.org/VinylFormat> <http://www.w3.org/2000/01/rdf-schema#label> "VinylFormat" <http://schema.org/> .
+<http://schema.org/ViolenceConsideration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/ViolenceConsideration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2989> <http://schema.org/> .
+<http://schema.org/ViolenceConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdultOrientedEnumeration> <http://schema.org/> .
+<http://schema.org/ViolenceConsideration> <http://www.w3.org/2000/01/rdf-schema#comment> "Item shows or promotes violence." <http://schema.org/> .
+<http://schema.org/ViolenceConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "ViolenceConsideration" <http://schema.org/> .
 <http://schema.org/VirtualLocation> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/VirtualLocation> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1842> <http://schema.org/> .
 <http://schema.org/VirtualLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
@@ -5769,6 +5892,11 @@
 <http://schema.org/Waterfall> <http://www.w3.org/2000/01/rdf-schema#comment> "A waterfall, like Niagara." <http://schema.org/> .
 <http://schema.org/Waterfall> <http://www.w3.org/2000/01/rdf-schema#label> "Waterfall" <http://schema.org/> .
 <http://schema.org/Waterfall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/BodyOfWater> <http://schema.org/> .
+<http://schema.org/WeaponConsideration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/WeaponConsideration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2989> <http://schema.org/> .
+<http://schema.org/WeaponConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/AdultOrientedEnumeration> <http://schema.org/> .
+<http://schema.org/WeaponConsideration> <http://www.w3.org/2000/01/rdf-schema#comment> "The item is intended to induce bodily harm, for example guns, mace, combat knives, brass knuckles, nail or other bombs, and spears." <http://schema.org/> .
+<http://schema.org/WeaponConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "WeaponConsideration" <http://schema.org/> .
 <http://schema.org/WearAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://schema.org/> .
 <http://schema.org/WearAction> <http://www.w3.org/2000/01/rdf-schema#comment> "The act of dressing oneself in clothing." <http://schema.org/> .
 <http://schema.org/WearAction> <http://www.w3.org/2000/01/rdf-schema#label> "WearAction" <http://schema.org/> .
@@ -6162,33 +6290,33 @@
 <http://schema.org/accessMode> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/accessMode> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1100> <http://schema.org/> .
 <http://schema.org/accessMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/accessMode> <http://www.w3.org/2000/01/rdf-schema#comment> "The human sensory perceptual system or cognitive faculty through which a person may process or perceive information. Expected values include: auditory, tactile, textual, visual, colorDependent, chartOnVisual, chemOnVisual, diagramOnVisual, mathOnVisual, musicOnVisual, textOnVisual.\n      " <http://schema.org/> .
+<http://schema.org/accessMode> <http://www.w3.org/2000/01/rdf-schema#comment> "The human sensory perceptual system or cognitive faculty through which a person may process or perceive information. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessMode-vocabulary)." <http://schema.org/> .
 <http://schema.org/accessMode> <http://www.w3.org/2000/01/rdf-schema#label> "accessMode" <http://schema.org/> .
 <http://schema.org/accessModeSufficient> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/accessModeSufficient> <http://schema.org/rangeIncludes> <http://schema.org/ItemList> <http://schema.org/> .
 <http://schema.org/accessModeSufficient> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1100> <http://schema.org/> .
 <http://schema.org/accessModeSufficient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/accessModeSufficient> <http://www.w3.org/2000/01/rdf-schema#comment> "A list of single or combined accessModes that are sufficient to understand all the intellectual content of a resource. Expected values include:  auditory, tactile, textual, visual.\n      " <http://schema.org/> .
+<http://schema.org/accessModeSufficient> <http://www.w3.org/2000/01/rdf-schema#comment> "A list of single or combined accessModes that are sufficient to understand all the intellectual content of a resource. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessModeSufficient-vocabulary)." <http://schema.org/> .
 <http://schema.org/accessModeSufficient> <http://www.w3.org/2000/01/rdf-schema#label> "accessModeSufficient" <http://schema.org/> .
 <http://schema.org/accessibilityAPI> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/accessibilityAPI> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/accessibilityAPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/accessibilityAPI> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the resource is compatible with the referenced accessibility API ([WebSchemas wiki lists possible values](http://www.w3.org/wiki/WebSchemas/Accessibility))." <http://schema.org/> .
+<http://schema.org/accessibilityAPI> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that the resource is compatible with the referenced accessibility API. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessibilityAPI-vocabulary)." <http://schema.org/> .
 <http://schema.org/accessibilityAPI> <http://www.w3.org/2000/01/rdf-schema#label> "accessibilityAPI" <http://schema.org/> .
 <http://schema.org/accessibilityControl> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/accessibilityControl> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/accessibilityControl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/accessibilityControl> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies input methods that are sufficient to fully control the described resource ([WebSchemas wiki lists possible values](http://www.w3.org/wiki/WebSchemas/Accessibility))." <http://schema.org/> .
+<http://schema.org/accessibilityControl> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifies input methods that are sufficient to fully control the described resource. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessibilityControl-vocabulary)." <http://schema.org/> .
 <http://schema.org/accessibilityControl> <http://www.w3.org/2000/01/rdf-schema#label> "accessibilityControl" <http://schema.org/> .
 <http://schema.org/accessibilityFeature> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/accessibilityFeature> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/accessibilityFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/accessibilityFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility ([WebSchemas wiki lists possible values](http://www.w3.org/wiki/WebSchemas/Accessibility))." <http://schema.org/> .
+<http://schema.org/accessibilityFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessibilityFeature-vocabulary)." <http://schema.org/> .
 <http://schema.org/accessibilityFeature> <http://www.w3.org/2000/01/rdf-schema#label> "accessibilityFeature" <http://schema.org/> .
 <http://schema.org/accessibilityHazard> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/accessibilityHazard> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/accessibilityHazard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/accessibilityHazard> <http://www.w3.org/2000/01/rdf-schema#comment> "A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3 ([WebSchemas wiki lists possible values](http://www.w3.org/wiki/WebSchemas/Accessibility))." <http://schema.org/> .
+<http://schema.org/accessibilityHazard> <http://www.w3.org/2000/01/rdf-schema#comment> "A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3. Values should be drawn from the [approved vocabulary](https://www.w3.org/2021/a11y-discov-vocab/latest/#accessibilityHazard-vocabulary)." <http://schema.org/> .
 <http://schema.org/accessibilityHazard> <http://www.w3.org/2000/01/rdf-schema#label> "accessibilityHazard" <http://schema.org/> .
 <http://schema.org/accessibilitySummary> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/accessibilitySummary> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -6282,6 +6410,7 @@
 <http://schema.org/actionOption> <http://www.w3.org/2000/01/rdf-schema#label> "actionOption" <http://schema.org/> .
 <http://schema.org/actionOption> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/object> <http://schema.org/> .
 <http://schema.org/actionPlatform> <http://schema.org/domainIncludes> <http://schema.org/EntryPoint> <http://schema.org/> .
+<http://schema.org/actionPlatform> <http://schema.org/rangeIncludes> <http://schema.org/DigitalPlatformEnumeration> <http://schema.org/> .
 <http://schema.org/actionPlatform> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/actionPlatform> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
 <http://schema.org/actionPlatform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
@@ -6634,6 +6763,14 @@
 <http://schema.org/appearance> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates an occurence of a [[Claim]] in some [[CreativeWork]]." <http://schema.org/> .
 <http://schema.org/appearance> <http://www.w3.org/2000/01/rdf-schema#label> "appearance" <http://schema.org/> .
 <http://schema.org/appearance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/workExample> <http://schema.org/> .
+<http://schema.org/applicableCountry> <http://schema.org/domainIncludes> <http://schema.org/MerchantReturnPolicy> <http://schema.org/> .
+<http://schema.org/applicableCountry> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/applicableCountry> <http://schema.org/rangeIncludes> <http://schema.org/Country> <http://schema.org/> .
+<http://schema.org/applicableCountry> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/applicableCountry> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3001> <http://schema.org/> .
+<http://schema.org/applicableCountry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/applicableCountry> <http://www.w3.org/2000/01/rdf-schema#comment> "A country where a particular merchant return policy applies to, for example the two-letter ISO 3166-1 alpha-2 country code." <http://schema.org/> .
+<http://schema.org/applicableCountry> <http://www.w3.org/2000/01/rdf-schema#label> "applicableCountry" <http://schema.org/> .
 <http://schema.org/applicableLocation> <http://schema.org/domainIncludes> <http://schema.org/DrugCost> <http://schema.org/> .
 <http://schema.org/applicableLocation> <http://schema.org/domainIncludes> <http://schema.org/DrugLegalStatus> <http://schema.org/> .
 <http://schema.org/applicableLocation> <http://schema.org/isPartOf> <http://health-lifesci.schema.org> <http://schema.org/> .
@@ -7596,6 +7733,7 @@
 <http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/Recommendation> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/Service> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/domainIncludes> <http://schema.org/SpecialAnnouncement> <http://schema.org/> .
+<http://schema.org/category> <http://schema.org/rangeIncludes> <http://schema.org/CategoryCode> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/rangeIncludes> <http://schema.org/PhysicalActivityCategory> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/category> <http://schema.org/rangeIncludes> <http://schema.org/Thing> <http://schema.org/> .
@@ -9745,16 +9883,24 @@
 <http://schema.org/functionalClass> <http://www.w3.org/2000/01/rdf-schema#comment> "The degree of mobility the joint allows." <http://schema.org/> .
 <http://schema.org/functionalClass> <http://www.w3.org/2000/01/rdf-schema#label> "functionalClass" <http://schema.org/> .
 <http://schema.org/fundedItem> <http://schema.org/domainIncludes> <http://schema.org/Grant> <http://schema.org/> .
+<http://schema.org/fundedItem> <http://schema.org/inverseOf> <http://schema.org/funding> <http://schema.org/> .
 <http://schema.org/fundedItem> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
-<http://schema.org/fundedItem> <http://schema.org/rangeIncludes> <http://schema.org/Thing> <http://schema.org/> .
+<http://schema.org/fundedItem> <http://schema.org/rangeIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/fundedItem> <http://schema.org/rangeIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/fundedItem> <http://schema.org/rangeIncludes> <http://schema.org/Event> <http://schema.org/> .
+<http://schema.org/fundedItem> <http://schema.org/rangeIncludes> <http://schema.org/MedicalEntity> <http://schema.org/> .
+<http://schema.org/fundedItem> <http://schema.org/rangeIncludes> <http://schema.org/Organization> <http://schema.org/> .
+<http://schema.org/fundedItem> <http://schema.org/rangeIncludes> <http://schema.org/Person> <http://schema.org/> .
+<http://schema.org/fundedItem> <http://schema.org/rangeIncludes> <http://schema.org/Product> <http://schema.org/> .
 <http://schema.org/fundedItem> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/1950> <http://schema.org/> .
 <http://schema.org/fundedItem> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/383> <http://schema.org/> .
 <http://schema.org/fundedItem> <http://schema.org/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#TP> <http://schema.org/> .
 <http://schema.org/fundedItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/fundedItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates an item funded or sponsored through a [[Grant]]." <http://schema.org/> .
+<http://schema.org/fundedItem> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates something directly or indirectly funded or sponsored through a [[Grant]]. See also [[ownershipFundingInfo]]." <http://schema.org/> .
 <http://schema.org/fundedItem> <http://www.w3.org/2000/01/rdf-schema#label> "fundedItem" <http://schema.org/> .
 <http://schema.org/funder> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/funder> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
+<http://schema.org/funder> <http://schema.org/domainIncludes> <http://schema.org/Grant> <http://schema.org/> .
 <http://schema.org/funder> <http://schema.org/domainIncludes> <http://schema.org/MonetaryGrant> <http://schema.org/> .
 <http://schema.org/funder> <http://schema.org/domainIncludes> <http://schema.org/Organization> <http://schema.org/> .
 <http://schema.org/funder> <http://schema.org/domainIncludes> <http://schema.org/Person> <http://schema.org/> .
@@ -9764,12 +9910,40 @@
 <http://schema.org/funder> <http://www.w3.org/2000/01/rdf-schema#comment> "A person or organization that supports (sponsors) something through some kind of financial contribution." <http://schema.org/> .
 <http://schema.org/funder> <http://www.w3.org/2000/01/rdf-schema#label> "funder" <http://schema.org/> .
 <http://schema.org/funder> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/sponsor> <http://schema.org/> .
+<http://schema.org/funding> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
+<http://schema.org/funding> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/funding> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
+<http://schema.org/funding> <http://schema.org/domainIncludes> <http://schema.org/MedicalEntity> <http://schema.org/> .
+<http://schema.org/funding> <http://schema.org/domainIncludes> <http://schema.org/Organization> <http://schema.org/> .
+<http://schema.org/funding> <http://schema.org/domainIncludes> <http://schema.org/Person> <http://schema.org/> .
+<http://schema.org/funding> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
+<http://schema.org/funding> <http://schema.org/inverseOf> <http://schema.org/fundedItem> <http://schema.org/> .
+<http://schema.org/funding> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/funding> <http://schema.org/rangeIncludes> <http://schema.org/Grant> <http://schema.org/> .
+<http://schema.org/funding> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/383> <http://schema.org/> .
+<http://schema.org/funding> <http://schema.org/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#TP> <http://schema.org/> .
+<http://schema.org/funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/funding> <http://www.w3.org/2000/01/rdf-schema#comment> "A [[Grant]] that directly or indirectly provide funding or sponsorship for this item. See also [[ownershipFundingInfo]]." <http://schema.org/> .
+<http://schema.org/funding> <http://www.w3.org/2000/01/rdf-schema#label> "funding" <http://schema.org/> .
 <http://schema.org/game> <http://schema.org/domainIncludes> <http://schema.org/GameServer> <http://schema.org/> .
 <http://schema.org/game> <http://schema.org/inverseOf> <http://schema.org/gameServer> <http://schema.org/> .
 <http://schema.org/game> <http://schema.org/rangeIncludes> <http://schema.org/VideoGame> <http://schema.org/> .
 <http://schema.org/game> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/game> <http://www.w3.org/2000/01/rdf-schema#comment> "Video game which is played on this server." <http://schema.org/> .
 <http://schema.org/game> <http://www.w3.org/2000/01/rdf-schema#label> "game" <http://schema.org/> .
+<http://schema.org/gameAvailabilityType> <http://schema.org/domainIncludes> <http://schema.org/PlayGameAction> <http://schema.org/> .
+<http://schema.org/gameAvailabilityType> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/gameAvailabilityType> <http://schema.org/rangeIncludes> <http://schema.org/GameAvailabilityEnumeration> <http://schema.org/> .
+<http://schema.org/gameAvailabilityType> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/gameAvailabilityType> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/3058> <http://schema.org/> .
+<http://schema.org/gameAvailabilityType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/gameAvailabilityType> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the availability type of the game content associated with this action, such as whether it is a full version or a demo." <http://schema.org/> .
+<http://schema.org/gameAvailabilityType> <http://www.w3.org/2000/01/rdf-schema#label> "gameAvailabilityType" <http://schema.org/> .
+<http://schema.org/gameEdition> <http://schema.org/domainIncludes> <http://schema.org/VideoGame> <http://schema.org/> .
+<http://schema.org/gameEdition> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/gameEdition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/gameEdition> <http://www.w3.org/2000/01/rdf-schema#comment> "The edition of a video game." <http://schema.org/> .
+<http://schema.org/gameEdition> <http://www.w3.org/2000/01/rdf-schema#label> "gameEdition" <http://schema.org/> .
 <http://schema.org/gameItem> <http://schema.org/domainIncludes> <http://schema.org/Game> <http://schema.org/> .
 <http://schema.org/gameItem> <http://schema.org/domainIncludes> <http://schema.org/VideoGameSeries> <http://schema.org/> .
 <http://schema.org/gameItem> <http://schema.org/rangeIncludes> <http://schema.org/Thing> <http://schema.org/> .
@@ -10044,6 +10218,14 @@
 <http://schema.org/handlingTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/handlingTime> <http://www.w3.org/2000/01/rdf-schema#comment> "The typical delay between the receipt of the order and the goods either leaving the warehouse or being prepared for pickup, in case the delivery method is on site pickup. Typical properties: minValue, maxValue, unitCode (d for DAY).  This is by common convention assumed to mean business days (if a unitCode is used, coded as \"d\"), i.e. only counting days when the business normally operates." <http://schema.org/> .
 <http://schema.org/handlingTime> <http://www.w3.org/2000/01/rdf-schema#label> "handlingTime" <http://schema.org/> .
+<http://schema.org/hasAdultConsideration> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
+<http://schema.org/hasAdultConsideration> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
+<http://schema.org/hasAdultConsideration> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/hasAdultConsideration> <http://schema.org/rangeIncludes> <http://schema.org/AdultOrientedEnumeration> <http://schema.org/> .
+<http://schema.org/hasAdultConsideration> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2989> <http://schema.org/> .
+<http://schema.org/hasAdultConsideration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/hasAdultConsideration> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to tag an item to be intended or suitable for consumption or use by adults only." <http://schema.org/> .
+<http://schema.org/hasAdultConsideration> <http://www.w3.org/2000/01/rdf-schema#label> "hasAdultConsideration" <http://schema.org/> .
 <http://schema.org/hasBioChemEntityPart> <http://purl.org/dc/terms/source> <http://www.bioschemas.org> <http://schema.org/> .
 <http://schema.org/hasBioChemEntityPart> <http://schema.org/domainIncludes> <http://schema.org/BioChemEntity> <http://schema.org/> .
 <http://schema.org/hasBioChemEntityPart> <http://schema.org/inverseOf> <http://schema.org/isPartOfBioChemEntity> <http://schema.org/> .
@@ -10831,6 +11013,8 @@
 <http://schema.org/isEncodedByBioChemEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Another BioChemEntity encoding by this one." <http://schema.org/> .
 <http://schema.org/isEncodedByBioChemEntity> <http://www.w3.org/2000/01/rdf-schema#label> "isEncodedByBioChemEntity" <http://schema.org/> .
 <http://schema.org/isFamilyFriendly> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/isFamilyFriendly> <http://schema.org/domainIncludes> <http://schema.org/Offer> <http://schema.org/> .
+<http://schema.org/isFamilyFriendly> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
 <http://schema.org/isFamilyFriendly> <http://schema.org/rangeIncludes> <http://schema.org/Boolean> <http://schema.org/> .
 <http://schema.org/isFamilyFriendly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/isFamilyFriendly> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates whether this content is family friendly." <http://schema.org/> .
@@ -10947,6 +11131,13 @@
 <http://schema.org/isicV4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/isicV4> <http://www.w3.org/2000/01/rdf-schema#comment> "The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place." <http://schema.org/> .
 <http://schema.org/isicV4> <http://www.w3.org/2000/01/rdf-schema#label> "isicV4" <http://schema.org/> .
+<http://schema.org/iso6523Code> <http://schema.org/domainIncludes> <http://schema.org/Organization> <http://schema.org/> .
+<http://schema.org/iso6523Code> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
+<http://schema.org/iso6523Code> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
+<http://schema.org/iso6523Code> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2915> <http://schema.org/> .
+<http://schema.org/iso6523Code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
+<http://schema.org/iso6523Code> <http://www.w3.org/2000/01/rdf-schema#comment> "An organization identifier as defined in ISO 6523(-1). Note that many existing organization identifiers such as [leiCode](http://schema.org/leiCode), [duns](http://schema.org/duns) and [vatID](http://schema.org/vatID) can be expressed as an ISO 6523 identifier by setting the ICD part of the ISO 6523 identifier accordingly. " <http://schema.org/> .
+<http://schema.org/iso6523Code> <http://www.w3.org/2000/01/rdf-schema#label> "iso6523Code" <http://schema.org/> .
 <http://schema.org/isrcCode> <http://schema.org/domainIncludes> <http://schema.org/MusicRecording> <http://schema.org/> .
 <http://schema.org/isrcCode> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/isrcCode> <http://schema.org/source> <http://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#MBZ> <http://schema.org/> .
@@ -11138,11 +11329,15 @@
 <http://schema.org/jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a legal jurisdiction, e.g. of some legislation, or where some government service is based." <http://schema.org/> .
 <http://schema.org/jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "jurisdiction" <http://schema.org/> .
 <http://schema.org/keywords> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
+<http://schema.org/keywords> <http://schema.org/domainIncludes> <http://schema.org/Event> <http://schema.org/> .
+<http://schema.org/keywords> <http://schema.org/domainIncludes> <http://schema.org/Organization> <http://schema.org/> .
+<http://schema.org/keywords> <http://schema.org/domainIncludes> <http://schema.org/Place> <http://schema.org/> .
+<http://schema.org/keywords> <http://schema.org/domainIncludes> <http://schema.org/Product> <http://schema.org/> .
 <http://schema.org/keywords> <http://schema.org/rangeIncludes> <http://schema.org/DefinedTerm> <http://schema.org/> .
 <http://schema.org/keywords> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
 <http://schema.org/keywords> <http://schema.org/rangeIncludes> <http://schema.org/URL> <http://schema.org/> .
 <http://schema.org/keywords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
-<http://schema.org/keywords> <http://www.w3.org/2000/01/rdf-schema#comment> "Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas." <http://schema.org/> .
+<http://schema.org/keywords> <http://www.w3.org/2000/01/rdf-schema#comment> "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property." <http://schema.org/> .
 <http://schema.org/keywords> <http://www.w3.org/2000/01/rdf-schema#label> "keywords" <http://schema.org/> .
 <http://schema.org/knownVehicleDamages> <http://schema.org/domainIncludes> <http://schema.org/Vehicle> <http://schema.org/> .
 <http://schema.org/knownVehicleDamages> <http://schema.org/rangeIncludes> <http://schema.org/Text> <http://schema.org/> .
@@ -13363,6 +13558,7 @@
 <http://schema.org/proteinContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/proteinContent> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of grams of protein." <http://schema.org/> .
 <http://schema.org/proteinContent> <http://www.w3.org/2000/01/rdf-schema#label> "proteinContent" <http://schema.org/> .
+<http://schema.org/provider> <http://schema.org/domainIncludes> <http://schema.org/Action> <http://schema.org/> .
 <http://schema.org/provider> <http://schema.org/domainIncludes> <http://schema.org/CreativeWork> <http://schema.org/> .
 <http://schema.org/provider> <http://schema.org/domainIncludes> <http://schema.org/EducationalOccupationalProgram> <http://schema.org/> .
 <http://schema.org/provider> <http://schema.org/domainIncludes> <http://schema.org/Invoice> <http://schema.org/> .
@@ -13370,9 +13566,11 @@
 <http://schema.org/provider> <http://schema.org/domainIncludes> <http://schema.org/Reservation> <http://schema.org/> .
 <http://schema.org/provider> <http://schema.org/domainIncludes> <http://schema.org/Service> <http://schema.org/> .
 <http://schema.org/provider> <http://schema.org/domainIncludes> <http://schema.org/Trip> <http://schema.org/> .
+<http://schema.org/provider> <http://schema.org/isPartOf> <http://pending.schema.org> <http://schema.org/> .
 <http://schema.org/provider> <http://schema.org/rangeIncludes> <http://schema.org/Organization> <http://schema.org/> .
 <http://schema.org/provider> <http://schema.org/rangeIncludes> <http://schema.org/Person> <http://schema.org/> .
 <http://schema.org/provider> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2289> <http://schema.org/> .
+<http://schema.org/provider> <http://schema.org/source> <https://github.com/schemaorg/schemaorg/issues/2927> <http://schema.org/> .
 <http://schema.org/provider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://schema.org/> .
 <http://schema.org/provider> <http://www.w3.org/2000/01/rdf-schema#comment> "The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller." <http://schema.org/> .
 <http://schema.org/provider> <http://www.w3.org/2000/01/rdf-schema#label> "provider" <http://schema.org/> .

@@ -303,7 +303,7 @@
 <http://rdf-vocabulary.ddialliance.org/xkos> <http://purl.org/dc/elements/1.1/contributor> "Wendy L. Thomas" <http://rdf-vocabulary.ddialliance.org/xkos#> .
 <http://rdf-vocabulary.ddialliance.org/xkos> <http://purl.org/dc/elements/1.1/contributor> "Yves Jaques" <http://rdf-vocabulary.ddialliance.org/xkos#> .
 <http://rdf-vocabulary.ddialliance.org/xkos> <http://purl.org/dc/elements/1.1/creator> "Franck Cotton" <http://rdf-vocabulary.ddialliance.org/xkos#> .
-<http://rdf-vocabulary.ddialliance.org/xkos> <http://purl.org/dc/elements/1.1/rights> "Copyright © 2016 The DDI Alliance" <http://rdf-vocabulary.ddialliance.org/xkos#> .
+<http://rdf-vocabulary.ddialliance.org/xkos> <http://purl.org/dc/elements/1.1/rights> "Copyright © 2014-2019 The DDI Alliance" <http://rdf-vocabulary.ddialliance.org/xkos#> .
 <http://rdf-vocabulary.ddialliance.org/xkos> <http://purl.org/dc/elements/1.1/title> "XKOS : une extension de SKOS pour la représentation des nomenclatures statistiques"@fr <http://rdf-vocabulary.ddialliance.org/xkos#> .
 <http://rdf-vocabulary.ddialliance.org/xkos> <http://purl.org/dc/elements/1.1/title> "XKOS: an SKOS extension for representing statistical classifications"@en <http://rdf-vocabulary.ddialliance.org/xkos#> .
 <http://rdf-vocabulary.ddialliance.org/xkos> <http://purl.org/vocab/vann/preferredNamespacePrefix> "xkos" <http://rdf-vocabulary.ddialliance.org/xkos#> .
@@ -319,6 +319,7 @@
 <http://rdf-vocabulary.ddialliance.org/xkos> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0.2 - 2016-03-15" <http://rdf-vocabulary.ddialliance.org/xkos#> .
 <http://rdf-vocabulary.ddialliance.org/xkos> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.0.3 - 2016-03-15" <http://rdf-vocabulary.ddialliance.org/xkos#> .
 <http://rdf-vocabulary.ddialliance.org/xkos> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.1 - 2016-03-20" <http://rdf-vocabulary.ddialliance.org/xkos#> .
+<http://rdf-vocabulary.ddialliance.org/xkos> <http://www.w3.org/2002/07/owl#versionInfo> "Version 1.2 - 2019-05-01" <http://rdf-vocabulary.ddialliance.org/xkos#> .
 _:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://rdf-vocabulary.ddialliance.org/xkos#> .
 _:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n1 <http://rdf-vocabulary.ddialliance.org/xkos#> .
 _:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://rdf-vocabulary.ddialliance.org/xkos#ClassificationLevel> <http://rdf-vocabulary.ddialliance.org/xkos#> .

@@ -1,9 +1,9 @@
+<http://www.w3.org/ns/shex#> <http://purl.org/dc/terms/date> "2017-07-07"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#> <http://purl.org/dc/terms/description> "This document describes the RDFS vocabulary description used in the Shape Expression Language (ShEx) [[shex-semantics]] along with the default JSON-LD Context and shape expression to validate RDF versions of shapes."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#> <http://purl.org/dc/terms/title> "Shape Expression Vocabulary"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://shex.io/shex-semantics> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#> <http://www.w3.org/2002/07/owl#versionInfo> <https://github.com/shexSpec/shexspec.github.io/commit/e05f8e97471f5271f50612bed253102f770364b4> <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#> <https://www.w3.org/ns/http;//purl.org/dc/terms/date> "2017-07-07"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#> <https://www.w3.org/ns/http;//purl.org/dc/terms/description> "This document describes the RDFS vocabulary description used in the Shape Expression Language (ShEx) [[shex-semantics]] along with the default JSON-LD Context and shape expression to validate RDF versions of shapes."@en <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#> <https://www.w3.org/ns/http;//purl.org/dc/terms/title> "Shape Expression Vocabulary"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#Annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#Annotation> <http://www.w3.org/2000/01/rdf-schema#comment> "Annotations provide a format-independent way to provide additional information about elements in a schema. "@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#Annotation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
