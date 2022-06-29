@@ -1,3 +1,9 @@
+# `v2022.6.29`
+
+## Fixes
+
+Broken `dash.nq` dataset
+
 # `v2022.6.28`
 
 ## Updated vocabularies

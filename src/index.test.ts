@@ -14,7 +14,7 @@ const list = (directoryPath: string): Promise<string[]> =>
       reject(err)
       return
     }
-    resolve(files.filter((filename) => !filename.startsWith('_')))
+    resolve(files.map(p => p.slice(0, -3)).filter((filename) => !filename.startsWith('_')))
   }))
 
 describe('default export', function () {
@@ -23,7 +23,8 @@ describe('default export', function () {
   it('loads all prefixes', async () => {
     const vocabsDir = resolvePath('./ontologies')
     const ontologies = await list(vocabsDir)
-    expect(Object.keys(await vocabularies())).to.have.length(ontologies.length)
+    const vocabs = Object.keys(await vocabularies())
+    expect(vocabs).to.have.all.members(ontologies)
   })
 
   it('has the right quads count', async () => {

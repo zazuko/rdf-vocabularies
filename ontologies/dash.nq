@@ -40,7 +40,7 @@
 <http://datashapes.org/dash#AutoCompleteEditor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://datashapes.org/dash#SingleEditor> <http://datashapes.org/dash#> .
 <http://datashapes.org/dash#AutoCompleteEditor> <http://www.w3.org/2000/01/rdf-schema#comment> "An auto-complete field to enter the label of instances of a class. This is the fallback editor for any URI resource if no other editors are more suitable." <http://datashapes.org/dash#> .
 <http://datashapes.org/dash#AutoCompleteEditor> <http://www.w3.org/2000/01/rdf-schema#label> "Auto-complete editor" <http://datashapes.org/dash#> .
-<http://datashapes.org/dash#BlankNode Viewer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://datashapes.org/dash#SingleViewer> <http://datashapes.org/dash#> .
+<http://datashapes.org/dash#BlankNodeViewer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://datashapes.org/dash#SingleViewer> <http://datashapes.org/dash#> .
 <http://datashapes.org/dash#BlankNodeViewer> <http://www.w3.org/2000/01/rdf-schema#comment> "A Viewer for blank nodes, rendering as the label of the blank node." <http://datashapes.org/dash#> .
 <http://datashapes.org/dash#BlankNodeViewer> <http://www.w3.org/2000/01/rdf-schema#label> "Blank node viewer" <http://datashapes.org/dash#> .
 <http://datashapes.org/dash#BooleanSelectEditor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://datashapes.org/dash#SingleEditor> <http://datashapes.org/dash#> .
