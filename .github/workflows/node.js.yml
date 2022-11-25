@@ -25,6 +25,7 @@ jobs:
     - run: npm ci
     - run: npm run test
     - run: npm run build
+    - run: npm run test:esm
     - run: node ./bin/vocab prefix rdf
 
     - name: Coveralls

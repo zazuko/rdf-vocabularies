@@ -3,10 +3,9 @@ import { expect } from 'chai'
 import fs from 'fs'
 import { join, resolve as resolvePath } from 'path'
 import rdf from 'rdf-ext'
-import { vocabularies } from './vocabularies'
-import { shrink } from './shrink'
-import { expand } from './'
-import prefixes from './prefixes'
+import { vocabularies, shrink } from '../src'
+import { expand } from '../src/'
+import prefixes from '../src/prefixes'
 
 const list = (directoryPath: string): Promise<string[]> =>
   new Promise((resolve, reject) => fs.readdir(directoryPath, (err, files: string[]) => {
@@ -17,7 +16,7 @@ const list = (directoryPath: string): Promise<string[]> =>
     resolve(files.map(p => p.slice(0, -3)).filter((filename) => !filename.startsWith('_')))
   }))
 
-describe('default export', function () {
+describe('@zazuko/rdf-vocabularies', function () {
   this.timeout(10000)
 
   it('loads all prefixes', async () => {
