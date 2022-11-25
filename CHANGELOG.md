@@ -1,3 +1,11 @@
+# `v2022.11.25`
+
+## Fixes
+
+Trying to use the module `vocabularies.mjs` would fail with error
+
+> TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".nq"
+
 # `v2022.6.29`
 
 ## Fixes
