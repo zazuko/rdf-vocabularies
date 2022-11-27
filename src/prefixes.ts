@@ -41,6 +41,7 @@ const prefixes = {
   locn: 'http://www.w3.org/ns/locn#',
   lvont: 'http://lexvo.org/ontology#',
   ma: 'http://www.w3.org/ns/ma-ont#',
+  mads: 'http://www.loc.gov/mads/rdf/v1#',
   oa: 'http://www.w3.org/ns/oa#',
   og: 'http://ogp.me/ns#',
   org: 'http://www.w3.org/ns/org#',
