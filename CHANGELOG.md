@@ -1,4 +1,4 @@
-$ `vNext`
+# `vNext`
 
 ## New prefix
 
