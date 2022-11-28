@@ -1,0 +1,13 @@
+name: Node.js CI
+
+on:
+  push:
+    tags: *
+
+jobs:
+  npm:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+    - run: npm publish
