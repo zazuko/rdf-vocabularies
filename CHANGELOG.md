@@ -1,3 +1,11 @@
+$ `vNext`
+
+## New prefix
+
+| Prefix | #Quads |
+|--------|--------|
+| `mads` | 1091   |
+
 # `v2022.11.25`
 
 ## Fixes
