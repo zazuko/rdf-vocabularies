@@ -1,0 +1,283 @@
+<http://vocab.databub.kr/def/datamap/> <http://purl.org/dc/terms/contributor> "Chaeeun Song" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/> <http://purl.org/dc/terms/contributor> "Haram Park" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/> <http://purl.org/dc/terms/creator> "Haklae Kim" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/> <http://purl.org/dc/terms/creator> "Jangwon Gim" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/> <http://purl.org/dc/terms/description> "\r\n            This vocabulary defines an ontology for integrating and connecting a set of metadata\r\n            from large and distributed data services such as data portals.\r\n            It allows users to aggregate a variety of metadata used to maintain and operate\r\n            heterogeneous data services and to integrate their metadata at a semantic level.\r\n        "@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/> <http://purl.org/dc/terms/description> "\r\n            이 어휘는 데이터 포털과 같은 대규모 분산 데이터 서비스의 메타데이터를 통합하고 연결하기위한 온톨로지를 정의한다.\r\n            이를 통해 사용자는 이기종 데이터 서비스를 유지하고 운영하기 위해 사용된 다양한 메타데이터를 수집하고, 의미적 수준에서 메타데이터를 통합할 수 있다.\r\n        "@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/> <http://purl.org/dc/terms/issued> "2020-06-23" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/> <http://purl.org/dc/terms/modified> "2022-05-13" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/> <http://purl.org/dc/terms/title> "datamap Vocabulary"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/> <http://www.w3.org/2002/07/owl#versionInfo> "Revision: 2022-05-13" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/CatalogStat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/CatalogStat> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 카탈로그를 구성하는 데이터세트와 메타데이터의 정량적 수치를 표현하기 위한 클래스"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/CatalogStat> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/2000/01/rdf-schema#> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/CatalogStat> <http://www.w3.org/2000/01/rdf-schema#label> "Catalog Stat"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/CatalogStat> <http://www.w3.org/2000/01/rdf-schema#label> "데이터 카탈로그 통계 현황"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/CatalogStat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n2 <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/CatalogStat> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Column> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Column> <http://www.w3.org/2000/01/rdf-schema#comment> "A column of a dataset."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Column> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터세트의 개별 컬럼"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Column> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2004/02/skos/core#> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Column> <http://www.w3.org/2000/01/rdf-schema#label> "Column"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Column> <http://www.w3.org/2000/01/rdf-schema#label> "컬럼"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Column> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Column> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Datamap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Datamap> <http://www.w3.org/2000/01/rdf-schema#comment> "A datamap consists of metadata related to overall information of\r\n            a data platform or portal, including maintenance and operation."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Datamap> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 서비스 안에 있는 모든 개체와 개체 사이의 메타데이터 관계를 표현하기 위한 클래스"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Datamap> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/2000/01/rdf-schema#> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Datamap> <http://www.w3.org/2000/01/rdf-schema#label> "Datamap"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Datamap> <http://www.w3.org/2000/01/rdf-schema#label> "데이터맵"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Datamap> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n0 <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/Datamap> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/DatamapStat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/DatamapStat> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터맵을 구성하는 데이터 카탈로그, 데이터세트와 메타데이터의 정량적 수치를 표현하기 위한 클래스"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/DatamapStat> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/2000/01/rdf-schema#> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/DatamapStat> <http://www.w3.org/2000/01/rdf-schema#label> "Datamap Stat"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/DatamapStat> <http://www.w3.org/2000/01/rdf-schema#label> "데이터맵 통계 현황"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/DatamapStat> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n1 <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/DatamapStat> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/availableStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/availableStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/availableStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "The state of operating the data service."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/availableStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 서비스의 운영 상태 (예: Yes 또는 No)"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/availableStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/availableStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/availableStatus> <http://www.w3.org/2000/01/rdf-schema#label> "available status"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/availableStatus> <http://www.w3.org/2000/01/rdf-schema#label> "데이터 서비스의 운영 상태"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/availableStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/availableStatus> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "A data map has multiple data catalogs." <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalog> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터맵은 복수의 데이터 카탈로그를 포함할 수 있다"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalog> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalog> <http://www.w3.org/2000/01/rdf-schema#label> "has catalog"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalog> <http://www.w3.org/2000/01/rdf-schema#label> "데이터맵이 보유하는 카탈로그"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalog> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Catalog> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalog> <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/DataCatalog> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalog> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalogStat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalogStat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalogStat> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 카탈로그의 정량적 수치를 표현한다."@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalogStat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Catalog> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalogStat> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalogStat> <http://www.w3.org/2000/01/rdf-schema#label> "datamap Stat"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalogStat> <http://www.w3.org/2000/01/rdf-schema#label> "데이터 카탈로그 통계 현황 "@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalogStat> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.databub.kr/def/datamap/CatalogStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/catalogStat> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/category> <http://www.w3.org/2000/01/rdf-schema#comment> "A category or theme that a datamap has."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/category> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터맵이 가지는 데이터세트의 분류체계"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/category> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/category> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/category> <http://www.w3.org/2000/01/rdf-schema#label> "has category"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/category> <http://www.w3.org/2000/01/rdf-schema#label> "분류체계"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/category> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/category> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/column> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/column> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/column> <http://www.w3.org/2000/01/rdf-schema#comment> "A column that the column set or datamap has."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/column> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터맵 또는 데이터세트가 보유하고 있는 컬럼"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/column> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Dataset> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/column> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/column> <http://www.w3.org/2000/01/rdf-schema#label> "has column"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/column> <http://www.w3.org/2000/01/rdf-schema#label> "컬럼을 갖는다"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/column> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.databub.kr/def/datamap/Column> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/column> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapOf> <http://www.w3.org/2000/01/rdf-schema#comment> "A datamap is included multiple datamaps."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapOf> <http://www.w3.org/2000/01/rdf-schema#comment> "상위의 데이터맵에 포함된다"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapOf> <http://www.w3.org/2000/01/rdf-schema#label> "datamap Of"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapOf> <http://www.w3.org/2000/01/rdf-schema#label> "데이터맵에 포함된다"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://vocab.databub.kr/def/datamap/hasDatamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapStat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapStat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapStat> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터맵의 정량적 수치를 표현한다."@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapStat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapStat> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapStat> <http://www.w3.org/2000/01/rdf-schema#label> "datamap Stat"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapStat> <http://www.w3.org/2000/01/rdf-schema#label> "데이터맵 통계 현황 "@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapStat> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.databub.kr/def/datamap/DatamapStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/datamapStat> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "A datamap has a list of dataset. This property only uses when a DCAT or\r\n            Schema.org vocabulary is applied to represent." <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터맵은 하나 이상의 데이터세트를 갖는다. DCAT어휘로 데이터세트를 표현할 수 있다"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/dataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/dataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/dataset> <http://www.w3.org/2000/01/rdf-schema#label> "has dataset"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/dataset> <http://www.w3.org/2000/01/rdf-schema#label> "데이터세트를 갖는다"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/dataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/dataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/endpointURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/endpointURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/endpointURL> <http://www.w3.org/2000/01/rdf-schema#comment> "An endpoint for accessing the data service."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/endpointURL> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 서비스에 접근할 수 있는 엔드포인트"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/endpointURL> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/endpointURL> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/endpointURL> <http://www.w3.org/2000/01/rdf-schema#label> "endpoint URL"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/endpointURL> <http://www.w3.org/2000/01/rdf-schema#label> "엔드포인트"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/endpointURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/TR/WD-rdf-schema#Resource> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/endpointURL> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/harvestingStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/harvestingStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/harvestingStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "A datamap consists of external data sources."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/harvestingStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터맵이 외부 데이터의 수집을 포함하고 있는지 여부"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/harvestingStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/harvestingStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/harvestingStatus> <http://www.w3.org/2000/01/rdf-schema#label> "harvesting status"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/harvestingStatus> <http://www.w3.org/2000/01/rdf-schema#label> "외부의 데이터 수집 상태"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/harvestingStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/harvestingStatus> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/hasDatamap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/hasDatamap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/hasDatamap> <http://www.w3.org/2000/01/rdf-schema#comment> "A datamap has a set of heterogeneous datamaps."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/hasDatamap> <http://www.w3.org/2000/01/rdf-schema#comment> "서로 다른 데이터맵을 포함하는 데이터맵 (예: 메타 수준에서 통합된 데이터맵을 구성하기 위해 사용)"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/hasDatamap> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/hasDatamap> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/hasDatamap> <http://www.w3.org/2000/01/rdf-schema#label> "has Datamap"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/hasDatamap> <http://www.w3.org/2000/01/rdf-schema#label> "데이터맵을 갖는다"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/hasDatamap> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/hasDatamap> <http://www.w3.org/2002/07/owl#inverseOf> <http://vocab.databub.kr/def/datamap/datamapOf> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/hasDatamap> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/integratingStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/integratingStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/integratingStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "The state of operating the data service."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/integratingStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터맵이 이종의 데이터맵을 결합한 것인지 여부(예: Yes 또는 No)"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/integratingStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/integratingStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/integratingStatus> <http://www.w3.org/2000/01/rdf-schema#label> "integrating Status"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/integratingStatus> <http://www.w3.org/2000/01/rdf-schema#label> "데이터맵의 결합 여부"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/integratingStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/integratingStatus> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfCatalog> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of catalog that a datamap has." <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfCatalog> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터맵이 갖고 있는 데이터 카달로그의 개수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfCatalog> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/DatamapStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfCatalog> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "the number of catalog"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfCatalog> <http://www.w3.org/2000/01/rdf-schema#label> "데이터 카탈로그의 개수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfCatalog> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfCatalog> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfColumn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfColumn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfColumn> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of column within datasets that are provided by the\r\n            data service."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfColumn> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 서비스에서 제공하는 모든 데이터세트의 컬럼의 개수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfColumn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/CatalogStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfColumn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/DatamapStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfColumn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfColumn> <http://www.w3.org/2000/01/rdf-schema#label> "the number of column"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfColumn> <http://www.w3.org/2000/01/rdf-schema#label> "컬럼의 개수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfColumn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfColumn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDatamap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDatamap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDatamap> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of datasets that a datamap provides." <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDatamap> <http://www.w3.org/2000/01/rdf-schema#comment> "통합된 데이터맵이 가지는 데이터맵의 전체 개수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDatamap> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/DatamapStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDatamap> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDatamap> <http://www.w3.org/2000/01/rdf-schema#label> "the number of datamaps"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDatamap> <http://www.w3.org/2000/01/rdf-schema#label> "데이터맵의 개수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDatamap> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDatamap> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of datasets that a datamap provides." <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 서비스가 제공하는 데이터세트의 전체 개수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/CatalogStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/DatamapStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDataset> <http://www.w3.org/2000/01/rdf-schema#label> "the number of datasets"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDataset> <http://www.w3.org/2000/01/rdf-schema#label> "데이터세트의 개수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfMetadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfMetadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfMetadata> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of view that a datamap has." <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfMetadata> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 서비스에서 정의한 데이터세트의 메타데이터 수량"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfMetadata> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/DatamapStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfMetadata> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfMetadata> <http://www.w3.org/2000/01/rdf-schema#label> "the number of view"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfMetadata> <http://www.w3.org/2000/01/rdf-schema#label> "메타데이터 수량"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfMetadata> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfMetadata> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfOrganization> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of organization that a datamap has." <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfOrganization> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 서비스에 포함된 기관의 전체 개수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfOrganization> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/CatalogStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfOrganization> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/DatamapStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfOrganization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "the number of organizations"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "데이터 제공기관의 개수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfOrganization> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfOrganization> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfRegisteredUser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfRegisteredUser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfRegisteredUser> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of user registered in the data service."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfRegisteredUser> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 서비스에 등록한 사용자 수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfRegisteredUser> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/DatamapStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfRegisteredUser> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfRegisteredUser> <http://www.w3.org/2000/01/rdf-schema#label> "the number of registered user"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfRegisteredUser> <http://www.w3.org/2000/01/rdf-schema#label> "데이터 서비스에 등록한 사용자"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfRegisteredUser> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfRegisteredUser> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfTag> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of tag that the data service uses."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfTag> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 서비스에서 사용하고 있는 모든 태그의 개수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfTag> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/CatalogStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfTag> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/DatamapStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfTag> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfTag> <http://www.w3.org/2000/01/rdf-schema#label> "the number of tag"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfTag> <http://www.w3.org/2000/01/rdf-schema#label> "태그의 전체 개수"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/numberOfTag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/operatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/operatedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/operatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A datamap is maintained by a service entity." <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/operatedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터맵은 하나 이상의 기관에 의해 관리된다"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/operatedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/operatedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/operatedBy> <http://www.w3.org/2000/01/rdf-schema#label> "operated by"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/operatedBy> <http://www.w3.org/2000/01/rdf-schema#label> "관리된다"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/operatedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Organization> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/operatedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://schema.org/Organization> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/operatedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://vocab.databub.kr/def/datamap/owns> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/operatedBy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/owns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/owns> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/owns> <http://www.w3.org/2000/01/rdf-schema#comment> "An organization has one or multiple datamaps."@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/owns> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 서비스를 제공하는 기관은 하나 이상의 데이터맵을 갖는다"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/owns> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Organization> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/owns> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Organization> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/owns> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/owns> <http://www.w3.org/2000/01/rdf-schema#label> "owns"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/owns> <http://www.w3.org/2000/01/rdf-schema#label> "갖는다"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/owns> <http://www.w3.org/2000/01/rdf-schema#range> <http://vocab.databub.kr/def/datamap/Datamap> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/owns> <http://www.w3.org/2002/07/owl#inverseOf> <http://vocab.databub.kr/def/datamap/operatedBy> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/owns> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/sizeOfDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/sizeOfDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/sizeOfDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "A physical data size. A total size of a datamap is represented by a megabyte\r\n            (i.e. MB)." <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/sizeOfDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "데이터 서비스에서 제공하는 모든 데이터세트의 물리적 규모"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/sizeOfDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/CatalogStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/sizeOfDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.databub.kr/def/datamap/DatamapStat> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/sizeOfDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.databub.kr/def/datamap/> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/sizeOfDataset> <http://www.w3.org/2000/01/rdf-schema#label> "the size of physical datasets"@en <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/sizeOfDataset> <http://www.w3.org/2000/01/rdf-schema#label> "데이터 규모"@ko <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/sizeOfDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://vocab.datahub.kr/def/datamap/> .
+<http://vocab.databub.kr/def/datamap/sizeOfDataset> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://vocab.datahub.kr/def/datamap/> .
+_:c14n0 <http://www.w3.org/2000/01/rdf-schema#resource> "https://www.w3.org/2000/01/rdf-schema#Resource" <http://vocab.datahub.kr/def/datamap/> .
+_:c14n1 <http://www.w3.org/2000/01/rdf-schema#resource> "https://www.w3.org/2000/01/rdf-schema#Resource" <http://vocab.datahub.kr/def/datamap/> .
+_:c14n2 <http://www.w3.org/2000/01/rdf-schema#resource> "https://www.w3.org/2000/01/rdf-schema#Resource" <http://vocab.datahub.kr/def/datamap/> .

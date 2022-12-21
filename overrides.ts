@@ -25,6 +25,12 @@ export const overrides: Record<string, Override> = {
   },
   cc: { file: 'https://creativecommons.org/schema.rdf' },
   ctag: { skip: true },
+  dm: { 
+    files: [{
+      mediaType: 'application/rdf+xml',
+      file: 'https://vocab.datahub.kr/spec/datamap/rdf/datamap.rdf'
+    }]
+  },
   doap: { mediaType: 'application/rdf+xml' },
   dpv: {
     files: [{

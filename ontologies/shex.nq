@@ -165,6 +165,12 @@
 <http://www.w3.org/ns/shex#expressions> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#expressions> <http://www.w3.org/2000/01/rdf-schema#label> "expressions"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#expressions> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shex#TripleExpression> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#extends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#extends> <http://www.w3.org/2000/01/rdf-schema#comment> "Base shape expressions for this shape."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#extends> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#Shape> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#extends> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#extends> <http://www.w3.org/2000/01/rdf-schema#label> "extends"@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#extends> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#extra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#extra> <http://www.w3.org/2000/01/rdf-schema#comment> "Properties which may have extra values beyond those matched through a constraint."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#extra> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#Shape> <http://www.w3.org/ns/shex#> .

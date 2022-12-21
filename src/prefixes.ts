@@ -15,6 +15,7 @@ const prefixes = {
   dcmitype: 'http://purl.org/dc/dcmitype/',
   dcterms: 'http://purl.org/dc/terms/',
   discipline: 'http://qudt.org/vocab/discipline/',
+  dm: 'http://vocab.datahub.kr/def/datamap/',
   doap: 'http://usefulinc.com/ns/doap#',
   dpv: 'http://www.w3.org/ns/dpv#',
   dqv: 'http://www.w3.org/ns/dqv#',

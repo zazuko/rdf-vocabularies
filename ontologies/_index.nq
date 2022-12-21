@@ -93,6 +93,11 @@
 <https://prefix.zazuko.com/discipline:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/discipline/> .
 <https://prefix.zazuko.com/discipline:> <http://www.w3.org/ns/rdfa#prefix> "discipline" .
 <https://prefix.zazuko.com/discipline:> <http://www.w3.org/ns/rdfa#uri> <http://qudt.org/vocab/discipline/> .
+<https://prefix.zazuko.com/dm:> <http://dbpedia.org/ontology/filename> "ontologies/dm.nq" .
+<https://prefix.zazuko.com/dm:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/dm:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://vocab.datahub.kr/spec/datamap/rdf/datamap.rdf> .
+<https://prefix.zazuko.com/dm:> <http://www.w3.org/ns/rdfa#prefix> "dm" .
+<https://prefix.zazuko.com/dm:> <http://www.w3.org/ns/rdfa#uri> <http://vocab.datahub.kr/def/datamap/> .
 <https://prefix.zazuko.com/doap:> <http://dbpedia.org/ontology/filename> "ontologies/doap.nq" .
 <https://prefix.zazuko.com/doap:> <http://purl.org/dc/terms/description> "The Description of a Project (DOAP) vocabulary, described using W3C RDF Schema and the Web Ontology Language." .
 <https://prefix.zazuko.com/doap:> <http://purl.org/dc/terms/title> "Description of a Project (DOAP) vocabulary" .
@@ -312,7 +317,7 @@
 <https://prefix.zazuko.com/qkdv:> <http://www.w3.org/ns/rdfa#prefix> "qkdv" .
 <https://prefix.zazuko.com/qkdv:> <http://www.w3.org/ns/rdfa#uri> <http://qudt.org/vocab/dimensionvector/> .
 <https://prefix.zazuko.com/quantitykind:> <http://dbpedia.org/ontology/filename> "ontologies/quantitykind.nq" .
-<https://prefix.zazuko.com/quantitykind:> <http://purl.org/dc/terms/title> "QUDT VOCAB Quantity Kinds  Release 2.1.18" .
+<https://prefix.zazuko.com/quantitykind:> <http://purl.org/dc/terms/title> "QUDT VOCAB Quantity Kinds  Release 2.1.23" .
 <https://prefix.zazuko.com/quantitykind:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/quantitykind:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind/> .
 <https://prefix.zazuko.com/quantitykind:> <http://www.w3.org/ns/rdfa#prefix> "quantitykind" .
@@ -433,7 +438,7 @@
 <https://prefix.zazuko.com/sosa:> <http://www.w3.org/ns/rdfa#prefix> "sosa" .
 <https://prefix.zazuko.com/sosa:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/sosa/> .
 <https://prefix.zazuko.com/sou:> <http://dbpedia.org/ontology/filename> "ontologies/sou.nq" .
-<https://prefix.zazuko.com/sou:> <http://purl.org/dc/terms/title> "QUDT Vocabulary - Systems of Units - v2.1.18" .
+<https://prefix.zazuko.com/sou:> <http://purl.org/dc/terms/title> "QUDT Vocabulary - Systems of Units - v2.1.23" .
 <https://prefix.zazuko.com/sou:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/sou:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/sou/> .
 <https://prefix.zazuko.com/sou:> <http://www.w3.org/ns/rdfa#prefix> "sou" .
@@ -457,7 +462,7 @@
 <https://prefix.zazuko.com/time:> <http://www.w3.org/ns/rdfa#prefix> "time" .
 <https://prefix.zazuko.com/time:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/2006/time#> .
 <https://prefix.zazuko.com/unit:> <http://dbpedia.org/ontology/filename> "ontologies/unit.nq" .
-<https://prefix.zazuko.com/unit:> <http://purl.org/dc/terms/title> "QUDT Units of Measure for All Units Release 2.1.18" .
+<https://prefix.zazuko.com/unit:> <http://purl.org/dc/terms/title> "QUDT Units of Measure for All Units Release 2.1.23" .
 <https://prefix.zazuko.com/unit:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/unit:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/unit/> .
 <https://prefix.zazuko.com/unit:> <http://www.w3.org/ns/rdfa#prefix> "unit" .
