@@ -1,5 +1,11 @@
 # `vNext`
 
+## New prefix
+
+| Prefix | #Quads |
+|--------|--------|
+| `crm`  | 3892   |
+
 ## Feature
 
 Tweak the type of `prefixes` so that it maps prefixes precisely to their respective namespace. 
