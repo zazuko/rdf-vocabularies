@@ -121,6 +121,31 @@ describe('shrink', () => {
     expect(shrink('http://example.com/foo')).to.eq('')
   })
 
+  it('shrinks with custom prefixes', () => {
+    const customPrefixes = {
+      ex: 'http://example.com/'
+    }
+
+    expect(shrink('http://example.com/foo', customPrefixes)).to.eq('ex:foo')
+  })
+
+  it('uses default prefixes when not found in custom set', () => {
+    const customPrefixes = {
+      ex: 'http://example.com/'
+    }
+
+    expect(shrink('http://schema.org/Person', customPrefixes)).to.eq('schema:Person')
+  })
+
+  it('uses custom namespace before built-in', () => {
+    const customPrefixes = {
+      schema: 'http://example.com/'
+    }
+
+    expect(shrink('http://example.com/Person', customPrefixes)).to.eq('schema:Person')
+    expect(shrink('http://schema.org/Person', customPrefixes)).to.eq('')
+  })
+
   it('handles overlapping prefixes', () => {
     prefixes['foo'] = 'http://example.com/foo/'
     prefixes['bar'] = 'http://example.com/foo/bar/'

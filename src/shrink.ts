@@ -1,6 +1,15 @@
-import prefixes from './prefixes'
+import builtins from './prefixes'
 
-export function shrink (iri: string) {
+/**
+ * Converts an IRI to a prefixed node using a set of prefixes. By default, the
+ * built-in prefixes are used. When the `extraPrefixes` argument is given, uses these prefixes
+ * first, and then tries the built-in set
+ *
+ * @param iri
+ * @param [extraPrefixes]
+ */
+export function shrink (iri: string, extraPrefixes: Record<string, string> = {}) {
+  const prefixes = { ...builtins, ...extraPrefixes }
   const candidates = Array.from(Object.entries(prefixes)).filter(([, baseIRI]) => iri.startsWith(baseIRI))
   if (candidates.length) {
     candidates.sort(([, iri1], [, iri2]) => iri2.length - iri1.length)

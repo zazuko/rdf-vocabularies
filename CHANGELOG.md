@@ -1,3 +1,9 @@
+# `v2023.01.17`
+
+## Feature
+
+Added a second parameter to `shrink` so that a different set of prefixes can be used for prefixing
+
 # `v2022.11.28`
 
 ## New prefix
