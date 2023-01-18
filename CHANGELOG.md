@@ -1,3 +1,25 @@
+# `vNext`
+
+## Feature
+
+Tweak the type of `prefixes` so that it maps prefixes precisely to their respective namespace. 
+This allows creating type-safe interfaces such as
+
+```ts
+import type { Prefixes } from '@zazuko/rdf-vocabularies/prefixes'
+
+type JsonLdContext = Partial<Prefixes> & Record<string, string>
+
+const context: JsonLdContext = {
+  // this is fine, also auto-completed by IDE  
+  rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
+  // a missing traiing slash here will cause an error
+  schema: 'http://schema.org',
+  // other allowed by the union
+  foo: 'bar'
+}
+```
+
 # `v2023.01.17`
 
 ## Feature
