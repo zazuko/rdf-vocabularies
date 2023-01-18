@@ -94,7 +94,7 @@ const prefixes = {
 } as const
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
-export interface Prefixes extends Readonly<typeof prefixes & Record<string, string>> {
+export interface Prefixes extends Readonly<typeof prefixes> {
 
 }
 interface CustomPrefixes {

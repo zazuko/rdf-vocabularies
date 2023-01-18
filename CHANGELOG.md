@@ -1,4 +1,10 @@
-# `vNext`
+# `v2023.01.18-2`
+
+## Fix
+
+Remove `Record<string, string>` from type of `prefixes`
+
+# `v2023.01.18`
 
 ## New prefix
 
