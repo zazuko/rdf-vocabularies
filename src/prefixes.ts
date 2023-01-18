@@ -90,10 +90,10 @@ const prefixes = {
   xkos: 'http://rdf-vocabulary.ddialliance.org/xkos#',
   xml: 'http://www.w3.org/XML/1998/namespace/',
   xsd: 'http://www.w3.org/2001/XMLSchema#'
-}
+} as const
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
-export interface Prefixes extends Readonly<Record<keyof typeof prefixes, string>> {
+export interface Prefixes extends Readonly<typeof prefixes & Record<string, string>> {
 
 }
 interface CustomPrefixes {
