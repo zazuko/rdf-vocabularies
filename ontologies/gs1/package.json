@@ -12,7 +12,7 @@
   "vocabulary": {
     "prefix": "gs1",
     "namespace": "https://gs1.org/voc/",
-    "file": "https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl",
+    "file": "https://www.gs1.org/docs/gs1-smartsearch/gs1Voc_v1_8.ttl",
     "mediaType": "text/turtle"
   },
   "license": "MIT"

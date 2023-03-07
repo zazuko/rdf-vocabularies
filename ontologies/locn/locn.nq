@@ -155,7 +155,7 @@
 <http://www.w3.org/ns/locn> <http://purl.org/dc/terms/hasFormat> <http://www.w3.org/ns/locn.ttl> <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://purl.org/dc/terms/issued> "2013-11-25"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://purl.org/dc/terms/license> <https://joinup.ec.europa.eu/category/licence/isa-open-metadata-licence-v11> <http://www.w3.org/ns/locn#> .
-<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/mediator> _:c14n3 <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://purl.org/dc/terms/mediator> _:c14n4 <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://purl.org/dc/terms/modified> "2015-03-23"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://purl.org/dc/terms/rights> "Copyright © European Union, 2012-2015."@en <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://purl.org/dc/terms/title> "ISA Programme Location Core Vocabulary"@en <http://www.w3.org/ns/locn#> .
@@ -171,8 +171,8 @@
 <http://www.w3.org/ns/locn> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a new version of the final draft published by the European Commission in May 2012, revised according to the results of the ISA Core Location Pilot (see Section Change History for the list of changes). It is currently under the control of the Locations and Addresses Community Group, but is not under active development or review. Comments and queries should be sent to that group via public-locadd@w3.org. Terms defined here may be deprecated by that or future groups but will not disappear or their definition change."@en <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://www.w3.org/2000/01/rdf-schema#label> "ISA Programme Location Core Vocabulary"@en <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://www.w3.org/2001/02pd/rec54#editor> _:c14n0 <http://www.w3.org/ns/locn#> .
-<http://www.w3.org/ns/locn> <http://www.w3.org/2001/02pd/rec54#editor> _:c14n4 <http://www.w3.org/ns/locn#> .
-<http://www.w3.org/ns/locn> <http://www.w3.org/2001/02pd/rec54#editor> _:c14n5 <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://www.w3.org/2001/02pd/rec54#editor> _:c14n1 <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://www.w3.org/2001/02pd/rec54#editor> _:c14n3 <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://www.w3.org/2002/07/owl#versionInfo> "First version in w3.org/ns space"@en <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://www.w3.org/2007/05/powder-s#describedby> <https://joinup.ec.europa.eu/node/55858> <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://xmlns.com/foaf/0.1/depiction> <https://www.w3.org/ns/locn.svg> <http://www.w3.org/ns/locn#> .
@@ -183,23 +183,23 @@
 <https://joinup.ec.europa.eu/node/43160> <http://purl.org/dc/terms/title> "Process and Methodology for Developing Core Vocabularies" <http://www.w3.org/ns/locn#> .
 <https://joinup.ec.europa.eu/node/55858> <http://purl.org/dc/terms/title> "Core Vocabularies Specification" <http://www.w3.org/ns/locn#> .
 <https://www.w3.org/ns/locn.svg> <http://www.w3.org/2000/01/rdf-schema#label> "Class and property diagram of the LOCN vocabulary" <http://www.w3.org/ns/locn#> .
-_:c14n0 <http://schema.org/affiliation> _:c14n6 <http://www.w3.org/ns/locn#> .
-_:c14n0 <http://xmlns.com/foaf/0.1/name> "Michael Lutz" <http://www.w3.org/ns/locn#> .
-_:c14n1 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/> <http://www.w3.org/ns/locn#> .
-_:c14n1 <http://xmlns.com/foaf/0.1/name> "W3C/ERCIM" <http://www.w3.org/ns/locn#> .
+_:c14n0 <http://schema.org/affiliation> _:c14n5 <http://www.w3.org/ns/locn#> .
+_:c14n0 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://philarcher.org/foaf.rdf#me> <http://www.w3.org/ns/locn#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/homepage> <http://philarcher.org/> <http://www.w3.org/ns/locn#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/name> "Phil Archer" <http://www.w3.org/ns/locn#> .
+_:c14n1 <http://schema.org/affiliation> _:c14n6 <http://www.w3.org/ns/locn#> .
+_:c14n1 <http://xmlns.com/foaf/0.1/name> "Michael Lutz" <http://www.w3.org/ns/locn#> .
 _:c14n2 <http://xmlns.com/foaf/0.1/homepage> <https://joinup.ec.europa.eu/node/42444> <http://www.w3.org/ns/locn#> .
 _:c14n2 <http://xmlns.com/foaf/0.1/name> "EU ISA Programme Core Vocabularies Working Group (Location Task Force)" <http://www.w3.org/ns/locn#> .
-_:c14n3 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/community/locadd/> <http://www.w3.org/ns/locn#> .
-_:c14n3 <http://xmlns.com/foaf/0.1/mbox> <mailto:public-locadd@w3.org> <http://www.w3.org/ns/locn#> .
-_:c14n3 <http://xmlns.com/foaf/0.1/name> "Locations and Addresses Community Group" <http://www.w3.org/ns/locn#> .
-_:c14n4 <http://schema.org/affiliation> _:c14n7 <http://www.w3.org/ns/locn#> .
-_:c14n4 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://andrea-perego.name/foaf/#me> <http://www.w3.org/ns/locn#> .
-_:c14n4 <http://xmlns.com/foaf/0.1/homepage> <http://about.me/andrea.perego> <http://www.w3.org/ns/locn#> .
-_:c14n4 <http://xmlns.com/foaf/0.1/name> "Andrea Perego" <http://www.w3.org/ns/locn#> .
-_:c14n5 <http://schema.org/affiliation> _:c14n1 <http://www.w3.org/ns/locn#> .
-_:c14n5 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://philarcher.org/foaf.rdf#me> <http://www.w3.org/ns/locn#> .
-_:c14n5 <http://xmlns.com/foaf/0.1/homepage> <http://philarcher.org/> <http://www.w3.org/ns/locn#> .
-_:c14n5 <http://xmlns.com/foaf/0.1/name> "Phil Archer" <http://www.w3.org/ns/locn#> .
+_:c14n3 <http://schema.org/affiliation> _:c14n7 <http://www.w3.org/ns/locn#> .
+_:c14n3 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://andrea-perego.name/foaf/#me> <http://www.w3.org/ns/locn#> .
+_:c14n3 <http://xmlns.com/foaf/0.1/homepage> <http://about.me/andrea.perego> <http://www.w3.org/ns/locn#> .
+_:c14n3 <http://xmlns.com/foaf/0.1/name> "Andrea Perego" <http://www.w3.org/ns/locn#> .
+_:c14n4 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/community/locadd/> <http://www.w3.org/ns/locn#> .
+_:c14n4 <http://xmlns.com/foaf/0.1/mbox> <mailto:public-locadd@w3.org> <http://www.w3.org/ns/locn#> .
+_:c14n4 <http://xmlns.com/foaf/0.1/name> "Locations and Addresses Community Group" <http://www.w3.org/ns/locn#> .
+_:c14n5 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/> <http://www.w3.org/ns/locn#> .
+_:c14n5 <http://xmlns.com/foaf/0.1/name> "W3C/ERCIM" <http://www.w3.org/ns/locn#> .
 _:c14n6 <http://xmlns.com/foaf/0.1/homepage> <https://ec.europa.eu/jrc/> <http://www.w3.org/ns/locn#> .
 _:c14n6 <http://xmlns.com/foaf/0.1/name> "European Commission - Joint Research Centre (JRC)"@en <http://www.w3.org/ns/locn#> .
 _:c14n7 <http://xmlns.com/foaf/0.1/homepage> <https://ec.europa.eu/jrc/> <http://www.w3.org/ns/locn#> .

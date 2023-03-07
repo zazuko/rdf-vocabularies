@@ -1,6 +1,6 @@
 <http://www.w3.org/ns/ldp#> <http://purl.org/dc/terms/created> "2015-02-26"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/ldp#> .
+<http://www.w3.org/ns/ldp#> <http://purl.org/dc/terms/creator> _:c14n0 <http://www.w3.org/ns/ldp#> .
 <http://www.w3.org/ns/ldp#> <http://purl.org/dc/terms/creator> _:c14n1 <http://www.w3.org/ns/ldp#> .
-<http://www.w3.org/ns/ldp#> <http://purl.org/dc/terms/creator> _:c14n2 <http://www.w3.org/ns/ldp#> .
 <http://www.w3.org/ns/ldp#> <http://purl.org/dc/terms/creator> _:c14n3 <http://www.w3.org/ns/ldp#> .
 <http://www.w3.org/ns/ldp#> <http://purl.org/dc/terms/description> "Vocabulary URIs defined in the Linked Data Platform (LDP) namespace." <http://www.w3.org/ns/ldp#> .
 <http://www.w3.org/ns/ldp#> <http://purl.org/dc/terms/publisher> <http://www.w3.org/data#W3C> <http://www.w3.org/ns/ldp#> .
@@ -15,7 +15,7 @@
 <http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/ldp-paging/> <http://www.w3.org/ns/ldp#> .
 <http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/ldp-ucr/> <http://www.w3.org/ns/ldp#> .
 <http://www.w3.org/ns/ldp#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/ldp/> <http://www.w3.org/ns/ldp#> .
-<http://www.w3.org/ns/ldp#> <http://xmlns.com/foaf/0.1/maker> _:c14n0 <http://www.w3.org/ns/ldp#> .
+<http://www.w3.org/ns/ldp#> <http://xmlns.com/foaf/0.1/maker> _:c14n2 <http://www.w3.org/ns/ldp#> .
 <http://www.w3.org/ns/ldp#Ascending> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Individual> <http://www.w3.org/ns/ldp#> .
 <http://www.w3.org/ns/ldp#Ascending> <http://www.w3.org/2000/01/rdf-schema#comment> "Ascending order." <http://www.w3.org/ns/ldp#> .
 <http://www.w3.org/ns/ldp#Ascending> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> <http://www.w3.org/ns/ldp#> .
@@ -194,7 +194,7 @@
 <http://www.w3.org/ns/ldp#pageSortPredicate> <http://www.w3.org/2000/01/rdf-schema#label> "pageSortPredicate" <http://www.w3.org/ns/ldp#> .
 <http://www.w3.org/ns/ldp#pageSortPredicate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/ldp#> .
 <http://www.w3.org/ns/ldp#pageSortPredicate> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/ldp#> .
-_:c14n0 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/2012/ldp> <http://www.w3.org/ns/ldp#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/name> "Ashok Malhotra" <http://www.w3.org/ns/ldp#> .
 _:c14n1 <http://xmlns.com/foaf/0.1/name> "Steve Speicher" <http://www.w3.org/ns/ldp#> .
-_:c14n2 <http://xmlns.com/foaf/0.1/name> "Ashok Malhotra" <http://www.w3.org/ns/ldp#> .
+_:c14n2 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/2012/ldp> <http://www.w3.org/ns/ldp#> .
 _:c14n3 <http://xmlns.com/foaf/0.1/name> "John Arwe" <http://www.w3.org/ns/ldp#> .

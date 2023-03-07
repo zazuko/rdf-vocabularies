@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/lvont:> <http://dbpedia.org/ontology/filename> "ontologies/lvont.nq" .
+<https://prefix.zazuko.com/lvont:> <http://dbpedia.org/ontology/filename> "@vocabulary/lvont/lvont.nq" .
 <https://prefix.zazuko.com/lvont:> <http://purl.org/dc/terms/description> "Lexvo.org Ontology" .
 <https://prefix.zazuko.com/lvont:> <http://purl.org/dc/terms/title> "Lexvo.org Ontology" .
 <https://prefix.zazuko.com/lvont:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
