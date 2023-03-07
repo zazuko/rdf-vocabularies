@@ -11,7 +11,12 @@
   },
   "vocabulary": {
     "prefix": "foaf",
-    "namespace": "http://xmlns.com/foaf/0.1/"
+    "namespace": "http://xmlns.com/foaf/0.1/",
+    "file": "file:./src/foaf.xml",
+    "mediaType": "application/rdf+xml",
+    "xmlParserOptions": {
+      "baseIRI": "http://xmlns.com/foaf/0.1/"
+    }
   },
   "license": "MIT"
 }

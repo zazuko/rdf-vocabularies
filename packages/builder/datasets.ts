@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 import fs from 'fs'
 import { resolve } from 'path'
+import * as url from 'url'
 import rdf from 'rdf-ext'
 import formats from '@rdfjs/formats-common'
 import rdfFetch, { FactoryInit, DatasetResponse } from '@rdfjs/fetch-lite'
@@ -74,7 +75,11 @@ async function datasets(vocab: Vocab, indexOnly = false): Promise<DatasetExt> {
     if (mapping.mediaType) {
       headers.accept = mapping.mediaType
     }
-    const uri = mapping.file || vocab.namespace
+    let uri = mapping.file || vocab.namespace
+    if (uri.startsWith('file:')) {
+      uri = new URL(uri, url.pathToFileURL('./')).toString()
+    }
+
     const xmlParserOptions = { allowDuplicateRdfIds: true }
     if (mapping.xmlParserOptions) {
       Object.assign(xmlParserOptions, mapping.xmlParserOptions)

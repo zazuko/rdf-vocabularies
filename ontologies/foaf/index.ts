@@ -6,26 +6,40 @@ const {
   rdf,
   owl,
   rdfs,
-  dcterms,
-  vs,
+  ns6,
+  ns7,
   ns8,
-  wgs,
-  skos
+  ns9,
+  ns10,
+  ns11,
+  vs,
+  ns13,
+  wgs
 } = {
   'foaf': 'http://xmlns.com/foaf/0.1/',
   'dc11': 'http://purl.org/dc/elements/1.1/',
   'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
   'owl': 'http://www.w3.org/2002/07/owl#',
   'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',
-  'dcterms': 'http://purl.org/dc/terms/',
+  'ns6': 'http://www.w3.org/2001/08/rdfweb/',
+  'ns7': 'http://www.w3.org/2000/01/',
+  'ns8': 'http://www.w3.org/2002/07/',
+  'ns9': 'http://xmlns.com/wot/0.1/',
+  'ns10': 'http://xmlns.com/foaf/',
+  'ns11': 'http://xmlns.com/wordnet/1.6/',
   'vs': 'http://www.w3.org/2003/06/sw-vocab-status/ns#',
-  'ns8': 'http://www.w3.org/2000/10/swap/pim/contact#',
-  'wgs': 'http://www.w3.org/2003/01/geo/wgs84_pos#',
-  'skos': 'http://www.w3.org/2004/02/skos/core#'
+  'ns13': 'http://www.w3.org/2000/10/swap/pim/contact#',
+  'wgs': 'http://www.w3.org/2003/01/geo/wgs84_pos#'
 }
 
 export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): import('rdf-js').Quad[] => {
   return [
+    quad(
+      namedNode(foaf),
+      namedNode(`${dc11}date`),
+      literal(`$Date: 2004-08-18 00:31:33 $`),
+      namedNode(foaf)
+    ),
     quad(
       namedNode(foaf),
       namedNode(`${dc11}description`),
@@ -45,15 +59,39 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(foaf)
     ),
     quad(
-      namedNode(`${foaf}Agent`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdfs}Class`),
+      namedNode(foaf),
+      namedNode(`${rdfs}seeAlso`),
+      namedNode(`${ns6}foaf`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(foaf),
+      namedNode(`${owl}imports`),
+      namedNode(`${ns7}rdf-schema`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(foaf),
+      namedNode(`${owl}imports`),
+      namedNode(`${ns8}owl`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(foaf),
+      namedNode(`${ns9}assurance`),
+      namedNode(`${ns10}foafsig`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(foaf),
+      namedNode(`${ns9}src_assurance`),
+      namedNode(`${ns10}htmlfoafsig`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}Agent`),
       namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
+      namedNode(`${rdfs}Class`),
       namedNode(foaf)
     ),
     quad(
@@ -64,38 +102,32 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}Agent`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}Agent`),
       namedNode(`${rdfs}label`),
       literal(`Agent`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}Agent`),
-      namedNode(`${owl}equivalentClass`),
-      namedNode(`${dcterms}Agent`),
+      namedNode(`${rdfs}subClassOf`),
+      namedNode(`${ns11}Agent-3`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(`${foaf}Agent`),
+      namedNode(`${owl}disjointWith`),
+      namedNode(`${foaf}Document`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}Agent`),
       namedNode(`${vs}term_status`),
-      literal(`stable`),
+      literal(`unstable`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}Document`),
       namedNode(`${rdf}type`),
       namedNode(`${rdfs}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}Document`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
       namedNode(foaf)
     ),
     quad(
@@ -118,8 +150,20 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}Document`),
+      namedNode(`${rdfs}subClassOf`),
+      namedNode(`${ns11}Document`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(`${foaf}Document`),
       namedNode(`${owl}disjointWith`),
       namedNode(`${foaf}Organization`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(`${foaf}Document`),
+      namedNode(`${owl}disjointWith`),
+      namedNode(`${foaf}Person`),
       namedNode(foaf)
     ),
     quad(
@@ -142,20 +186,8 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}Group`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}Group`),
       namedNode(`${rdfs}comment`),
       literal(`A class of Agents.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}Group`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
       namedNode(foaf)
     ),
     quad(
@@ -173,19 +205,13 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}Group`),
       namedNode(`${vs}term_status`),
-      literal(`stable`),
+      literal(`unstable`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}Image`),
       namedNode(`${rdf}type`),
       namedNode(`${rdfs}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}Image`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
       namedNode(foaf)
     ),
     quad(
@@ -209,7 +235,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}Image`),
       namedNode(`${rdfs}subClassOf`),
-      namedNode(`${foaf}Document`),
+      namedNode(`${ns11}Document`),
       namedNode(foaf)
     ),
     quad(
@@ -219,51 +245,9 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(foaf)
     ),
     quad(
-      namedNode(`${foaf}LabelProperty`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdfs}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}LabelProperty`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}LabelProperty`),
-      namedNode(`${rdfs}comment`),
-      literal(`A foaf:LabelProperty is any RDF property with texual values that serve as labels.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}LabelProperty`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}LabelProperty`),
-      namedNode(`${rdfs}label`),
-      literal(`Label Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}LabelProperty`),
-      namedNode(`${vs}term_status`),
-      literal(`unstable`),
-      namedNode(foaf)
-    ),
-    quad(
       namedNode(`${foaf}OnlineAccount`),
       namedNode(`${rdf}type`),
       namedNode(`${rdfs}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}OnlineAccount`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
       namedNode(foaf)
     ),
     quad(
@@ -286,26 +270,14 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}OnlineAccount`),
-      namedNode(`${rdfs}subClassOf`),
-      namedNode(`${owl}Thing`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}OnlineAccount`),
       namedNode(`${vs}term_status`),
-      literal(`testing`),
+      literal(`unstable`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}OnlineChatAccount`),
       namedNode(`${rdf}type`),
       namedNode(`${rdfs}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}OnlineChatAccount`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
       namedNode(foaf)
     ),
     quad(
@@ -329,7 +301,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}OnlineChatAccount`),
       namedNode(`${rdfs}subClassOf`),
-      namedNode(`${foaf}OnlineAccount`),
+      namedNode(`${ns11}OnlineAccount`),
       namedNode(foaf)
     ),
     quad(
@@ -342,12 +314,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}OnlineEcommerceAccount`),
       namedNode(`${rdf}type`),
       namedNode(`${rdfs}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}OnlineEcommerceAccount`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
       namedNode(foaf)
     ),
     quad(
@@ -371,7 +337,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}OnlineEcommerceAccount`),
       namedNode(`${rdfs}subClassOf`),
-      namedNode(`${foaf}OnlineAccount`),
+      namedNode(`${ns11}OnlineAccount`),
       namedNode(foaf)
     ),
     quad(
@@ -384,12 +350,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}OnlineGamingAccount`),
       namedNode(`${rdf}type`),
       namedNode(`${rdfs}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}OnlineGamingAccount`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
       namedNode(foaf)
     ),
     quad(
@@ -413,7 +373,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}OnlineGamingAccount`),
       namedNode(`${rdfs}subClassOf`),
-      namedNode(`${foaf}OnlineAccount`),
+      namedNode(`${ns11}OnlineAccount`),
       namedNode(foaf)
     ),
     quad(
@@ -426,12 +386,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}Organization`),
       namedNode(`${rdf}type`),
       namedNode(`${rdfs}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}Organization`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
       namedNode(foaf)
     ),
     quad(
@@ -460,6 +414,12 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}Organization`),
+      namedNode(`${rdfs}subClassOf`),
+      namedNode(`${ns11}Organization`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(`${foaf}Organization`),
       namedNode(`${owl}disjointWith`),
       namedNode(`${foaf}Document`),
       namedNode(foaf)
@@ -473,19 +433,13 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}Organization`),
       namedNode(`${vs}term_status`),
-      literal(`stable`),
+      literal(`unstable`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}Person`),
       namedNode(`${rdf}type`),
       namedNode(`${rdfs}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}Person`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
       namedNode(foaf)
     ),
     quad(
@@ -509,7 +463,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}Person`),
       namedNode(`${rdfs}subClassOf`),
-      namedNode(`${ns8}Person`),
+      namedNode(`${ns13}Person`),
       namedNode(foaf)
     ),
     quad(
@@ -522,6 +476,18 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}Person`),
       namedNode(`${rdfs}subClassOf`),
       namedNode(`${foaf}Agent`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(`${foaf}Person`),
+      namedNode(`${rdfs}subClassOf`),
+      namedNode(`${ns11}Person`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(`${foaf}Person`),
+      namedNode(`${owl}disjointWith`),
+      namedNode(`${foaf}Document`),
       namedNode(foaf)
     ),
     quad(
@@ -539,7 +505,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}Person`),
       namedNode(`${vs}term_status`),
-      literal(`stable`),
+      literal(`testing`),
       namedNode(foaf)
     ),
     quad(
@@ -550,20 +516,8 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}PersonalProfileDocument`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}PersonalProfileDocument`),
       namedNode(`${rdfs}comment`),
       literal(`A personal profile RDF document.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}PersonalProfileDocument`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
       namedNode(foaf)
     ),
     quad(
@@ -592,12 +546,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}Project`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}Class`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}Project`),
       namedNode(`${rdfs}comment`),
       literal(`A project (a collective endeavour of some kind).`),
       namedNode(foaf)
@@ -616,6 +564,12 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}Project`),
+      namedNode(`${rdfs}subClassOf`),
+      namedNode(`${ns11}Project`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(`${foaf}Project`),
       namedNode(`${owl}disjointWith`),
       namedNode(`${foaf}Document`),
       namedNode(foaf)
@@ -629,67 +583,13 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}Project`),
       namedNode(`${vs}term_status`),
-      literal(`testing`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}account`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}account`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}account`),
-      namedNode(`${rdfs}comment`),
-      literal(`Indicates an account held by this agent.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}account`),
-      namedNode(`${rdfs}domain`),
-      namedNode(`${foaf}Agent`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}account`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}account`),
-      namedNode(`${rdfs}label`),
-      literal(`account`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}account`),
-      namedNode(`${rdfs}range`),
-      namedNode(`${foaf}OnlineAccount`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}account`),
-      namedNode(`${vs}term_status`),
-      literal(`testing`),
+      literal(`unstable`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}accountName`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}accountName`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -725,19 +625,13 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}accountName`),
       namedNode(`${vs}term_status`),
-      literal(`testing`),
+      literal(`unstable`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}accountServiceHomepage`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}accountServiceHomepage`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -773,60 +667,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}accountServiceHomepage`),
       namedNode(`${vs}term_status`),
-      literal(`testing`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}age`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}age`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}age`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}FunctionalProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}age`),
-      namedNode(`${rdfs}comment`),
-      literal(`The age in years of some agent.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}age`),
-      namedNode(`${rdfs}domain`),
-      namedNode(`${foaf}Agent`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}age`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}age`),
-      namedNode(`${rdfs}label`),
-      literal(`age`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}age`),
-      namedNode(`${rdfs}range`),
-      namedNode(`${rdfs}Literal`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}age`),
-      namedNode(`${vs}term_status`),
       literal(`unstable`),
       namedNode(foaf)
     ),
@@ -834,12 +674,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}aimChatID`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}aimChatID`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -898,12 +732,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}based_near`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}based_near`),
       namedNode(`${rdfs}comment`),
       literal(`A location that something is based near, for some broadly human notion of near.`),
       namedNode(foaf)
@@ -935,60 +763,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}based_near`),
       namedNode(`${vs}term_status`),
-      literal(`testing`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}birthday`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}birthday`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}birthday`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}FunctionalProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}birthday`),
-      namedNode(`${rdfs}comment`),
-      literal(`The birthday of this Agent, represented in mm-dd string form, eg. '12-31'.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}birthday`),
-      namedNode(`${rdfs}domain`),
-      namedNode(`${foaf}Agent`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}birthday`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}birthday`),
-      namedNode(`${rdfs}label`),
-      literal(`birthday`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}birthday`),
-      namedNode(`${rdfs}range`),
-      namedNode(`${rdfs}Literal`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}birthday`),
-      namedNode(`${vs}term_status`),
       literal(`unstable`),
       namedNode(foaf)
     ),
@@ -996,12 +770,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}currentProject`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}currentProject`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -1031,7 +799,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}currentProject`),
       namedNode(`${rdfs}range`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -1048,12 +816,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}depiction`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}depiction`),
       namedNode(`${rdfs}comment`),
       literal(`A depiction of some thing.`),
       namedNode(foaf)
@@ -1061,7 +823,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}depiction`),
       namedNode(`${rdfs}domain`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -1102,12 +864,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}depicts`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}depicts`),
       namedNode(`${rdfs}comment`),
       literal(`A thing depicted in this representation.`),
       namedNode(foaf)
@@ -1133,7 +889,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}depicts`),
       namedNode(`${rdfs}range`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -1152,12 +908,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}dnaChecksum`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}dnaChecksum`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -1187,55 +937,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}dnaChecksum`),
       namedNode(`${vs}term_status`),
-      literal(`archaic`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}familyName`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}familyName`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}familyName`),
-      namedNode(`${rdfs}comment`),
-      literal(`The family name of some person.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}familyName`),
-      namedNode(`${rdfs}domain`),
-      namedNode(`${foaf}Person`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}familyName`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}familyName`),
-      namedNode(`${rdfs}label`),
-      literal(`familyName`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}familyName`),
-      namedNode(`${rdfs}range`),
-      namedNode(`${rdfs}Literal`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}familyName`),
-      namedNode(`${vs}term_status`),
-      literal(`testing`),
+      literal(`unstable`),
       namedNode(foaf)
     ),
     quad(
@@ -1246,14 +948,8 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}family_name`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}family_name`),
       namedNode(`${rdfs}comment`),
-      literal(`The family name of some person.`),
+      literal(`The family_name of some person.`),
       namedNode(foaf)
     ),
     quad(
@@ -1283,19 +979,13 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}family_name`),
       namedNode(`${vs}term_status`),
-      literal(`archaic`),
+      literal(`testing`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}firstName`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}firstName`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -1335,63 +1025,9 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(foaf)
     ),
     quad(
-      namedNode(`${foaf}focus`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}focus`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}focus`),
-      namedNode(`${rdfs}comment`),
-      literal(`The underlying or 'focal' entity associated with some SKOS-described concept.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}focus`),
-      namedNode(`${rdfs}domain`),
-      namedNode(`${skos}Concept`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}focus`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}focus`),
-      namedNode(`${rdfs}label`),
-      literal(`focus`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}focus`),
-      namedNode(`${rdfs}range`),
-      namedNode(`${owl}Thing`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}focus`),
-      namedNode(`${vs}term_status`),
-      literal(`testing`),
-      namedNode(foaf)
-    ),
-    quad(
       namedNode(`${foaf}fundedBy`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}fundedBy`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -1403,7 +1039,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}fundedBy`),
       namedNode(`${rdfs}domain`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -1421,25 +1057,19 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}fundedBy`),
       namedNode(`${rdfs}range`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}fundedBy`),
       namedNode(`${vs}term_status`),
-      literal(`archaic`),
+      literal(`unstable`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}geekcode`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}geekcode`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -1475,19 +1105,13 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}geekcode`),
       namedNode(`${vs}term_status`),
-      literal(`archaic`),
+      literal(`testing`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}gender`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}gender`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -1533,87 +1157,39 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(foaf)
     ),
     quad(
-      namedNode(`${foaf}givenName`),
+      namedNode(`${foaf}givenname`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
       namedNode(foaf)
     ),
     quad(
-      namedNode(`${foaf}givenName`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}givenName`),
+      namedNode(`${foaf}givenname`),
       namedNode(`${rdfs}comment`),
       literal(`The given name of some person.`),
       namedNode(foaf)
     ),
     quad(
-      namedNode(`${foaf}givenName`),
+      namedNode(`${foaf}givenname`),
       namedNode(`${rdfs}isDefinedBy`),
       namedNode(foaf),
       namedNode(foaf)
     ),
     quad(
-      namedNode(`${foaf}givenName`),
+      namedNode(`${foaf}givenname`),
       namedNode(`${rdfs}label`),
       literal(`Given name`),
       namedNode(foaf)
     ),
     quad(
-      namedNode(`${foaf}givenName`),
+      namedNode(`${foaf}givenname`),
       namedNode(`${vs}term_status`),
       literal(`testing`),
       namedNode(foaf)
     ),
     quad(
-      namedNode(`${foaf}givenname`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}givenname`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}givenname`),
-      namedNode(`${rdfs}comment`),
-      literal(`The given name of some person.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}givenname`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}givenname`),
-      namedNode(`${rdfs}label`),
-      literal(`Given name`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}givenname`),
-      namedNode(`${vs}term_status`),
-      literal(`archaic`),
-      namedNode(foaf)
-    ),
-    quad(
       namedNode(`${foaf}holdsAccount`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}holdsAccount`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -1637,7 +1213,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}holdsAccount`),
       namedNode(`${rdfs}label`),
-      literal(`account`),
+      literal(`holds account`),
       namedNode(foaf)
     ),
     quad(
@@ -1649,7 +1225,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}holdsAccount`),
       namedNode(`${vs}term_status`),
-      literal(`archaic`),
+      literal(`unstable`),
       namedNode(foaf)
     ),
     quad(
@@ -1666,12 +1242,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}homepage`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}homepage`),
       namedNode(`${rdfs}comment`),
       literal(`A homepage for some thing.`),
       namedNode(foaf)
@@ -1679,7 +1249,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}homepage`),
       namedNode(`${rdfs}domain`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${foaf}Agent`),
       namedNode(foaf)
     ),
     quad(
@@ -1703,12 +1273,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}homepage`),
       namedNode(`${rdfs}subPropertyOf`),
-      namedNode(`${foaf}isPrimaryTopicOf`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}homepage`),
-      namedNode(`${rdfs}subPropertyOf`),
       namedNode(`${foaf}page`),
       namedNode(foaf)
     ),
@@ -1722,12 +1286,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}icqChatID`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}icqChatID`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -1786,12 +1344,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}img`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}img`),
       namedNode(`${rdfs}comment`),
       literal(`An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage).`),
       namedNode(foaf)
@@ -1840,12 +1392,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}interest`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}interest`),
       namedNode(`${rdfs}comment`),
       literal(`A page about a topic of interest to this person.`),
       namedNode(foaf)
@@ -1853,7 +1399,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}interest`),
       namedNode(`${rdfs}domain`),
-      namedNode(`${foaf}Agent`),
+      namedNode(`${foaf}Person`),
       namedNode(foaf)
     ),
     quad(
@@ -1881,75 +1427,9 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(foaf)
     ),
     quad(
-      namedNode(`${foaf}isPrimaryTopicOf`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}isPrimaryTopicOf`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}InverseFunctionalProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}isPrimaryTopicOf`),
-      namedNode(`${rdfs}comment`),
-      literal(`A document that this thing is the primary topic of.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}isPrimaryTopicOf`),
-      namedNode(`${rdfs}domain`),
-      namedNode(`${owl}Thing`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}isPrimaryTopicOf`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}isPrimaryTopicOf`),
-      namedNode(`${rdfs}label`),
-      literal(`is primary topic of`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}isPrimaryTopicOf`),
-      namedNode(`${rdfs}range`),
-      namedNode(`${foaf}Document`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}isPrimaryTopicOf`),
-      namedNode(`${rdfs}subPropertyOf`),
-      namedNode(`${foaf}page`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}isPrimaryTopicOf`),
-      namedNode(`${owl}inverseOf`),
-      namedNode(`${foaf}primaryTopic`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}isPrimaryTopicOf`),
-      namedNode(`${vs}term_status`),
-      literal(`stable`),
-      namedNode(foaf)
-    ),
-    quad(
       namedNode(`${foaf}jabberID`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}jabberID`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -1990,6 +1470,12 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}jabberID`),
+      namedNode(`${rdfs}subPropertyOf`),
+      namedNode(`${foaf}nick`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(`${foaf}jabberID`),
       namedNode(`${vs}term_status`),
       literal(`testing`),
       namedNode(foaf)
@@ -1998,12 +1484,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}knows`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}knows`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -2039,54 +1519,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}knows`),
       namedNode(`${vs}term_status`),
-      literal(`stable`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}lastName`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}lastName`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}lastName`),
-      namedNode(`${rdfs}comment`),
-      literal(`The last name of a person.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}lastName`),
-      namedNode(`${rdfs}domain`),
-      namedNode(`${foaf}Person`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}lastName`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}lastName`),
-      namedNode(`${rdfs}label`),
-      literal(`lastName`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}lastName`),
-      namedNode(`${rdfs}range`),
-      namedNode(`${rdfs}Literal`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}lastName`),
-      namedNode(`${vs}term_status`),
       literal(`testing`),
       namedNode(foaf)
     ),
@@ -2098,18 +1530,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}logo`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}InverseFunctionalProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}logo`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}logo`),
       namedNode(`${rdfs}comment`),
       literal(`A logo representing some thing.`),
       namedNode(foaf)
@@ -2117,7 +1537,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}logo`),
       namedNode(`${rdfs}domain`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -2135,7 +1555,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}logo`),
       namedNode(`${rdfs}range`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -2148,12 +1568,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}made`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}made`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -2183,7 +1597,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}made`),
       namedNode(`${rdfs}range`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -2195,19 +1609,13 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}made`),
       namedNode(`${vs}term_status`),
-      literal(`stable`),
+      literal(`testing`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}maker`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}maker`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -2219,7 +1627,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}maker`),
       namedNode(`${rdfs}domain`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -2242,12 +1650,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}maker`),
-      namedNode(`${owl}equivalentProperty`),
-      namedNode(`${dcterms}creator`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}maker`),
       namedNode(`${owl}inverseOf`),
       namedNode(`${foaf}made`),
       namedNode(foaf)
@@ -2255,7 +1657,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}maker`),
       namedNode(`${vs}term_status`),
-      literal(`stable`),
+      literal(`testing`),
       namedNode(foaf)
     ),
     quad(
@@ -2272,14 +1674,8 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}mbox`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}mbox`),
       namedNode(`${rdfs}comment`),
-      literal(`A personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.`),
+      literal(`A personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.`),
       namedNode(foaf)
     ),
     quad(
@@ -2303,13 +1699,13 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}mbox`),
       namedNode(`${rdfs}range`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}mbox`),
       namedNode(`${vs}term_status`),
-      literal(`stable`),
+      literal(`testing`),
       namedNode(foaf)
     ),
     quad(
@@ -2321,19 +1717,13 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}mbox_sha1sum`),
       namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}mbox_sha1sum`),
-      namedNode(`${rdf}type`),
       namedNode(`${owl}InverseFunctionalProperty`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}mbox_sha1sum`),
       namedNode(`${rdfs}comment`),
-      literal(`The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the first owner of the mailbox.`),
+      literal(`The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox.`),
       namedNode(foaf)
     ),
     quad(
@@ -2374,12 +1764,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}member`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}member`),
       namedNode(`${rdfs}comment`),
       literal(`Indicates a member of a Group`),
       namedNode(foaf)
@@ -2411,7 +1795,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}member`),
       namedNode(`${vs}term_status`),
-      literal(`stable`),
+      literal(`unstable`),
       namedNode(foaf)
     ),
     quad(
@@ -2422,14 +1806,14 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}membershipClass`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}AnnotationProperty`),
+      namedNode(`${rdfs}comment`),
+      literal(`Indicates the class of individuals that are a member of a Group`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}membershipClass`),
-      namedNode(`${rdfs}comment`),
-      literal(`Indicates the class of individuals that are a member of a Group`),
+      namedNode(`${rdfs}domain`),
+      namedNode(`${foaf}Group`),
       namedNode(foaf)
     ),
     quad(
@@ -2446,6 +1830,12 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}membershipClass`),
+      namedNode(`${rdfs}range`),
+      namedNode(`${rdfs}Class`),
+      namedNode(foaf)
+    ),
+    quad(
+      namedNode(`${foaf}membershipClass`),
       namedNode(`${vs}term_status`),
       literal(`unstable`),
       namedNode(foaf)
@@ -2454,12 +1844,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}msnChatID`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}msnChatID`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -2518,12 +1902,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}myersBriggs`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}myersBriggs`),
       namedNode(`${rdfs}comment`),
       literal(`A Myers Briggs (MBTI) personality classification.`),
       namedNode(foaf)
@@ -2566,12 +1944,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}name`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}name`),
       namedNode(`${rdfs}comment`),
       literal(`A name for some thing.`),
       namedNode(foaf)
@@ -2579,7 +1951,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}name`),
       namedNode(`${rdfs}domain`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -2620,12 +1992,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}nick`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}nick`),
       namedNode(`${rdfs}comment`),
       literal(`A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).`),
       namedNode(foaf)
@@ -2649,75 +2015,9 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(foaf)
     ),
     quad(
-      namedNode(`${foaf}openid`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}openid`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}InverseFunctionalProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}openid`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}openid`),
-      namedNode(`${rdfs}comment`),
-      literal(`An OpenID for an Agent.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}openid`),
-      namedNode(`${rdfs}domain`),
-      namedNode(`${foaf}Agent`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}openid`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}openid`),
-      namedNode(`${rdfs}label`),
-      literal(`openid`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}openid`),
-      namedNode(`${rdfs}range`),
-      namedNode(`${foaf}Document`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}openid`),
-      namedNode(`${rdfs}subPropertyOf`),
-      namedNode(`${foaf}isPrimaryTopicOf`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}openid`),
-      namedNode(`${vs}term_status`),
-      literal(`testing`),
-      namedNode(foaf)
-    ),
-    quad(
       namedNode(`${foaf}page`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}page`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -2729,7 +2029,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}page`),
       namedNode(`${rdfs}domain`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -2770,12 +2070,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}pastProject`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}pastProject`),
       namedNode(`${rdfs}comment`),
       literal(`A project this person has previously worked on.`),
       namedNode(foaf)
@@ -2801,7 +2095,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}pastProject`),
       namedNode(`${rdfs}range`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -2818,14 +2112,8 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}phone`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}phone`),
       namedNode(`${rdfs}comment`),
-      literal(`A phone, specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel).`),
+      literal(`A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel).`),
       namedNode(foaf)
     ),
     quad(
@@ -2850,12 +2138,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}plan`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}plan`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -2908,12 +2190,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}primaryTopic`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}primaryTopic`),
       namedNode(`${rdfs}comment`),
       literal(`The primary topic of some page or document.`),
       namedNode(foaf)
@@ -2933,37 +2209,25 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}primaryTopic`),
       namedNode(`${rdfs}label`),
-      literal(`primary topic`),
+      literal(`topic`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}primaryTopic`),
       namedNode(`${rdfs}range`),
-      namedNode(`${owl}Thing`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}primaryTopic`),
-      namedNode(`${owl}inverseOf`),
-      namedNode(`${foaf}isPrimaryTopicOf`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}primaryTopic`),
       namedNode(`${vs}term_status`),
-      literal(`stable`),
+      literal(`testing`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}publications`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}publications`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -2999,19 +2263,13 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}publications`),
       namedNode(`${vs}term_status`),
-      literal(`testing`),
+      literal(`unstable`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}schoolHomepage`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}schoolHomepage`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -3058,12 +2316,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}sha1`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}sha1`),
       namedNode(`${rdfs}comment`),
       literal(`A sha1sum hash, in hex.`),
       namedNode(foaf)
@@ -3093,117 +2345,9 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(foaf)
     ),
     quad(
-      namedNode(`${foaf}skypeID`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}skypeID`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}skypeID`),
-      namedNode(`${rdfs}comment`),
-      literal(`A Skype ID`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}skypeID`),
-      namedNode(`${rdfs}domain`),
-      namedNode(`${foaf}Agent`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}skypeID`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}skypeID`),
-      namedNode(`${rdfs}label`),
-      literal(`Skype ID`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}skypeID`),
-      namedNode(`${rdfs}range`),
-      namedNode(`${rdfs}Literal`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}skypeID`),
-      namedNode(`${rdfs}subPropertyOf`),
-      namedNode(`${foaf}nick`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}skypeID`),
-      namedNode(`${vs}term_status`),
-      literal(`testing`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}status`),
-      namedNode(`${rdf}type`),
-      namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}status`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}status`),
-      namedNode(`${rdfs}comment`),
-      literal(`A string expressing what the user is happy for the general public (normally) to know about their current activity.`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}status`),
-      namedNode(`${rdfs}domain`),
-      namedNode(`${foaf}Agent`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}status`),
-      namedNode(`${rdfs}isDefinedBy`),
-      namedNode(foaf),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}status`),
-      namedNode(`${rdfs}label`),
-      literal(`status`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}status`),
-      namedNode(`${rdfs}range`),
-      namedNode(`${rdfs}Literal`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}status`),
-      namedNode(`${vs}term_status`),
-      literal(`unstable`),
-      namedNode(foaf)
-    ),
-    quad(
       namedNode(`${foaf}surname`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}surname`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -3239,19 +2383,13 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}surname`),
       namedNode(`${vs}term_status`),
-      literal(`archaic`),
+      literal(`testing`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}theme`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}theme`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -3263,7 +2401,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}theme`),
       namedNode(`${rdfs}domain`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -3281,25 +2419,19 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}theme`),
       namedNode(`${rdfs}range`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}theme`),
       namedNode(`${vs}term_status`),
-      literal(`archaic`),
+      literal(`unstable`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}thumbnail`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}thumbnail`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -3342,12 +2474,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}tipjar`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}tipjar`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -3400,12 +2526,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}title`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}title`),
       namedNode(`${rdfs}comment`),
       literal(`Title (Mr, Mrs, Ms, Dr. etc)`),
       namedNode(foaf)
@@ -3436,12 +2556,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}topic`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}topic`),
       namedNode(`${rdfs}comment`),
       literal(`A topic of some page or document.`),
       namedNode(foaf)
@@ -3467,7 +2581,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}topic`),
       namedNode(`${rdfs}range`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -3490,12 +2604,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}topic_interest`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}topic_interest`),
       namedNode(`${rdfs}comment`),
       literal(`A thing of interest to this person.`),
       namedNode(foaf)
@@ -3503,7 +2611,7 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}topic_interest`),
       namedNode(`${rdfs}domain`),
-      namedNode(`${foaf}Agent`),
+      namedNode(`${foaf}Person`),
       namedNode(foaf)
     ),
     quad(
@@ -3515,13 +2623,13 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     quad(
       namedNode(`${foaf}topic_interest`),
       namedNode(`${rdfs}label`),
-      literal(`topic_interest`),
+      literal(`interest_topic`),
       namedNode(foaf)
     ),
     quad(
       namedNode(`${foaf}topic_interest`),
       namedNode(`${rdfs}range`),
-      namedNode(`${owl}Thing`),
+      namedNode(`${rdfs}Resource`),
       namedNode(foaf)
     ),
     quad(
@@ -3540,12 +2648,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}weblog`),
       namedNode(`${rdf}type`),
       namedNode(`${owl}InverseFunctionalProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}weblog`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
       namedNode(foaf)
     ),
     quad(
@@ -3598,12 +2700,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}workInfoHomepage`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}workInfoHomepage`),
       namedNode(`${rdfs}comment`),
       literal(`A work info homepage of some person; a page about their work for some organization.`),
       namedNode(foaf)
@@ -3646,12 +2742,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
     ),
     quad(
       namedNode(`${foaf}workplaceHomepage`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}ObjectProperty`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}workplaceHomepage`),
       namedNode(`${rdfs}comment`),
       literal(`A workplace homepage of some person; the homepage of an organization they work for.`),
       namedNode(foaf)
@@ -3690,12 +2780,6 @@ export default ({ literal, namedNode, quad }: import('rdf-js').DataFactory): imp
       namedNode(`${foaf}yahooChatID`),
       namedNode(`${rdf}type`),
       namedNode(`${rdf}Property`),
-      namedNode(foaf)
-    ),
-    quad(
-      namedNode(`${foaf}yahooChatID`),
-      namedNode(`${rdf}type`),
-      namedNode(`${owl}DatatypeProperty`),
       namedNode(foaf)
     ),
     quad(
