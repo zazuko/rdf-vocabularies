@@ -30,7 +30,7 @@ export async function expandWithCheck(prefixed: string, types: Types): Promise<s
   for (const typeNamedNode of typesNamedNodes) {
     const found = dataset.match(rdf.namedNode(iri), typeTerm, typeNamedNode, graph)
     if (found.size) {
-      return found.toArray()[0].subject.value
+      return [...found][0].subject.value
     }
   }
   return ''
