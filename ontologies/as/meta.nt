@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/as:> <http://dbpedia.org/ontology/filename> "ontologies/as.nq" .
+<https://prefix.zazuko.com/as:> <http://dbpedia.org/ontology/filename> "@vocabulary/as/as.nq" .
 <https://prefix.zazuko.com/as:> <http://purl.org/dc/terms/description> "Extended Activity Streams 2.0 Vocabulary" .
 <https://prefix.zazuko.com/as:> <http://purl.org/dc/terms/title> "Activity Streams 2.0" .
 <https://prefix.zazuko.com/as:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .

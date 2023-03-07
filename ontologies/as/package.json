@@ -12,6 +12,8 @@
   "license": "MIT",
   "vocabulary": {
     "prefix": "as",
-    "namespace": "https://www.w3.org/ns/activitystreams#"
+    "namespace": "https://www.w3.org/ns/activitystreams#",
+    "file": "https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl",
+    "mediaType": "text/turtle"
   }
 }
