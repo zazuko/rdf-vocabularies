@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "locn",
     "namespace": "http://www.w3.org/ns/locn#"
-  }
+  },
+  "license": "MIT"
 }

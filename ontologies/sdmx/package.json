@@ -13,5 +13,6 @@
     "prefix": "sdmx",
     "namespace": "http://purl.org/linked-data/sdmx#",
     "mediaType": "text/turtle"
-  }
+  },
+  "license": "MIT"
 }

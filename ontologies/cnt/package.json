@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "cnt",
     "namespace": "http://www.w3.org/2011/content#"
-  }
+  },
+  "license": "MIT"
 }

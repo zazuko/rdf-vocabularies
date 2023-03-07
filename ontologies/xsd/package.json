@@ -14,5 +14,6 @@
     "namespace": "http://www.w3.org/2001/XMLSchema#",
     "file": "https://raw.githubusercontent.com/ruby-rdf/rdf/master/etc/xsd.ttl",
     "mediaType": "text/turtle"
-  }
+  },
+  "license": "MIT"
 }

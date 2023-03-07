@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "quantitykind",
     "namespace": "http://qudt.org/vocab/quantitykind/"
-  }
+  },
+  "license": "MIT"
 }

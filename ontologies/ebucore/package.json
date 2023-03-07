@@ -13,5 +13,6 @@
     "prefix": "ebucore",
     "namespace": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
     "file": "https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf"
-  }
+  },
+  "license": "MIT"
 }

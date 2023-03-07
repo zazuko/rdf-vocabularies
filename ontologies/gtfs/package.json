@@ -13,5 +13,6 @@
     "prefix": "gtfs",
     "namespace": "http://vocab.gtfs.org/terms#",
     "mediaType": "text/n3"
-  }
+  },
+  "license": "MIT"
 }

@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "time",
     "namespace": "http://www.w3.org/2006/time#"
-  }
+  },
+  "license": "MIT"
 }

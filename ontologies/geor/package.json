@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "geor",
     "namespace": "http://www.opengis.net/def/rule/geosparql/"
-  }
+  },
+  "license": "MIT"
 }

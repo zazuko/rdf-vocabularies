@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "hydra",
     "namespace": "http://www.w3.org/ns/hydra/core#"
-  }
+  },
+  "license": "MIT"
 }

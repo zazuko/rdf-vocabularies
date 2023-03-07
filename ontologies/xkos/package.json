@@ -14,5 +14,6 @@
     "namespace": "http://rdf-vocabulary.ddialliance.org/xkos#",
     "file": "https://raw.githubusercontent.com/linked-statistics/xkos/master/xkos.ttl",
     "mediaType": "text/turtle"
-  }
+  },
+  "license": "MIT"
 }

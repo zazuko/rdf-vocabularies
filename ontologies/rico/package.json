@@ -14,5 +14,6 @@
     "namespace": "https://www.ica.org/standards/RiC/ontology#",
     "file": "https://github.com/ICA-EGAD/RiC-O/raw/master/ontology/current-version/RiC-O_v0-2.rdf",
     "mediaType": "application/rdf+xml"
-  }
+  },
+  "license": "MIT"
 }

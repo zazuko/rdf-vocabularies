@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "duv",
     "namespace": "http://www.w3.org/ns/duv#"
-  }
+  },
+  "license": "MIT"
 }

@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "shex",
     "namespace": "http://www.w3.org/ns/shex#"
-  }
+  },
+  "license": "MIT"
 }

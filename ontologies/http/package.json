@@ -13,5 +13,6 @@
     "prefix": "http",
     "namespace": "http://www.w3.org/2011/http#",
     "mediaType": "application/rdf+xml"
-  }
+  },
+  "license": "MIT"
 }

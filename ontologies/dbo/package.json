@@ -19,5 +19,6 @@
         "file": "http://dbpedia.org/ontology/"
       }
     ]
-  }
+  },
+  "license": "MIT"
 }

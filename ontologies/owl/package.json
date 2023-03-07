@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "owl",
     "namespace": "http://www.w3.org/2002/07/owl#"
-  }
+  },
+  "license": "MIT"
 }

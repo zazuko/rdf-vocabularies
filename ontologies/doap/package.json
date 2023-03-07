@@ -13,5 +13,6 @@
     "prefix": "doap",
     "namespace": "http://usefulinc.com/ns/doap#",
     "mediaType": "application/rdf+xml"
-  }
+  },
+  "license": "MIT"
 }

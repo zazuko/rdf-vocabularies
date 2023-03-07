@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "dcmitype",
     "namespace": "http://purl.org/dc/dcmitype/"
-  }
+  },
+  "license": "MIT"
 }

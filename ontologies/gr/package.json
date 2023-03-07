@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "gr",
     "namespace": "http://purl.org/goodrelations/v1#"
-  }
+  },
+  "license": "MIT"
 }

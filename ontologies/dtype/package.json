@@ -13,5 +13,6 @@
     "prefix": "dtype",
     "namespace": "http://www.linkedmodel.org/schema/dtype#",
     "mediaType": "application/rdf+xml"
-  }
+  },
+  "license": "MIT"
 }

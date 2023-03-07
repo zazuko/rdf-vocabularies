@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "crm",
     "namespace": "http://www.cidoc-crm.org/cidoc-crm/"
-  }
+  },
+  "license": "MIT"
 }

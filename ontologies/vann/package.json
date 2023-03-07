@@ -17,5 +17,6 @@
     "xmlParserOptions": {
       "baseIRI": "http://vocab.org/vann/"
     }
-  }
+  },
+  "license": "MIT"
 }

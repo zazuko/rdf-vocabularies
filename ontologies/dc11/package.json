@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "dc11",
     "namespace": "http://purl.org/dc/elements/1.1/"
-  }
+  },
+  "license": "MIT"
 }

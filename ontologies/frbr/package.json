@@ -13,5 +13,6 @@
     "prefix": "frbr",
     "namespace": "http://purl.org/vocab/frbr/core#",
     "file": "http://purl.org/spar/frbr.nt"
-  }
+  },
+  "license": "MIT"
 }

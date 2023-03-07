@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "prov",
     "namespace": "http://www.w3.org/ns/prov#"
-  }
+  },
+  "license": "MIT"
 }

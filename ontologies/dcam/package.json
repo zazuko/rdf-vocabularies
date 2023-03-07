@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "dcam",
     "namespace": "http://purl.org/dc/dcam/"
-  }
+  },
+  "license": "MIT"
 }

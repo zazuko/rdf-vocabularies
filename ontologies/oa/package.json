@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "oa",
     "namespace": "http://www.w3.org/ns/oa#"
-  }
+  },
+  "license": "MIT"
 }

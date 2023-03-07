@@ -22,5 +22,6 @@
         "file": "http://qudt.org/2.1/schema/datatype"
       }
     ]
-  }
+  },
+  "license": "MIT"
 }

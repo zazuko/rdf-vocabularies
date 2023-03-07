@@ -13,5 +13,6 @@
     "prefix": "cc",
     "namespace": "http://creativecommons.org/ns#",
     "file": "https://creativecommons.org/schema.rdf"
-  }
+  },
+  "license": "MIT"
 }

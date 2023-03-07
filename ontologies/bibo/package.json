@@ -13,5 +13,6 @@
     "prefix": "bibo",
     "namespace": "http://purl.org/ontology/bibo/",
     "mediaType": "application/rdf+xml"
-  }
+  },
+  "license": "MIT"
 }

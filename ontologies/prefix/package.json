@@ -13,5 +13,6 @@
     "prefix": "prefix",
     "namespace": "http://qudt.org/vocab/prefix/",
     "file": "http://qudt.org/2.1/vocab/prefix"
-  }
+  },
+  "license": "MIT"
 }

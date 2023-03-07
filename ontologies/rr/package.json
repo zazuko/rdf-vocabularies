@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "rr",
     "namespace": "http://www.w3.org/ns/r2rml#"
-  }
+  },
+  "license": "MIT"
 }

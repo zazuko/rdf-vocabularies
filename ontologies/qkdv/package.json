@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "qkdv",
     "namespace": "http://qudt.org/vocab/dimensionvector/"
-  }
+  },
+  "license": "MIT"
 }

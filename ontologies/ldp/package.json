@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "ldp",
     "namespace": "http://www.w3.org/ns/ldp#"
-  }
+  },
+  "license": "MIT"
 }

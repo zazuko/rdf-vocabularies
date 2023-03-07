@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "dash",
     "namespace": "http://datashapes.org/dash#"
-  }
+  },
+  "license": "MIT"
 }

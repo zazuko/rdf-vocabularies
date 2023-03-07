@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "mads",
     "namespace": "http://www.loc.gov/mads/rdf/v1#"
-  }
+  },
+  "license": "MIT"
 }

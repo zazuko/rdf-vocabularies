@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "constant",
     "namespace": "http://qudt.org/vocab/constant/"
-  }
+  },
+  "license": "MIT"
 }

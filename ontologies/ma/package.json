@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "ma",
     "namespace": "http://www.w3.org/ns/ma-ont#"
-  }
+  },
+  "license": "MIT"
 }

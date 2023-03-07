@@ -14,5 +14,6 @@
     "namespace": "https://gs1.org/voc/",
     "file": "https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl",
     "mediaType": "text/turtle"
-  }
+  },
+  "license": "MIT"
 }

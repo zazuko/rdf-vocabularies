@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "sioc",
     "namespace": "http://rdfs.org/sioc/ns#"
-  }
+  },
+  "license": "MIT"
 }

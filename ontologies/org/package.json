@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "org",
     "namespace": "http://www.w3.org/ns/org#"
-  }
+  },
+  "license": "MIT"
 }

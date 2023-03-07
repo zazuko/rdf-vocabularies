@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "gn",
     "namespace": "http://www.geonames.org/ontology#"
-  }
+  },
+  "license": "MIT"
 }

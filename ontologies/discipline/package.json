@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "discipline",
     "namespace": "http://qudt.org/vocab/discipline/"
-  }
+  },
+  "license": "MIT"
 }

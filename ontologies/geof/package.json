@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "geof",
     "namespace": "http://www.opengis.net/def/function/geosparql/"
-  }
+  },
+  "license": "MIT"
 }

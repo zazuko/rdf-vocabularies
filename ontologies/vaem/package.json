@@ -13,5 +13,6 @@
     "prefix": "vaem",
     "namespace": "http://www.linkedmodel.org/schema/vaem#",
     "mediaType": "application/rdf+xml"
-  }
+  },
+  "license": "MIT"
 }

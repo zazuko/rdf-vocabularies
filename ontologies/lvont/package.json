@@ -13,5 +13,6 @@
     "prefix": "lvont",
     "namespace": "http://lexvo.org/ontology#",
     "mediaType": "application/rdf+xml"
-  }
+  },
+  "license": "MIT"
 }

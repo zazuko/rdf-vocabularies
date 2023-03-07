@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "sou",
     "namespace": "http://qudt.org/vocab/sou/"
-  }
+  },
+  "license": "MIT"
 }

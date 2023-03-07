@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "sd",
     "namespace": "http://www.w3.org/ns/sparql-service-description#"
-  }
+  },
+  "license": "MIT"
 }

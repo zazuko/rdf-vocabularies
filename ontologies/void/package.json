@@ -13,5 +13,6 @@
     "prefix": "void",
     "namespace": "http://rdfs.org/ns/void#",
     "file": "http://vocab.deri.ie/void.ttl"
-  }
+  },
+  "license": "MIT"
 }

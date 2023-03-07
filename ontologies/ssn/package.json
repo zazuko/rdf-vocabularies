@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "ssn",
     "namespace": "http://www.w3.org/ns/ssn/"
-  }
+  },
+  "license": "MIT"
 }

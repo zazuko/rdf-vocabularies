@@ -9,6 +9,7 @@
   "devDependencies": {
     "@vocabulary/builder": "^0.0.0"
   },
+  "license": "MIT",
   "vocabulary": {
     "prefix": "dpv",
     "namespace": "http://www.w3.org/ns/dpv#",

@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "dqv",
     "namespace": "http://www.w3.org/ns/dqv#"
-  }
+  },
+  "license": "MIT"
 }

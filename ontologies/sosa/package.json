@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "sosa",
     "namespace": "http://www.w3.org/ns/sosa/"
-  }
+  },
+  "license": "MIT"
 }

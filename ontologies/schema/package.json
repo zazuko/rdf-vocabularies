@@ -13,5 +13,6 @@
     "prefix": "schema",
     "namespace": "http://schema.org/",
     "file": "https://schema.org/version/latest/schemaorg-current-http.nt"
-  }
+  },
+  "license": "MIT"
 }

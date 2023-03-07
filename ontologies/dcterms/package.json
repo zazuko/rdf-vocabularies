@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "dcterms",
     "namespace": "http://purl.org/dc/terms/"
-  }
+  },
+  "license": "MIT"
 }

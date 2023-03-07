@@ -12,5 +12,6 @@
   "vocabulary": {
     "prefix": "dcat",
     "namespace": "http://www.w3.org/ns/dcat#"
-  }
+  },
+  "license": "MIT"
 }
