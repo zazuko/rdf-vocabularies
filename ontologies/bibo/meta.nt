@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/bibo:> <http://dbpedia.org/ontology/filename> "ontologies/bibo.nq" .
+<https://prefix.zazuko.com/bibo:> <http://dbpedia.org/ontology/filename> "@vocabulary/bibo/bibo.nq" .
 <https://prefix.zazuko.com/bibo:> <http://purl.org/dc/terms/description> "The Bibliographic Ontology describes\nbibliographic things on the semantic Web in RDF.  This ontology can be\nused as a citation ontology, as a document classification ontology, or\nsimply as a way to describe any kind of document in RDF. It has been\ninspired by many existing document description metadata formats, and\ncan be used as a common ground for converting other bibliographic data\nsources." .
 <https://prefix.zazuko.com/bibo:> <http://purl.org/dc/terms/title> "The Bibliographic Ontology" .
 <https://prefix.zazuko.com/bibo:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
