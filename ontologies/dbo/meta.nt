@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/dbo:> <http://dbpedia.org/ontology/filename> "@vocabulary/dbo/dataset.nq" .
+<https://prefix.zazuko.com/dbo:> <http://dbpedia.org/ontology/filename> "@vocabulary/dbo/dbo.nq" .
 <https://prefix.zazuko.com/dbo:> <http://purl.org/dc/terms/description> "The DBpedia ontology provides the classes and properties used in the DBpedia data set." .
 <https://prefix.zazuko.com/dbo:> <http://purl.org/dc/terms/title> "The DBpedia Ontology" .
 <https://prefix.zazuko.com/dbo:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .

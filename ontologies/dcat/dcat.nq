@@ -57,8 +57,8 @@
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Καταγραφή καταλόγου"@el <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "سجل"@ar <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#label> "カタログ・レコード"@ja <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n10 <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n20 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n5 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n7 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2004/02/skos/core#definition> "1つのデータセットを記述したデータ・カタログ内のレコード。"@ja <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2004/02/skos/core#definition> "A record in a data catalog, describing the registration of a single dataset or data service."@en <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2004/02/skos/core#definition> "En post i et datakatalog der beskriver registreringen af et enkelt datasæt eller en datatjeneste."@da <http://www.w3.org/ns/dcat#> .
@@ -68,7 +68,7 @@
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2004/02/skos/core#definition> "Záznam v datovém katalogu popisující jednu datovou sadu či datovou službu."@cs <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2004/02/skos/core#definition> "Μία καταγραφή ενός καταλόγου, η οποία περιγράφει ένα συγκεκριμένο σύνολο δεδομένων."@el <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2004/02/skos/core#editorialNote> "English definition updated in this revision. Multilingual text not yet updated except the Spanish one and the Czech one and Italian one."@en <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2004/02/skos/core#scopeNote> "C'est une classe facultative et tous les catalogues ne l'utiliseront pas. Cette classe existe pour les catalogues\tayant une distinction entre les métadonnées sur le jeu de données et les métadonnées sur une entrée du jeu de données dans le catalogue."@fr <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2004/02/skos/core#scopeNote> "C'est une classe facultative et tous les catalogues ne l'utiliseront pas. Cette classe existe pour les catalogues	ayant une distinction entre les métadonnées sur le jeu de données et les métadonnées sur une entrée du jeu de données dans le catalogue."@fr <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2004/02/skos/core#scopeNote> "Denne klasse er valgfri og ikke alle kataloger vil anvende denne klasse. Den kan anvendes i de kataloger hvor der skelnes mellem metadata om datasættet eller datatjenesten og metadata om selve posten til registreringen af datasættet eller datatjenesten i kataloget. Udgivelsesdatoen for datasættet afspejler for eksempel den dato hvor informationerne oprindeligt blev gjort tilgængelige af udgiveren, hvorimod udgivelsesdatoen for katalogposten er den dato hvor datasættet blev føjet til kataloget. I de tilfælde hvor de to datoer er forskellige eller hvor blot sidstnævnte er kendt, bør udgivelsesdatoen kun angives for katalogposten. Bemærk at W3Cs PROV ontologi gør til muligt at tilføje yderligere proveniensoplysninger eksempelvis om processen eller aktøren involveret i en given ændring af datasættet."@da <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2004/02/skos/core#scopeNote> "Esta clase es opcional y no todos los catálogos la utilizarán. Esta clase existe para catálogos que hacen una distinción entre los metadatos acerca de un conjunto de datos o un servicio de datos y los metadatos acerca de una entrada en ese conjunto de datos en el catálogo. Por ejemplo, la propiedad sobre la fecha de la publicación de los datos refleja la fecha en que la información fue originalmente publicada, mientras que la fecha de publicación del registro del catálogo es la fecha en que los datos se agregaron al mismo. En caso en que ambas fechas fueran diferentes, o en que sólo la fecha de publicación del registro del catálogo estuviera disponible, sólo debe especificarse en el registro del catálogo. Tengan en cuenta que la ontología PROV de W3C permite describir otra información sobre la proveniencia de los datos, como por ejemplo detalles del proceso y de los agentes involucrados en algún cambio específico a los datos."@es <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#CatalogRecord> <http://www.w3.org/2004/02/skos/core#scopeNote> "Questa classe è opzionale e non tutti i cataloghi la utilizzeranno. Esiste per cataloghi in cui si opera una distinzione tra i metadati relativi al dataset ed i metadati relativi alla gestione del dataset nel catalogo. Ad esempio, la  proprietà per indicare la data di pubblicazione del dataset rifletterà la data in cui l'informazione è stata originariamente messa a disposizione dalla casa editrice, mentre la data di pubblicazione per il record nel catalogo rifletterà la data in cui il dataset è stato aggiunto al catalogo. Nei casi dove solo quest'ultima sia nota, si utilizzerà esclusivamente la data di  pubblicazione relativa al record del catalogo. Si noti che l'Ontologia W3C PROV permette di descrivere ulteriori informazioni sulla provenienza, quali i dettagli del processo, la procedura e l'agente coinvolto in una particolare modifica di un dataset."@it <http://www.w3.org/ns/dcat#> .
@@ -341,7 +341,7 @@
 <http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "رابط وصول"@ar <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#label> "アクセスURL"@ja <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n3 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n29 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2004/02/skos/core#altLabel> "adgangsURL"@da <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2004/02/skos/core#definition> "A URL of a resource that gives access to a distribution of the dataset. E.g. landing page, feed, SPARQL endpoint. Use for all cases except a simple download link, in which case downloadURL is preferred."@en <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#accessURL> <http://www.w3.org/2004/02/skos/core#definition> "Ceci peut être tout type d'URL qui donne accès à une distribution du jeu de données. Par exemple, un lien à une page HTML contenant un lien au jeu de données, un Flux RSS, un point d'accès SPARQL. Utilisez le lorsque votre catalogue ne contient pas d'information sur quoi il est ou quand ce n'est pas téléchargeable."@fr <http://www.w3.org/ns/dcat#> .
@@ -738,7 +738,7 @@
 <http://www.w3.org/ns/dcat#hadRole> <http://www.w3.org/2000/01/rdf-schema#comment> "La función de una entidad o agente con respecto a otra entidad o recurso."@es <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#hadRole> <http://www.w3.org/2000/01/rdf-schema#comment> "La funzione di un'entità o un agente rispetto ad un'altra entità o risorsa."@it <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#hadRole> <http://www.w3.org/2000/01/rdf-schema#comment> "The function of an entity or agent with respect to another entity or resource."@en <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat#hadRole> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n16 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat#hadRole> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n23 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#hadRole> <http://www.w3.org/2000/01/rdf-schema#label> "haRuolo"@it <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#hadRole> <http://www.w3.org/2000/01/rdf-schema#label> "hadRole"@en <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#hadRole> <http://www.w3.org/2000/01/rdf-schema#label> "havde rolle"@da <http://www.w3.org/ns/dcat#> .
@@ -1210,23 +1210,23 @@
 <http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2004/02/skos/core#scopeNote> "Je doporučeno, aby byla taxonomie vyjádřena jako skos:ConceptScheme, skos:Collection, owl:Ontology nebo podobné, aby mohla být každá položka identifikována pomocí IRI a publikována jako propojená data."@cs <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2004/02/skos/core#scopeNote> "Se recomienda que la taxonomía se organice como un skos:ConceptScheme, skos:Collection, owl:Ontology o similar, los cuáles permiten que cada miembro se denote con una IRI y se publique como datos enlazados."@es <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat#themeTaxonomy> <http://www.w3.org/2004/02/skos/core#scopeNote> "Si raccomanda che la tassonomia sia organizzata in uno skos:ConceptScheme, skos:Collection, owl:Ontology o simili, che permette ad ogni membro di essere indicato da un IRI e pubblicato come linked-data."@it <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n0 <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n12 <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n13 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n1 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n11 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n14 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n15 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n17 <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n19 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n18 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n2 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n20 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n21 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n22 <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n23 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n24 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n25 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n26 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n28 <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n4 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n6 <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n7 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/contributor> _:c14n9 <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/creator> _:c14n30 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/creator> _:c14n27 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/creator> _:c14n8 <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://purl.org/dc/terms/modified> "2012-04-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/dcat#> .
@@ -1264,79 +1264,79 @@
 <http://www.w3.org/ns/dcat> <http://www.w3.org/2002/07/owl#versionInfo> "This is an updated copy of v2.0 of the DCAT vocabulary, taken from https://www.w3.org/ns/dcat.ttl"@en <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://www.w3.org/2002/07/owl#versionInfo> "Toto je aktualizovaná kopie slovníku DCAT verze 2.0, převzatá z https://www.w3.org/ns/dcat.ttl"@cs <http://www.w3.org/ns/dcat#> .
 <http://www.w3.org/ns/dcat> <http://www.w3.org/2004/02/skos/core#editorialNote> "English language definitions updated in this revision in line with ED. Multilingual text unevenly updated."@en <http://www.w3.org/ns/dcat#> .
-<http://www.w3.org/ns/dcat> <http://xmlns.com/foaf/0.1/maker> _:c14n25 <http://www.w3.org/ns/dcat#> .
+<http://www.w3.org/ns/dcat> <http://xmlns.com/foaf/0.1/maker> _:c14n0 <http://www.w3.org/ns/dcat#> .
 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/dcat#> .
 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "This axiom needed so that Protege loads DCAT2 without errors." <http://www.w3.org/ns/dcat#> .
 <http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/dcat#> .
 <http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/2000/01/rdf-schema#comment> "This axiom needed so that Protege loads DCAT2 without errors." <http://www.w3.org/ns/dcat#> .
-_:c14n0 <http://schema.org/affiliation> _:c14n2 <http://www.w3.org/ns/dcat#> .
-_:c14n0 <http://xmlns.com/foaf/0.1/name> "David Browning" <http://www.w3.org/ns/dcat#> .
-_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Attribution> <http://www.w3.org/ns/dcat#> .
-_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n11 <http://www.w3.org/ns/dcat#> .
-_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/dcat#> .
-_:c14n10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/ns/dcat#Resource> <http://www.w3.org/ns/dcat#> .
-_:c14n10 <http://www.w3.org/2002/07/owl#onProperty> <http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/ns/dcat#> .
-_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/dcat#Relationship> <http://www.w3.org/ns/dcat#> .
-_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/dcat#> .
-_:c14n12 <http://xmlns.com/foaf/0.1/name> "Marios Meimaris" <http://www.w3.org/ns/dcat#> .
-_:c14n13 <http://schema.org/affiliation> _:c14n29 <http://www.w3.org/ns/dcat#> .
-_:c14n13 <http://xmlns.com/foaf/0.1/name> "Vassilios Peristeras" <http://www.w3.org/ns/dcat#> .
-_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/dcat#endpointURL> <http://www.w3.org/ns/dcat#> .
-_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/dcat#> .
-_:c14n15 <http://schema.org/affiliation> _:c14n5 <http://www.w3.org/ns/dcat#> .
-_:c14n15 <http://xmlns.com/foaf/0.1/name> "Rufus Pollock" <http://www.w3.org/ns/dcat#> .
-_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/dcat#> .
-_:c14n16 <http://www.w3.org/2002/07/owl#unionOf> _:c14n1 <http://www.w3.org/ns/dcat#> .
-_:c14n17 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://orcid.org/0000-0001-5648-2713> <http://www.w3.org/ns/dcat#> .
-_:c14n17 <http://xmlns.com/foaf/0.1/homepage> <http://www.imati.cnr.it/index.php/people/8-curricula/178-riccardo-albertoni> <http://www.w3.org/ns/dcat#> .
-_:c14n17 <http://xmlns.com/foaf/0.1/homepage> <https://w3id.org/people/ralbertoni/> <http://www.w3.org/ns/dcat#> .
-_:c14n17 <http://xmlns.com/foaf/0.1/name> "Riccardo Albertoni" <http://www.w3.org/ns/dcat#> .
-_:c14n18 <http://xmlns.com/foaf/0.1/homepage> <http://stfc.ac.uk> <http://www.w3.org/ns/dcat#> .
-_:c14n18 <http://xmlns.com/foaf/0.1/name> "Science and Technology Facilities Council, UK" <http://www.w3.org/ns/dcat#> .
-_:c14n19 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://jakub.klímek.com/#me> <http://www.w3.org/ns/dcat#> .
-_:c14n19 <http://xmlns.com/foaf/0.1/homepage> <https://jakub.klímek.com/> <http://www.w3.org/ns/dcat#> .
-_:c14n19 <http://xmlns.com/foaf/0.1/name> "Jakub Klímek" <http://www.w3.org/ns/dcat#> .
-_:c14n2 <http://xmlns.com/foaf/0.1/homepage> <http://www.refinitiv.com> <http://www.w3.org/ns/dcat#> .
-_:c14n2 <http://xmlns.com/foaf/0.1/name> "Refinitiv" <http://www.w3.org/ns/dcat#> .
-_:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/dcat#> .
-_:c14n20 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/dcat#> .
-_:c14n20 <http://www.w3.org/2002/07/owl#onProperty> <http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/ns/dcat#> .
-_:c14n21 <http://schema.org/affiliation> _:c14n27 <http://www.w3.org/ns/dcat#> .
-_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/ns/dcat#> .
-_:c14n21 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://orcid.org/0000-0002-3884-3420> <http://www.w3.org/ns/dcat#> .
-_:c14n21 <http://xmlns.com/foaf/0.1/name> "Simon J D Cox" <http://www.w3.org/ns/dcat#> .
-_:c14n21 <http://xmlns.com/foaf/0.1/workInfoHomepage> <http://people.csiro.au/Simon-Cox> <http://www.w3.org/ns/dcat#> .
-_:c14n22 <http://xmlns.com/foaf/0.1/homepage> <http://www.asahi-net.or.jp/~ax2s-kmtn/> <http://www.w3.org/ns/dcat#> .
-_:c14n22 <http://xmlns.com/foaf/0.1/name> "Shuji Kamitsuna" <http://www.w3.org/ns/dcat#> .
-_:c14n23 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eurecom.fr/~atemezin/gatemezing-foaf.rdf> <http://www.w3.org/ns/dcat#> .
-_:c14n23 <http://xmlns.com/foaf/0.1/name> "Ghislain Auguste Atemezing" <http://www.w3.org/ns/dcat#> .
-_:c14n24 <http://xmlns.com/foaf/0.1/name> "Martin Alvarez-Espinar" <http://www.w3.org/ns/dcat#> .
-_:c14n25 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/2011/gld/> <http://www.w3.org/ns/dcat#> .
-_:c14n25 <http://xmlns.com/foaf/0.1/name> "Government Linked Data WG" <http://www.w3.org/ns/dcat#> .
-_:c14n26 <http://schema.org/affiliation> _:c14n18 <http://www.w3.org/ns/dcat#> .
-_:c14n26 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://orcid.org/0000-0003-3499-8262> <http://www.w3.org/ns/dcat#> .
-_:c14n26 <http://xmlns.com/foaf/0.1/homepage> <https://agbeltran.github.io> <http://www.w3.org/ns/dcat#> .
-_:c14n26 <http://xmlns.com/foaf/0.1/name> "Alejandra Gonzalez-Beltran" <http://www.w3.org/ns/dcat#> .
-_:c14n27 <http://xmlns.com/foaf/0.1/homepage> <https://csiro.au> <http://www.w3.org/ns/dcat#> .
-_:c14n27 <http://xmlns.com/foaf/0.1/name> "Commonwealth Scientific and Industrial Research Organisation" <http://www.w3.org/ns/dcat#> .
-_:c14n28 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://orcid.org/0000-0001-9300-2694> <http://www.w3.org/ns/dcat#> .
-_:c14n28 <http://xmlns.com/foaf/0.1/homepage> <http://www.andrea-perego.name/foaf/#me> <http://www.w3.org/ns/dcat#> .
-_:c14n28 <http://xmlns.com/foaf/0.1/name> "Andrea Perego" <http://www.w3.org/ns/dcat#> .
-_:c14n29 <http://xmlns.com/foaf/0.1/homepage> <http://ec.europa.eu/dgs/informatics/> <http://www.w3.org/ns/dcat#> .
-_:c14n29 <http://xmlns.com/foaf/0.1/name> "European Commission, DG DIGIT" <http://www.w3.org/ns/dcat#> .
-_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/dcat#accessService> <http://www.w3.org/ns/dcat#> .
-_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n14 <http://www.w3.org/ns/dcat#> .
-_:c14n30 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fadmaa.me/foaf.ttl> <http://www.w3.org/ns/dcat#> .
-_:c14n30 <http://xmlns.com/foaf/0.1/name> "Fadi Maali" <http://www.w3.org/ns/dcat#> .
-_:c14n4 <http://xmlns.com/foaf/0.1/name> "Richard Cyganiak" <http://www.w3.org/ns/dcat#> .
-_:c14n5 <http://xmlns.com/foaf/0.1/homepage> <http://okfn.org> <http://www.w3.org/ns/dcat#> .
-_:c14n5 <http://xmlns.com/foaf/0.1/name> "Open Knowledge Foundation" <http://www.w3.org/ns/dcat#> .
-_:c14n6 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://makxdekkers.com/makxdekkers.rdf#me> <http://www.w3.org/ns/dcat#> .
-_:c14n6 <http://xmlns.com/foaf/0.1/homepage> <http://makxdekkers.com/> <http://www.w3.org/ns/dcat#> .
-_:c14n6 <http://xmlns.com/foaf/0.1/name> "Makx Dekkers" <http://www.w3.org/ns/dcat#> .
-_:c14n7 <http://xmlns.com/foaf/0.1/name> "Boris Villazón-Terrazas" <http://www.w3.org/ns/dcat#> .
-_:c14n8 <http://xmlns.com/foaf/0.1/name> "John Erickson" <http://www.w3.org/ns/dcat#> .
-_:c14n9 <http://schema.org/affiliation> <http://www.w3.org/data#W3C> <http://www.w3.org/ns/dcat#> .
-_:c14n9 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://philarcher.org/foaf.rdf#me> <http://www.w3.org/ns/dcat#> .
-_:c14n9 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/People/all#phila> <http://www.w3.org/ns/dcat#> .
-_:c14n9 <http://xmlns.com/foaf/0.1/name> "Phil Archer" <http://www.w3.org/ns/dcat#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/2011/gld/> <http://www.w3.org/ns/dcat#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/name> "Government Linked Data WG" <http://www.w3.org/ns/dcat#> .
+_:c14n1 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://jakub.klímek.com/#me> <http://www.w3.org/ns/dcat#> .
+_:c14n1 <http://xmlns.com/foaf/0.1/homepage> <https://jakub.klímek.com/> <http://www.w3.org/ns/dcat#> .
+_:c14n1 <http://xmlns.com/foaf/0.1/name> "Jakub Klímek" <http://www.w3.org/ns/dcat#> .
+_:c14n10 <http://xmlns.com/foaf/0.1/homepage> <http://www.refinitiv.com> <http://www.w3.org/ns/dcat#> .
+_:c14n10 <http://xmlns.com/foaf/0.1/name> "Refinitiv" <http://www.w3.org/ns/dcat#> .
+_:c14n11 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.eurecom.fr/~atemezin/gatemezing-foaf.rdf> <http://www.w3.org/ns/dcat#> .
+_:c14n11 <http://xmlns.com/foaf/0.1/name> "Ghislain Auguste Atemezing" <http://www.w3.org/ns/dcat#> .
+_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/dcat#Relationship> <http://www.w3.org/ns/dcat#> .
+_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/dcat#> .
+_:c14n13 <http://xmlns.com/foaf/0.1/homepage> <http://ec.europa.eu/dgs/informatics/> <http://www.w3.org/ns/dcat#> .
+_:c14n13 <http://xmlns.com/foaf/0.1/name> "European Commission, DG DIGIT" <http://www.w3.org/ns/dcat#> .
+_:c14n14 <http://schema.org/affiliation> _:c14n13 <http://www.w3.org/ns/dcat#> .
+_:c14n14 <http://xmlns.com/foaf/0.1/name> "Vassilios Peristeras" <http://www.w3.org/ns/dcat#> .
+_:c14n15 <http://xmlns.com/foaf/0.1/name> "Martin Alvarez-Espinar" <http://www.w3.org/ns/dcat#> .
+_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Attribution> <http://www.w3.org/ns/dcat#> .
+_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n12 <http://www.w3.org/ns/dcat#> .
+_:c14n17 <http://schema.org/affiliation> _:c14n10 <http://www.w3.org/ns/dcat#> .
+_:c14n17 <http://xmlns.com/foaf/0.1/name> "David Browning" <http://www.w3.org/ns/dcat#> .
+_:c14n18 <http://xmlns.com/foaf/0.1/name> "Boris Villazón-Terrazas" <http://www.w3.org/ns/dcat#> .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/dcat#endpointURL> <http://www.w3.org/ns/dcat#> .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/dcat#> .
+_:c14n2 <http://schema.org/affiliation> <http://www.w3.org/data#W3C> <http://www.w3.org/ns/dcat#> .
+_:c14n2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://philarcher.org/foaf.rdf#me> <http://www.w3.org/ns/dcat#> .
+_:c14n2 <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/People/all#phila> <http://www.w3.org/ns/dcat#> .
+_:c14n2 <http://xmlns.com/foaf/0.1/name> "Phil Archer" <http://www.w3.org/ns/dcat#> .
+_:c14n20 <http://xmlns.com/foaf/0.1/homepage> <http://www.asahi-net.or.jp/~ax2s-kmtn/> <http://www.w3.org/ns/dcat#> .
+_:c14n20 <http://xmlns.com/foaf/0.1/name> "Shuji Kamitsuna" <http://www.w3.org/ns/dcat#> .
+_:c14n21 <http://schema.org/affiliation> _:c14n3 <http://www.w3.org/ns/dcat#> .
+_:c14n21 <http://xmlns.com/foaf/0.1/name> "Rufus Pollock" <http://www.w3.org/ns/dcat#> .
+_:c14n22 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://orcid.org/0000-0001-5648-2713> <http://www.w3.org/ns/dcat#> .
+_:c14n22 <http://xmlns.com/foaf/0.1/homepage> <http://www.imati.cnr.it/index.php/people/8-curricula/178-riccardo-albertoni> <http://www.w3.org/ns/dcat#> .
+_:c14n22 <http://xmlns.com/foaf/0.1/homepage> <https://w3id.org/people/ralbertoni/> <http://www.w3.org/ns/dcat#> .
+_:c14n22 <http://xmlns.com/foaf/0.1/name> "Riccardo Albertoni" <http://www.w3.org/ns/dcat#> .
+_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/dcat#> .
+_:c14n23 <http://www.w3.org/2002/07/owl#unionOf> _:c14n16 <http://www.w3.org/ns/dcat#> .
+_:c14n24 <http://xmlns.com/foaf/0.1/name> "Marios Meimaris" <http://www.w3.org/ns/dcat#> .
+_:c14n25 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://makxdekkers.com/makxdekkers.rdf#me> <http://www.w3.org/ns/dcat#> .
+_:c14n25 <http://xmlns.com/foaf/0.1/homepage> <http://makxdekkers.com/> <http://www.w3.org/ns/dcat#> .
+_:c14n25 <http://xmlns.com/foaf/0.1/name> "Makx Dekkers" <http://www.w3.org/ns/dcat#> .
+_:c14n26 <http://schema.org/affiliation> _:c14n30 <http://www.w3.org/ns/dcat#> .
+_:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/ns/dcat#> .
+_:c14n26 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://orcid.org/0000-0002-3884-3420> <http://www.w3.org/ns/dcat#> .
+_:c14n26 <http://xmlns.com/foaf/0.1/name> "Simon J D Cox" <http://www.w3.org/ns/dcat#> .
+_:c14n26 <http://xmlns.com/foaf/0.1/workInfoHomepage> <http://people.csiro.au/Simon-Cox> <http://www.w3.org/ns/dcat#> .
+_:c14n27 <http://xmlns.com/foaf/0.1/name> "John Erickson" <http://www.w3.org/ns/dcat#> .
+_:c14n28 <http://schema.org/affiliation> _:c14n4 <http://www.w3.org/ns/dcat#> .
+_:c14n28 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://orcid.org/0000-0003-3499-8262> <http://www.w3.org/ns/dcat#> .
+_:c14n28 <http://xmlns.com/foaf/0.1/homepage> <https://agbeltran.github.io> <http://www.w3.org/ns/dcat#> .
+_:c14n28 <http://xmlns.com/foaf/0.1/name> "Alejandra Gonzalez-Beltran" <http://www.w3.org/ns/dcat#> .
+_:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/dcat#accessService> <http://www.w3.org/ns/dcat#> .
+_:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n19 <http://www.w3.org/ns/dcat#> .
+_:c14n3 <http://xmlns.com/foaf/0.1/homepage> <http://okfn.org> <http://www.w3.org/ns/dcat#> .
+_:c14n3 <http://xmlns.com/foaf/0.1/name> "Open Knowledge Foundation" <http://www.w3.org/ns/dcat#> .
+_:c14n30 <http://xmlns.com/foaf/0.1/homepage> <https://csiro.au> <http://www.w3.org/ns/dcat#> .
+_:c14n30 <http://xmlns.com/foaf/0.1/name> "Commonwealth Scientific and Industrial Research Organisation" <http://www.w3.org/ns/dcat#> .
+_:c14n4 <http://xmlns.com/foaf/0.1/homepage> <http://stfc.ac.uk> <http://www.w3.org/ns/dcat#> .
+_:c14n4 <http://xmlns.com/foaf/0.1/name> "Science and Technology Facilities Council, UK" <http://www.w3.org/ns/dcat#> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/dcat#> .
+_:c14n5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/ns/dcat#Resource> <http://www.w3.org/ns/dcat#> .
+_:c14n5 <http://www.w3.org/2002/07/owl#onProperty> <http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/ns/dcat#> .
+_:c14n6 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://orcid.org/0000-0001-9300-2694> <http://www.w3.org/ns/dcat#> .
+_:c14n6 <http://xmlns.com/foaf/0.1/homepage> <http://www.andrea-perego.name/foaf/#me> <http://www.w3.org/ns/dcat#> .
+_:c14n6 <http://xmlns.com/foaf/0.1/name> "Andrea Perego" <http://www.w3.org/ns/dcat#> .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/dcat#> .
+_:c14n7 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/dcat#> .
+_:c14n7 <http://www.w3.org/2002/07/owl#onProperty> <http://xmlns.com/foaf/0.1/primaryTopic> <http://www.w3.org/ns/dcat#> .
+_:c14n8 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://fadmaa.me/foaf.ttl> <http://www.w3.org/ns/dcat#> .
+_:c14n8 <http://xmlns.com/foaf/0.1/name> "Fadi Maali" <http://www.w3.org/ns/dcat#> .
+_:c14n9 <http://xmlns.com/foaf/0.1/name> "Richard Cyganiak" <http://www.w3.org/ns/dcat#> .

@@ -1,7 +1,7 @@
 <http://usefulinc.com/ns/doap#> <http://purl.org/dc/elements/1.1/creator> "Edd Wilder-James" <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#> <http://purl.org/dc/elements/1.1/description> "Das Vokabular \"Description of a Project (DOAP)\", beschrieben durch W3C RDF Schema and the Web Ontology Language."@de <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#> <http://purl.org/dc/elements/1.1/description> "El vocabulario Description of a Project (DOAP, Descripción de un Proyecto), descrito usando RDF Schema de W3C\n\t\ty Web Ontology Language."@es <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#> <http://purl.org/dc/elements/1.1/description> "Le vocabulaire Description Of A Project (DOAP, Description D'Un Projet),\n\t\tdécrit en utilisant RDF Schema du W3C et OWL."@fr <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#> <http://purl.org/dc/elements/1.1/description> "El vocabulario Description of a Project (DOAP, Descripción de un Proyecto), descrito usando RDF Schema de W3C\n		y Web Ontology Language."@es <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#> <http://purl.org/dc/elements/1.1/description> "Le vocabulaire Description Of A Project (DOAP, Description D'Un Projet),\n		décrit en utilisant RDF Schema du W3C et OWL."@fr <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#> <http://purl.org/dc/elements/1.1/description> "Slovník Description of a Project (DOAP, Popis projektu), popsaný použitím W3C RDF Schema a Web Ontology Language."@cs <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#> <http://purl.org/dc/elements/1.1/description> "The Description of a Project (DOAP) vocabulary, described using W3C RDF Schema and the Web Ontology Language." <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#> <http://purl.org/dc/elements/1.1/description> "Vocabulário de descrição de um Projeto (DOAP - Description of a Project), descrito no esquema (schema) W3C RDF e na Web Ontology Language."@pt <http://usefulinc.com/ns/doap#> .
@@ -10,7 +10,7 @@
 <http://usefulinc.com/ns/doap#> <http://purl.org/dc/elements/1.1/title> "Description of a Project (DOAP) vocabulary" <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/index.rdf> <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#> <http://xmlns.com/foaf/0.1/maker> _:c14n3 <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#> <http://xmlns.com/foaf/0.1/maker> _:c14n0 <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#ArchRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#ArchRepository> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#ArchRepository> <http://www.w3.org/2000/01/rdf-schema#comment> "Dépôt GNU Arch du code source."@fr <http://usefulinc.com/ns/doap#> .
@@ -375,12 +375,12 @@
 <http://usefulinc.com/ns/doap#helper> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Person> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "El URL de la página de un proyecto,\n\t\tasociada con exactamente un proyecto."@es <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "L'URL de la page web d'un projet,\n\t\tassociée avec un unique projet."@fr <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "O URL da página de um projeto,\n\t\tasociada com exactamente um projeto."@pt <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "El URL de la página de un proyecto,\n		asociada con exactamente un proyecto."@es <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "L'URL de la page web d'un projet,\n		associée avec un unique projet."@fr <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "O URL da página de um projeto,\n		asociada com exactamente um projeto."@pt <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "URL adresa domovské stránky projektu asociované s právě jedním projektem."@cs <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "URL der Projekt-Homepage,\n\t\tverbunden mit genau einem Projekt."@de <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "URL of a project's homepage,\n\t\tassociated with exactly one project."@en <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "URL der Projekt-Homepage,\n		verbunden mit genau einem Projekt."@de <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "URL of a project's homepage,\n		associated with exactly one project."@en <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://usefulinc.com/ns/doap#Project> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://usefulinc.com/ns/doap#> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#homepage> <http://www.w3.org/2000/01/rdf-schema#label> "Homepage"@de <http://usefulinc.com/ns/doap#> .
@@ -500,12 +500,12 @@
 <http://usefulinc.com/ns/doap#name> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "El URL de la antigua página de un proyecto,\n\t\tasociada con exactamente un proyecto."@es <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "L'URL d'une ancienne page web d'un\n\t\tprojet, associée avec un unique projet."@fr <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "O URL antigo da página de um projeto,\n\t\tassociada com exactamente um projeto."@pt <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "El URL de la antigua página de un proyecto,\n		asociada con exactamente un proyecto."@es <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "L'URL d'une ancienne page web d'un\n		projet, associée avec un unique projet."@fr <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "O URL antigo da página de um projeto,\n		associada com exactamente um projeto."@pt <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "URL adresa předešlé domovské stránky projektu asociované s právě jedním projektem."@cs <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "URL der letzten Projekt-Homepage,\n\t\tverbunden mit genau einem Projekt."@de <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "URL of a project's past homepage,\n\t\tassociated with exactly one project."@en <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "URL der letzten Projekt-Homepage,\n		verbunden mit genau einem Projekt."@de <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#comment> "URL of a project's past homepage,\n		associated with exactly one project."@en <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://usefulinc.com/ns/doap#Project> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://usefulinc.com/ns/doap#> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#old-homepage> <http://www.w3.org/2000/01/rdf-schema#label> "Alte Homepage"@de <http://usefulinc.com/ns/doap#> .
@@ -520,8 +520,8 @@
 <http://usefulinc.com/ns/doap#os> <http://www.w3.org/2000/01/rdf-schema#comment> "Operating system that a project is limited to.  Omit this property if the project is not OS-specific."@en <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#os> <http://www.w3.org/2000/01/rdf-schema#comment> "Operační systém, na jehož použití je projekt limitován. Vynechejte tuto vlastnost, pokud je projekt nezávislý na operačním systému."@cs <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#os> <http://www.w3.org/2000/01/rdf-schema#comment> "Sistema operativo a que o projeto está limitado. Omita esta propriedade se o projeto não é condicionado pelo SO usado."@en <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#os> <http://www.w3.org/2000/01/rdf-schema#comment> "Sistema opertivo al cuál está limitado el proyecto.  Omita esta propiedad si el proyecto no es específico\n\t\tde un sistema opertaivo en particular."@es <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#os> <http://www.w3.org/2000/01/rdf-schema#comment> "Système d'exploitation auquel est limité le projet. Omettez cette propriété si le\n\t\tprojet n'est pas limité à un système d'exploitation."@fr <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#os> <http://www.w3.org/2000/01/rdf-schema#comment> "Sistema opertivo al cuál está limitado el proyecto.  Omita esta propiedad si el proyecto no es específico\n		de un sistema opertaivo en particular."@es <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#os> <http://www.w3.org/2000/01/rdf-schema#comment> "Système d'exploitation auquel est limité le projet. Omettez cette propriété si le\n		projet n'est pas limité à un système d'exploitation."@fr <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#os> <http://www.w3.org/2000/01/rdf-schema#domain> <http://usefulinc.com/ns/doap#Project> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#os> <http://www.w3.org/2000/01/rdf-schema#domain> <http://usefulinc.com/ns/doap#Version> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#os> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://usefulinc.com/ns/doap#> <http://usefulinc.com/ns/doap#> .
@@ -542,7 +542,7 @@
 <http://usefulinc.com/ns/doap#platform> <http://www.w3.org/2000/01/rdf-schema#label> "platform"@en <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#platform> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#programming-language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://usefulinc.com/ns/doap#> .
-<http://usefulinc.com/ns/doap#programming-language> <http://www.w3.org/2000/01/rdf-schema#comment> "Langage de programmation avec lequel un projet est implémenté,\n\t\tou avec lequel il est prévu de l'utiliser."@fr <http://usefulinc.com/ns/doap#> .
+<http://usefulinc.com/ns/doap#programming-language> <http://www.w3.org/2000/01/rdf-schema#comment> "Langage de programmation avec lequel un projet est implémenté,\n		ou avec lequel il est prévu de l'utiliser."@fr <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#programming-language> <http://www.w3.org/2000/01/rdf-schema#comment> "Lenguaje de programación en el que un proyecto es implementado o con el cuál pretende usarse."@es <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#programming-language> <http://www.w3.org/2000/01/rdf-schema#comment> "Linguagem de programação que o projeto usa ou é para ser utilizada."@pt <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#programming-language> <http://www.w3.org/2000/01/rdf-schema#comment> "Programmiersprache in der ein Projekt implementiert ist oder intendiert wird zu benutzen."@de <http://usefulinc.com/ns/doap#> .
@@ -709,14 +709,14 @@
 <http://usefulinc.com/ns/doap#wiki> <http://www.w3.org/2000/01/rdf-schema#label> "wiki"@fr <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#wiki> <http://www.w3.org/2000/01/rdf-schema#label> "wiki"@pt <http://usefulinc.com/ns/doap#> .
 <http://usefulinc.com/ns/doap#wiki> <http://www.w3.org/2000/01/rdf-schema#range> <http://rdfs.org/sioc/types#Wiki> <http://usefulinc.com/ns/doap#> .
-_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://usefulinc.com/ns/doap#CVSRepository> <http://usefulinc.com/ns/doap#> .
-_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n2 <http://usefulinc.com/ns/doap#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://usefulinc.com/ns/doap#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/mbox> <mailto:edd@usefulinc.com> <http://usefulinc.com/ns/doap#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/name> "Edd Wilder-James" <http://usefulinc.com/ns/doap#> .
 _:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://usefulinc.com/ns/doap#> .
-_:c14n1 <http://www.w3.org/2002/07/owl#unionOf> _:c14n0 <http://usefulinc.com/ns/doap#> .
+_:c14n1 <http://www.w3.org/2002/07/owl#unionOf> _:c14n4 <http://usefulinc.com/ns/doap#> .
 _:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://usefulinc.com/ns/doap#ArchRepository> <http://usefulinc.com/ns/doap#> .
-_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n4 <http://usefulinc.com/ns/doap#> .
-_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://usefulinc.com/ns/doap#> .
-_:c14n3 <http://xmlns.com/foaf/0.1/mbox> <mailto:edd@usefulinc.com> <http://usefulinc.com/ns/doap#> .
-_:c14n3 <http://xmlns.com/foaf/0.1/name> "Edd Wilder-James" <http://usefulinc.com/ns/doap#> .
-_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://usefulinc.com/ns/doap#BKRepository> <http://usefulinc.com/ns/doap#> .
-_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://usefulinc.com/ns/doap#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n3 <http://usefulinc.com/ns/doap#> .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://usefulinc.com/ns/doap#BKRepository> <http://usefulinc.com/ns/doap#> .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://usefulinc.com/ns/doap#> .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://usefulinc.com/ns/doap#CVSRepository> <http://usefulinc.com/ns/doap#> .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n2 <http://usefulinc.com/ns/doap#> .
