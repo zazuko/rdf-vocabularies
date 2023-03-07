@@ -105,7 +105,7 @@
 <http://purl.org/linked-data/cube#codeList> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/linked-data/cube#CodedProperty> <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube#codeList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/linked-data/cube> <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube#codeList> <http://www.w3.org/2000/01/rdf-schema#label> "code list"@en <http://purl.org/linked-data/cube#> .
-<http://purl.org/linked-data/cube#codeList> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n4 <http://purl.org/linked-data/cube#> .
+<http://purl.org/linked-data/cube#codeList> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n5 <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube#component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube#component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube#component> <http://www.w3.org/2000/01/rdf-schema#comment> "indicates a component specification which is included in the structure of the dataset"@en <http://purl.org/linked-data/cube#> .
@@ -236,9 +236,9 @@
 <http://purl.org/linked-data/cube#structure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/linked-data/cube> <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube#structure> <http://www.w3.org/2000/01/rdf-schema#label> "structure"@en <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube#structure> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/linked-data/cube#DataStructureDefinition> <http://purl.org/linked-data/cube#> .
+<http://purl.org/linked-data/cube> <http://purl.org/dc/terms/contributor> _:c14n0 <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube> <http://purl.org/dc/terms/contributor> _:c14n1 <http://purl.org/linked-data/cube#> .
-<http://purl.org/linked-data/cube> <http://purl.org/dc/terms/contributor> _:c14n2 <http://purl.org/linked-data/cube#> .
-<http://purl.org/linked-data/cube> <http://purl.org/dc/terms/contributor> _:c14n5 <http://purl.org/linked-data/cube#> .
+<http://purl.org/linked-data/cube> <http://purl.org/dc/terms/contributor> _:c14n3 <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube> <http://purl.org/dc/terms/contributor> _:c14n6 <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube> <http://purl.org/dc/terms/contributor> _:c14n7 <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube> <http://purl.org/dc/terms/created> "2010-07-12"^^<http://www.w3.org/2001/XMLSchema#date> <http://purl.org/linked-data/cube#> .
@@ -251,15 +251,15 @@
 <http://purl.org/linked-data/cube> <http://www.w3.org/2000/01/rdf-schema#comment> "This vocabulary allows multi-dimensional data, such as statistics, to be published in RDF. It is based on the core information model from SDMX (and thus also DDI)." <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube> <http://www.w3.org/2000/01/rdf-schema#label> "The data cube vocabulary" <http://purl.org/linked-data/cube#> .
 <http://purl.org/linked-data/cube> <http://www.w3.org/2002/07/owl#versionInfo> "0.2" <http://purl.org/linked-data/cube#> .
-_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/linked-data/cube#HierarchicalCodeList> <http://purl.org/linked-data/cube#> .
-_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://purl.org/linked-data/cube#> .
-_:c14n1 <http://xmlns.com/foaf/0.1/mbox> "dave@epimorphics.com" <http://purl.org/linked-data/cube#> .
-_:c14n2 <http://xmlns.com/foaf/0.1/mbox> "jeni@jenitennison.com" <http://purl.org/linked-data/cube#> .
-_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Collection> <http://purl.org/linked-data/cube#> .
-_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n0 <http://purl.org/linked-data/cube#> .
-_:c14n4 <http://www.w3.org/2002/07/owl#unionOf> _:c14n8 <http://purl.org/linked-data/cube#> .
-_:c14n5 <http://xmlns.com/foaf/0.1/mbox> "richard@cyganiak.de" <http://purl.org/linked-data/cube#> .
-_:c14n6 <http://xmlns.com/foaf/0.1/mbox> "ian@epimorphics.com" <http://purl.org/linked-data/cube#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/mbox> "dave@epimorphics.com" <http://purl.org/linked-data/cube#> .
+_:c14n1 <http://xmlns.com/foaf/0.1/mbox> "ian@epimorphics.com" <http://purl.org/linked-data/cube#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Collection> <http://purl.org/linked-data/cube#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n8 <http://purl.org/linked-data/cube#> .
+_:c14n3 <http://xmlns.com/foaf/0.1/mbox> "richard@cyganiak.de" <http://purl.org/linked-data/cube#> .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://purl.org/linked-data/cube#> .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n2 <http://purl.org/linked-data/cube#> .
+_:c14n5 <http://www.w3.org/2002/07/owl#unionOf> _:c14n4 <http://purl.org/linked-data/cube#> .
+_:c14n6 <http://xmlns.com/foaf/0.1/mbox> "jeni@jenitennison.com" <http://purl.org/linked-data/cube#> .
 _:c14n7 <http://xmlns.com/foaf/0.1/mbox> "arofan.gregory@earthlink.net" <http://purl.org/linked-data/cube#> .
-_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://purl.org/linked-data/cube#> .
-_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n3 <http://purl.org/linked-data/cube#> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/linked-data/cube#HierarchicalCodeList> <http://purl.org/linked-data/cube#> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://purl.org/linked-data/cube#> .

@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/rdau:> <http://dbpedia.org/ontology/filename> "ontologies/rdau.nq" .
+<https://prefix.zazuko.com/rdau:> <http://dbpedia.org/ontology/filename> "@vocabulary/rdau/rdau.nq" .
 <https://prefix.zazuko.com/rdau:> <http://purl.org/dc/terms/title> "RDA Unconstrained properties" .
 <https://prefix.zazuko.com/rdau:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/rdau:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdaregistry.info/Elements/u.nt> .
