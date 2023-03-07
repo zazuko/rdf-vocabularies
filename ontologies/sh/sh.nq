@@ -1,7 +1,7 @@
 <http://www.w3.org/ns/shacl#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#> <http://www.w3.org/2000/01/rdf-schema#comment> "This vocabulary defines terms used in SHACL, the W3C Shapes Constraint Language."@en <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#> <http://www.w3.org/2000/01/rdf-schema#label> "W3C Shapes Constraint Language (SHACL) Vocabulary"@en <http://www.w3.org/ns/shacl#> .
-<http://www.w3.org/ns/shacl#> <http://www.w3.org/ns/shacl#declare> _:c14n3 <http://www.w3.org/ns/shacl#> .
+<http://www.w3.org/ns/shacl#> <http://www.w3.org/ns/shacl#declare> _:c14n4 <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#> <http://www.w3.org/ns/shacl#suggestedShapesGraph> <http://www.w3.org/ns/shacl-shacl#> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#AbstractResult> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#AbstractResult> <http://www.w3.org/2000/01/rdf-schema#comment> "The base class of validation results, typically not instantiated directly."@en <http://www.w3.org/ns/shacl#> .
@@ -305,7 +305,7 @@
 <http://www.w3.org/ns/shacl#NodeKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#NodeKindConstraintComponent-nodeKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#NodeKindConstraintComponent-nodeKind> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#> <http://www.w3.org/ns/shacl#> .
-<http://www.w3.org/ns/shacl#NodeKindConstraintComponent-nodeKind> <http://www.w3.org/ns/shacl#in> _:c14n6 <http://www.w3.org/ns/shacl#> .
+<http://www.w3.org/ns/shacl#NodeKindConstraintComponent-nodeKind> <http://www.w3.org/ns/shacl#in> _:c14n2 <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#NodeKindConstraintComponent-nodeKind> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#NodeKindConstraintComponent-nodeKind> <http://www.w3.org/ns/shacl#path> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#NodeKindConstraintComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#ConstraintComponent> <http://www.w3.org/ns/shacl#> .
@@ -523,7 +523,7 @@
 <http://www.w3.org/ns/shacl#Target> <http://www.w3.org/2000/01/rdf-schema#label> "Target"@en <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#Target> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#TargetType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shacl#> .
-<http://www.w3.org/ns/shacl#TargetType> <http://www.w3.org/2000/01/rdf-schema#comment> "The (meta) class for parameterizable targets.\tInstances of this are instantiated as values of the sh:target property."@en <http://www.w3.org/ns/shacl#> .
+<http://www.w3.org/ns/shacl#TargetType> <http://www.w3.org/2000/01/rdf-schema#comment> "The (meta) class for parameterizable targets.	Instances of this are instantiated as values of the sh:target property."@en <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#TargetType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#TargetType> <http://www.w3.org/2000/01/rdf-schema#label> "Target type"@en <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#TargetType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shacl#> .
@@ -1112,17 +1112,17 @@
 <http://www.w3.org/ns/shacl#zeroOrOnePath> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#zeroOrOnePath> <http://www.w3.org/2000/01/rdf-schema#label> "zero or one path"@en <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#zeroOrOnePath> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shacl#> .
-_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> <http://www.w3.org/ns/shacl#> .
-_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n1 <http://www.w3.org/ns/shacl#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shacl#IRIOrLiteral> <http://www.w3.org/ns/shacl#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shacl#> .
 _:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shacl#BlankNodeOrLiteral> <http://www.w3.org/ns/shacl#> .
-_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n5 <http://www.w3.org/ns/shacl#> .
-_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shacl#Literal> <http://www.w3.org/ns/shacl#> .
-_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n0 <http://www.w3.org/ns/shacl#> .
-_:c14n3 <http://www.w3.org/ns/shacl#namespace> "http://www.w3.org/ns/shacl#" <http://www.w3.org/ns/shacl#> .
-_:c14n3 <http://www.w3.org/ns/shacl#prefix> "sh" <http://www.w3.org/ns/shacl#> .
-_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shacl#IRI> <http://www.w3.org/ns/shacl#> .
-_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n2 <http://www.w3.org/ns/shacl#> .
-_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shacl#IRIOrLiteral> <http://www.w3.org/ns/shacl#> .
-_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shacl#> .
-_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shacl#BlankNode> <http://www.w3.org/ns/shacl#> .
-_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n4 <http://www.w3.org/ns/shacl#> .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n0 <http://www.w3.org/ns/shacl#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shacl#BlankNode> <http://www.w3.org/ns/shacl#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n3 <http://www.w3.org/ns/shacl#> .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shacl#IRI> <http://www.w3.org/ns/shacl#> .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n5 <http://www.w3.org/ns/shacl#> .
+_:c14n4 <http://www.w3.org/ns/shacl#namespace> "http://www.w3.org/ns/shacl#" <http://www.w3.org/ns/shacl#> .
+_:c14n4 <http://www.w3.org/ns/shacl#prefix> "sh" <http://www.w3.org/ns/shacl#> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shacl#Literal> <http://www.w3.org/ns/shacl#> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n6 <http://www.w3.org/ns/shacl#> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> <http://www.w3.org/ns/shacl#> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n1 <http://www.w3.org/ns/shacl#> .

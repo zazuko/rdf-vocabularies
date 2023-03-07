@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/shex:> <http://dbpedia.org/ontology/filename> "ontologies/shex.nq" .
+<https://prefix.zazuko.com/shex:> <http://dbpedia.org/ontology/filename> "@vocabulary/shex/shex.nq" .
 <https://prefix.zazuko.com/shex:> <http://purl.org/dc/terms/description> "This document describes the RDFS vocabulary description used in the Shape Expression Language (ShEx) [[shex-semantics]] along with the default JSON-LD Context and shape expression to validate RDF versions of shapes." .
 <https://prefix.zazuko.com/shex:> <http://purl.org/dc/terms/title> "Shape Expression Vocabulary" .
 <https://prefix.zazuko.com/shex:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .

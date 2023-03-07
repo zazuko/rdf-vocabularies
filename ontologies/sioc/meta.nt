@@ -1,5 +1,5 @@
-<https://prefix.zazuko.com/sioc:> <http://dbpedia.org/ontology/filename> "ontologies/sioc.nq" .
-<https://prefix.zazuko.com/sioc:> <http://purl.org/dc/terms/description> "SIOC (Semantically-Interlinked Online Communities) is an ontology for describing the information in online communities. \r\nThis information can be used to export information from online communities and to link them together. The scope of the application areas that SIOC can be used for includes (and is not limited to) weblogs, message boards, mailing lists and chat channels." .
+<https://prefix.zazuko.com/sioc:> <http://dbpedia.org/ontology/filename> "@vocabulary/sioc/sioc.nq" .
+<https://prefix.zazuko.com/sioc:> <http://purl.org/dc/terms/description> "SIOC (Semantically-Interlinked Online Communities) is an ontology for describing the information in online communities. \nThis information can be used to export information from online communities and to link them together. The scope of the application areas that SIOC can be used for includes (and is not limited to) weblogs, message boards, mailing lists and chat channels." .
 <https://prefix.zazuko.com/sioc:> <http://purl.org/dc/terms/title> "SIOC Core Ontology Namespace" .
 <https://prefix.zazuko.com/sioc:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/sioc:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://rdfs.org/sioc/ns#> .

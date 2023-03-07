@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/sem:> <http://dbpedia.org/ontology/filename> "ontologies/sem.nq" .
+<https://prefix.zazuko.com/sem:> <http://dbpedia.org/ontology/filename> "@vocabulary/sem/sem.nq" .
 <https://prefix.zazuko.com/sem:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/sem:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf> .
 <https://prefix.zazuko.com/sem:> <http://www.w3.org/ns/rdfa#prefix> "sem" .

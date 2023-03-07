@@ -83,8 +83,8 @@
 <http://purl.org/linked-data/sdmx> <http://www.w3.org/2000/01/rdf-schema#comment> "This vocabulary extends the data cube vocabulary to support publication of statistical data in RDF, using an information model based on SDMX" <http://purl.org/linked-data/sdmx#> .
 <http://purl.org/linked-data/sdmx> <http://www.w3.org/2000/01/rdf-schema#label> "SDMX-RDF vocabulary" <http://purl.org/linked-data/sdmx#> .
 <http://purl.org/linked-data/sdmx> <http://www.w3.org/2002/07/owl#versionInfo> "0.3" <http://purl.org/linked-data/sdmx#> .
-_:c14n0 <http://xmlns.com/foaf/0.1/mbox> "richard@cyganiak.de" <http://purl.org/linked-data/sdmx#> .
-_:c14n1 <http://xmlns.com/foaf/0.1/mbox> "ian@epimorphics.com" <http://purl.org/linked-data/sdmx#> .
-_:c14n2 <http://xmlns.com/foaf/0.1/mbox> "arofan.gregory@earthlink.net" <http://purl.org/linked-data/sdmx#> .
-_:c14n3 <http://xmlns.com/foaf/0.1/mbox> "dave@epimorphics.com" <http://purl.org/linked-data/sdmx#> .
-_:c14n4 <http://xmlns.com/foaf/0.1/mbox> "jeni@jenitennison.com" <http://purl.org/linked-data/sdmx#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/mbox> "jeni@jenitennison.com" <http://purl.org/linked-data/sdmx#> .
+_:c14n1 <http://xmlns.com/foaf/0.1/mbox> "dave@epimorphics.com" <http://purl.org/linked-data/sdmx#> .
+_:c14n2 <http://xmlns.com/foaf/0.1/mbox> "richard@cyganiak.de" <http://purl.org/linked-data/sdmx#> .
+_:c14n3 <http://xmlns.com/foaf/0.1/mbox> "ian@epimorphics.com" <http://purl.org/linked-data/sdmx#> .
+_:c14n4 <http://xmlns.com/foaf/0.1/mbox> "arofan.gregory@earthlink.net" <http://purl.org/linked-data/sdmx#> .
