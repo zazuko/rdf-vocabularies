@@ -99,6 +99,7 @@
     "@vocabulary/vcard": "^0.0.0",
     "@vocabulary/void": "^0.0.0",
     "@vocabulary/vs": "^0.0.0",
+    "@vocabulary/wdrs": "^0.0.0",
     "@vocabulary/wgs": "^0.0.0",
     "@vocabulary/xhv": "^0.0.0",
     "@vocabulary/xkos": "^0.0.0",

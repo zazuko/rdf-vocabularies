@@ -1,0 +1,17 @@
+{
+  "name": "@vocabulary/wdrs",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "wdrs",
+    "namespace": "http://www.w3.org/2007/05/powder-s#"
+  },
+  "license": "MIT"
+}

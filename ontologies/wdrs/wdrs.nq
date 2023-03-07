@@ -1,0 +1,123 @@
+<http://www.w3.org/2007/05/powder-s#Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#Document> <http://www.w3.org/2000/01/rdf-schema#comment> "A POWDER document."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#Document> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#structure> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#Document> <http://www.w3.org/2000/01/rdf-schema#label> "POWDER document"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#Processor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#Processor> <http://www.w3.org/2000/01/rdf-schema#comment> "A software agent able to process POWDER documents."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#Processor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#powderprocessor> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#Processor> <http://www.w3.org/2000/01/rdf-schema#label> "POWDER processor"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#Processor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/dc/terms/Agent> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#authenticate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#authenticate> <http://www.w3.org/2000/01/rdf-schema#comment> "A pointer to a document that describes how Description Resources created by a FOAF Agent or a DC Terms Agent may be authenticated"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#authenticate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#discover> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#authenticate> <http://www.w3.org/2000/01/rdf-schema#label> "authenticate"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#certified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#certified> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that takes a Boolean value to declare whether the author of the data certifies the described resource."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#certified> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#certification> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#certified> <http://www.w3.org/2000/01/rdf-schema#label> "certified"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#certified> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#certifiedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#certifiedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#certifiedby> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that links a resource to a POWDER document that certifies it."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#certifiedby> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#certification> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#certifiedby> <http://www.w3.org/2000/01/rdf-schema#label> "certified by"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#data_error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#data_error> <http://www.w3.org/2000/01/rdf-schema#comment> "A property denoting a description of the specific error found in a given POWDER document."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#data_error> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2007/05/powder-s#Document> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#data_error> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#ppErrorhandling> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#data_error> <http://www.w3.org/2000/01/rdf-schema#label> "data error"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#describedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#describedby> <http://www.w3.org/2000/01/rdf-schema#comment> "An RDF property to exactly match the describedby relationship type introduced in http://www.w3.org/TR/powder-dr/#assoc-linking and formally defined in appendix D of the same document, i.e. the relationship A 'describedby' B asserts that resource B provides a description of resource A. There are no constraints on the format or representation of either A or B, neither are there any further constraints on either resource."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#describedby> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#semlink> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#describedby> <http://www.w3.org/2000/01/rdf-schema#label> "described by"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#error_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#error_code> <http://www.w3.org/2000/01/rdf-schema#comment> "A property denoting the code of any error encountered by the POWDER processor."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#error_code> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#ppErrorhandling> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#error_code> <http://www.w3.org/2000/01/rdf-schema#label> "error code"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#error_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#hasIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#hasIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#hasIRI> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is meant to be used in OWL2 instead of wdrs:matchesregex. It denotes the string data range corresponding to a set of IRIs."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#hasIRI> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#hasIRI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-formal/#oxRegexSemantics> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#hasIRI> <http://www.w3.org/2000/01/rdf-schema#label> "has IRI"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#hasIRI> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#issuedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#issuedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#issuedby> <http://www.w3.org/2000/01/rdf-schema#comment> "This property denotes the author of a POWDER document."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#issuedby> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#line3> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#issuedby> <http://www.w3.org/2000/01/rdf-schema#label> "issued by"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#logo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#logo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#logo> <http://www.w3.org/2000/01/rdf-schema#comment> "Points to a graphic summary for the resources in a given class. Typically, it is a logo denoting conformance of a given (set of) resource(s) to a given set of criteria."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#logo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#line13> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#logo> <http://www.w3.org/2000/01/rdf-schema#label> "logo"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#matchesregex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#matchesregex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#matchesregex> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the key 'include' property for IRI set definitions in POWDER-S. It is necessary to take account of the POWDER Semantic Extension to process this fully. The value is a regular expression that is matched against an IRI."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#matchesregex> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#matchesregex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-formal/#regexSemantics> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#matchesregex> <http://www.w3.org/2000/01/rdf-schema#label> "matches regular expression"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#matchesregex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#matchesregex> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/xpath-functions/#regex-syntax> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notknownto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notknownto> <http://www.w3.org/2000/01/rdf-schema#comment> "Property used in results returned from a POWDER Processor that has no data about the candidate resource. The value is the IRI of the processor."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notknownto> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#powderprocessor> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notknownto> <http://www.w3.org/2000/01/rdf-schema#label> "not known to"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notknownto> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2007/05/powder-s#Processor> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notmatchesregex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notmatchesregex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notmatchesregex> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the key 'exclude' property for IRI set definitions in POWDER-S. It is necessary to take account of the POWDER Semantic Extension to process this fully. The value is a regular expression that is matched against an IRI."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notmatchesregex> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notmatchesregex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-formal/#regexSemantics> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notmatchesregex> <http://www.w3.org/2000/01/rdf-schema#label> "matches regular expression"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notmatchesregex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#notmatchesregex> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/xpath-functions/#regex-syntax> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#proc_error> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#proc_error> <http://www.w3.org/2000/01/rdf-schema#comment> "A property denoting a description of the specific software error."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#proc_error> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2007/05/powder-s#Processor> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#proc_error> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#ppErrorhandling> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#proc_error> <http://www.w3.org/2000/01/rdf-schema#label> "processing error"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#sha1sum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#sha1sum> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to a Base64-encoded binary SHA-1 hash of the described resource. May be used by POWDER Processors when assessing trustworthiness of a DR."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#sha1sum> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#certification> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#sha1sum> <http://www.w3.org/2000/01/rdf-schema#label> "SHA-1 sum"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#sha1sum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#base64Binary> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#supportedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#supportedby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#supportedby> <http://www.w3.org/2000/01/rdf-schema#comment> "A property that links a POWDER document to some other data source that supports the descriptions provided."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#supportedby> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#supportedBy> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#supportedby> <http://www.w3.org/2000/01/rdf-schema#label> "supported by"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#tag> <http://www.w3.org/2000/01/rdf-schema#comment> "Property linking to a free-text tag which may include spaces."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#tag> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#tags> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#tag> <http://www.w3.org/2000/01/rdf-schema#label> "tag"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#tag> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#token> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#text> <http://www.w3.org/2000/01/rdf-schema#comment> "This property provides a summary of the descriptorset that it annotates, suitable for display to end users."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#text> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#line13> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#text> <http://www.w3.org/2000/01/rdf-schema#label> "text that may be displayed"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#validfrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#validfrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#validfrom> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides a timestamp that a POWDER Processor may use when assessing trustworthiness of a POWDER document. Informally, a POWDER Processor should normally ignore data in the document before the given date."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#validfrom> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#certification> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#validfrom> <http://www.w3.org/2000/01/rdf-schema#label> "valid from"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#validuntil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#validuntil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#validuntil> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides a timestamp that a POWDER Processor may use when assessing trustworthiness of a POWDER document. Informally, a POWDER Processor should normally ignore data in the document after the given date."@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#validuntil> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/powder-dr/#certification> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s#validuntil> <http://www.w3.org/2000/01/rdf-schema#label> "valid until"@en <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s> <http://purl.org/dc/terms/issued> "2009-09-01" <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s> <http://purl.org/dc/terms/modified> "2010-11-08" <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s> <http://purl.org/dc/terms/modified> "2017-06-02" <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s> <http://purl.org/vocab/vann/preferredNamespacePrefix> "wdrs" <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/2007/05/powder-s#" <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s> <http://www.w3.org/2000/01/rdf-schema#comment> "This file specifies the set of classes and properties used in the RDF/OWL version of POWDER documents." <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s> <http://www.w3.org/2000/01/rdf-schema#label> "POWDER-S Vocabulary" <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s> <http://www.w3.org/2002/07/owl#priorVersion> <http://www.w3.org/2007/05/powder-s> <http://www.w3.org/2007/05/powder-s#> .
+<http://www.w3.org/2007/05/powder-s> <http://www.w3.org/2002/07/owl#versionInfo> "2 June 2017" <http://www.w3.org/2007/05/powder-s#> .

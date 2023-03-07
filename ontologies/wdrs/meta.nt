@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/wdrs:> <http://dbpedia.org/ontology/filename> "@vocabulary/wdrs/wdrs.nq" .
+<https://prefix.zazuko.com/wdrs:> <http://purl.org/dc/terms/description> "This file specifies the set of classes and properties used in the RDF/OWL version of POWDER documents." .
+<https://prefix.zazuko.com/wdrs:> <http://purl.org/dc/terms/title> "POWDER-S Vocabulary" .
+<https://prefix.zazuko.com/wdrs:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/wdrs:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2007/05/powder-s#> .
+<https://prefix.zazuko.com/wdrs:> <http://www.w3.org/ns/rdfa#prefix> "wdrs" .
+<https://prefix.zazuko.com/wdrs:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/2007/05/powder-s#> .
