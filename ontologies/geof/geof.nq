@@ -34,4 +34,4 @@
 <http://www.opengis.net/def/function/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/function/geosparql/sfWithin> <http://www.opengis.net/def/function/geosparql/> .
 <http://www.opengis.net/def/function/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/function/geosparql/symDifference> <http://www.opengis.net/def/function/geosparql/> .
 <http://www.opengis.net/def/function/geosparql/> <http://www.w3.org/2004/02/skos/core#member> <http://www.opengis.net/def/function/geosparql/union> <http://www.opengis.net/def/function/geosparql/> .
-<http://www.opengis.net/def/function/geosparql/> <http://www.w3.org/2004/02/skos/core#prefLabel> "GeoSPARQL Functions\t"@en <http://www.opengis.net/def/function/geosparql/> .
+<http://www.opengis.net/def/function/geosparql/> <http://www.w3.org/2004/02/skos/core#prefLabel> "GeoSPARQL Functions	"@en <http://www.opengis.net/def/function/geosparql/> .

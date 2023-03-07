@@ -13,6 +13,7 @@
   "vocabulary": {
     "prefix": "geo",
     "namespace": "http://www.opengis.net/ont/geosparql#",
-    "file": "http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf"
+    "file": "https://github.com/opengeospatial/ogc-geosparql/raw/master/1.1/geo.ttl",
+    "mediaType": "text/turtle"
   }
 }

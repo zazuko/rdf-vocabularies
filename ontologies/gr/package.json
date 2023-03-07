@@ -11,7 +11,9 @@
   },
   "vocabulary": {
     "prefix": "gr",
-    "namespace": "http://purl.org/goodrelations/v1#"
+    "namespace": "http://purl.org/goodrelations/v1#",
+    "file": "http://www.heppnetz.de/ontologies/goodrelations/v1.owl",
+    "mediaType": "application/rdf+xml"
   },
   "license": "MIT"
 }
