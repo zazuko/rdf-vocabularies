@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/csvw:> <http://dbpedia.org/ontology/filename> "ontologies/csvw.nq" .
+<https://prefix.zazuko.com/csvw:> <http://purl.org/dc/terms/description> "This document describes the RDFS vocabulary description used in the Metadata Vocabulary for Tabular Data [[tabular-metadata]] along with the default JSON-LD Context." .
+<https://prefix.zazuko.com/csvw:> <http://purl.org/dc/terms/title> "CSVW Namespace Vocabulary Terms" .
+<https://prefix.zazuko.com/csvw:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/csvw:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/csvw#> .
+<https://prefix.zazuko.com/csvw:> <http://www.w3.org/ns/rdfa#prefix> "csvw" .
+<https://prefix.zazuko.com/csvw:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/csvw#> .

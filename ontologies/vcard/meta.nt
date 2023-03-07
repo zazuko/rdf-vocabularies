@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/vcard:> <http://dbpedia.org/ontology/filename> "ontologies/vcard.nq" .
+<https://prefix.zazuko.com/vcard:> <http://purl.org/dc/terms/description> "Ontology for vCard based on RFC6350" .
+<https://prefix.zazuko.com/vcard:> <http://purl.org/dc/terms/title> "Ontology for vCard" .
+<https://prefix.zazuko.com/vcard:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/vcard:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/vcard/ns#> .
+<https://prefix.zazuko.com/vcard:> <http://www.w3.org/ns/rdfa#prefix> "vcard" .
+<https://prefix.zazuko.com/vcard:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/2006/vcard/ns#> .

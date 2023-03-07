@@ -1,0 +1,17 @@
+{
+  "name": "@vocabulary/lvont",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "lvont",
+    "namespace": "http://lexvo.org/ontology#",
+    "mediaType": "application/rdf+xml"
+  }
+}

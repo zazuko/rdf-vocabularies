@@ -1,0 +1,6 @@
+<https://prefix.zazuko.com/gs1:> <http://dbpedia.org/ontology/filename> "ontologies/gs1.nq" .
+<https://prefix.zazuko.com/gs1:> <http://purl.org/dc/terms/title> "GS1 Vocabulary" .
+<https://prefix.zazuko.com/gs1:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/gs1:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl> .
+<https://prefix.zazuko.com/gs1:> <http://www.w3.org/ns/rdfa#prefix> "gs1" .
+<https://prefix.zazuko.com/gs1:> <http://www.w3.org/ns/rdfa#uri> <https://gs1.org/voc/> .

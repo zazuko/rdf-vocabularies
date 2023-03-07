@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/ldp:> <http://dbpedia.org/ontology/filename> "ontologies/ldp.nq" .
+<https://prefix.zazuko.com/ldp:> <http://purl.org/dc/terms/description> "Vocabulary URIs defined in the Linked Data Platform (LDP) namespace." .
+<https://prefix.zazuko.com/ldp:> <http://purl.org/dc/terms/title> "The W3C Linked Data Platform (LDP) Vocabulary" .
+<https://prefix.zazuko.com/ldp:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/ldp:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ldp#> .
+<https://prefix.zazuko.com/ldp:> <http://www.w3.org/ns/rdfa#prefix> "ldp" .
+<https://prefix.zazuko.com/ldp:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/ldp#> .

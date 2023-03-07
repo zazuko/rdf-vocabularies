@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/skos:> <http://dbpedia.org/ontology/filename> "ontologies/skos.nq" .
+<https://prefix.zazuko.com/skos:> <http://purl.org/dc/terms/description> "An RDF vocabulary for describing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', other types of controlled vocabulary, and also concept schemes embedded in glossaries and terminologies." .
+<https://prefix.zazuko.com/skos:> <http://purl.org/dc/terms/title> "SKOS Vocabulary" .
+<https://prefix.zazuko.com/skos:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/skos:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2004/02/skos/core#> .
+<https://prefix.zazuko.com/skos:> <http://www.w3.org/ns/rdfa#prefix> "skos" .
+<https://prefix.zazuko.com/skos:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/2004/02/skos/core#> .

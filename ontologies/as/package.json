@@ -1,0 +1,16 @@
+{
+  "name": "@vocabulary/as",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "as",
+    "namespace": "https://www.w3.org/ns/activitystreams#"
+  }
+}

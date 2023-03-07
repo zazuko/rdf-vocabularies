@@ -1,0 +1,17 @@
+{
+  "name": "@vocabulary/vaem",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "vaem",
+    "namespace": "http://www.linkedmodel.org/schema/vaem#",
+    "mediaType": "application/rdf+xml"
+  }
+}

@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/sdmx:> <http://dbpedia.org/ontology/filename> "ontologies/sdmx.nq" .
+<https://prefix.zazuko.com/sdmx:> <http://purl.org/dc/terms/description> "This vocabulary extends the data cube vocabulary to support publication of statistical data in RDF, using an information model based on SDMX" .
+<https://prefix.zazuko.com/sdmx:> <http://purl.org/dc/terms/title> "Vocabulary for publishing SDMX statistical data in RDF" .
+<https://prefix.zazuko.com/sdmx:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/sdmx:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/linked-data/sdmx#> .
+<https://prefix.zazuko.com/sdmx:> <http://www.w3.org/ns/rdfa#prefix> "sdmx" .
+<https://prefix.zazuko.com/sdmx:> <http://www.w3.org/ns/rdfa#uri> <http://purl.org/linked-data/sdmx#> .

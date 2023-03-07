@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/cnt:> <http://dbpedia.org/ontology/filename> "ontologies/cnt.nq" .
+<https://prefix.zazuko.com/cnt:> <http://purl.org/dc/terms/description> "Representing Content in RDF as defined by http://www.w3.org/TR/Content-in-RDF/" .
+<https://prefix.zazuko.com/cnt:> <http://purl.org/dc/terms/title> "Representing Content in RDF" .
+<https://prefix.zazuko.com/cnt:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/cnt:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2011/content#> .
+<https://prefix.zazuko.com/cnt:> <http://www.w3.org/ns/rdfa#prefix> "cnt" .
+<https://prefix.zazuko.com/cnt:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/2011/content#> .

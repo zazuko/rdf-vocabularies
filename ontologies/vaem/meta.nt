@@ -1,0 +1,5 @@
+<https://prefix.zazuko.com/vaem:> <http://dbpedia.org/ontology/filename> "ontologies/vaem.nq" .
+<https://prefix.zazuko.com/vaem:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/vaem:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.linkedmodel.org/schema/vaem#> .
+<https://prefix.zazuko.com/vaem:> <http://www.w3.org/ns/rdfa#prefix> "vaem" .
+<https://prefix.zazuko.com/vaem:> <http://www.w3.org/ns/rdfa#uri> <http://www.linkedmodel.org/schema/vaem#> .

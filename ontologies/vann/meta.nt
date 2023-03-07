@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/vann:> <http://dbpedia.org/ontology/filename> "ontologies/vann.nq" .
+<https://prefix.zazuko.com/vann:> <http://purl.org/dc/terms/description> "This document describes a vocabulary for annotating descriptions of vocabularies with examples and usage notes." .
+<https://prefix.zazuko.com/vann:> <http://purl.org/dc/terms/title> "VANN: A vocabulary for annotating vocabulary descriptions" .
+<https://prefix.zazuko.com/vann:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/vann:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://vocab.org/vann/vann-vocab-20100607.rdf> .
+<https://prefix.zazuko.com/vann:> <http://www.w3.org/ns/rdfa#prefix> "vann" .
+<https://prefix.zazuko.com/vann:> <http://www.w3.org/ns/rdfa#uri> <http://purl.org/vocab/vann/> .

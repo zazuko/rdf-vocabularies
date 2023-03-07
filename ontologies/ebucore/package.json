@@ -1,0 +1,17 @@
+{
+  "name": "@vocabulary/ebucore",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "ebucore",
+    "namespace": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
+    "file": "https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@vocabulary/gtfs",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "gtfs",
+    "namespace": "http://vocab.gtfs.org/terms#",
+    "mediaType": "text/n3"
+  }
+}

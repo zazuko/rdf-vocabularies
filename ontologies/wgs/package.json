@@ -1,0 +1,16 @@
+{
+  "name": "@vocabulary/wgs",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "wgs",
+    "namespace": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+  }
+}

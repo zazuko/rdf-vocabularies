@@ -1,0 +1,16 @@
+{
+  "name": "@vocabulary/sd",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "sd",
+    "namespace": "http://www.w3.org/ns/sparql-service-description#"
+  }
+}

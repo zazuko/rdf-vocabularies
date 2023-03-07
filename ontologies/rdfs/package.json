@@ -1,0 +1,16 @@
+{
+  "name": "@vocabulary/rdfs",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "rdfs",
+    "namespace": "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

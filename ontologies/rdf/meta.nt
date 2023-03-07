@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/rdf:> <http://dbpedia.org/ontology/filename> "ontologies/rdf.nq" .
+<https://prefix.zazuko.com/rdf:> <http://purl.org/dc/terms/description> "This is the RDF Schema for the RDF vocabulary terms in the RDF Namespace, defined in RDF 1.1 Concepts." .
+<https://prefix.zazuko.com/rdf:> <http://purl.org/dc/terms/title> "The RDF Concepts Vocabulary (RDF)" .
+<https://prefix.zazuko.com/rdf:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/rdf:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<https://prefix.zazuko.com/rdf:> <http://www.w3.org/ns/rdfa#prefix> "rdf" .
+<https://prefix.zazuko.com/rdf:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .

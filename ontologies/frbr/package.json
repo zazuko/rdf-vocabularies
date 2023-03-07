@@ -1,0 +1,17 @@
+{
+  "name": "@vocabulary/frbr",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "frbr",
+    "namespace": "http://purl.org/vocab/frbr/core#",
+    "file": "http://purl.org/spar/frbr.nt"
+  }
+}

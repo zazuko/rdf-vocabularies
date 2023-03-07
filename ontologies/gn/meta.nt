@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/gn:> <http://dbpedia.org/ontology/filename> "ontologies/gn.nq" .
+<https://prefix.zazuko.com/gn:> <http://purl.org/dc/terms/description> "The Geonames ontologies provides elements of description for geographical features, in particular those defined in the geonames.org data base" .
+<https://prefix.zazuko.com/gn:> <http://purl.org/dc/terms/title> "The Geonames ontology" .
+<https://prefix.zazuko.com/gn:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/gn:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.geonames.org/ontology#> .
+<https://prefix.zazuko.com/gn:> <http://www.w3.org/ns/rdfa#prefix> "gn" .
+<https://prefix.zazuko.com/gn:> <http://www.w3.org/ns/rdfa#uri> <http://www.geonames.org/ontology#> .

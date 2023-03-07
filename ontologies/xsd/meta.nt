@@ -1,0 +1,5 @@
+<https://prefix.zazuko.com/xsd:> <http://dbpedia.org/ontology/filename> "ontologies/xsd.nq" .
+<https://prefix.zazuko.com/xsd:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/xsd:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://raw.githubusercontent.com/ruby-rdf/rdf/master/etc/xsd.ttl> .
+<https://prefix.zazuko.com/xsd:> <http://www.w3.org/ns/rdfa#prefix> "xsd" .
+<https://prefix.zazuko.com/xsd:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/2001/XMLSchema#> .

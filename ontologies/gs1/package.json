@@ -1,0 +1,18 @@
+{
+  "name": "@vocabulary/gs1",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "gs1",
+    "namespace": "https://gs1.org/voc/",
+    "file": "https://raw.githubusercontent.com/gs1/WebVoc/master/gs1Voc_v1_3.ttl",
+    "mediaType": "text/turtle"
+  }
+}

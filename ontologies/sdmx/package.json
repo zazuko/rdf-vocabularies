@@ -1,0 +1,17 @@
+{
+  "name": "@vocabulary/sdmx",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "sdmx",
+    "namespace": "http://purl.org/linked-data/sdmx#",
+    "mediaType": "text/turtle"
+  }
+}

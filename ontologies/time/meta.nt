@@ -1,0 +1,6 @@
+<https://prefix.zazuko.com/time:> <http://dbpedia.org/ontology/filename> "ontologies/time.nq" .
+<https://prefix.zazuko.com/time:> <http://purl.org/dc/terms/title> "OWL-Time" .
+<https://prefix.zazuko.com/time:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/time:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/time#> .
+<https://prefix.zazuko.com/time:> <http://www.w3.org/ns/rdfa#prefix> "time" .
+<https://prefix.zazuko.com/time:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/2006/time#> .

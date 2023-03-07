@@ -1,0 +1,29 @@
+{
+  "name": "@vocabulary/dpv",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "dpv",
+    "namespace": "http://www.w3.org/ns/dpv#",
+    "files": [{
+      "mediaType": "application/ld+json",
+      "file": "https://dpvcg.github.io/dpv/dpv.jsonld"
+    }, {
+      "mediaType": "application/rdf+xml",
+      "file": "https://dpvcg.github.io/dpv/dpv.rdf"
+    }, {
+      "mediaType": "text/n3",
+      "file": "https://dpvcg.github.io/dpv/dpv.n3"
+    }, {
+      "mediaType": "text/turtle",
+      "file": "https://dpvcg.github.io/dpv/dpv.ttl"
+    }]
+  }
+}

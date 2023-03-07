@@ -1,0 +1,21 @@
+{
+  "name": "@vocabulary/sem",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "sem",
+    "namespace": "http://semanticweb.cs.vu.nl/2009/11/sem/",
+    "file": "http://semanticweb.cs.vu.nl/2009/11/sem/sem.rdf",
+    "mediaType": "application/rdf+xml",
+    "xmlParserOptions": {
+      "baseIRI": "http://semanticweb.cs.vu.nl/2009/11/sem"
+    }
+  }
+}

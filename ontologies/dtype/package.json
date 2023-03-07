@@ -1,0 +1,17 @@
+{
+  "name": "@vocabulary/dtype",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "dtype",
+    "namespace": "http://www.linkedmodel.org/schema/dtype#",
+    "mediaType": "application/rdf+xml"
+  }
+}

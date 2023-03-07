@@ -1,0 +1,26 @@
+{
+  "name": "@vocabulary/qudt",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "qudt",
+    "namespace": "http://qudt.org/schema/qudt/",
+    "files": [
+      {
+        "mediaType": "text/turtle",
+        "file": "http://qudt.org/2.1/schema/qudt"
+      },
+      {
+        "mediaType": "text/turtle",
+        "file": "http://qudt.org/2.1/schema/datatype"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@vocabulary/acl",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "acl",
+    "namespace": "http://www.w3.org/ns/auth/acl#",
+    "file": "https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl",
+    "mediaType": "text/turtle"
+  }
+}

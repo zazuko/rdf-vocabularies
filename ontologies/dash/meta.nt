@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/dash:> <http://dbpedia.org/ontology/filename> "ontologies/dash.nq" .
+<https://prefix.zazuko.com/dash:> <http://purl.org/dc/terms/description> "DASH is a SHACL library for frequently needed features and design patterns. The constraint components in this library are 100% standards compliant and will work on any engine that fully supports SHACL." .
+<https://prefix.zazuko.com/dash:> <http://purl.org/dc/terms/title> "DASH Data Shapes Vocabulary" .
+<https://prefix.zazuko.com/dash:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/dash:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://datashapes.org/dash#> .
+<https://prefix.zazuko.com/dash:> <http://www.w3.org/ns/rdfa#prefix> "dash" .
+<https://prefix.zazuko.com/dash:> <http://www.w3.org/ns/rdfa#uri> <http://datashapes.org/dash#> .

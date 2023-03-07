@@ -1,0 +1,17 @@
+{
+  "name": "@vocabulary/geo",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "geo",
+    "namespace": "http://www.opengis.net/ont/geosparql#",
+    "file": "http://www.modelservers.org/public/ontologies/vcon/geosparql_vocab_all.rdf"
+  }
+}

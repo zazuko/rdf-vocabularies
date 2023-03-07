@@ -1,0 +1,17 @@
+{
+  "name": "@vocabulary/void",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "void",
+    "namespace": "http://rdfs.org/ns/void#",
+    "file": "http://vocab.deri.ie/void.ttl"
+  }
+}
