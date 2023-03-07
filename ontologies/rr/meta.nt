@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/rr:> <http://dbpedia.org/ontology/filename> "ontologies/rr.nq" .
+<https://prefix.zazuko.com/rr:> <http://dbpedia.org/ontology/filename> "@vocabulary/rr/rr.nq" .
 <https://prefix.zazuko.com/rr:> <http://purl.org/dc/terms/description> "RDB to RDF Mapping Language - Vocabulary" .
 <https://prefix.zazuko.com/rr:> <http://purl.org/dc/terms/title> "R2RML vocabulary" .
 <https://prefix.zazuko.com/rr:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
