@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "fetch": "ts-node fetch.ts --indexBase https://prefix.zazuko.com/",
+    "fetch": "wsrun -y 5 -lm --report -c fetch",
     "lint": "eslint . --ext .js,.ts --ignore-path .gitignore --ignore-path .eslintignore --quiet",
     "test": "c8 -i src mocha packages/**/*.test.ts",
     "posttest": "c8 report --reporter=text-lcov >> ./coverage/lcov.info",
@@ -34,7 +34,8 @@
     "eslint-plugin-require-extensions": "^0.1.2",
     "mocha": "^10.0.0",
     "standard": "^17.0.0",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "wsrun": "^5.2.4"
   },
   "mocha": {
     "extension": "ts",
