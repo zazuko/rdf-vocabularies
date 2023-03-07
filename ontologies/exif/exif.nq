@@ -855,7 +855,7 @@
 <http://www.w3.org/2003/12/exif/ns#yCbCrCoefficients> <http://www.w3.org/2003/12/exif/ns#tagNumber> "529"@en <http://www.w3.org/2003/12/exif/ns#> .
 <http://www.w3.org/2003/12/exif/ns#yCbCrPositioning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2003/12/exif/ns#> .
 <http://www.w3.org/2003/12/exif/ns#yCbCrPositioning> <http://www.w3.org/2000/01/rdf-schema#comment> "The position of chrominance components in relation to the luminance component. This field is designated only for JPEG compressed data or uncompressed YCbCr data."@en <http://www.w3.org/2003/12/exif/ns#> .
-<http://www.w3.org/2003/12/exif/ns#yCbCrPositioning> <http://www.w3.org/2000/01/rdf-schema#comment> "色情報のサンプリングを間引きしている場合に、色情報のサンプルポイントがどこになるか。1='centered'なら点集合の中央、2＝'co-sited'なら点集合の原点"@ja <http://www.w3.org/2003/12/exif/ns#> .
+<http://www.w3.org/2003/12/exif/ns#yCbCrPositioning> <http://www.w3.org/2000/01/rdf-schema#comment> "色情報のサンプリングを間引きしている場合に、色情報のサンプルポイントが��こになるか。1='centered'なら点集合の中央、2＝'co-sited'なら点集合の原点"@ja <http://www.w3.org/2003/12/exif/ns#> .
 <http://www.w3.org/2003/12/exif/ns#yCbCrPositioning> <http://www.w3.org/2000/01/rdf-schema#label> "YCbCrPositioning"@en <http://www.w3.org/2003/12/exif/ns#> .
 <http://www.w3.org/2003/12/exif/ns#yCbCrPositioning> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2003/12/exif/ns#imageDataStruct> <http://www.w3.org/2003/12/exif/ns#> .
 <http://www.w3.org/2003/12/exif/ns#yCbCrPositioning> <http://www.w3.org/2003/12/exif/ns#tagNumber> "531"@en <http://www.w3.org/2003/12/exif/ns#> .

@@ -20,7 +20,7 @@
 <http://www.w3.org/ns/dqv#QualityAnnotation> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents quality annotations, including ratings, quality certificates or feedback that can be associated to datasets or distributions. Quality annotations must have one oa:motivatedBy statement with an instance of oa:Motivation (and skos:Concept) that reflects a quality assessment purpose. We define this instance as dqv:qualityAssessment."@en <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv#QualityAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "Quality Annotation"@en <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv#QualityAnnotation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/oa#Annotation> <http://www.w3.org/ns/dqv#> .
-<http://www.w3.org/ns/dqv#QualityAnnotation> <http://www.w3.org/2002/07/owl#equivalentClass> _:c14n1 <http://www.w3.org/ns/dqv#> .
+<http://www.w3.org/ns/dqv#QualityAnnotation> <http://www.w3.org/2002/07/owl#equivalentClass> _:c14n4 <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv#QualityCertificate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv#QualityCertificate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv#QualityCertificate> <http://www.w3.org/2000/01/rdf-schema#comment> "An annotation that associates a resource (especially, a dataset or a distribution) to another resource (for example, a document) that certifies the resource's quality according to a set of quality assessment rules."@en <http://www.w3.org/ns/dqv#> .
@@ -73,7 +73,7 @@
 <http://www.w3.org/ns/dqv#hasQualityAnnotation> <http://www.w3.org/2000/01/rdf-schema#comment> "Refers to a quality annotation. Quality annotation can be applied to any kind of resource, e.g., a dataset, a linkset, a graph, a set of triples. However, in the DQV context, this property is generally expected to be used in statements in which subjects are instances of dcat:Dataset or dcat:Distribution."@en <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv#hasQualityAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "has quality annotation"@en <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv#hasQualityAnnotation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dqv#QualityAnnotation> <http://www.w3.org/ns/dqv#> .
-<http://www.w3.org/ns/dqv#hasQualityAnnotation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> _:c14n7 <http://www.w3.org/ns/dqv#> .
+<http://www.w3.org/ns/dqv#hasQualityAnnotation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> _:c14n3 <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv#hasQualityMeasurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv#hasQualityMeasurement> <http://www.w3.org/2000/01/rdf-schema#comment> "Refers to the performed quality measurements. Quality measurements can be performed to any kind of resource (e.g., a dataset, a linkset, a graph, a set of triples). However, in the DQV context, this property is generally expected to be used in statements in which subjects are instances of dcat:Dataset or dcat:Distribution."@en <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv#hasQualityMeasurement> <http://www.w3.org/2000/01/rdf-schema#label> "has quality measurement"@en <http://www.w3.org/ns/dqv#> .
@@ -117,15 +117,15 @@
 <http://www.w3.org/ns/dqv#value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dqv#QualityMeasurement> <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv#value> <http://www.w3.org/2000/01/rdf-schema#label> "value"@en <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv#value> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/eis/vocab/daq#value> <http://www.w3.org/ns/dqv#> .
+<http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/contributor> _:c14n0 <http://www.w3.org/ns/dqv#> .
+<http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/contributor> _:c14n1 <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/contributor> _:c14n10 <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/contributor> _:c14n2 <http://www.w3.org/ns/dqv#> .
-<http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/contributor> _:c14n3 <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/contributor> _:c14n5 <http://www.w3.org/ns/dqv#> .
-<http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/contributor> _:c14n6 <http://www.w3.org/ns/dqv#> .
-<http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/contributor> _:c14n8 <http://www.w3.org/ns/dqv#> .
+<http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/contributor> _:c14n9 <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/created> "2015-12-17"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/dqv#> .
-<http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/creator> _:c14n0 <http://www.w3.org/ns/dqv#> .
-<http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/creator> _:c14n9 <http://www.w3.org/ns/dqv#> .
+<http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/creator> _:c14n6 <http://www.w3.org/ns/dqv#> .
+<http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/creator> _:c14n8 <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/description> "The Data Quality Vocabulary (DQV) is seen as an extension to DCAT to cover the quality of the data, how frequently is it updated, whether it accepts user corrections, persistence commitments etc. When used by publishers, this vocabulary will foster trust in the data amongst developers."@en <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/modified> "2016-08-26"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv> <http://purl.org/dc/terms/modified> "2016-12-15"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/dqv#> .
@@ -136,17 +136,17 @@
 <http://www.w3.org/ns/dqv> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/ns/dqv#" <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/ns/dqv#> .
 <http://www.w3.org/ns/dqv> <http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/TR/vocab-dqv/> <http://www.w3.org/ns/dqv#> .
-_:c14n0 <http://xmlns.com/foaf/0.1/name> "Antoine Isaac" <http://www.w3.org/ns/dqv#> .
-_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/dqv#> .
-_:c14n1 <http://www.w3.org/2002/07/owl#hasValue> <http://www.w3.org/ns/dqv#qualityAssessment> <http://www.w3.org/ns/dqv#> .
-_:c14n1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/oa#motivation> <http://www.w3.org/ns/dqv#> .
-_:c14n10 <http://xmlns.com/foaf/0.1/name> "Jeremy Debattista" <http://www.w3.org/ns/dqv#> .
-_:c14n2 <http://xmlns.com/foaf/0.1/name> "Christophe Guéret" <http://www.w3.org/ns/dqv#> .
-_:c14n3 <http://xmlns.com/foaf/0.1/name> "Makx Dekkers" <http://www.w3.org/ns/dqv#> .
-_:c14n4 <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/dqv#inDimension> <http://www.w3.org/ns/dqv#> .
-_:c14n4 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/eis/vocab/daq#hasMetric> <http://www.w3.org/ns/dqv#> .
-_:c14n5 <http://xmlns.com/foaf/0.1/name> "Nandana Mihindukulasooriya" <http://www.w3.org/ns/dqv#> .
-_:c14n6 <http://xmlns.com/foaf/0.1/name> "Amrapali Zaveri" <http://www.w3.org/ns/dqv#> .
-_:c14n7 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/oa#hasTarget> <http://www.w3.org/ns/dqv#> .
-_:c14n8 <http://xmlns.com/foaf/0.1/name> "Deirdre Lee" <http://www.w3.org/ns/dqv#> .
-_:c14n9 <http://xmlns.com/foaf/0.1/name> "Riccardo Albertoni" <http://www.w3.org/ns/dqv#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/name> "Jeremy Debattista" <http://www.w3.org/ns/dqv#> .
+_:c14n1 <http://xmlns.com/foaf/0.1/name> "Christophe Guéret" <http://www.w3.org/ns/dqv#> .
+_:c14n10 <http://xmlns.com/foaf/0.1/name> "Makx Dekkers" <http://www.w3.org/ns/dqv#> .
+_:c14n2 <http://xmlns.com/foaf/0.1/name> "Deirdre Lee" <http://www.w3.org/ns/dqv#> .
+_:c14n3 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/oa#hasTarget> <http://www.w3.org/ns/dqv#> .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/dqv#> .
+_:c14n4 <http://www.w3.org/2002/07/owl#hasValue> <http://www.w3.org/ns/dqv#qualityAssessment> <http://www.w3.org/ns/dqv#> .
+_:c14n4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/oa#motivation> <http://www.w3.org/ns/dqv#> .
+_:c14n5 <http://xmlns.com/foaf/0.1/name> "Amrapali Zaveri" <http://www.w3.org/ns/dqv#> .
+_:c14n6 <http://xmlns.com/foaf/0.1/name> "Riccardo Albertoni" <http://www.w3.org/ns/dqv#> .
+_:c14n7 <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/dqv#inDimension> <http://www.w3.org/ns/dqv#> .
+_:c14n7 <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/eis/vocab/daq#hasMetric> <http://www.w3.org/ns/dqv#> .
+_:c14n8 <http://xmlns.com/foaf/0.1/name> "Antoine Isaac" <http://www.w3.org/ns/dqv#> .
+_:c14n9 <http://xmlns.com/foaf/0.1/name> "Nandana Mihindukulasooriya" <http://www.w3.org/ns/dqv#> .

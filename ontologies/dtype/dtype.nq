@@ -32,7 +32,7 @@
 <http://www.linkedmodel.org/schema/dtype#CompositeCodeList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.linkedmodel.org/schema/dtype> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#CompositeCodeList> <http://www.w3.org/2000/01/rdf-schema#label> "Composite Code List" <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#CompositeCodeList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/dtype#CodeList> <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#CompositeCodeList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n11 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#CompositeCodeList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n4 <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#CompositeCodeList> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#CompositeCodeList> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.linkedmodel.org/schema/dtype#SimpleCodeList> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.linkedmodel.org/schema/vaem#comment> "A derived codelist is a sublist of another codelist. The members that it has must be members of the source list." <http://www.linkedmodel.org/schema/dtype#> .
@@ -41,9 +41,9 @@
 <http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.linkedmodel.org/schema/dtype> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.w3.org/2000/01/rdf-schema#label> "Derived Code List" <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/dtype#CodeList> <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n14 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n0 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n13 <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n5 <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n6 <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.linkedmodel.org/schema/dtype#CompositeCodeList> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.linkedmodel.org/schema/dtype#SimpleCodeList> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://purl.org/dc/elements/1.1/description> "The base class for datatypes that have values that are restriced to a set of literals or tokens. The members of the restriction may themselve be restriced by facets that apply to scalar data types." <http://www.linkedmodel.org/schema/dtype#> .
@@ -52,29 +52,29 @@
 <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.linkedmodel.org/schema/dtype> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#label> "DTYPE Enumerated value" <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n1 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n10 <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n12 <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n13 <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n15 <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n17 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n18 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n2 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n20 <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n21 <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n22 <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#Enumeration> <http://www.linkedmodel.org/schema/vaem#comment> "A type that serves as a container for the enumerated values of an enumeration. This enables the enumeration itself to be referenceable. One need for this is in determing the default value of an enumeration , another need is in the management of sub-enumerations and composite enumerations." <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#Enumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#Enumeration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.linkedmodel.org/1.1/schema/dtype> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#Enumeration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.linkedmodel.org/schema/dtype> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#Enumeration> <http://www.w3.org/2000/01/rdf-schema#label> "DTYPE Enumeration" <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#Enumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#Enumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n10 <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#Enumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n18 <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#Enumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n20 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#Enumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n15 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#Enumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n16 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#Enumeration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n8 <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#SimpleCodeList> <http://www.linkedmodel.org/schema/vaem#comment> "A simple codelist is one made up only of enumerated values." <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#SimpleCodeList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#SimpleCodeList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.linkedmodel.org/1.1/schema/dtype> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#SimpleCodeList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.linkedmodel.org/schema/dtype> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#SimpleCodeList> <http://www.w3.org/2000/01/rdf-schema#label> "Simple Code List" <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#SimpleCodeList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.linkedmodel.org/schema/dtype#CodeList> <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#SimpleCodeList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n7 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#SimpleCodeList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n11 <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#SimpleCodeList> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.linkedmodel.org/schema/dtype#CompositeCodeList> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#SimpleCodeList> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.linkedmodel.org/schema/dtype#DerivedCodeList> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#ValueReference> <http://www.linkedmodel.org/schema/vaem#comment> "A value reference is a pointer to an Enumerated Value. The original position of the value can be overridden by the position attribute." <http://www.linkedmodel.org/schema/dtype#> .
@@ -83,8 +83,8 @@
 <http://www.linkedmodel.org/schema/dtype#ValueReference> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.linkedmodel.org/schema/dtype> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#ValueReference> <http://www.w3.org/2000/01/rdf-schema#label> "Value Reference" <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#ValueReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#ValueReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n2 <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#ValueReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n3 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#ValueReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n14 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#ValueReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n22 <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#ValueReference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n9 <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#code> <http://www.linkedmodel.org/schema/vaem#comment> "A property for expressing an encoded value. The range has been set to \"xsd:anySimpleType\" to allow for a variety of scalar datatypes." <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.linkedmodel.org/schema/dtype#> .
@@ -130,7 +130,7 @@
 <http://www.linkedmodel.org/schema/dtype#numericUnion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.linkedmodel.org/schema/dtype> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#numericUnion> <http://www.w3.org/2000/01/rdf-schema#label> "numeric union" <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#numericUnion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.linkedmodel.org/schema/dtype#> .
-<http://www.linkedmodel.org/schema/dtype#numericUnion> <http://www.w3.org/2002/07/owl#equivalentClass> _:c14n16 <http://www.linkedmodel.org/schema/dtype#> .
+<http://www.linkedmodel.org/schema/dtype#numericUnion> <http://www.w3.org/2002/07/owl#equivalentClass> _:c14n3 <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#order> <http://www.linkedmodel.org/schema/vaem#comment> "The property \"dtype:order\" provides a means to specify a precedence. One use of order is in specifying ordered enumerations such as \"voag:ConfidentialityLevel\".  A similar property, but with an important type difference, is \"vaem:orderIndex\". This is for use on property occurrences in class axioms where it can be placed on a restriction to specify how that property may be transformed into other representations where ordering has some importance, for example, in XML Schema sequences.  Whereas \"vaem:order\" is a datatype property, \"vaem:orderIndex\" is an annotation property." <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype#order> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.linkedmodel.org/1.1/schema/dtype> <http://www.linkedmodel.org/schema/dtype#> .
@@ -165,67 +165,67 @@
 <http://www.linkedmodel.org/schema/dtype#value> <http://www.w3.org/2000/01/rdf-schema#label> "value" <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.linkedmodel.org/schema/dtype#> .
 <http://www.linkedmodel.org/schema/dtype> <http://www.w3.org/2002/07/owl#imports> <http://www.linkedmodel.org/schema/vaem> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n4 <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n1 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#value> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n0 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#ValueReference> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n0 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#hasMember> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n7 <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#defaultValue> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n10 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#position> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#CodeList> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#compositeOf> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#hasMember> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n12 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#position> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#code> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n13 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#order> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#derivedFrom> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n14 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#derivedFrom> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n14 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#refersTo> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n15 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#code> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n16 <http://www.w3.org/2002/07/owl#unionOf> _:c14n0 <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n15 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#defaultValue> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n16 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#value> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n17 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#url> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n17 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#description> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n18 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#value> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n18 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#order> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n6 <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n2 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#refersTo> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#value> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n20 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#defaultValue> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#name> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n21 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#name> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n21 <http://www.w3.org/2002/07/owl#minCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#url> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n22 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/vaem#description> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n3 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#position> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n8 <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n22 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#refersTo> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n3 <http://www.w3.org/2002/07/owl#unionOf> _:c14n1 <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#CodeList> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#compositeOf> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n5 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#CodeList> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#derivedFrom> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n6 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#ValueReference> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#hasMember> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n7 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#hasMember> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n19 <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n19 <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n8 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#defaultValue> <http://www.linkedmodel.org/schema/dtype#> .
 _:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n9 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.linkedmodel.org/schema/dtype#EnumeratedValue> <http://www.linkedmodel.org/schema/dtype#> .
-_:c14n9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#refersTo> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n9 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.linkedmodel.org/schema/dtype#> .
+_:c14n9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.linkedmodel.org/schema/dtype#position> <http://www.linkedmodel.org/schema/dtype#> .

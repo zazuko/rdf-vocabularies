@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/dtype:> <http://dbpedia.org/ontology/filename> "ontologies/dtype.nq" .
+<https://prefix.zazuko.com/dtype:> <http://dbpedia.org/ontology/filename> "@vocabulary/dtype/dtype.nq" .
 <https://prefix.zazuko.com/dtype:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/dtype:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.linkedmodel.org/schema/dtype#> .
 <https://prefix.zazuko.com/dtype:> <http://www.w3.org/ns/rdfa#prefix> "dtype" .

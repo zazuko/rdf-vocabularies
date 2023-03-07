@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/exif:> <http://dbpedia.org/ontology/filename> "ontologies/exif.nq" .
+<https://prefix.zazuko.com/exif:> <http://dbpedia.org/ontology/filename> "@vocabulary/exif/exif.nq" .
 <https://prefix.zazuko.com/exif:> <http://purl.org/dc/terms/description> "Vocabulary to describe an Exif format picture data. All Exif 2.2 tags are defined as RDF properties, as well as several terms to help this schema." .
 <https://prefix.zazuko.com/exif:> <http://purl.org/dc/terms/title> "Exif data description vocabulary" .
 <https://prefix.zazuko.com/exif:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .

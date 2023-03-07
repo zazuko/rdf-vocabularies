@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/duv:> <http://dbpedia.org/ontology/filename> "ontologies/duv.nq" .
+<https://prefix.zazuko.com/duv:> <http://dbpedia.org/ontology/filename> "@vocabulary/duv/duv.nq" .
 <https://prefix.zazuko.com/duv:> <http://purl.org/dc/terms/description> "The Dataset Usage Vocabulary (DUV) is used to describe consumer experiences, citations, and feedback about datasets from the human perspective." .
 <https://prefix.zazuko.com/duv:> <http://purl.org/dc/terms/title> "Dataset Usage Vocabulary" .
 <https://prefix.zazuko.com/duv:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .

@@ -51,6 +51,6 @@
 <http://www.w3.org/ns/duv> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/ns/duv#" <http://www.w3.org/ns/duv#> .
 <http://www.w3.org/ns/duv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/ns/duv#> .
 <http://www.w3.org/ns/duv> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/vocab-duv/> <http://www.w3.org/ns/duv#> .
-_:c14n0 <http://xmlns.com/foaf/0.1/name> "Sumit Purohit" <http://www.w3.org/ns/duv#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/name> "Eric G. Stephan" <http://www.w3.org/ns/duv#> .
 _:c14n1 <http://xmlns.com/foaf/0.1/name> "Bernadette Farias Lóscio" <http://www.w3.org/ns/duv#> .
-_:c14n2 <http://xmlns.com/foaf/0.1/name> "Eric G. Stephan" <http://www.w3.org/ns/duv#> .
+_:c14n2 <http://xmlns.com/foaf/0.1/name> "Sumit Purohit" <http://www.w3.org/ns/duv#> .

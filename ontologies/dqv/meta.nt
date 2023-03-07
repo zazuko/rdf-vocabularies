@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/dqv:> <http://dbpedia.org/ontology/filename> "ontologies/dqv.nq" .
+<https://prefix.zazuko.com/dqv:> <http://dbpedia.org/ontology/filename> "@vocabulary/dqv/dqv.nq" .
 <https://prefix.zazuko.com/dqv:> <http://purl.org/dc/terms/description> "The Data Quality Vocabulary (DQV) is seen as an extension to DCAT to cover the quality of the data, how frequently is it updated, whether it accepts user corrections, persistence commitments etc. When used by publishers, this vocabulary will foster trust in the data amongst developers." .
 <https://prefix.zazuko.com/dqv:> <http://purl.org/dc/terms/title> "Data Quality Vocabulary" .
 <https://prefix.zazuko.com/dqv:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .

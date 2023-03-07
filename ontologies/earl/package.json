@@ -15,5 +15,6 @@
     "xmlParserOptions": {
       "baseIRI": "https://www.w3.org/ns/earl#"
     }
-  }
+  },
+  "license": "MIT"
 }
