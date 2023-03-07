@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/acl:> <http://dbpedia.org/ontology/filename> "ontologies/acl.nq" .
+<https://prefix.zazuko.com/acl:> <http://dbpedia.org/ontology/filename> "@vocabulary/acl/acl.nq" .
 <https://prefix.zazuko.com/acl:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/acl:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/auth/acl#> .
 <https://prefix.zazuko.com/acl:> <http://www.w3.org/ns/rdfa#prefix> "acl" .
