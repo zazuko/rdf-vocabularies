@@ -327,8 +327,8 @@
 <http://www.w3.org/ns/oa#via> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/oa#> <http://www.w3.org/ns/oa#> .
 <http://www.w3.org/ns/oa#via> <http://www.w3.org/2000/01/rdf-schema#label> "via" <http://www.w3.org/ns/oa#> .
 _:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/ns/oa#> .
-_:c14n0 <http://xmlns.com/foaf/0.1/name> "Robert Sanderson" <http://www.w3.org/ns/oa#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/name> "Benjamin Young" <http://www.w3.org/ns/oa#> .
 _:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/ns/oa#> .
-_:c14n1 <http://xmlns.com/foaf/0.1/name> "Paolo Ciccarese" <http://www.w3.org/ns/oa#> .
+_:c14n1 <http://xmlns.com/foaf/0.1/name> "Robert Sanderson" <http://www.w3.org/ns/oa#> .
 _:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/ns/oa#> .
-_:c14n2 <http://xmlns.com/foaf/0.1/name> "Benjamin Young" <http://www.w3.org/ns/oa#> .
+_:c14n2 <http://xmlns.com/foaf/0.1/name> "Paolo Ciccarese" <http://www.w3.org/ns/oa#> .

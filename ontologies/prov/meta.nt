@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/prov:> <http://dbpedia.org/ontology/filename> "ontologies/prov.nq" .
+<https://prefix.zazuko.com/prov:> <http://dbpedia.org/ontology/filename> "@vocabulary/prov/prov.nq" .
 <https://prefix.zazuko.com/prov:> <http://purl.org/dc/terms/description> "This document is published by the Provenance Working Group (http://www.w3.org/2011/prov/wiki/Main_Page).\n\nIf you wish to make comments regarding this document, please send them to public-prov-comments@w3.org (subscribe public-prov-comments-request@w3.org, archives http://lists.w3.org/\nArchives/Public/public-prov-comments/). All feedback is welcome." .
 <https://prefix.zazuko.com/prov:> <http://purl.org/dc/terms/title> "W3C PROVenance Interchange" .
 <https://prefix.zazuko.com/prov:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .

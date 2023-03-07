@@ -1,12 +1,12 @@
 <http://purl.org/goodrelations/v1#BusinessEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/org#FormalOrganization> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n0 <http://www.w3.org/ns/org#> .
-<http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n10 <http://www.w3.org/ns/org#> .
+<http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n11 <http://www.w3.org/ns/org#> .
+<http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n12 <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n16 <http://www.w3.org/ns/org#> .
-<http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n2 <http://www.w3.org/ns/org#> .
+<http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n17 <http://www.w3.org/ns/org#> .
+<http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n19 <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n3 <http://www.w3.org/ns/org#> .
-<http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n5 <http://www.w3.org/ns/org#> .
-<http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n7 <http://www.w3.org/ns/org#> .
-<http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n8 <http://www.w3.org/ns/org#> .
+<http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n4 <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#> <http://purl.org/dc/terms/contributor> _:c14n9 <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#> <http://purl.org/dc/terms/created> "2010-05-28"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#> <http://purl.org/dc/terms/license> <http://www.opendatacommons.org/licenses/pddl/1.0/> <http://www.w3.org/ns/org#> .
@@ -108,7 +108,7 @@
 <http://www.w3.org/ns/org#Organization> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/ns/org#Role> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#Organization> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/ns/org#Site> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#Organization> <http://www.w3.org/2002/07/owl#equivalentClass> <http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/ns/org#> .
-<http://www.w3.org/ns/org#Organization> <http://www.w3.org/2002/07/owl#hasKey> _:c14n13 <http://www.w3.org/ns/org#> .
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/2002/07/owl#hasKey> _:c14n1 <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#OrganizationalCollaboration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#OrganizationalCollaboration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#OrganizationalCollaboration> <http://www.w3.org/2000/01/rdf-schema#comment> "A collaboration between two or more Organizations such as a project. It meets the criteria for being an Organization in that it has an identity and defining purpose independent of its particular members but is neither a formally recognized legal entity nor a sub-unit within some larger organization. Might typically have a shorter lifetime than the Organizations within it, but not necessarily. All members are `org:Organization`s rather than individuals and those Organizations can play particular roles within the venture. Alternative names: _Project_ _Venture_  _Endeavour_ _Consortium_ _Endeavour_"@en <http://www.w3.org/ns/org#> .
@@ -122,7 +122,7 @@
 <http://www.w3.org/ns/org#OrganizationalCollaboration> <http://www.w3.org/2000/01/rdf-schema#label> "Partenariat"@fr <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#OrganizationalCollaboration> <http://www.w3.org/2000/01/rdf-schema#label> "proyecto de cooperación empresarial"@es <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#OrganizationalCollaboration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/org#Organization> <http://www.w3.org/ns/org#> .
-<http://www.w3.org/ns/org#OrganizationalCollaboration> <http://www.w3.org/2002/07/owl#equivalentClass> _:c14n11 <http://www.w3.org/ns/org#> .
+<http://www.w3.org/ns/org#OrganizationalCollaboration> <http://www.w3.org/2002/07/owl#equivalentClass> _:c14n15 <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#OrganizationalUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#OrganizationalUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#OrganizationalUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "An Organization such as a University Support Unit which is part of some larger FormalOrganization and only has full recognition within the context of that FormalOrganization, it is not a Legal Entity in its own right. Units can be large and complex containing other Units and even FormalOrganizations. Alternative names: _OU_ _Unit_ _Department_"@en <http://www.w3.org/ns/org#> .
@@ -552,13 +552,13 @@
 <http://www.w3.org/ns/org#reportsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique une relation de subordination comme elle pourrait figurer dans un organigramme. La sémantique précise de cette subordination pourra varier selon l'Organisation mais vise à englober aussi bien les relations hiérarchiques directes (définition d'objectifs, montant du salaire) que des relations plus générales ou organisationnelles (les liens en pointillés dans les organigrammes)."@fr <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#reportsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Relación de subordinación que se representa en los organigramas de las organizaciones. La semántica de la relación de subordinación varía según las organizaciones, pero su intención es abarcar tanto a las relaciones de supervisión directa (por ejemplo, aquellas en las que la autoridad determina los objetivos o el salario) como a las relaciones de subordinación más generales (por ejemplo, las llamadas líneas de autoridad o de mando (y responsabilidad) (http://www.promonegocios.net/organigramas/tipos-de-organigramas.html))."@es <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#reportsTo> <http://www.w3.org/2000/01/rdf-schema#comment> "組織図で描かれるかもしれないような上下関係を示します。エージェント間またはエージェントが就くことができるポスト間の上下関係を直接的に示すために使用できます。"@ja <http://www.w3.org/ns/org#> .
-<http://www.w3.org/ns/org#reportsTo> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n17 <http://www.w3.org/ns/org#> .
+<http://www.w3.org/ns/org#reportsTo> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n2 <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#reportsTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/org> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#reportsTo> <http://www.w3.org/2000/01/rdf-schema#label> "est subordonné à"@fr <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#reportsTo> <http://www.w3.org/2000/01/rdf-schema#label> "reports to"@en <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#reportsTo> <http://www.w3.org/2000/01/rdf-schema#label> "responde ante"@es <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#reportsTo> <http://www.w3.org/2000/01/rdf-schema#label> "riporta a"@it <http://www.w3.org/ns/org#> .
-<http://www.w3.org/ns/org#reportsTo> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n18 <http://www.w3.org/ns/org#> .
+<http://www.w3.org/ns/org#reportsTo> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n8 <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#resultedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#resultedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#resultedFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "Evento que tiene como resultado la creación de una organización."@es <http://www.w3.org/ns/org#> .
@@ -597,7 +597,7 @@
 <http://www.w3.org/ns/org#role> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the Role that the Agent plays in a Membership relationship with an Organization."@en <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#role> <http://www.w3.org/2000/01/rdf-schema#comment> "Indique le Rôle de l'Agent dans son Engagement avec l'Organisation."@fr <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#role> <http://www.w3.org/2000/01/rdf-schema#comment> "エージェントが組織との構成員関係において担う役割を示します。ポストの保持者が担う役割を示すためにorg:Postで用いることもできます。"@ja <http://www.w3.org/ns/org#> .
-<http://www.w3.org/ns/org#role> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n12 <http://www.w3.org/ns/org#> .
+<http://www.w3.org/ns/org#role> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n6 <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#role> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/org> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#role> <http://www.w3.org/2000/01/rdf-schema#label> "desempeña la actividad de"@es <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#role> <http://www.w3.org/2000/01/rdf-schema#label> "role"@en <http://www.w3.org/ns/org#> .
@@ -694,33 +694,34 @@
 <http://www.w3.org/ns/org#unitOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#FormalOrganization> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#unitOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/org#subOrganizationOf> <http://www.w3.org/ns/org#> .
 <http://www.w3.org/ns/org#unitOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/org#hasUnit> <http://www.w3.org/ns/org#> .
-<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n15 <http://www.w3.org/ns/org#> .
-_:c14n0 <http://xmlns.com/foaf/0.1/mbox> "ogiraldo@fi.upm.es" <http://www.w3.org/ns/org#> .
-_:c14n0 <http://xmlns.com/foaf/0.1/name> "Olga Ximena Giraldo" <http://www.w3.org/ns/org#> .
-_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n4 <http://www.w3.org/ns/org#> .
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n18 <http://www.w3.org/ns/org#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/mbox> "mpoveda@fi.upm.es" <http://www.w3.org/ns/org#> .
+_:c14n0 <http://xmlns.com/foaf/0.1/name> "María Poveda Villalón" <http://www.w3.org/ns/org#> .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#identifier> <http://www.w3.org/ns/org#> .
 _:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/org#> .
-_:c14n10 <http://xmlns.com/foaf/0.1/mbox> "giorgia.lodi@agid.gov.it" <http://www.w3.org/ns/org#> .
-_:c14n10 <http://xmlns.com/foaf/0.1/name> "Giorgia Lodi" <http://www.w3.org/ns/org#> .
-_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/org#> .
-_:c14n11 <http://www.w3.org/2002/07/owl#intersectionOf> _:c14n14 <http://www.w3.org/ns/org#> .
-_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/org#> .
-_:c14n12 <http://www.w3.org/2002/07/owl#unionOf> _:c14n19 <http://www.w3.org/ns/org#> .
-_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#identifier> <http://www.w3.org/ns/org#> .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/org#> .
+_:c14n10 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/ns/org#Organization> <http://www.w3.org/ns/org#> .
+_:c14n10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/org#hasMember> <http://www.w3.org/ns/org#> .
+_:c14n11 <http://xmlns.com/foaf/0.1/mbox> "dguardiola@quinode.fr" <http://www.w3.org/ns/org#> .
+_:c14n11 <http://xmlns.com/foaf/0.1/name> "Dominique Guardiola" <http://www.w3.org/ns/org#> .
+_:c14n12 <http://xmlns.com/foaf/0.1/mbox> "lupe@fi.upm.es" <http://www.w3.org/ns/org#> .
+_:c14n12 <http://xmlns.com/foaf/0.1/name> "Guadalupe Aguado de Cea" <http://www.w3.org/ns/org#> .
+_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#originalOrganization> <http://www.w3.org/ns/org#> .
 _:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/org#> .
-_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#Organization> <http://www.w3.org/ns/org#> .
-_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n1 <http://www.w3.org/ns/org#> .
-_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#resultedFrom> <http://www.w3.org/ns/org#> .
-_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n6 <http://www.w3.org/ns/org#> .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#Membership> <http://www.w3.org/ns/org#> .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n22 <http://www.w3.org/ns/org#> .
+_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/org#> .
+_:c14n15 <http://www.w3.org/2002/07/owl#intersectionOf> _:c14n5 <http://www.w3.org/ns/org#> .
 _:c14n16 <http://xmlns.com/foaf/0.1/homepage> <http://www.asahi-net.or.jp/~ax2s-kmtn/> <http://www.w3.org/ns/org#> .
 _:c14n16 <http://xmlns.com/foaf/0.1/name> "Shuji Kamitsuna" <http://www.w3.org/ns/org#> .
-_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/org#> .
-_:c14n17 <http://www.w3.org/2002/07/owl#unionOf> _:c14n24 <http://www.w3.org/ns/org#> .
-_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/org#> .
-_:c14n18 <http://www.w3.org/2002/07/owl#unionOf> _:c14n21 <http://www.w3.org/ns/org#> .
-_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#Membership> <http://www.w3.org/ns/org#> .
-_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n22 <http://www.w3.org/ns/org#> .
-_:c14n2 <http://xmlns.com/foaf/0.1/mbox> "antonio.maccioni@agid.gov.it" <http://www.w3.org/ns/org#> .
-_:c14n2 <http://xmlns.com/foaf/0.1/name> "Antonio Maccioni" <http://www.w3.org/ns/org#> .
+_:c14n17 <http://xmlns.com/foaf/0.1/mbox> "dave@epimorphics.com" <http://www.w3.org/ns/org#> .
+_:c14n17 <http://xmlns.com/foaf/0.1/name> "Dave Reynolds" <http://www.w3.org/ns/org#> .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#resultedFrom> <http://www.w3.org/ns/org#> .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n13 <http://www.w3.org/ns/org#> .
+_:c14n19 <http://xmlns.com/foaf/0.1/mbox> "antonio.maccioni@agid.gov.it" <http://www.w3.org/ns/org#> .
+_:c14n19 <http://xmlns.com/foaf/0.1/name> "Antonio Maccioni" <http://www.w3.org/ns/org#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/org#> .
+_:c14n2 <http://www.w3.org/2002/07/owl#unionOf> _:c14n24 <http://www.w3.org/ns/org#> .
 _:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#Post> <http://www.w3.org/ns/org#> .
 _:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/org#> .
 _:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/ns/org#> .
@@ -731,18 +732,17 @@ _:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/n
 _:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/org#> .
 _:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/ns/org#> .
 _:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n23 <http://www.w3.org/ns/org#> .
-_:c14n3 <http://xmlns.com/foaf/0.1/mbox> "lupe@fi.upm.es" <http://www.w3.org/ns/org#> .
-_:c14n3 <http://xmlns.com/foaf/0.1/name> "Guadalupe Aguado de Cea" <http://www.w3.org/ns/org#> .
-_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/org#> .
-_:c14n4 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/ns/org#Organization> <http://www.w3.org/ns/org#> .
-_:c14n4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/org#hasMember> <http://www.w3.org/ns/org#> .
-_:c14n5 <http://xmlns.com/foaf/0.1/mbox> "mpoveda@fi.upm.es" <http://www.w3.org/ns/org#> .
-_:c14n5 <http://xmlns.com/foaf/0.1/name> "María Poveda Villalón" <http://www.w3.org/ns/org#> .
-_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#originalOrganization> <http://www.w3.org/ns/org#> .
-_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/org#> .
-_:c14n7 <http://xmlns.com/foaf/0.1/mbox> "emontiel@fi.upm.es" <http://www.w3.org/ns/org#> .
-_:c14n7 <http://xmlns.com/foaf/0.1/name> "Elena Montiel Ponsoda" <http://www.w3.org/ns/org#> .
-_:c14n8 <http://xmlns.com/foaf/0.1/mbox> "dguardiola@quinode.fr" <http://www.w3.org/ns/org#> .
-_:c14n8 <http://xmlns.com/foaf/0.1/name> "Dominique Guardiola" <http://www.w3.org/ns/org#> .
-_:c14n9 <http://xmlns.com/foaf/0.1/mbox> "dave@epimorphics.com" <http://www.w3.org/ns/org#> .
-_:c14n9 <http://xmlns.com/foaf/0.1/name> "Dave Reynolds" <http://www.w3.org/ns/org#> .
+_:c14n3 <http://xmlns.com/foaf/0.1/mbox> "ogiraldo@fi.upm.es" <http://www.w3.org/ns/org#> .
+_:c14n3 <http://xmlns.com/foaf/0.1/name> "Olga Ximena Giraldo" <http://www.w3.org/ns/org#> .
+_:c14n4 <http://xmlns.com/foaf/0.1/mbox> "giorgia.lodi@agid.gov.it" <http://www.w3.org/ns/org#> .
+_:c14n4 <http://xmlns.com/foaf/0.1/name> "Giorgia Lodi" <http://www.w3.org/ns/org#> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/org#Organization> <http://www.w3.org/ns/org#> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n7 <http://www.w3.org/ns/org#> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/org#> .
+_:c14n6 <http://www.w3.org/2002/07/owl#unionOf> _:c14n14 <http://www.w3.org/ns/org#> .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n10 <http://www.w3.org/ns/org#> .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/org#> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/org#> .
+_:c14n8 <http://www.w3.org/2002/07/owl#unionOf> _:c14n21 <http://www.w3.org/ns/org#> .
+_:c14n9 <http://xmlns.com/foaf/0.1/mbox> "emontiel@fi.upm.es" <http://www.w3.org/ns/org#> .
+_:c14n9 <http://xmlns.com/foaf/0.1/name> "Elena Montiel Ponsoda" <http://www.w3.org/ns/org#> .

@@ -52,7 +52,7 @@
 <http://www.w3.org/ns/prov#ActivityInfluence> <http://www.w3.org/2000/01/rdf-schema#label> "ActivityInfluence" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#ActivityInfluence> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/prov#activity> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#ActivityInfluence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Influence> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#ActivityInfluence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n18 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#ActivityInfluence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n17 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#ActivityInfluence> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/ns/prov#EntityInfluence> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#ActivityInfluence> <http://www.w3.org/ns/prov#category> "qualified" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#ActivityInfluence> <http://www.w3.org/ns/prov#editorsDefinition> "ActivitiyInfluence is the capacity of an activity to have an effect on the character, development, or behavior of another by means of generation, invalidation, communication, or other."@en <http://www.w3.org/ns/prov#> .
@@ -267,8 +267,8 @@
 <http://www.w3.org/ns/prov#Insertion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Insertion> <http://www.w3.org/2000/01/rdf-schema#label> "Insertion" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Insertion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Derivation> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#Insertion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n22 <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#Insertion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n39 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#Insertion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n23 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#Insertion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n3 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Insertion> <http://www.w3.org/ns/prov#category> "collections" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Insertion> <http://www.w3.org/ns/prov#component> "collections" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Insertion> <http://www.w3.org/ns/prov#constraints> "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/ns/prov#> .
@@ -300,8 +300,8 @@
 <http://www.w3.org/ns/prov#KeyEntityPair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#KeyEntityPair> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#KeyEntityPair> <http://www.w3.org/2000/01/rdf-schema#label> "Key-Entity Pair" <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#KeyEntityPair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n26 <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#KeyEntityPair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n9 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#KeyEntityPair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n22 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#KeyEntityPair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n31 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#KeyEntityPair> <http://www.w3.org/ns/prov#category> "collections" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#KeyEntityPair> <http://www.w3.org/ns/prov#component> "collections" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#KeyEntityPair> <http://www.w3.org/ns/prov#constraints> "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/ns/prov#> .
@@ -384,7 +384,7 @@
 <http://www.w3.org/ns/prov#Removal> <http://www.w3.org/2000/01/rdf-schema#label> "Removal" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Removal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Derivation> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Removal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n28 <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#Removal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n3 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#Removal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n35 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Removal> <http://www.w3.org/ns/prov#category> "collections" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Removal> <http://www.w3.org/ns/prov#component> "collections" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#Removal> <http://www.w3.org/ns/prov#constraints> "http://www.w3.org/TR/2013/NOTE-prov-dictionary-20130430/#dictionary-constraints"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/ns/prov#> .
@@ -481,7 +481,7 @@
 <http://www.w3.org/ns/prov#actedOnBehalfOf> <http://www.w3.org/2000/01/rdf-schema#label> "actedOnBehalfOf" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#actedOnBehalfOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#actedOnBehalfOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#actedOnBehalfOf> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n34 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#actedOnBehalfOf> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n37 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#actedOnBehalfOf> <http://www.w3.org/ns/prov#category> "starting-point" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#actedOnBehalfOf> <http://www.w3.org/ns/prov#component> "agents-responsibility" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#actedOnBehalfOf> <http://www.w3.org/ns/prov#inverse> "hadDelegate" <http://www.w3.org/ns/prov#> .
@@ -543,7 +543,7 @@
 <http://www.w3.org/ns/prov#atLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#atLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "The Location of any resource."@en <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#atLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "This property has multiple RDFS domains to suit multiple OWL Profiles. See <a href=\"#owl-profile\">PROV-O OWL Profile</a>." <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#atLocation> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n37 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#atLocation> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n15 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#atLocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov-o#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#atLocation> <http://www.w3.org/2000/01/rdf-schema#label> "atLocation" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#atLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Location> <http://www.w3.org/ns/prov#> .
@@ -706,7 +706,7 @@
 <http://www.w3.org/ns/prov#hadActivity> <http://www.w3.org/2000/01/rdf-schema#comment> "The _optional_ Activity of an Influence, which used, generated, invalidated, or was the responsibility of some Entity. This property is _not_ used by ActivityInfluence (use prov:activity instead)."@en <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadActivity> <http://www.w3.org/2000/01/rdf-schema#comment> "This property has multiple RDFS domains to suit multiple OWL Profiles. See <a href=\"#owl-profile\">PROV-O OWL Profile</a>." <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadActivity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Influence> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#hadActivity> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n0 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#hadActivity> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n20 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadActivity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov-o#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadActivity> <http://www.w3.org/2000/01/rdf-schema#label> "hadActivity" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadActivity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
@@ -771,7 +771,7 @@
 <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/2000/01/rdf-schema#label> "hadPrimarySource" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n38 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n14 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/ns/prov#category> "expanded" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/ns/prov#component> "derivations" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/ns/prov#inverse> "wasPrimarySourceOf" <http://www.w3.org/ns/prov#> .
@@ -784,7 +784,7 @@
 <http://www.w3.org/ns/prov#hadRole> <http://www.w3.org/2000/01/rdf-schema#comment> "The _optional_ Role that an Entity assumed in the context of an Activity. For example, :baking prov:used :spoon; prov:qualified [ a prov:Usage; prov:entity :spoon; prov:hadRole roles:mixing_implement ]."@en <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadRole> <http://www.w3.org/2000/01/rdf-schema#comment> "This property has multiple RDFS domains to suit multiple OWL Profiles. See <a href=\"#owl-profile\">PROV-O OWL Profile</a>." <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Influence> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#hadRole> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n35 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#hadRole> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n9 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadRole> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov-o#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadRole> <http://www.w3.org/2000/01/rdf-schema#label> "hadRole" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#hadRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Role> <http://www.w3.org/ns/prov#> .
@@ -1056,7 +1056,7 @@
 <http://www.w3.org/ns/prov#qualifiedGenerationOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/prov#qualifiedGeneration> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#qualifiedInfluence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#qualifiedInfluence> <http://www.w3.org/2000/01/rdf-schema#comment> "Because prov:qualifiedInfluence is a broad relation, the more specific relations (qualifiedCommunication, qualifiedDelegation, qualifiedEnd, etc.) should be used when applicable."@en <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#qualifiedInfluence> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n4 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#qualifiedInfluence> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n10 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#qualifiedInfluence> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov-o#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#qualifiedInfluence> <http://www.w3.org/2000/01/rdf-schema#label> "qualifiedInfluence" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#qualifiedInfluence> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Influence> <http://www.w3.org/ns/prov#> .
@@ -1247,7 +1247,7 @@
 <http://www.w3.org/ns/prov#used> <http://www.w3.org/2000/01/rdf-schema#label> "used" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#used> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#used> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#used> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n6 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#used> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n21 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#used> <http://www.w3.org/ns/prov#category> "starting-point" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#used> <http://www.w3.org/ns/prov#component> "entities-activities" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#used> <http://www.w3.org/ns/prov#inverse> "wasUsedBy" <http://www.w3.org/ns/prov#> .
@@ -1276,7 +1276,7 @@
 <http://www.w3.org/ns/prov#wasAssociatedWith> <http://www.w3.org/2000/01/rdf-schema#label> "wasAssociatedWith" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasAssociatedWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasAssociatedWith> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#wasAssociatedWith> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n2 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#wasAssociatedWith> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n33 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasAssociatedWith> <http://www.w3.org/ns/prov#category> "starting-point" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasAssociatedWith> <http://www.w3.org/ns/prov#component> "agents-responsibility" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasAssociatedWith> <http://www.w3.org/ns/prov#inverse> "wasAssociateFor" <http://www.w3.org/ns/prov#> .
@@ -1289,7 +1289,7 @@
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#label> "wasAttributedTo" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n30 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n29 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/ns/prov#category> "starting-point" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/ns/prov#component> "agents-responsibility" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/ns/prov#definition> "Attribution is the ascribing of an entity to an agent."@en <http://www.w3.org/ns/prov#> .
@@ -1303,7 +1303,7 @@
 <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#label> "wasDerivedFrom" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n15 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n39 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#category> "starting-point" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#component> "derivations" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#definition> "A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity."@en <http://www.w3.org/ns/prov#> .
@@ -1317,7 +1317,7 @@
 <http://www.w3.org/ns/prov#wasEndedBy> <http://www.w3.org/2000/01/rdf-schema#label> "wasEndedBy" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasEndedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasEndedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#wasEndedBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n24 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#wasEndedBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n27 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasEndedBy> <http://www.w3.org/ns/prov#category> "expanded" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasEndedBy> <http://www.w3.org/ns/prov#component> "entities-activities" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasEndedBy> <http://www.w3.org/ns/prov#inverse> "ended" <http://www.w3.org/ns/prov#> .
@@ -1331,7 +1331,7 @@
 <http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/prov#generated> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n17 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n26 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/ns/prov#category> "starting-point" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/ns/prov#component> "entities-activities" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasGeneratedBy> <http://www.w3.org/ns/prov#inverse> "generated" <http://www.w3.org/ns/prov#> .
@@ -1340,11 +1340,11 @@
 <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Because prov:wasInfluencedBy is a broad relation, its more specific subproperties (e.g. prov:wasInformedBy, prov:actedOnBehalfOf, prov:wasEndedBy, etc.) should be used when applicable."@en <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property has multiple RDFS domains to suit multiple OWL Profiles. See <a href=\"#owl-profile\">PROV-O OWL Profile</a>." <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n8 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n7 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov-o#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov-o-inverses#> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2000/01/rdf-schema#label> "wasInfluencedBy" <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n29 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n36 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/prov#influenced> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#category> "qualified" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#component> "agents-responsibility" <http://www.w3.org/ns/prov#> .
@@ -1360,7 +1360,7 @@
 <http://www.w3.org/ns/prov#wasInformedBy> <http://www.w3.org/2000/01/rdf-schema#label> "wasInformedBy" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInformedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInformedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#wasInformedBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n23 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#wasInformedBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n5 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInformedBy> <http://www.w3.org/ns/prov#category> "starting-point" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInformedBy> <http://www.w3.org/ns/prov#component> "entities-activities" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInformedBy> <http://www.w3.org/ns/prov#inverse> "informed" <http://www.w3.org/ns/prov#> .
@@ -1374,7 +1374,7 @@
 <http://www.w3.org/ns/prov#wasInvalidatedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInvalidatedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInvalidatedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/prov#invalidated> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#wasInvalidatedBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n13 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#wasInvalidatedBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n0 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInvalidatedBy> <http://www.w3.org/ns/prov#category> "expanded" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInvalidatedBy> <http://www.w3.org/ns/prov#component> "entities-activities" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasInvalidatedBy> <http://www.w3.org/ns/prov#inverse> "invalidated" <http://www.w3.org/ns/prov#> .
@@ -1396,7 +1396,7 @@
 <http://www.w3.org/ns/prov#wasQuotedFrom> <http://www.w3.org/2000/01/rdf-schema#label> "wasQuotedFrom" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasQuotedFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasQuotedFrom> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#wasQuotedFrom> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n21 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#wasQuotedFrom> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n38 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasQuotedFrom> <http://www.w3.org/ns/prov#category> "expanded" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasQuotedFrom> <http://www.w3.org/ns/prov#component> "derivations" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasQuotedFrom> <http://www.w3.org/ns/prov#inverse> "quotedAs" <http://www.w3.org/ns/prov#> .
@@ -1410,7 +1410,7 @@
 <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2000/01/rdf-schema#label> "wasRevisionOf" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n7 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n19 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/ns/prov#category> "expanded" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/ns/prov#component> "derivations" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/ns/prov#inverse> "hadRevision" <http://www.w3.org/ns/prov#> .
@@ -1426,7 +1426,7 @@
 <http://www.w3.org/ns/prov#wasStartedBy> <http://www.w3.org/2000/01/rdf-schema#label> "wasStartedBy" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasStartedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasStartedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
-<http://www.w3.org/ns/prov#wasStartedBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n25 <http://www.w3.org/ns/prov#> .
+<http://www.w3.org/ns/prov#wasStartedBy> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n24 <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasStartedBy> <http://www.w3.org/ns/prov#category> "expanded" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasStartedBy> <http://www.w3.org/ns/prov#component> "entities-activities" <http://www.w3.org/ns/prov#> .
 <http://www.w3.org/ns/prov#wasStartedBy> <http://www.w3.org/ns/prov#inverse> "started" <http://www.w3.org/ns/prov#> .
@@ -1479,109 +1479,114 @@
 <https://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#specializationOf> <http://www.w3.org/ns/prov-o-inverses> <http://www.w3.org/ns/prov#> .
 <https://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov-o-20130430> <http://www.w3.org/ns/prov#> .
 <https://www.w3.org/ns/prov#> <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/ns/prov-o-inverses-20120312> <http://www.w3.org/ns/prov#> .
-_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
-_:c14n0 <http://www.w3.org/2002/07/owl#unionOf> _:c14n20 <http://www.w3.org/ns/prov#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://www.w3.org/ns/prov#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n72 <http://www.w3.org/ns/prov#> .
 _:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
+_:c14n1 <http://www.w3.org/2000/01/rdf-schema#comment> "A collection is an entity that provides a structure to some constituents, which are themselves entities. These constituents are said to be member of the collections."@en <http://www.w3.org/ns/prov#> .
 _:c14n1 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#> .
-_:c14n1 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
-_:c14n1 <http://www.w3.org/2002/07/owl#annotatedTarget> _:c14n60 <http://www.w3.org/ns/prov#> .
-_:c14n1 <http://www.w3.org/ns/prov#definition> "influencer: an identifier (o1) for an ancestor entity, activity, or agent that the former depends on;" <http://www.w3.org/ns/prov#> .
-_:c14n1 <http://www.w3.org/ns/prov#dm> "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-influence" <http://www.w3.org/ns/prov#> .
-_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
-_:c14n10 <http://www.w3.org/2000/01/rdf-schema#comment> "Revision is a derivation (see http://www.w3.org/TR/prov-dm/#term-Revision). Moreover, according to \nhttp://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 2012 'wasRevisionOf is a strict sub-relation of wasDerivedFrom since two entities e2 and e1 may satisfy wasDerivedFrom(e2,e1) without being a variant of each other.'" <http://www.w3.org/ns/prov#> .
-_:c14n10 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#> .
-_:c14n10 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/ns/prov#> .
-_:c14n10 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#> .
-_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Derivation> <http://www.w3.org/ns/prov#> .
-_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n32 <http://www.w3.org/ns/prov#> .
+_:c14n1 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#hadMember> <http://www.w3.org/ns/prov#> .
+_:c14n1 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
+_:c14n1 <http://www.w3.org/ns/prov#dm> "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-collection" <http://www.w3.org/ns/prov#> .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
+_:c14n10 <http://www.w3.org/2002/07/owl#unionOf> _:c14n49 <http://www.w3.org/ns/prov#> .
+_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#End> <http://www.w3.org/ns/prov#> .
+_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n30 <http://www.w3.org/ns/prov#> .
 _:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
-_:c14n12 <http://www.w3.org/2000/01/rdf-schema#comment> "A collection is an entity that provides a structure to some constituents, which are themselves entities. These constituents are said to be member of the collections."@en <http://www.w3.org/ns/prov#> .
-_:c14n12 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#> .
-_:c14n12 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#hadMember> <http://www.w3.org/ns/prov#> .
-_:c14n12 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
-_:c14n12 <http://www.w3.org/ns/prov#dm> "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-collection" <http://www.w3.org/ns/prov#> .
-_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedInvalidation> <http://www.w3.org/ns/prov#> .
-_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n48 <http://www.w3.org/ns/prov#> .
-_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
-_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n72 <http://www.w3.org/ns/prov#> .
-_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedDerivation> <http://www.w3.org/ns/prov#> .
-_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n40 <http://www.w3.org/ns/prov#> .
+_:c14n12 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#> .
+_:c14n12 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
+_:c14n12 <http://www.w3.org/2002/07/owl#annotatedTarget> _:c14n67 <http://www.w3.org/ns/prov#> .
+_:c14n12 <http://www.w3.org/ns/prov#definition> "influencee: an identifier (o2) for an entity, activity, or agent; " <http://www.w3.org/ns/prov#> .
+_:c14n12 <http://www.w3.org/ns/prov#dm> "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-influence" <http://www.w3.org/ns/prov#> .
+_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
+_:c14n13 <http://www.w3.org/2000/01/rdf-schema#comment> "hadPrimarySource property is a particular case of wasDerivedFrom (see http://www.w3.org/TR/prov-dm/#term-original-source) that aims to give credit to the source that originated some information." <http://www.w3.org/ns/prov#> .
+_:c14n13 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#> .
+_:c14n13 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/ns/prov#> .
+_:c14n13 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#> .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedPrimarySource> <http://www.w3.org/ns/prov#> .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n44 <http://www.w3.org/ns/prov#> .
+_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
+_:c14n15 <http://www.w3.org/2002/07/owl#unionOf> _:c14n59 <http://www.w3.org/ns/prov#> .
 _:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
-_:c14n16 <http://www.w3.org/2000/01/rdf-schema#comment> "Derivation is a particular case of trace (see http://www.w3.org/TR/prov-dm/#term-trace), since it links an entity to another entity that contributed to its existence." <http://www.w3.org/ns/prov#> .
+_:c14n16 <http://www.w3.org/2000/01/rdf-schema#comment> "Quotation is a particular case of derivation (see http://www.w3.org/TR/prov-dm/#term-quotation) in which an entity is derived from an original entity by copying, or \"quoting\", some or all of it. " <http://www.w3.org/ns/prov#> .
 _:c14n16 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#> .
-_:c14n16 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#> .
-_:c14n16 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
-_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedGeneration> <http://www.w3.org/ns/prov#> .
-_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n49 <http://www.w3.org/ns/prov#> .
-_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/prov#> .
-_:c14n18 <http://www.w3.org/2002/07/owl#maxCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/prov#> .
-_:c14n18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#hadActivity> <http://www.w3.org/ns/prov#> .
-_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Start> <http://www.w3.org/ns/prov#> .
-_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
-_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://www.w3.org/ns/prov#> .
-_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n67 <http://www.w3.org/ns/prov#> .
-_:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Delegation> <http://www.w3.org/ns/prov#> .
-_:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n11 <http://www.w3.org/ns/prov#> .
-_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedQuotation> <http://www.w3.org/ns/prov#> .
-_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n44 <http://www.w3.org/ns/prov#> .
+_:c14n16 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#wasQuotedFrom> <http://www.w3.org/ns/prov#> .
+_:c14n16 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#> .
+_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/prov#> .
+_:c14n17 <http://www.w3.org/2002/07/owl#maxCardinality> "0"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://www.w3.org/ns/prov#> .
+_:c14n17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#hadActivity> <http://www.w3.org/ns/prov#> .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
+_:c14n18 <http://www.w3.org/2000/01/rdf-schema#comment> "Revision is a derivation (see http://www.w3.org/TR/prov-dm/#term-Revision). Moreover, according to \nhttp://www.w3.org/TR/2013/REC-prov-constraints-20130430/#term-Revision 23 April 2012 'wasRevisionOf is a strict sub-relation of wasDerivedFrom since two entities e2 and e1 may satisfy wasDerivedFrom(e2,e1) without being a variant of each other.'" <http://www.w3.org/ns/prov#> .
+_:c14n18 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#> .
+_:c14n18 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#wasRevisionOf> <http://www.w3.org/ns/prov#> .
+_:c14n18 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#> .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedRevision> <http://www.w3.org/ns/prov#> .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n48 <http://www.w3.org/ns/prov#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
+_:c14n2 <http://www.w3.org/2000/01/rdf-schema#comment> "Derivation is a particular case of trace (see http://www.w3.org/TR/prov-dm/#term-trace), since it links an entity to another entity that contributed to its existence." <http://www.w3.org/ns/prov#> .
+_:c14n2 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#> .
+_:c14n2 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#> .
+_:c14n2 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
+_:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
+_:c14n20 <http://www.w3.org/2002/07/owl#unionOf> _:c14n6 <http://www.w3.org/ns/prov#> .
+_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedUsage> <http://www.w3.org/ns/prov#> .
+_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n42 <http://www.w3.org/ns/prov#> .
 _:c14n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/prov#> .
-_:c14n22 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/ns/prov#> .
-_:c14n22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#insertedKeyEntityPair> <http://www.w3.org/ns/prov#> .
-_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedCommunication> <http://www.w3.org/ns/prov#> .
-_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n47 <http://www.w3.org/ns/prov#> .
-_:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedEnd> <http://www.w3.org/ns/prov#> .
-_:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n46 <http://www.w3.org/ns/prov#> .
-_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedStart> <http://www.w3.org/ns/prov#> .
-_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n45 <http://www.w3.org/ns/prov#> .
-_:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/prov#> .
-_:c14n26 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/ns/prov#> .
-_:c14n26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#pairKey> <http://www.w3.org/ns/prov#> .
-_:c14n27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Association> <http://www.w3.org/ns/prov#> .
-_:c14n27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n73 <http://www.w3.org/ns/prov#> .
+_:c14n22 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/ns/prov#> .
+_:c14n22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#pairEntity> <http://www.w3.org/ns/prov#> .
+_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/prov#> .
+_:c14n23 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/ns/prov#> .
+_:c14n23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#insertedKeyEntityPair> <http://www.w3.org/ns/prov#> .
+_:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedStart> <http://www.w3.org/ns/prov#> .
+_:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n43 <http://www.w3.org/ns/prov#> .
+_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Derivation> <http://www.w3.org/ns/prov#> .
+_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n11 <http://www.w3.org/ns/prov#> .
+_:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedGeneration> <http://www.w3.org/ns/prov#> .
+_:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n73 <http://www.w3.org/ns/prov#> .
+_:c14n27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedEnd> <http://www.w3.org/ns/prov#> .
+_:c14n27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n46 <http://www.w3.org/ns/prov#> .
 _:c14n28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/prov#> .
 _:c14n28 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/ns/prov#> .
 _:c14n28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#removedKey> <http://www.w3.org/ns/prov#> .
-_:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
-_:c14n29 <http://www.w3.org/2002/07/owl#unionOf> _:c14n63 <http://www.w3.org/ns/prov#> .
+_:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedAttribution> <http://www.w3.org/ns/prov#> .
+_:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n70 <http://www.w3.org/ns/prov#> .
 _:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/prov#> .
 _:c14n3 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/ns/prov#> .
 _:c14n3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#dictionary> <http://www.w3.org/ns/prov#> .
-_:c14n30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedAttribution> <http://www.w3.org/ns/prov#> .
-_:c14n30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n68 <http://www.w3.org/ns/prov#> .
-_:c14n31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
-_:c14n31 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#> .
-_:c14n31 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
-_:c14n31 <http://www.w3.org/2002/07/owl#annotatedTarget> _:c14n56 <http://www.w3.org/ns/prov#> .
-_:c14n31 <http://www.w3.org/ns/prov#definition> "influencee: an identifier (o2) for an entity, activity, or agent; " <http://www.w3.org/ns/prov#> .
-_:c14n31 <http://www.w3.org/ns/prov#dm> "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-influence" <http://www.w3.org/ns/prov#> .
-_:c14n32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#End> <http://www.w3.org/ns/prov#> .
-_:c14n32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n19 <http://www.w3.org/ns/prov#> .
-_:c14n33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
-_:c14n33 <http://www.w3.org/2000/01/rdf-schema#comment> "hadPrimarySource property is a particular case of wasDerivedFrom (see http://www.w3.org/TR/prov-dm/#term-original-source) that aims to give credit to the source that originated some information." <http://www.w3.org/ns/prov#> .
-_:c14n33 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#> .
-_:c14n33 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#hadPrimarySource> <http://www.w3.org/ns/prov#> .
-_:c14n33 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#> .
-_:c14n34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedDelegation> <http://www.w3.org/ns/prov#> .
-_:c14n34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n69 <http://www.w3.org/ns/prov#> .
-_:c14n35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
-_:c14n35 <http://www.w3.org/2002/07/owl#unionOf> _:c14n27 <http://www.w3.org/ns/prov#> .
-_:c14n36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
-_:c14n36 <http://www.w3.org/2000/01/rdf-schema#comment> "Quotation is a particular case of derivation (see http://www.w3.org/TR/prov-dm/#term-quotation) in which an entity is derived from an original entity by copying, or \"quoting\", some or all of it. " <http://www.w3.org/ns/prov#> .
-_:c14n36 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#> .
-_:c14n36 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#wasQuotedFrom> <http://www.w3.org/ns/prov#> .
-_:c14n36 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/ns/prov#> .
-_:c14n37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
-_:c14n37 <http://www.w3.org/2002/07/owl#unionOf> _:c14n71 <http://www.w3.org/ns/prov#> .
-_:c14n38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedPrimarySource> <http://www.w3.org/ns/prov#> .
-_:c14n38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n41 <http://www.w3.org/ns/prov#> .
-_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/prov#> .
-_:c14n39 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/ns/prov#> .
-_:c14n39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#dictionary> <http://www.w3.org/ns/prov#> .
-_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
-_:c14n4 <http://www.w3.org/2002/07/owl#unionOf> _:c14n66 <http://www.w3.org/ns/prov#> .
-_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#entity> <http://www.w3.org/ns/prov#> .
+_:c14n30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Start> <http://www.w3.org/ns/prov#> .
+_:c14n30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
+_:c14n31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/prov#> .
+_:c14n31 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/ns/prov#> .
+_:c14n31 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#pairKey> <http://www.w3.org/ns/prov#> .
+_:c14n32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
+_:c14n32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n40 <http://www.w3.org/ns/prov#> .
+_:c14n33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://www.w3.org/ns/prov#> .
+_:c14n33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n68 <http://www.w3.org/ns/prov#> .
+_:c14n34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
+_:c14n34 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#> .
+_:c14n34 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
+_:c14n34 <http://www.w3.org/2002/07/owl#annotatedTarget> _:c14n58 <http://www.w3.org/ns/prov#> .
+_:c14n34 <http://www.w3.org/ns/prov#definition> "influencer: an identifier (o1) for an ancestor entity, activity, or agent that the former depends on;" <http://www.w3.org/ns/prov#> .
+_:c14n34 <http://www.w3.org/ns/prov#dm> "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-influence" <http://www.w3.org/ns/prov#> .
+_:c14n35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/prov#> .
+_:c14n35 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/ns/prov#> .
+_:c14n35 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#dictionary> <http://www.w3.org/ns/prov#> .
+_:c14n36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
+_:c14n36 <http://www.w3.org/2002/07/owl#unionOf> _:c14n52 <http://www.w3.org/ns/prov#> .
+_:c14n37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedDelegation> <http://www.w3.org/ns/prov#> .
+_:c14n37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n69 <http://www.w3.org/ns/prov#> .
+_:c14n38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedQuotation> <http://www.w3.org/ns/prov#> .
+_:c14n38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n45 <http://www.w3.org/ns/prov#> .
+_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedDerivation> <http://www.w3.org/ns/prov#> .
+_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n47 <http://www.w3.org/ns/prov#> .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
+_:c14n4 <http://www.w3.org/2000/01/rdf-schema#comment> "Attribution is a particular case of trace (see http://www.w3.org/TR/prov-dm/#concept-trace), in the sense that it links an entity to the agent that ascribed it." <http://www.w3.org/ns/prov#> .
+_:c14n4 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#> .
+_:c14n4 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/ns/prov#> .
+_:c14n4 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
+_:c14n4 <http://www.w3.org/ns/prov#definition> "IF wasAttributedTo(e2,ag1,aAttr) holds, THEN wasInfluencedBy(e2,ag1) also holds. " <http://www.w3.org/ns/prov#> .
+_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#InstantaneousEvent> <http://www.w3.org/ns/prov#> .
 _:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
-_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#entity> <http://www.w3.org/ns/prov#> .
+_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#InstantaneousEvent> <http://www.w3.org/ns/prov#> .
 _:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
 _:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#entity> <http://www.w3.org/ns/prov#> .
 _:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
@@ -1593,72 +1598,67 @@ _:c14n45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/n
 _:c14n45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
 _:c14n46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#entity> <http://www.w3.org/ns/prov#> .
 _:c14n46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
-_:c14n47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#activity> <http://www.w3.org/ns/prov#> .
+_:c14n47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#entity> <http://www.w3.org/ns/prov#> .
 _:c14n47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
-_:c14n48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#activity> <http://www.w3.org/ns/prov#> .
+_:c14n48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#entity> <http://www.w3.org/ns/prov#> .
 _:c14n48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
-_:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#activity> <http://www.w3.org/ns/prov#> .
-_:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
-_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> <http://www.w3.org/ns/prov#> .
-_:c14n5 <http://www.w3.org/2000/01/rdf-schema#comment> "Attribution is a particular case of trace (see http://www.w3.org/TR/prov-dm/#concept-trace), in the sense that it links an entity to the agent that ascribed it." <http://www.w3.org/ns/prov#> .
-_:c14n5 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#> .
-_:c14n5 <http://www.w3.org/2002/07/owl#annotatedSource> <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/ns/prov#> .
-_:c14n5 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/ns/prov#> .
-_:c14n5 <http://www.w3.org/ns/prov#definition> "IF wasAttributedTo(e2,ag1,aAttr) holds, THEN wasInfluencedBy(e2,ag1) also holds. " <http://www.w3.org/ns/prov#> .
-_:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
-_:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
-_:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
-_:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n50 <http://www.w3.org/ns/prov#> .
+_:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
+_:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n50 <http://www.w3.org/ns/prov#> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedCommunication> <http://www.w3.org/ns/prov#> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n71 <http://www.w3.org/ns/prov#> .
+_:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
+_:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n51 <http://www.w3.org/ns/prov#> .
+_:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
+_:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
 _:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
-_:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n51 <http://www.w3.org/ns/prov#> .
-_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
-_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
-_:c14n54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
-_:c14n54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n53 <http://www.w3.org/ns/prov#> .
+_:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n53 <http://www.w3.org/ns/prov#> .
+_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
+_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n54 <http://www.w3.org/ns/prov#> .
+_:c14n54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
+_:c14n54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
 _:c14n55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
-_:c14n55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n54 <http://www.w3.org/ns/prov#> .
-_:c14n56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
-_:c14n56 <http://www.w3.org/2002/07/owl#unionOf> _:c14n55 <http://www.w3.org/ns/prov#> .
+_:c14n55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n56 <http://www.w3.org/ns/prov#> .
+_:c14n56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
+_:c14n56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n57 <http://www.w3.org/ns/prov#> .
 _:c14n57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
 _:c14n57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
-_:c14n58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
-_:c14n58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n57 <http://www.w3.org/ns/prov#> .
+_:c14n58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
+_:c14n58 <http://www.w3.org/2002/07/owl#unionOf> _:c14n55 <http://www.w3.org/ns/prov#> .
 _:c14n59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
-_:c14n59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n58 <http://www.w3.org/ns/prov#> .
-_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedUsage> <http://www.w3.org/ns/prov#> .
-_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n43 <http://www.w3.org/ns/prov#> .
-_:c14n60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
-_:c14n60 <http://www.w3.org/2002/07/owl#unionOf> _:c14n59 <http://www.w3.org/ns/prov#> .
-_:c14n61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
-_:c14n61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
+_:c14n59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n60 <http://www.w3.org/ns/prov#> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Delegation> <http://www.w3.org/ns/prov#> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n25 <http://www.w3.org/ns/prov#> .
+_:c14n60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
+_:c14n60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n32 <http://www.w3.org/ns/prov#> .
+_:c14n61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
+_:c14n61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n62 <http://www.w3.org/ns/prov#> .
 _:c14n62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
-_:c14n62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n61 <http://www.w3.org/ns/prov#> .
-_:c14n63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
-_:c14n63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n62 <http://www.w3.org/ns/prov#> .
-_:c14n64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
-_:c14n64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
+_:c14n62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n63 <http://www.w3.org/ns/prov#> .
+_:c14n63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
+_:c14n63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
+_:c14n64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
+_:c14n64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n65 <http://www.w3.org/ns/prov#> .
 _:c14n65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
-_:c14n65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n64 <http://www.w3.org/ns/prov#> .
-_:c14n66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
-_:c14n66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n65 <http://www.w3.org/ns/prov#> .
-_:c14n67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#agent> <http://www.w3.org/ns/prov#> .
-_:c14n67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
+_:c14n65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n66 <http://www.w3.org/ns/prov#> .
+_:c14n66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/ns/prov#> .
+_:c14n66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
+_:c14n67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
+_:c14n67 <http://www.w3.org/2002/07/owl#unionOf> _:c14n64 <http://www.w3.org/ns/prov#> .
 _:c14n68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#agent> <http://www.w3.org/ns/prov#> .
 _:c14n68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
 _:c14n69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#agent> <http://www.w3.org/ns/prov#> .
 _:c14n69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
-_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedRevision> <http://www.w3.org/ns/prov#> .
-_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n42 <http://www.w3.org/ns/prov#> .
-_:c14n70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Agent> <http://www.w3.org/ns/prov#> .
-_:c14n70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n14 <http://www.w3.org/ns/prov#> .
-_:c14n71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/ns/prov#> .
-_:c14n71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n70 <http://www.w3.org/ns/prov#> .
-_:c14n72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#InstantaneousEvent> <http://www.w3.org/ns/prov#> .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
+_:c14n7 <http://www.w3.org/2002/07/owl#unionOf> _:c14n61 <http://www.w3.org/ns/prov#> .
+_:c14n70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#agent> <http://www.w3.org/ns/prov#> .
+_:c14n70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
+_:c14n71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#activity> <http://www.w3.org/ns/prov#> .
+_:c14n71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
+_:c14n72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#activity> <http://www.w3.org/ns/prov#> .
 _:c14n72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
-_:c14n73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#InstantaneousEvent> <http://www.w3.org/ns/prov#> .
+_:c14n73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#activity> <http://www.w3.org/ns/prov#> .
 _:c14n73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/prov#> .
-_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
-_:c14n8 <http://www.w3.org/2002/07/owl#unionOf> _:c14n52 <http://www.w3.org/ns/prov#> .
-_:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://www.w3.org/ns/prov#> .
-_:c14n9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#int> <http://www.w3.org/ns/prov#> .
-_:c14n9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/ns/prov#pairEntity> <http://www.w3.org/ns/prov#> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Association> <http://www.w3.org/ns/prov#> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n41 <http://www.w3.org/ns/prov#> .
+_:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/ns/prov#> .
+_:c14n9 <http://www.w3.org/2002/07/owl#unionOf> _:c14n8 <http://www.w3.org/ns/prov#> .

@@ -12,6 +12,8 @@
   "license": "MIT",
   "vocabulary": {
     "prefix": "og",
-    "namespace": "http://ogp.me/ns#"
+    "namespace": "http://ogp.me/ns#",
+    "file": "https://ogp.me/ns/ogp.me.ttl",
+    "mediaType": "text/turtle"
   }
 }

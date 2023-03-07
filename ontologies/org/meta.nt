@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/org:> <http://dbpedia.org/ontology/filename> "ontologies/org.nq" .
+<https://prefix.zazuko.com/org:> <http://dbpedia.org/ontology/filename> "@vocabulary/org/org.nq" .
 <https://prefix.zazuko.com/org:> <http://purl.org/dc/terms/description> "Vocabulary for describing organizational structures, specializable to a broad variety of types of organization." .
 <https://prefix.zazuko.com/org:> <http://purl.org/dc/terms/title> "Core organization ontology" .
 <https://prefix.zazuko.com/org:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
