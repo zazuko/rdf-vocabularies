@@ -30,5 +30,6 @@
     "@types/rdfjs__fetch-lite": "^2.0.4",
     "@types/rdfjs__formats-common": "^2.0.2",
     "@types/rdfjs__serializer-rdfjs": "^0.0.2"
-  }
+  },
+  "license": "MIT"
 }
