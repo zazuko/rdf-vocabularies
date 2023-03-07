@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/cnt:> <http://dbpedia.org/ontology/filename> "ontologies/cnt.nq" .
+<https://prefix.zazuko.com/cnt:> <http://dbpedia.org/ontology/filename> "@vocabulary/cnt/cnt.nq" .
 <https://prefix.zazuko.com/cnt:> <http://purl.org/dc/terms/description> "Representing Content in RDF as defined by http://www.w3.org/TR/Content-in-RDF/" .
 <https://prefix.zazuko.com/cnt:> <http://purl.org/dc/terms/title> "Representing Content in RDF" .
 <https://prefix.zazuko.com/cnt:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .

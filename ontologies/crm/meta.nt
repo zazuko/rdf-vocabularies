@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/crm:> <http://dbpedia.org/ontology/filename> "ontologies/crm.nq" .
+<https://prefix.zazuko.com/crm:> <http://dbpedia.org/ontology/filename> "@vocabulary/crm/crm.nq" .
 <https://prefix.zazuko.com/crm:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/crm:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.cidoc-crm.org/cidoc-crm/> .
 <https://prefix.zazuko.com/crm:> <http://www.w3.org/ns/rdfa#prefix> "crm" .
