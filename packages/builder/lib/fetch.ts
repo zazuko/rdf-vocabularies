@@ -5,5 +5,5 @@ import protoFetch from 'proto-fetch'
 export default protoFetch({
   file: fileFetch,
   http: httpFetch,
-  https: httpFetch
+  https: httpFetch,
 })

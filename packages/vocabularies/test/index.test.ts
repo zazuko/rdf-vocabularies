@@ -1,27 +1,20 @@
-import { describe, it, before, after } from 'mocha'
+import { readFileSync } from 'fs'
+import fs from 'fs/promises'
+import module from 'module'
+import { resolve as resolvePath } from 'path'
 import { expect } from 'chai'
-import fs from 'fs'
-import { join, resolve as resolvePath } from 'path'
+import { describe, it, before, after } from 'mocha'
 import rdf from 'rdf-ext'
-import { vocabularies, shrink } from '../src'
-import { expand } from '../src/'
-import prefixes from '../src/prefixes'
+import prefixes, { shrink } from '@zazuko/prefixes'
+import { expand } from '../index.js'
+import { vocabularies } from '../vocabularies.js'
 
-const list = (directoryPath: string): Promise<string[]> =>
-  new Promise((resolve, reject) => fs.readdir(directoryPath, (err, files: string[]) => {
-    if (err) {
-      reject(err)
-      return
-    }
-    resolve(files.map(p => p.slice(0, -3)).filter((filename) => !filename.startsWith('_')))
-  }))
-
-describe('@zazuko/rdf-vocabularies', function () {
+describe('@zazuko/vocabularies', function () {
   this.timeout(10000)
 
   it('loads all prefixes', async () => {
     const vocabsDir = resolvePath('./ontologies')
-    const ontologies = await list(vocabsDir)
+    const ontologies = await fs.readdir(vocabsDir)
     const vocabs = Object.keys(await vocabularies())
     expect(vocabs).to.have.all.members(ontologies)
   })
@@ -123,7 +116,7 @@ describe('shrink', () => {
 
   it('shrinks with custom prefixes', () => {
     const customPrefixes = {
-      ex: 'http://example.com/'
+      ex: 'http://example.com/',
     }
 
     expect(shrink('http://example.com/foo', customPrefixes)).to.eq('ex:foo')
@@ -131,7 +124,7 @@ describe('shrink', () => {
 
   it('uses default prefixes when not found in custom set', () => {
     const customPrefixes = {
-      ex: 'http://example.com/'
+      ex: 'http://example.com/',
     }
 
     expect(shrink('http://schema.org/Person', customPrefixes)).to.eq('schema:Person')
@@ -139,7 +132,7 @@ describe('shrink', () => {
 
   it('uses custom namespace before built-in', () => {
     const customPrefixes = {
-      schema: 'http://example.com/'
+      schema: 'http://example.com/',
     }
 
     expect(shrink('http://example.com/Person', customPrefixes)).to.eq('schema:Person')
@@ -147,14 +140,14 @@ describe('shrink', () => {
   })
 
   it('handles overlapping prefixes', () => {
-    prefixes['foo'] = 'http://example.com/foo/'
-    prefixes['bar'] = 'http://example.com/foo/bar/'
+    prefixes.foo = 'http://example.com/foo/'
+    prefixes.bar = 'http://example.com/foo/bar/'
 
     expect(shrink('http://example.com/foo/test')).to.eq('foo:test')
     expect(shrink('http://example.com/foo/bar/test')).to.eq('bar:test')
 
-    prefixes['bar2'] = 'http://example.com/foo2/bar/'
-    prefixes['foo2'] = 'http://example.com/foo2/'
+    prefixes.bar2 = 'http://example.com/foo2/bar/'
+    prefixes.foo2 = 'http://example.com/foo2/'
 
     expect(shrink('http://example.com/foo2/test')).to.eq('foo2:test')
     expect(shrink('http://example.com/foo2/bar/test')).to.eq('bar2:test')
@@ -163,10 +156,10 @@ describe('shrink', () => {
 
 describe('user-defined prefixes', () => {
   before(() => {
-    prefixes['zzz'] = 'http://foo/'
+    prefixes.zzz = 'http://foo/'
   })
   after(() => {
-    delete prefixes['zzz']
+    delete prefixes.zzz
   })
   it('expands', () => {
     expect(expand('zzz:bar')).to.eq('http://foo/bar')
@@ -176,10 +169,9 @@ describe('user-defined prefixes', () => {
   })
 })
 
-function loadFile (prefix: string) {
-  return fs.readFileSync(buildPath(prefix), { encoding: 'utf8' })
-}
+const require = module.createRequire(import.meta.url)
 
-function buildPath (prefix: string) {
-  return resolvePath(join('.', 'ontologies', `${prefix}.nq`))
+function loadFile(prefix: string) {
+  const path = require.resolve(`@vocabulary/${prefix}/${prefix}.nq`)
+  return readFileSync(path, { encoding: 'utf8' })
 }

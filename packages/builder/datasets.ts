@@ -1,18 +1,19 @@
+/* eslint-disable no-console */
 import fs from 'fs'
-import Program from 'commander'
+import { resolve } from 'path'
 import rdf from 'rdf-ext'
 import formats from '@rdfjs/formats-common'
 import rdfFetch, { FactoryInit, DatasetResponse } from '@rdfjs/fetch-lite'
 import { RdfXmlParser } from 'rdfxml-streaming-parser'
-import { expand, loadFile, prefixes } from './src'
-import { NamedNode } from 'rdf-js'
-import DatasetExt from 'rdf-ext/lib/Dataset'
-import rawFetch from './src/fetch'
-import { overrides, Override } from './overrides'
+import { DatasetCore, NamedNode } from '@rdfjs/types'
+import DatasetExt from 'rdf-ext/lib/Dataset.js'
+import { expand } from '@zazuko/prefixes'
+import { Override } from './lib/overrides.js'
+import rawFetch from './lib/fetch.js'
 
-interface Prefix {
-  prefix: string;
-  uri: string;
+interface Vocab extends Override {
+  prefix: string
+  namespace: string
 }
 
 // this script gets your IP banned from w3.org unless you wait long enough between w3.org requests
@@ -22,11 +23,11 @@ let lastW3FetchAt = 0
 // other workarounds to avoid w3.org banning us for making 30 requests over 10 minutes every two months...
 const randomInt = (a: number, b: number) => Math.floor(a + Math.random() * (b + 1 - a))
 const fetchOptions = ({ headers, ...rest }: FactoryInit<DatasetExt>): FactoryInit<DatasetExt> => ({
-  'credentials': 'omit',
-  'headers': {
+  credentials: 'omit',
+  headers: {
     'accept-language': 'en-US,en',
     'cache-control': 'no-cache',
-    'pragma': 'no-cache',
+    pragma: 'no-cache',
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'cross-site',
     'sec-fetch-user': '?1',
@@ -35,22 +36,22 @@ const fetchOptions = ({ headers, ...rest }: FactoryInit<DatasetExt>): FactoryIni
       `10_${randomInt(0, 15)}_${randomInt(1, 5)}) ` +
       `AppleWebKit/${randomInt(400, 537)}.${randomInt(1, 40)} (KHTML, like Gecko) ` +
       `Chrome/${randomInt(11, 77)}.0.${randomInt(1, 6000)}.120 Safari/${randomInt(400, 537)}.${randomInt(1, 40)}`,
-    ...headers
+    ...headers,
   },
-  'referrerPolicy': 'no-referrer-when-downgrade',
-  'body': null,
-  'method': 'GET',
-  'mode': 'cors',
-  ...rest
+  referrerPolicy: 'no-referrer-when-downgrade',
+  body: null,
+  method: 'GET',
+  mode: 'cors',
+  ...rest,
 })
 
 const expandToNamedNode = (str: string): NamedNode => rdf.namedNode(expand(str))
 
-async function wait (milliseconds: number) {
+async function wait(milliseconds: number) {
   return new Promise((resolve) => setTimeout(resolve, milliseconds))
 }
 
-function fetchWrapper (url: string, options: FactoryInit<DatasetExt>, timeout: number) {
+function fetchWrapper(url: string, options: FactoryInit<DatasetExt>, timeout: number) {
   // source: https://stackoverflow.com/a/46946588/4359369
   return new Promise((resolve, reject) => {
     rdfFetch <DatasetExt>(url, { ...fetchOptions(options), fetch: rawFetch }).then(resolve, reject)
@@ -62,18 +63,18 @@ function fetchWrapper (url: string, options: FactoryInit<DatasetExt>, timeout: n
   }) as Promise<DatasetResponse<DatasetExt>>
 }
 
-async function fetch (mappings: any, indexOnly = false) {
-  const prefix = mappings.prefix
-  mappings = mappings.files || [mappings]
+async function datasets(vocab: Vocab, indexOnly = false): Promise<DatasetExt> {
+  const prefix = vocab.prefix
+  const mappings = vocab.files || [vocab]
 
   let dataset = rdf.dataset()
 
   for (const mapping of (indexOnly ? [] : mappings)) {
     const headers: HeadersInit = {}
     if (mapping.mediaType) {
-      headers['accept'] = mapping.mediaType
+      headers.accept = mapping.mediaType
     }
-    const uri = mapping.file || mapping.uri
+    const uri = mapping.file || vocab.namespace
     const xmlParserOptions = { allowDuplicateRdfIds: true }
     if (mapping.xmlParserOptions) {
       Object.assign(xmlParserOptions, mapping.xmlParserOptions)
@@ -92,44 +93,43 @@ async function fetch (mappings: any, indexOnly = false) {
       }
       const res = await fetchWrapper(uri, { factory: rdf, formats, headers }, 30000)
       if (!res.ok) {
-        console.warn(`${mapping.prefix}: HTTP${res.status} for ${uri}`)
+        console.warn(`${vocab.prefix}: HTTP${res.status} for ${uri}`)
       }
       if (mapping.mediaType) {
         res.headers.set('content-type', mapping.mediaType)
       }
       const fetchedDataset = await res.dataset()
       dataset = dataset.merge(fetchedDataset)
-    }
-    catch (err) {
+    } catch (err: any) {
       console.warn(`${prefix}: failed fetching/processing: ${err.message}`)
     }
   }
 
   if (!dataset.size) {
-    return loadFile(prefix, { factory: rdf, customSelection: false })
+    // return loadFile(prefix, { factory: rdf, customSelection: false })
   }
   return dataset
 }
 
-function firstVal (dataset: DatasetExt) {
+function firstVal(dataset: DatasetCore) {
   if (dataset.size) {
-    const english = dataset.toArray().find(({ object }: any) => object.language === 'en')
+    const english = [...dataset].find(({ object }: any) => object.language === 'en')
     if (english) {
       return english.object.value
     }
-    const noLanguage = dataset.toArray().find(({ object }: any) => object.language === '')
+    const noLanguage = [...dataset].find(({ object }: any) => object.language === '')
     if (noLanguage) {
       return noLanguage.object.value
     }
-    return dataset.toArray()[0].object.value
+    return [...dataset][0].object.value
   }
 }
 
-function getTitle (dataset: DatasetExt): string {
+function getTitle(dataset: DatasetCore): string {
   const potentialValues = [
     firstVal(dataset.match(null, rdf.namedNode(expand('dc11:title')))),
     firstVal(dataset.match(null, rdf.namedNode(expand('dcterms:title')))),
-    firstVal(dataset.match(null, rdf.namedNode(expand('rdfs:label'))))
+    firstVal(dataset.match(null, rdf.namedNode(expand('rdfs:label')))),
   ].filter(Boolean)
 
   if (potentialValues.length && potentialValues[0]) {
@@ -138,11 +138,11 @@ function getTitle (dataset: DatasetExt): string {
   return ''
 }
 
-function getDescription (dataset: DatasetExt): string {
+function getDescription(dataset: DatasetCore): string {
   const potentialValues = [
     firstVal(dataset.match(null, rdf.namedNode(expand('dc11:description')))),
     firstVal(dataset.match(null, rdf.namedNode(expand('dcterms:description')))),
-    firstVal(dataset.match(null, rdf.namedNode(expand('rdfs:comment'))))
+    firstVal(dataset.match(null, rdf.namedNode(expand('rdfs:comment')))),
   ].filter(Boolean)
 
   if (potentialValues.length && potentialValues[0]) {
@@ -151,8 +151,8 @@ function getDescription (dataset: DatasetExt): string {
   return ''
 }
 
-function generateIndex (subject: NamedNode, mappings: any, dataset: DatasetExt) {
-  const vocabUri = rdf.namedNode(mappings.uri)
+function generateIndex(subject: NamedNode, packageName: string, mappings: Vocab, dataset: DatasetExt) {
+  const vocabUri = rdf.namedNode(mappings.namespace)
   let filteredDataset = dataset.match(vocabUri)
   if (vocabUri.value.endsWith('/') || vocabUri.value.endsWith('#')) {
     const vocabUri2 = rdf.namedNode(vocabUri.value.substr(0, vocabUri.value.length - 1))
@@ -165,88 +165,55 @@ function generateIndex (subject: NamedNode, mappings: any, dataset: DatasetExt) 
 
   if (title) {
     prefixDataset.add(
-      rdf.quad(subject, expandToNamedNode('dcterms:title'), rdf.literal(title.trim()))
+      rdf.quad(subject, expandToNamedNode('dcterms:title'), rdf.literal(title.trim())),
     )
   }
   if (description) {
     prefixDataset.add(
-      rdf.quad(subject, expandToNamedNode('dcterms:description'), rdf.literal(description.trim()))
+      rdf.quad(subject, expandToNamedNode('dcterms:description'), rdf.literal(description.trim())),
     )
   }
   prefixDataset.add(
-    rdf.quad(subject, expandToNamedNode('rdf:type'), expandToNamedNode('rdfa:PrefixMapping'))
+    rdf.quad(subject, expandToNamedNode('rdf:type'), expandToNamedNode('rdfa:PrefixMapping')),
   )
   prefixDataset.add(
-    rdf.quad(subject, expandToNamedNode('rdfa:prefix'), rdf.literal(mappings.prefix))
+    rdf.quad(subject, expandToNamedNode('rdfa:prefix'), rdf.literal(mappings.prefix)),
   )
   prefixDataset.add(
-    rdf.quad(subject, expandToNamedNode('rdfa:uri'), rdf.namedNode(mappings.uri))
+    rdf.quad(subject, expandToNamedNode('rdfa:uri'), rdf.namedNode(mappings.namespace)),
   )
   prefixDataset.add(
-    rdf.quad(subject, expandToNamedNode('dbo:filename'), rdf.literal(`ontologies/${mappings.prefix}.nq`))
+    rdf.quad(subject, expandToNamedNode('dbo:filename'), rdf.literal(`${packageName}/${mappings.prefix}.nq`)),
   )
   const files = Array.isArray(mappings.files)
     ? (mappings.files || [mappings]).map(({ file }: any) => file)
-    : [mappings.file || mappings.uri]
+    : [mappings.file || mappings.namespace]
   files.filter(Boolean).forEach((file: string) => {
     prefixDataset.add(
-      rdf.quad(subject, expandToNamedNode('rdfs:isDefinedBy'), rdf.namedNode(file))
+      rdf.quad(subject, expandToNamedNode('rdfs:isDefinedBy'), rdf.namedNode(file)),
     )
   })
   return prefixDataset
 }
 
-async function main (prefixesToDownload: string[], { indexBase }: { indexBase: string }) {
-  const indexPath = './ontologies/_index.nq'
-  let existingIndex
-  if (fs.existsSync(indexPath)) {
-    existingIndex = formats.parsers.import('application/n-triples', fs.createReadStream(indexPath))
-  }
+export async function buildDatasets(path: string, packageName: string, indexBase: string, vocab: Vocab) {
+  const indexPath = resolve(path, 'meta.nt')
 
-  let indexDataset = rdf.dataset()
-  if (existingIndex) {
-    await indexDataset.import(existingIndex)
-  }
+  let indexDataset: any = rdf.dataset()
 
-  // merge prefixes with overrides
-  const merged = Object.entries(prefixes).reduce<Record<string, Prefix & Override>>((current, [prefix, uri]) => {
-    const override = overrides[prefix]
-    return {
-      ...current,
-      [prefix]: { uri, prefix, ...override }
-    }
-  }, {})
+  let dataset = await datasets(vocab)
+  if (dataset && dataset.size) {
+    const graph = rdf.namedNode(vocab.namespace)
+    dataset = dataset.map(({ subject, predicate, object }) => rdf.quad(subject, predicate, object, graph))
 
-  for (const prefix in prefixes) {
-    const shouldNotFetch = prefixesToDownload.length > 0 && !prefixesToDownload.includes(prefix)
-    const mappings = merged[prefix]
-    mappings.prefix = prefix
-    if (mappings.skip || shouldNotFetch) {
-      console.log(`skipping ${mappings.prefix}`)
-      continue
-    }
-    console.log(`processing ${mappings.prefix}`)
-    let dataset = await fetch(mappings)
-    if (dataset && dataset.size) {
-      const graph = rdf.namedNode(mappings.uri)
-      dataset = dataset.map(({ subject, predicate, object }) => rdf.quad(subject, predicate, object, graph))
+    const file = resolve(path, `${vocab.prefix}.nq`)
+    fs.writeFileSync(file, dataset.toCanonical())
+    console.log(`${vocab.prefix}: wrote ${dataset.size} quads to ${file}`)
 
-      const file = `./ontologies/${mappings.prefix}.nq`
-      fs.writeFileSync(file, dataset.toCanonical())
-      console.log(`${mappings.prefix}: wrote ${dataset.size} quads to ${file}`)
-
-      const indexSubject = rdf.namedNode(`${indexBase}${mappings.prefix}:`)
-      indexDataset.removeMatches(indexSubject, null, null, null)
-      indexDataset = indexDataset.merge(generateIndex(indexSubject, mappings, dataset))
-    }
+    const indexSubject = rdf.namedNode(`${indexBase}${vocab.prefix}:`)
+    indexDataset.deleteMatches(indexSubject, null, null, null)
+    indexDataset = indexDataset.merge(generateIndex(indexSubject, packageName, vocab, dataset))
   }
 
   fs.writeFileSync(indexPath, indexDataset.toCanonical())
 }
-
-Program
-  .command('prefixes [prefixesToDownload...]', { isDefault: true })
-  .requiredOption('--indexBase <indexBase>', 'Base URI of the index graph for a Zazuko Prefix Server')
-  .action(main)
-
-Program.parse(process.argv)

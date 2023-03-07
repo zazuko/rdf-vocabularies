@@ -1,6 +1,6 @@
-import prefixes from './prefixes'
+import prefixes from './prefixes.js'
 
-export function getParts (prefixed: string): { term: string; baseIRI: string; prefix: string } | null {
+export function getParts(prefixed: string): { term: string; baseIRI: string; prefix: string } | null {
   const [prefix, term] = prefixed.split(':')
   if (!prefix || !term) {
     return null
@@ -14,7 +14,7 @@ export function getParts (prefixed: string): { term: string; baseIRI: string; pr
   return { prefix, term, baseIRI }
 }
 
-export function expand (prefixed: string): string {
+export function expand(prefixed: string): string {
   const parts = getParts(prefixed)
   if (!parts) {
     return ''

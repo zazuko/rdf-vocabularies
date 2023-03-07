@@ -1,0 +1,34 @@
+{
+  "name": "@vocabulary/builder",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "vocab-build": "./index.ts"
+  },
+  "dependencies": {
+    "@rdfjs/fetch-lite": "^3.2.1",
+    "@rdfjs/formats-common": "^3.1.0",
+    "@rdfjs/serializer-rdfjs": "^0.0.4",
+    "@rdfjs/types": "^1.1.0",
+    "@zazuko/prefixes": "^0.0.0",
+    "commander": "^10.0.0",
+    "get-stream": "^6.0.1",
+    "file-fetch": "^1.7.0",
+    "node-fetch": "^3.3.0",
+    "proto-fetch": "^1.0.0",
+    "rdfxml-streaming-parser": "^2.2.1",
+    "rdf-ext": "^2.2.0",
+    "rdf-utils-fs": "^2.3.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/file-fetch": "^1.6.3",
+    "@types/proto-fetch": "^1.0.2",
+    "@types/rdf-ext": "^1",
+    "@types/rdf-utils-fs": "^2.1.0",
+    "@types/rdfjs__fetch-lite": "^2.0.4",
+    "@types/rdfjs__formats-common": "^2.0.2",
+    "@types/rdfjs__serializer-rdfjs": "^0.0.2"
+  }
+}

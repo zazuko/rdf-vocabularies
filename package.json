@@ -1,69 +1,13 @@
 {
   "name": "@zazuko/rdf-vocabularies",
-  "version": "2023.1.18-2",
-  "description": "Access most commonly used RDF ontologies/schemas/vocabularies as datasets or n-quads",
-  "main": "index.js",
-  "module": "index.mjs",
-  "browser": "index.mjs",
-  "bin": {
-    "rdf-vocab": "bin/vocab.js"
-  },
-  "exports": {
-    ".": {
-      "require": "./index.js",
-      "import": "./index.mjs"
-    },
-    "./expand": {
-      "require": "./expand.js",
-      "import": "./expand.mjs"
-    },
-    "./expandWithCheck": {
-      "require": "./expandWithCheck.js",
-      "import": "./expandWithCheck.mjs"
-    },
-    "./shrink": {
-      "require": "./shrink.js",
-      "import": "./shrink.mjs"
-    },
-    "./vocabularies": {
-      "require": "./vocabularies.js",
-      "import": "./vocabularies.mjs"
-    },
-    "./prefixes": {
-      "require": "./prefixes.js",
-      "import": "./prefixes.mjs"
-    },
-    "./datasets": {
-      "require": "./datasets/index.js",
-      "import": "./datasets/index.mjs"
-    },
-    "./datasets/*": {
-      "require": "./datasets/*.js",
-      "import": "./datasets/*.mjs"
-    }
-  },
-  "files": [
-    "bin",
-    "loadDataset",
-    "datasets",
-    "ontologies",
-    "*.js",
-    "*.mjs",
-    "*.d.ts",
-    "*.d.ts.map"
-  ],
+  "private": true,
+  "type": "module",
   "scripts": {
-    "prefetch": "mkdirp ontologies",
     "fetch": "ts-node fetch.ts --indexBase https://prefix.zazuko.com/",
-    "lint": "eslint . --ext .js,.ts --ignore-path .gitignore --quiet",
-    "pretest": "npm run lint",
-    "test": "c8 -i src mocha test/index.test.ts",
-    "test:esm": "c8 -i src mocha test/index.test.mjs",
+    "lint": "eslint . --ext .js,.ts --ignore-path .gitignore --ignore-path .eslintignore --quiet",
+    "test": "c8 -i src mocha packages/**/*.test.ts",
     "posttest": "c8 report --reporter=text-lcov >> ./coverage/lcov.info",
-    "prepare": "mkdirp src/datasets; ts-node modules",
-    "build:node": "tsc",
-    "build:modern": "babel src --out-dir . --extensions .ts --out-file-extension .mjs --ignore *.test.js --ignore src/loadDataset/index.ts",
-    "build": "run-p build:*",
+    "build": "tsc",
     "prepack": "npm run build"
   },
   "repository": {
@@ -77,70 +21,30 @@
   },
   "homepage": "https://github.com/zazuko/rdf-vocabularies#readme",
   "devDependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.5",
-    "@babel/preset-env": "^7.15.6",
-    "@babel/preset-typescript": "^7.15.0",
-    "@babel/register": "^7.15.3",
-    "@rdfjs/fetch-lite": "^2.1.0",
-    "@rdfjs/formats-common": "^2.1.0",
-    "@rdfjs/serializer-rdfjs": "^0.0.4",
-    "@types/chai": "^4.2.14",
-    "@types/file-fetch": "^1.6.0",
-    "@types/mocha": "^8.0.3",
-    "@types/node-fetch": "^2.5.10",
-    "@types/proto-fetch": "^1.0.0",
-    "@types/rdf-ext": "^1.3.2",
-    "@types/rdf-js": "^2.0.8",
-    "@types/rdfjs__fetch-lite": "^2.0.1",
-    "@types/rdfjs__formats-common": "^2.0.0",
-    "@types/rdfjs__parser-n3": "^1.1.2",
-    "@types/rdfjs__serializer-rdfjs": "^0.0.0",
-    "@typescript-eslint/eslint-plugin": "^1.12.0",
-    "@typescript-eslint/parser": "^1.12.0",
-    "babel-plugin-add-import-extension": "^1.6.0",
-    "c8": "^7.6.0",
-    "chai": "^4.3.0",
-    "coveralls": "^3.1.0",
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "file-fetch": "^1.6.1",
+    "@tpluscode/eslint-config": "^0.4.2",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "c8": "^7.13.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-require-extensions": "^0.1.2",
     "mocha": "^10.0.0",
-    "nodeify-fetch": "^2.2.1",
-    "npm-run-all": "^4.1.5",
-    "proto-fetch": "^1.0.0",
-    "rdfxml-streaming-parser": "^1.4.0",
-    "rimraf": "^3.0.2",
-    "ts-node": "^8.8.1",
-    "typescript": "^3.8.3"
+    "standard": "^17.0.0",
+    "typescript": "^4.9.5"
   },
-  "dependencies": {
-    "@rdfjs/parser-n3": "^1.1.4",
-    "commander": "^5.0.0",
-    "pkg-dir": "^5.0.0",
-    "rdf-ext": "^1.3.5",
-    "readable-stream": "^3.6.0",
-    "string-to-stream": "^3.0.1"
-  },
-  "keywords": [
-    "rdf",
-    "rdfjs",
-    "prefix",
-    "namespace",
-    "ontologies",
-    "vocabularies"
-  ],
   "mocha": {
     "extension": "ts",
     "watch-files": [
       "./**/*.ts"
     ],
-    "require": [
-      "mocha-setup.js"
-    ]
-  }
+    "loader": "ts-node/esm"
+  },
+  "workspaces": [
+    "./packages/*",
+    "./ontologies/*"
+  ]
 }

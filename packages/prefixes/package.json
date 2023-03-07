@@ -1,0 +1,23 @@
+{
+  "name": "@zazuko/prefixes",
+  "version": "0.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zazuko/rdf-vocabularies.git",
+    "directory": "packages/prefixes"
+  },
+  "scripts": {
+    "update-prefixes": "./.build/prefixes.sh > prefixes.ts"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./expand": "./expand.js",
+    "./expand.js": "./expand.js",
+    "./prefixes": "./prefixes.js",
+    "./prefixes.js": "./prefixes.js",
+    "./shrink": "./shrink.js",
+    "./shrink.js": "./shrink.js"
+  }
+}

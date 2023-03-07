@@ -1,4 +1,4 @@
-import builtins from './prefixes'
+import builtins from './prefixes.js'
 
 /**
  * Converts an IRI to a prefixed node using a set of prefixes. By default, the
@@ -8,7 +8,7 @@ import builtins from './prefixes'
  * @param iri
  * @param [extraPrefixes]
  */
-export function shrink (iri: string, extraPrefixes: Record<string, string> = {}) {
+export function shrink(iri: string, extraPrefixes: Record<string, string> = {}) {
   const prefixes = { ...builtins, ...extraPrefixes }
   const candidates = Array.from(Object.entries(prefixes)).filter(([, baseIRI]) => iri.startsWith(baseIRI))
   if (candidates.length) {

@@ -1,14 +1,14 @@
-import { NamedNode } from 'rdf-js'
+import type { NamedNode } from '@rdfjs/types'
 import rdf from 'rdf-ext'
-import { vocabularies, Datasets } from './vocabularies'
-import { expand, getParts } from './expand'
+import { expand, getParts } from './expand.js'
+import { vocabularies, Datasets } from './vocabularies.js'
 
 // memoizing the prefixes already used in 'expand'
 export const loadedPrefixes: Datasets = {}
 
 type Types = (string | NamedNode)[]
 
-export async function expandWithCheck (prefixed: string, types: Types): Promise<string> {
+export async function expandWithCheck(prefixed: string, types: Types): Promise<string> {
   const parts = getParts(prefixed)
   if (!parts) {
     return ''

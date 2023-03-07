@@ -1,29 +1,30 @@
-import rdf from 'rdf-ext'
+/* eslint-disable no-console */
 import { Stream } from 'rdf-js'
 import { Readable } from 'stream'
-import prefixes from './prefixes'
-import DatasetExt from 'rdf-ext/lib/Dataset'
+import rdf from 'rdf-ext'
+import prefixes from '@zazuko/prefixes'
+import DatasetExt from 'rdf-ext/lib/Dataset.js'
 import ParserN3 from '@rdfjs/parser-n3'
-import { loadDatasetStream } from './loadDataset'
+import { loadDatasetStream } from './lib/loadDataset.js'
 
 export type Datasets = Record<keyof typeof prefixes, DatasetExt>
 
 interface VocabulariesOptions {
-  only?: (keyof typeof prefixes)[] | null;
-  factory?: typeof rdf;
+  only?: (keyof typeof prefixes)[] | null
+  factory?: typeof rdf
 }
 
 interface VocabulariesDatasetOptions extends VocabulariesOptions {
-  stream?: false;
+  stream?: false
 }
 
 interface VocabulariesStreamOptions extends VocabulariesOptions {
-  stream: true;
+  stream: true
 }
 
 export async function vocabularies (options?: VocabulariesDatasetOptions): Promise<Datasets>
 export async function vocabularies (options: VocabulariesStreamOptions): Promise<Stream & Readable>
-export async function vocabularies (options: VocabulariesDatasetOptions | VocabulariesStreamOptions = {}) {
+export async function vocabularies(options: VocabulariesDatasetOptions | VocabulariesStreamOptions = {}) {
   const { only = null, factory = rdf, stream = false } = options
   let selectedPrefixes: (keyof typeof prefixes)[] = []
 
@@ -31,8 +32,7 @@ export async function vocabularies (options: VocabulariesDatasetOptions | Vocabu
     only.forEach((prefix: keyof typeof prefixes) => {
       if (prefix in prefixes) {
         selectedPrefixes.push(prefix)
-      }
-      else {
+      } else {
         console.warn(`unknown prefix '${prefix}'`)
       }
     })
@@ -64,17 +64,19 @@ export async function vocabularies (options: VocabulariesDatasetOptions | Vocabu
 }
 
 interface LoadFileOptions {
-  customSelection?: boolean;
-  factory: typeof rdf;
+  customSelection?: boolean
+  factory: typeof rdf
 }
 
-export async function loadFile (prefix: keyof typeof prefixes, { customSelection, factory }: LoadFileOptions) {
-  const parserN3 = new ParserN3()
-  const readStream = await loadDatasetStream(prefix)
-  const quadStream = parserN3.import(readStream)
-  return factory.dataset().import(quadStream).catch(() => {
+export async function loadFile(prefix: keyof typeof prefixes, { customSelection, factory }: LoadFileOptions) {
+  try {
+    const parserN3 = new ParserN3()
+    const readStream = await loadDatasetStream(prefix)
+    const quadStream = parserN3.import(readStream)
+    return factory.dataset().import(quadStream)
+  } catch {
     if (customSelection) {
       console.warn(`unavailable prefix '${prefix}'`)
     }
-  })
+  }
 }

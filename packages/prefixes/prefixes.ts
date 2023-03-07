@@ -1,4 +1,6 @@
-const prefixes = {
+import prefixesOnly from './lib/prefixesOnly.js'
+
+const packagedPrefixes = {
   acl: 'http://www.w3.org/ns/auth/acl#',
   as: 'https://www.w3.org/ns/activitystreams#',
   bibo: 'http://purl.org/ontology/bibo/',
@@ -7,7 +9,6 @@ const prefixes = {
   constant: 'http://qudt.org/vocab/constant/',
   crm: 'http://www.cidoc-crm.org/cidoc-crm/',
   csvw: 'http://www.w3.org/ns/csvw#',
-  ctag: 'http://commontag.org/ns#',
   dash: 'http://datashapes.org/dash#',
   dbo: 'http://dbpedia.org/ontology/',
   dc11: 'http://purl.org/dc/elements/1.1/',
@@ -29,7 +30,6 @@ const prefixes = {
   geo: 'http://www.opengis.net/ont/geosparql#',
   geof: 'http://www.opengis.net/def/function/geosparql/',
   geor: 'http://www.opengis.net/def/rule/geosparql/',
-  gml: 'http://www.opengis.net/ont/gml#',
   gn: 'http://www.geonames.org/ontology#',
   gr: 'http://purl.org/goodrelations/v1#',
   grddl: 'http://www.w3.org/2003/g/data-view#',
@@ -57,16 +57,13 @@ const prefixes = {
   rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
   rdfa: 'http://www.w3.org/ns/rdfa#',
   rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
-  rev: 'http://purl.org/stuff/rev#',
   rico: 'https://www.ica.org/standards/RiC/ontology#',
-  rif: 'http://www.w3.org/2007/rif#',
   rr: 'http://www.w3.org/ns/r2rml#',
   rss: 'http://purl.org/rss/1.0/',
   schema: 'http://schema.org/',
   sd: 'http://www.w3.org/ns/sparql-service-description#',
   sdmx: 'http://purl.org/linked-data/sdmx#',
   sem: 'http://semanticweb.cs.vu.nl/2009/11/sem/',
-  sf: 'http://www.opengis.net/ont/sf#',
   sh: 'http://www.w3.org/ns/shacl#',
   shex: 'http://www.w3.org/ns/shex#',
   sioc: 'http://rdfs.org/sioc/ns#',
@@ -78,19 +75,20 @@ const prefixes = {
   test: 'http://www.w3.org/2006/03/test-description#',
   time: 'http://www.w3.org/2006/time#',
   unit: 'http://qudt.org/vocab/unit/',
-  v: 'http://rdf.data-vocabulary.org/#',
   vaem: 'http://www.linkedmodel.org/schema/vaem#',
   vann: 'http://purl.org/vocab/vann/',
   vcard: 'http://www.w3.org/2006/vcard/ns#',
   void: 'http://rdfs.org/ns/void#',
   vs: 'http://www.w3.org/2003/06/sw-vocab-status/ns#',
-  wdr: 'http://www.w3.org/2007/05/powder#',
-  wdrs: 'http://www.w3.org/2007/05/powder-s#',
   wgs: 'http://www.w3.org/2003/01/geo/wgs84_pos#',
   xhv: 'http://www.w3.org/1999/xhtml/vocab#',
   xkos: 'http://rdf-vocabulary.ddialliance.org/xkos#',
-  xml: 'http://www.w3.org/XML/1998/namespace/',
-  xsd: 'http://www.w3.org/2001/XMLSchema#'
+  xsd: 'http://www.w3.org/2001/XMLSchema#',
+}
+
+const prefixes = {
+  ...packagedPrefixes,
+  ...prefixesOnly,
 } as const
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
@@ -98,7 +96,7 @@ export interface Prefixes extends Readonly<typeof prefixes> {
 
 }
 interface CustomPrefixes {
-  [key: string]: string;
+  [key: string]: string
 }
 
 export default prefixes as Prefixes & CustomPrefixes

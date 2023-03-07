@@ -1,13 +1,14 @@
 #!/usr/bin/env node
-const program = require('commander')
-const { promisify } = require('util')
-const stream = require('readable-stream')
-const { loadDatasetStream } = require('../loadDataset')
-const prefixes = require('../prefixes')
+/* eslint-disable no-console */
+import { promisify } from 'util'
+import program from 'commander'
+import stream from 'readable-stream'
+import { loadDatasetStream } from '../lib/loadDataset.js'
+import prefixes from '../prefixes.js'
 
 const finished = promisify(stream.finished)
 
-async function forwardStream (prefix) {
+async function forwardStream(prefix) {
   const vocabStream = await loadDatasetStream(prefix)
   vocabStream.pipe(process.stdout)
 
