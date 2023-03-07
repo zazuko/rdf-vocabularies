@@ -1,0 +1,78 @@
+<http://commontag.org/mappings> <http://www.w3.org/2000/01/rdf-schema#label> "CommonTag mappings with other vocabularies" <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://purl.org/dc/elements/1.1/contributor> "Alex Iskold" <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://purl.org/dc/elements/1.1/contributor> "Alexandre Passant" <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://purl.org/dc/elements/1.1/contributor> "Andraz Tori" <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://purl.org/dc/elements/1.1/contributor> "Jamie Taylor" <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://purl.org/dc/elements/1.1/contributor> "Peter Mika" <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://purl.org/dc/elements/1.1/contributor> "Scott Montgomerie" <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://purl.org/dc/elements/1.1/contributor> "Vuk Milicic" <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://purl.org/dc/elements/1.1/description> "Common Tag RDF vocabulary, described using W3C RDF Schema. Common Tags allows documents and document fragments (any resource which can be identified by a URI) to be labeled with keywords and URIs, unambigiously idenfying the concepts covered by the resource."@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://purl.org/dc/elements/1.1/description> "使用W3C RDF描述的通用标签词汇集。"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://purl.org/dc/elements/1.1/title> "Common Tag vocabulary"@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://purl.org/dc/elements/1.1/title> "通用标签本体"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://purl.org/dc/terms/issued> "2009-06-08" <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://www.w3.org/2000/01/rdf-schema#label> "Common Tag vocabulary"@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://www.w3.org/2000/01/rdf-schema#label> "通用标签本体"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://commontag.org/mappings> <http://commontag.org/ns#> .
+<http://commontag.org/ns#AuthorTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://commontag.org/ns#> .
+<http://commontag.org/ns#AuthorTag> <http://www.w3.org/2000/01/rdf-schema#comment> "A Tag asserted by the author of a content resource."@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#AuthorTag> <http://www.w3.org/2000/01/rdf-schema#comment> "由作者对内容资源指定的标签。"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#AuthorTag> <http://www.w3.org/2000/01/rdf-schema#label> "Author Tag"@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#AuthorTag> <http://www.w3.org/2000/01/rdf-schema#label> "作者标签"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#AuthorTag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://commontag.org/ns#Tag> <http://commontag.org/ns#> .
+<http://commontag.org/ns#AutoTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://commontag.org/ns#> .
+<http://commontag.org/ns#AutoTag> <http://www.w3.org/2000/01/rdf-schema#comment> "A Tag asserted by an automated tool on a content resource."@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#AutoTag> <http://www.w3.org/2000/01/rdf-schema#comment> "由自动化工具对内容资源指定的标签。"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#AutoTag> <http://www.w3.org/2000/01/rdf-schema#label> "Auto Tag"@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#AutoTag> <http://www.w3.org/2000/01/rdf-schema#label> "自动标签"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#AutoTag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://commontag.org/ns#Tag> <http://commontag.org/ns#> .
+<http://commontag.org/ns#ReaderTag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://commontag.org/ns#> .
+<http://commontag.org/ns#ReaderTag> <http://www.w3.org/2000/01/rdf-schema#comment> "A Tag asserted by the reader (consumer) of a content resource."@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#ReaderTag> <http://www.w3.org/2000/01/rdf-schema#comment> "由读者/顾客对内容资源指定的标签。"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#ReaderTag> <http://www.w3.org/2000/01/rdf-schema#label> "Reader Tag"@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#ReaderTag> <http://www.w3.org/2000/01/rdf-schema#label> "读者标签"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#ReaderTag> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://commontag.org/ns#Tag> <http://commontag.org/ns#> .
+<http://commontag.org/ns#Tag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://commontag.org/ns#> .
+<http://commontag.org/ns#Tag> <http://www.w3.org/2000/01/rdf-schema#comment> "A Common Tag associating a URI and a keyword to annotate a resource."@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#Tag> <http://www.w3.org/2000/01/rdf-schema#comment> "一个通用标签关联了一个URI和标记资源的关键词。"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#Tag> <http://www.w3.org/2000/01/rdf-schema#label> "Tag"@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#Tag> <http://www.w3.org/2000/01/rdf-schema#label> "标签"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#TaggedContent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://commontag.org/ns#> .
+<http://commontag.org/ns#TaggedContent> <http://www.w3.org/2000/01/rdf-schema#comment> "Content which has one or more Common Tag."@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#TaggedContent> <http://www.w3.org/2000/01/rdf-schema#comment> "拥有一个或多个通用标签的内容。"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#TaggedContent> <http://www.w3.org/2000/01/rdf-schema#label> "Tagged Content"@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#TaggedContent> <http://www.w3.org/2000/01/rdf-schema#label> "标记的内容"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#isAbout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://commontag.org/ns#> .
+<http://commontag.org/ns#isAbout> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource (URI) representing the concepts described by the content."@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#isAbout> <http://www.w3.org/2000/01/rdf-schema#comment> "表示内容所描述资源的资源（URI）。"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#isAbout> <http://www.w3.org/2000/01/rdf-schema#domain> <http://commontag.org/ns#TaggedContent> <http://commontag.org/ns#> .
+<http://commontag.org/ns#isAbout> <http://www.w3.org/2000/01/rdf-schema#label> "is about"@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#isAbout> <http://www.w3.org/2000/01/rdf-schema#label> "关于"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://commontag.org/ns#> .
+<http://commontag.org/ns#label> <http://www.w3.org/2000/01/rdf-schema#comment> "A local, human-readable name for a Tag."@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#label> <http://www.w3.org/2000/01/rdf-schema#comment> "标签的本地、供人类阅读的名称。"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#label> <http://www.w3.org/2000/01/rdf-schema#domain> <http://commontag.org/ns#Tag> <http://commontag.org/ns#> .
+<http://commontag.org/ns#label> <http://www.w3.org/2000/01/rdf-schema#label> "tag label"@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#label> <http://www.w3.org/2000/01/rdf-schema#label> "标签"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#label> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> <http://commontag.org/ns#> .
+<http://commontag.org/ns#means> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://commontag.org/ns#> .
+<http://commontag.org/ns#means> <http://www.w3.org/2000/01/rdf-schema#comment> "A a resource (URI) representing the conceptual meaning of a Tag."@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#means> <http://www.w3.org/2000/01/rdf-schema#comment> "表示标签的概念性涵义的资源（URI）。"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#means> <http://www.w3.org/2000/01/rdf-schema#domain> <http://commontag.org/ns#Tag> <http://commontag.org/ns#> .
+<http://commontag.org/ns#means> <http://www.w3.org/2000/01/rdf-schema#label> "means"@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#means> <http://www.w3.org/2000/01/rdf-schema#label> "涵义"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#tagged> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://commontag.org/ns#> .
+<http://commontag.org/ns#tagged> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a resource to a Common Tag."@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#tagged> <http://www.w3.org/2000/01/rdf-schema#comment> "将资源连接到一个通用标签。"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#tagged> <http://www.w3.org/2000/01/rdf-schema#domain> <http://commontag.org/ns#TaggedContent> <http://commontag.org/ns#> .
+<http://commontag.org/ns#tagged> <http://www.w3.org/2000/01/rdf-schema#label> "tagged"@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#tagged> <http://www.w3.org/2000/01/rdf-schema#label> "标签"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#tagged> <http://www.w3.org/2000/01/rdf-schema#range> <http://commontag.org/ns#Tag> <http://commontag.org/ns#> .
+<http://commontag.org/ns#taggingDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://commontag.org/ns#> .
+<http://commontag.org/ns#taggingDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date the Tag was assigned."@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#taggingDate> <http://www.w3.org/2000/01/rdf-schema#comment> "使用标签的日期。"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#taggingDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://commontag.org/ns#Tag> <http://commontag.org/ns#> .
+<http://commontag.org/ns#taggingDate> <http://www.w3.org/2000/01/rdf-schema#label> "tagging date"@en <http://commontag.org/ns#> .
+<http://commontag.org/ns#taggingDate> <http://www.w3.org/2000/01/rdf-schema#label> "标记日期"@zh-cn <http://commontag.org/ns#> .
+<http://commontag.org/ns#taggingDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/created> <http://commontag.org/ns#> .

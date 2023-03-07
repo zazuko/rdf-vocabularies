@@ -26,6 +26,7 @@
     "@vocabulary/constant": "^0.0.0",
     "@vocabulary/crm": "^0.0.0",
     "@vocabulary/csvw": "^0.0.0",
+    "@vocabulary/ctag": "^0.0.0",
     "@vocabulary/dash": "^0.0.0",
     "@vocabulary/dbo": "^0.0.0",
     "@vocabulary/dc11": "^0.0.0",
