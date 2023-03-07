@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/xkos:> <http://dbpedia.org/ontology/filename> "ontologies/xkos.nq" .
+<https://prefix.zazuko.com/xkos:> <http://dbpedia.org/ontology/filename> "@vocabulary/xkos/xkos.nq" .
 <https://prefix.zazuko.com/xkos:> <http://purl.org/dc/terms/description> "This ontology is based on work initiated at Dagstuhl Schloss in September 2011" .
 <https://prefix.zazuko.com/xkos:> <http://purl.org/dc/terms/title> "XKOS: an SKOS extension for representing statistical classifications" .
 <https://prefix.zazuko.com/xkos:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .

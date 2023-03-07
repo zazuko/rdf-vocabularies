@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/wgs:> <http://dbpedia.org/ontology/filename> "ontologies/wgs.nq" .
+<https://prefix.zazuko.com/wgs:> <http://dbpedia.org/ontology/filename> "@vocabulary/wgs/wgs.nq" .
 <https://prefix.zazuko.com/wgs:> <http://purl.org/dc/terms/description> "A vocabulary for representing latitude, longitude and \n altitude information in the WGS84 geodetic reference datum. \n Version $Id: wgs84_pos.rdf,v 1.22 2009/04/20 15:00:30 timbl Exp $. See http://www.w3.org/2003/01/geo/ for more details." .
 <https://prefix.zazuko.com/wgs:> <http://purl.org/dc/terms/title> "WGS84 Geo Positioning: an RDF vocabulary" .
 <https://prefix.zazuko.com/wgs:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
