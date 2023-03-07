@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/sosa:> <http://dbpedia.org/ontology/filename> "ontologies/sosa.nq" .
+<https://prefix.zazuko.com/sosa:> <http://dbpedia.org/ontology/filename> "@vocabulary/sosa/sosa.nq" .
 <https://prefix.zazuko.com/sosa:> <http://purl.org/dc/terms/description> "This ontology is based on the SSN Ontology by the W3C Semantic Sensor Networks Incubator Group (SSN-XG), together with considerations from the W3C/OGC Spatial Data on the Web Working Group." .
 <https://prefix.zazuko.com/sosa:> <http://purl.org/dc/terms/title> "Sensor, Observation, Sample, and Actuator (SOSA) Ontology" .
 <https://prefix.zazuko.com/sosa:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .

@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/test:> <http://dbpedia.org/ontology/filename> "ontologies/test.nq" .
+<https://prefix.zazuko.com/test:> <http://dbpedia.org/ontology/filename> "@vocabulary/test/test.nq" .
 <https://prefix.zazuko.com/test:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/test:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/03/test-description#> .
 <https://prefix.zazuko.com/test:> <http://www.w3.org/ns/rdfa#prefix> "test" .

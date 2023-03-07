@@ -138,7 +138,7 @@
 <http://www.w3.org/2004/02/skos/core#member> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Collection> <http://www.w3.org/2004/02/skos/core#> .
 <http://www.w3.org/2004/02/skos/core#member> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2004/02/skos/core> <http://www.w3.org/2004/02/skos/core#> .
 <http://www.w3.org/2004/02/skos/core#member> <http://www.w3.org/2000/01/rdf-schema#label> "has member"@en <http://www.w3.org/2004/02/skos/core#> .
-<http://www.w3.org/2004/02/skos/core#member> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n0 <http://www.w3.org/2004/02/skos/core#> .
+<http://www.w3.org/2004/02/skos/core#member> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n2 <http://www.w3.org/2004/02/skos/core#> .
 <http://www.w3.org/2004/02/skos/core#member> <http://www.w3.org/2004/02/skos/core#definition> "Relates a collection to one of its members."@en <http://www.w3.org/2004/02/skos/core#> .
 <http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2004/02/skos/core#> .
 <http://www.w3.org/2004/02/skos/core#memberList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <http://www.w3.org/2004/02/skos/core#> .
@@ -244,9 +244,9 @@
 <http://www.w3.org/2004/02/skos/core> <http://purl.org/dc/terms/title> "SKOS Vocabulary"@en <http://www.w3.org/2004/02/skos/core#> .
 <http://www.w3.org/2004/02/skos/core> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/2004/02/skos/core#> .
 <http://www.w3.org/2004/02/skos/core> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/TR/skos-reference/> <http://www.w3.org/2004/02/skos/core#> .
-_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2004/02/skos/core#> .
-_:c14n0 <http://www.w3.org/2002/07/owl#unionOf> _:c14n2 <http://www.w3.org/2004/02/skos/core#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2004/02/skos/core#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n1 <http://www.w3.org/2004/02/skos/core#> .
 _:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Collection> <http://www.w3.org/2004/02/skos/core#> .
 _:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/2004/02/skos/core#> .
-_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2004/02/skos/core#> .
-_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n1 <http://www.w3.org/2004/02/skos/core#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2004/02/skos/core#> .
+_:c14n2 <http://www.w3.org/2002/07/owl#unionOf> _:c14n0 <http://www.w3.org/2004/02/skos/core#> .
