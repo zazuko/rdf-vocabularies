@@ -1,8 +1,7 @@
-<https://prefix.zazuko.com/dpv:> <http://dbpedia.org/ontology/filename> "ontologies/dpv.nq" .
+<https://prefix.zazuko.com/dpv:> <http://dbpedia.org/ontology/filename> "@vocabulary/dpv/dpv.nq" .
+<https://prefix.zazuko.com/dpv:> <http://purl.org/dc/terms/description> "The Data Privacy Vocabulary (DPV) provides terms (classes and properties) to represent information about legally compliant personal data handling, which includes purposes, processing, personal data, technical and organisational measures." .
+<https://prefix.zazuko.com/dpv:> <http://purl.org/dc/terms/title> "Data Privacy Vocabulary" .
 <https://prefix.zazuko.com/dpv:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
-<https://prefix.zazuko.com/dpv:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://dpvcg.github.io/dpv/dpv.jsonld> .
-<https://prefix.zazuko.com/dpv:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://dpvcg.github.io/dpv/dpv.n3> .
-<https://prefix.zazuko.com/dpv:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://dpvcg.github.io/dpv/dpv.rdf> .
-<https://prefix.zazuko.com/dpv:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://dpvcg.github.io/dpv/dpv.ttl> .
+<https://prefix.zazuko.com/dpv:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/dpv#> .
 <https://prefix.zazuko.com/dpv:> <http://www.w3.org/ns/rdfa#prefix> "dpv" .
-<https://prefix.zazuko.com/dpv:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/dpv#> .
+<https://prefix.zazuko.com/dpv:> <http://www.w3.org/ns/rdfa#uri> <https://w3id.org/dpv#> .
