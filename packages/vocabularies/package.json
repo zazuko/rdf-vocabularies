@@ -75,6 +75,7 @@
     "@vocabulary/rdf": "^0.0.0",
     "@vocabulary/rdfa": "^0.0.0",
     "@vocabulary/rdfs": "^0.0.0",
+    "@vocabulary/rev": "^0.0.0",
     "@vocabulary/rico": "^0.0.0",
     "@vocabulary/rr": "^0.0.0",
     "@vocabulary/rss": "^0.0.0",

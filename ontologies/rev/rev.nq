@@ -1,0 +1,249 @@
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/permits> <http://web.resource.org/cc/DerivativeWorks> <http://purl.org/stuff/rev#> .
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/permits> <http://web.resource.org/cc/Distribution> <http://purl.org/stuff/rev#> .
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/permits> <http://web.resource.org/cc/Reproduction> <http://purl.org/stuff/rev#> .
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/requires> <http://web.resource.org/cc/Attribution> <http://purl.org/stuff/rev#> .
+<http://creativecommons.org/licenses/by/1.0/> <http://web.resource.org/cc/requires> <http://web.resource.org/cc/Notice> <http://purl.org/stuff/rev#> .
+<http://creativecommons.org/licenses/by/1.0/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://web.resource.org/cc/License> <http://purl.org/stuff/rev#> .
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#> <http://purl.org/dc/elements/1.1/date> "2007-11-08" <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#> <http://purl.org/dc/elements/1.1/description> "Vocabulary for expressing reviews and ratings using the Resource Description Framework. It is compatible with hReview and conforms to OWL Lite"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#> <http://purl.org/dc/elements/1.1/description> "使用资源描述框架表示评论和评级的词汇表。它与hReview兼容，并符合OWL Lite。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "rev" <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/stuff/rev#" <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#> <http://www.w3.org/2000/01/rdf-schema#label> "RDF Review Vocabulary"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#> <http://www.w3.org/2000/01/rdf-schema#label> "RDF评论词汇表"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#> <http://www.w3.org/2003/06/sw-vocab-status/ns#userdocs> <http://vocab.org/review/html> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#> <http://www.w3.org/2003/g/data-view#profileTransformation> <http://danja.talis.com/xmlns/rev_2007-11-09/hreview2rdfxml.xsl> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Comment> <http://www.w3.org/2000/01/rdf-schema#comment> "A comment on a review"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Comment> <http://www.w3.org/2000/01/rdf-schema#comment> "关于一个评论的注释。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Comment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Comment> <http://www.w3.org/2000/01/rdf-schema#label> "Comment"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Comment> <http://www.w3.org/2000/01/rdf-schema#label> "注释"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Comment> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "proposed by iterating.com"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Comment> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "由iterating.com提议。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Comment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Comment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "已过时"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/2000/01/rdf-schema#comment> "Feedback on the review. Expresses whether the review was useful or not"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/2000/01/rdf-schema#comment> "对评论的反馈，表达了这条评论是否有用。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/2000/01/rdf-schema#label> "Feedback"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/2000/01/rdf-schema#label> "反馈"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "proposed by iterating.com"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "由iterating.com提议。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "已过时"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Feedback> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "测试中"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Review> <http://www.w3.org/2000/01/rdf-schema#comment> "A review of an work"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Review> <http://www.w3.org/2000/01/rdf-schema#comment> "对一项事物的评论。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Review> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Review> <http://www.w3.org/2000/01/rdf-schema#label> "Review"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Review> <http://www.w3.org/2000/01/rdf-schema#label> "评论"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Review> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "core term"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Review> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "核心术语"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Review> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#Review> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "稳定"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/2000/01/rdf-schema#comment> "The commenter on the review"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/2000/01/rdf-schema#comment> "对评论注释的人。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/stuff/rev#Comment> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/stuff/rev#Feedback> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/2000/01/rdf-schema#label> "commenter"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/2000/01/rdf-schema#label> "注释者"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "proposed by iterating.com"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "由iterating.com提议。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#commenter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "已过时"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to associate a review with a comment on the review"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/2000/01/rdf-schema#comment> "用于关联一条评论和一条注释。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/stuff/rev#Review> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/2000/01/rdf-schema#label> "hasComment"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/2000/01/rdf-schema#label> "有注释"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/stuff/rev#Comment> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "proposed by iterating.com"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "由iterating.com提议。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasComment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "已过时"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a review with a feedback on the review"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#comment> "关联一条反馈和一条评论。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/stuff/rev#Review> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#label> "hasFeedback"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#label> "有反馈"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/stuff/rev#Feedback> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "proposed by iterating.com"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "由iterating.com提议。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasFeedback> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "已过时"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a work with a a review"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/2000/01/rdf-schema#comment> "关联一个事物和一条评论。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/2000/01/rdf-schema#label> "has Review"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/2000/01/rdf-schema#label> "有评论"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/stuff/rev#Review> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "core term"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "核心术语"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#hasReview> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "稳定"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#maxRating> <http://purl.org/dc/elements/1.1/description> "Maximum value for rating property"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#maxRating> <http://purl.org/dc/elements/1.1/description> "评级属性的最大值。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#maxRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#maxRating> <http://www.w3.org/2000/01/rdf-schema#comment> "A numeric value"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#maxRating> <http://www.w3.org/2000/01/rdf-schema#comment> "一个数值"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#maxRating> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#maxRating> <http://www.w3.org/2000/01/rdf-schema#label> "max Rating"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#maxRating> <http://www.w3.org/2000/01/rdf-schema#label> "最大评级"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#maxRating> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "Introduced by request of Revyu.com"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#maxRating> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "根据Revyu.com的要求引进。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#maxRating> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#maxRating> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "稳定"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#minRating> <http://purl.org/dc/elements/1.1/description> "Minimum value for rating property"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#minRating> <http://purl.org/dc/elements/1.1/description> "评级属性的最小值。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#minRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#minRating> <http://www.w3.org/2000/01/rdf-schema#comment> "A numeric value"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#minRating> <http://www.w3.org/2000/01/rdf-schema#comment> "一个数值"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#minRating> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#minRating> <http://www.w3.org/2000/01/rdf-schema#label> "min Rating"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#minRating> <http://www.w3.org/2000/01/rdf-schema#label> "最小评级"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#minRating> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "Introduced by request of Revyu.com"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#minRating> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "根据Revyu.com的要求引进。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#minRating> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#minRating> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "稳定"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of positive usefulness votes (integer)"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/2000/01/rdf-schema#comment> "有效的支持票数（整数）。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/stuff/rev#Review> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/2000/01/rdf-schema#label> "positiveVotes"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/2000/01/rdf-schema#label> "支持票数"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "proposed by iterating.com"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "由iterating.com提议。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#positiveVotes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "已过时"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#rating> <http://www.w3.org/2000/01/rdf-schema#comment> "A numeric value"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#rating> <http://www.w3.org/2000/01/rdf-schema#comment> "一个数值。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#rating> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#rating> <http://www.w3.org/2000/01/rdf-schema#label> "rating"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#rating> <http://www.w3.org/2000/01/rdf-schema#label> "评级"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#rating> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "core term"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#rating> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "核心术语"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#rating> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#rating> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "稳定"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/2000/01/rdf-schema#comment> "The person that has written the review"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/2000/01/rdf-schema#comment> "撰写评论的人。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/stuff/rev#Review> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/2000/01/rdf-schema#label> "reviewer"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/2000/01/rdf-schema#label> "评论者"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Person> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "core term"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "核心术语"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#reviewer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "稳定"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#text> <http://www.w3.org/2000/01/rdf-schema#comment> "The text of the review"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#text> <http://www.w3.org/2000/01/rdf-schema#comment> "评论的文本。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#text> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#text> <http://www.w3.org/2000/01/rdf-schema#label> "text"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#text> <http://www.w3.org/2000/01/rdf-schema#label> "文本"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#text> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "core term"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#text> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "核心术语"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#text> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#text> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "稳定"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/2000/01/rdf-schema#comment> "The title of the review"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/2000/01/rdf-schema#comment> "评论的标题。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/stuff/rev#Review> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/2000/01/rdf-schema#label> "title"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/2000/01/rdf-schema#label> "标题"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/elements/1.1/title> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "proposed by iterating.com"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "由iterating.com提议。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#title> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "已过时"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of usefulness votes (integer)"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/2000/01/rdf-schema#comment> "有效的投票数（整数）。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/stuff/rev#Review> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/2000/01/rdf-schema#label> "totalVotes"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/2000/01/rdf-schema#label> "总投票数"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "proposed by iterating.com"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "由iterating.com提议。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#totalVotes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "已过时"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#type> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of media of a work under review"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#type> <http://www.w3.org/2000/01/rdf-schema#comment> "在评论中的事物的媒体类型。"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#type> <http://www.w3.org/2000/01/rdf-schema#label> "type"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#type> <http://www.w3.org/2000/01/rdf-schema#label> "类型"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#type> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "core term"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#type> <http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> "核心术语"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#type> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "deprecated"@en <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev#type> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "已过时"@zh-cn <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev> <http://purl.org/dc/elements/1.1/type> <http://purl.org/dc/dcmitype/Text> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev> <http://web.resource.org/cc/license> <http://creativecommons.org/licenses/by/1.0/> <http://purl.org/stuff/rev#> .
+<http://purl.org/stuff/rev> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://web.resource.org/cc/Work> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.html> <http://purl.org/dc/elements/1.1/format> "text/html" <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Text> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.html> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.html> <http://www.w3.org/2000/01/rdf-schema#label> "HTML"@en <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.html> <http://www.w3.org/2000/01/rdf-schema#label> "HTML"@zh-cn <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.json> <http://purl.org/dc/elements/1.1/format> "application/json" <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Text> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.json> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.json> <http://www.w3.org/2000/01/rdf-schema#label> "JSON"@en <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.json> <http://www.w3.org/2000/01/rdf-schema#label> "JSON"@zh-cn <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.rdf> <http://purl.org/dc/terms/hasFormat> <http://vocab.org/review/terms.html> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.rdf> <http://purl.org/dc/terms/hasFormat> <http://vocab.org/review/terms.json> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.rdf> <http://purl.org/dc/terms/hasFormat> <http://vocab.org/review/terms.turtle> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Text> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.rdf> <http://xmlns.com/foaf/0.1/primaryTopic> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.rdf> <http://xmlns.com/foaf/0.1/topic> <http://purl.org/stuff/rev#> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.turtle> <http://purl.org/dc/elements/1.1/format> "text/plain" <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.turtle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/dcmitype/Text> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.turtle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Document> <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.turtle> <http://www.w3.org/2000/01/rdf-schema#label> "Turtle"@en <http://purl.org/stuff/rev#> .
+<http://vocab.org/review/terms.turtle> <http://www.w3.org/2000/01/rdf-schema#label> "Turtle"@zh-cn <http://purl.org/stuff/rev#> .
+<http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://purl.org/stuff/rev#> .
+<http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://purl.org/stuff/rev#> .
+<http://www.w3.org/2003/06/sw-vocab-status/ns#moreinfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://purl.org/stuff/rev#> .
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://purl.org/stuff/rev#> .
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://purl.org/stuff/rev#> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://purl.org/stuff/rev#> .

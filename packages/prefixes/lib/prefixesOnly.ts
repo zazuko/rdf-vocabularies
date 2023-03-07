@@ -1,6 +1,5 @@
 export default {
   gml: 'http://www.opengis.net/ont/gml#',
-  rev: 'http://purl.org/stuff/rev#',
   rif: 'http://www.w3.org/2007/rif#',
   sf: 'http://www.opengis.net/ont/sf#',
   v: 'http://rdf.data-vocabulary.org/#',
