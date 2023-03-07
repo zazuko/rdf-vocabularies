@@ -1,0 +1,222 @@
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/geosparql#SpatialObject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractCurveSegment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractCurveSegment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractCurveSegment> <http://www.w3.org/2000/01/rdf-schema#label> "Abstract Curve Segment"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractCurveSegment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#Geometry> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractGeometricPrimitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractGeometricPrimitive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractGeometricPrimitive> <http://www.w3.org/2000/01/rdf-schema#label> "Abstract Geometric Primitive"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractGeometricPrimitive> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractGeometry> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractGeometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractGeometry> <http://www.w3.org/2000/01/rdf-schema#label> "Abstract Geometry"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractGeometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#Geometry> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractGriddedSurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractGriddedSurface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractGriddedSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Abstract Gridded Surface"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractGriddedSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractParametricCurveSurface> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractParametricCurveSurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractParametricCurveSurface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractParametricCurveSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Abstract Parametric Curve Surface"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractParametricCurveSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractSurfacePatch> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractSurfacePatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractSurfacePatch> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractSurfacePatch> <http://www.w3.org/2000/01/rdf-schema#label> "Abstract Surface Patch"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#AbstractSurfacePatch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/geosparql#Geometry> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Arc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Arc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Arc> <http://www.w3.org/2000/01/rdf-schema#label> "Arc"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Arc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#ArcString> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcByBulge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcByBulge> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcByBulge> <http://www.w3.org/2000/01/rdf-schema#label> "Arc by Bulge"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcByBulge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#ArcStringByBulge> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcByCenterPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcByCenterPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcByCenterPoint> <http://www.w3.org/2000/01/rdf-schema#label> "Arc by Center Point"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcByCenterPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractCurveSegment> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcString> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcString> <http://www.w3.org/2000/01/rdf-schema#label> "Arc String"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcString> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractCurveSegment> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcStringByBulge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcStringByBulge> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcStringByBulge> <http://www.w3.org/2000/01/rdf-schema#label> "Arc String by Bulge"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#ArcStringByBulge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractCurveSegment> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#BSpline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#BSpline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#BSpline> <http://www.w3.org/2000/01/rdf-schema#label> "BSpline"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#BSpline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#SplineCurve> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Bezier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Bezier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Bezier> <http://www.w3.org/2000/01/rdf-schema#label> "Bezier"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Bezier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#BSpline> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Circle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Circle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Circle> <http://www.w3.org/2000/01/rdf-schema#label> "Circle"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Circle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#Arc> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CircleByCenterPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CircleByCenterPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CircleByCenterPoint> <http://www.w3.org/2000/01/rdf-schema#label> "CircleByCenterPoint"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CircleByCenterPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#ArcByCenterPoint> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Clothoid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Clothoid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Clothoid> <http://www.w3.org/2000/01/rdf-schema#label> "Clothoid"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Clothoid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractCurveSegment> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Composite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Composite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Composite> <http://www.w3.org/2000/01/rdf-schema#label> "Composite"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Composite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#GeometricComplex> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeCurve> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeCurve> <http://www.w3.org/2000/01/rdf-schema#label> "Composite Curve"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeCurve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#Composite> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeCurve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#OrientableCurve> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeSolid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeSolid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeSolid> <http://www.w3.org/2000/01/rdf-schema#label> "Composite Solid"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeSolid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#Composite> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeSolid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#Solid> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeSurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeSurface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Composite Surface"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#Composite> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CompositeSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#OrientableSurface> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Cone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Cone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Cone> <http://www.w3.org/2000/01/rdf-schema#label> "Cone"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Cone> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractGriddedSurface> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CubicSpline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CubicSpline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CubicSpline> <http://www.w3.org/2000/01/rdf-schema#label> "Cubic Spline"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#CubicSpline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#PolynomialSpline> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Curve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Curve> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Curve> <http://www.w3.org/2000/01/rdf-schema#label> "Curve"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Curve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractGeometricPrimitive> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Curve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#OrientableCurve> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Cylinder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Cylinder> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Cylinder> <http://www.w3.org/2000/01/rdf-schema#label> "Cylinder"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Cylinder> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractGriddedSurface> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Geodesic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Geodesic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Geodesic> <http://www.w3.org/2000/01/rdf-schema#label> "Geodesic"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Geodesic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#GeodesicString> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#GeodesicString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#GeodesicString> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#GeodesicString> <http://www.w3.org/2000/01/rdf-schema#label> "Geodesic String"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#GeodesicString> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractCurveSegment> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#GeometricComplex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#label> "Geometric Complex"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#GeometricComplex> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractGeometry> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#LineString> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#LineString> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#LineString> <http://www.w3.org/2000/01/rdf-schema#label> "Line String"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#LineString> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#LineStringSegment> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#LineStringSegment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#LineStringSegment> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#LineStringSegment> <http://www.w3.org/2000/01/rdf-schema#label> "Line String Segment"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#LineStringSegment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractCurveSegment> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#LinearRing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#LinearRing> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#LinearRing> <http://www.w3.org/2000/01/rdf-schema#label> "Linear Ring"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#LinearRing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#Ring> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiCurve> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiCurve> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-Curve"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiCurve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#MultiGeometry> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiGeometry> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiGeometry> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-Geometry"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiGeometry> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractGeometry> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiPoint> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-Point"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiPoint> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#MultiGeometry> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiSolid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiSolid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiSolid> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-Solid"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiSolid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#MultiGeometry> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiSurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiSurface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Multi-Surface"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#MultiSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#MultiGeometry> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#OffsetCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#OffsetCurve> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#OffsetCurve> <http://www.w3.org/2000/01/rdf-schema#label> "Offset Curve"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#OffsetCurve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractCurveSegment> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#OrientableCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#OrientableCurve> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#OrientableCurve> <http://www.w3.org/2000/01/rdf-schema#label> "Orientable Curve"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#OrientableCurve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractGeometricPrimitive> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#OrientableSurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#OrientableSurface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#OrientableSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Orientable Surface"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#OrientableSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractGeometricPrimitive> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Point> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Point> <http://www.w3.org/2000/01/rdf-schema#label> "Point"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Point> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractGeometricPrimitive> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Polygon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Polygon> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Polygon> <http://www.w3.org/2000/01/rdf-schema#label> "Polygon"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Polygon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#Surface> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#PolygonPatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#PolygonPatch> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#PolygonPatch> <http://www.w3.org/2000/01/rdf-schema#label> "Polygon Patch"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#PolygonPatch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractSurfacePatch> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#PolyhedralSurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#PolyhedralSurface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#PolyhedralSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Polyhedral Surface"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#PolyhedralSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#Surface> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#PolynomialSpline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#PolynomialSpline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#PolynomialSpline> <http://www.w3.org/2000/01/rdf-schema#label> "Polynomial Spline"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#PolynomialSpline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#SplineCurve> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Rectangle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Rectangle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Rectangle> <http://www.w3.org/2000/01/rdf-schema#label> "Rectangle"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Rectangle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#PolygonPatch> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Ring> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Ring> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Ring> <http://www.w3.org/2000/01/rdf-schema#label> "Ring"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Ring> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#CompositeCurve> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Shell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Shell> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Shell> <http://www.w3.org/2000/01/rdf-schema#label> "Shell"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Shell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#CompositeSurface> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Solid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Solid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Solid> <http://www.w3.org/2000/01/rdf-schema#label> "Solid"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Solid> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractGeometricPrimitive> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Sphere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Sphere> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Sphere> <http://www.w3.org/2000/01/rdf-schema#label> "Sphere"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Sphere> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractGriddedSurface> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#SplineCurve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#SplineCurve> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#SplineCurve> <http://www.w3.org/2000/01/rdf-schema#label> "Spline Curve"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#SplineCurve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractCurveSegment> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Surface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Surface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Surface> <http://www.w3.org/2000/01/rdf-schema#label> "Surface"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Surface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#AbstractGeometricPrimitive> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Surface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#OrientableSurface> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Tin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Tin> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Tin> <http://www.w3.org/2000/01/rdf-schema#label> "Triangulated Irregular Network"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Tin> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#TriangulatedSurface> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Triangle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Triangle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Triangle> <http://www.w3.org/2000/01/rdf-schema#label> "Triangle"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#Triangle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#PolygonPatch> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#TriangulatedSurface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#TriangulatedSurface> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.opengis.net/ont/gml> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#TriangulatedSurface> <http://www.w3.org/2000/01/rdf-schema#label> "Triangulated Surface"@en <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml#TriangulatedSurface> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.opengis.net/ont/gml#PolyhedralSurface> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.opengis.net/ont/gml#> .
+<http://www.opengis.net/ont/gml> <http://www.w3.org/2002/07/owl#imports> <http://www.opengis.net/ont/geosparql> <http://www.opengis.net/ont/gml#> .

@@ -1,0 +1,19 @@
+{
+  "name": "@vocabulary/sf",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "sf",
+    "namespace": "http://www.opengis.net/ont/sf#",
+    "file": "http://schemas.opengis.net/sf/1.0/simple_features_geometries.rdf",
+    "mediaType": "application/rdf+xml"
+  },
+  "license": "MIT"
+}

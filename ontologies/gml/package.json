@@ -1,0 +1,19 @@
+{
+  "name": "@vocabulary/gml",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "postfetch": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "gml",
+    "namespace": "http://www.opengis.net/ont/gml#",
+    "file": "http://schemas.opengis.net/gml/3.2.1/gml_32_geometries.rdf",
+    "mediaType": "application/rdf+xml"
+  },
+  "license": "MIT"
+}
