@@ -154,14 +154,14 @@
 <http://vocab.deri.ie/void#ttl> <http://www.w3.org/ns/adms#accessURL> "http://vocab.deri.ie/void.ttl" <http://rdfs.org/ns/void#> .
 <http://vocab.deri.ie/void#ttl> <http://www.w3.org/ns/adms#status> <http://purl.org/adms/status/Completed> <http://rdfs.org/ns/void#> .
 <http://vocab.deri.ie/void> <http://purl.org/dc/terms/created> "2010-01-26"^^<http://www.w3.org/2001/XMLSchema#date> <http://rdfs.org/ns/void#> .
-<http://vocab.deri.ie/void> <http://purl.org/dc/terms/creator> _:c14n3 <http://rdfs.org/ns/void#> .
-<http://vocab.deri.ie/void> <http://purl.org/dc/terms/creator> _:c14n5 <http://rdfs.org/ns/void#> .
-<http://vocab.deri.ie/void> <http://purl.org/dc/terms/creator> _:c14n7 <http://rdfs.org/ns/void#> .
+<http://vocab.deri.ie/void> <http://purl.org/dc/terms/creator> _:c14n0 <http://rdfs.org/ns/void#> .
+<http://vocab.deri.ie/void> <http://purl.org/dc/terms/creator> _:c14n2 <http://rdfs.org/ns/void#> .
+<http://vocab.deri.ie/void> <http://purl.org/dc/terms/creator> _:c14n6 <http://rdfs.org/ns/void#> .
 <http://vocab.deri.ie/void> <http://purl.org/dc/terms/creator> _:c14n8 <http://rdfs.org/ns/void#> .
 <http://vocab.deri.ie/void> <http://purl.org/dc/terms/description> "The Vocabulary of Interlinked Datasets (VoID) is an RDF Schema vocabulary for expressing metadata about RDF datasets. It is intended as a bridge between the publishers and users of RDF data, with applications ranging from data discovery to cataloging and archiving of datasets. This document provides a formal definition of the new RDF classes and properties introduced for VoID. It is a companion to the main specification document for VoID, <em><a href=\"http://www.w3.org/TR/void/\">Describing Linked Datasets with the VoID Vocabulary</a></em>." <http://rdfs.org/ns/void#> .
 <http://vocab.deri.ie/void> <http://purl.org/dc/terms/modified> "2011-03-06"^^<http://www.w3.org/2001/XMLSchema#date> <http://rdfs.org/ns/void#> .
 <http://vocab.deri.ie/void> <http://purl.org/dc/terms/partOf> <http://vocab.deri.ie> <http://rdfs.org/ns/void#> .
-<http://vocab.deri.ie/void> <http://purl.org/dc/terms/publisher> _:c14n2 <http://rdfs.org/ns/void#> .
+<http://vocab.deri.ie/void> <http://purl.org/dc/terms/publisher> _:c14n3 <http://rdfs.org/ns/void#> .
 <http://vocab.deri.ie/void> <http://purl.org/dc/terms/status> <http://purl.org/adms/status/UnderDevelopment> <http://rdfs.org/ns/void#> .
 <http://vocab.deri.ie/void> <http://purl.org/dc/terms/title> "Vocabulary of Interlinked Datasets (VoID)" <http://rdfs.org/ns/void#> .
 <http://vocab.deri.ie/void> <http://purl.org/dc/terms/type> <http://purl.org/adms/assettype/Ontology> <http://rdfs.org/ns/void#> .
@@ -170,39 +170,39 @@
 <http://vocab.deri.ie/void> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://rdfs.org/ns/void#> .
 <http://vocab.deri.ie/void> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/adms#SemanticAsset> <http://rdfs.org/ns/void#> .
 <http://vocab.deri.ie/void> <http://xmlns.com/foaf/0.1/homepage> <http://vocab.deri.ie/void.html> <http://rdfs.org/ns/void#> .
-_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> <http://rdfs.org/ns/void#> .
-_:c14n0 <https://schema.org/name> "LiDRC" <http://rdfs.org/ns/void#> .
-_:c14n0 <https://schema.org/url> <http://linkeddata.deri.ie/> <http://rdfs.org/ns/void#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> <http://rdfs.org/ns/void#> .
+_:c14n0 <https://schema.org/affiliation> _:c14n1 <http://rdfs.org/ns/void#> .
+_:c14n0 <https://schema.org/email> <mailto:Keith.Alexander@talis.com> <http://rdfs.org/ns/void#> .
+_:c14n0 <https://schema.org/name> "Keith Alexander" <http://rdfs.org/ns/void#> .
+_:c14n0 <https://schema.org/url> <http://kwijibo.talis.com/> <http://rdfs.org/ns/void#> .
 _:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> <http://rdfs.org/ns/void#> .
-_:c14n1 <http://xmlns.com/foaf/0.1/homepage> <http://www.deri.ie/> <http://rdfs.org/ns/void#> .
-_:c14n1 <http://xmlns.com/foaf/0.1/name> "Digital Enterprise Research Institute, NUI Galway" <http://rdfs.org/ns/void#> .
-_:c14n2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.deri.ie/> <http://rdfs.org/ns/void#> .
-_:c14n2 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.insight-centre.org> <http://rdfs.org/ns/void#> .
-_:c14n2 <https://schema.org/identifier> <http://vocab.deri.ie/void#Digital%20Enterprise%20Research%20Institute%2C%20NUI%20Galway> <http://rdfs.org/ns/void#> .
-_:c14n2 <https://schema.org/name> "Digital Enterprise Research Institute, NUI Galway" <http://rdfs.org/ns/void#> .
-_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> <http://rdfs.org/ns/void#> .
-_:c14n3 <https://schema.org/affiliation> _:c14n4 <http://rdfs.org/ns/void#> .
-_:c14n3 <https://schema.org/email> <mailto:Keith.Alexander@talis.com> <http://rdfs.org/ns/void#> .
-_:c14n3 <https://schema.org/name> "Keith Alexander" <http://rdfs.org/ns/void#> .
-_:c14n3 <https://schema.org/url> <http://kwijibo.talis.com/> <http://rdfs.org/ns/void#> .
+_:c14n1 <https://schema.org/name> "Talis" <http://rdfs.org/ns/void#> .
+_:c14n1 <https://schema.org/url> <http://www.talis.com/> <http://rdfs.org/ns/void#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> <http://rdfs.org/ns/void#> .
+_:c14n2 <https://schema.org/affiliation> _:c14n4 <http://rdfs.org/ns/void#> .
+_:c14n2 <https://schema.org/email> <mailto:jun.zhao@zoo.ox.ac.uk> <http://rdfs.org/ns/void#> .
+_:c14n2 <https://schema.org/name> "Jun Zhao" <http://rdfs.org/ns/void#> .
+_:c14n2 <https://schema.org/url> <http://users.ox.ac.uk/~zool0770/> <http://rdfs.org/ns/void#> .
+_:c14n3 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.deri.ie/> <http://rdfs.org/ns/void#> .
+_:c14n3 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.insight-centre.org> <http://rdfs.org/ns/void#> .
+_:c14n3 <https://schema.org/identifier> <http://vocab.deri.ie/void#Digital%20Enterprise%20Research%20Institute%2C%20NUI%20Galway> <http://rdfs.org/ns/void#> .
+_:c14n3 <https://schema.org/name> "Digital Enterprise Research Institute, NUI Galway" <http://rdfs.org/ns/void#> .
 _:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> <http://rdfs.org/ns/void#> .
-_:c14n4 <https://schema.org/name> "Talis" <http://rdfs.org/ns/void#> .
-_:c14n4 <https://schema.org/url> <http://www.talis.com/> <http://rdfs.org/ns/void#> .
-_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> <http://rdfs.org/ns/void#> .
-_:c14n5 <https://schema.org/affiliation> _:c14n6 <http://rdfs.org/ns/void#> .
-_:c14n5 <https://schema.org/email> <mailto:jun.zhao@zoo.ox.ac.uk> <http://rdfs.org/ns/void#> .
-_:c14n5 <https://schema.org/name> "Jun Zhao" <http://rdfs.org/ns/void#> .
-_:c14n5 <https://schema.org/url> <http://users.ox.ac.uk/~zool0770/> <http://rdfs.org/ns/void#> .
-_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> <http://rdfs.org/ns/void#> .
-_:c14n6 <https://schema.org/name> "Department of Zoology, University of Oxford" <http://rdfs.org/ns/void#> .
-_:c14n6 <https://schema.org/url> <http://www.zoo.ox.ac.uk/> <http://rdfs.org/ns/void#> .
-_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> <http://rdfs.org/ns/void#> .
-_:c14n7 <https://schema.org/affiliation> _:c14n1 <http://rdfs.org/ns/void#> .
-_:c14n7 <https://schema.org/email> <mailto:richard.cyganiak@deri.org> <http://rdfs.org/ns/void#> .
-_:c14n7 <https://schema.org/name> "Richard Cyganiak" <http://rdfs.org/ns/void#> .
-_:c14n7 <https://schema.org/url> <http://richard.cyganiak.de/> <http://rdfs.org/ns/void#> .
+_:c14n4 <https://schema.org/name> "Department of Zoology, University of Oxford" <http://rdfs.org/ns/void#> .
+_:c14n4 <https://schema.org/url> <http://www.zoo.ox.ac.uk/> <http://rdfs.org/ns/void#> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> <http://rdfs.org/ns/void#> .
+_:c14n5 <http://xmlns.com/foaf/0.1/homepage> <http://www.deri.ie/> <http://rdfs.org/ns/void#> .
+_:c14n5 <http://xmlns.com/foaf/0.1/name> "Digital Enterprise Research Institute, NUI Galway" <http://rdfs.org/ns/void#> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> <http://rdfs.org/ns/void#> .
+_:c14n6 <https://schema.org/affiliation> _:c14n7 <http://rdfs.org/ns/void#> .
+_:c14n6 <https://schema.org/email> <mailto:michael.hausenblas@deri.org> <http://rdfs.org/ns/void#> .
+_:c14n6 <https://schema.org/name> "Michael Hausenblas" <http://rdfs.org/ns/void#> .
+_:c14n6 <https://schema.org/url> <http://sw-app.org/about.html> <http://rdfs.org/ns/void#> .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Organization> <http://rdfs.org/ns/void#> .
+_:c14n7 <https://schema.org/name> "LiDRC" <http://rdfs.org/ns/void#> .
+_:c14n7 <https://schema.org/url> <http://linkeddata.deri.ie/> <http://rdfs.org/ns/void#> .
 _:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> <http://rdfs.org/ns/void#> .
-_:c14n8 <https://schema.org/affiliation> _:c14n0 <http://rdfs.org/ns/void#> .
-_:c14n8 <https://schema.org/email> <mailto:michael.hausenblas@deri.org> <http://rdfs.org/ns/void#> .
-_:c14n8 <https://schema.org/name> "Michael Hausenblas" <http://rdfs.org/ns/void#> .
-_:c14n8 <https://schema.org/url> <http://sw-app.org/about.html> <http://rdfs.org/ns/void#> .
+_:c14n8 <https://schema.org/affiliation> _:c14n5 <http://rdfs.org/ns/void#> .
+_:c14n8 <https://schema.org/email> <mailto:richard.cyganiak@deri.org> <http://rdfs.org/ns/void#> .
+_:c14n8 <https://schema.org/name> "Richard Cyganiak" <http://rdfs.org/ns/void#> .
+_:c14n8 <https://schema.org/url> <http://richard.cyganiak.de/> <http://rdfs.org/ns/void#> .

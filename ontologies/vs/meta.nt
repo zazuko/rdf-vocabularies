@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/vs:> <http://dbpedia.org/ontology/filename> "ontologies/vs.nq" .
+<https://prefix.zazuko.com/vs:> <http://dbpedia.org/ontology/filename> "@vocabulary/vs/vs.nq" .
 <https://prefix.zazuko.com/vs:> <http://purl.org/dc/terms/description> "An RDF vocabulary for relating SW vocabulary terms to their status." .
 <https://prefix.zazuko.com/vs:> <http://purl.org/dc/terms/title> "SemWeb Vocab Status ontology" .
 <https://prefix.zazuko.com/vs:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .

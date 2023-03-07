@@ -1,5 +1,0 @@
-<https://prefix.zazuko.com/xhv:> <http://dbpedia.org/ontology/filename> "ontologies/xhv.nq" .
-<https://prefix.zazuko.com/xhv:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
-<https://prefix.zazuko.com/xhv:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/2012/pyRdfa/extract?uri=https%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%2Fvocab.xhtml&format=turtle&rdfagraph=output&vocab_expansion=false&rdfa_lite=false&embedded_rdf=true&space_preserve=true&vocab_cache=true&vocab_cache_report=false&vocab_cache_refresh=false> .
-<https://prefix.zazuko.com/xhv:> <http://www.w3.org/ns/rdfa#prefix> "xhv" .
-<https://prefix.zazuko.com/xhv:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/1999/xhtml/vocab#> .

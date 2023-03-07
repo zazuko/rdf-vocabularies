@@ -1,4 +1,4 @@
-<https://prefix.zazuko.com/vcard:> <http://dbpedia.org/ontology/filename> "ontologies/vcard.nq" .
+<https://prefix.zazuko.com/vcard:> <http://dbpedia.org/ontology/filename> "@vocabulary/vcard/vcard.nq" .
 <https://prefix.zazuko.com/vcard:> <http://purl.org/dc/terms/description> "Ontology for vCard based on RFC6350" .
 <https://prefix.zazuko.com/vcard:> <http://purl.org/dc/terms/title> "Ontology for vCard" .
 <https://prefix.zazuko.com/vcard:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
