@@ -8,8 +8,8 @@ import { Quad } from '@rdfjs/types'
 
 const rdfjsSerializer = new RdfjsSerializer({ module: 'ts' })
 
-export async function buildModule(path: string) {
-  const dataset = await array<Quad>(<Readable>fromFile(resolve(path, 'dataset.nq')))
+export async function buildModule(path: string, prefix: string) {
+  const dataset = await array<Quad>(<Readable>fromFile(resolve(path, `${prefix}.nq`)))
 
   const quadArray = [...dataset]
   for (const quad of quadArray) {

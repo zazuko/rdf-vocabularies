@@ -19,5 +19,6 @@
     "./prefixes.js": "./prefixes.js",
     "./shrink": "./shrink.js",
     "./shrink.js": "./shrink.js"
-  }
+  },
+  "license": "MIT"
 }

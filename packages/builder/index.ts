@@ -23,8 +23,11 @@ program
 
 program
   .command('module')
-  .action(() => {
-    return buildModule(process.cwd())
+  .action(async () => {
+    const path = process.cwd()
+    const packageJson = await import(`${path}/package.json`, { assert: { type: 'json' } })
+    const prefix = packageJson.default.vocabulary.prefix
+    return buildModule(process.cwd(), prefix)
   })
 
 program.parseAsync()
