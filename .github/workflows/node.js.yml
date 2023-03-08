@@ -26,10 +26,8 @@ jobs:
     - run: npm run test
     - run: npm run build
 
-    - name: Coveralls
-      uses: coverallsapp/github-action@master
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Codecov
+      uses: codecov/codecov-action@v3
 
   check-deps:
     runs-on: ubuntu-latest
