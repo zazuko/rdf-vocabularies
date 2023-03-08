@@ -9,7 +9,7 @@
     "posttest": "c8 report --reporter=text-lcov >> ./coverage/lcov.info",
     "build": "tsc",
     "prepack": "npm run build",
-    "postinstall": "wsrun -m--report -c postfetch"
+    "postinstall": "wsrun -y 10 -lm --report -c postfetch --no-overwrite"
   },
   "repository": {
     "type": "git",

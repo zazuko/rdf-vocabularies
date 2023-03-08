@@ -1,4 +1,5 @@
 import fs from 'fs/promises'
+import { existsSync } from 'fs'
 import { resolve } from 'path'
 import { Readable } from 'stream'
 import RdfjsSerializer from '@rdfjs/serializer-rdfjs'
@@ -8,7 +9,13 @@ import { Quad } from '@rdfjs/types'
 
 const rdfjsSerializer = new RdfjsSerializer({ module: 'ts' })
 
-export async function buildModule(path: string, prefix: string) {
+export async function buildModule(path: string, prefix: string, { overwrite = true } = {}) {
+  if (existsSync('./index.ts') && !overwrite) {
+    // eslint-disable-next-line no-console
+    console.log('Skipping existing module')
+    return
+  }
+
   const dataset = await array<Quad>(<Readable>fromFile(resolve(path, `${prefix}.nq`)))
 
   const quadArray = [...dataset]
