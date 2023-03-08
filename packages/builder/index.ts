@@ -1,4 +1,4 @@
-#!/usr/bin/env node --no-warnings --loader ts-node/esm
+#!/usr/bin/env -S node --no-warnings --loader ts-node/esm
 import { Command, program } from 'commander'
 import { buildModule } from './modules.js'
 import { buildDatasets } from './datasets.js'
