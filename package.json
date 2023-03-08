@@ -8,7 +8,8 @@
     "test": "c8 -i src mocha packages/**/*.test.ts",
     "posttest": "c8 report --reporter=text-lcov >> ./coverage/lcov.info",
     "build": "tsc",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "postinstall": "wsrun -m--report -c postfetch"
   },
   "repository": {
     "type": "git",

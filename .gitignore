@@ -5,3 +5,4 @@ coverage
 *.js
 *.mjs
 !mocha-setup.js
+ontologies/*/index.ts
