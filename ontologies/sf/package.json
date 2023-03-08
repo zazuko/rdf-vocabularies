@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "fetch": "vocab-build datasets",
-    "postfetch": "vocab-build module"
+    "generate-module": "vocab-build module"
   },
   "devDependencies": {
     "@vocabulary/builder": "^0.0.0"

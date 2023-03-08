@@ -1,5 +1,5 @@
 #!/usr/bin/env -S node --no-warnings --loader ts-node/esm
-import { Command, program } from 'commander'
+import { program } from 'commander'
 import { buildModule } from './modules.js'
 import { buildDatasets } from './datasets.js'
 
@@ -23,14 +23,11 @@ program
 
 program
   .command('module')
-  .option('--no-overwrite')
-  .action(async function (this: Command) {
-    const { overwrite } = this.opts()
-
+  .action(async () => {
     const path = process.cwd()
     const packageJson = await import(`${path}/package.json`, { assert: { type: 'json' } })
     const prefix = packageJson.default.vocabulary.prefix
-    return buildModule(process.cwd(), prefix, { overwrite })
+    return buildModule(process.cwd(), prefix)
   })
 
 program.parseAsync()

@@ -7,9 +7,11 @@
     "lint": "eslint . --ext .js,.ts --ignore-path .gitignore --ignore-path .eslintignore --quiet",
     "test": "c8 -i src mocha packages/**/*.test.ts",
     "posttest": "c8 report --reporter=text-lcov >> ./coverage/lcov.info",
+    "prebuild": "wsrun -y 10 -lm --report -c generate-module",
     "build": "tsc",
-    "prepack": "npm run build",
-    "postinstall": "wsrun -y 10 -lm --report -c postfetch --no-overwrite"
+    "postinstall": "patch-package",
+    "prerelease": "npm run build",
+    "release": "changeset publish"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/zazuko/rdf-vocabularies#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "@tpluscode/eslint-config": "^0.4.2",
     "@typescript-eslint/eslint-plugin": "^5.54.1",
     "@typescript-eslint/parser": "^5.54.1",
@@ -34,6 +37,8 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-require-extensions": "^0.1.2",
     "mocha": "^10.0.0",
+    "patch-package": "^6.5.1",
+    "postinstall-postinstall": "^2.1.0",
     "standard": "^17.0.0",
     "typescript": "^4.9.5",
     "wsrun": "^5.2.4"

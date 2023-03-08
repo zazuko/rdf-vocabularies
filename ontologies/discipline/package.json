@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "postfetch": "vocab-build module"
+    "generate-module": "vocab-build module"
   },
   "devDependencies": {
     "@vocabulary/builder": "^0.0.0"
