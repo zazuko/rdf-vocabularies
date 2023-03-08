@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "prepare": "husky install",
     "fetch": "wsrun -y 5 -lm --report -c fetch",
     "lint": "eslint . --ext .js,.ts --ignore-path .gitignore --ignore-path .eslintignore --quiet",
     "test": "c8 -i src mocha packages/**/*.test.ts",
@@ -36,6 +37,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-require-extensions": "^0.1.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
     "mocha": "^10.0.0",
     "patch-package": "^6.5.1",
     "postinstall-postinstall": "^2.1.0",
@@ -53,5 +56,10 @@
   "workspaces": [
     "./packages/*",
     "./ontologies/*"
-  ]
+  ],
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix --quiet"
+    ]
+  }
 }
