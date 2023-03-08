@@ -1,7 +1,7 @@
-# @zazuko/rdf-vocabularies -- Zazuko's Default Ontologies & Prefixes
-[![Build Status](https://travis-ci.org/zazuko/rdf-vocabularies.svg?branch=master)](https://travis-ci.org/zazuko/rdf-vocabularies)
-[![Coverage Status](https://coveralls.io/repos/github/zazuko/rdf-vocabularies/badge.svg?branch=master)](https://coveralls.io/github/zazuko/rdf-vocabularies?branch=master)
-[![npm version](https://badge.fury.io/js/%40zazuko%2Frdf-vocabularies.svg)](https://www.npmjs.com/package/@zazuko/rdf-vocabularies)
+# @zazuko/vocabularies -- Zazuko's Default Ontologies & Prefixes
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zazuko/rdf-vocabularies/node.js.yml)
+![Codecov](https://img.shields.io/codecov/c/gh/zazuko/rdf-vocabularies)
+![npm](https://img.shields.io/npm/v/@zazuko/vocabularies)
 
 This package contains a distribution of the most commonly used RDF ontologies (schema/vocab, whatever you call it)
 including their default prefixes, together with a set of utility functions to work with prefixes.
@@ -14,9 +14,23 @@ other programming languages as well as you do not have to take care of downloadi
 
 ## Installation
 
+This is a new release of the previous monolithic package which grew quite a lot. 
+
+It is recommended to install the prefixes package and select vocabulary packages individually to 
+reduce the size of `node_modules`.
+
 ```bash
-$ npm install @zazuko/rdf-vocabularies
+$ npm install @zazuko/prefixes @vocabulary/rdf @vocabulary/schema ...
 ```
+
+You may still choose to install a one package to get them all. 
+
+```bash
+$ npm install @zazuko/vocabularies
+```
+
+It remains pretty much compatible with the previous `@zazuko/rdf-vocabularies` package. The main 
+difference is that now it is ESM-only.
 
 ## Usage
 
@@ -24,18 +38,17 @@ $ npm install @zazuko/rdf-vocabularies
 
 ### Dataset-as-code modules
 
-All vocabularies published by this package are also exported as JS modules so that then can be imported synchronously (no parsing required) and without additional dependencies when in web app setting (see the `raw-loader` instructions below).
+All vocabularies published from this package are also exported as JS modules so that then can be 
+imported synchronously (no parsing required) and without additional dependencies when in web app setting (see the `raw-loader` instructions below).
 
 Modules `@rdf-vocabularies/datasets` exports factories which returns an array of quads `Quad` and take RDF/JS `DataFactory` as parameter.
 
 ```javascript
-const $rdf = require('rdf-ext')
-const { schema } = require('@zazuko/rdf-vocabularies/datasets')
+import $rdf from 'rdf-ext'
+import schema from '@vocabulary/schema'
 
-const dataset = $rdf.dataset(schema($rdf))
+const dataset = $rdf.dataset(schema({ factory: $rdf }))
 ```
-
-In a bundled web project it is also possible to directly import a single dataset like `import schema from '@zazuko/rdf-vocabularies/datasets/schema'`. At the time of writing this is not supported by newer versions of node (12-14) but has already been fixed and scheduled for release.
 
 ### Vocabularies Metadata
 
@@ -43,7 +56,8 @@ See [`_index.nq`](./ontologies/_index.nq).
 
 ### `vocabularies()`
 
-The function (`require('@zazuko/rdf-vocabularies').vocabularies(options)`) accepts an optional `options` object:
+Exported from `@zazuko/vocabularies'`, the `vocabularies()` function accepts an 
+optional `options` object:
 
 * `options.only: Array?`, default: `undefined`, a subset of all available prefixes, will only load these.
 * `options.factory: RDF/JS DatasetFactory`, default: [`rdf-ext`](https://github.com/rdf-ext/rdf-ext), a dataset
@@ -58,7 +72,7 @@ It is thus recommended to always only [load the needed ontologies](#loading-only
 to reduce the unnecessary traffic and save bandwidth.
 
 ```js
-const { vocabularies } = require('@zazuko/rdf-vocabularies')
+import { vocabularies } from '@zazuko/vocabularies'
 
 vocabularies()
   .then((datasets) => {
@@ -117,7 +131,7 @@ vocabularies()
 #### Loading only some Vocabularies as Datasets
 
 ```js
-const { vocabularies } = require('@zazuko/rdf-vocabularies')
+import { vocabularies } from '@zazuko/vocabularies'
 
 vocabularies({ only: ['rdfs', 'owl', 'skos'] })
   .then((datasets) => {
@@ -134,21 +148,21 @@ vocabularies({ only: ['rdfs', 'owl', 'skos'] })
 #### Getting a Readable Stream (Quad Stream)
 
 ```js
-const { vocabularies } = require('@zazuko/rdf-vocabularies')
+import { vocabularies } from '@zazuko/vocabularies'
 const stream = await vocabularies({ stream: true, only: ['rdfs', 'owl', 'skos'] })
 ```
 
 ### Using `vocabularies` function in browser
 
-The preferred usage in browser projects is to avoid importing from `@zazuko/rdf-vocabularies` because that will require additional bundling of dynamic n-quads modules.
+The preferred usage in browser projects is to avoid importing from `@zazuko/vocabularies` because that will require additional bundling of dynamic n-quads modules.
 
-Instead, import from the partial modules:
+Instead, import from the partial modules (without even installing the big package, if possible):
 
-* `import { expand } from '@zazuko/rdf-vocabularies/expand'`
-* `import { prefixes } from '@zazuko/rdf-vocabularies/prefixes'`
-* `import { shrink } from '@zazuko/rdf-vocabularies/shrink'`
+* `import { expand } from '@zazuko/prefixes/expand'`
+* `import { prefixes } from '@zazuko/prefixes/prefixes'`
+* `import { shrink } from '@zazuko/prefixes/shrink'`
 
-The module `@zazuko/rdf-vocabularies/expandWithCheck` requires `rdf-ext` and parses datasets. See the instructions below for examples how to configure the application.
+The module `@zazuko/vocabularies/expandWithCheck` requires `rdf-ext` and parses datasets. See the instructions below for examples how to configure the application.
 
 The package's main module can also be used in browser albeit it needs a bundler such as webpack and additional steps to configure it:
 
@@ -213,8 +227,8 @@ It is the opposite of [`expand`](#expanding-a-prefix)ing:
     when using `shrink` with user-provided strings.
 
     ```js
-    const assert = require('assert')
-    const { shrink } = require('@zazuko/rdf-vocabularies')
+    import assert from 'assert'
+    import { shrink } from '@zazuko/prefixes'
 
     assert(shrink('http://www.w3.org/2001/XMLSchema#dateTime') === 'xsd:dateTime')
     assert(shrink('http://example.com#nothing') === '')
@@ -230,7 +244,7 @@ Getting an object with prefixes and their base URI:
 (Returns [this object](./src/prefixes.ts).)
 
 ```js
-const { prefixes } = require('@zazuko/rdf-vocabularies')
+import { prefixes } from '@zazuko/prefixes'
 
 console.log(prefixes)
 /*
@@ -248,8 +262,12 @@ console.log(prefixes)
 Accessing the N-Quads files:
 
 ```js
-const path = require('path')
-console.log(path.resolve(require.resolve('@zazuko/rdf-vocabularies'), '..', 'ontologies', 'skos.nq'))
+import path from 'path'
+import module from 'module'
+
+const { resolve } = module.createRequire(import.meta.url)
+
+console.log(path.resolve(resolve('@vocabulary/skos/skos.nq')))
 ```
 
 ### Command line
@@ -270,11 +288,9 @@ rdf-vocab prefix http://schema.org/
 
 ## Versioning Scheme
 
-This package is [vendoring ontologies](./ontologies/). These will be updated periodically.
-
-This package is versioned using the date at which the data was pulled, e.g. `@zazuko/rdf-vocabularies@2019.04.30`.
-
-Updating the vendored ontologies is achieved using `npm run fetch` in this package.
+The packages follow semver but that is to indicate library code changes rather than vocabulary 
+changes. Usually, that is. If we identify significant changes to the source RDF for any given 
+vocabulary, we may decide to bump a major version.
 
 ## Adding new prefixes
 
@@ -286,11 +302,12 @@ in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popu
 
 ### Steps to add a prefix
 
-1. Add an entry in [`src/prefixes.ts`](src/prefixes.ts)
-1. If necessary, add an entry to [`overrides.ts`](overrides.ts), similar to the others
+1. Add a new directory under [ontologies](ontologies/) with a package.json. For a minimal 
+   example see [ACL vocabulary](ontologies/acl/package.json)
+1. If necessary, add overrides to the `vocabulary` key, similar to the others
    * for the `file` option, a `file:` scheme IRI can be used, with path relative to the repository root
-1. Run `npm run fetch -- <prefix>` with the prefix passed as parameter.
-   * multiple prefixes can also be to fetch multiple ontologies
+1. Run `npm run fetch` in the vocabulary's dir to process the triples.
+2. Add a dependency to [vocabularies meta package](packages/vocabularies/package.json)
 1. Commit changes and submit a PR
 
 ### Project-specific prefixes
@@ -298,7 +315,7 @@ in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popu
 It is also possible to add prefix within a project so that it can be used with the functions [`expand`](#expanding-a-prefix) and [`shrink`](#shrinking-an-iri).
 
 ```js
-import { prefixes, expand, shrink } from '@zazuko/rdf-vocabularies'
+import { prefixes, expand, shrink } from '@zazuko/prefixes'
 
 prefixes['foo'] = 'http://example.com/'
 
