@@ -18,5 +18,11 @@
       "baseIRI": "http://vocab.org/vann/"
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

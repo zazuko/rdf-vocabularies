@@ -13,5 +13,11 @@
     "prefix": "dcterms",
     "namespace": "http://purl.org/dc/terms/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

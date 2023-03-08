@@ -13,5 +13,11 @@
     "prefix": "prov",
     "namespace": "http://www.w3.org/ns/prov#"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

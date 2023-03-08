@@ -13,5 +13,11 @@
     "prefix": "sou",
     "namespace": "http://qudt.org/vocab/sou/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

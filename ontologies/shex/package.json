@@ -13,5 +13,11 @@
     "prefix": "shex",
     "namespace": "http://www.w3.org/ns/shex#"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

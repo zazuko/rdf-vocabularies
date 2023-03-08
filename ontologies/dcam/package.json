@@ -13,5 +13,11 @@
     "prefix": "dcam",
     "namespace": "http://purl.org/dc/dcam/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

@@ -15,5 +15,11 @@
     "file": "https://raw.githubusercontent.com/ruby-rdf/rdf/master/etc/xsd.ttl",
     "mediaType": "text/turtle"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

@@ -14,5 +14,11 @@
     "namespace": "http://purl.org/vocab/frbr/core#",
     "file": "http://purl.org/spar/frbr.nt"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

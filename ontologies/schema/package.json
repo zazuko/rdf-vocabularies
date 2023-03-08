@@ -14,5 +14,11 @@
     "namespace": "http://schema.org/",
     "file": "https://schema.org/version/latest/schemaorg-current-http.nt"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

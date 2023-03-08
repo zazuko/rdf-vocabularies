@@ -13,5 +13,11 @@
     "prefix": "exif",
     "namespace": "http://www.w3.org/2003/12/exif/ns#"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

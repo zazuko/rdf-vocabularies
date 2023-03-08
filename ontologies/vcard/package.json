@@ -13,5 +13,11 @@
     "prefix": "vcard",
     "namespace": "http://www.w3.org/2006/vcard/ns#"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

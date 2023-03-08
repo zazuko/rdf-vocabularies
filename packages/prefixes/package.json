@@ -20,5 +20,11 @@
     "./shrink": "./shrink.js",
     "./shrink.js": "./shrink.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "lib/*.js",
+    "lib/*.d.ts"
+  ]
 }

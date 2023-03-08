@@ -13,5 +13,11 @@
     "prefix": "unit",
     "namespace": "http://qudt.org/vocab/unit/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

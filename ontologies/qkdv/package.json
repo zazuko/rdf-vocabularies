@@ -13,5 +13,11 @@
     "prefix": "qkdv",
     "namespace": "http://qudt.org/vocab/dimensionvector/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

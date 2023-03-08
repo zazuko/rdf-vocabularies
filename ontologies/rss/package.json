@@ -15,5 +15,11 @@
     "file": "https://github.com/taurenshaman/semantic-web/raw/master/data/rss-schema.rdf",
     "mediaType": "application/rdf+xml"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

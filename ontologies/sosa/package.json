@@ -13,5 +13,11 @@
     "prefix": "sosa",
     "namespace": "http://www.w3.org/ns/sosa/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

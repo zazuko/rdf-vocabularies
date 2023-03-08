@@ -13,5 +13,11 @@
   "vocabulary": {
     "prefix": "acl",
     "namespace": "http://www.w3.org/ns/auth/acl#"
-  }
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

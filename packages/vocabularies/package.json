@@ -113,13 +113,12 @@
   },
   "files": [
     "bin",
-    "loadDataset",
-    "datasets",
-    "ontologies",
     "*.js",
-    "*.mjs",
     "*.d.ts",
-    "*.d.ts.map"
+    "*.d.ts.map",
+    "lib/*.js",
+    "lib/*.d.ts",
+    "lib/*.d.ts.map"
   ],
   "devDependencies": {
     "@types/chai": "^4.3.4",

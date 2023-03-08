@@ -15,5 +15,11 @@
     "namespace": "http://purl.org/stuff/rev#",
     "file": "https://github.com/taurenshaman/semantic-web/raw/cee9e421eed3f31a602f82375fb92fb109d638b7/data/review.rdf",
     "mediaType": "application/rdf+xml"
-  }
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

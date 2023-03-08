@@ -13,5 +13,11 @@
     "prefix": "crm",
     "namespace": "http://www.cidoc-crm.org/cidoc-crm/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

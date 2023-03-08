@@ -15,5 +15,11 @@
     "file": "http://www.heppnetz.de/ontologies/goodrelations/v1.owl",
     "mediaType": "application/rdf+xml"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

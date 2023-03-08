@@ -15,5 +15,11 @@
     "file": "http://schemas.opengis.net/sf/1.0/simple_features_geometries.rdf",
     "mediaType": "application/rdf+xml"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

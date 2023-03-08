@@ -16,5 +16,11 @@
       "baseIRI": "https://www.w3.org/ns/earl#"
     }
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

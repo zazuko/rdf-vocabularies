@@ -13,5 +13,11 @@
     "prefix": "rdfa",
     "namespace": "http://www.w3.org/ns/rdfa#"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

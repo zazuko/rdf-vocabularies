@@ -13,5 +13,11 @@
     "prefix": "ldp",
     "namespace": "http://www.w3.org/ns/ldp#"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

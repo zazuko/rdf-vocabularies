@@ -13,5 +13,11 @@
     "prefix": "dqv",
     "namespace": "http://www.w3.org/ns/dqv#"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

@@ -13,5 +13,11 @@
     "prefix": "geor",
     "namespace": "http://www.opengis.net/def/rule/geosparql/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

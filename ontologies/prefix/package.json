@@ -14,5 +14,11 @@
     "namespace": "http://qudt.org/vocab/prefix/",
     "file": "http://qudt.org/2.1/vocab/prefix"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

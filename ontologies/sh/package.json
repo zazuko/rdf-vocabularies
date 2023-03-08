@@ -13,5 +13,11 @@
     "prefix": "sh",
     "namespace": "http://www.w3.org/ns/shacl#"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

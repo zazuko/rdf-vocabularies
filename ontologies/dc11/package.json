@@ -13,5 +13,11 @@
     "prefix": "dc11",
     "namespace": "http://purl.org/dc/elements/1.1/"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }

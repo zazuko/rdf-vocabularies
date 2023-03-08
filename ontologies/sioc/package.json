@@ -13,5 +13,11 @@
     "prefix": "sioc",
     "namespace": "http://rdfs.org/sioc/ns#"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
 }
