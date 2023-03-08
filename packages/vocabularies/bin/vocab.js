@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* eslint-disable no-console */
 import { promisify } from 'util'
-import program from 'commander'
+import { program } from 'commander'
 import stream from 'readable-stream'
 import { loadDatasetStream } from '../lib/loadDataset.js'
 import prefixes from '../prefixes.js'
