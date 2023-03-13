@@ -1,0 +1,23 @@
+{
+  "name": "@vocabulary/hydra",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "hydra",
+    "namespace": "http://www.w3.org/ns/hydra/core#"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

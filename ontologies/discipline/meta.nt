@@ -1,0 +1,6 @@
+<https://prefix.zazuko.com/discipline:> <http://dbpedia.org/ontology/filename> "@vocabulary/discipline/discipline.nq" .
+<https://prefix.zazuko.com/discipline:> <http://purl.org/dc/terms/title> "QUDT Disciplines Ontology" .
+<https://prefix.zazuko.com/discipline:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/discipline:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/discipline/> .
+<https://prefix.zazuko.com/discipline:> <http://www.w3.org/ns/rdfa#prefix> "discipline" .
+<https://prefix.zazuko.com/discipline:> <http://www.w3.org/ns/rdfa#uri> <http://qudt.org/vocab/discipline/> .

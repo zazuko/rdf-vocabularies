@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/xkos:> <http://dbpedia.org/ontology/filename> "@vocabulary/xkos/xkos.nq" .
+<https://prefix.zazuko.com/xkos:> <http://purl.org/dc/terms/description> "This ontology is based on work initiated at Dagstuhl Schloss in September 2011" .
+<https://prefix.zazuko.com/xkos:> <http://purl.org/dc/terms/title> "XKOS: an SKOS extension for representing statistical classifications" .
+<https://prefix.zazuko.com/xkos:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/xkos:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://raw.githubusercontent.com/linked-statistics/xkos/master/xkos.ttl> .
+<https://prefix.zazuko.com/xkos:> <http://www.w3.org/ns/rdfa#prefix> "xkos" .
+<https://prefix.zazuko.com/xkos:> <http://www.w3.org/ns/rdfa#uri> <http://rdf-vocabulary.ddialliance.org/xkos#> .

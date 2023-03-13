@@ -1,0 +1,22 @@
+{
+  "name": "@vocabulary/discipline",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "discipline",
+    "namespace": "http://qudt.org/vocab/discipline/"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@vocabulary/rss",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "rss",
+    "namespace": "http://purl.org/rss/1.0/",
+    "file": "https://github.com/taurenshaman/semantic-web/raw/master/data/rss-schema.rdf",
+    "mediaType": "application/rdf+xml"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

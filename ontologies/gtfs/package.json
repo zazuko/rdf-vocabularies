@@ -1,0 +1,24 @@
+{
+  "name": "@vocabulary/gtfs",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "gtfs",
+    "namespace": "http://vocab.gtfs.org/terms#",
+    "mediaType": "text/n3"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

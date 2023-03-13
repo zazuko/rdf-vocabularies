@@ -1,0 +1,28 @@
+{
+  "name": "@vocabulary/vann",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "vann",
+    "namespace": "http://purl.org/vocab/vann/",
+    "file": "http://vocab.org/vann/vann-vocab-20100607.rdf",
+    "mediaType": "application/rdf+xml",
+    "xmlParserOptions": {
+      "baseIRI": "http://vocab.org/vann/"
+    }
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

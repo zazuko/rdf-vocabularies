@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx wsrun -p @zazuko/prefixes -c update-prefixes
+git add packages/prefixes/prefixes.ts
+npx lint-staged

@@ -1,8 +1,9 @@
-const { vocabularies, prefixes, expand, shrink } = require('.')
+/* eslint-disable no-console,import/no-extraneous-dependencies */
+import { vocabularies, prefixes, expand, shrink } from '@zazuko/vocabularies'
 
 Promise.resolve().then(run)
 
-async function run () {
+async function run() {
   console.warn('Count all available prefixes:')
   console.warn('| Prefix | #Quads |')
   console.warn('| ---- | ---- |')
@@ -29,7 +30,7 @@ async function run () {
   console.log(`\nshrink ${expand('xsd:Boolean')} to ${shrink(expand('xsd:Boolean'))}`)
 }
 
-async function printQuadsCount (prefixSelection) {
+async function printQuadsCount(prefixSelection) {
   const result = await vocabularies({ only: prefixSelection })
 
   Object.entries(result).forEach(([prefix, dataset]) => {

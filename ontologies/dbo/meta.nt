@@ -1,0 +1,8 @@
+<https://prefix.zazuko.com/dbo:> <http://dbpedia.org/ontology/filename> "@vocabulary/dbo/dbo.nq" .
+<https://prefix.zazuko.com/dbo:> <http://purl.org/dc/terms/description> "The DBpedia ontology provides the classes and properties used in the DBpedia data set." .
+<https://prefix.zazuko.com/dbo:> <http://purl.org/dc/terms/title> "The DBpedia Ontology" .
+<https://prefix.zazuko.com/dbo:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/dbo:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://dbpedia.org/ontology/> .
+<https://prefix.zazuko.com/dbo:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://downloads.dbpedia.org/2016-10/dbpedia_2016-10.nt> .
+<https://prefix.zazuko.com/dbo:> <http://www.w3.org/ns/rdfa#prefix> "dbo" .
+<https://prefix.zazuko.com/dbo:> <http://www.w3.org/ns/rdfa#uri> <http://dbpedia.org/ontology/> .

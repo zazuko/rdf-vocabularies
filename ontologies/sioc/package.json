@@ -1,0 +1,23 @@
+{
+  "name": "@vocabulary/sioc",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "sioc",
+    "namespace": "http://rdfs.org/sioc/ns#"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

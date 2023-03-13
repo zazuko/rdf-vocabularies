@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/http:> <http://dbpedia.org/ontology/filename> "@vocabulary/http/http.nq" .
+<https://prefix.zazuko.com/http:> <http://purl.org/dc/terms/description> "A namespace for describing HTTP messages (http://www.w3.org/Protocols/rfc2616/rfc2616.html)" .
+<https://prefix.zazuko.com/http:> <http://purl.org/dc/terms/title> "HTTP in RDF" .
+<https://prefix.zazuko.com/http:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/http:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2011/http#> .
+<https://prefix.zazuko.com/http:> <http://www.w3.org/ns/rdfa#prefix> "http" .
+<https://prefix.zazuko.com/http:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/2011/http#> .

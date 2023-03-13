@@ -1,0 +1,25 @@
+{
+  "name": "@vocabulary/rico",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "rico",
+    "namespace": "https://www.ica.org/standards/RiC/ontology#",
+    "file": "https://github.com/ICA-EGAD/RiC-O/raw/master/ontology/current-version/RiC-O_v0-2.rdf",
+    "mediaType": "application/rdf+xml"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

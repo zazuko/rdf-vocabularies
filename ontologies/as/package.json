@@ -1,0 +1,25 @@
+{
+  "name": "@vocabulary/as",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "license": "MIT",
+  "vocabulary": {
+    "prefix": "as",
+    "namespace": "https://www.w3.org/ns/activitystreams#",
+    "file": "https://raw.githubusercontent.com/zazuko/activitystreams/owl-fix/vocabulary/activitystreams2.owl",
+    "mediaType": "text/turtle"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

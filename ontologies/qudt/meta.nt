@@ -1,0 +1,6 @@
+<https://prefix.zazuko.com/qudt:> <http://dbpedia.org/ontology/filename> "@vocabulary/qudt/qudt.nq" .
+<https://prefix.zazuko.com/qudt:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/qudt:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.1/schema/datatype> .
+<https://prefix.zazuko.com/qudt:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/2.1/schema/qudt> .
+<https://prefix.zazuko.com/qudt:> <http://www.w3.org/ns/rdfa#prefix> "qudt" .
+<https://prefix.zazuko.com/qudt:> <http://www.w3.org/ns/rdfa#uri> <http://qudt.org/schema/qudt/> .

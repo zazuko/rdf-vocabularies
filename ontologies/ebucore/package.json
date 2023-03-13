@@ -1,0 +1,24 @@
+{
+  "name": "@vocabulary/ebucore",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "ebucore",
+    "namespace": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
+    "file": "https://www.ebu.ch/metadata/ontologies/ebucore/ebucore.rdf"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

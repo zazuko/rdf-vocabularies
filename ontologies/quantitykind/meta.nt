@@ -1,0 +1,6 @@
+<https://prefix.zazuko.com/quantitykind:> <http://dbpedia.org/ontology/filename> "@vocabulary/quantitykind/quantitykind.nq" .
+<https://prefix.zazuko.com/quantitykind:> <http://purl.org/dc/terms/title> "QUDT VOCAB Quantity Kinds  Release 2.1.25" .
+<https://prefix.zazuko.com/quantitykind:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/quantitykind:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/quantitykind/> .
+<https://prefix.zazuko.com/quantitykind:> <http://www.w3.org/ns/rdfa#prefix> "quantitykind" .
+<https://prefix.zazuko.com/quantitykind:> <http://www.w3.org/ns/rdfa#uri> <http://qudt.org/vocab/quantitykind/> .

@@ -1,0 +1,13 @@
+diff --git a/node_modules/@rdfjs/serializer-rdfjs/lib/writer/TypeScriptWriter.js b/node_modules/@rdfjs/serializer-rdfjs/lib/writer/TypeScriptWriter.js
+index 3ab648c..c355752 100644
+--- a/node_modules/@rdfjs/serializer-rdfjs/lib/writer/TypeScriptWriter.js
++++ b/node_modules/@rdfjs/serializer-rdfjs/lib/writer/TypeScriptWriter.js
+@@ -1,7 +1,7 @@
+ class TypeScriptWriter {
+   leadingLines () {
+     return [
+-      'export default ({ factory: any }): import(\'rdf-js\').Quad[] => {'
++      'export default ({ factory }: { factory: import(\'rdf-js\').DataFactory }): import(\'rdf-js\').Quad[] => {'
+     ]
+   }
+ 

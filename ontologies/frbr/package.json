@@ -1,0 +1,24 @@
+{
+  "name": "@vocabulary/frbr",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "frbr",
+    "namespace": "http://purl.org/vocab/frbr/core#",
+    "file": "http://purl.org/spar/frbr.nt"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

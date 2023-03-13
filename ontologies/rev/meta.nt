@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/rev:> <http://dbpedia.org/ontology/filename> "@vocabulary/rev/rev.nq" .
+<https://prefix.zazuko.com/rev:> <http://purl.org/dc/terms/description> "Vocabulary for expressing reviews and ratings using the Resource Description Framework. It is compatible with hReview and conforms to OWL Lite" .
+<https://prefix.zazuko.com/rev:> <http://purl.org/dc/terms/title> "RDF Review Vocabulary" .
+<https://prefix.zazuko.com/rev:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/rev:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://github.com/taurenshaman/semantic-web/raw/cee9e421eed3f31a602f82375fb92fb109d638b7/data/review.rdf> .
+<https://prefix.zazuko.com/rev:> <http://www.w3.org/ns/rdfa#prefix> "rev" .
+<https://prefix.zazuko.com/rev:> <http://www.w3.org/ns/rdfa#uri> <http://purl.org/stuff/rev#> .

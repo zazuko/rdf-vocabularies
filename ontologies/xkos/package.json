@@ -1,0 +1,25 @@
+{
+  "name": "@vocabulary/xkos",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "xkos",
+    "namespace": "http://rdf-vocabulary.ddialliance.org/xkos#",
+    "file": "https://raw.githubusercontent.com/linked-statistics/xkos/master/xkos.ttl",
+    "mediaType": "text/turtle"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

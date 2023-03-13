@@ -1,0 +1,5 @@
+<https://prefix.zazuko.com/gml:> <http://dbpedia.org/ontology/filename> "@vocabulary/gml/gml.nq" .
+<https://prefix.zazuko.com/gml:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/gml:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://schemas.opengis.net/gml/3.2.1/gml_32_geometries.rdf> .
+<https://prefix.zazuko.com/gml:> <http://www.w3.org/ns/rdfa#prefix> "gml" .
+<https://prefix.zazuko.com/gml:> <http://www.w3.org/ns/rdfa#uri> <http://www.opengis.net/ont/gml#> .

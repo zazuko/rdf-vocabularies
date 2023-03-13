@@ -4,6 +4,5 @@ coverage
 *.d.ts.map
 *.js
 *.mjs
-!loadDataset/index.mjs
-src/datasets/
 !mocha-setup.js
+ontologies/*/index.ts

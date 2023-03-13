@@ -1,0 +1,5 @@
+<https://prefix.zazuko.com/cc:> <http://dbpedia.org/ontology/filename> "@vocabulary/cc/cc.nq" .
+<https://prefix.zazuko.com/cc:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/cc:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://creativecommons.org/schema.rdf> .
+<https://prefix.zazuko.com/cc:> <http://www.w3.org/ns/rdfa#prefix> "cc" .
+<https://prefix.zazuko.com/cc:> <http://www.w3.org/ns/rdfa#uri> <http://creativecommons.org/ns#> .

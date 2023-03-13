@@ -1,0 +1,24 @@
+{
+  "name": "@vocabulary/schema",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "schema",
+    "namespace": "http://schema.org/",
+    "file": "https://schema.org/version/latest/schemaorg-current-http.nt"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

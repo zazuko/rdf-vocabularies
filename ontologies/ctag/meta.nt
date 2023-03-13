@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/ctag:> <http://dbpedia.org/ontology/filename> "@vocabulary/ctag/ctag.nq" .
+<https://prefix.zazuko.com/ctag:> <http://purl.org/dc/terms/description> "Common Tag RDF vocabulary, described using W3C RDF Schema. Common Tags allows documents and document fragments (any resource which can be identified by a URI) to be labeled with keywords and URIs, unambigiously idenfying the concepts covered by the resource." .
+<https://prefix.zazuko.com/ctag:> <http://purl.org/dc/terms/title> "Common Tag vocabulary" .
+<https://prefix.zazuko.com/ctag:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/ctag:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://github.com/taurenshaman/semantic-web/raw/master/data/commontag.owl> .
+<https://prefix.zazuko.com/ctag:> <http://www.w3.org/ns/rdfa#prefix> "ctag" .
+<https://prefix.zazuko.com/ctag:> <http://www.w3.org/ns/rdfa#uri> <http://commontag.org/ns#> .

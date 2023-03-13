@@ -1,0 +1,23 @@
+{
+  "name": "@vocabulary/acl",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "license": "MIT",
+  "vocabulary": {
+    "prefix": "acl",
+    "namespace": "http://www.w3.org/ns/auth/acl#"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

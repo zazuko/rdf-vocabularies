@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/foaf:> <http://dbpedia.org/ontology/filename> "@vocabulary/foaf/foaf.nq" .
+<https://prefix.zazuko.com/foaf:> <http://purl.org/dc/terms/description> "The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language." .
+<https://prefix.zazuko.com/foaf:> <http://purl.org/dc/terms/title> "Friend of a Friend (FOAF) vocabulary" .
+<https://prefix.zazuko.com/foaf:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/foaf:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://xmlns.com/foaf/0.1/> .
+<https://prefix.zazuko.com/foaf:> <http://www.w3.org/ns/rdfa#prefix> "foaf" .
+<https://prefix.zazuko.com/foaf:> <http://www.w3.org/ns/rdfa#uri> <http://xmlns.com/foaf/0.1/> .

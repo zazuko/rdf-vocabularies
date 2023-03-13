@@ -1,0 +1,6 @@
+<https://prefix.zazuko.com/dcam:> <http://dbpedia.org/ontology/filename> "@vocabulary/dcam/dcam.nq" .
+<https://prefix.zazuko.com/dcam:> <http://purl.org/dc/terms/title> "Metadata terms for vocabulary description" .
+<https://prefix.zazuko.com/dcam:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/dcam:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/dc/dcam/> .
+<https://prefix.zazuko.com/dcam:> <http://www.w3.org/ns/rdfa#prefix> "dcam" .
+<https://prefix.zazuko.com/dcam:> <http://www.w3.org/ns/rdfa#uri> <http://purl.org/dc/dcam/> .

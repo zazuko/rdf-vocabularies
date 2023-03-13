@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/earl:> <http://dbpedia.org/ontology/filename> "@vocabulary/earl/earl.nq" .
+<https://prefix.zazuko.com/earl:> <http://purl.org/dc/terms/description> "Formal schema of the Evaluation and Report Language (EARL) 1.0" .
+<https://prefix.zazuko.com/earl:> <http://purl.org/dc/terms/title> "Evaluation and Report Language (EARL) 1.0 Schema" .
+<https://prefix.zazuko.com/earl:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/earl:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.w3.org/ns/earl#> .
+<https://prefix.zazuko.com/earl:> <http://www.w3.org/ns/rdfa#prefix> "earl" .
+<https://prefix.zazuko.com/earl:> <http://www.w3.org/ns/rdfa#uri> <https://www.w3.org/ns/earl#> .

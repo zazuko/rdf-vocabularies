@@ -1,0 +1,25 @@
+{
+  "name": "@vocabulary/xsd",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "xsd",
+    "namespace": "http://www.w3.org/2001/XMLSchema#",
+    "file": "https://raw.githubusercontent.com/ruby-rdf/rdf/master/etc/xsd.ttl",
+    "mediaType": "text/turtle"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

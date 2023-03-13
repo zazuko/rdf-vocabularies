@@ -1,0 +1,26 @@
+{
+  "name": "@vocabulary/earl",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "vocabulary": {
+    "prefix": "earl",
+    "namespace": "https://www.w3.org/ns/earl#",
+    "xmlParserOptions": {
+      "baseIRI": "https://www.w3.org/ns/earl#"
+    }
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

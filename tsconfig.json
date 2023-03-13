@@ -1,24 +1,20 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "commonjs",
+    "module": "ESNext",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "moduleResolution": "node",
+    "moduleResolution": "node16",
     "esModuleInterop": true,
     "noImplicitAny": true,
     "strict": true,
     "strictNullChecks": true,
     "lib": [
-      "es2015",
+      "es2017",
       "webworker"
     ],
-    "outDir": ".",
+    "skipLibCheck": true,
     "declaration": true,
     "declarationMap": true
-  },
-  "files": [
-    "src/index.ts",
-    "src/datasets/index.ts"
-  ]
+  }
 }

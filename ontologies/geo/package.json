@@ -1,0 +1,25 @@
+{
+  "name": "@vocabulary/geo",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^0.0.0"
+  },
+  "license": "MIT",
+  "vocabulary": {
+    "prefix": "geo",
+    "namespace": "http://www.opengis.net/ont/geosparql#",
+    "file": "https://github.com/opengeospatial/ogc-geosparql/raw/master/1.1/geo.ttl",
+    "mediaType": "text/turtle"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

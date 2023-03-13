@@ -1,0 +1,30 @@
+{
+  "name": "@vocabulary/dbo",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "vocabulary": {
+    "prefix": "dbo",
+    "namespace": "http://dbpedia.org/ontology/",
+    "files": [
+      {
+        "mediaType": "text/n3",
+        "file": "http://downloads.dbpedia.org/2016-10/dbpedia_2016-10.nt"
+      },
+      {
+        "mediaType": "text/turtle",
+        "file": "http://dbpedia.org/ontology/"
+      }
+    ]
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

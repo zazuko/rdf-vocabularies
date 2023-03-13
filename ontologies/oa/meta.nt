@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/oa:> <http://dbpedia.org/ontology/filename> "@vocabulary/oa/oa.nq" .
+<https://prefix.zazuko.com/oa:> <http://purl.org/dc/terms/description> "The Web Annotation ontology defines the terms of the Web Annotation vocabulary. Any changes to this document MUST be from a Working Group in the W3C that has established expertise in the area." .
+<https://prefix.zazuko.com/oa:> <http://purl.org/dc/terms/title> "Web Annotation Ontology" .
+<https://prefix.zazuko.com/oa:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/oa:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/oa#> .
+<https://prefix.zazuko.com/oa:> <http://www.w3.org/ns/rdfa#prefix> "oa" .
+<https://prefix.zazuko.com/oa:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/oa#> .
