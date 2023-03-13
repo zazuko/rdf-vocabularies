@@ -11,6 +11,7 @@
   },
   "exports": {
     ".": "./index.js",
+    "./meta": "./meta.js",
     "./expand": "./expand.js",
     "./expandWithCheck": "./expandWithCheck.js",
     "./shrink": "./shrink.js",
