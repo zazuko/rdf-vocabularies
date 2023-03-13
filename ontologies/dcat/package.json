@@ -1,13 +1,13 @@
 {
   "name": "@vocabulary/dcat",
-  "version": "0.0.0",
+  "version": "1.0.0-rc.0",
   "type": "module",
   "scripts": {
     "fetch": "vocab-build datasets",
     "generate-module": "vocab-build module"
   },
   "devDependencies": {
-    "@vocabulary/builder": "^0.0.0"
+    "@vocabulary/builder": "^1.0.0-rc.0"
   },
   "vocabulary": {
     "prefix": "dcat",

@@ -94,5 +94,8 @@
     "@zazuko/prefixes": "0.0.0",
     "@zazuko/vocabularies": "0.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "happy-humans-greet",
+    "little-timers-provide"
+  ]
 }
