@@ -95,6 +95,7 @@
     "@zazuko/vocabularies": "0.0.0"
   },
   "changesets": [
+    "dirty-deers-allow",
     "happy-humans-greet",
     "little-timers-provide"
   ]

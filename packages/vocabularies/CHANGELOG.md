@@ -1,5 +1,11 @@
 # @zazuko/vocabularies
 
+## 1.0.0-rc.1
+
+### Patch Changes
+
+- ce73f12: Missing meta export in package.json
+
 ## 1.0.0-rc.0
 
 ### Major Changes
