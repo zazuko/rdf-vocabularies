@@ -92,4 +92,4 @@
 "@vocabulary/vs": major
 ---
 
-Release candidate of new vocabulary packages
+Separated vocabulary packages (closes #118, closes #55, closes #97)
