@@ -6,6 +6,9 @@
   "bin": {
     "rdf-vocab": "bin/vocab.js"
   },
+  "scripts": {
+    "prepack": "cat ../../ontologies/*/meta.nt > meta.nt"
+  },
   "exports": {
     ".": "./index.js",
     "./expand": "./expand.js",
@@ -113,6 +116,7 @@
   },
   "files": [
     "bin",
+    "meta.nt",
     "*.js",
     "*.d.ts",
     "*.d.ts.map",
