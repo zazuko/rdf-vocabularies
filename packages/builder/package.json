@@ -25,9 +25,9 @@
   "devDependencies": {
     "@types/file-fetch": "^1.6.3",
     "@types/proto-fetch": "^1.0.2",
-    "@types/rdf-ext": "^1",
+    "@types/rdf-ext": "^2",
     "@types/rdf-utils-fs": "^2.1.0",
-    "@types/rdfjs__fetch-lite": "^2.0.4",
+    "@types/rdfjs__fetch-lite": "^3.0.1",
     "@types/rdfjs__formats-common": "^2.0.2",
     "@types/rdfjs__serializer-rdfjs": "^0.0.2"
   },

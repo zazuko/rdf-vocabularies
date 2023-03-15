@@ -22,6 +22,8 @@
   },
   "dependencies": {
     "@rdfjs/parser-n3": "^2.0.1",
+    "@types/rdf-ext": "^2",
+    "@types/rdfjs__environment": "^0.1",
     "@vocabulary/acl": "^1.0.0-rc.0",
     "@vocabulary/as": "^1.0.0-rc.0",
     "@vocabulary/bibo": "^1.0.0-rc.0",
@@ -128,7 +130,6 @@
   "devDependencies": {
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10",
-    "@types/rdf-ext": "^1.3.11",
     "@types/rdfjs__parser-n3": "^1.1.5",
     "chai": "^4.3.7"
   },

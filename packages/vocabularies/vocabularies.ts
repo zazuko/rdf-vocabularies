@@ -1,17 +1,19 @@
 /* eslint-disable no-console */
-import { Stream } from 'rdf-js'
+import { Stream, DataFactory } from 'rdf-js'
 import { Readable } from 'stream'
 import rdf from 'rdf-ext'
+import type { Environment } from '@rdfjs/environment/Environment.js'
 import prefixes from '@zazuko/prefixes'
-import DatasetExt from 'rdf-ext/lib/Dataset.js'
+import type { DatasetExt } from 'rdf-ext/lib/Dataset.js'
 import ParserN3 from '@rdfjs/parser-n3'
+import { DatasetFactory } from 'rdf-ext/DatasetFactory.js'
 import { loadDatasetStream } from './lib/loadDataset.js'
 
 export type Datasets = Record<keyof typeof prefixes, DatasetExt>
 
 interface VocabulariesOptions {
   only?: (keyof typeof prefixes)[] | null
-  factory?: typeof rdf
+  factory?: Environment<DatasetFactory | DataFactory>
 }
 
 interface VocabulariesDatasetOptions extends VocabulariesOptions {
@@ -24,8 +26,7 @@ interface VocabulariesStreamOptions extends VocabulariesOptions {
 
 export async function vocabularies (options?: VocabulariesDatasetOptions): Promise<Datasets>
 export async function vocabularies (options: VocabulariesStreamOptions): Promise<Stream & Readable>
-export async function vocabularies(options: VocabulariesDatasetOptions | VocabulariesStreamOptions = {}) {
-  const { only = null, factory = rdf, stream = false } = options
+export async function vocabularies({ only = null, factory = rdf, stream = false }: VocabulariesDatasetOptions | VocabulariesStreamOptions = {}) {
   let selectedPrefixes: (keyof typeof prefixes)[] = []
 
   if (!!only && Array.isArray(only)) {
@@ -45,7 +46,7 @@ export async function vocabularies(options: VocabulariesDatasetOptions | Vocabul
   const datasets = await Promise.all(promises)
 
   if (stream !== false) {
-    let combinedDataset = factory.dataset()
+    let combinedDataset: any = factory.dataset()
     datasets.forEach((dataset) => {
       if (dataset && dataset.size) {
         combinedDataset = combinedDataset.merge(dataset)
@@ -65,7 +66,7 @@ export async function vocabularies(options: VocabulariesDatasetOptions | Vocabul
 
 interface LoadFileOptions {
   customSelection?: boolean
-  factory: typeof rdf
+  factory: Environment<DatasetFactory>
 }
 
 export async function loadFile(prefix: keyof typeof prefixes, { customSelection, factory }: LoadFileOptions) {

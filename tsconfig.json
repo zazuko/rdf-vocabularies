@@ -4,7 +4,7 @@
     "module": "ESNext",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "moduleResolution": "node16",
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "noImplicitAny": true,
     "strict": true,
