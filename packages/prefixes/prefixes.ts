@@ -76,6 +76,7 @@ const packagedPrefixes = {
   sosa: 'http://www.w3.org/ns/sosa/',
   sou: 'http://qudt.org/vocab/sou/',
   ssn: 'http://www.w3.org/ns/ssn/',
+  string: 'http://www.w3.org/2000/10/swap/string#',
   test: 'http://www.w3.org/2006/03/test-description#',
   time: 'http://www.w3.org/2006/time#',
   unit: 'http://qudt.org/vocab/unit/',

@@ -1,0 +1,105 @@
+<http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/01/rdf-schema#label> "string" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concat> <http://www.w3.org/2000/01/rdf-schema#comment> "(obsolete - (was backwards!) - use: string:concatenation)" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concat> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concat> <http://www.w3.org/2000/01/rdf-schema#label> "is concatenation of" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concat> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concat> <http://www.w3.org/2002/07/owl#inverse> <http://www.w3.org/2000/10/swap/string#concatenation> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concatenation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concatenation> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a list of strings. The object is calculated as\n		a concatenation of those strings." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concatenation> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concatenation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concatenation> <http://www.w3.org/2000/01/rdf-schema#label> "is the concatenation of the strings in" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#concatenation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#contains> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the subject string contains the object string." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#contains> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#contains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#contains> <http://www.w3.org/2000/01/rdf-schema#label> "contains" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#contains> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#containsIgnoringCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#containsIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the subject string contains the object string,\nwith the comparison done ignoring the difference between upper case and\nlower case characters." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#containsIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#containsIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#containsIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#label> "contains" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#containsIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#endsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#endsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the subject string ends with the object string." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#endsWith> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#endsWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#endsWith> <http://www.w3.org/2000/01/rdf-schema#label> "ends with" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#endsWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#equalIgnoringCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#equalIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the subject string is the same as object string\nignoring differences between upper and lower case." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#equalIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#equalIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#equalIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#label> "contains" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#equalIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#format> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a list, whose first member is a format string,\n        and whose remaining members are arguments to the format string.\n        The formating string is in the style of python's % operator,\n        very similar to C's sprintf().\n        The object is calculated from the subject." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#format> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#format> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#format> <http://www.w3.org/2000/01/rdf-schema#label> "is the string formatted function of" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#format> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#greaterThan> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the string is greater than the object\n	when ordered according to Unicode(tm) code order." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#greaterThan> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#greaterThan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#greaterThan> <http://www.w3.org/2000/01/rdf-schema#label> "is greater than" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#greaterThan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#lessThan> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the string is less than the object\n	when ordered according to Unicode(tm) code order." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#lessThan> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#lessThan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#lessThan> <http://www.w3.org/2000/01/rdf-schema#label> "is less than" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#lessThan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#matches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#matches> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a string;\nthe object is is a regular expression in the perl, python style.\nIt is true iff the string matches the regexp." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#matches> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#matches> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#matches> <http://www.w3.org/2000/01/rdf-schema#label> "contains" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#matches> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notEqualIgnoringCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notEqualIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the subject string is the NOT same as object string\nignoring differences between upper and lower case." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notEqualIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notEqualIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notEqualIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#label> "contains" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notEqualIgnoringCase> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notGreaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notGreaterThan> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the string is NOT greater than the object\n	when ordered according to Unicode(tm) code order." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notGreaterThan> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notGreaterThan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notGreaterThan> <http://www.w3.org/2000/01/rdf-schema#label> "is not greater than" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notGreaterThan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notLessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notLessThan> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the string is NOT less than the object\n	when ordered according to Unicode(tm) code order." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notLessThan> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notLessThan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notLessThan> <http://www.w3.org/2000/01/rdf-schema#label> "is not less than" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notLessThan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notMatches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notMatches> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject string;\nthe object is is a regular expression in the perl, python style.\nIt is true iff the string does NOT match the regexp." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notMatches> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notMatches> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notMatches> <http://www.w3.org/2000/01/rdf-schema#label> "contains" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#notMatches> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#replace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#replace> <http://www.w3.org/2000/01/rdf-schema#comment> "A built-in for replacing characters or sub.\n    takes a list of 3 strings; the first is the\n    input data, the second the old and the third the new string.\n    The object is calculated as the rplaced string.\n    For example, (\"fofof bar\", \"of\", \"baz\") string:replace \"fbazbaz bar\"\n    " <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#replace> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#replace> <http://www.w3.org/2000/01/rdf-schema#label> "replace" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#replace> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#scrape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#scrape> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a list of two strings. The second string is\na regular expression in the perl, python style.\nIt must contain one group (a part in parentheses).  If the first string in the list matches\nthe regular expression, then the object is calculated as being the\npart of the first string which matches the group." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#scrape> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#scrape> <http://www.w3.org/2000/01/rdf-schema#label> "scrape" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#scrape> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#startsWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#startsWith> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the subject string starts with the object string." <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#startsWith> <http://www.w3.org/2000/01/rdf-schema#definedBy> <http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#startsWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#startsWith> <http://www.w3.org/2000/01/rdf-schema#label> "starts with" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string#startsWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/01/rdf-schema#comment> "String Processing Ontology" <http://www.w3.org/2000/10/swap/string#> .
+<http://www.w3.org/2000/10/swap/string> <http://www.w3.org/2000/01/rdf-schema#comment> "This is an ontology for computable string functions.\nIt is implemented, for example, in CWM and Euler." <http://www.w3.org/2000/10/swap/string#> .
