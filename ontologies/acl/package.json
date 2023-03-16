@@ -10,6 +10,7 @@
     "@vocabulary/builder": "^1.0.0-rc.0"
   },
   "license": "MIT",
+  "homepage": "https://prefix.zazuko.com/prefix/acl:",
   "vocabulary": {
     "prefix": "acl",
     "namespace": "http://www.w3.org/ns/auth/acl#"

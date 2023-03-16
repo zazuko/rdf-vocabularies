@@ -9,6 +9,7 @@
   "devDependencies": {
     "@vocabulary/builder": "^1.0.0-rc.0"
   },
+  "homepage": "https://prefix.zazuko.com/prefix/prov:",
   "vocabulary": {
     "prefix": "prov",
     "namespace": "http://www.w3.org/ns/prov#"
