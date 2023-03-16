@@ -562,15 +562,15 @@
     duplex-to "^2.0.0"
     readable-stream "^4.2.0"
 
-"@rdfjs/serializer-rdfjs@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@rdfjs/serializer-rdfjs/-/serializer-rdfjs-0.1.0.tgz#64437f937b6115fb0537ec221f85d14a0baf51fc"
-  integrity sha512-dIyd5zPbSG+3z8f+hz0WacJyHajR3RNnbwFa+o7wp4kYkbd0oAWebX3MZ2EOFZM8JTn0bYEL1tKKccdoFYkhCA==
+"@rdfjs/serializer-rdfjs@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@rdfjs/serializer-rdfjs/-/serializer-rdfjs-0.1.1.tgz#7cd82dba18385211dbce65509aba9003f9f1bf79"
+  integrity sha512-1B8rDyzoYuKWreAMWkZmO6jYUc5qPxZJqKoRT2v6xeQxwILdCTq7FjWJq4IELhEbKecSgeFWqG5AaCYfn0CBmA==
   dependencies:
-    "@rdfjs/sink" "^1.0.3"
-    get-stream "^6.0.1"
+    "@rdfjs/sink" "^2.0.0"
     js-string-escape "^1.0.1"
-    readable-stream "^3.6.0"
+    readable-stream "^4.3.0"
+    stream-chunks "^1.0.0"
 
 "@rdfjs/sink-map@^1.0.0":
   version "1.0.1"
