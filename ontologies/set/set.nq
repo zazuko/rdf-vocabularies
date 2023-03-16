@@ -1,0 +1,25 @@
+<http://www.w3.org/2000/10/swap/set#difference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#difference> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a list of sets,\n    and the objet is the difference of the sets in the object" <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#difference> <http://www.w3.org/2000/01/rdf-schema#label> "difference" <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#difference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#in> <http://www.w3.org/2000/01/rdf-schema#comment> "This set contains that as a member.\n    Cwm will bind the subject to each of the members of the object." <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#in> <http://www.w3.org/2000/01/rdf-schema#label> "in" <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#in> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#intersection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#intersection> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a list of sets,\n    and the objet is the intersection of the sets in the object" <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#intersection> <http://www.w3.org/2000/01/rdf-schema#label> "intersection" <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#intersection> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#member> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a member of that set.\n    Cwm will bind the object to each of the members of the suject." <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#member> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#member> <http://www.w3.org/2000/01/rdf-schema#label> "member" <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#member> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/2000/10/swap/set#in> <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#symmetricDifference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#symmetricDifference> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a list of sets,\n    and the objet is the symmetricDifference of the sets in the object" <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#symmetricDifference> <http://www.w3.org/2000/01/rdf-schema#label> "symmetric difference" <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#symmetricDifference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#union> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#union> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a list [sic] of sets,\n    and the objet is the union of the sets in the object" <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#union> <http://www.w3.org/2000/01/rdf-schema#label> "union" <http://www.w3.org/2000/10/swap/set#> .
+<http://www.w3.org/2000/10/swap/set#union> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/set#> .

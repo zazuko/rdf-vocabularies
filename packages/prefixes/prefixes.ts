@@ -67,6 +67,7 @@ const packagedPrefixes = {
   sd: 'http://www.w3.org/ns/sparql-service-description#',
   sdmx: 'http://purl.org/linked-data/sdmx#',
   sem: 'http://semanticweb.cs.vu.nl/2009/11/sem/',
+  set: 'http://www.w3.org/2000/10/swap/set#',
   sf: 'http://www.opengis.net/ont/sf#',
   sh: 'http://www.w3.org/ns/shacl#',
   shex: 'http://www.w3.org/ns/shex#',
