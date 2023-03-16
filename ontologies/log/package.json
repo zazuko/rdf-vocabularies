@@ -10,6 +10,7 @@
   "devDependencies": {
     "@vocabulary/builder": "^1.0.0-rc.0"
   },
+  "homepage": "https://prefix.zazuko.com/prefix/log:",
   "license": "MIT",
   "vocabulary": {
     "prefix": "log",

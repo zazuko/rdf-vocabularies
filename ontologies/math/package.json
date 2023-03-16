@@ -11,6 +11,7 @@
     "@vocabulary/builder": "^1.0.0-rc.0"
   },
   "license": "MIT",
+  "homepage": "https://prefix.zazuko.com/prefix/math:",
   "vocabulary": {
     "prefix": "math",
     "namespace": "http://www.w3.org/2000/10/swap/math#"
