@@ -1,5 +1,11 @@
 # @zazuko/vocabularies
 
+## 1.0.0-rc.2
+
+### Patch Changes
+
+- 981376b: Updated rdf-ext types to 2.0
+
 ## 1.0.0-rc.1
 
 ### Patch Changes

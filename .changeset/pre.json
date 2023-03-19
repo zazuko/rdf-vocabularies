@@ -95,8 +95,10 @@
     "@zazuko/vocabularies": "0.0.0"
   },
   "changesets": [
+    "bright-laws-crash",
     "dirty-deers-allow",
     "happy-humans-greet",
-    "little-timers-provide"
+    "little-timers-provide",
+    "nervous-berries-love"
   ]
 }
