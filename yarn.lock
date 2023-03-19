@@ -758,25 +758,7 @@
   resolved "https://registry.yarnpkg.com/@types/proto-fetch/-/proto-fetch-1.0.2.tgz#f0e2c59e5a5c655955caa7127aeb0a09caec4f08"
   integrity sha512-sbtkhwKK904zBT8Qw+K2gChwuFGrjST94qOR2SklTvO9nzmajRKyk61y74Xv9GOaeq9FVX2BbAc4+E15WfhXCg==
 
-"@types/rdf-ext@^2":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@types/rdf-ext/-/rdf-ext-2.0.0.tgz#7102c57f2b2efaad2b9cec6dc240660b52661451"
-  integrity sha512-rINI+f3BRVbgJipqmK7IQSse282FNwnVsipmkj8c26wGqP0HU4aapDR2Iqi9KkcvLL4S0GEJMfey//rg4fIddA==
-  dependencies:
-    "@rdfjs/types" "*"
-    "@types/clownface" "*"
-    "@types/rdfjs__data-model" "*"
-    "@types/rdfjs__dataset" "*"
-    "@types/rdfjs__environment" "*"
-    "@types/rdfjs__fetch-lite" "*"
-    "@types/rdfjs__namespace" "*"
-    "@types/rdfjs__prefix-map" "*"
-    "@types/rdfjs__score" "*"
-    "@types/rdfjs__term-map" "*"
-    "@types/rdfjs__term-set" "*"
-    "@types/rdfjs__traverser" "*"
-
-"@types/rdf-ext@^2.0.1":
+"@types/rdf-ext@^2", "@types/rdf-ext@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/rdf-ext/-/rdf-ext-2.0.1.tgz#6c3eca209891dac754141b120d238e18fa7d1f9d"
   integrity sha512-dzsC1rvigj51t262dAmdE+LOdz4oVC46Z9YQfQLl6nmYFqM6IEp+JPK8vnFFY+gJdDbeuwwsM8HHj0UgZO+sBQ==
