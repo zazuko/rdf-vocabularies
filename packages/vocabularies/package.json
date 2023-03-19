@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@rdfjs/parser-n3": "^2.0.1",
-    "@types/rdf-ext": "^2",
+    "@types/rdf-ext": "^2.0.1",
     "@types/rdfjs__environment": "^0.1",
     "@vocabulary/acl": "^1.0.0-rc.0",
     "@vocabulary/as": "^1.0.0-rc.0",

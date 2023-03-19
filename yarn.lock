@@ -776,6 +776,24 @@
     "@types/rdfjs__term-set" "*"
     "@types/rdfjs__traverser" "*"
 
+"@types/rdf-ext@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@types/rdf-ext/-/rdf-ext-2.0.1.tgz#6c3eca209891dac754141b120d238e18fa7d1f9d"
+  integrity sha512-dzsC1rvigj51t262dAmdE+LOdz4oVC46Z9YQfQLl6nmYFqM6IEp+JPK8vnFFY+gJdDbeuwwsM8HHj0UgZO+sBQ==
+  dependencies:
+    "@rdfjs/types" "*"
+    "@types/clownface" "*"
+    "@types/rdfjs__data-model" "*"
+    "@types/rdfjs__dataset" "*"
+    "@types/rdfjs__environment" "*"
+    "@types/rdfjs__fetch-lite" "*"
+    "@types/rdfjs__namespace" "*"
+    "@types/rdfjs__prefix-map" "*"
+    "@types/rdfjs__score" "*"
+    "@types/rdfjs__term-map" "*"
+    "@types/rdfjs__term-set" "*"
+    "@types/rdfjs__traverser" "*"
+
 "@types/rdf-utils-fs@^2.1.0":
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/@types/rdf-utils-fs/-/rdf-utils-fs-2.1.0.tgz#14802cc6281337048b9a866baff13fdcfba91dae"
