@@ -13,7 +13,6 @@
       "es2017",
       "webworker"
     ],
-    "skipLibCheck": true,
     "declaration": true,
     "declarationMap": true
   }
