@@ -798,12 +798,13 @@
     "@rdfjs/types" "*"
 
 "@types/rdfjs__environment@*", "@types/rdfjs__environment@^0.1":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@types/rdfjs__environment/-/rdfjs__environment-0.1.0.tgz#b89b8ce9c829f8c9b739ec7a60937dd651230474"
-  integrity sha512-a3oWa6TLy2axXAsw0nFk8ilDlpXvP7OZGnMRL1cnhz6RNLwzULgCEMdu8CShuRPb6rE08624QyDQ2PqFfnEjbw==
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@types/rdfjs__environment/-/rdfjs__environment-0.1.1.tgz#51ac797c822ad5fed618376784eefe20427040ad"
+  integrity sha512-bPdTziJ1oPOhcEzozZQvgWzfq/2HZP2x1D2pbUsq7q99aXrMQIy04T4V9qXVfV+GiKYDauFqWdpuKlpZYlwHJQ==
   dependencies:
     "@rdfjs/types" "*"
     "@types/rdfjs__namespace" "*"
+    "@types/rdfjs__sink-map" "*"
     "@types/rdfjs__term-map" "*"
     "@types/rdfjs__term-set" "*"
 
