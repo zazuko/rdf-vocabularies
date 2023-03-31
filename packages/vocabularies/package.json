@@ -34,6 +34,7 @@
     "@vocabulary/csvw": "^1.0.0-rc.0",
     "@vocabulary/ctag": "^1.0.0-rc.0",
     "@vocabulary/dash": "^1.0.0-rc.0",
+    "@vocabulary/dash-sparql": "^0.0.0",
     "@vocabulary/dbo": "^1.0.0-rc.0",
     "@vocabulary/dc11": "^1.0.0-rc.0",
     "@vocabulary/dcam": "^1.0.0-rc.0",
