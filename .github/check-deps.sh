@@ -5,10 +5,8 @@ VOCABS=$(jq '.name' ontologies/*/package.json)
 for vocab in $VOCABS
 do
   HAS_DEPENDENCY=$(grep "$vocab" packages/vocabularies/package.json)
-  if [ "$HAS_DEPENDENCY" ]
+  if [ ! "$HAS_DEPENDENCY" ]
   then
-    echo "✔ ${vocab}"
-  else
     MISSING=true
     echo "𝙭 ${vocab}"
   fi
