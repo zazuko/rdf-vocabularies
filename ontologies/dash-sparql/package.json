@@ -6,6 +6,7 @@
     "fetch": "vocab-build datasets",
     "generate-module": "vocab-build module"
   },
+  "homepage": "https://prefix.zazuko.com/prefix/dash-sparql:",
   "devDependencies": {
     "@vocabulary/builder": "^1.0.0-rc.0"
   },
