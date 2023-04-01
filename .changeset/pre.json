@@ -92,13 +92,16 @@
     "@vocabulary/xsd": "0.0.0",
     "@vocabulary/builder": "0.0.0",
     "@zazuko/prefixes": "0.0.0",
-    "@zazuko/vocabularies": "0.0.0"
+    "@zazuko/vocabularies": "0.0.0",
+    "@vocabulary/dash-sparql": "0.0.0"
   },
   "changesets": [
     "bright-laws-crash",
     "dirty-deers-allow",
+    "famous-cows-tell",
     "happy-humans-greet",
     "little-timers-provide",
-    "nervous-berries-love"
+    "nervous-berries-love",
+    "silver-papayas-notice"
   ]
 }
