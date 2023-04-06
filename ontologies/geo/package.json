@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/geo",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0-rc.1",
   "type": "module",
   "scripts": {
     "fetch": "vocab-build datasets",
@@ -10,6 +10,7 @@
     "@vocabulary/builder": "^1.0.0-rc.0"
   },
   "license": "MIT",
+  "homepage": "https://prefix.zazuko.com/prefix/geo:",
   "vocabulary": {
     "prefix": "geo",
     "namespace": "http://www.opengis.net/ont/geosparql#",

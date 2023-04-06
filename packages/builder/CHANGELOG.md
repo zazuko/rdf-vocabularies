@@ -1,5 +1,12 @@
 # @vocabulary/builder
 
+## 1.0.0-rc.1
+
+### Patch Changes
+
+- 981376b: Updated rdf-ext types to 2.0
+- 9b241b4: Update RDF/JS serialiser
+
 ## 1.0.0-rc.0
 
 ### Major Changes

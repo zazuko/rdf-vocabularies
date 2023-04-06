@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/rss",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0-rc.1",
   "type": "module",
   "scripts": {
     "fetch": "vocab-build datasets",
@@ -9,6 +9,7 @@
   "devDependencies": {
     "@vocabulary/builder": "^1.0.0-rc.0"
   },
+  "homepage": "https://prefix.zazuko.com/prefix/rss:",
   "vocabulary": {
     "prefix": "rss",
     "namespace": "http://purl.org/rss/1.0/",
