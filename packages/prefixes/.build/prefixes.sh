@@ -3,7 +3,7 @@
 DIR_PATH=$(dirname $0)
 IFS=;
 
-PREFIX_MAP="$(jq -r '"  \(.vocabulary.prefix): '"'\(.vocabulary.namespace)'"',"' $DIR_PATH/../../../ontologies/*/package.json)"
+PREFIX_MAP="$(jq -r '"  '"'\(.vocabulary.prefix)'"': '"'\(.vocabulary.namespace)'"',"' $DIR_PATH/../../../ontologies/*/package.json)"
 
 echo "import prefixesOnly from './lib/prefixesOnly.js'
 

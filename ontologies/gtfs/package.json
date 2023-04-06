@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/gtfs",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0-rc.1",
   "type": "module",
   "scripts": {
     "fetch": "vocab-build datasets",
@@ -9,6 +9,7 @@
   "devDependencies": {
     "@vocabulary/builder": "^1.0.0-rc.0"
   },
+  "homepage": "https://prefix.zazuko.com/prefix/gtfs:",
   "vocabulary": {
     "prefix": "gtfs",
     "namespace": "http://vocab.gtfs.org/terms#",

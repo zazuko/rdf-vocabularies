@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/wgs",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0-rc.1",
   "type": "module",
   "scripts": {
     "fetch": "vocab-build datasets",
@@ -9,6 +9,7 @@
   "devDependencies": {
     "@vocabulary/builder": "^1.0.0-rc.0"
   },
+  "homepage": "https://prefix.zazuko.com/prefix/wgs:",
   "vocabulary": {
     "prefix": "wgs",
     "namespace": "http://www.w3.org/2003/01/geo/wgs84_pos#"

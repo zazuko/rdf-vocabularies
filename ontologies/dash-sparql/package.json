@@ -1,0 +1,24 @@
+{
+  "name": "@vocabulary/dash-sparql",
+  "version": "1.0.0-rc.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "homepage": "https://prefix.zazuko.com/prefix/dash-sparql:",
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.0-rc.0"
+  },
+  "vocabulary": {
+    "prefix": "dash-sparql",
+    "namespace": "http://datashapes.org/sparql#"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}
