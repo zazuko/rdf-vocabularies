@@ -1,0 +1,15 @@
+name: NodeJS with Grunt
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: remind-about-prefixes
+      uses: JoseThen/comment-pr@v1.1.1
+      with:
+        comment: "Did you remember to add changeset to `@zazuko/prefixes`?"
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
