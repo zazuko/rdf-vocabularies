@@ -1,5 +1,11 @@
 # @zazuko/prefixes
 
+## 1.0.0-rc.2
+
+### Patch Changes
+
+- 2b448af: Add new prefixes
+
 ## 1.0.0-rc.1
 
 ### Patch Changes
