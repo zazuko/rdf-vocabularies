@@ -4,30 +4,30 @@
 <http://datashapes.org/sparql#abs> <http://datashapes.org/sparql#symbol> "abs" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#abs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#abs> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the absolute value of arg. An error is raised if arg is not a numeric value." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#abs> <http://www.w3.org/ns/shacl#parameter> _:c14n10 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#abs> <http://www.w3.org/ns/shacl#parameter> _:c14n16 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#add> <http://datashapes.org/sparql#symbol> "+" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#add> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#add> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the arithmetic sum of its operands." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#add> <http://www.w3.org/ns/shacl#parameter> _:c14n20 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#add> <http://www.w3.org/ns/shacl#parameter> _:c14n54 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#add> <http://www.w3.org/ns/shacl#parameter> _:c14n57 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#add> <http://www.w3.org/ns/shacl#parameter> _:c14n6 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#and> <http://datashapes.org/sparql#symbol> "&&" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#and> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#and> <http://www.w3.org/2000/01/rdf-schema#comment> "Return the logical AND between two (boolean) operands." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#and> <http://www.w3.org/ns/shacl#parameter> _:c14n13 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#and> <http://www.w3.org/ns/shacl#parameter> _:c14n71 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#and> <http://www.w3.org/ns/shacl#parameter> _:c14n34 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#and> <http://www.w3.org/ns/shacl#parameter> _:c14n47 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#and> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#bnode> <http://datashapes.org/sparql#symbol> "BNODE" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#bnode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#bnode> <http://www.w3.org/2000/01/rdf-schema#comment> "Constructs a blank node that is distinct from all blank nodes in the dataset being queried and distinct from all blank nodes created by calls to this constructor for other query solutions. If the no argument form is used, every call results in a distinct blank node. If the form with a simple literal is used, every call results in distinct blank nodes for different simple literals, and the same blank node for calls with the same simple literal within expressions for one solution mapping. This functionality is compatible with the treatment of blank nodes in SPARQL CONSTRUCT templates." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#bnode> <http://www.w3.org/ns/shacl#parameter> _:c14n17 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#bnode> <http://www.w3.org/ns/shacl#parameter> _:c14n7 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#bound> <http://datashapes.org/sparql#symbol> "bound" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#bound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#bound> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns true if ?arg1 is bound to a value. Returns false otherwise. Variables with the value NaN or INF are considered bound." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#bound> <http://www.w3.org/ns/shacl#parameter> _:c14n38 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#bound> <http://www.w3.org/ns/shacl#parameter> _:c14n58 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ceil> <http://datashapes.org/sparql#symbol> "ceil" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ceil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ceil> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the smallest (closest to negative infinity) number with no fractional part that is not less than the value of arg. An error is raised if ?arg1 is not a numeric value." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#ceil> <http://www.w3.org/ns/shacl#parameter> _:c14n12 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#ceil> <http://www.w3.org/ns/shacl#parameter> _:c14n51 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#coalesce> <http://datashapes.org/sparql#symbol> "COALESCE" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#coalesce> <http://datashapes.org/sparql#unlimitedParameters> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#coalesce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
@@ -39,156 +39,156 @@
 <http://datashapes.org/sparql#contains> <http://datashapes.org/sparql#symbol> "CONTAINS" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#contains> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns an xsd:boolean indicating whether or not the value of ?arg1 contains (at the beginning, at the end, or anywhere within) at least one sequence of collation units that provides a minimal match to the collation units in the value of ?arg2, according to the collation that is used." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#contains> <http://www.w3.org/ns/shacl#parameter> _:c14n44 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#contains> <http://www.w3.org/ns/shacl#parameter> _:c14n65 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#contains> <http://www.w3.org/ns/shacl#parameter> _:c14n60 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#contains> <http://www.w3.org/ns/shacl#parameter> _:c14n87 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#contains> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#datatype> <http://datashapes.org/sparql#symbol> "datatype" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#datatype> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the datatype IRI of argument ?arg1; returns xsd:string if the parameter is a simple literal." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#datatype> <http://www.w3.org/ns/shacl#parameter> _:c14n48 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#datatype> <http://www.w3.org/ns/shacl#parameter> _:c14n80 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#day> <http://datashapes.org/sparql#symbol> "day" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#day> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#day> <http://www.w3.org/2000/01/rdf-schema#comment> "Extracts the day from a date/time literal." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#day> <http://www.w3.org/ns/shacl#parameter> _:c14n16 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#day> <http://www.w3.org/ns/shacl#parameter> _:c14n66 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#day> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#integer> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#divide> <http://datashapes.org/sparql#symbol> "/" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#divide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#divide> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the arithmetic quotient of its operands." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#divide> <http://www.w3.org/ns/shacl#parameter> _:c14n34 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#divide> <http://www.w3.org/ns/shacl#parameter> _:c14n45 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#divide> <http://www.w3.org/ns/shacl#parameter> _:c14n37 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#divide> <http://www.w3.org/ns/shacl#parameter> _:c14n39 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#encode_for_uri> <http://datashapes.org/sparql#symbol> "ENCODE_FOR_URI" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#encode_for_uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#encode_for_uri> <http://www.w3.org/ns/shacl#parameter> _:c14n39 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#encode_for_uri> <http://www.w3.org/ns/shacl#parameter> _:c14n50 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#encode_for_uri> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#eq> <http://datashapes.org/sparql#symbol> "=" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#eq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#eq> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns true if both arguments are equal." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#eq> <http://www.w3.org/ns/shacl#parameter> _:c14n52 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#eq> <http://www.w3.org/ns/shacl#parameter> _:c14n73 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#eq> <http://www.w3.org/ns/shacl#parameter> _:c14n29 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#eq> <http://www.w3.org/ns/shacl#parameter> _:c14n71 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#eq> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#floor> <http://datashapes.org/sparql#symbol> "floor" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#floor> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the largest (closest to positive infinity) number with no fractional part that is not greater than the value of ?arg1. An error is raised if ?arg1 is not a numeric value." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#floor> <http://www.w3.org/ns/shacl#parameter> _:c14n85 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#floor> <http://www.w3.org/ns/shacl#parameter> _:c14n26 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ge> <http://datashapes.org/sparql#symbol> ">=" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ge> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns true if ?arg1 >= ?arg2." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#ge> <http://www.w3.org/ns/shacl#parameter> _:c14n50 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#ge> <http://www.w3.org/ns/shacl#parameter> _:c14n77 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#ge> <http://www.w3.org/ns/shacl#parameter> _:c14n44 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#ge> <http://www.w3.org/ns/shacl#parameter> _:c14n9 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ge> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#gt> <http://datashapes.org/sparql#symbol> ">" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#gt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#gt> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns true if ?arg1 > arg2." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#gt> <http://www.w3.org/ns/shacl#parameter> _:c14n23 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#gt> <http://www.w3.org/ns/shacl#parameter> _:c14n63 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#gt> <http://www.w3.org/ns/shacl#parameter> _:c14n4 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#gt> <http://www.w3.org/ns/shacl#parameter> _:c14n78 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#gt> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#hours> <http://datashapes.org/sparql#symbol> "hours" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#hours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#hours> <http://www.w3.org/2000/01/rdf-schema#comment> "Extracts the hours from a date/time literal." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#hours> <http://www.w3.org/ns/shacl#parameter> _:c14n87 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#hours> <http://www.w3.org/ns/shacl#parameter> _:c14n85 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#hours> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#integer> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#if> <http://datashapes.org/sparql#symbol> "IF" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#if> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#if> <http://www.w3.org/2000/01/rdf-schema#comment> "The SPARQL 1.1 built-in function IF." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#if> <http://www.w3.org/ns/shacl#parameter> _:c14n0 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#if> <http://www.w3.org/ns/shacl#parameter> _:c14n74 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#if> <http://www.w3.org/ns/shacl#parameter> _:c14n79 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#if> <http://www.w3.org/ns/shacl#parameter> _:c14n63 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#if> <http://www.w3.org/ns/shacl#parameter> _:c14n69 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#if> <http://www.w3.org/ns/shacl#parameter> _:c14n82 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#in> <http://datashapes.org/sparql#symbol> "IN" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#in> <http://datashapes.org/sparql#unlimitedParameters> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#in> <http://www.w3.org/2000/01/rdf-schema#comment> "Checks whether the value on the left (?arg1) is one of the values on the right (?arg2, ?arg3 ...)." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#in> <http://www.w3.org/ns/shacl#parameter> _:c14n8 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#in> <http://www.w3.org/ns/shacl#parameter> _:c14n56 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#iri> <http://datashapes.org/sparql#symbol> "IRI" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#iri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#iri> <http://www.w3.org/2000/01/rdf-schema#comment> "Creates a IRI resource (node) from a given IRI string (?arg1)." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#iri> <http://www.w3.org/ns/shacl#parameter> _:c14n59 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#iri> <http://www.w3.org/ns/shacl#parameter> _:c14n48 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isBlank> <http://datashapes.org/sparql#symbol> "isBlank" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isBlank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isBlank> <http://www.w3.org/2000/01/rdf-schema#comment> "Checks whether a given node is a blank node." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#isBlank> <http://www.w3.org/ns/shacl#parameter> _:c14n88 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#isBlank> <http://www.w3.org/ns/shacl#parameter> _:c14n70 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isBlank> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isIRI> <http://datashapes.org/sparql#symbol> "isIRI" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isIRI> <http://www.w3.org/2000/01/rdf-schema#comment> "Checks whether a given node is a IRI node." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#isIRI> <http://www.w3.org/ns/shacl#parameter> _:c14n19 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#isIRI> <http://www.w3.org/ns/shacl#parameter> _:c14n54 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isIRI> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isLiteral> <http://datashapes.org/sparql#symbol> "isLiteral" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isLiteral> <http://www.w3.org/2000/01/rdf-schema#comment> "Checks whether a given node is a literal." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#isLiteral> <http://www.w3.org/ns/shacl#parameter> _:c14n36 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#isLiteral> <http://www.w3.org/ns/shacl#parameter> _:c14n68 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isLiteral> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isNumeric> <http://datashapes.org/sparql#symbol> "isNumeric" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isNumeric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isNumeric> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns true if arg1 is a numeric value. Returns false otherwise. term is numeric if it has an appropriate datatype (see the section Operand Data Types) and has a valid lexical form, making it a valid argument to functions and operators taking numeric arguments." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#isNumeric> <http://www.w3.org/ns/shacl#parameter> _:c14n86 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#isNumeric> <http://www.w3.org/ns/shacl#parameter> _:c14n23 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isURI> <http://datashapes.org/sparql#symbol> "isURI" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isURI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isURI> <http://www.w3.org/2000/01/rdf-schema#comment> "Checks whether a node is a URI." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#isURI> <http://www.w3.org/ns/shacl#parameter> _:c14n49 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#isURI> <http://www.w3.org/ns/shacl#parameter> _:c14n32 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#isURI> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#lang> <http://datashapes.org/sparql#symbol> "lang" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#lang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#lang> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the language tag of ?arg1, if it has one. It returns \"\" if the literal has no language tag. Node that the RDF data model does not include literals with an empty language tag." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#lang> <http://www.w3.org/ns/shacl#parameter> _:c14n4 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#lang> <http://www.w3.org/ns/shacl#parameter> _:c14n19 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#lang> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#langMatches> <http://datashapes.org/sparql#symbol> "langMatches" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#langMatches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#langMatches> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns true if language-tag (first argument) matches language-range (second argument) per the basic filtering scheme defined in [RFC4647] section 3.3.1." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#langMatches> <http://www.w3.org/ns/shacl#parameter> _:c14n43 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#langMatches> <http://www.w3.org/ns/shacl#parameter> _:c14n55 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#langMatches> <http://www.w3.org/ns/shacl#parameter> _:c14n49 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#langMatches> <http://www.w3.org/ns/shacl#parameter> _:c14n64 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#langMatches> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#lcase> <http://datashapes.org/sparql#symbol> "LCASE" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#lcase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#lcase> <http://www.w3.org/2000/01/rdf-schema#comment> "Converts a string to lower case characters." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#lcase> <http://www.w3.org/ns/shacl#parameter> _:c14n57 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#lcase> <http://www.w3.org/ns/shacl#parameter> _:c14n46 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#le> <http://datashapes.org/sparql#symbol> "<=" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#le> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#le> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns true if ?arg1 <= ?arg2." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#le> <http://www.w3.org/ns/shacl#parameter> _:c14n25 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#le> <http://www.w3.org/ns/shacl#parameter> _:c14n9 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#le> <http://www.w3.org/ns/shacl#parameter> _:c14n3 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#le> <http://www.w3.org/ns/shacl#parameter> _:c14n62 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#le> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#lt> <http://datashapes.org/sparql#symbol> "<" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#lt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#lt> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns true if ?arg1 < ?arg2." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#lt> <http://www.w3.org/ns/shacl#parameter> _:c14n33 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#lt> <http://www.w3.org/ns/shacl#parameter> _:c14n89 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#lt> <http://www.w3.org/ns/shacl#parameter> _:c14n30 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#lt> <http://www.w3.org/ns/shacl#parameter> _:c14n81 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#lt> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#md5> <http://datashapes.org/sparql#symbol> "MD5" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#md5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#md5> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the MD5 checksum, as a hex digit string, calculated on the UTF-8 representation of the simple literal or lexical form of the xsd:string. Hex digits SHOULD be in lower case." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#md5> <http://www.w3.org/ns/shacl#parameter> _:c14n80 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#md5> <http://www.w3.org/ns/shacl#parameter> _:c14n74 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#md5> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#minutes> <http://datashapes.org/sparql#symbol> "minutes" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#minutes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#minutes> <http://www.w3.org/2000/01/rdf-schema#comment> "Extracts the minutes from a date/time literal." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#minutes> <http://www.w3.org/ns/shacl#parameter> _:c14n76 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#minutes> <http://www.w3.org/ns/shacl#parameter> _:c14n8 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#minutes> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#integer> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#month> <http://datashapes.org/sparql#symbol> "month" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#month> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#month> <http://www.w3.org/2000/01/rdf-schema#comment> "Extracts the month from a date/time literal." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#month> <http://www.w3.org/ns/shacl#parameter> _:c14n64 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#month> <http://www.w3.org/ns/shacl#parameter> _:c14n79 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#month> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#integer> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#multiply> <http://datashapes.org/sparql#symbol> "*" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#multiply> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#multiply> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the arithmetic product of its operands." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#multiply> <http://www.w3.org/ns/shacl#parameter> _:c14n14 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#multiply> <http://www.w3.org/ns/shacl#parameter> _:c14n53 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#multiply> <http://www.w3.org/ns/shacl#parameter> _:c14n5 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#multiply> <http://www.w3.org/ns/shacl#parameter> _:c14n76 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ne> <http://datashapes.org/sparql#symbol> "!=" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ne> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns true if ?arg1 != ?arg2." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#ne> <http://www.w3.org/ns/shacl#parameter> _:c14n26 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#ne> <http://www.w3.org/ns/shacl#parameter> _:c14n68 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#ne> <http://www.w3.org/ns/shacl#parameter> _:c14n65 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#ne> <http://www.w3.org/ns/shacl#parameter> _:c14n89 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ne> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#not> <http://datashapes.org/sparql#symbol> "!" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#not> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#not> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the boolean negation of the argument." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#not> <http://www.w3.org/ns/shacl#parameter> _:c14n21 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#not> <http://www.w3.org/ns/shacl#parameter> _:c14n24 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#not> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#notin> <http://datashapes.org/sparql#symbol> "NOT IN" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#notin> <http://datashapes.org/sparql#unlimitedParameters> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#notin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#notin> <http://www.w3.org/2000/01/rdf-schema#comment> "Checks whether the value on the left (?arg1) is none of the values on the right (?arg2, ?arg3 ...)." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#notin> <http://www.w3.org/ns/shacl#parameter> _:c14n62 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#notin> <http://www.w3.org/ns/shacl#parameter> _:c14n55 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#now> <http://datashapes.org/sparql#symbol> "now" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#now> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#now> <http://www.w3.org/2000/01/rdf-schema#comment> "Gets the current date and time as an xsd:dateTime literal." <http://datashapes.org/sparql#> .
@@ -196,8 +196,8 @@
 <http://datashapes.org/sparql#or> <http://datashapes.org/sparql#symbol> "||" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#or> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#or> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the logical OR between two (boolean) operands." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#or> <http://www.w3.org/ns/shacl#parameter> _:c14n42 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#or> <http://www.w3.org/ns/shacl#parameter> _:c14n5 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#or> <http://www.w3.org/ns/shacl#parameter> _:c14n43 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#or> <http://www.w3.org/ns/shacl#parameter> _:c14n84 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#or> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#rand> <http://datashapes.org/sparql#symbol> "RAND" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#rand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
@@ -206,94 +206,94 @@
 <http://datashapes.org/sparql#regex> <http://datashapes.org/sparql#symbol> "regex" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#regex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#regex> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns true if a string (?arg1) matches the regular expression supplied as a pattern (?arg2) as influenced by the value of flags (?arg3), otherwise returns false." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#regex> <http://www.w3.org/ns/shacl#parameter> _:c14n18 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#regex> <http://www.w3.org/ns/shacl#parameter> _:c14n33 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#regex> <http://www.w3.org/ns/shacl#parameter> _:c14n75 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#regex> <http://www.w3.org/ns/shacl#parameter> _:c14n78 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#regex> <http://www.w3.org/ns/shacl#parameter> _:c14n88 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#regex> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#replace> <http://datashapes.org/sparql#symbol> "REPLACE" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#replace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#replace> <http://www.w3.org/2000/01/rdf-schema#comment> "Replaces each non-overlapping occurrence of a regular expression pattern with a replacement string. Regular expession matching may involve modifier flags." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#replace> <http://www.w3.org/ns/shacl#parameter> _:c14n32 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#replace> <http://www.w3.org/ns/shacl#parameter> _:c14n60 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#replace> <http://www.w3.org/ns/shacl#parameter> _:c14n81 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#replace> <http://www.w3.org/ns/shacl#parameter> _:c14n84 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#replace> <http://www.w3.org/ns/shacl#parameter> _:c14n12 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#replace> <http://www.w3.org/ns/shacl#parameter> _:c14n13 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#replace> <http://www.w3.org/ns/shacl#parameter> _:c14n28 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#replace> <http://www.w3.org/ns/shacl#parameter> _:c14n86 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#round> <http://datashapes.org/sparql#symbol> "round" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#round> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#round> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the number with no fractional part that is closest to the argument. If there are two such numbers, then the one that is closest to positive infinity is returned. An error is raised if ?arg1 is not a numeric value." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#round> <http://www.w3.org/ns/shacl#parameter> _:c14n90 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#round> <http://www.w3.org/ns/shacl#parameter> _:c14n31 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sameTerm> <http://datashapes.org/sparql#symbol> "sameTerm" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sameTerm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sameTerm> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns TRUE if ?arg1 and ?arg2 are the same RDF term as defined in Resource Description Framework (RDF): Concepts and Abstract Syntax; returns FALSE otherwise." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#sameTerm> <http://www.w3.org/ns/shacl#parameter> _:c14n24 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#sameTerm> <http://www.w3.org/ns/shacl#parameter> _:c14n91 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#sameTerm> <http://www.w3.org/ns/shacl#parameter> _:c14n20 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#sameTerm> <http://www.w3.org/ns/shacl#parameter> _:c14n90 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sameTerm> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#seconds> <http://datashapes.org/sparql#symbol> "seconds" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#seconds> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#seconds> <http://www.w3.org/2000/01/rdf-schema#comment> "Extracts the seconds from a date/time literal." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#seconds> <http://www.w3.org/ns/shacl#parameter> _:c14n31 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#seconds> <http://www.w3.org/ns/shacl#parameter> _:c14n36 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#seconds> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#integer> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha1> <http://datashapes.org/sparql#symbol> "SHA1" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha1> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the SHA1 checksum, as a hex digit string, calculated on the UTF-8 representation of the simple literal or lexical form of the xsd:string. Hex digits SHOULD be in lower case." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#sha1> <http://www.w3.org/ns/shacl#parameter> _:c14n15 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#sha1> <http://www.w3.org/ns/shacl#parameter> _:c14n61 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha1> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha256> <http://datashapes.org/sparql#symbol> "SHA256" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha256> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha256> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the SHA256 checksum, as a hex digit string, calculated on the UTF-8 representation of the simple literal or lexical form of the xsd:string. Hex digits SHOULD be in lower case." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#sha256> <http://www.w3.org/ns/shacl#parameter> _:c14n35 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#sha256> <http://www.w3.org/ns/shacl#parameter> _:c14n59 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha256> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha384> <http://datashapes.org/sparql#symbol> "SHA384" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha384> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha384> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the SHA384 checksum, as a hex digit string, calculated on the UTF-8 representation of the simple literal or lexical form of the xsd:string. Hex digits SHOULD be in lower case." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#sha384> <http://www.w3.org/ns/shacl#parameter> _:c14n3 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#sha384> <http://www.w3.org/ns/shacl#parameter> _:c14n11 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha384> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha512> <http://datashapes.org/sparql#symbol> "SHA512" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha512> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha512> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the SHA512 checksum, as a hex digit string, calculated on the UTF-8 representation of the simple literal or lexical form of the xsd:string. Hex digits SHOULD be in lower case." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#sha512> <http://www.w3.org/ns/shacl#parameter> _:c14n22 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#sha512> <http://www.w3.org/ns/shacl#parameter> _:c14n38 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#sha512> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#str> <http://datashapes.org/sparql#symbol> "str" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#str> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#str> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the lexical form of ?arg1 (a literal); returns the codepoint representation of ?arg1 (an IRI). This is useful for examining parts of an IRI, for instance, the host-name." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#str> <http://www.w3.org/ns/shacl#parameter> _:c14n41 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#str> <http://www.w3.org/ns/shacl#parameter> _:c14n45 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#str> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strafter> <http://datashapes.org/sparql#symbol> "STRAFTER" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strafter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strafter> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns a literal of the same kind (simple literal, plain literal same language tag, xsd:string) as the first argument arg1. The lexical form of the result is the substring of the value of arg1 that proceeds in arg1 the first occurrence of the lexical form of arg2; otherwise the lexical form of the result is the empty string. If the lexical form of arg2 is the empty string, the lexical form of the result is the emprty string." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strafter> <http://www.w3.org/ns/shacl#parameter> _:c14n37 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strafter> <http://www.w3.org/ns/shacl#parameter> _:c14n7 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strafter> <http://www.w3.org/ns/shacl#parameter> _:c14n15 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strafter> <http://www.w3.org/ns/shacl#parameter> _:c14n67 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strbefore> <http://datashapes.org/sparql#symbol> "STRBEFORE" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strbefore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strbefore> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns a literal of the same kind (simple literal, plain literal same language tag, xsd:string) as the first argument arg1. The lexical form of the result is the substring of the value of arg1 that precedes in arg1 the first occurrence of the lexical form of arg2; otherwise the lexical form of the result is the empty string. If the lexical form of arg2 is the empty string, the lexical form of the result is the emprty string." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strbefore> <http://www.w3.org/ns/shacl#parameter> _:c14n47 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strbefore> <http://www.w3.org/ns/shacl#parameter> _:c14n61 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strbefore> <http://www.w3.org/ns/shacl#parameter> _:c14n17 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strbefore> <http://www.w3.org/ns/shacl#parameter> _:c14n35 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strdt> <http://datashapes.org/sparql#symbol> "STRDT" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strdt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strdt> <http://www.w3.org/2000/01/rdf-schema#comment> "Constructs a literal with lexical form and type as specified by the arguments." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strdt> <http://www.w3.org/ns/shacl#parameter> _:c14n70 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strdt> <http://www.w3.org/ns/shacl#parameter> _:c14n72 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strdt> <http://www.w3.org/ns/shacl#parameter> _:c14n14 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strdt> <http://www.w3.org/ns/shacl#parameter> _:c14n27 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strends> <http://datashapes.org/sparql#symbol> "STRENDS" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strends> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strends> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns true if the lexical form of ?arg1 ends with the lexical form of ?arg2, otherwise it returns false." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strends> <http://www.w3.org/ns/shacl#parameter> _:c14n1 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strends> <http://www.w3.org/ns/shacl#parameter> _:c14n83 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strends> <http://www.w3.org/ns/shacl#parameter> _:c14n73 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strends> <http://www.w3.org/ns/shacl#parameter> _:c14n77 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strends> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strlang> <http://datashapes.org/sparql#symbol> "STRLANG" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strlang> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strlang> <http://www.w3.org/2000/01/rdf-schema#comment> "Takes a string (?arg1) and a language (?arg2) and constructs a literal with a corresponding language tag." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strlang> <http://www.w3.org/ns/shacl#parameter> _:c14n30 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strlang> <http://www.w3.org/ns/shacl#parameter> _:c14n66 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strlang> <http://www.w3.org/ns/shacl#parameter> _:c14n21 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strlang> <http://www.w3.org/ns/shacl#parameter> _:c14n53 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strlang> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strlen> <http://datashapes.org/sparql#symbol> "STRLEN" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strlen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strlen> <http://www.w3.org/2000/01/rdf-schema#comment> "Computes the length of a given input string." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strlen> <http://www.w3.org/ns/shacl#parameter> _:c14n27 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strlen> <http://www.w3.org/ns/shacl#parameter> _:c14n25 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strlen> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#integer> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strstarts> <http://datashapes.org/sparql#symbol> "STRSTARTS" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strstarts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strstarts> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns true if the lexical form of ?arg1 begins with the lexical form of ?arg2, otherwise it returns false." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strstarts> <http://www.w3.org/ns/shacl#parameter> _:c14n28 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#strstarts> <http://www.w3.org/ns/shacl#parameter> _:c14n6 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strstarts> <http://www.w3.org/ns/shacl#parameter> _:c14n0 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#strstarts> <http://www.w3.org/ns/shacl#parameter> _:c14n2 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#strstarts> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#struuid> <http://datashapes.org/sparql#symbol> "STRUUID" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#struuid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
@@ -302,14 +302,14 @@
 <http://datashapes.org/sparql#substr> <http://datashapes.org/sparql#symbol> "SUBSTR" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#substr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#substr> <http://www.w3.org/2000/01/rdf-schema#comment> "Gets the sub-string of a given string. The index of the first character is 1." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#substr> <http://www.w3.org/ns/shacl#parameter> _:c14n51 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#substr> <http://www.w3.org/ns/shacl#parameter> _:c14n58 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#substr> <http://www.w3.org/ns/shacl#parameter> _:c14n69 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#substr> <http://www.w3.org/ns/shacl#parameter> _:c14n42 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#substr> <http://www.w3.org/ns/shacl#parameter> _:c14n52 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#substr> <http://www.w3.org/ns/shacl#parameter> _:c14n91 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#subtract> <http://datashapes.org/sparql#symbol> "-" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#subtract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#subtract> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the arithmetic difference of its operands." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#subtract> <http://www.w3.org/ns/shacl#parameter> _:c14n56 <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#subtract> <http://www.w3.org/ns/shacl#parameter> _:c14n82 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#subtract> <http://www.w3.org/ns/shacl#parameter> _:c14n1 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#subtract> <http://www.w3.org/ns/shacl#parameter> _:c14n72 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#symbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#symbol> <http://www.w3.org/2000/01/rdf-schema#comment> "The SPARQL symbol, such as \"/\" for sparql:divide." <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#symbol> <http://www.w3.org/2000/01/rdf-schema#label> "symbol" <http://datashapes.org/sparql#> .
@@ -317,18 +317,18 @@
 <http://datashapes.org/sparql#timezone> <http://datashapes.org/sparql#symbol> "TIMEZONE" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#timezone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#timezone> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the timezone part of ?arg1 as an xsd:dayTimeDuration. Raises an error if there is no timezone." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#timezone> <http://www.w3.org/ns/shacl#parameter> _:c14n2 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#timezone> <http://www.w3.org/ns/shacl#parameter> _:c14n22 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#tz> <http://datashapes.org/sparql#symbol> "TZ" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#tz> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#tz> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the timezone part of ?arg1 as a simple literal. Returns the empty string if there is no timezone." <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ucase> <http://datashapes.org/sparql#symbol> "UCASE" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ucase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#ucase> <http://www.w3.org/2000/01/rdf-schema#comment> "Converts a string to upper case characters." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#ucase> <http://www.w3.org/ns/shacl#parameter> _:c14n67 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#ucase> <http://www.w3.org/ns/shacl#parameter> _:c14n83 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#unaryminus> <http://datashapes.org/sparql#symbol> "-" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#unaryminus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#unaryminus> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the operand ?arg1 with the sign reversed. If ?arg1 is positive, its negative is returned; if it is negative, its positive is returned." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#unaryminus> <http://www.w3.org/ns/shacl#parameter> _:c14n29 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#unaryminus> <http://www.w3.org/ns/shacl#parameter> _:c14n41 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#unaryplus> <http://datashapes.org/sparql#symbol> "+" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#unaryplus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#unaryplus> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns the operand ?arg1 with the sign unchanged." <http://datashapes.org/sparql#> .
@@ -339,311 +339,406 @@
 <http://datashapes.org/sparql#uri> <http://datashapes.org/sparql#symbol> "URI" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#uri> <http://www.w3.org/2000/01/rdf-schema#comment> "Equivalent to IRI." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#uri> <http://www.w3.org/ns/shacl#parameter> _:c14n11 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#uri> <http://www.w3.org/ns/shacl#parameter> _:c14n10 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#uuid> <http://datashapes.org/sparql#symbol> "UUID" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#uuid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#uuid> <http://www.w3.org/2000/01/rdf-schema#comment> "Returns a fresh IRI from the UUID URN scheme. Each call of UUID() returns a different UUID. It must not be the \"nil\" UUID (all zeroes). The variant and version of the UUID is implementation dependent." <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#year> <http://datashapes.org/sparql#symbol> "year" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Function> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#year> <http://www.w3.org/2000/01/rdf-schema#comment> "Extracts the year from a date/time literal." <http://datashapes.org/sparql#> .
-<http://datashapes.org/sparql#year> <http://www.w3.org/ns/shacl#parameter> _:c14n46 <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql#year> <http://www.w3.org/ns/shacl#parameter> _:c14n18 <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql#year> <http://www.w3.org/ns/shacl#returnType> <http://www.w3.org/2001/XMLSchema#integer> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines SHACL functions (with URIs) representing the built-in SPARQL 1.1 functions and operators such as isIRI and / (divide). Each of these is represented by an instance of sh:Function with a URI such as sparql:divide. The declared parameters indicate the number of arguments but no other constraints have been added." <http://datashapes.org/sparql#> .
+<http://datashapes.org/sparql> <http://www.w3.org/2000/01/rdf-schema#label> "SPARQL Vocabulary for SHACL" <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/shacl#> <http://datashapes.org/sparql#> .
 <http://datashapes.org/sparql> <http://www.w3.org/ns/shacl#declare> <http://datashapes.org/sparql#PrefixDeclaration> <http://datashapes.org/sparql#> .
-_:c14n0 <http://www.w3.org/ns/shacl#description> "The function result if ?arg1 is true." <http://datashapes.org/sparql#> .
-_:c14n0 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n0 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n1 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n0 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
+_:c14n0 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n0 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n1 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
 _:c14n1 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n1 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n10 <http://www.w3.org/ns/shacl#description> "The input value." <http://datashapes.org/sparql#> .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n10 <http://www.w3.org/ns/shacl#description> "The IRI string to convert to a resource." <http://datashapes.org/sparql#> .
 _:c14n10 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n10 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n11 <http://www.w3.org/ns/shacl#description> "The IRI string to convert to a resource." <http://datashapes.org/sparql#> .
+_:c14n11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n11 <http://www.w3.org/ns/shacl#description> "The input literal." <http://datashapes.org/sparql#> .
 _:c14n11 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n11 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n12 <http://www.w3.org/ns/shacl#description> "The number to get the ceiling of." <http://datashapes.org/sparql#> .
+_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n12 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
 _:c14n12 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n12 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n13 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
-_:c14n13 <http://www.w3.org/ns/shacl#description> "the second operand of the intersection" <http://datashapes.org/sparql#> .
-_:c14n13 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n13 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n14 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
-_:c14n14 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n14 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n15 <http://www.w3.org/ns/shacl#description> "The input literal." <http://datashapes.org/sparql#> .
-_:c14n15 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n15 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n16 <http://www.w3.org/ns/shacl#description> "The date or dateTime argument." <http://datashapes.org/sparql#> .
+_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n13 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
+_:c14n13 <http://www.w3.org/ns/shacl#description> "The replacement string." <http://datashapes.org/sparql#> .
+_:c14n13 <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n13 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg3> <http://datashapes.org/sparql#> .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n14 <http://www.w3.org/ns/shacl#description> "The lexical form of the new literal." <http://datashapes.org/sparql#> .
+_:c14n14 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n14 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n15 <http://www.w3.org/ns/shacl#description> "The pattern to find within the input string." <http://datashapes.org/sparql#> .
+_:c14n15 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n15 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n16 <http://www.w3.org/ns/shacl#description> "The input value." <http://datashapes.org/sparql#> .
 _:c14n16 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n16 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n17 <http://www.w3.org/ns/shacl#description> "A literal input node." <http://datashapes.org/sparql#> .
-_:c14n17 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n17 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n18 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
-_:c14n18 <http://www.w3.org/ns/shacl#description> "the flags" <http://datashapes.org/sparql#> .
-_:c14n18 <http://www.w3.org/ns/shacl#optional> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
-_:c14n18 <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n18 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg3> <http://datashapes.org/sparql#> .
-_:c14n19 <http://www.w3.org/ns/shacl#description> "the node being tested" <http://datashapes.org/sparql#> .
+_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n17 <http://www.w3.org/ns/shacl#description> "The pattern to find within the input string." <http://datashapes.org/sparql#> .
+_:c14n17 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n17 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n18 <http://www.w3.org/ns/shacl#description> "The date or dateTime argument." <http://datashapes.org/sparql#> .
+_:c14n18 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n18 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n19 <http://www.w3.org/ns/shacl#description> "the literal to get the language of" <http://datashapes.org/sparql#> .
 _:c14n19 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n19 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n2 <http://www.w3.org/ns/shacl#description> "The input time." <http://datashapes.org/sparql#> .
-_:c14n2 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n2 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n20 <http://www.w3.org/ns/shacl#description> "the second number" <http://datashapes.org/sparql#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n2 <http://www.w3.org/ns/shacl#description> "The sub-string that the input string is supposed to begin with." <http://datashapes.org/sparql#> .
+_:c14n2 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n2 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n20 <http://www.w3.org/ns/shacl#description> "the second argument" <http://datashapes.org/sparql#> .
 _:c14n20 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n20 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n21 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
-_:c14n21 <http://www.w3.org/ns/shacl#description> "the operand to negate" <http://datashapes.org/sparql#> .
-_:c14n21 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n21 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n22 <http://www.w3.org/ns/shacl#description> "The input literal." <http://datashapes.org/sparql#> .
+_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n21 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
+_:c14n21 <http://www.w3.org/ns/shacl#description> "The language tag, e.g. \"en-AU\"." <http://datashapes.org/sparql#> .
+_:c14n21 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n21 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n22 <http://www.w3.org/ns/shacl#description> "The input time." <http://datashapes.org/sparql#> .
 _:c14n22 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n22 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n23 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
+_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n23 <http://www.w3.org/ns/shacl#description> "The node to check whether it's numeric.\n" <http://datashapes.org/sparql#> .
 _:c14n23 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n23 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n24 <http://www.w3.org/ns/shacl#description> "the first argument" <http://datashapes.org/sparql#> .
+_:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n24 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
+_:c14n24 <http://www.w3.org/ns/shacl#description> "the operand to negate" <http://datashapes.org/sparql#> .
 _:c14n24 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n24 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n25 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
+_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n25 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
 _:c14n25 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n25 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n26 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
-_:c14n26 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n26 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n27 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
-_:c14n27 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n27 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n28 <http://www.w3.org/ns/shacl#description> "The sub-string that the input string is supposed to begin with." <http://datashapes.org/sparql#> .
-_:c14n28 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n28 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n29 <http://www.w3.org/ns/shacl#description> "the operand" <http://datashapes.org/sparql#> .
-_:c14n29 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n29 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n3 <http://www.w3.org/ns/shacl#description> "The input literal." <http://datashapes.org/sparql#> .
-_:c14n3 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n3 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n30 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
-_:c14n30 <http://www.w3.org/ns/shacl#description> "The string value." <http://datashapes.org/sparql#> .
-_:c14n30 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n30 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n31 <http://www.w3.org/ns/shacl#description> "The dateTime or time argument." <http://datashapes.org/sparql#> .
+_:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n26 <http://www.w3.org/ns/shacl#description> "The value to get the floor of." <http://datashapes.org/sparql#> .
+_:c14n26 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n26 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n27 <http://www.w3.org/ns/shacl#description> "The datatype of the new literal." <http://datashapes.org/sparql#> .
+_:c14n27 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n27 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n28 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
+_:c14n28 <http://www.w3.org/ns/shacl#description> "Additional flags for the replacement." <http://datashapes.org/sparql#> .
+_:c14n28 <http://www.w3.org/ns/shacl#optional> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
+_:c14n28 <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n28 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg4> <http://datashapes.org/sparql#> .
+_:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n29 <http://www.w3.org/ns/shacl#description> "the second value to compare" <http://datashapes.org/sparql#> .
+_:c14n29 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n29 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n3 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
+_:c14n3 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n3 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n30 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
+_:c14n30 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n30 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n31 <http://www.w3.org/ns/shacl#description> "The number to round." <http://datashapes.org/sparql#> .
 _:c14n31 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n31 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n32 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
-_:c14n32 <http://www.w3.org/ns/shacl#description> "The replacement string." <http://datashapes.org/sparql#> .
-_:c14n32 <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n32 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg3> <http://datashapes.org/sparql#> .
-_:c14n33 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
+_:c14n32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n32 <http://www.w3.org/ns/shacl#description> "the node to check" <http://datashapes.org/sparql#> .
+_:c14n32 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n32 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n33 <http://www.w3.org/ns/shacl#description> "the input string" <http://datashapes.org/sparql#> .
 _:c14n33 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n33 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n34 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
-_:c14n34 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n34 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n35 <http://www.w3.org/ns/shacl#description> "The input literal." <http://datashapes.org/sparql#> .
+_:c14n34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n34 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
+_:c14n34 <http://www.w3.org/ns/shacl#description> "the first operand of the intersection" <http://datashapes.org/sparql#> .
+_:c14n34 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n34 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n35 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
 _:c14n35 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n35 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n36 <http://www.w3.org/ns/shacl#description> "the node being tested" <http://datashapes.org/sparql#> .
+_:c14n36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n36 <http://www.w3.org/ns/shacl#description> "The dateTime or time argument." <http://datashapes.org/sparql#> .
 _:c14n36 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n36 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n37 <http://www.w3.org/ns/shacl#description> "The pattern to find within the input string." <http://datashapes.org/sparql#> .
-_:c14n37 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n37 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n38 <http://www.w3.org/ns/shacl#description> "the variable or expression that is checked" <http://datashapes.org/sparql#> .
+_:c14n37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n37 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
+_:c14n37 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n37 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n38 <http://www.w3.org/ns/shacl#description> "The input literal." <http://datashapes.org/sparql#> .
 _:c14n38 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n38 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n39 <http://www.w3.org/ns/shacl#description> "The string to convert." <http://datashapes.org/sparql#> .
-_:c14n39 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n39 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n4 <http://www.w3.org/ns/shacl#description> "the literal to get the language of" <http://datashapes.org/sparql#> .
-_:c14n4 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n4 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n39 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
+_:c14n39 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n39 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n4 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
+_:c14n4 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n4 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
 _:c14n40 <http://www.w3.org/ns/shacl#description> "the operand" <http://datashapes.org/sparql#> .
 _:c14n40 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n40 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n41 <http://www.w3.org/ns/shacl#description> "the node to convert to string" <http://datashapes.org/sparql#> .
+_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n41 <http://www.w3.org/ns/shacl#description> "the operand" <http://datashapes.org/sparql#> .
 _:c14n41 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n41 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n42 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
-_:c14n42 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
+_:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n42 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
 _:c14n42 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n42 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n43 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
-_:c14n43 <http://www.w3.org/ns/shacl#description> "the first language tag" <http://datashapes.org/sparql#> .
-_:c14n43 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n43 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n44 <http://www.w3.org/ns/shacl#description> "The sub-string to search for in the input string." <http://datashapes.org/sparql#> .
+_:c14n43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n43 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
+_:c14n43 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
+_:c14n43 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n43 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n44 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
 _:c14n44 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n44 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n45 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
+_:c14n45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n45 <http://www.w3.org/ns/shacl#description> "the node to convert to string" <http://datashapes.org/sparql#> .
 _:c14n45 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n45 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n46 <http://www.w3.org/ns/shacl#description> "The date or dateTime argument." <http://datashapes.org/sparql#> .
+_:c14n46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n46 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
 _:c14n46 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n46 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n47 <http://www.w3.org/ns/shacl#description> "The pattern to find within the input string." <http://datashapes.org/sparql#> .
+_:c14n47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n47 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
+_:c14n47 <http://www.w3.org/ns/shacl#description> "the second operand of the intersection" <http://datashapes.org/sparql#> .
 _:c14n47 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n47 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n48 <http://www.w3.org/ns/shacl#description> "the literal to get the datatype of" <http://datashapes.org/sparql#> .
+_:c14n48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n48 <http://www.w3.org/ns/shacl#description> "The IRI string to convert to a resource." <http://datashapes.org/sparql#> .
 _:c14n48 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n48 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n49 <http://www.w3.org/ns/shacl#description> "the node to check" <http://datashapes.org/sparql#> .
-_:c14n49 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n49 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n5 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
-_:c14n5 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
-_:c14n5 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n5 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n50 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
-_:c14n50 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n50 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n51 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
+_:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n49 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
+_:c14n49 <http://www.w3.org/ns/shacl#description> "the second language tag" <http://datashapes.org/sparql#> .
+_:c14n49 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n49 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n5 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
+_:c14n5 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n5 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n50 <http://www.w3.org/ns/shacl#description> "The string to convert." <http://datashapes.org/sparql#> .
+_:c14n50 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n50 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n51 <http://www.w3.org/ns/shacl#description> "The number to get the ceiling of." <http://datashapes.org/sparql#> .
 _:c14n51 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n51 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n52 <http://www.w3.org/ns/shacl#description> "the second value to compare" <http://datashapes.org/sparql#> .
-_:c14n52 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n52 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n53 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
+_:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n52 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> <http://datashapes.org/sparql#> .
+_:c14n52 <http://www.w3.org/ns/shacl#description> "The end index." <http://datashapes.org/sparql#> .
+_:c14n52 <http://www.w3.org/ns/shacl#optional> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
+_:c14n52 <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n52 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg3> <http://datashapes.org/sparql#> .
+_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n53 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
+_:c14n53 <http://www.w3.org/ns/shacl#description> "The string value." <http://datashapes.org/sparql#> .
 _:c14n53 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n53 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n54 <http://www.w3.org/ns/shacl#description> "the first number" <http://datashapes.org/sparql#> .
+_:c14n54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n54 <http://www.w3.org/ns/shacl#description> "the node being tested" <http://datashapes.org/sparql#> .
 _:c14n54 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n54 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n55 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
-_:c14n55 <http://www.w3.org/ns/shacl#description> "the second language tag" <http://datashapes.org/sparql#> .
-_:c14n55 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n55 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n56 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
-_:c14n56 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n56 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n57 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
+_:c14n55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n55 <http://www.w3.org/ns/shacl#description> "The value to find." <http://datashapes.org/sparql#> .
+_:c14n55 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n55 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n56 <http://www.w3.org/ns/shacl#description> "The value to find." <http://datashapes.org/sparql#> .
+_:c14n56 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n56 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n57 <http://www.w3.org/ns/shacl#description> "the first number" <http://datashapes.org/sparql#> .
 _:c14n57 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n57 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n58 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> <http://datashapes.org/sparql#> .
-_:c14n58 <http://www.w3.org/ns/shacl#description> "The end index." <http://datashapes.org/sparql#> .
-_:c14n58 <http://www.w3.org/ns/shacl#optional> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
-_:c14n58 <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n58 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg3> <http://datashapes.org/sparql#> .
-_:c14n59 <http://www.w3.org/ns/shacl#description> "The IRI string to convert to a resource." <http://datashapes.org/sparql#> .
+_:c14n58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n58 <http://www.w3.org/ns/shacl#description> "the variable or expression that is checked" <http://datashapes.org/sparql#> .
+_:c14n58 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n58 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n59 <http://www.w3.org/ns/shacl#description> "The input literal." <http://datashapes.org/sparql#> .
 _:c14n59 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n59 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n6 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
-_:c14n6 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n6 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n6 <http://www.w3.org/ns/shacl#description> "the second number" <http://datashapes.org/sparql#> .
+_:c14n6 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n6 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
 _:c14n60 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
 _:c14n60 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n60 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n61 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
+_:c14n61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n61 <http://www.w3.org/ns/shacl#description> "The input literal." <http://datashapes.org/sparql#> .
 _:c14n61 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n61 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n62 <http://www.w3.org/ns/shacl#description> "The value to find." <http://datashapes.org/sparql#> .
+_:c14n62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n62 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
 _:c14n62 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n62 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n63 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
+_:c14n63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n63 <http://www.w3.org/ns/shacl#description> "The function result if ?arg1 is true." <http://datashapes.org/sparql#> .
 _:c14n63 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n63 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n64 <http://www.w3.org/ns/shacl#description> "The date or dateTime argument." <http://datashapes.org/sparql#> .
+_:c14n64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n64 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
+_:c14n64 <http://www.w3.org/ns/shacl#description> "the first language tag" <http://datashapes.org/sparql#> .
 _:c14n64 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n64 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n65 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
+_:c14n65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n65 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
 _:c14n65 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n65 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n66 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
-_:c14n66 <http://www.w3.org/ns/shacl#description> "The language tag, e.g. \"en-AU\"." <http://datashapes.org/sparql#> .
-_:c14n66 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n66 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n66 <http://www.w3.org/ns/shacl#description> "The date or dateTime argument." <http://datashapes.org/sparql#> .
+_:c14n66 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n66 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
 _:c14n67 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
 _:c14n67 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n67 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n68 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
+_:c14n68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n68 <http://www.w3.org/ns/shacl#description> "the node being tested" <http://datashapes.org/sparql#> .
 _:c14n68 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n68 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n69 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> <http://datashapes.org/sparql#> .
-_:c14n69 <http://www.w3.org/ns/shacl#description> "The start index." <http://datashapes.org/sparql#> .
-_:c14n69 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n69 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n7 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
+_:c14n69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n69 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
+_:c14n69 <http://www.w3.org/ns/shacl#description> "A condition to evaluate - if true then the ?arg2 will be returned, otherwise ?arg3." <http://datashapes.org/sparql#> .
+_:c14n69 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n69 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n7 <http://www.w3.org/ns/shacl#description> "A literal input node." <http://datashapes.org/sparql#> .
+_:c14n7 <http://www.w3.org/ns/shacl#optional> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
 _:c14n7 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n7 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n70 <http://www.w3.org/ns/shacl#description> "The datatype of the new literal." <http://datashapes.org/sparql#> .
-_:c14n70 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n70 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n71 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
-_:c14n71 <http://www.w3.org/ns/shacl#description> "the first operand of the intersection" <http://datashapes.org/sparql#> .
+_:c14n70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n70 <http://www.w3.org/ns/shacl#description> "the node being checked" <http://datashapes.org/sparql#> .
+_:c14n70 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n70 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n71 <http://www.w3.org/ns/shacl#description> "the first value to compare" <http://datashapes.org/sparql#> .
 _:c14n71 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n71 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n72 <http://www.w3.org/ns/shacl#description> "The lexical form of the new literal." <http://datashapes.org/sparql#> .
-_:c14n72 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n72 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n73 <http://www.w3.org/ns/shacl#description> "the first value to compare" <http://datashapes.org/sparql#> .
+_:c14n72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n72 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
+_:c14n72 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n72 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n73 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
 _:c14n73 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n73 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n74 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
-_:c14n74 <http://www.w3.org/ns/shacl#description> "A condition to evaluate - if true then the ?arg2 will be returned, otherwise ?arg3." <http://datashapes.org/sparql#> .
+_:c14n74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n74 <http://www.w3.org/ns/shacl#description> "The input literal." <http://datashapes.org/sparql#> .
 _:c14n74 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n74 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
 _:c14n75 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
-_:c14n75 <http://www.w3.org/ns/shacl#description> "the match pattern" <http://datashapes.org/sparql#> .
-_:c14n75 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n75 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n76 <http://www.w3.org/ns/shacl#description> "The dateTime or time argument." <http://datashapes.org/sparql#> .
-_:c14n76 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n76 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n77 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
-_:c14n77 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n77 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n78 <http://www.w3.org/ns/shacl#description> "the input string" <http://datashapes.org/sparql#> .
+_:c14n75 <http://www.w3.org/ns/shacl#description> "the flags" <http://datashapes.org/sparql#> .
+_:c14n75 <http://www.w3.org/ns/shacl#optional> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
+_:c14n75 <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n75 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg3> <http://datashapes.org/sparql#> .
+_:c14n76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n76 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
+_:c14n76 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n76 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n77 <http://www.w3.org/ns/shacl#description> "The sub-string that the input string is supposed to end with." <http://datashapes.org/sparql#> .
+_:c14n77 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n77 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n78 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
 _:c14n78 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n78 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n79 <http://www.w3.org/ns/shacl#description> "The function result if ?arg1 is false." <http://datashapes.org/sparql#> .
-_:c14n79 <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n79 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg3> <http://datashapes.org/sparql#> .
-_:c14n8 <http://www.w3.org/ns/shacl#description> "The value to find." <http://datashapes.org/sparql#> .
+_:c14n79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n79 <http://www.w3.org/ns/shacl#description> "The date or dateTime argument." <http://datashapes.org/sparql#> .
+_:c14n79 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n79 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n8 <http://www.w3.org/ns/shacl#description> "The dateTime or time argument." <http://datashapes.org/sparql#> .
 _:c14n8 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n8 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n80 <http://www.w3.org/ns/shacl#description> "The input literal." <http://datashapes.org/sparql#> .
+_:c14n80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n80 <http://www.w3.org/ns/shacl#description> "the literal to get the datatype of" <http://datashapes.org/sparql#> .
 _:c14n80 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n80 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n81 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
-_:c14n81 <http://www.w3.org/ns/shacl#description> "Additional flags for the replacement." <http://datashapes.org/sparql#> .
-_:c14n81 <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n81 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg4> <http://datashapes.org/sparql#> .
-_:c14n82 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
-_:c14n82 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n82 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n83 <http://www.w3.org/ns/shacl#description> "The sub-string that the input string is supposed to end with." <http://datashapes.org/sparql#> .
-_:c14n83 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n83 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n84 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
-_:c14n84 <http://www.w3.org/ns/shacl#description> "The pattern to replace." <http://datashapes.org/sparql#> .
-_:c14n84 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n84 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n85 <http://www.w3.org/ns/shacl#description> "The value to get the floor of." <http://datashapes.org/sparql#> .
+_:c14n81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n81 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
+_:c14n81 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n81 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n82 <http://www.w3.org/ns/shacl#description> "The function result if ?arg1 is false." <http://datashapes.org/sparql#> .
+_:c14n82 <http://www.w3.org/ns/shacl#order> "2"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n82 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg3> <http://datashapes.org/sparql#> .
+_:c14n83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n83 <http://www.w3.org/ns/shacl#description> "The input string." <http://datashapes.org/sparql#> .
+_:c14n83 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n83 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n84 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> <http://datashapes.org/sparql#> .
+_:c14n84 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
+_:c14n84 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n84 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n85 <http://www.w3.org/ns/shacl#description> "The dateTime or time argument." <http://datashapes.org/sparql#> .
 _:c14n85 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n85 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n86 <http://www.w3.org/ns/shacl#description> "The node to check whether it's numeric.\n" <http://datashapes.org/sparql#> .
-_:c14n86 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n86 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n87 <http://www.w3.org/ns/shacl#description> "The dateTime or time argument." <http://datashapes.org/sparql#> .
-_:c14n87 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n87 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n88 <http://www.w3.org/ns/shacl#description> "the node being checked" <http://datashapes.org/sparql#> .
-_:c14n88 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n88 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n86 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
+_:c14n86 <http://www.w3.org/ns/shacl#description> "The pattern to replace." <http://datashapes.org/sparql#> .
+_:c14n86 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n86 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n87 <http://www.w3.org/ns/shacl#description> "The sub-string to search for in the input string." <http://datashapes.org/sparql#> .
+_:c14n87 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n87 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n88 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#string> <http://datashapes.org/sparql#> .
+_:c14n88 <http://www.w3.org/ns/shacl#description> "the match pattern" <http://datashapes.org/sparql#> .
+_:c14n88 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n88 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
+_:c14n89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
 _:c14n89 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
 _:c14n89 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n89 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n9 <http://www.w3.org/ns/shacl#description> "the second operand" <http://datashapes.org/sparql#> .
-_:c14n9 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
-_:c14n9 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .
-_:c14n90 <http://www.w3.org/ns/shacl#description> "The number to round." <http://datashapes.org/sparql#> .
+_:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n9 <http://www.w3.org/ns/shacl#description> "the first operand" <http://datashapes.org/sparql#> .
+_:c14n9 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
+_:c14n9 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
+_:c14n90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n90 <http://www.w3.org/ns/shacl#description> "the first argument" <http://datashapes.org/sparql#> .
 _:c14n90 <http://www.w3.org/ns/shacl#order> "0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n90 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg1> <http://datashapes.org/sparql#> .
-_:c14n91 <http://www.w3.org/ns/shacl#description> "the second argument" <http://datashapes.org/sparql#> .
+_:c14n91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#Parameter> <http://datashapes.org/sparql#> .
+_:c14n91 <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#integer> <http://datashapes.org/sparql#> .
+_:c14n91 <http://www.w3.org/ns/shacl#description> "The start index." <http://datashapes.org/sparql#> .
 _:c14n91 <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://datashapes.org/sparql#> .
 _:c14n91 <http://www.w3.org/ns/shacl#path> <http://datashapes.org/sparql#arg2> <http://datashapes.org/sparql#> .

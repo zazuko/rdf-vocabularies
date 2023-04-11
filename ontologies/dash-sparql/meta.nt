@@ -1,5 +1,6 @@
 <https://prefix.zazuko.com/dash-sparql:> <http://dbpedia.org/ontology/filename> "@vocabulary/dash-sparql/dash-sparql.nq" .
 <https://prefix.zazuko.com/dash-sparql:> <http://purl.org/dc/terms/description> "Defines SHACL functions (with URIs) representing the built-in SPARQL 1.1 functions and operators such as isIRI and / (divide). Each of these is represented by an instance of sh:Function with a URI such as sparql:divide. The declared parameters indicate the number of arguments but no other constraints have been added." .
+<https://prefix.zazuko.com/dash-sparql:> <http://purl.org/dc/terms/title> "SPARQL Vocabulary for SHACL" .
 <https://prefix.zazuko.com/dash-sparql:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/dash-sparql:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://datashapes.org/sparql#> .
 <https://prefix.zazuko.com/dash-sparql:> <http://www.w3.org/ns/rdfa#prefix> "dash-sparql" .
