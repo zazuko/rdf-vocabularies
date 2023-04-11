@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/builder",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "bin": {
@@ -11,7 +11,7 @@
     "@rdfjs/formats-common": "^3.1.0",
     "@rdfjs/serializer-rdfjs": "^0.1.1",
     "@rdfjs/types": "^1.1.0",
-    "@zazuko/prefixes": "^1.0.0-rc.0",
+    "@zazuko/prefixes": "^1.0.0",
     "commander": "^10.0.0",
     "get-stream": "^6.0.1",
     "file-fetch": "^1.7.0",

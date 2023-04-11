@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/string",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "String Processing Ontology",
   "scripts": {
@@ -8,7 +8,7 @@
     "generate-module": "vocab-build module"
   },
   "devDependencies": {
-    "@vocabulary/builder": "^1.0.0-rc.0"
+    "@vocabulary/builder": "^1.0.0"
   },
   "license": "MIT",
   "homepage": "https://prefix.zazuko.com/prefix/string:",

@@ -1,5 +1,21 @@
 # @vocabulary/builder
 
+## 1.0.0
+
+### Major Changes
+
+- 4a451f1: Separated vocabulary packages (closes #118, closes #55, closes #97)
+
+### Patch Changes
+
+- 981376b: Updated rdf-ext types to 2.0
+- 9b241b4: Update RDF/JS serialiser
+- Updated dependencies [2b448af]
+- Updated dependencies [4a451f1]
+- Updated dependencies [bbd548e]
+- Updated dependencies [7545909]
+  - @zazuko/prefixes@1.0.0
+
 ## 1.0.0-rc.1
 
 ### Patch Changes

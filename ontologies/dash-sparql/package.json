@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/dash-sparql",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "SPARQL Vocabulary for SHACL",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "homepage": "https://prefix.zazuko.com/prefix/dash-sparql:",
   "devDependencies": {
-    "@vocabulary/builder": "^1.0.0-rc.0"
+    "@vocabulary/builder": "^1.0.0"
   },
   "vocabulary": {
     "prefix": "dash-sparql",
