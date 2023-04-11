@@ -1,12 +1,12 @@
 {
   "name": "@vocabulary/discipline",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "generate-module": "vocab-build module"
   },
   "devDependencies": {
-    "@vocabulary/builder": "^1.0.0-rc.0"
+    "@vocabulary/builder": "^1.0.0"
   },
   "homepage": "https://prefix.zazuko.com/prefix/discipline:",
   "vocabulary": {

@@ -1,5 +1,17 @@
 # @zazuko/prefixes
 
+## 1.0.0
+
+### Major Changes
+
+- 4a451f1: Separated vocabulary packages (closes #118, closes #55, closes #97)
+
+### Patch Changes
+
+- 2b448af: Add new prefixes
+- bbd548e: Added latest prefixes
+- 7545909: Added prefixes `dig`, `la`, `list`, `log`, `math`, `set` and `string`
+
 ## 1.0.0-rc.2
 
 ### Patch Changes
