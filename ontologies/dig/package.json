@@ -1,0 +1,26 @@
+{
+  "name": "@vocabulary/dig",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.0-rc.0"
+  },
+  "license": "MIT",
+  "homepage": "https://prefix.zazuko.com/prefix/dig:",
+  "vocabulary": {
+    "prefix": "dig",
+    "namespace": "http://www.ics.forth.gr/isl/CRMdig/",
+    "file": "https://www.cidoc-crm.org/crmdig/sites/default/files/CRMdig_v3.2.1.rdfs",
+    "mediaType": "application/rdf+xml"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}
