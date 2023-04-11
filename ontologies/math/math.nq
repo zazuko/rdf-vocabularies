@@ -1,0 +1,139 @@
+<http://www.w3.org/2000/10/swap/math#Function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#Function> <http://www.w3.org/2000/01/rdf-schema#comment> "A math:Function is unique in terms of math:EqualTo. " <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#Function> <http://www.w3.org/2000/01/rdf-schema#label> "Function" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#Function> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#List> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#List> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of things that are DAML lists were all of the \n      members are math:Value items." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#List> <http://www.w3.org/2000/01/rdf-schema#label> "List" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#List> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#LIst> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#LogicalOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#LogicalOperator> <http://www.w3.org/2000/01/rdf-schema#comment> "a logical operator allows evaluation eihter way, or testing relationship\n         between two values" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#LogicalOperator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/10/swap/math#Function> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#LogicalOperator> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/10/swap/math#ReverseFunction> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#ReverseFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#ReverseFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "A math:ReverseFunction is unambiguous in terms of math:EqualTo. " <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#ReverseFunction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#StrictProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#StrictProperty> <http://www.w3.org/2000/01/rdf-schema#label> "StrictProperty" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#StrictProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#TwoMemberedList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#TwoMemberedList> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the class of things that are math lists with only two members." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#TwoMemberedList> <http://www.w3.org/2000/01/rdf-schema#label> "TwoMemberedList" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#TwoMemberedList> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/10/swap/math#List> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of things that are numeric float values as in Python." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/01/rdf-schema#label> "Value" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/10/swap/string#String> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#absoluteValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#absoluteValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The object is calulated as the absolute value of the subject." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#absoluteValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#absoluteValue> <http://www.w3.org/2000/01/rdf-schema#label> "negation" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#absoluteValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#atan2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#atan2> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a pair of numbers. The object is calulated as the arc tangent value of the ratio of the two subject values." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#atan2> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#atan2> <http://www.w3.org/2000/01/rdf-schema#label> "atan2" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#atan2> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#cos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#cos> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is an angle expressed in radians. The object is calulated as the cosine value of the subject." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#cos> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#cos> <http://www.w3.org/2000/01/rdf-schema#label> "cos" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#cos> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#degrees> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#degrees> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is an angle expressed in radians. The object is calulated as the conversion in degrees of the value of the subject." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#degrees> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#degrees> <http://www.w3.org/2000/01/rdf-schema#label> "degrees" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#degrees> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#difference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#difference> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a pair of numbers. The object\nis calculated by subtracting the second number of the pair from the first.\n" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#difference> <http://www.w3.org/2000/01/rdf-schema#label> "difference" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#difference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#equalTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/10/swap/math#StrictProperty> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#equalTo> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the subject is a string representation of a number which  is EQUAL TO a number of which the object is a string representation." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#equalTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#equalTo> <http://www.w3.org/2000/01/rdf-schema#label> "equalTo" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#equalTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#exponentiation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#exponentiation> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a pair of numbers. The object\nis calculated by raising the first number of the power of the second.\n" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#exponentiation> <http://www.w3.org/2000/01/rdf-schema#label> "exponentiation" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#exponentiation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/10/swap/math#StrictProperty> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#greaterThan> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the subject is a string representation of a number which  is greater than the number of which the object is a string representation." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#greaterThan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#greaterThan> <http://www.w3.org/2000/01/rdf-schema#label> "greaterThan" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#greaterThan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#integerQuotient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#integerQuotient> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a pair of integer numbers. The object\nis calculated by dividing the first number of the pair by the second, ignoring remainder.\n" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#integerQuotient> <http://www.w3.org/2000/01/rdf-schema#label> "integerQuotient" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#integerQuotient> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/10/swap/math#StrictProperty> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#lessThan> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the subject is a string representation of a number which  is LESS than a number of which the object is a string representation." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#lessThan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#lessThan> <http://www.w3.org/2000/01/rdf-schema#label> "lessThan" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#lessThan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#memberCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/10/swap/math#Function> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#memberCount> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of items in a list. The subject is a list,\nthe object is calculated as the number of members." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#memberCount> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#List> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#memberCount> <http://www.w3.org/2000/01/rdf-schema#label> "memberCount" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#memberCount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#negation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#negation> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject or object is calculated to be the negation of the other." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#negation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#negation> <http://www.w3.org/2000/01/rdf-schema#label> "negation" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#negation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notEqualTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/10/swap/math#StrictProperty> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notEqualTo> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the subject is a string representation of a number which  is NOT EQUAL to a number of which the object is a string representation." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notEqualTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notEqualTo> <http://www.w3.org/2000/01/rdf-schema#label> "notEqualTo" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notEqualTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notGreaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/10/swap/math#StrictProperty> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notGreaterThan> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the subject is a string representation of a number which is NOT greater than the number of which the object is a string representation." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notGreaterThan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notGreaterThan> <http://www.w3.org/2000/01/rdf-schema#label> "notGreaterThan" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notGreaterThan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notLessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/10/swap/math#StrictProperty> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notLessThan> <http://www.w3.org/2000/01/rdf-schema#comment> "True iff the subject is a string representation of a number which  is NOT LESS than a number of which the object is a string representation." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notLessThan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notLessThan> <http://www.w3.org/2000/01/rdf-schema#label> "notlessThan" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#notLessThan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#product> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a list of numbers.\nThe object is calculated as the arithmentic product of those numbers.\n" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#product> <http://www.w3.org/2000/01/rdf-schema#label> "product" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#product> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#quotient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#quotient> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a pair of numbers. The object\nis calculated by dividing the first number of the pair by the second.\n" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#quotient> <http://www.w3.org/2000/01/rdf-schema#label> "quotient" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#quotient> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#remainder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#remainder> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a pair of integers. The object\nis calculated by dividing the first number of the pair by the second and taking the remainder.\n" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#remainder> <http://www.w3.org/2000/01/rdf-schema#label> "remainder" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#remainder> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#rounded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#rounded> <http://www.w3.org/2000/01/rdf-schema#comment> "The object is calulated as the subject rounded to the nearest integer." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#rounded> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#rounded> <http://www.w3.org/2000/01/rdf-schema#label> "rounded" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#rounded> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sin> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is an angle expressed in radians. The object is calulated as the sine value of the subject." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sin> <http://www.w3.org/2000/01/rdf-schema#label> "sin" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sinh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sinh> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is an angle expressed in radians. The object is calulated as the hyperbolic sine value of the subject." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sinh> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sinh> <http://www.w3.org/2000/01/rdf-schema#label> "sinh" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sinh> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sum> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is a list of numbers.\nThe object is calculated as the arithmentic sum of those numbers.\n" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sum> <http://www.w3.org/2000/01/rdf-schema#label> "sum" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#sum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#tan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#tan> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is an angle expressed in radians. The object is calulated as the tangent value of the subject." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#tan> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#tan> <http://www.w3.org/2000/01/rdf-schema#label> "tan" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#tan> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#tanh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#tanh> <http://www.w3.org/2000/01/rdf-schema#comment> "The subject is an angle expressed in radians. The object is calulated as the hyperbolic tangent value of the subject." <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#tanh> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#tanh> <http://www.w3.org/2000/01/rdf-schema#label> "tanh" <http://www.w3.org/2000/10/swap/math#> .
+<http://www.w3.org/2000/10/swap/math#tanh> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/math#Value> <http://www.w3.org/2000/10/swap/math#> .

@@ -1,0 +1,25 @@
+{
+  "name": "@vocabulary/set",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "http://www.w3.org/2000/10/swap/set#",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.0-rc.0"
+  },
+  "homepage": "https://prefix.zazuko.com/prefix/set:",
+  "license": "MIT",
+  "vocabulary": {
+    "prefix": "set",
+    "namespace": "http://www.w3.org/2000/10/swap/set#"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

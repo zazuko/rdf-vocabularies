@@ -1,0 +1,18 @@
+<http://www.w3.org/2000/10/swap/list#append> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#append> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#append> <http://www.w3.org/2000/01/rdf-schema#comment> "\nIff the subject is a list of lists and the concatenation of all those lists \nis the object, then this is true.\neg  ( (1 2) (3 4) ) list:append (1 2 3 4).\nThe object can be calculated as a function of the subject.\n" <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#append> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2000/10/swap/list> <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#append> <http://www.w3.org/2000/01/rdf-schema#label> "concatenation" <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#in> <http://www.w3.org/2000/01/rdf-schema#comment> "\nIff the object is a list and the subject is in that list, then this is true.\n" <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#in> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2000/10/swap/list> <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#in> <http://www.w3.org/2000/01/rdf-schema#label> "in" <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#last> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#last> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#last> <http://www.w3.org/2000/01/rdf-schema#comment> "\nIff the suject is a list and the obbject is the last thing that list, then this is true.\nThe object can be calculated as a function of the list.\n" <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#last> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2000/10/swap/list> <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#last> <http://www.w3.org/2000/01/rdf-schema#label> "in" <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#member> <http://www.w3.org/2000/01/rdf-schema#comment> "\nIff the subject is a list and the obbject is in that list, then this is true.\n" <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#member> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2000/10/swap/list> <http://www.w3.org/2000/10/swap/list#> .
+<http://www.w3.org/2000/10/swap/list#member> <http://www.w3.org/2000/01/rdf-schema#label> "member" <http://www.w3.org/2000/10/swap/list#> .

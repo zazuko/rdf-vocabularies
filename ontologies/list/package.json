@@ -1,0 +1,28 @@
+{
+  "name": "@vocabulary/list",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "http://www.w3.org/2000/10/swap/list#",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.0-rc.0"
+  },
+  "license": "MIT",
+  "homepage": "https://prefix.zazuko.com/prefix/list:",
+  "vocabulary": {
+    "prefix": "list",
+    "namespace": "http://www.w3.org/2000/10/swap/list#",
+    "xmlParserOptions": {
+      "baseIRI": "http://www.w3.org/2000/10/swap/list#"
+    }
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}
