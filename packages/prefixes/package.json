@@ -8,7 +8,8 @@
     "directory": "packages/prefixes"
   },
   "scripts": {
-    "update-prefixes": "./.build/prefixes.sh > prefixes.ts"
+    "update-prefixes": "./.build/prefixes.sh > prefixes.ts",
+    "prepack": "tsc"
   },
   "main": "index.js",
   "exports": {

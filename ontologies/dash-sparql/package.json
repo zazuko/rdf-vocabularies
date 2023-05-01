@@ -5,7 +5,9 @@
   "description": "SPARQL Vocabulary for SHACL",
   "scripts": {
     "fetch": "vocab-build datasets",
-    "generate-module": "vocab-build module"
+    "prebuild": "vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
   },
   "homepage": "https://prefix.zazuko.com/prefix/dash-sparql:",
   "devDependencies": {

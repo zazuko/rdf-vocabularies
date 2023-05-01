@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "bin": {
-    "vocab-build": "./index.ts"
+    "vocab-build": "./index.ts",
+    "prepack": "tsc"
   },
   "dependencies": {
     "@rdfjs/fetch-lite": "^3.2.1",

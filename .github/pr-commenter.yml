@@ -1,0 +1,12 @@
+comment:
+  on-update: nothing
+
+  footer: |
+    ---
+    Automated comment created by [PR Commenter](https://github.com/exercism/pr-commenter-action) :robot:.
+
+  snippets:
+    - id: vocab-changes
+      files:
+        - 'ontologies/**/*'
+      body: "Did you remember to add changeset to `@zazuko/prefixes`?"
