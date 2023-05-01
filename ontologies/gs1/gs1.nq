@@ -8,7 +8,7 @@
 <https://gs1.org/voc/> <http://purl.org/dc/elements/1.1/description:> "The GS1 RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language. The vocabulary builds on and refers to schema.org where appropriate."@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/> <http://purl.org/dc/elements/1.1/identifier:> "GS1 Vocabulary" <https://gs1.org/voc/> .
 <https://gs1.org/voc/> <http://purl.org/dc/elements/1.1/issued:> "2017-11-20"^^<http://www.w3.org/2001/XMLSchema#date> <https://gs1.org/voc/> .
-<https://gs1.org/voc/> <http://purl.org/dc/elements/1.1/lastModified> "2023-01-09"^^<http://www.w3.org/2001/XMLSchema#date> <https://gs1.org/voc/> .
+<https://gs1.org/voc/> <http://purl.org/dc/elements/1.1/lastModified> "2023-04-14"^^<http://www.w3.org/2001/XMLSchema#date> <https://gs1.org/voc/> .
 <https://gs1.org/voc/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "gs1" <https://gs1.org/voc/> .
 <https://gs1.org/voc/> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://gs1.org/voc/> <https://gs1.org/voc/> .
 <https://gs1.org/voc/> <http://purl.org/vocommons/voaf#extends> <http://schema.org/> <https://gs1.org/voc/> .
@@ -17,7 +17,7 @@
 <https://gs1.org/voc/> <http://schema.org/license> "data:text/html;charset=UTF-8,<p>GS1&reg;, under its IP Policy, seeks to avoid uncertainty regarding intellectual property claims by requiring the participants in the Work Groups that developed this vocabulary to agree to grant to GS1 members a royalty-free licence or a RAND licence to Necessary Claims, as that term is defined in the GS1 IP Policy. Furthermore, attention is drawn to the possibility that an implementation of one or more features of this vocabulary may be the subject of a patent or other intellectual property     right that does not involve a Necessary Claim. Any such patent or other intellectual property right is not subject to the licencing obligations of GS1. Moreover, the agreement to grant licences provided under the GS1 IP Policy does not include IP rights and any claims of third parties who were not participants in the Work Groups. Accordingly, GS1 recommends that any organisation developing an implementation designed to be in conformance with this vocabulary should determine whether there are any     patents that may encompass a specific implementation that the organisation is developing in compliance with the vocabulary and whether a licence under a patent or other intellectual property right is needed. Such a determination of a need for licencing should be made in view of the details of the specific system designed by the organisation in consultation with their own patent counsel. THIS DOCUMENT IS PROVIDED &quot;AS IS&quot; WITH NO WARRANTIES WHATSOEVER, INCLUDING ANY WARRANTY OF MERCHANTABILITY, NONINFRINGMENT, FITNESS FOR PARTICULAR PURPOSE, OR ANY WARRANTY OTHER WISE ARISING OUT OF THIS SPECIFICATION. GS1 disclaims all liability for any damages arising from use or misuse of this vocabulary, whether special, indirect, consequential, or compensatory damages, and including liability for infringement of any intellectual property     rights, relating to use of information in or reliance upon this document. GS1 retains the right to make changes to this vocabulary at any time, without notice. GS1 makes no warranty for the use of this vocabulary and assumes no responsibility for any errors which may appear in the vocabulary, nor does it make a commitment to update the     information contained herein. GS1 and the GS1 logo are registered trademarks of GS1 AISBL.</p><p>Copyright 2015-2019 GS1 AISBL</p><p>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at <a href=&quot;http://www.apache.org/licenses/LICENSE-2.0&quot; target=&quot;blank&quot;>http://www.apache.org/licenses/LICENSE-2.0</a>.<p><p>Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>" <https://gs1.org/voc/> .
 <https://gs1.org/voc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> <https://gs1.org/voc/> .
 <https://gs1.org/voc/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <https://gs1.org/voc/> .
-<https://gs1.org/voc/> <http://www.w3.org/2002/07/owl#versionInfo> "1.8" <https://gs1.org/voc/> .
+<https://gs1.org/voc/> <http://www.w3.org/2002/07/owl#versionInfo> "1.9" <https://gs1.org/voc/> .
 <https://gs1.org/voc/AI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <https://gs1.org/voc/> .
 <https://gs1.org/voc/AI> <http://www.w3.org/2000/01/rdf-schema#comment> "A Data Type that corresponds to GS1 Application Identifiers defined in the GS1 General Specifications"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/AI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
@@ -1573,6 +1573,30 @@
 <https://gs1.org/voc/FruitsVegetables> <http://www.w3.org/2000/01/rdf-schema#label> "Fruits and Vegetables"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/FruitsVegetables> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gs1.org/voc/FoodBeverageTobaccoProduct> <https://gs1.org/voc/> .
 <https://gs1.org/voc/FruitsVegetables> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-DIGITAL_LOCATION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/GLN_TypeCode> <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-DIGITAL_LOCATION> <http://www.w3.org/2000/01/rdf-schema#comment> "An electronic (non-physical) address that is used for communication between computer systems."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-DIGITAL_LOCATION> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Location"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-DIGITAL_LOCATION> <http://www.w3.org/2004/02/skos/core#prefLabel> "DIGITAL_LOCATION" <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-FIXED_PHYSICAL_LOCATION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/GLN_TypeCode> <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-FIXED_PHYSICAL_LOCATION> <http://www.w3.org/2000/01/rdf-schema#comment> "Fixed physical location - a tangible place that does not change locations and may be represented by an address, coordinates, or other means."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-FIXED_PHYSICAL_LOCATION> <http://www.w3.org/2000/01/rdf-schema#label> "Fixed Physical Location"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-FIXED_PHYSICAL_LOCATION> <http://www.w3.org/2004/02/skos/core#prefLabel> "FIXED_PHYSICAL_LOCATION" <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-FUNCTION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/GLN_TypeCode> <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-FUNCTION> <http://www.w3.org/2000/01/rdf-schema#comment> "An organisational subdivision or department."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-FUNCTION> <http://www.w3.org/2000/01/rdf-schema#label> "Function"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-FUNCTION> <http://www.w3.org/2004/02/skos/core#prefLabel> "FUNCTION" <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-LEGAL_ENTITY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/GLN_TypeCode> <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-LEGAL_ENTITY> <http://www.w3.org/2000/01/rdf-schema#comment> "Any business, government body, department, charity, individual, or institution that has standing in the eyes of the law and has the capacity to enter into agreements or contracts."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-LEGAL_ENTITY> <http://www.w3.org/2000/01/rdf-schema#label> "Legal Entity"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-LEGAL_ENTITY> <http://www.w3.org/2004/02/skos/core#prefLabel> "LEGAL_ENTITY" <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-MOBILE_PHYSICAL_LOCATION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/GLN_TypeCode> <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-MOBILE_PHYSICAL_LOCATION> <http://www.w3.org/2000/01/rdf-schema#comment> "Mobile physical location â€“ a tangible place that is expected to change locations and may be represented by an address, coordinates, or other means."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-MOBILE_PHYSICAL_LOCATION> <http://www.w3.org/2000/01/rdf-schema#label> "Mobile Physical Location"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode-MOBILE_PHYSICAL_LOCATION> <http://www.w3.org/2004/02/skos/core#prefLabel> "MOBILE_PHYSICAL_LOCATION" <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode> <http://www.w3.org/2000/01/rdf-schema#comment> "GLN Type Code indicates what type of thing is being identified by a GLN. gs1:GLN_TypeCode value selections SHALL NOT contain both gs1:GLN_TypeCode-FIXED_PHYSICAL_LOCATION and gs1:GLN_TypeCode-MOBILE_PHYSICAL_LOCATION."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode> <http://www.w3.org/2000/01/rdf-schema#label> "GLN Type Code"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/GLN_TypeCode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gs1.org/voc/TypeCode> <https://gs1.org/voc/> .
 <https://gs1.org/voc/GeoCoordinates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://gs1.org/voc/> .
 <https://gs1.org/voc/GeoCoordinates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://gs1.org/voc/> .
 <https://gs1.org/voc/GeoCoordinates> <http://www.w3.org/2000/01/rdf-schema#comment> "The geographic coordinates of a place or event."@en <https://gs1.org/voc/> .
@@ -1695,6 +1719,139 @@
 <https://gs1.org/voc/LinearMomentum> <http://www.w3.org/2000/01/rdf-schema#comment> "The impulse is the integral over time of the force acting between two colliding bodies. Linear momentum of a body is the product of its mass and its velocity.  SI Units: newton seconds"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/LinearMomentum> <http://www.w3.org/2000/01/rdf-schema#label> "Impulse or linear momentum"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/LinearMomentum> <http://www.w3.org/2004/02/skos/core#prefLabel> "LinearMomentum" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Details> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Details> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Details> <http://www.w3.org/2000/01/rdf-schema#comment> "Government bodies, trade organisations, and other parties issue identifiers that are associated to locations. Linking these identifiers to GLN and one another supports consolidating records, mapping related, collaborative identifiers, enhances search ability and enables more efficient transitions between identifiers.  This class provides a mechanism for connecting and sharing location identifiers."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Details> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Details> <http://www.w3.org/2000/01/rdf-schema#label> "Location ID Details"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Details> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Details> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-BIC_FACILITY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-BIC_FACILITY> <http://www.w3.org/2000/01/rdf-schema#comment> "The BIC Facility Code (BFC) began life in the 1980s as the â€œLoCodeâ€ identifier under ISO 9897. Now a â€œchild codeâ€ of the UN/Locode, the BIC Facility Code is used to identify container facilities such as depots, container yards, container freight stations, M&R vendors and other facilities in the container supply chain. The BIC Facility Code is complementary to the SMDG Ocean Terminal Code, which is also a child code of the UN/Locode. The BIC Facility Code covers container facility types other than ocean terminals."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-BIC_FACILITY> <http://www.w3.org/2000/01/rdf-schema#label> "BIC Facility Code (BFC) "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-BIC_FACILITY> <http://www.w3.org/2004/02/skos/core#prefLabel> "BIC_FACILITY" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-CRD_LOCATION_CODE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-CRD_LOCATION_CODE> <http://www.w3.org/2000/01/rdf-schema#comment> "The Central Reference File Database (CRD) (formerly known as Central Repository Domain) is a centralised database that stores Location Codes and Company Codes required by European regulation, and makes them available to users. CRD contains the following reference files: - List of Countries (ISO 3166) - The Location Reference File which uniquely identifies physical rail points (e.g. stations, customer sidings, loading places) containing the Location Code (which includes the Country Code) - The Partner Reference File uniquely identifies all rail actors who exchange information (Company Codes); Each company actor must have a unique Company Code assigned by UIC"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-CRD_LOCATION_CODE> <http://www.w3.org/2000/01/rdf-schema#label> "Central Reference File Database (CRD) covers both Locations and Organisations. The Location Reference File uniquely identifies physical rail points (e.g. stations, customer sidings, loading places)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-CRD_LOCATION_CODE> <http://www.w3.org/2004/02/skos/core#prefLabel> "CRD_LOCATION_CODE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-ENI_NUMBER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-ENI_NUMBER> <http://www.w3.org/2000/01/rdf-schema#comment> "An ENI number (European Number of Identification or European Vessel Identification Number) is a registration for ships capable of navigating on inland European waters. It is a unique, eight-digit identifier that is attached to a hull for its entire lifetime, independent of the vessel's current name or flag. ENI was introduced by the Inland Transport Committee of the United Nations Economic Commission for Europe in their meeting on 11â€“13 October 2006 in Geneva. It is based on the Rhine Vessel certification system previously used for ships navigating the Rhine, and is comparable to the IMO ship identification number. "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-ENI_NUMBER> <http://www.w3.org/2000/01/rdf-schema#label> "An ENI number (European Number of Identification or European Vessel Identification Number)."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-ENI_NUMBER> <http://www.w3.org/2004/02/skos/core#prefLabel> "ENI_NUMBER" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-FR_SIRET> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-FR_SIRET> <http://www.w3.org/2000/01/rdf-schema#comment> "The SIRET number, issued by Insee (the National Institute of Statistics and Economic Studies) identifies each establishment that is part of a company in France. There are as many SIRET numbers as there are establishments in the company. An establishment is a geographically located operating or production unit, separated but legally dependent on a company. It is the place where the company's activity is carried out. It is composed of 14 digits: the 9 digits of the SIREN number + the 5 digits of the NIC (internal classification number specific to each establishment)."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-FR_SIRET> <http://www.w3.org/2000/01/rdf-schema#label> "SystÃ¨me d'identification du rÃ©pertoire des Ã©tablissements"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-FR_SIRET> <http://www.w3.org/2004/02/skos/core#prefLabel> "FR_SIRET" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-IATA_CODE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-IATA_CODE> <http://www.w3.org/2000/01/rdf-schema#comment> "Three-letter geocode designating many airports and metropolitan areas around the world, defined by theÂ International Air Transport AssociationÂ (IATA). The IATA three-letter codes are a subset of the UN/LOCODE codelist."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-IATA_CODE> <http://www.w3.org/2000/01/rdf-schema#label> "International Air Transport Association (IATA) code"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-IATA_CODE> <http://www.w3.org/2004/02/skos/core#prefLabel> "IATA_CODE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-IMO_NUMBER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-IMO_NUMBER> <http://www.w3.org/2000/01/rdf-schema#comment> "IMO number is an important identifier given to oil/gas vessels, shipping vessels, and fishing vessels that is painted visibly across the vessel and bolted to the hull"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-IMO_NUMBER> <http://www.w3.org/2000/01/rdf-schema#label> "International Maritime Organization Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-IMO_NUMBER> <http://www.w3.org/2004/02/skos/core#prefLabel> "IMO_NUMBER" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-ISPS_CODE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-ISPS_CODE> <http://www.w3.org/2000/01/rdf-schema#comment> "The International Ship and Port Facility Security Code (ISPS Code) is an International code that was conceived following the September 11th 2001 terrorists attacks in the USA.Â It's primary purpose is to identify and counter any terrorist threat to the Maritime Industry particularly against ships and ports.Â The codeÂ also serves to improve security against armed robbery, theft and piracy. The code came into force inÂ 2004Â andÂ prescribes responsibilities to: 1) Governments 2) Shipping companies 3) Shipboard personnel 4) Port/facility personnel"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-ISPS_CODE> <http://www.w3.org/2000/01/rdf-schema#label> "International Ship and Port Facility Security Code (ISPS Code)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-ISPS_CODE> <http://www.w3.org/2004/02/skos/core#prefLabel> "ISPS_CODE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-ISRS_LOCATION_CODE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-ISRS_LOCATION_CODE> <http://www.w3.org/2000/01/rdf-schema#comment> "The International Ship Reporting Standard (ISRS) location code is a 20 character alphanumeric code consisting of: - UN country code (2 characters) e.g., NL = Netherlands, - UN location code (3 characters) e.g., RTM = Rotterdam, - Fairway section code (5 characters) e.g., 00102 = Nieuwe Maas, - Object reference code (5 characters) e.g., 66666 = ID administration or terminal code, - Fairway section hectometre e.g., 00050 = hectometres from zero point of Fairway section 00102.  The ISRS Location Code is created once and shall not be changed throughout the lifetime of the object. The Standard / Commission Regulation for Electronic Ship Reporting requires the ISRS Location Code of all objects relevant for reporting of voyages, e.g. ports, terminals, passage points, etc."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-ISRS_LOCATION_CODE> <http://www.w3.org/2000/01/rdf-schema#label> "International Ship Reporting Standard or ISRS location code "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-ISRS_LOCATION_CODE> <http://www.w3.org/2004/02/skos/core#prefLabel> "ISRS_LOCATION_CODE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_10> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_10> <http://www.w3.org/2000/01/rdf-schema#label> "Location For Internal Use 10"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_10> <http://www.w3.org/2004/02/skos/core#prefLabel> "LOCATION_FOR_INTERNAL_USE_10" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_1> <http://www.w3.org/2000/01/rdf-schema#label> "Location For Internal Use 1"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_1> <http://www.w3.org/2004/02/skos/core#prefLabel> "LOCATION_FOR_INTERNAL_USE_1" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_2> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_2> <http://www.w3.org/2000/01/rdf-schema#label> "Location For Internal Use 2"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_2> <http://www.w3.org/2004/02/skos/core#prefLabel> "LOCATION_FOR_INTERNAL_USE_2" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_3> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_3> <http://www.w3.org/2000/01/rdf-schema#label> "Location For Internal Use 3"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_3> <http://www.w3.org/2004/02/skos/core#prefLabel> "LOCATION_FOR_INTERNAL_USE_3" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_4> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_4> <http://www.w3.org/2000/01/rdf-schema#label> "Location For Internal Use 4"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_4> <http://www.w3.org/2004/02/skos/core#prefLabel> "LOCATION_FOR_INTERNAL_USE_4" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_5> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_5> <http://www.w3.org/2000/01/rdf-schema#label> "Location For Internal Use 5"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_5> <http://www.w3.org/2004/02/skos/core#prefLabel> "LOCATION_FOR_INTERNAL_USE_5" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_6> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_6> <http://www.w3.org/2000/01/rdf-schema#label> "Location For Internal Use 6"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_6> <http://www.w3.org/2004/02/skos/core#prefLabel> "LOCATION_FOR_INTERNAL_USE_6" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_7> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_7> <http://www.w3.org/2000/01/rdf-schema#label> "Location For Internal Use 7"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_7> <http://www.w3.org/2004/02/skos/core#prefLabel> "LOCATION_FOR_INTERNAL_USE_7" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_8> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_8> <http://www.w3.org/2000/01/rdf-schema#label> "Location For Internal Use 8"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_8> <http://www.w3.org/2004/02/skos/core#prefLabel> "LOCATION_FOR_INTERNAL_USE_8" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_9> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_9> <http://www.w3.org/2000/01/rdf-schema#label> "Location For Internal Use 9"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-LOCATION_FOR_INTERNAL_USE_9> <http://www.w3.org/2004/02/skos/core#prefLabel> "LOCATION_FOR_INTERNAL_USE_9" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-MMSI_NUMBER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-MMSI_NUMBER> <http://www.w3.org/2000/01/rdf-schema#comment> "Maritime Mobile Service Identities (MMSIs) are nine-digit numbers used by maritime digital selective calling (DSC), automatic identification systems (AIS), and certain other equipment to uniquely identify a ship or a coast radio station."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-MMSI_NUMBER> <http://www.w3.org/2000/01/rdf-schema#label> "Maritime Mobile Service Identity number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-MMSI_NUMBER> <http://www.w3.org/2004/02/skos/core#prefLabel> "MMSI_NUMBER" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-OAR_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-OAR_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "Open Apparel Registry ID. A sixteen-digit numbering system which uniquely identities global apparel facilities. The ID consists of a Country code, Origin date (the date the facility first appeared in the registry), a General ID and Check ID. OAR IDs are allocated by the Open Apparel Registry to all facilities contributed to the database for the purposes of enabling industry collaboration and improved identification of factories, as well as powering interoperability between industry databases."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-OAR_ID> <http://www.w3.org/2000/01/rdf-schema#label> "Open Apparel Registry ID"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-OAR_ID> <http://www.w3.org/2004/02/skos/core#prefLabel> "OAR_ID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-OPEN_LOCATION_CODE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-OPEN_LOCATION_CODE> <http://www.w3.org/2000/01/rdf-schema#comment> "The Open Location Code is a geocode system for identifying an area anywhere on the Earth. It was developed at Google's ZÃ¼rich engineering office, and released late October 2014. Location codes created by the OLC system are referred to as 'plus codes'."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-OPEN_LOCATION_CODE> <http://www.w3.org/2000/01/rdf-schema#label> "Open Location Code"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-OPEN_LOCATION_CODE> <http://www.w3.org/2004/02/skos/core#prefLabel> "OPEN_LOCATION_CODE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-SMDG_CODE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-SMDG_CODE> <http://www.w3.org/2000/01/rdf-schema#comment> "The SMDG Terminal Code List (TCL) contains codes for container handling terminal facilities that are called by seagoing cargo vessels in maritime transport."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-SMDG_CODE> <http://www.w3.org/2000/01/rdf-schema#label> "SMDG Container terminal code"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-SMDG_CODE> <http://www.w3.org/2004/02/skos/core#prefLabel> "SMDG_CODE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-UN_LOCODE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-UN_LOCODE> <http://www.w3.org/2000/01/rdf-schema#comment> "UN/LOCODE, the United Nations Code for Trade and Transport Locations, is a geographic coding scheme developed and maintained by United Nations Economic Commission for Europe.Â "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-UN_LOCODE> <http://www.w3.org/2000/01/rdf-schema#label> "UN/LOCODE"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-UN_LOCODE> <http://www.w3.org/2004/02/skos/core#prefLabel> "UN_LOCODE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_CIF_CODE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_CIF_CODE> <http://www.w3.org/2000/01/rdf-schema#comment> "The Customer Identification File (CIF) is an industry reference file (for the USA), managed by Railinc, that contains the name, physical mailing and billing address, corporate parent information and a unique 13-character identification code for each location and sub-location of a transportation-carrier customer. Railroads use the identification code to accurately identify customers and their locations, ensuring each party in the transaction is referencing the same physical customer location."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_CIF_CODE> <http://www.w3.org/2000/01/rdf-schema#label> "Customer Identification File (CIF) for RAIL "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_CIF_CODE> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_CIF_CODE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_EST_NUMBER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_EST_NUMBER> <http://www.w3.org/2000/01/rdf-schema#comment> "All containers of meat, poultry, and egg products must be labeled with a USDA mark of inspection and establishment (EST number), which is assigned to the plant where the product was produced."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_EST_NUMBER> <http://www.w3.org/2000/01/rdf-schema#label> "USDA Establishment Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_EST_NUMBER> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_EST_NUMBER" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_FEI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_FEI> <http://www.w3.org/2000/01/rdf-schema#comment> "An FDA Establishment Identification (FEI) number isÂ a unique identifier issued by FDA to track inspections of the regulated establishment or facility. FEI numbers are also used to track GDUFA facility fee payments."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_FEI> <http://www.w3.org/2000/01/rdf-schema#label> "FDA Establishment Identifier (Facility FEI)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_FEI> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_FEI" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_HIN_IDENTIFICATION> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_HIN_IDENTIFICATION> <http://www.w3.org/2000/01/rdf-schema#comment> "The HIN is a unique combination of letters and/or numbers permanently affixed to the vessel. All boats must be registered with the USCG (United States Coast Guard ) in order to track accidents and history of boats. Information about a boatâ€™s records may be found by using a vessel documentation search by Hull ID Number (HIN)."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_HIN_IDENTIFICATION> <http://www.w3.org/2000/01/rdf-schema#label> "Hull Identification Number "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_HIN_IDENTIFICATION> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_HIN_IDENTIFICATION" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_MINE_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_MINE_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "All mines are required to apply for an MSHAÂ mineÂ identification number. An MSHAÂ IDÂ is required for eachÂ mineÂ site and must be issued before any operations may begin. AÂ mine IDÂ may be requested by completing the online form or by contacting U.S. district office."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_MINE_ID> <http://www.w3.org/2000/01/rdf-schema#label> "U.S. Mine ID"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_MINE_ID> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_MINE_ID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_TCN_CODE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_TCN_CODE> <http://www.w3.org/2000/01/rdf-schema#comment> "The Terminal Control Locations Directory lists all approved terminals registered as part of the taxable fuel bulk delivery system. Terminals are listed by the terminal number."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_TCN_CODE> <http://www.w3.org/2000/01/rdf-schema#label> "Terminal Control Number (TCN) / Terminal Locations Directory. USA â€“ IRS."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type-US_TCN_CODE> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_TCN_CODE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Location ID Type"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationID_Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gs1.org/voc/TypeCode> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationStatusHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationStatusHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationStatusHistory> <http://www.w3.org/2000/01/rdf-schema#comment> "Over the lifetime of a location, it may go through periods of being active and inactive. gs1:LocationStatusHistory allows changes in status to be communicated in advance and tracked over time."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationStatusHistory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationStatusHistory> <http://www.w3.org/2000/01/rdf-schema#label> "Location Status History"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationStatusHistory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> <https://gs1.org/voc/> .
+<https://gs1.org/voc/LocationStatusHistory> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/Luminance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/MeasurementType> <https://gs1.org/voc/> .
 <https://gs1.org/voc/Luminance> <http://www.w3.org/2000/01/rdf-schema#comment> "A measure of the light-emitting intensity of a light source, in a specific direction per unit area of the emitting surface. For a very narrow cone containing the direction, it is the ratio of the luminous flux emitted within that cone to the solid angle of the cone per unit area of the emitting surface.  SI Units: candela per square metre"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/Luminance> <http://www.w3.org/2000/01/rdf-schema#label> "Luminance"@en <https://gs1.org/voc/> .
@@ -2167,6 +2324,236 @@
 <https://gs1.org/voc/Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> <https://gs1.org/voc/> .
 <https://gs1.org/voc/Organization> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/Organization> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://schema.org/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Details> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Details> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Details> <http://www.w3.org/2000/01/rdf-schema#comment> "Government bodies, trade organisations, and other parties issue identifiers that are associated to legal entities and/or functions. Linking these identifiers to GLN and one another supports consolidating records, mapping related, collaborative identifiers, enhances search ability and enables more efficient transitions between identifiers.  This class provides a mechanism for connecting and sharing party identifiers."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Details> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Details> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation ID Details"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Details> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Details> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-AU_ABN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-AU_ABN> <http://www.w3.org/2000/01/rdf-schema#comment> "The Australian Business Number is a unique 11-digit identifier issued by the Australian Business Register which is operated by the Australian Taxation Office."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-AU_ABN> <http://www.w3.org/2000/01/rdf-schema#label> "Australian Business Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-AU_ABN> <http://www.w3.org/2004/02/skos/core#prefLabel> "AU_ABN" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-AU_ACN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-AU_ACN> <http://www.w3.org/2000/01/rdf-schema#comment> "An Australian Company Number is a unique identifier required by every company registered under Australiaâ€™s Corporations Act 2001. The ACN is a nine-digit number issued by the Australian Securities & Investments Commission to every Australian company."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-AU_ACN> <http://www.w3.org/2000/01/rdf-schema#label> "Australian Company Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-AU_ACN> <http://www.w3.org/2004/02/skos/core#prefLabel> "AU_ACN" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-CRD_PARTNER_CODE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-CRD_PARTNER_CODE> <http://www.w3.org/2000/01/rdf-schema#comment> "The Central Reference File Database (CRD), formerly known as Central Repository Domain is a centralised database that stores Location Codes and Company Codes required by European regulation, and makes them available to users. CRD contains the following reference files: - List of Countries (ISO 3166) - The Location Reference File which uniquely identifies physical rail points (e.g. stations, customer sidings, loading places) containing the Location Code (which includes the Country Code) - The Partner Reference File uniquely identifies all rail actors who exchange information (Company Codes); Each company actor must have a unique Company Code assigned by UIC"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-CRD_PARTNER_CODE> <http://www.w3.org/2000/01/rdf-schema#label> "Central Reference File Database (CRD) covers both Locations and Organisations. The Partner Reference File uniquely identifies all rail actors who exchange information (Company Codes).  Rail context"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-CRD_PARTNER_CODE> <http://www.w3.org/2004/02/skos/core#prefLabel> "CRD_PARTNER_CODE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-CRN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-CRN> <http://www.w3.org/2000/01/rdf-schema#comment> "A company registration number is a unique combination of numbers and/or letters. The company registration number (also known as the company number, registration number or simply in its abbreviated form) is used to identify a company and verify that it is an entity registered within the national registry for companies or enterprises. This value is generic and is not associated to any specific region."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-CRN> <http://www.w3.org/2000/01/rdf-schema#label> "Company Registration Number (CRN)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-CRN> <http://www.w3.org/2004/02/skos/core#prefLabel> "CRN" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-DID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-DID> <http://www.w3.org/2000/01/rdf-schema#comment> "A globally unique persistent identifier that does not require a centralized registration authority because it is generated and/or registered cryptographically. The generic format of a DID is defined in the DID Core specification [DID-CORE]. A specific DID scheme is defined in a DID method specification. Manyâ€”but not allâ€”DID methods make use of distributed ledger technology (DLT) or some other form of decentralized network."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-DID> <http://www.w3.org/2000/01/rdf-schema#label> "Decentralized identifier"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-DID> <http://www.w3.org/2004/02/skos/core#prefLabel> "DID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-DUNS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-DUNS> <http://www.w3.org/2000/01/rdf-schema#comment> "Data Universal Numbering System. It is a nine-digit numbering system which uniquely identifies an individual business. The DUNS number is a nine-digit number issued by Dun & Bradstreet assigned to each business location in the D&B database having a unique, separate, and distinct operation for the purpose of identifying them. A DUNS number is also a way in which separate corporate entities, having no official relationship, can be branded as one by sharing one DUNS number among the affiliated comp"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-DUNS> <http://www.w3.org/2000/01/rdf-schema#label> "DUNS"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-DUNS> <http://www.w3.org/2004/02/skos/core#prefLabel> "DUNS" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-DUNS_PLUS_FOUR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-DUNS_PLUS_FOUR> <http://www.w3.org/2000/01/rdf-schema#comment> "The DUNS+4 refers to the DUNS number assigned by Dun and Bradstreet, plus a 4-character suffix that is assigned by the vendor to establish additional Central Contractor Registration (CCR) database records for identifying alternative electronic funds transfer (EFT) accounts for the same vendor located at the same physical address. Dun and Bradstreet has no affiliation with the 4-character suffix."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-DUNS_PLUS_FOUR> <http://www.w3.org/2000/01/rdf-schema#label> "DUNS+4"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-DUNS_PLUS_FOUR> <http://www.w3.org/2004/02/skos/core#prefLabel> "DUNS_PLUS_FOUR" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-EORI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-EORI> <http://www.w3.org/2000/01/rdf-schema#comment> "Businesses and people wishing to trade with the EU must, use the EORI number as an identification number in all customs procedures when exchanging information with Customs - https://ec.europa.eu/taxation_customs/dds2/eos/eori_home.jsp?Lang=en"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-EORI> <http://www.w3.org/2000/01/rdf-schema#label> "Economic Operators Registration and Identification number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-EORI> <http://www.w3.org/2004/02/skos/core#prefLabel> "EORI" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-EO_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-EO_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "A type of identifier in the format of the invariant set of ISO646:1991 used in accordance with the EU Implementing Regulation 2018/574 to identify an economic operator."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-EO_ID> <http://www.w3.org/2000/01/rdf-schema#label> "Economic Operator Identifier"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-EO_ID> <http://www.w3.org/2004/02/skos/core#prefLabel> "EO_ID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-EU_VAT_IDENTIFICATION_NUMBER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-EU_VAT_IDENTIFICATION_NUMBER> <http://www.w3.org/2000/01/rdf-schema#comment> "An identifier used to identify companies for value added tax purposes in the European Union. Link: https://ec.europa.eu/taxation_customs/vies/faqvies.do#item_11"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-EU_VAT_IDENTIFICATION_NUMBER> <http://www.w3.org/2000/01/rdf-schema#label> "EU VAT Identification Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-EU_VAT_IDENTIFICATION_NUMBER> <http://www.w3.org/2004/02/skos/core#prefLabel> "EU_VAT_IDENTIFICATION_NUMBER" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-FR_RCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-FR_RCS> <http://www.w3.org/2000/01/rdf-schema#comment> "The RCS (Registre du commerce et des sociÃ©tÃ©s), otherwise known as the Greffe, is the registry for the company accounts and by-laws of all companies in France."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-FR_RCS> <http://www.w3.org/2000/01/rdf-schema#label> "Registre du commerce et des sociÃ©tÃ©s"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-FR_RCS> <http://www.w3.org/2004/02/skos/core#prefLabel> "FR_RCS" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-FR_SIREN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-FR_SIREN> <http://www.w3.org/2000/01/rdf-schema#comment> "The SIREN number, issued by Insee (the National Institute of Statistics and Economic Studies) is the unique identification number of each company. It is a number that allows each company to be identified by the administrations in France. The SIREN number also constitutes the first 9 digits of the SIRET number."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-FR_SIREN> <http://www.w3.org/2000/01/rdf-schema#label> "SystÃ¨me d'identification du rÃ©pertoire des entreprises"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-FR_SIREN> <http://www.w3.org/2004/02/skos/core#prefLabel> "FR_SIREN" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-IMO_COMPANY_NUMBER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-IMO_COMPANY_NUMBER> <http://www.w3.org/2000/01/rdf-schema#comment> "IMO registers all vessels subject to the SOLAS convention. IMO also records the Owner, Operator, Manager and Group Beneficial Owner. For that purpose they also record the Companies acting in these roles using the IMO Company Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-IMO_COMPANY_NUMBER> <http://www.w3.org/2000/01/rdf-schema#label> "International Maritime Organisation (IMO) Company Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-IMO_COMPANY_NUMBER> <http://www.w3.org/2004/02/skos/core#prefLabel> "IMO_COMPANY_NUMBER" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-LEI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-LEI> <http://www.w3.org/2000/01/rdf-schema#comment> "The Legal Entity Identifier (LEI) is a 20-character, alpha-numeric code based on the ISO 17442 standard developed by the International Organization for Standardization (ISO). It connects to key reference information that enables clear and unique identification of legal entities participating in financial transactions"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-LEI> <http://www.w3.org/2000/01/rdf-schema#label> " Legal Entity Identifier (LEI)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-LEI> <http://www.w3.org/2004/02/skos/core#prefLabel> "LEI" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NL_KVK_NUMBER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NL_KVK_NUMBER> <http://www.w3.org/2000/01/rdf-schema#comment> "When registering with the Netherlands Chamber of Commerce KVK, a business is listed in the Dutch Commercial Register or Handelsregister (HR) as it is called in the Netherlands. The businesses are then given a 8-digit KVK number. This number serves to prove an organisation is a registered business."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NL_KVK_NUMBER> <http://www.w3.org/2000/01/rdf-schema#label> "Kamer van Koophandel (KVK) number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NL_KVK_NUMBER> <http://www.w3.org/2004/02/skos/core#prefLabel> "NL_KVK_NUMBER" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NL_OIN_NUMBER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NL_OIN_NUMBER> <http://www.w3.org/2000/01/rdf-schema#comment> "The Organization Identification Number (OIN) is a unique number assigned to organizations by Logius, the digital government service of the Netherlands Ministry of the Interior and Kingdom Relations, to identify, authenticate and/or authorise themselves in digital messaging within and with the government."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NL_OIN_NUMBER> <http://www.w3.org/2000/01/rdf-schema#label> "Organisatie-identificatienummer (OIN number)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NL_OIN_NUMBER> <http://www.w3.org/2004/02/skos/core#prefLabel> "NL_OIN_NUMBER" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NZ_GST_NUMBER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NZ_GST_NUMBER> <http://www.w3.org/2000/01/rdf-schema#comment> "An identifier used to identify companies for goods and services tax purposes in New Zealand."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NZ_GST_NUMBER> <http://www.w3.org/2000/01/rdf-schema#label> "New Zealand GST Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NZ_GST_NUMBER> <http://www.w3.org/2004/02/skos/core#prefLabel> "NZ_GST_NUMBER" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NZ_IRD_NUMBER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NZ_IRD_NUMBER> <http://www.w3.org/2000/01/rdf-schema#comment> "An identifier used to identify companies for tax purposes in New Zealand."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NZ_IRD_NUMBER> <http://www.w3.org/2000/01/rdf-schema#label> "New Zealand Inland Revenue Identification Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-NZ_IRD_NUMBER> <http://www.w3.org/2004/02/skos/core#prefLabel> "NZ_IRD_NUMBER" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_10> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_10> <http://www.w3.org/2000/01/rdf-schema#label> "Organization For Internal Use 10"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_10> <http://www.w3.org/2004/02/skos/core#prefLabel> "ORG_FOR_INTERNAL_USE_10" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_1> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_1> <http://www.w3.org/2000/01/rdf-schema#label> "Organization For Internal Use 1"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_1> <http://www.w3.org/2004/02/skos/core#prefLabel> "ORG_FOR_INTERNAL_USE_1" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_2> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_2> <http://www.w3.org/2000/01/rdf-schema#label> "Organization For Internal Use 2"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_2> <http://www.w3.org/2004/02/skos/core#prefLabel> "ORG_FOR_INTERNAL_USE_2" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_3> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_3> <http://www.w3.org/2000/01/rdf-schema#label> "Organization For Internal Use 3"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_3> <http://www.w3.org/2004/02/skos/core#prefLabel> "ORG_FOR_INTERNAL_USE_3" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_4> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_4> <http://www.w3.org/2000/01/rdf-schema#label> "Organization For Internal Use 4"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_4> <http://www.w3.org/2004/02/skos/core#prefLabel> "ORG_FOR_INTERNAL_USE_4" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_5> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_5> <http://www.w3.org/2000/01/rdf-schema#label> "Organization For Internal Use 5"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_5> <http://www.w3.org/2004/02/skos/core#prefLabel> "ORG_FOR_INTERNAL_USE_5" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_6> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_6> <http://www.w3.org/2000/01/rdf-schema#label> "Organization For Internal Use 6"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_6> <http://www.w3.org/2004/02/skos/core#prefLabel> "ORG_FOR_INTERNAL_USE_6" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_7> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_7> <http://www.w3.org/2000/01/rdf-schema#label> "Organization For Internal Use 7"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_7> <http://www.w3.org/2004/02/skos/core#prefLabel> "ORG_FOR_INTERNAL_USE_7" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_8> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_8> <http://www.w3.org/2000/01/rdf-schema#label> "Organization For Internal Use 8"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_8> <http://www.w3.org/2004/02/skos/core#prefLabel> "ORG_FOR_INTERNAL_USE_8" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_9> <http://www.w3.org/2000/01/rdf-schema#comment> "Identification used for internal mapping purposes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_9> <http://www.w3.org/2000/01/rdf-schema#label> "Organization For Internal Use 9"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-ORG_FOR_INTERNAL_USE_9> <http://www.w3.org/2004/02/skos/core#prefLabel> "ORG_FOR_INTERNAL_USE_9" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-PHYTOSANITARY_REGISTRATION_NUMBER> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-PHYTOSANITARY_REGISTRATION_NUMBER> <http://www.w3.org/2000/01/rdf-schema#comment> "Within the European Union, the phytosanitary registration number identifies an organisation responsible for introducing, or moving plants, plant products and other objects, for which a phytosanitary certificate or a plant passport is required to comply with EU regulation. A phytosanitary registration number is not the same as a phytosanitary certificate number, which identifies the certificate issued to the organisation exporting items subject to phytosanitary processes."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-PHYTOSANITARY_REGISTRATION_NUMBER> <http://www.w3.org/2000/01/rdf-schema#label> "Phytosanitary registration number "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-PHYTOSANITARY_REGISTRATION_NUMBER> <http://www.w3.org/2004/02/skos/core#prefLabel> "PHYTOSANITARY_REGISTRATION_NUMBER" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-TIN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-TIN> <http://www.w3.org/2000/01/rdf-schema#comment> "The taxpayer identification number (TIN) is an identifying number used for tax purposes in the United States and in other countries under the Common Reporting Standard. The unique identifier is assigned to the Account Holder by the tax administration in the Account Holderâ€™s jurisdiction of tax residence. It is a unique combination of letters and/or numbers used to identify an individual or entity for the purposes of administering the tax laws of that jurisdiction.  In some countries where the TIN is not used a national identification number, national identity number, or national insurance number is used by the governments of countries as a means of tracking their citizens, permanent residents, and temporary residents for the purposes of work, taxation, government benefits, health care, and other governmentally related functions."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-TIN> <http://www.w3.org/2000/01/rdf-schema#label> "Taxpayer Identification Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-TIN> <http://www.w3.org/2004/02/skos/core#prefLabel> "TIN" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-UK_CRN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-UK_CRN> <http://www.w3.org/2000/01/rdf-schema#comment> "A company registration number is a unique combination of numbers and, in some cases, letters. The company registration number (also known as the company number, registration number or simply abbreviated to CRN) is used to identify a company and verify that it is an entity registered with Companies House (the executive agency of the British Government reponsible for providing registered company information to the public)."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-UK_CRN> <http://www.w3.org/2000/01/rdf-schema#label> "U.K. Company Registration Number "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-UK_CRN> <http://www.w3.org/2004/02/skos/core#prefLabel> "UK_CRN" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_498_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_498_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "A Service Provider Identification Number (SPIN) isÂ a unique nine-digit number assigned to service providers by USAC when an FCCÂ Form 498 is filed. This number is also known as the service provider's 498 ID."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_498_ID> <http://www.w3.org/2000/01/rdf-schema#label> "Service Provider and Billed Entity Identification Number (FCC Form 498 ID)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_498_ID> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_498_ID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_499_FILER_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_499_FILER_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "The FCC FormÂ 499 FilerÂ Database is an identification system for all interstate telecommunications carriers, all interconnected VoIP providers, and certain other providers of interstate telecommunications.  The Universal Service Fund helps communities across the country afford telecommunications and advanced services."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_499_FILER_ID> <http://www.w3.org/2000/01/rdf-schema#label> "499 Filer ID"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_499_FILER_ID> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_499_FILER_ID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_BEA_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_BEA_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "The BEA foreign direct investment identification number isÂ assigned to a new U.S. affiliateÂ after their initial report has been accepted by the BEA. Filed by mail or facsimile, initial reports are due within 30 days of the end of the quarter in which the U.S. entity became foreign owned."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_BEA_ID> <http://www.w3.org/2000/01/rdf-schema#label> "BEA Foreign Direct Investment Identification Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_BEA_ID> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_BEA_ID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_CAGE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_CAGE> <http://www.w3.org/2000/01/rdf-schema#comment> "The Defense Logistics Agency (DLA) Commercial and Government Entity. A CAGE code is a five character alpha-numeric identifier assigned to entities located IN the United States and its territories"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_CAGE> <http://www.w3.org/2000/01/rdf-schema#label> "Commercial and Government Entity"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_CAGE> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_CAGE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_CID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_CID> <http://www.w3.org/2000/01/rdf-schema#comment> "AÂ companyÂ identification number, orÂ CID, is given to aÂ companyÂ when it is formed and the articles of organization or incorporation are approved by the U.S. Secretary of State. TheÂ CIDÂ is an important step when establishing a newÂ companyÂ as it acts as a way to track importantÂ companyÂ information."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_CID> <http://www.w3.org/2000/01/rdf-schema#label> "Company Identifier (CID)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_CID> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_CID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_CRD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_CRD> <http://www.w3.org/2000/01/rdf-schema#comment> "Every stockbroker (â€œregistered representativeâ€) licensed to sell securities in the U.S. must have a CRD number, which is administered by the Financial Industry Regulatory Authority (FINRA)."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_CRD> <http://www.w3.org/2000/01/rdf-schema#label> "Central Registration Depository (CRD) Numbers"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_CRD> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_CRD" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_DEA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_DEA> <http://www.w3.org/2000/01/rdf-schema#comment> "AÂ DEA numberÂ (DEA Registration Number) is an identifier assigned to a health care provider (such as aÂ physician,Â physician assistant,Â nurse practitioner,Â optometrist,Â podiatrist,Â dentist, orÂ veterinarian) by the United StatesÂ Drug Enforcement AdministrationÂ allowing them to write prescriptions forÂ controlled substances."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_DEA> <http://www.w3.org/2000/01/rdf-schema#label> "Drug Enforcement Administration (DEA) Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_DEA> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_DEA" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_DODAAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_DODAAC> <http://www.w3.org/2000/01/rdf-schema#comment> "Is a six position code that uniquely identifies a Department of Defense unit, activity, or organization that has the authority to requisition, contract for, receive, have custody of, issue, or ship DoD assets, or fund/pay bills for materials and/or services."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_DODAAC> <http://www.w3.org/2000/01/rdf-schema#label> "Department of Defense Activity Address Code"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_DODAAC> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_DODAAC" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_EIN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_EIN> <http://www.w3.org/2000/01/rdf-schema#comment> "The U.S. Employer Identification Number, also known as the Federal Employer Identification Number or the Federal Tax Identification Number, is a unique nine-digit number assigned by the Internal Revenue Service to business entities operating in the United States for the purposes of identification."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_EIN> <http://www.w3.org/2000/01/rdf-schema#label> "Employer Identification Number (EIN)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_EIN> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_EIN" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_EPA_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_EPA_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "ThisÂ number, issued either by the U. S.Â Environmental Protection AgencyÂ (U.S.Â EPA ID Number), or by DTSC (CaliforniaÂ ID Number), identifies each handler of hazardous waste on hazardous waste manifests and other paperwork."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_EPA_ID> <http://www.w3.org/2000/01/rdf-schema#label> "EPA Identification Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_EPA_ID> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_EPA_ID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FCC_FRN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FCC_FRN> <http://www.w3.org/2000/01/rdf-schema#comment> "AnÂ FRN, orÂ FCCÂ registrationÂ number, is a 10-digitÂ numberÂ that is assigned to a business or individual registering with theÂ FCC. ... TheÂ FCCÂ will use theÂ FRNÂ to determine if all of a registrant's fees have been paid."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FCC_FRN> <http://www.w3.org/2000/01/rdf-schema#label> "FCC Registration Number (FRN)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FCC_FRN> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_FCC_FRN" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FDIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FDIC> <http://www.w3.org/2000/01/rdf-schema#comment> "TheÂ FDIC CertificateÂ ID is a uniqueÂ numberÂ assigned to each depository institution by the Federal Deposit Insurance Corporation (FDIC)."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FDIC> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Deposit Insurance Corporation (FDIC) Certificate Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FDIC> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_FDIC" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FHFA_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FHFA_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "FHFA ID numberÂ is the number assigned to a member by FHFA and used by FHFA and the Banks to identify a particular member."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FHFA_ID> <http://www.w3.org/2000/01/rdf-schema#label> "FHFA ID Number"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FHFA_ID> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_FHFA_ID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FMC_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FMC_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "The Federal Maritime Commission (FMC) is a USA federal agency. The FMC is responsible for regulating USA ocean transportation to and from the USA. To buy or sell sea freight services to or from the USA, a company must be licensed or registered with the FMC."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FMC_ID> <http://www.w3.org/2000/01/rdf-schema#label> "FMC License Number "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_FMC_ID> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_FMC_ID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_GIIN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_GIIN> <http://www.w3.org/2000/01/rdf-schema#comment> "GIIN is an abbreviation of Global Intermediary Identification Number. The FATCA Registration System approves foreign financial institutions (FFI), financial institution (FI) branches, direct reporting non-financial foreign entities (NFFE), sponsoring entities, sponsored entities, and sponsored subsidiary branches."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_GIIN> <http://www.w3.org/2000/01/rdf-schema#label> "Global Intermediary Identification Number (GIIN)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_GIIN> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_GIIN" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_LAB_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_LAB_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "Code to identify CPSC-Accepted Testing Laboratories. Section 14(a)(3)(E) of the Consumer Product Safety (CPSC) Act, as amended, requires the Commission to maintain on its website an up-to-date list of entities that have been accredited to assess conformity with children's product safety rules."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_LAB_ID> <http://www.w3.org/2000/01/rdf-schema#label> "U.S. Lab ID"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_LAB_ID> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_LAB_ID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_LIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_LIC> <http://www.w3.org/2000/01/rdf-schema#comment> "The assignedÂ LICÂ identifies the registered company, not an individual product or device; it can be used across multiple product lines. "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_LIC> <http://www.w3.org/2000/01/rdf-schema#label> "Labeler Identification code (LIC) "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_LIC> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_LIC" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_MFG_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_MFG_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "The United States Customs use theÂ Manufacturer's Identification NumberÂ (MID) in the electronic data processing and monitoring ofÂ manufacturers. MID is anÂ identifyingÂ referenceÂ numberÂ given toÂ manufacturersÂ that import products into the United States."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_MFG_ID> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturer ID "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_MFG_ID> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_MFG_ID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_MIC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_MIC> <http://www.w3.org/2000/01/rdf-schema#comment> "Domestic boat manufacturers are required by U.S. federal law to obtain a unique Manufacturer's Identification Code (MIC). The same applies to domestic importers of foreign built vessels. This code must be incorporated asÂ the first three characters of allÂ hull identification numbers assigned to boats of their production."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_MIC> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturer's Identification Code (MIC)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_MIC> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_MIC" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_NPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_NPI> <http://www.w3.org/2000/01/rdf-schema#comment> "TheÂ National Provider IdentifierÂ (NPI) is a Health Insurance Portability and Accountability Act (HIPAA) Administrative Simplification Standard. TheÂ NPIÂ is a uniqueÂ identification numberÂ for covered health careÂ providers. TheÂ NPIÂ is a 10-position, intelligence-free numericÂ identifierÂ (10-digitÂ number)."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_NPI> <http://www.w3.org/2000/01/rdf-schema#label> "National Provider Identifier (NPI)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_NPI> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_NPI" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_RN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_RN> <http://www.w3.org/2000/01/rdf-schema#comment> "RN stands for Registered Identification Number. It isÂ a number issued by the FTC to U.S. businessesÂ that manufacture, import, distribute, or sell products covered by the Textile, Wool, and Fur Acts. Businesses can use this number on product labels instead of the company name."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_RN> <http://www.w3.org/2000/01/rdf-schema#label> "Registered Identification Number (RN)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_RN> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_RN" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_RSSD_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_RSSD_ID> <http://www.w3.org/2000/01/rdf-schema#comment> "TheÂ RSSD IDÂ is a uniqueÂ identifierÂ assigned to financial institutions by the U.S. Federal Reserve. "@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_RSSD_ID> <http://www.w3.org/2000/01/rdf-schema#label> "Replication Server System Database ID (RSSD ID)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_RSSD_ID> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_RSSD_ID" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_SCAC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_SCAC> <http://www.w3.org/2000/01/rdf-schema#comment> "The Standard Carrier Alpha Code (SCAC) isÂ a unique two-to-four-letter code used to identify transportation companies. SCAC codes can be obtained from the National Motor Freight Traffic Association (NMFTA), located in Alexandria, VA."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_SCAC> <http://www.w3.org/2000/01/rdf-schema#label> "Standard Carrier Alpha Code (SCAC)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_SCAC> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_SCAC" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_UEI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_UEI> <http://www.w3.org/2000/01/rdf-schema#comment> "Uniquely identify entities registered in the U.S. government  System for Award Management (SAM)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_UEI> <http://www.w3.org/2000/01/rdf-schema#label> "Unique Entity Identifier (UEI)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type-US_UEI> <http://www.w3.org/2004/02/skos/core#prefLabel> "US_UEI" <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Organization ID Type"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationID_Type> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gs1.org/voc/TypeCode> <https://gs1.org/voc/> .
 <https://gs1.org/voc/OrganizationRoleType-ACCEPTING_PARTY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/OrganizationRoleType> <https://gs1.org/voc/> .
 <https://gs1.org/voc/OrganizationRoleType-ACCEPTING_PARTY> <http://www.w3.org/2000/01/rdf-schema#comment> "Organization accepting goods, products, services etc."@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/OrganizationRoleType-ACCEPTING_PARTY> <http://www.w3.org/2000/01/rdf-schema#label> "Accepting Organization"@en <https://gs1.org/voc/> .
@@ -2521,6 +2908,13 @@
 <https://gs1.org/voc/OrganizationRoleType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://apps.gs1.org/GDD/Pages/clDetails.aspx?semanticURN=urn:gs1:gdd:cl:PartyRoleCode&release=2> <https://gs1.org/voc/> .
 <https://gs1.org/voc/OrganizationRoleType> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Role Code"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/OrganizationRoleType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gs1.org/voc/TypeCode> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationStatusHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationStatusHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationStatusHistory> <http://www.w3.org/2000/01/rdf-schema#comment> "Over the lifetime of an organisation, it may go through periods of being active and inactive. gs1:OrganizationStatusHistory allows changes in status to be communicated in advance and tracked over time."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationStatusHistory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationStatusHistory> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation Status History"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationStatusHistory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> <https://gs1.org/voc/> .
+<https://gs1.org/voc/OrganizationStatusHistory> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/PackagingDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://gs1.org/voc/> .
 <https://gs1.org/voc/PackagingDetails> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://gs1.org/voc/> .
 <https://gs1.org/voc/PackagingDetails> <http://www.w3.org/2000/01/rdf-schema#comment> "Details on packaging for a product for example packaging type (bottle), materials, features, recycling, etc.."@en <https://gs1.org/voc/> .
@@ -4510,6 +4904,17 @@
 <https://gs1.org/voc/SportingActivityTypeCode-UNIDENTIFIED> <http://www.w3.org/2004/02/skos/core#prefLabel> "UNIDENTIFIED" <https://gs1.org/voc/> .
 <https://gs1.org/voc/SportingActivityTypeCode> <http://www.w3.org/2000/01/rdf-schema#label> "Sporting Activity Type Code"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/SportingActivityTypeCode> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gs1.org/voc/TypeCode> <https://gs1.org/voc/> .
+<https://gs1.org/voc/StatusType-ACTIVE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/StatusType> <https://gs1.org/voc/> .
+<https://gs1.org/voc/StatusType-ACTIVE> <http://www.w3.org/2000/01/rdf-schema#comment> "Designation stating that an organisation/party or location is operating. Note that this is independent of whether or not the GLN is active."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/StatusType-ACTIVE> <http://www.w3.org/2000/01/rdf-schema#label> "Active"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/StatusType-ACTIVE> <http://www.w3.org/2004/02/skos/core#prefLabel> "ACTIVE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/StatusType-INACTIVE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/StatusType> <https://gs1.org/voc/> .
+<https://gs1.org/voc/StatusType-INACTIVE> <http://www.w3.org/2000/01/rdf-schema#comment> "Designation stating that an organisation/party or location is not operating. Note that this is independent of whether or not the GLN is inactive."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/StatusType-INACTIVE> <http://www.w3.org/2000/01/rdf-schema#label> "Inactive"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/StatusType-INACTIVE> <http://www.w3.org/2004/02/skos/core#prefLabel> "INACTIVE" <https://gs1.org/voc/> .
+<https://gs1.org/voc/StatusType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/StatusType> <http://www.w3.org/2000/01/rdf-schema#label> "Status Type"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/StatusType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://gs1.org/voc/TypeCode> <https://gs1.org/voc/> .
 <https://gs1.org/voc/SurfaceDensity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://gs1.org/voc/MeasurementType> <https://gs1.org/voc/> .
 <https://gs1.org/voc/SurfaceDensity> <http://www.w3.org/2000/01/rdf-schema#comment> "The mass per unit area distributed over a surface.  SI Units: kilogram per square metre"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/SurfaceDensity> <http://www.w3.org/2000/01/rdf-schema#label> "Surface density"@en <https://gs1.org/voc/> .
@@ -4659,6 +5064,22 @@
 <https://gs1.org/voc/activityIdeas> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> <https://gs1.org/voc/> .
 <https://gs1.org/voc/activityIdeas> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://gs1.org/voc/linkType> <https://gs1.org/voc/> .
 <https://gs1.org/voc/activityIdeas> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalLocationID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalLocationID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalLocationID> <http://www.w3.org/2000/01/rdf-schema#comment> "Location identifiers assigned and managed by government bodies, trade organisations, and other entities."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalLocationID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalLocationID> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalLocationID> <http://www.w3.org/2000/01/rdf-schema#label> "Has Additional Location ID"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalLocationID> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/LocationID_Details> <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalLocationID> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalOrganizationID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalOrganizationID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalOrganizationID> <http://www.w3.org/2000/01/rdf-schema#comment> "Party/organisation identifiers assigned and managed by government bodies, trade organisations, and other entities."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalOrganizationID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalOrganizationID> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalOrganizationID> <http://www.w3.org/2000/01/rdf-schema#label> "Has Additional Organization ID"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalOrganizationID> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/OrganizationID_Details> <https://gs1.org/voc/> .
+<https://gs1.org/voc/additionalOrganizationID> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/additionalOrganizationIdentificationTypeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/additionalOrganizationIdentificationTypeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/additionalOrganizationIdentificationTypeValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The value associated with the Additional Organization Identification Type Value."@en <https://gs1.org/voc/> .
@@ -4785,8 +5206,8 @@
 <https://gs1.org/voc/addressSuburb> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/afterHoursContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/afterHoursContact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
-<https://gs1.org/voc/afterHoursContact> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to afterhours contact information for an organization."@en <https://gs1.org/voc/> .
-<https://gs1.org/voc/afterHoursContact> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/afterHoursContact> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to after-hours contact information. For general contact details, gs1:contactPoint SHALL be used."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/afterHoursContact> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n9 <https://gs1.org/voc/> .
 <https://gs1.org/voc/afterHoursContact> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
 <https://gs1.org/voc/afterHoursContact> <http://www.w3.org/2000/01/rdf-schema#label> "Has After Hours Contact"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/afterHoursContact> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/ContactPoint> <https://gs1.org/voc/> .
@@ -5015,6 +5436,14 @@
 <https://gs1.org/voc/awardPrizeYear> <http://www.w3.org/2000/01/rdf-schema#label> "Award Prize Year"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/awardPrizeYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> <https://gs1.org/voc/> .
 <https://gs1.org/voc/awardPrizeYear> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/baseLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/baseLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/baseLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "A fixed physical location where a mobile location most commonly resides. If gs1:glnType is present, gs1:baseLocationGLN SHALL only be used when gs1:glnType is gs1:GLN_TypeCode-MOBILE_PHYSICAL_LOCATION"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/baseLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/baseLocation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/baseLocation> <http://www.w3.org/2000/01/rdf-schema#label> "Base Location"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/baseLocation> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/baseLocation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/bestBeforeDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/bestBeforeDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/bestBeforeDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Best before date on the label or package signifies the end of the period under which the product will retain specific quality attributes or claims even though the product may continue to retain positive quality attributes after this date. Best before date is primarily used for consumer information and may be a regulatory requirement."@en <https://gs1.org/voc/> .
@@ -5440,8 +5869,8 @@
 <https://gs1.org/voc/consumerUsageInstructions> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
-<https://gs1.org/voc/contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to information about a business location for an organization."@en <https://gs1.org/voc/> .
-<https://gs1.org/voc/contactPoint> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/contactPoint> <http://www.w3.org/2000/01/rdf-schema#comment> "Contact information. To specify a contact specifically designated for after-hours support, see gs1:afterHoursContact"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/contactPoint> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n9 <https://gs1.org/voc/> .
 <https://gs1.org/voc/contactPoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
 <https://gs1.org/voc/contactPoint> <http://www.w3.org/2000/01/rdf-schema#label> "Has Business Contact"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/contactPoint> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/ContactPoint> <https://gs1.org/voc/> .
@@ -5466,6 +5895,22 @@
 <https://gs1.org/voc/contactType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> <https://gs1.org/voc/> .
 <https://gs1.org/voc/contactType> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/contactType> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://schema.org/contactType> <https://gs1.org/voc/> .
+<https://gs1.org/voc/containedInPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/containedInPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/containedInPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "Designates the larger physical location a sub-location is located within. To specify sub-locations of a physical location, see gs1:containsPlace."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/containedInPlace> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/containedInPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/containedInPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Contained in Place"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/containedInPlace> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/containedInPlace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/containsPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/containsPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/containsPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "Designates a sub-location (e.g., floor, room, shelf) within the physical location being identified. There may be multiple sub-locations associated to a single, physical location. To specify the larger physical location the sub-location is located within, see gs1:containedInPlace"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/containsPlace> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/containsPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/containsPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Contains Place"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/containsPlace> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/containsPlace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/convenienceLevelPercent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/convenienceLevelPercent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/convenienceLevelPercent> <http://www.w3.org/2000/01/rdf-schema#comment> "An indication of the ease of preparation for semi-prepared products. The convenience level indicates the level of preparation in percentage required to prepare and helps the consumer to assess how long it will take to prepare the meal."@en <https://gs1.org/voc/> .
@@ -5476,7 +5921,7 @@
 <https://gs1.org/voc/convenienceLevelPercent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/coordinateReferenceSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/coordinateReferenceSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
-<https://gs1.org/voc/coordinateReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "Open standard spatial reference systems or coordinate reference systems that provide coordinate-based local, regional or global system used to locate geographical entities.  Values should be URIs already defined by the IOPG Geomatics Committee (https://epsg.org/), such as https://epsg.io/4326 (WGS84); https://epsg.io/4267 (NAD27); https://epsg.io/4230 (ED50); https://epsg.io/4618 (SAD69); https://epsg.io/4269 (NAD83)"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/coordinateReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "Open standard spatial reference systems or coordinate reference systems that provide coordinate-based local, regional or global system used to locate geographical entities.  Values should be URIs already defined by the IOPG Geomatics Committee (https://epsg.org/), such as https://epsg.io/4326 (WGS84); https://epsg.io/4267 (NAD27); https://epsg.io/4230 (ED50); https://epsg.io/4618 (SAD69); https://epsg.io/4269 (NAD83).  For elevation values, gs1:elevation SHALL be used."@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/coordinateReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/GeoCoordinates> <https://gs1.org/voc/> .
 <https://gs1.org/voc/coordinateReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
 <https://gs1.org/voc/coordinateReferenceSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Coordinate Reference System"@en <https://gs1.org/voc/> .
@@ -5658,6 +6103,14 @@
 <https://gs1.org/voc/digitalAddress> <http://www.w3.org/2000/01/rdf-schema#label> "Has Digital Address"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/digitalAddress> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <https://gs1.org/voc/> .
 <https://gs1.org/voc/digitalAddress> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/digitalLocationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/digitalLocationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/digitalLocationName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of a digital place. To specify the name of a physical location, see gs1:physicalLocationName."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/digitalLocationName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/digitalLocationName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/digitalLocationName> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Location Name"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/digitalLocationName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> <https://gs1.org/voc/> .
+<https://gs1.org/voc/digitalLocationName> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/discountRepeatsPerMultipleMinimum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/discountRepeatsPerMultipleMinimum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/discountRepeatsPerMultipleMinimum> <http://www.w3.org/2000/01/rdf-schema#comment> "If specified and set to true, the discount is available for each time the minimum qualifying criteria are met.  This can be used to express '$10 off each $50 spend', which is distinct from a 20% discount because it is quantized in units of spending."@en <https://gs1.org/voc/> .
@@ -6065,6 +6518,14 @@
 <https://gs1.org/voc/geo> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n13 <https://gs1.org/voc/> .
 <https://gs1.org/voc/geo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/geo> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://schema.org/geo> <https://gs1.org/voc/> .
+<https://gs1.org/voc/glnType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/glnType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/glnType> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates what type of thing is being identified by a GLN."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/glnType> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n9 <https://gs1.org/voc/> .
+<https://gs1.org/voc/glnType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/glnType> <http://www.w3.org/2000/01/rdf-schema#label> "Has GLN Type"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/glnType> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/GLN_TypeCode> <https://gs1.org/voc/> .
+<https://gs1.org/voc/glnType> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/globalLocationNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/globalLocationNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/globalLocationNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "A Global Location Number (GLN) is the GS1 Identification Key used to identify physical locations or parties. The key comprises a GS1 Company Prefix, Location Reference and Check Digit. For more information see https://www.gs1.org/gln."@en <https://gs1.org/voc/> .
@@ -6709,7 +7170,7 @@
 <https://gs1.org/voc/lessorFor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
-<https://gs1.org/voc/line> <http://www.w3.org/2000/01/rdf-schema#comment> "A line is a point-to-point path consisting of two or more points. A line is expressed as a series of two or more point objects separated by space."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/line> <http://www.w3.org/2000/01/rdf-schema#comment> "A line is a point-to-point path consisting of two or more point objects separated by a space. A single line segment (i.e., straight line) is expressed as two points.  A multi-line path (i.e., open polygon) is expressed as a series of three or more points. For a closed shape, gs1:polygon SHALL be used."@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/line> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/GeoShape> <https://gs1.org/voc/> .
 <https://gs1.org/voc/line> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
 <https://gs1.org/voc/line> <http://www.w3.org/2000/01/rdf-schema#label> "Line"@en <https://gs1.org/voc/> .
@@ -6737,6 +7198,54 @@
 <https://gs1.org/voc/location> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
 <https://gs1.org/voc/location> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/location> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://schema.org/location> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationGLN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationGLN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationGLN> <http://www.w3.org/2000/01/rdf-schema#comment> "13-digit GLN that is being used to identify a physical or digital location. If gs1:glnType is present, gs1:locationGLN SHALL only be used when gs1:GLN_TypeCode includes FIXED_PHYSICAL_LOCATION, MOBILE_PHYSICAL_LOCATION, or DIGITAL_LOCATION"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationGLN> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationGLN> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationGLN> <http://www.w3.org/2000/01/rdf-schema#label> "Location GLN"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationGLN> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationGLN> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationHistory> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides details on if and when a location is active or inactive."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationHistory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationHistory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationHistory> <http://www.w3.org/2000/01/rdf-schema#label> "Has Location History"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationHistory> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/LocationStatusHistory> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationHistory> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier value associated to a location. This value SHALL follow rules set forth by the administrating organisation designated in gs1:LocationID_Type."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/LocationID_Details> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID> <http://www.w3.org/2000/01/rdf-schema#label> "Location ID"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Qualifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Qualifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Qualifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Secondary qualifier to supplement gs1:LocationID_Type meaning. May be used with proprietary ID code values to define identifier administrator."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Qualifier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/LocationID_Details> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Qualifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Qualifier> <http://www.w3.org/2000/01/rdf-schema#label> "Location ID Qualifier"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Qualifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Qualifier> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "Organisation that administers the gs1:locationID or the name of the ID itself.  Value from gs1:LocationID_Type code list."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/LocationID_Details> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Location ID"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Type> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/LocationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_Type> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_URI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_URI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_URI> <http://www.w3.org/2000/01/rdf-schema#comment> "A URI that links to information about the gs1:locationID."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_URI> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/LocationID_Details> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_URI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_URI> <http://www.w3.org/2000/01/rdf-schema#label> "Location ID URI"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_URI> <http://www.w3.org/2000/01/rdf-schema#range> <file:///Users/mgh12/Documents/Work/GS1/WebVoc-master/v1.9/URI> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationID_URI> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/locationInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/locationInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/locationInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to a map, directions, or other location-related information.  For B2B location  information, see gs1:logisticsInfo.  For details specific to hours of operation, see gs1:openingHoursInfo"@en <https://gs1.org/voc/> .
@@ -6745,6 +7254,22 @@
 <https://gs1.org/voc/locationInfo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> <https://gs1.org/voc/> .
 <https://gs1.org/voc/locationInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://gs1.org/voc/linkType> <https://gs1.org/voc/> .
 <https://gs1.org/voc/locationInfo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationRole> <http://www.w3.org/2000/01/rdf-schema#comment> "A location classification based on the purpose, type of site and/or what occurs there. Repeatable value from gs1:LocationRoleType code list."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationRole> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationRole> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationRole> <http://www.w3.org/2000/01/rdf-schema#label> "Location Role"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationRole> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/LocationRoleType> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationRole> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Designation of active/inactive status of a location."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/LocationStatusHistory> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Location Status"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationStatus> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/StatusType> <https://gs1.org/voc/> .
+<https://gs1.org/voc/locationStatus> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/logisticsInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/logisticsInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/logisticsInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to B2B logistics information related to a physical location."@en <https://gs1.org/voc/> .
@@ -7230,6 +7755,46 @@
 <https://gs1.org/voc/organicPercentClaim> <http://www.w3.org/2000/01/rdf-schema#label> "Organic Percent Claim"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/organicPercentClaim> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> <https://gs1.org/voc/> .
 <https://gs1.org/voc/organicPercentClaim> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationHistory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationHistory> <http://www.w3.org/2000/01/rdf-schema#comment> "Provides details on if and when an organisation/party is active or inactive."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationHistory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationHistory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationHistory> <http://www.w3.org/2000/01/rdf-schema#label> "Has Organization History"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationHistory> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/OrganizationStatusHistory> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationHistory> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier value associated to an organisation/party. This value SHALL follow rules set forth by the administrating organisation designated in gs1:OrganizationID_Type."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/OrganizationID_Details> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation ID"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Qualifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Qualifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Qualifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Secondary qualifier to supplement gs1:organizationID_Type meaning. May be used with proprietary ID code values to define identifier administrator."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Qualifier> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/OrganizationID_Details> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Qualifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Qualifier> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation ID Qualifier"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Qualifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Qualifier> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "Organisation that administers the gs1:organizationID or the name of the ID itself.  Value from gs1:OrganizationID_Type code list."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Type> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/OrganizationID_Details> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation ID"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Type> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/OrganizationID_Type> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_Type> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_URI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_URI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_URI> <http://www.w3.org/2000/01/rdf-schema#comment> "A URI that links to information about the gs1:organizationID."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_URI> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/OrganizationID_Details> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_URI> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_URI> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation ID URI"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_URI> <http://www.w3.org/2000/01/rdf-schema#range> <file:///Users/mgh12/Documents/Work/GS1/WebVoc-master/v1.9/URI> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationID_URI> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/organizationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/organizationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/organizationName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the organization expressed in text."@en <https://gs1.org/voc/> .
@@ -7243,12 +7808,20 @@
 <https://gs1.org/voc/organizationName> <http://www.w3.org/2004/02/skos/core#related> <http://schema.org/PostalAddress> <https://gs1.org/voc/> .
 <https://gs1.org/voc/organizationRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/organizationRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
-<https://gs1.org/voc/organizationRole> <http://www.w3.org/2000/01/rdf-schema#comment> "Code indicating an organization role. Allowed code values are specified in OrganizationalRole code list."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationRole> <http://www.w3.org/2000/01/rdf-schema#comment> "The role and/or purpose of a party (i.e. legal entity or function).  Multiple values from gs1:OrganizationRoleType code list may be associated to a single organisation/party."@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/organizationRole> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
 <https://gs1.org/voc/organizationRole> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
-<https://gs1.org/voc/organizationRole> <http://www.w3.org/2000/01/rdf-schema#label> "Organization Role"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationRole> <http://www.w3.org/2000/01/rdf-schema#label> "Has Organization Role"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/organizationRole> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/OrganizationRoleType> <https://gs1.org/voc/> .
 <https://gs1.org/voc/organizationRole> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Designation of active/inactive status of an organisation/party."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/OrganizationStatusHistory> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation Status"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationStatus> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/StatusType> <https://gs1.org/voc/> .
+<https://gs1.org/voc/organizationStatus> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/originalCodeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/originalCodeValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/originalCodeValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to the alphanumeric code value defined elsewhere in GS1 or the GS1 Global Data Dictionary"@en <https://gs1.org/voc/> .
@@ -7294,7 +7867,7 @@
 <https://gs1.org/voc/outOfPackageWidth> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://schema.org/width> <https://gs1.org/voc/> .
 <https://gs1.org/voc/ownedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/ownedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
-<https://gs1.org/voc/ownedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to the organisation(s) that own this place, in full or in part. This includes joint ventures. For leased locations, see gs1:lessorFor and gs1:leasedFrom."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/ownedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to the organisation(s) that own this place, in full or in part. This includes joint ventures. For leased locations, see gs1:lessorFor and gs1:isLeasedFrom."@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/ownedBy> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n9 <https://gs1.org/voc/> .
 <https://gs1.org/voc/ownedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
 <https://gs1.org/voc/ownedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Owned by"@en <https://gs1.org/voc/> .
@@ -7440,6 +8013,22 @@
 <https://gs1.org/voc/pantothenicAcidPerNutrientBasis> <http://www.w3.org/2000/01/rdf-schema#label> "Pantothenic Acid Per Nutrient Basis Quantity"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/pantothenicAcidPerNutrientBasis> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/NutritionMeasurementType> <https://gs1.org/voc/> .
 <https://gs1.org/voc/pantothenicAcidPerNutrientBasis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/parentOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/parentOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/parentOrganization> <http://www.w3.org/2000/01/rdf-schema#comment> "Designates the legal entity or function directly above the organisation/party being identified in a hierarchy. This is not defaulted to the highest-level entity in the hierarchy. Only one parent organisation SHALL be associated to a single GLN. To specify other affiliated organisations, see gs1:affiliatedTo, gs1:managedBy, gs1:franchiseeOf, gs1:ownedBy. To specify an organisation/party lower in the hierarchy, see gs1:subOrganization."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/parentOrganization> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/parentOrganization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/parentOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "Parent Organization"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/parentOrganization> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/parentOrganization> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/partyGLN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/partyGLN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/partyGLN> <http://www.w3.org/2000/01/rdf-schema#comment> "13-digit GLN that is being used to identify a legal entity or function. If gs1:glnType is present, gs1:partyGLN SHALL only be used when gs1:GLN_TypeCode includes LEGAL_ENTITY and/or FUNCTION"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/partyGLN> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/partyGLN> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/partyGLN> <http://www.w3.org/2000/01/rdf-schema#label> "Party GLN"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/partyGLN> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <https://gs1.org/voc/> .
+<https://gs1.org/voc/partyGLN> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/paymentLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/paymentLink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/paymentLink> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to a place where payments details are provided and/or payments can be made by the user."@en <https://gs1.org/voc/> .
@@ -7472,6 +8061,14 @@
 <https://gs1.org/voc/phosphorusPerNutrientBasis> <http://www.w3.org/2000/01/rdf-schema#label> "Phosphorus Per Nutrient Basis Quantity"@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/phosphorusPerNutrientBasis> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/NutritionMeasurementType> <https://gs1.org/voc/> .
 <https://gs1.org/voc/phosphorusPerNutrientBasis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/physicalLocationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/physicalLocationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/physicalLocationName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of a physical place. To specify the name of a digital location, see gs1:digitalLocationName."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/physicalLocationName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/physicalLocationName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/physicalLocationName> <http://www.w3.org/2000/01/rdf-schema#label> "Physical Location Name"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/physicalLocationName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> <https://gs1.org/voc/> .
+<https://gs1.org/voc/physicalLocationName> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/pip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/pip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/pip> <http://www.w3.org/2000/01/rdf-schema#comment> "A link to information specifically about the identified item, typically operated by the brand owner or a retailer of the product and aimed at consumers. It may include links to further information, product description, specifications etc."@en <https://gs1.org/voc/> .
@@ -7969,6 +8566,22 @@
 <https://gs1.org/voc/relatedVideo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> <https://gs1.org/voc/> .
 <https://gs1.org/voc/relatedVideo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://gs1.org/voc/linkType> <https://gs1.org/voc/> .
 <https://gs1.org/voc/relatedVideo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByOrganization> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to the successor organisation that is used in place of a previous organisation"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByOrganization> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByOrganization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "Replaced by organization"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByOrganization> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByOrganization> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to the successor location that is used in place of a previous location"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByPlace> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Replaced by Place"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByPlace> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedByPlace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/replacedByProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/replacedByProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/replacedByProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "The product which permanently replaces the current product. This product is sent in the record for the original item that is being replaced."@en <https://gs1.org/voc/> .
@@ -7978,6 +8591,22 @@
 <https://gs1.org/voc/replacedByProduct> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/Product> <https://gs1.org/voc/> .
 <https://gs1.org/voc/replacedByProduct> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/isSimilarTo> <https://gs1.org/voc/> .
 <https://gs1.org/voc/replacedByProduct> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedOrganization> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to the previous organisation that this organisation replaces"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedOrganization> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedOrganization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "Replaced organization"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedOrganization> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedOrganization> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "Links to the previous location that this location replaces"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedPlace> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Replaced Place"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedPlace> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+<https://gs1.org/voc/replacedPlace> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/replacedProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/replacedProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/replacedProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the product identification of an item that is being permanently replaced by this product."@en <https://gs1.org/voc/> .
@@ -8312,9 +8941,17 @@
 <https://gs1.org/voc/statisticInfo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> <https://gs1.org/voc/> .
 <https://gs1.org/voc/statisticInfo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://gs1.org/voc/linkType> <https://gs1.org/voc/> .
 <https://gs1.org/voc/statisticInfo> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
+<https://gs1.org/voc/statusTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/statusTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/statusTimestamp> <http://www.w3.org/2000/01/rdf-schema#comment> "Date and time (including optional timezone) associated to status designations. Timestamps may be future dated to provide advance notice of status changes. For further information about the required lexical representation of date, time, and timezone please see https://www.w3.org/TR/xmlschema-2/#dateTime"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/statusTimestamp> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n16 <https://gs1.org/voc/> .
+<https://gs1.org/voc/statusTimestamp> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/statusTimestamp> <http://www.w3.org/2000/01/rdf-schema#label> "Status Timestamp"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/statusTimestamp> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> <https://gs1.org/voc/> .
+<https://gs1.org/voc/statusTimestamp> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
-<https://gs1.org/voc/streetAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "The street address expressed as free form text. The street address is printed on paper as the first lines below the name. For example, the name of the street and the number in the street or the name of a building."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/streetAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "The street address expressed as free form text. The street address is printed on paper as the first lines below the name. For example, the name of the street and the number in the street or the name of a building. A total of four street address lines are available. gs1:streetAddress SHOULD be used before populating lines two through four. For a PO Box gs1:postOfficeBoxNumber SHOULD be used instead."@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddress> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/PostalAddress> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddress> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddress> <http://www.w3.org/2000/01/rdf-schema#label> "Street Address"@en <https://gs1.org/voc/> .
@@ -8324,7 +8961,7 @@
 <https://gs1.org/voc/streetAddress> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/2006/vcard/ns#street-address> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
-<https://gs1.org/voc/streetAddressLine2> <http://www.w3.org/2000/01/rdf-schema#comment> "The street address, expressed as free form text. The street address is printed on paper as the first lines below the name. For example, the name of the street and the number in the street or the name of a building. A total of four street address lines are available. gs1:streetAddress SHOULD be used before populating lines two through four."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/streetAddressLine2> <http://www.w3.org/2000/01/rdf-schema#comment> "The second line of the street address, expressed as free form text. The street address is printed on paper as the first lines below the name. For example, the name of the street and the number in the street or the name of a building. A total of four street address lines are available. gs1:streetAddress SHOULD be used before populating lines two through four. These SHALL NOT be used as alternatives to the dedicated address properties gs1:addressSuburb, gs1:addressLocality and gs1:addressRegion."@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine2> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/PostalAddress> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine2> <http://www.w3.org/2000/01/rdf-schema#label> "Street Address Line 2"@en <https://gs1.org/voc/> .
@@ -8332,7 +8969,7 @@
 <https://gs1.org/voc/streetAddressLine2> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
-<https://gs1.org/voc/streetAddressLine3> <http://www.w3.org/2000/01/rdf-schema#comment> "The street address, expressed as free form text. The street address is printed on paper as the first lines below the name. For example, the name of the street and the number in the street or the name of a building. A total of four street address lines are available. gs1:streetAddress and gs1:streetaddressLine2 SHOULD be used before populating lines three and four."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/streetAddressLine3> <http://www.w3.org/2000/01/rdf-schema#comment> "The third line of the street address, expressed as free form text. The street address is printed on paper as the first lines below the name. For example, the name of the street and the number in the street or the name of a building. A total of four street address lines are available. gs1:streetAddress and gs1:streetaddressLine2 SHOULD be used before populating lines three and four. These SHALL NOT be used as alternatives to the dedicated address properties gs1:addressSuburb, gs1:addressLocality and gs1:addressRegion."@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine3> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/PostalAddress> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine3> <http://www.w3.org/2000/01/rdf-schema#label> "Street Address Line 3"@en <https://gs1.org/voc/> .
@@ -8340,7 +8977,7 @@
 <https://gs1.org/voc/streetAddressLine3> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://gs1.org/voc/> .
-<https://gs1.org/voc/streetAddressLine4> <http://www.w3.org/2000/01/rdf-schema#comment> "The street address, expressed as free form text. The street address is printed on paper as the first lines below the name. For example, the name of the street and the number in the street or the name of a building. gs1:streetAddress, gs1:streetaddressLine2 and gs1:streetaddressLine3 SHOULD be used before populating gs1:streetaddressLine4."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/streetAddressLine4> <http://www.w3.org/2000/01/rdf-schema#comment> "The fourth line of the street address, expressed as free form text. The street address is printed on paper as the first lines below the name. For example, the name of the street and the number in the street or the name of a building. gs1:streetAddress, gs1:streetaddressLine2 and gs1:streetaddressLine3 SHOULD be used before populating line four. These SHALL NOT be used as alternatives to the dedicated address properties gs1:addressSuburb, gs1:addressLocality and gs1:addressRegion."@en <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine4> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/PostalAddress> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
 <https://gs1.org/voc/streetAddressLine4> <http://www.w3.org/2000/01/rdf-schema#label> "Street Address Line 4"@en <https://gs1.org/voc/> .
@@ -8364,6 +9001,14 @@
 <https://gs1.org/voc/subBrandName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/name> <https://gs1.org/voc/> .
 <https://gs1.org/voc/subBrandName> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/subBrandName> <http://www.w3.org/2004/02/skos/core#related> <http://schema.org/Brand> <https://gs1.org/voc/> .
+<https://gs1.org/voc/subOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
+<https://gs1.org/voc/subOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
+<https://gs1.org/voc/subOrganization> <http://www.w3.org/2000/01/rdf-schema#comment> "Designates a legal entity or function directly below the organisation/party being identified in a hierarchy. There may be multiple sub-organisations associated to a single GLN. To specify other affiliated organisations, see gs1:manages, gs1:franchisorOf, gs1:owns. To specify a parent organisation, see gs1:parentOrganization."@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/subOrganization> <http://www.w3.org/2000/01/rdf-schema#domain> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/subOrganization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://gs1.org/voc/> <https://gs1.org/voc/> .
+<https://gs1.org/voc/subOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "Sub-Organization"@en <https://gs1.org/voc/> .
+<https://gs1.org/voc/subOrganization> <http://www.w3.org/2000/01/rdf-schema#range> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
+<https://gs1.org/voc/subOrganization> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" <https://gs1.org/voc/> .
 <https://gs1.org/voc/sugarsPerNutrientBasis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://gs1.org/voc/> .
 <https://gs1.org/voc/sugarsPerNutrientBasis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://gs1.org/voc/> .
 <https://gs1.org/voc/sugarsPerNutrientBasis> <http://www.w3.org/2000/01/rdf-schema#comment> "Sugars per specified nutrient basis quantity."@en <https://gs1.org/voc/> .
@@ -8726,18 +9371,24 @@ _:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gs1.org/voc
 _:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n1 <https://gs1.org/voc/> .
 _:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://gs1.org/voc/> .
 _:c14n13 <http://www.w3.org/2002/07/owl#unionOf> _:c14n10 <https://gs1.org/voc/> .
-_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gs1.org/voc/LocationStatusHistory> <https://gs1.org/voc/> .
 _:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://gs1.org/voc/> .
-_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
-_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://gs1.org/voc/> .
+_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gs1.org/voc/OrganizationStatusHistory> <https://gs1.org/voc/> .
+_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n14 <https://gs1.org/voc/> .
+_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://gs1.org/voc/> .
+_:c14n16 <http://www.w3.org/2002/07/owl#unionOf> _:c14n15 <https://gs1.org/voc/> .
+_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://gs1.org/voc/> .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gs1.org/voc/Place> <https://gs1.org/voc/> .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <https://gs1.org/voc/> .
 _:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://gs1.org/voc/> .
 _:c14n2 <http://www.w3.org/2002/07/owl#unionOf> _:c14n4 <https://gs1.org/voc/> .
 _:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
-_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n14 <https://gs1.org/voc/> .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n17 <https://gs1.org/voc/> .
 _:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gs1.org/voc/PostalAddress> <https://gs1.org/voc/> .
 _:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n0 <https://gs1.org/voc/> .
 _:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gs1.org/voc/Organization> <https://gs1.org/voc/> .
-_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n15 <https://gs1.org/voc/> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n18 <https://gs1.org/voc/> .
 _:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://gs1.org/voc/> .
 _:c14n6 <http://www.w3.org/2002/07/owl#unionOf> _:c14n12 <https://gs1.org/voc/> .
 _:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://gs1.org/voc/Product> <https://gs1.org/voc/> .
