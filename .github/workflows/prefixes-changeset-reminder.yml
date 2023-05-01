@@ -1,7 +1,7 @@
 name: Prefix reminder
 
 on:
-  pull_request:
+  - pull_request
 
 jobs:
   build:
@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: remind-about-prefixes
-      uses: github-actions-up-and-running/pr-comment@v1.0.0
+      uses: exercism/pr-commenter-action@v1.4.0
       with:
-        message: "Did you remember to add changeset to `@zazuko/prefixes`?"
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        config-file: ".github/pr-commenter.yml"
