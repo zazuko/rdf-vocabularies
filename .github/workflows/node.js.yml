@@ -24,7 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: yarn install --frozen-lockfile
     - run: npm run test
-    - run: npm run prerelease
+    - run: npx wsrun -y 10 -lm --report -c prepack
 
     - name: Codecov
       uses: codecov/codecov-action@v3
