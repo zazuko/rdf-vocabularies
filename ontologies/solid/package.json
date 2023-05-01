@@ -1,0 +1,27 @@
+{
+  "name": "@vocabulary/solid",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "The Solid Terms vocabulary defines terms referenced in Solid specifications",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "prebuild": "vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.0"
+  },
+  "homepage": "https://prefix.zazuko.com/prefix/solid:",
+  "vocabulary": {
+    "prefix": "solid",
+    "namespace": "http://www.w3.org/ns/solid/terms#"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

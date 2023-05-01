@@ -1,0 +1,5 @@
+<https://prefix.zazuko.com/pim:> <http://dbpedia.org/ontology/filename> "@vocabulary/pim/pim.nq" .
+<https://prefix.zazuko.com/pim:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/pim:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/pim/space#> .
+<https://prefix.zazuko.com/pim:> <http://www.w3.org/ns/rdfa#prefix> "pim" .
+<https://prefix.zazuko.com/pim:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/pim/space#> .

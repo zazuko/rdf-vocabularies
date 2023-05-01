@@ -1,0 +1,27 @@
+{
+  "name": "@vocabulary/cert",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Ontology for Certificates and crypto stuff",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "prebuild": "vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.0"
+  },
+  "license": "MIT",
+  "homepage": "https://prefix.zazuko.com/prefix/cert:",
+  "vocabulary": {
+    "prefix": "cert",
+    "namespace": "http://www.w3.org/ns/auth/cert#"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

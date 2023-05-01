@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/oidc:> <http://dbpedia.org/ontology/filename> "@vocabulary/oidc/oidc.nq" .
+<https://prefix.zazuko.com/oidc:> <http://purl.org/dc/terms/description> "The OpenID Connect vocabulary used by the Solid-OIDC authentication specification." .
+<https://prefix.zazuko.com/oidc:> <http://purl.org/dc/terms/title> "Solid OIDC" .
+<https://prefix.zazuko.com/oidc:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/oidc:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> .
+<https://prefix.zazuko.com/oidc:> <http://www.w3.org/ns/rdfa#prefix> "oidc" .
+<https://prefix.zazuko.com/oidc:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/solid/oidc#> .
