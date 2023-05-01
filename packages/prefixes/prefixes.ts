@@ -26,7 +26,7 @@ const packagedPrefixes = {
   dqv: 'http://www.w3.org/ns/dqv#',
   dtype: 'http://www.linkedmodel.org/schema/dtype#',
   duv: 'http://www.w3.org/ns/duv#',
-  earl: 'https://www.w3.org/ns/earl#',
+  earl: 'http://www.w3.org/ns/earl#',
   ebucore: 'http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#',
   exif: 'http://www.w3.org/2003/12/exif/ns#',
   foaf: 'http://xmlns.com/foaf/0.1/',

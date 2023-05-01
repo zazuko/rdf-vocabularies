@@ -14,9 +14,9 @@
   "homepage": "https://prefix.zazuko.com/prefix/earl:",
   "vocabulary": {
     "prefix": "earl",
-    "namespace": "https://www.w3.org/ns/earl#",
+    "namespace": "http://www.w3.org/ns/earl#",
     "xmlParserOptions": {
-      "baseIRI": "https://www.w3.org/ns/earl#"
+      "baseIRI": "http://www.w3.org/ns/earl#"
     }
   },
   "license": "MIT",
