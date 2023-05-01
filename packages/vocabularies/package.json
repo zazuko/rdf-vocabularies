@@ -71,6 +71,7 @@
     "@vocabulary/locn": "^1.0.0",
     "@vocabulary/log": "^1.0.0",
     "@vocabulary/lvont": "^1.0.0",
+    "@vocabulary/m4i": "^0.0.0",
     "@vocabulary/ma": "^1.0.0",
     "@vocabulary/mads": "^1.0.0",
     "@vocabulary/math": "^1.0.0",

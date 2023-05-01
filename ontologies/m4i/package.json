@@ -1,0 +1,25 @@
+{
+  "name": "@vocabulary/m4i",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Metadata4Ing: An ontology for describing the generation of research data within a scientific activity.",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "generate-module": "vocab-build module"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.0"
+  },
+  "homepage": "https://prefix.zazuko.com/prefix/m4i:",
+  "vocabulary": {
+    "prefix": "m4i",
+    "namespace": "http://w3id.org/nfdi4ing/metadata4ing#"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}
