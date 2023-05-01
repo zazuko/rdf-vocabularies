@@ -9,10 +9,7 @@
     "pretest": "wsrun -p @zazuko/vocabularies -c prepack",
     "test": "c8 -i src mocha packages/**/*.test.ts",
     "posttest": "c8 report --reporter=text-lcov >> ./coverage/lcov.info",
-    "prebuild": "wsrun -y 10 -lm --report -c generate-module",
-    "build": "tsc",
     "postinstall": "patch-package",
-    "prerelease": "npm run build",
     "release": "changeset publish"
   },
   "repository": {
