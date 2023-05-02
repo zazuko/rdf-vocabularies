@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/solid",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "description": "The Solid Terms vocabulary defines terms referenced in Solid specifications",
   "scripts": {
@@ -10,7 +10,7 @@
     "prepack": "npm run build"
   },
   "devDependencies": {
-    "@vocabulary/builder": "^1.0.0"
+    "@vocabulary/builder": "^1.0.1"
   },
   "homepage": "https://prefix.zazuko.com/prefix/solid:",
   "vocabulary": {

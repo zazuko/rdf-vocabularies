@@ -1,5 +1,11 @@
 # @vocabulary/earl
 
+## 2.0.0
+
+### Major Changes
+
+- 1fcd6bf: Use correct namespace for EARL
+
 ## 1.0.0
 
 ### Major Changes
