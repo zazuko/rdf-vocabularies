@@ -49,6 +49,7 @@ const packagedPrefixes = {
   locn: 'http://www.w3.org/ns/locn#',
   log: 'http://www.w3.org/2000/10/swap/log#',
   lvont: 'http://lexvo.org/ontology#',
+  m4i: 'http://w3id.org/nfdi4ing/metadata4ing#',
   ma: 'http://www.w3.org/ns/ma-ont#',
   mads: 'http://www.loc.gov/mads/rdf/v1#',
   math: 'http://www.w3.org/2000/10/swap/math#',
