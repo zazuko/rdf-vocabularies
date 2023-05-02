@@ -14,7 +14,7 @@
   "vocabulary": {
     "prefix": "gs1",
     "namespace": "https://gs1.org/voc/",
-    "file": "https://www.gs1.org/docs/gs1-smartsearch/gs1Voc_v1_8.ttl",
+    "file": "https://www.gs1.org/docs/gs1-smartsearch/gs1Voc_v1_9.ttl",
     "mediaType": "text/turtle"
   },
   "license": "MIT",
