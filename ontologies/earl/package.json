@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/earl",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "scripts": {
     "fetch": "vocab-build datasets",
@@ -9,7 +9,7 @@
     "prepack": "npm run build"
   },
   "devDependencies": {
-    "@vocabulary/builder": "^1.0.0"
+    "@vocabulary/builder": "^1.0.1"
   },
   "homepage": "https://prefix.zazuko.com/prefix/earl:",
   "vocabulary": {

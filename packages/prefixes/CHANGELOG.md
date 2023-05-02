@@ -1,5 +1,20 @@
 # @zazuko/prefixes
 
+## 2.0.0
+
+### Major Changes
+
+- 1fcd6bf: Use correct namespace for EARL
+
+### Minor Changes
+
+- 7a13928: New vocab `m4i` (Metadata4Ing: An ontology for describing the generation of research data within a scientific activity.)
+- f63ae7f: New prefixes: `cert`, `oidc`, `solid`, `stat`, `pim`
+
+### Patch Changes
+
+- cc3782e: Updated to version 1.9
+
 ## 1.0.0
 
 ### Major Changes

@@ -1,5 +1,15 @@
 # @vocabulary/builder
 
+## 1.0.1
+
+### Patch Changes
+
+- Updated dependencies [cc3782e]
+- Updated dependencies [7a13928]
+- Updated dependencies [1fcd6bf]
+- Updated dependencies [f63ae7f]
+  - @zazuko/prefixes@2.0.0
+
 ## 1.0.0
 
 ### Major Changes

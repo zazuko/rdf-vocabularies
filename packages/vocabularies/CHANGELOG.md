@@ -1,5 +1,33 @@
 # @zazuko/vocabularies
 
+## 2.0.0
+
+### Major Changes
+
+- 1fcd6bf: Use correct namespace for EARL
+
+### Minor Changes
+
+- 7a13928: New vocab `m4i` (Metadata4Ing: An ontology for describing the generation of research data within a scientific activity.)
+
+### Patch Changes
+
+- Updated dependencies [cc3782e]
+- Updated dependencies [7a13928]
+- Updated dependencies [1fcd6bf]
+- Updated dependencies [7a13928]
+- Updated dependencies [f63ae7f]
+- Updated dependencies [f63ae7f]
+  - @vocabulary/gs1@1.1.0
+  - @zazuko/prefixes@2.0.0
+  - @vocabulary/earl@2.0.0
+  - @vocabulary/m4i@1.0.0
+  - @vocabulary/solid@1.0.0
+  - @vocabulary/oidc@1.0.0
+  - @vocabulary/stat@1.0.0
+  - @vocabulary/cert@1.0.0
+  - @vocabulary/pim@1.0.0
+
 ## 1.0.0
 
 ### Major Changes
