@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig",
+  "files": [
+    "index.ts",
+    "expand.ts",
+    "expandWithCheck.ts",
+    "meta.ts",
+    "shrink.ts",
+    "prefixes.ts",
+    "vocabularies.ts"
+  ]
+}
