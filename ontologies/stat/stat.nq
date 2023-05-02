@@ -1,0 +1,13 @@
+<http://www.w3.org/ns/posix/stat#atime> <http://www.w3.org/2000/01/rdf-schema#comment> "time of last access" <http://www.w3.org/ns/posix/stat#> .
+<http://www.w3.org/ns/posix/stat#blksize> <http://www.w3.org/2000/01/rdf-schema#comment> "blocksize for file system I/O" <http://www.w3.org/ns/posix/stat#> .
+<http://www.w3.org/ns/posix/stat#blocks> <http://www.w3.org/2000/01/rdf-schema#comment> "number of 512B blocks allocated" <http://www.w3.org/ns/posix/stat#> .
+<http://www.w3.org/ns/posix/stat#ctime> <http://www.w3.org/2000/01/rdf-schema#comment> "time of last status change" <http://www.w3.org/ns/posix/stat#> .
+<http://www.w3.org/ns/posix/stat#dev> <http://www.w3.org/2000/01/rdf-schema#comment> "ID of device containing file" <http://www.w3.org/ns/posix/stat#> .
+<http://www.w3.org/ns/posix/stat#gid> <http://www.w3.org/2000/01/rdf-schema#comment> "group ID of owner" <http://www.w3.org/ns/posix/stat#> .
+<http://www.w3.org/ns/posix/stat#ino> <http://www.w3.org/2000/01/rdf-schema#comment> "inode number" <http://www.w3.org/ns/posix/stat#> .
+<http://www.w3.org/ns/posix/stat#mode> <http://www.w3.org/2000/01/rdf-schema#comment> "protection" <http://www.w3.org/ns/posix/stat#> .
+<http://www.w3.org/ns/posix/stat#mtime> <http://www.w3.org/2000/01/rdf-schema#comment> "time of last modification" <http://www.w3.org/ns/posix/stat#> .
+<http://www.w3.org/ns/posix/stat#nlink> <http://www.w3.org/2000/01/rdf-schema#comment> "number of hard links" <http://www.w3.org/ns/posix/stat#> .
+<http://www.w3.org/ns/posix/stat#rdev> <http://www.w3.org/2000/01/rdf-schema#comment> "device ID (if special file)" <http://www.w3.org/ns/posix/stat#> .
+<http://www.w3.org/ns/posix/stat#size> <http://www.w3.org/2000/01/rdf-schema#comment> "total size, in bytes" <http://www.w3.org/ns/posix/stat#> .
+<http://www.w3.org/ns/posix/stat#uid> <http://www.w3.org/2000/01/rdf-schema#comment> "user ID of owner" <http://www.w3.org/ns/posix/stat#> .

@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/solid:> <http://dbpedia.org/ontology/filename> "@vocabulary/solid/solid.nq" .
+<https://prefix.zazuko.com/solid:> <http://purl.org/dc/terms/description> "The Solid Terms vocabulary defines terms referenced in Solid specifications." .
+<https://prefix.zazuko.com/solid:> <http://purl.org/dc/terms/title> "Solid Terms" .
+<https://prefix.zazuko.com/solid:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/solid:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> .
+<https://prefix.zazuko.com/solid:> <http://www.w3.org/ns/rdfa#prefix> "solid" .
+<https://prefix.zazuko.com/solid:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/solid/terms#> .

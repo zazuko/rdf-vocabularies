@@ -1,0 +1,64 @@
+<http://www.w3.org/ns/pim/space#ConfigurationFile> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/gen/ont#InformationResource> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#ControlledStorage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#ControlledStorage> <http://www.w3.org/2000/01/rdf-schema#comment> "A  storage is a space of URIs in which you can individually control for each resource\n    who has access to it.\n" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#ControlledStorage> <http://www.w3.org/2000/01/rdf-schema#label> "access controlled storage" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#ControlledStorage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/pim/space#Storage> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#MasterWorkspace> <http://www.w3.org/2000/01/rdf-schema#comment> "This is a workspace for storing the\n    information about the other workspaces.\n    As a user, you normally don't have to worry about it." <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#MasterWorkspace> <http://www.w3.org/2000/01/rdf-schema#label> "Master Workspace"@en <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#MasterWorkspace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/pim/space#PrivateWorkspace> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PersonalStorage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PersonalStorage> <http://www.w3.org/2000/01/rdf-schema#comment> "A personal storage is a space of URIs in which you and only you have access to data,\n    you cannot give access to anyone else.\n" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PersonalStorage> <http://www.w3.org/2000/01/rdf-schema#label> "personal storage" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PersonalStorage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/pim/space#Storage> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PreferencesWorkspace> <http://www.w3.org/2000/01/rdf-schema#comment> "Aceess may not be open to the public. Contains preferences resources." <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PreferencesWorkspace> <http://www.w3.org/2000/01/rdf-schema#label> "Preferences workspace" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PreferencesWorkspace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/pim/space#Workspace> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PrivateWorkspace> <http://www.w3.org/2000/01/rdf-schema#comment> "Access only by the you, the user." <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PrivateWorkspace> <http://www.w3.org/2000/01/rdf-schema#label> "Private workspace" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PrivateWorkspace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/pim/space#Workspace> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PublicStorage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PublicStorage> <http://www.w3.org/2000/01/rdf-schema#comment> "A public storage is a space of URIs in which you have access to data,\n    and all data is accessible to anyone without control.\n" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PublicStorage> <http://www.w3.org/2000/01/rdf-schema#label> "public storage" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PublicStorage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/pim/space#Storage> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PublicWorkspace> <http://www.w3.org/2000/01/rdf-schema#comment> "Aceess is open to the public. Anything in a public workspace\n    can be accesed by anyone." <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PublicWorkspace> <http://www.w3.org/2000/01/rdf-schema#label> "Public workspace" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#PublicWorkspace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/pim/space#Workspace> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#SharedWorkspace> <http://www.w3.org/2000/01/rdf-schema#comment> "Access is to some but not all people." <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#SharedWorkspace> <http://www.w3.org/2000/01/rdf-schema#label> "Shared workspace" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#SharedWorkspace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/pim/space#Workspace> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#Storage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#Storage> <http://www.w3.org/2000/01/rdf-schema#comment> "A storage is a space of URIs in which you have access to data.\n" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#Storage> <http://www.w3.org/2000/01/rdf-schema#label> "storage" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#Workspace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#Workspace> <http://www.w3.org/2000/01/rdf-schema#comment> "Workspaces are place where data is stored, and associated polices of privacy.\nA given application typically stores information in several different\nworkspaces, some being user private, some shared, and some public.\n" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#Workspace> <http://www.w3.org/2000/01/rdf-schema#label> "workspace" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#Workspace> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:c14n2 <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#masterWorkspace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#masterWorkspace> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#masterWorkspace> <http://www.w3.org/2000/01/rdf-schema#label> "master workspace"@en <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#masterWorkspace> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/pim/space#MasterWorkspace> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#preferencesFile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#preferencesFile> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#preferencesFile> <http://www.w3.org/2000/01/rdf-schema#label> "preferences file" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#preferencesFile> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/pim/space#ConfigurationFile> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#storage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#storage> <http://www.w3.org/2000/01/rdf-schema#comment> "The storage in which this workspace is, or the storage which\ncontains this resource, or a storage available to this agent to use." <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#storage> <http://www.w3.org/2000/01/rdf-schema#label> "storage" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#storage> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/pim/space#Storage> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#uriPrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#uriPrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#uriPrefix> <http://www.w3.org/2000/01/rdf-schema#comment> "URIs which start with this string are in this workspace or storage.\nThis may be used for constructing URIs for new storage resources.\n" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#uriPrefix> <http://www.w3.org/2000/01/rdf-schema#label> "URI prefix" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#uriPrefix> <http://www.w3.org/ns/ui#prompt> "Give the first part of the URis in this workspace" <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#workspace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#workspace> <http://www.w3.org/2000/01/rdf-schema#label> "workspace"@en <http://www.w3.org/ns/pim/space#> .
+<http://www.w3.org/ns/pim/space#workspace> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/pim/space#Workspace> <http://www.w3.org/ns/pim/space#> .
+<https://www.w3.org/ns/pim/space> <http://purl.org/dc/elements/1.1/title> "Workspace Ontology" <http://www.w3.org/ns/pim/space#> .
+<https://www.w3.org/ns/pim/space> <http://www.w3.org/2000/01/rdf-schema#comment> "This ontology is for use in describing\nWorkspaces.  Workspaces are places where data is stored and associated policies of privacy.\nA given application typically stores information in several different\nworkspaces, some being user private, some shared, and some public.\nit is crucial that the user has easy control over the destiny of information.\n\nGoals then are that the user can\n\n      - create workspaces\n      - easily understand which workspace data is going into\n      - understand what the implications of that are\n      - (later) set ACLS on them\n      - publish apropriate use policies for them\n\n" <http://www.w3.org/ns/pim/space#> .
+<https://www.w3.org/ns/pim/space> <http://www.w3.org/2000/10/swap/pim/doc#version> "$Id: space.ttl,v 1.4 2021/10/01 18:47:19 timbl Exp $" <http://www.w3.org/ns/pim/space#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/pim/space#PublicWorkspace> <http://www.w3.org/ns/pim/space#> .
+_:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/pim/space#> .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/pim/space#SharedWorkspace> <http://www.w3.org/ns/pim/space#> .
+_:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n0 <http://www.w3.org/ns/pim/space#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/pim/space#PrivateWorkspace> <http://www.w3.org/ns/pim/space#> .
+_:c14n2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n1 <http://www.w3.org/ns/pim/space#> .

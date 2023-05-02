@@ -1,0 +1,27 @@
+{
+  "name": "@vocabulary/pim",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Workspace Ontology",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "prebuild": "vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.0"
+  },
+  "homepage": "https://prefix.zazuko.com/prefix/pim:",
+  "vocabulary": {
+    "prefix": "pim",
+    "namespace": "http://www.w3.org/ns/pim/space#"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

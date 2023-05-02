@@ -1,0 +1,79 @@
+<http://www.w3.org/ns/solid/oidc#> <http://purl.org/dc/terms/issued> "2021-06-07"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#> <http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "oidc" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/ns/solid/oidc#"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/2000/01/rdf-schema#comment> "The OpenID Connect vocabulary used by the Solid-OIDC authentication specification."@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/2000/01/rdf-schema#label> "Solid OIDC"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://openid.net/specs/openid-connect-registration-1_0.html> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#application_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#application_type> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#application_type> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#application_type> <http://www.w3.org/2000/01/rdf-schema#label> "application type"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#application_type> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#client_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#client_name> <http://www.w3.org/2000/01/rdf-schema#comment> "A name for this client that can be presented to an End-User"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#client_name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#client_name> <http://www.w3.org/2000/01/rdf-schema#label> "client name"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#client_name> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#client_uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#client_uri> <http://www.w3.org/2000/01/rdf-schema#comment> "A URI for this client's home page"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#client_uri> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#client_uri> <http://www.w3.org/2000/01/rdf-schema#label> "client URI"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#client_uri> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#contacts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#contacts> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of URIs where individuals or entities responsible for this client can be contacted."@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#contacts> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#contacts> <http://www.w3.org/2000/01/rdf-schema#label> "contacts"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#contacts> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#default_max_age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#default_max_age> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#default_max_age> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#default_max_age> <http://www.w3.org/2000/01/rdf-schema#label> "default max age"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#default_max_age> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#grant_types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#grant_types> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of OAuth 2.0 Grant Types that the client will restrict itself to using."@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#grant_types> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#grant_types> <http://www.w3.org/2000/01/rdf-schema#label> "grant types"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#grant_types> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#logo_uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#logo_uri> <http://www.w3.org/2000/01/rdf-schema#comment> "A URI for this client's logo"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#logo_uri> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#logo_uri> <http://www.w3.org/2000/01/rdf-schema#label> "logo URI"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#logo_uri> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#policy_uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#policy_uri> <http://www.w3.org/2000/01/rdf-schema#comment> "A URI for this client's policy document"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#policy_uri> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#policy_uri> <http://www.w3.org/2000/01/rdf-schema#label> "policy URI"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#policy_uri> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#redirect_uris> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#redirect_uris> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of registered URIs used by the client for redirection"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#redirect_uris> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#redirect_uris> <http://www.w3.org/2000/01/rdf-schema#label> "redirect URIs"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#redirect_uris> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#require_auth_time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#require_auth_time> <http://www.w3.org/2000/01/rdf-schema#comment> "TODO"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#require_auth_time> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#require_auth_time> <http://www.w3.org/2000/01/rdf-schema#label> "require auth time"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#require_auth_time> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#response_types> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#response_types> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of OAuth 2.0 Response Types that the client will restrict itself to using."@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#response_types> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#response_types> <http://www.w3.org/2000/01/rdf-schema#label> "response types"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#response_types> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#scope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#scope> <http://www.w3.org/2000/01/rdf-schema#comment> "An OAuth2 scope for the requested access token."@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#scope> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#scope> <http://www.w3.org/2000/01/rdf-schema#label> "scope"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#scope> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#token_endpoint_auth_method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#token_endpoint_auth_method> <http://www.w3.org/2000/01/rdf-schema#comment> "The requested client authentication method for the Token Endpoint"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#token_endpoint_auth_method> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#token_endpoint_auth_method> <http://www.w3.org/2000/01/rdf-schema#label> "token endpoint auth method"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#token_endpoint_auth_method> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#tos_uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#tos_uri> <http://www.w3.org/2000/01/rdf-schema#comment> "A URI for this client's terms of service document"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#tos_uri> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/oidc#> <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#tos_uri> <http://www.w3.org/2000/01/rdf-schema#label> "ToS URI"@en <http://www.w3.org/ns/solid/oidc#> .
+<http://www.w3.org/ns/solid/oidc#tos_uri> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/solid/oidc#> .

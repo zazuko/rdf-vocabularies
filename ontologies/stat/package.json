@@ -1,0 +1,30 @@
+{
+  "name": "@vocabulary/stat",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Describes terms for POSIX-like files and directory listings",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "prebuild": "vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.0"
+  },
+  "homepage": "https://prefix.zazuko.com/prefix/stat:",
+  "vocabulary": {
+    "prefix": "stat",
+    "namespace": "http://www.w3.org/ns/posix/stat#",
+    "xmlParserOptions": {
+      "baseIRI": "http://www.w3.org/ns/posix/stat#"
+    }
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

@@ -1,0 +1,209 @@
+<http://www.w3.org/ns/solid/terms#> <http://purl.org/dc/terms/issued> "2015-11-16"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#> <http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "solid" <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://www.w3.org/ns/solid/terms#"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#> <http://www.w3.org/2000/01/rdf-schema#comment> "The Solid Terms vocabulary defines terms referenced in Solid specifications."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#> <http://www.w3.org/2000/01/rdf-schema#label> "Solid Terms"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#> <http://www.w3.org/2002/07/owl#versionInfo> _:c14n0 <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Account> <http://purl.org/dc/terms/issued> "2016-05-17"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Account> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Account> <http://www.w3.org/2000/01/rdf-schema#comment> "A Solid account."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Account> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Account> <http://www.w3.org/2000/01/rdf-schema#label> "Account"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Inbox> <http://purl.org/dc/terms/issued> "2015-11-16"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Inbox> <http://purl.org/dc/terms/modified> "2018-10-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Inbox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Inbox> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource containing notifications."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Inbox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Inbox> <http://www.w3.org/2000/01/rdf-schema#label> "Inbox"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#InsertDeletePatch> <http://purl.org/dc/terms/issued> "2022-05-03"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#InsertDeletePatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#InsertDeletePatch> <http://www.w3.org/2000/01/rdf-schema#comment> "A class of patch expressing insertions, deletions, and conditional modifications to a resource that has an RDF-based representation."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#InsertDeletePatch> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#InsertDeletePatch> <http://www.w3.org/2000/01/rdf-schema#label> "Insert/delete patch"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#InsertDeletePatch> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://solidproject.org/TR/2021/protocol-20211217#server-patch-n3-type> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#InsertDeletePatch> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/solid/terms#Patch> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#ListedDocument> <http://purl.org/dc/terms/issued> "2015-11-16"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#ListedDocument> <http://purl.org/dc/terms/modified> "2018-01-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#ListedDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#ListedDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "Listed Type Index is a registry of resources that are publicly discoverable by outside users and applications."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#ListedDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#ListedDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Listed Type Index"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Notification> <http://purl.org/dc/terms/issued> "2015-12-18"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Notification> <http://purl.org/dc/terms/modified> "2015-12-20"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Notification> <http://purl.org/dc/terms/modified> "2018-10-25"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Notification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Notification> <http://www.w3.org/2000/01/rdf-schema#comment> "A notification resource."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Notification> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Notification> <http://www.w3.org/2000/01/rdf-schema#label> "Notification"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Patch> <http://purl.org/dc/terms/issued> "2017-08-17"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Patch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Patch> <http://www.w3.org/2000/01/rdf-schema#comment> "A patch expresses conditional modifications to a resource that has an RDF-based representation."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Patch> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Patch> <http://www.w3.org/2000/01/rdf-schema#label> "Patch"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Timeline> <http://purl.org/dc/terms/issued> "2016-01-04"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Timeline> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource containing time ordered items and sub-containers.  Sub-containers may be desirable in file based systems to split the timeline into logical components e.g. /yyyy-mm-dd/ as used in ISO 8061."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Timeline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#Timeline> <http://www.w3.org/2000/01/rdf-schema#label> "Timeline"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#TypeIndex> <http://purl.org/dc/terms/issued> "2016-02-05"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#TypeIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#TypeIndex> <http://www.w3.org/2000/01/rdf-schema#comment> "A index of type registries for resources. Applications can register the RDF type they use and list them in the index resource."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#TypeIndex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#TypeIndex> <http://www.w3.org/2000/01/rdf-schema#label> "Type index"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#TypeRegistration> <http://purl.org/dc/terms/issued> "2018-01-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#TypeRegistration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#TypeRegistration> <http://www.w3.org/2000/01/rdf-schema#comment> "The registered types that map a RDF classes/types to their locations using either `instance` or `instanceContainer` property."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#TypeRegistration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#TypeRegistration> <http://www.w3.org/2000/01/rdf-schema#label> "Type Registration"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#UnlistedDocument> <http://purl.org/dc/terms/issued> "2018-01-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#UnlistedDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#UnlistedDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "Unlisted Type Index is a registry of resources that are private to the user and their apps, for types that are not publicly discoverable."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#UnlistedDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#UnlistedDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Unlisted Type Index"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#account> <http://purl.org/dc/terms/issued> "2016-05-17"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#account> <http://purl.org/dc/terms/modified> "2018-01-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#account> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#account> <http://www.w3.org/2000/01/rdf-schema#comment> "A solid account belonging to an Agent."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#account> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#account> <http://www.w3.org/2000/01/rdf-schema#label> "account"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#deletes> <http://purl.org/dc/terms/issued> "2017-08-17"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#deletes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#deletes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#deletes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#deletes> <http://www.w3.org/2000/01/rdf-schema#comment> "The triple patterns this patch removes from the document."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#deletes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/terms#Patch> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#deletes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#deletes> <http://www.w3.org/2000/01/rdf-schema#label> "deletes"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#deletes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/log#Formula> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#forClass> <http://purl.org/dc/terms/issued> "2018-01-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#forClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#forClass> <http://www.w3.org/2000/01/rdf-schema#comment> "A class that is used to map an listed or unlisted type index."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#forClass> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#forClass> <http://www.w3.org/2000/01/rdf-schema#label> "registry class"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inbox> <http://purl.org/dc/terms/issued> "2015-11-16"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inbox> <http://purl.org/dc/terms/modified> "2016-02-05"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inbox> <http://purl.org/dc/terms/modified> "2018-10-25"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inbox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inbox> <http://www.w3.org/2000/01/rdf-schema#comment> "Deprecated pointer to a Linked Data Notifications inbox; please use http://www.w3.org/ns/ldp#inbox instead."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inbox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inbox> <http://www.w3.org/2000/01/rdf-schema#label> "inbox (deprecated)"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inbox> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/ldp#inbox> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inbox> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inbox> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.w3.org/ns/ldp#inbox> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inserts> <http://purl.org/dc/terms/issued> "2017-08-17"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inserts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inserts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inserts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inserts> <http://www.w3.org/2000/01/rdf-schema#comment> "The triple patterns this patch adds to the document."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inserts> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/terms#Patch> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inserts> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inserts> <http://www.w3.org/2000/01/rdf-schema#label> "inserts"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#inserts> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/log#Formula> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#instance> <http://purl.org/dc/terms/issued> "2018-01-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#instance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#instance> <http://www.w3.org/2000/01/rdf-schema#comment> "Maps a type to an individual resource, typically an index or a directory listing resource."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#instance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#instance> <http://www.w3.org/2000/01/rdf-schema#label> "instance"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#instanceContainer> <http://purl.org/dc/terms/issued> "2018-01-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#instanceContainer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#instanceContainer> <http://www.w3.org/2000/01/rdf-schema#comment> "Maps a type to a container which the client would have to list to get the instances of that type."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#instanceContainer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#instanceContainer> <http://www.w3.org/2000/01/rdf-schema#label> "instance container"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#loginEndpoint> <http://purl.org/dc/terms/issued> "2015-11-16"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#loginEndpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#loginEndpoint> <http://www.w3.org/2000/01/rdf-schema#comment> "The login URI of a given server."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#loginEndpoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#loginEndpoint> <http://www.w3.org/2000/01/rdf-schema#label> "loginEndpoint"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#logoutEndpoint> <http://purl.org/dc/terms/issued> "2015-11-16"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#logoutEndpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#logoutEndpoint> <http://www.w3.org/2000/01/rdf-schema#comment> "The logout URI of a given server."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#logoutEndpoint> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#logoutEndpoint> <http://www.w3.org/2000/01/rdf-schema#label> "logoutEndpoint"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#notification> <http://purl.org/dc/terms/issued> "2016-03-11"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#notification> <http://purl.org/dc/terms/modified> "2018-10-25"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#notification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#notification> <http://www.w3.org/2000/01/rdf-schema#comment> "Notification resource for an inbox."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#notification> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#notification> <http://www.w3.org/2000/01/rdf-schema#label> "notification"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#oidcIssuer> <http://purl.org/dc/terms/issued> "2017-08-15"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#oidcIssuer> <http://purl.org/dc/terms/modified> "2017-08-16"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#oidcIssuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#oidcIssuer> <http://www.w3.org/2000/01/rdf-schema#comment> "The preferred OpenID Connect issuer URI for a given WebID."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#oidcIssuer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#oidcIssuer> <http://www.w3.org/2000/01/rdf-schema#label> "OIDC issuer"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#oidcIssuer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://openid.net/specs/connect/1.0/issuer> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#owner> <http://purl.org/dc/terms/issued> "2021-05-19"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#owner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#owner> <http://www.w3.org/2000/01/rdf-schema#comment> "A person or social entity that is considered to have control, rights, and responsibilities over a data storage."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#owner> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#owner> <http://www.w3.org/2000/01/rdf-schema#label> "owner"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#owner> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#patches> <http://purl.org/dc/terms/issued> "2017-08-17"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#patches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#patches> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#patches> <http://www.w3.org/2000/01/rdf-schema#comment> "The document to which this patch applies."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#patches> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/terms#Patch> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#patches> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#patches> <http://www.w3.org/2000/01/rdf-schema#label> "patches"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#patches> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#privateTypeIndex> <http://purl.org/dc/terms/issued> "2018-01-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#privateTypeIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#privateTypeIndex> <http://www.w3.org/2000/01/rdf-schema#comment> "Points to an unlisted type index resource."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#privateTypeIndex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#privateTypeIndex> <http://www.w3.org/2000/01/rdf-schema#label> "private type index"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#privateTypeIndex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/terms#UnlistedDocument> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#publicTypeIndex> <http://purl.org/dc/terms/issued> "2018-01-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#publicTypeIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#publicTypeIndex> <http://www.w3.org/2000/01/rdf-schema#comment> "Points to a listed type index resource."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#publicTypeIndex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#publicTypeIndex> <http://www.w3.org/2000/01/rdf-schema#label> "public type index"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#publicTypeIndex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/terms#ListedDocument> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#publicTypeIndex> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/solid/terms#typeIndex> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#read> <http://purl.org/dc/terms/issued> "2015-12-18"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#read> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#read> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates if a message has been read or not. This property should have a boolean datatype."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#read> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/sioc/ns#Post> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#read> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#read> <http://www.w3.org/2000/01/rdf-schema#label> "read"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageQuota> <http://purl.org/dc/terms/issued> "2018-10-26"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageQuota> <http://purl.org/dc/terms/modified> "2018-11-07"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageQuota> <http://purl.org/dc/terms/modified> "2019-01-22"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageQuota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageQuota> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageQuota> <http://www.w3.org/2000/01/rdf-schema#comment> "The quota of non-volatile memory that is available for the account (in bytes)"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageQuota> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/terms#Account> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageQuota> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageQuota> <http://www.w3.org/2000/01/rdf-schema#label> "Non-volatile memory quota"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageUsage> <http://purl.org/dc/terms/issued> "2019-01-22"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageUsage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageUsage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageUsage> <http://www.w3.org/2000/01/rdf-schema#comment> "The amount of non-volatile memory that the account have used (in bytes)"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageUsage> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/terms#Account> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageUsage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageUsage> <http://www.w3.org/2000/01/rdf-schema#label> "Non-volatile memory usage"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#timeline> <http://purl.org/dc/terms/issued> "2016-01-04"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#timeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#timeline> <http://www.w3.org/2000/01/rdf-schema#comment> "Timeline for a given resource."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#timeline> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#timeline> <http://www.w3.org/2000/01/rdf-schema#label> "timeline"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#typeIndex> <http://purl.org/dc/terms/issued> "2016-02-05"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#typeIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#typeIndex> <http://www.w3.org/2000/01/rdf-schema#comment> "Points to a TypeIndex resource."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#typeIndex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#typeIndex> <http://www.w3.org/2000/01/rdf-schema#label> "type index"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#typeIndex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/terms#TypeIndex> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#where> <http://purl.org/dc/terms/issued> "2017-08-17"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#where> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#where> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#where> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#where> <http://www.w3.org/2000/01/rdf-schema#comment> "The conditions the document and the inserted and deleted triple patterns need to satisfy in order for the patch to be applied."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#where> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/solid/terms#Patch> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#where> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#where> <http://www.w3.org/2000/01/rdf-schema#label> "where"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#where> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/10/swap/log#Formula> <http://www.w3.org/ns/solid/terms#> .
+_:c14n0 <http://purl.org/dc/terms/date> "2020-12-22"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+_:c14n0 <http://purl.org/dc/terms/replaces> <https://raw.githubusercontent.com/solid/vocab/46a5e2a8df1df48cd21a6ecdd422a37d29d39cbe/solid-terms.ttl> <http://www.w3.org/ns/solid/terms#> .
+_:c14n0 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://github.com/solid/vocab/pull/67> <http://www.w3.org/ns/solid/terms#> .

@@ -1,0 +1,27 @@
+{
+  "name": "@vocabulary/oidc",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "The OpenID Connect vocabulary used by the Solid-OIDC authentication specification.",
+  "scripts": {
+    "fetch": "vocab-build datasets",
+    "prebuild": "vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.0"
+  },
+  "homepage": "https://prefix.zazuko.com/prefix/oidc:",
+  "vocabulary": {
+    "prefix": "oidc",
+    "namespace": "http://www.w3.org/ns/solid/oidc#"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}
