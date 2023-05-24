@@ -2,6 +2,7 @@
   "name": "@vocabulary/math",
   "version": "1.0.0",
   "type": "module",
+  "main": "index.js",
   "description": "http://www.w3.org/2000/10/swap/math#",
   "scripts": {
     "fetch": "vocab-build datasets",

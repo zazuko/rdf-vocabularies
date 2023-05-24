@@ -2,6 +2,7 @@
   "name": "@vocabulary/string",
   "version": "1.0.0",
   "type": "module",
+  "main": "index.js",
   "description": "String Processing Ontology",
   "scripts": {
     "fetch": "vocab-build datasets",
