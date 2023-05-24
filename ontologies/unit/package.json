@@ -2,6 +2,7 @@
   "name": "@vocabulary/unit",
   "version": "1.0.0",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "fetch": "vocab-build datasets",
     "generate-module": "vocab-build module"

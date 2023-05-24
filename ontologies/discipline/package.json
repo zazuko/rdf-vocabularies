@@ -2,6 +2,7 @@
   "name": "@vocabulary/discipline",
   "version": "1.0.0",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "generate-module": "vocab-build module"
   },
