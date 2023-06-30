@@ -4,7 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "prebuild": "vocab-build module",
+    "prebuild": "npx --node-options='--loader=ts-node/esm' vocab-build module",
     "build": "tsc",
     "prepack": "npm run build"
   },
