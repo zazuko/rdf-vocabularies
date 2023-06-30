@@ -1,10 +1,11 @@
 {
   "name": "@vocabulary/builder",
   "version": "1.0.1",
-  "private": true,
   "type": "module",
   "bin": {
-    "vocab-build": "./index.ts",
+    "vocab-build": "./bin/index.js"
+  },
+  "scripts": {
     "prepack": "tsc"
   },
   "dependencies": {
