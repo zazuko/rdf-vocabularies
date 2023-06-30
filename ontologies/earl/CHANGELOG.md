@@ -1,5 +1,11 @@
 # @vocabulary/earl
 
+## 2.0.1
+
+### Patch Changes
+
+- 714b4f7: Missing `main` field caused warnings when used in node
+
 ## 2.0.0
 
 ### Major Changes
