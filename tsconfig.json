@@ -10,7 +10,7 @@
     "strict": true,
     "strictNullChecks": true,
     "lib": [
-      "es2017",
+      "ES2022",
       "webworker"
     ],
     "declaration": true,
