@@ -108,7 +108,7 @@ the vocabulary without the need for parsers.
 
 ```js
 import foobarQuads from '@my-vocab/foobar'
-import $rdf from 'rdf-ext'
+import $rdf from '@zazuko/env'
 
 const dataset = $rdf.dataset(foobarQuads({ factory: $rdf }))
 ```
