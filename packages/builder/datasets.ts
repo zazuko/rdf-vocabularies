@@ -1,13 +1,14 @@
 /* eslint-disable no-console */
 import fs from 'fs'
 import { resolve } from 'path'
-import rdf from 'rdf-ext'
+import rdf from '@zazuko/env'
 import formats from '@rdfjs/formats-common'
 import rdfFetch, { FactoryInit, DatasetResponse } from '@rdfjs/fetch-lite'
 import { RdfXmlParser } from 'rdfxml-streaming-parser'
 import { DatasetCore, NamedNode } from '@rdfjs/types'
-import { DatasetExt } from 'rdf-ext/lib/Dataset.js'
 import { expand } from '@zazuko/prefixes'
+import addAll from 'rdf-dataset-ext/addAll.js'
+import toCanonical from 'rdf-dataset-ext/toCanonical.js'
 import { Override } from './lib/overrides.js'
 import rawFetch from './lib/fetch.js'
 
@@ -22,7 +23,7 @@ let lastW3FetchAt = 0
 
 // other workarounds to avoid w3.org banning us for making 30 requests over 10 minutes every two months...
 const randomInt = (a: number, b: number) => Math.floor(a + Math.random() * (b + 1 - a))
-const fetchOptions = ({ headers, ...rest }: FactoryInit<DatasetExt>): FactoryInit<DatasetExt> => ({
+const fetchOptions = ({ headers, ...rest }: FactoryInit<DatasetCore>): FactoryInit<DatasetCore> => ({
   credentials: 'omit',
   headers: {
     'accept-language': 'en-US,en',
@@ -51,19 +52,19 @@ async function wait(milliseconds: number) {
   return new Promise((resolve) => setTimeout(resolve, milliseconds))
 }
 
-function fetchWrapper(url: string, options: FactoryInit<DatasetExt>, timeout: number) {
+function fetchWrapper(url: string, options: FactoryInit<DatasetCore>, timeout: number) {
   // source: https://stackoverflow.com/a/46946588/4359369
   return new Promise((resolve, reject) => {
-    rdfFetch <DatasetExt>(url, { ...fetchOptions(options), fetch: rawFetch }).then(resolve, reject)
+    rdfFetch <DatasetCore>(url, { ...fetchOptions(options), fetch: rawFetch }).then(resolve, reject)
 
     if (timeout) {
       const e = new Error('Connection timed out')
       setTimeout(reject, timeout, e)
     }
-  }) as Promise<DatasetResponse<DatasetExt>>
+  }) as Promise<DatasetResponse<DatasetCore>>
 }
 
-async function datasets(vocab: Vocab, indexOnly = false): Promise<DatasetExt> {
+async function datasets(vocab: Vocab, indexOnly = false): Promise<DatasetCore> {
   const prefix = vocab.prefix
   const mappings = vocab.files || [vocab]
 
@@ -99,7 +100,7 @@ async function datasets(vocab: Vocab, indexOnly = false): Promise<DatasetExt> {
         res.headers.set('content-type', mapping.mediaType)
       }
       const fetchedDataset = await res.dataset()
-      dataset = dataset.merge(fetchedDataset)
+      dataset = addAll(dataset, fetchedDataset)
     } catch (err: any) {
       console.warn(`${prefix}: failed fetching/processing: ${err.message}`)
     }
@@ -151,12 +152,12 @@ function getDescription(dataset: DatasetCore): string {
   return ''
 }
 
-function generateIndex(subject: NamedNode, packageName: string, mappings: Vocab, dataset: DatasetExt) {
+function generateIndex(subject: NamedNode, packageName: string, mappings: Vocab, dataset: DatasetCore) {
   const vocabUri = rdf.namedNode(mappings.namespace)
   let filteredDataset = dataset.match(vocabUri)
   if (vocabUri.value.endsWith('/') || vocabUri.value.endsWith('#')) {
     const vocabUri2 = rdf.namedNode(vocabUri.value.substr(0, vocabUri.value.length - 1))
-    filteredDataset = filteredDataset.merge(dataset.match(vocabUri2))
+    filteredDataset = addAll(filteredDataset, dataset.match(vocabUri2))
   }
 
   const prefixDataset = rdf.dataset()
@@ -204,10 +205,10 @@ export async function buildDatasets(path: string, packageName: string, indexBase
   let dataset = await datasets(vocab)
   if (dataset && dataset.size) {
     const graph = rdf.namedNode(vocab.namespace)
-    dataset = dataset.map(({ subject, predicate, object }) => rdf.quad(subject, predicate, object, graph))
+    dataset = rdf.dataset([...dataset].map(({ subject, predicate, object }) => rdf.quad(subject, predicate, object, graph)))
 
     const file = resolve(path, `${vocab.prefix}.nq`)
-    fs.writeFileSync(file, dataset.toCanonical())
+    fs.writeFileSync(file, toCanonical(dataset))
     console.log(`${vocab.prefix}: wrote ${dataset.size} quads to ${file}`)
 
     const indexSubject = rdf.namedNode(`${indexBase}${vocab.prefix}:`)
