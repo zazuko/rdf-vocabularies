@@ -6,6 +6,8 @@ import type { Environment } from '@rdfjs/environment/Environment.js'
 import prefixes from '@zazuko/prefixes'
 import ParserN3 from '@rdfjs/parser-n3'
 import fromStream from 'rdf-dataset-ext/fromStream.js'
+import addAll from 'rdf-dataset-ext/addAll.js'
+import toStream from 'rdf-dataset-ext/toStream.js'
 import { loadDatasetStream } from './lib/loadDataset.js'
 
 export type Datasets = Record<keyof typeof prefixes, DatasetCore>
@@ -45,13 +47,13 @@ export async function vocabularies({ only = null, factory = rdf, stream = false 
   const datasets = await Promise.all(promises)
 
   if (stream !== false) {
-    let combinedDataset: any = factory.dataset()
+    let combinedDataset = factory.dataset()
     datasets.forEach((dataset) => {
       if (dataset && dataset.size) {
-        combinedDataset = combinedDataset.merge(dataset)
+        combinedDataset = addAll(combinedDataset, dataset)
       }
     })
-    return combinedDataset.toStream()
+    return toStream(combinedDataset) as any
   }
 
   const result: Datasets = {}
