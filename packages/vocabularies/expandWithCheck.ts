@@ -1,5 +1,5 @@
 import type { NamedNode } from '@rdfjs/types'
-import rdf from 'rdf-ext'
+import rdf from '@zazuko/env'
 import { expand, getParts } from './expand.js'
 import { vocabularies, Datasets } from './vocabularies.js'
 

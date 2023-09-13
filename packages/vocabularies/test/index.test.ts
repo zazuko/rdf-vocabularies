@@ -4,8 +4,9 @@ import module from 'module'
 import { resolve as resolvePath } from 'path'
 import { expect } from 'chai'
 import { describe, it, before, after } from 'mocha'
-import rdf from 'rdf-ext'
+import rdf from '@zazuko/env'
 import prefixes, { shrink } from '@zazuko/prefixes'
+import addAll from 'rdf-dataset-ext/addAll.js'
 import { expand } from '../index.js'
 import { vocabularies } from '../vocabularies.js'
 
@@ -41,7 +42,7 @@ describe('@zazuko/vocabularies', function () {
     const result = await vocabularies({ only: ['skos', 'dcterms'] })
     let mergedDataset = rdf.dataset()
     Object.values(result).forEach((dataset) => {
-      mergedDataset = mergedDataset.merge(dataset)
+      mergedDataset = addAll(mergedDataset, dataset)
     })
     const stream = await vocabularies({ only: ['skos', 'dcterms'], stream: true })
     let i = 0
