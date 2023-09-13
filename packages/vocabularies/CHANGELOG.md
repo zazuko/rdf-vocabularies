@@ -1,5 +1,11 @@
 # @zazuko/vocabularies
 
+## 2.0.1
+
+### Patch Changes
+
+- aa28369: Replace `rdf-ext` with `@zazuko/env`
+
 ## 2.0.0
 
 ### Major Changes

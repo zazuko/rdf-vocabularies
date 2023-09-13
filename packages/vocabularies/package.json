@@ -1,6 +1,6 @@
 {
   "name": "@zazuko/vocabularies",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Access most commonly used RDF ontologies/schemas/vocabularies as datasets or n-quads",
   "type": "module",
   "bin": {
