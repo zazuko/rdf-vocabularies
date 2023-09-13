@@ -2,34 +2,38 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
   pull_request:
-    branches: [ master ]
+    branches:
+      - master
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [16, 18]
+        node-version:
+          - 16
+          - 18
+          - 20
 
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: yarn install --frozen-lockfile
-    - run: npm run test
-    - run: npx wsrun -y 10 -lm --report -c prepack
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: yarn install --frozen-lockfile
+      - run: npm run test
+      - run: npx wsrun -y 10 -lm --report -c prepack
 
-    - name: Codecov
-      uses: codecov/codecov-action@v3
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
+      - name: Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
 
   check-deps:
     runs-on: ubuntu-latest
