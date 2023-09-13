@@ -1,5 +1,12 @@
 # @vocabulary/builder
 
+## 1.0.3
+
+### Patch Changes
+
+- aa28369: Updated example in docs
+- d8e047f: Replace `rdf-ext` with `@zazuko/env`
+
 ## 1.0.2
 
 ### Patch Changes
