@@ -1,4 +1,4 @@
-/* eslint-disable no-console */
+/* eslint-disable no-console,@typescript-eslint/no-explicit-any */
 import fs from 'fs'
 import { resolve } from 'path'
 import rdf from '@zazuko/env'
@@ -7,8 +7,7 @@ import rdfFetch, { FactoryInit, DatasetResponse } from '@rdfjs/fetch-lite'
 import { RdfXmlParser } from 'rdfxml-streaming-parser'
 import { DatasetCore, NamedNode } from '@rdfjs/types'
 import { expand } from '@zazuko/prefixes'
-import addAll from 'rdf-dataset-ext/addAll.js'
-import toCanonical from 'rdf-dataset-ext/toCanonical.js'
+import { Dataset } from '@zazuko/env/lib/Dataset'
 import { Override } from './lib/overrides.js'
 import rawFetch from './lib/fetch.js'
 
@@ -64,7 +63,7 @@ function fetchWrapper(url: string, options: FactoryInit<DatasetCore>, timeout: n
   }) as Promise<DatasetResponse<DatasetCore>>
 }
 
-async function datasets(vocab: Vocab, indexOnly = false): Promise<DatasetCore> {
+async function datasets(vocab: Vocab, indexOnly = false): Promise<Dataset> {
   const prefix = vocab.prefix
   const mappings = vocab.files || [vocab]
 
@@ -100,7 +99,7 @@ async function datasets(vocab: Vocab, indexOnly = false): Promise<DatasetCore> {
         res.headers.set('content-type', mapping.mediaType)
       }
       const fetchedDataset = await res.dataset()
-      dataset = addAll(dataset, fetchedDataset)
+      dataset = dataset.addAll(fetchedDataset)
     } catch (err: any) {
       console.warn(`${prefix}: failed fetching/processing: ${err.message}`)
     }
@@ -152,12 +151,12 @@ function getDescription(dataset: DatasetCore): string {
   return ''
 }
 
-function generateIndex(subject: NamedNode, packageName: string, mappings: Vocab, dataset: DatasetCore) {
+function generateIndex(subject: NamedNode, packageName: string, mappings: Vocab, dataset: Dataset) {
   const vocabUri = rdf.namedNode(mappings.namespace)
   let filteredDataset = dataset.match(vocabUri)
   if (vocabUri.value.endsWith('/') || vocabUri.value.endsWith('#')) {
     const vocabUri2 = rdf.namedNode(vocabUri.value.substr(0, vocabUri.value.length - 1))
-    filteredDataset = addAll(filteredDataset, dataset.match(vocabUri2))
+    filteredDataset = filteredDataset.addAll(dataset.match(vocabUri2))
   }
 
   const prefixDataset = rdf.dataset()
@@ -200,7 +199,7 @@ function generateIndex(subject: NamedNode, packageName: string, mappings: Vocab,
 export async function buildDatasets(path: string, packageName: string, indexBase: string, vocab: Vocab) {
   const indexPath = resolve(path, 'meta.nt')
 
-  let indexDataset: any = rdf.dataset()
+  let indexDataset = rdf.dataset()
 
   let dataset = await datasets(vocab)
   if (dataset && dataset.size) {
@@ -208,7 +207,7 @@ export async function buildDatasets(path: string, packageName: string, indexBase
     dataset = rdf.dataset([...dataset].map(({ subject, predicate, object }) => rdf.quad(subject, predicate, object, graph)))
 
     const file = resolve(path, `${vocab.prefix}.nq`)
-    fs.writeFileSync(file, toCanonical(dataset))
+    fs.writeFileSync(file, dataset.toCanonical())
     console.log(`${vocab.prefix}: wrote ${dataset.size} quads to ${file}`)
 
     const indexSubject = rdf.namedNode(`${indexBase}${vocab.prefix}:`)
