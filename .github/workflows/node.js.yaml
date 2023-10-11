@@ -26,7 +26,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - run: yarn install --frozen-lockfile
+      - run: npm ci
       - run: npm run test
       - run: npx wsrun -y 10 -lm --report -c prepack
 
