@@ -5,8 +5,12 @@
   "main": "index.js",
   "files": [
     "**/*.js",
-    "**/*.d.ts"
+    "**/*.d.ts",
+    "CHANGELOG.md"
   ],
+  "scripts": {
+    "prepack": "tsc"
+  },
   "dependencies": {
     "@zazuko/env": "^1.6.1",
     "@rdfjs/parser-n3": "^2.0.1",
