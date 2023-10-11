@@ -1,5 +1,11 @@
 # @zazuko/prefixes
 
+## 2.0.1
+
+### Patch Changes
+
+- c055d61: Export required type
+
 ## 2.0.0
 
 ### Major Changes
