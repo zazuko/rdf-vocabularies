@@ -1,0 +1,16 @@
+{
+  "name": "@zazuko/vocabulary-loader",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "**/*.js",
+    "**/*.d.ts"
+  ],
+  "dependencies": {
+    "@zazuko/env": "^1.6.1",
+    "@rdfjs/parser-n3": "^2.0.1",
+    "@types/rdfjs__environment": "^0.1",
+    "rdf-dataset-ext": "^1.1.0"
+  }
+}

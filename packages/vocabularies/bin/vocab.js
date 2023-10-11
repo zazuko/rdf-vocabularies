@@ -3,7 +3,7 @@
 import { promisify } from 'util'
 import { program } from 'commander'
 import stream from 'readable-stream'
-import { loadDatasetStream } from '../lib/loadDataset.js'
+import { loadDatasetStream } from '@zazuko/vocabulary-loader/lib/loadDataset.js'
 import prefixes from '../prefixes.js'
 
 const finished = promisify(stream.finished)

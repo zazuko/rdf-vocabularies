@@ -1,6 +1,6 @@
 import fs from 'fs'
 import module from 'module'
-import type prefixes from '../prefixes.js'
+import type prefixes from '@zazuko/prefixes'
 
 const { resolve } = module.createRequire(import.meta.url)
 
