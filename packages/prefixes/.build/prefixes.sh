@@ -20,7 +20,7 @@ const prefixes = {
 export interface Prefixes extends Readonly<typeof prefixes> {
 
 }
-interface CustomPrefixes {
+export interface CustomPrefixes {
   [key: string]: string
 }
 
