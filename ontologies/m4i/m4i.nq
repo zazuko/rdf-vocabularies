@@ -1,10 +1,3 @@
-<http://emmo.info/emmo#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://emmo.info/emmo#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Intangible> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://emmo.info/emmo#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.molmod.info/semantics/pims-ii.ttl#MeasurementUnit> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://emmo.info/emmo#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4> <http://www.w3.org/2004/02/skos/core#definition> "MeasurementUnit, i.e., a Mathematical ReferenceUnit that stands for the standard reference magnitude of a specific class of measurement processes, defined and adopted by convention or by law"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://emmo.info/emmo#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://emmo.info/emmo#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4> <http://www.w3.org/2004/02/skos/core#prefLabel> "Messeinheit"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://emmo.info/emmo#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4> <http://www.w3.org/2004/02/skos/core#prefLabel> "measurement unit"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.obolibrary.org/obo/BFO_0000015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.obolibrary.org/obo/BFO_0000015> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.molmod.info/semantics/pims-ii.ttl#Process> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.obolibrary.org/obo/BFO_0000015> <http://www.w3.org/2004/02/skos/core#definition> "Process, i.e., a physical entity with a temporal evolution that 'has a meaning for the ontologist'"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -63,7 +56,7 @@
 <http://purl.obolibrary.org/obo/RO_0000056> <http://www.w3.org/2004/02/skos/core#prefLabel> "ist beteiligt an"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.obolibrary.org/obo/RO_0000056> <http://www.w3.org/2004/02/skos/core#prefLabel> "participates in"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.obolibrary.org/obo/RO_0000057> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://purl.obolibrary.org/obo/RO_0000057> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n25 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://purl.obolibrary.org/obo/RO_0000057> <http://www.w3.org/2002/07/owl#propertyChainAxiom> _:c14n32 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.obolibrary.org/obo/RO_0000057> <http://www.w3.org/2004/02/skos/core#definition> "a relation between a process and a continuant, in which the continuant is somehow involved in the process"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.obolibrary.org/obo/RO_0000057> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added a property chain axiom for use with prov:qualifiedAssociation"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.obolibrary.org/obo/RO_0000057> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -150,6 +143,7 @@
 <http://purl.org/dc/terms/references> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.org/dc/terms/references> <http://www.w3.org/2004/02/skos/core#prefLabel> "references"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.org/dc/terms/references> <http://www.w3.org/2004/02/skos/core#prefLabel> "referenziert"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://purl.org/dc/terms/replaces> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.org/dc/terms/title> <http://www.w3.org/2004/02/skos/core#definition> "A name given to the resource."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -165,18 +159,34 @@
 <http://purl.org/spar/biro/BibliographicRecord> <http://www.w3.org/2004/02/skos/core#prefLabel> "bibliographic record"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/QuantityKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/QuantityKind> <http://www.w3.org/2000/01/rdf-schema#comment> "A <b>Quantity Kind</b> is any observable property that can be  measured and quantified numerically. Familiar examples include physical properties such as length, mass, time, force, energy, power, electric charge, etc. Less familiar examples include currency, interest rate, price to earning ratio, and information capacity."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/QuantityKind> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Intangible> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/QuantityKind> <http://www.w3.org/2004/02/skos/core#definition> "Kind of quantity, i.e., a physical/chemical quantity from a controlled vocabulary, such as QUDT, IEC, or EMMO"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/QuantityKind> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel, harmonized spelling to OBO naming conventions (lower case, space separated)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/QuantityKind> <http://www.w3.org/2004/02/skos/core#note> "we recommend using a persistent identifier resolving to a persistent URL"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/QuantityKind> <http://www.w3.org/2004/02/skos/core#prefLabel> "Größenart"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/QuantityKind> <http://www.w3.org/2004/02/skos/core#prefLabel> "quantity kind"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/Unit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/Unit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Intangible> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/Unit> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://emmo.info/emmo#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/Unit> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.molmod.info/semantics/pims-ii.ttl#MeasurementUnit> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/Unit> <http://www.w3.org/2004/02/skos/core#definition> "A unit of measure, or unit is a particular quantity value that has been chosen as a scale for measuring other quantities the same kind (more generally of equivalent dimension). For example, the meter is a quantity of length that has been rigorously defined and standardized by the BIPM (International Board of Weights and Measures). Any measurement of the length can be expressed as a number multiplied by the unit meter. More formally, the value of physical quanitity Q with respect to a unit (U) is expressed as the scalar multiple of a real number (n) and U, as Q = nU."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/Unit> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, added German label, harmonized spelling to OBO naming conventions (lower case, space separated)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/Unit> <http://www.w3.org/2004/02/skos/core#prefLabel> "Einheit"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://qudt.org/schema/qudt/Unit> <http://www.w3.org/2004/02/skos/core#prefLabel> "unit"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/abstract> "The ontology Metadata4Ing is developed within the NFDI Consortium NFDI4Ing with the aim of providing a thorough framework for the semantic description of research data, with a particular focus on engineering sciences and neighbouring disciplines. This ontology allows a thorough description of the whole data generation process (experiment, observation, simulation), embracing the object of investigation, all sample and data manipulation procedures, a summary of the data files and the information contained, and all personal and institutional roles. The subordinate classes and relations can be built according to the two principles of _inheritance_ and _modularity_. _Inheritance_ means that a subclass inherits all properties of its superordinate class, possibly adding some new ones. _Modularity_ means that all expansions are independent of each other; this makes possible for instance to generate expanded ontologies for any possible combinations of method × object of research." <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Ashish Karmacharya (https://orcid.org/0000-0003-2822-7648), Technische Universität Darmstadt (https://ror.org/05n911h24, https://isni.org/isni/0000000109401669)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Benjamin Farnbacher (https://orcid.org/0000-0002-1489-6501), Technische Universität München (TUM) (https://ror.org/02kkvpp62, https://isni.org/isni/0000000123222966)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Cord Wiljes (https://orcid.org/0000-0003-2528-5391), Universität Bielefeld (https://ror.org/02hpadn98, https://isni.org/isni/0000000109449128)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Dorothea Iglezakis (https://orcid.org/0000-0002-8524-0569), Universität Stuttgart (https://ror.org/04vnq7t77, https://isni.org/isni/0000000419369713)" <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Džulia Terzijska (https://orcid.org/0000-0002-1698-6826), Karlsruher Institut für Technologie (KIT) (https://ror.org/04t3en479, https://isni.org/isni/0000000100755874)" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Džulia Terzijska (https://orcid.org/0000-0002-1698-6826), Technische Universität Braunschweig (TUBS) (https://ror.org/010nsgg66, https://isni.org/isni/0000000110900254)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Giacomo Lanza (https://orcid.org/0000-0002-2239-3955), Physikalisch-Technische Bundesanstalt (PTB) (https://ror.org/05r3f7h03, https://isni.org/isni/0000000121861887)" <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Johanna Hickmann (https://orcid.org/0000-0002-7535-8344), Technische Universität Berlin (https://ror.org/03v4gjf40, https://isni.org/isni/0000000122928254)" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Johanna Hickmann (https://orcid.org/0000-0002-7535-8344), Physikalisch-Technische Bundesanstalt (PTB) (https://ror.org/05r3f7h03, https://isni.org/isni/0000000121861887)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Johannes Munke (https://orcid.org/0000-0002-5031-9170), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16, https://isni.org/isni/0000000123369749)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Johannes Theissen-Lipp (https://orcid.org/0000-0002-2639-1949), RWTH Aachen University (https://ror.org/04xfq0f34, https://isni.org/isni/0000000121811804)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Jürgen Windeck (https://orcid.org/0000-0003-1909-4353), Technische Universität Darmstadt (https://ror.org/05n911h24, https://isni.org/isni/0000000109401669)" <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Martin Thomas Horsch (https://orcid.org/0000-0002-9464-6739), UK Research and Innovation (UKRI) (https://ror.org/001aqnf71, https://isni.org/isni/0000000494535400)" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Martin Thomas Horsch (https://orcid.org/0000-0002-9464-6739), Norges miljø- og biovitenskapelige universitet (NMBU) (https://ror.org/04a1mvv97, https://isni.org/isni/000000040607975X)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Nils Hoppe (https://orcid.org/0000-0003-0580-9717), Technische Universität München (TUM) (https://ror.org/02kkvpp62, https://isni.org/isni/0000000123222966)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Sophia Leimer (https://orcid.org/0000-0001-6272-204X), Universität Duisburg-Essen (https://ror.org/04mz5ra38, https://isni.org/isni/0000000121875445)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/contributor> "Stephan Hachinger (https://orcid.org/0000-0001-8341-1478), Leibniz Supercomputing Centre (LRZ) (https://ror.org/05558nw16, https://isni.org/isni/0000000123369749)" <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -185,77 +195,75 @@
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/creator> "Metadata4Ing Workgroup" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/issued> "2022-02-22" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/modified> "2022-02-22" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/modified> "2023-09-27" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/publisher> "NFDI4Ing (https://www.nfdi4ing.de/)" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/references> <https://doi.org/10.14454/3w3z-sa82> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/references> <https://doi.org/10.1504/IJMSO.2020.107792> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/references> <https://doi.org/10.5281/zenodo.3816686> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/references> <https://doi.org/10.5281/zenodo.3982367> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/references> <https://doi.org/10.5281/zenodo.4846313> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/replaces> <http://w3id.org/nfdi4ing/metadata4ing/1.1.0> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/rights> <https://creativecommons.org/licenses/by/4.0/> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/dc/terms/title> "Metadata4Ing: An ontology for describing the generation of research data within a scientific activity."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/ontology/bibo/doi> <https://doi.org/10.5281/zenodo.5957104> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/ontology/bibo/status> "active"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "m4i" <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://w3id.org/nfdi4ing/metadata4ing#" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://purl.org/vocab/vann/preferredNamespaceUri> <http://w3id.org/nfdi4ing/metadata4ing#> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#> <http://www.w3.org/2000/01/rdf-schema#comment> "\nMetadata4Ing defines classes and properties or reuses such classes and properties from other ontologies to describe research processes and research data management in NFDI4Ing. \nNew concepts and properties are located in the namespace of Metadata4Ing.\nMetadata4Ing does not import complete ontologies for the sake of relevance, readability, understandability and usability by and for engineers.\nInstead, it tries to make re-use of existing identifiers for classes and properties by re-using all or a relevant subset of the axioms from the original ontology.\nThese statements have been extracted in different ways, e.g. by using Protégé tools importing an ontology and copying axioms of relevant items to Metadata4Ing or by download from data services or raw files of ontologies and manual copypasting.\nIn some cases there was a need to extend or modify the original set of statements about an entity, e.g. because labels and definitions were expressed with a different owl:AnnotationProperty than the rest of Metadata4Ing, or because a skos:preflabel or a skos:definition in any of the languages we would like to support was missing.\nAny editorial changes on elements from external ontologies are declared in Metadata4Ing by an annotation with skos:editorialNote at item-level.\nTo get the original set of statements we encourage to visit the original namespace of the respective item.\nMetadata4Ing reuses elements from the following ontologies:\n- BIBO = Bibliographic Ontology  \n- BIRO = Bibliographic Reference Ontology  \n- DCAT = Data Catalog  \n- DCTERMS = Dublin Core Terms  \n- FOAF = Friend of a Friend  \n- OWL = Web Ontology Language  \n- PROV = Provenance Namespace  \n- QUDT = Quantities, Units, Dimensions and Types  \n- RDF = Resource Description Framework  \n- RDFS = RDF Schema  \n- SCHEMA = schema.org  \n- SKOS = Simple Knowledge Organization System  \n- SSN = Semantic Sensor Network Ontology  \n- VANN = Vocabulary for Annotating vocabulary descriptions  \n- XSD = XML Schema Definition  \n- EMMO = European Materials and Modelling Ontology  \n- BFO = Basic Formal Ontology  \n- RO = Relation Ontology  \n- PIMS-II = PIMS Interoperability Infrastructure  \n- D-SI = Digital System of Units  \n"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://www.w3.org/2000/01/rdf-schema#comment> "\nMetadata4Ing defines classes and properties or reuses such classes and properties from other ontologies to describe research processes and research data management in NFDI4Ing. \nNew concepts and properties are located in the namespace of Metadata4Ing.\nMetadata4Ing does not import complete ontologies for the sake of relevance, readability, understandability and usability by and for engineers.\nInstead, it tries to make re-use of existing identifiers for classes and properties by re-using all or a relevant subset of the axioms from the original ontology.\nThese statements have been extracted in different ways, e.g. by using Protégé tools importing an ontology and copying axioms of relevant items to Metadata4Ing or by download from data services or raw files of ontologies and manual copypasting.\nIn some cases there was a need to extend or modify the original set of statements about an entity, e.g. because labels and definitions were expressed with a different owl:AnnotationProperty than the rest of Metadata4Ing, or because a skos:preflabel or a skos:definition in any of the languages we would like to support was missing.\nAny editorial changes on elements from external ontologies are declared in Metadata4Ing by an annotation with skos:editorialNote at item-level.\nTo get the original set of statements we encourage to visit the original namespace of the respective item.\nMetadata4Ing reuses elements from the following ontologies:\n- BIBO = Bibliographic Ontology  \n- BIRO = Bibliographic Reference Ontology  \n- DCAT = Data Catalog  \n- DCC = Digital Calibration Certificate  \n- DCTERMS = Dublin Core Terms  \n- EMMO = European Materials and Modelling Ontology  \n- FOAF = Friend of a Friend  \n- OBO = Open Biological and Biomedical Ontologies:\n  - BFO = Basic Formal Ontology  \n  - RO = Relation Ontology  \n- OWL = Web Ontology Language  \n- PIMS-II = PIMS Interoperability Infrastructure  \n- PROV = Provenance Namespace  \n- QUDT = Quantities, Units, Dimensions and Types  \n- RDF = Resource Description Framework  \n- RDFS = RDF Schema  \n- SCHEMA = schema.org  \n- D-SI = Digital System of Units  \n- SKOS = Simple Knowledge Organization System  \n- SSN = Semantic Sensor Network Ontology  \n- VANN = Vocabulary for Annotating vocabulary descriptions  \n- XSD = XML Schema Definition  \n"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <http://www.w3.org/2000/01/rdf-schema#label> "Metadata4Ing" <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#> <http://www.w3.org/2002/07/owl#versionIRI> <http://w3id.org/nfdi4ing/metadata4ing/1.1.0> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#> <http://www.w3.org/2002/07/owl#versionInfo> "v1.1.0" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://www.w3.org/2002/07/owl#versionIRI> <http://w3id.org/nfdi4ing/metadata4ing/1.2.0> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#> <http://www.w3.org/2002/07/owl#versionInfo> "v1.2.0" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#> <https://schema.org/citation> "Metadata4Ing Workgroup (2022). Metadata4Ing: An ontology for describing the generation of research data within a scientific activity."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ContactPerson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ContactPerson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#ContactPerson> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#ContactPerson> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ContactPerson> <http://www.w3.org/2004/02/skos/core#definition> "Person with knowledge of how to access, troubleshoot, or otherwise field issues related to the resource"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ContactPerson> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kontaktperson"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ContactPerson> <http://www.w3.org/2004/02/skos/core#prefLabel> "contact person"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ContactPerson> <http://www.w3.org/2004/02/skos/core#scopeNote> "May also be the \"Point of Contact\" in an organisation that controls access to the resource, if that organisation is different from the Publisher, Distributor, and Data Manager."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataCollector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataCollector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#DataCollector> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#DataCollector> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataCollector> <http://www.w3.org/2004/02/skos/core#definition> "Person/institution responsible for finding or gathering/collecting data under the guidelines of the author(s) or Principal Investigator (PI)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataCollector> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datenerfasser*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataCollector> <http://www.w3.org/2004/02/skos/core#prefLabel> "data collector"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataCollector> <http://www.w3.org/2004/02/skos/core#scopeNote> "May also be used when crediting survey conductors, interviewers, event or condition observers, or persons responsible for monitoring key instrument data."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataCurator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataCurator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#DataCurator> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#DataCurator> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataCurator> <http://www.w3.org/2004/02/skos/core#definition> "Person tasked with reviewing, enhancing, cleaning, or standardizing metadata and the associated data submitted for storage, use, and maintenance within a data centre or repository"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataCurator> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datenkurator*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataCurator> <http://www.w3.org/2004/02/skos/core#prefLabel> "data curator"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataCurator> <http://www.w3.org/2004/02/skos/core#scopeNote> "While the DataManager is concerned with digital maintenance, the DataCurator's role encompasses quality assurance focused on content and metadata. DataCurator responsibilities include: checking completeness of the submitted dataset against the content as described by the submitter; verifying standard metadata according to the applicable system or schema; adding or verifying specialized metadata to add value and ensure access across disciplines; and determining how the metadata might map to search engines, database products, and automated feeds. Repository managers as well as data librarians working in the repository fall within this category. \n\nExample: https://doi.org/10.20375/0000-000D-1D1F-2"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#DataManager> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#DataManager> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataManager> <http://www.w3.org/2004/02/skos/core#definition> "Person (or organisation with a staff of data managers, such as a data centre) responsible for maintaining the finished resource"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataManager> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datenverwalter*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataManager> <http://www.w3.org/2004/02/skos/core#prefLabel> "data manager"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#DataManager> <http://www.w3.org/2004/02/skos/core#scopeNote> "The work done by this person or organisation ensures that the resource is periodically \"refreshed\" in terms of software/hardware support, is kept available or is protected from unauthorized access, is stored in accordance with industry standards, and is handled in accordance with the records management requirements applicable to it.\n\nExample: https://doi.org/10.6073/pasta/41b3ed2e152e1e4c3846e646118208e7"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Distributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Distributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#Distributor> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#Distributor> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Distributor> <http://www.w3.org/2004/02/skos/core#definition> "Institution tasked with responsibility to generate/disseminate copies of the resource in either electronic or print form"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Distributor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anbieter*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Distributor> <http://www.w3.org/2004/02/skos/core#prefLabel> "distributor"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Distributor> <http://www.w3.org/2004/02/skos/core#scopeNote> "Works stored in more than one archive/repository may credit each as a distributor."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Editor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Editor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#Editor> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#Editor> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Editor> <http://www.w3.org/2004/02/skos/core#definition> "A person who oversees the details related to the publication format of the resource"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Editor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Herausgeber*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Editor> <http://www.w3.org/2004/02/skos/core#prefLabel> "editor"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Editor> <http://www.w3.org/2004/02/skos/core#scopeNote> "Note: if the Editor is to be credited in place of multiple creators, the Editor's name may be supplied as Creator, with \"(Ed.)\" appended to the name."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#HostingInstitution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#HostingInstitution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#HostingInstitution> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#HostingInstitution> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#HostingInstitution> <http://www.w3.org/2004/02/skos/core#definition> "Typically, the organisation allowing the resource to be available on the internet through the provision of its hardware/software/operating support"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#HostingInstitution> <http://www.w3.org/2004/02/skos/core#prefLabel> "bereitstellende Institution"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#HostingInstitution> <http://www.w3.org/2004/02/skos/core#prefLabel> "hosting institution"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#HostingInstitution> <http://www.w3.org/2004/02/skos/core#scopeNote> "This role normally falls on the University, research center or organization where the data center/data repository belongs.\n\nEXAMPLE: Université Grenoble Alpes (UGA)\n\nMay also be used for an organisation that stores the data offline-often a data centre if that data centre is not the \"publisher\" of the resource."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#KindOfQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#KindOfQuantity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Intangible> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#KindOfQuantity> <http://www.w3.org/2004/02/skos/core#definition> "Kind of quantity, i.e., a physical/chemical quantity from a controlled vocabulary, such as QUDT, IEC, or EMMO"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#KindOfQuantity> <http://www.w3.org/2004/02/skos/core#narrower> <http://qudt.org/schema/qudt/QuantityKind> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#KindOfQuantity> <http://www.w3.org/2004/02/skos/core#note> "we recommend using a persistent identifier resolving to a persistent URL"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#KindOfQuantity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Größenart"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#KindOfQuantity> <http://www.w3.org/2004/02/skos/core#prefLabel> "kind of quantity"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Method> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Method> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.obolibrary.org/obo/BFO_0000017> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Method> <http://www.w3.org/2004/02/skos/core#definition> "Abstract description of a method for analysis, generation and transformation of data and material objects like, e.g., 'Fourier Transform Infrared Spectroscopy' or 'Molecular Dynamics Simulation'. Note that while values for relevant parameters should be provided, m4i:Method does not refer to the actual execution of the process that is described (use m4i:ProcessingStep for that), but rather a description of the underlying principle."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -263,14 +271,22 @@
 <http://w3id.org/nfdi4ing/metadata4ing#Method> <http://www.w3.org/2004/02/skos/core#prefLabel> "method"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#NumericalAssignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#NumericalAssignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#NumericalAssignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n16 <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#NumericalAssignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n33 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#NumericalAssignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n20 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#NumericalAssignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n42 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#NumericalAssignment> <http://www.w3.org/2004/02/skos/core#definition> "Assignment by which a variable (e.g., a physical property) is assigned an si:Real quantity value (scalar x measurement unit) in some context (e.g., applied to some object of research)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#NumericalAssignment> <http://www.w3.org/2004/02/skos/core#prefLabel> "numerical assignment"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#NumericalAssignment> <http://www.w3.org/2004/02/skos/core#prefLabel> "numerische Zuweisung"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#NumericalVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#NumericalVariable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#NumericalVariable> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://qudt.org/schema/qudt/Quantity> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#NumericalVariable> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://ptb.de/si/Real> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#NumericalVariable> <http://www.w3.org/2004/02/skos/core#definition> "A variable that expects a float or integer as a value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#NumericalVariable> <http://www.w3.org/2004/02/skos/core#definition> "Eine Variable, die eine Zahl als Wert erwartet"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#NumericalVariable> <http://www.w3.org/2004/02/skos/core#prefLabel> "numerical variable"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#NumericalVariable> <http://www.w3.org/2004/02/skos/core#prefLabel> "numerische Variable"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Other> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#Other> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#Other> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Other> <http://www.w3.org/2004/02/skos/core#definition> "Any person or institution making a significant contribution to the development and/or maintenance of the resource, but whose contribution is notadequately described by any of the other values for contributorType"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Other> <http://www.w3.org/2004/02/skos/core#editorialNote> "Label adjusted. Do we really need to define all these person roles in our ontology? (GIACOMO)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Other> <http://www.w3.org/2004/02/skos/core#prefLabel> "other person"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -283,90 +299,96 @@
 <http://w3id.org/nfdi4ing/metadata4ing#ProcessingStep> <http://www.w3.org/2004/02/skos/core#prefLabel> "processing step"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#Producer> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#Producer> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Producer> <http://www.w3.org/2004/02/skos/core#definition> "Typically,a person or organisation responsible for the artistry and form of a media product"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Producer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Produzent*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Producer> <http://www.w3.org/2004/02/skos/core#prefLabel> "producer"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Producer> <http://www.w3.org/2004/02/skos/core#scopeNote> "In the data industry, this may be a company \"producing\" DVDs that package data for future dissemination by a distributor."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectLeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectLeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#ProjectLeader> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#ProjectLeader> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectLeader> <http://www.w3.org/2004/02/skos/core#definition> "Person officially designated as head of project team or sub-project team instrumental in the work necessary to development of the resource"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectLeader> <http://www.w3.org/2004/02/skos/core#prefLabel> "Projektleiter*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectLeader> <http://www.w3.org/2004/02/skos/core#prefLabel> "project leader"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectLeader> <http://www.w3.org/2004/02/skos/core#scopeNote> "The Project Leader is not \"removed\" from the work that resulted in the resource; he or she remains intimately involved"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#ProjectManager> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#ProjectManager> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectManager> <http://www.w3.org/2004/02/skos/core#definition> "Person officially designated as manager of a project. Project may consist of one or many project teams and sub-teams."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectManager> <http://www.w3.org/2004/02/skos/core#prefLabel> "Projektmanager*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectManager> <http://www.w3.org/2004/02/skos/core#prefLabel> "project manager"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectManager> <http://www.w3.org/2004/02/skos/core#scopeNote> "The manager of a project normally has more administrative responsibility than actual work involvement."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#ProjectMember> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#ProjectMember> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectMember> <http://www.w3.org/2004/02/skos/core#definition> "Person on the membership list of a designated project/project team"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectMember> <http://www.w3.org/2004/02/skos/core#prefLabel> "Projektmitglied"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectMember> <http://www.w3.org/2004/02/skos/core#prefLabel> "project member"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ProjectMember> <http://www.w3.org/2004/02/skos/core#scopeNote> "This vocabulary may or may not indicate the quality, quantity, or substance of the person's involvement."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RegistrationAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RegistrationAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#RegistrationAgency> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#RegistrationAgency> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RegistrationAgency> <http://www.w3.org/2004/02/skos/core#definition> "Institution/organisation officially appointed by a Registration Authority to handle specific tasks within a defined area of responsibility"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RegistrationAgency> <http://www.w3.org/2004/02/skos/core#prefLabel> "Registrierungsstelle"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RegistrationAgency> <http://www.w3.org/2004/02/skos/core#prefLabel> "registration agency"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RegistrationAgency> <http://www.w3.org/2004/02/skos/core#scopeNote> "DataCite is a Registration Agency for the International DOI Foundation (IDF). One of DataCite’s tasks is to assign DOI prefixes to the allocating agents who then assign the full, specific character string to data clients, provide metadata back to the DataCite registry, etc."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RegistrationAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RegistrationAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#RegistrationAuthority> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#RegistrationAuthority> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RegistrationAuthority> <http://www.w3.org/2004/02/skos/core#definition> "A standards-setting body from which Registration Agencies obtain official recognition and guidance"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RegistrationAuthority> <http://www.w3.org/2004/02/skos/core#prefLabel> "Registrierungsbehörde"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RegistrationAuthority> <http://www.w3.org/2004/02/skos/core#prefLabel> "registration authority"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RegistrationAuthority> <http://www.w3.org/2004/02/skos/core#scopeNote> "The IDF serves as the Registration Authority for the International Standards Organisation (ISO) in the area/domain of Digital Object Identifiers."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RelatedPerson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RelatedPerson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#RelatedPerson> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#RelatedPerson> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RelatedPerson> <http://www.w3.org/2004/02/skos/core#definition> "A person without a specifically defined role in the development of the resource, but who is someone the author wishes to recognize"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RelatedPerson> <http://www.w3.org/2004/02/skos/core#prefLabel> "related person"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RelatedPerson> <http://www.w3.org/2004/02/skos/core#prefLabel> "zugehörige Person"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RelatedPerson> <http://www.w3.org/2004/02/skos/core#scopeNote> "This person could be an author's intellectual mentor, a person providing intellectual leadership in the discipline or subject domain, etc."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ResearchGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ResearchGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#ResearchGroup> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#ResearchGroup> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ResearchGroup> <http://www.w3.org/2004/02/skos/core#definition> "Typically refers to a group of individuals with a lab, department, or divisionthathas a specifically defined focus of activity."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ResearchGroup> <http://www.w3.org/2004/02/skos/core#prefLabel> "Forschungsgruppe"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ResearchGroup> <http://www.w3.org/2004/02/skos/core#prefLabel> "research group"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#ResearchGroup> <http://www.w3.org/2004/02/skos/core#scopeNote> "May operate at a narrower level of scope; may or may not hold less administrative responsibility than a project team.\n\nExample: Space Research & Planetary Sciences Division of the University of Bern (WP Unibe)\n\nSource: https://doi.org/10.26302/SSHADE/EXPERIMENT_OP_20201104_001"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Researcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Researcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#Researcher> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#Researcher> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Researcher> <http://www.w3.org/2004/02/skos/core#definition> "A person involved in analysing data or the results of an experiment or formal study. May indicate an intern or assistant to one of the authors who helped with research but who was not so “key” as to be listed as an author."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Researcher> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rechercheur*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Researcher> <http://www.w3.org/2004/02/skos/core#prefLabel> "researcher"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Researcher> <http://www.w3.org/2004/02/skos/core#scopeNote> "Should be a person, not an institution. Note that a person involved in the gathering of data would fall under the contributorType \"DataCollector.\" The researcher may find additional data online and correlate it to the data collected for the experiment or study, for example."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RightsHolder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RightsHolder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#RightsHolder> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#RightsHolder> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RightsHolder> <http://www.w3.org/2004/02/skos/core#definition> "Person or institution owning or managing property rights, including intellectual property rights over the resource"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RightsHolder> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rechteinhaber*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#RightsHolder> <http://www.w3.org/2004/02/skos/core#prefLabel> "rights holder"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Sponsor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Sponsor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#Sponsor> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#Sponsor> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Sponsor> <http://www.w3.org/2004/02/skos/core#definition> "Person or organisation that issued a contract or under the auspices of which a work has been written, printed, published, developed, etc."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Sponsor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Sponsor*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Sponsor> <http://www.w3.org/2004/02/skos/core#prefLabel> "sponsor"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Sponsor> <http://www.w3.org/2004/02/skos/core#scopeNote> "Includes organisations that provide in-kind support, through donation, provision of people or a facility or instrumentation necessary for the development of the resource, etc."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Supervisor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Supervisor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#Supervisor> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#Supervisor> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Supervisor> <http://www.w3.org/2004/02/skos/core#definition> "Designated administrator over one or more groups/teams working to produce a resource, or over one or more steps of a development process"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Supervisor> <http://www.w3.org/2004/02/skos/core#prefLabel> "Betreuer*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Supervisor> <http://www.w3.org/2004/02/skos/core#prefLabel> "supervisor"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#TextVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#TextVariable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#TextVariable> <http://www.w3.org/2004/02/skos/core#definition> "A variable that expects a string of characters as a value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#TextVariable> <http://www.w3.org/2004/02/skos/core#definition> "Eine Variable, die eine Zeichenkette als Wert erwartet"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#TextVariable> <http://www.w3.org/2004/02/skos/core#prefLabel> "text variable"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#TextVariable> <http://www.w3.org/2004/02/skos/core#prefLabel> "textbasierte Variable"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Tool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Tool> <http://www.w3.org/2004/02/skos/core#definition> "Object that helps an agent perform an action (e.g., John wrote a book with a pen), i.e., an object of the relation schema:instrument or m4i:hasTool"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#Tool> <http://www.w3.org/2004/02/skos/core#prefLabel> "Tool"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#Tool> <http://www.w3.org/2004/02/skos/core#prefLabel> "Werkzeug"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#Tool> <http://www.w3.org/2004/02/skos/core#prefLabel> "tool"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#UncertaintyDeclaration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#UncertaintyDeclaration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Intangible> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#UncertaintyDeclaration> <http://www.w3.org/2004/02/skos/core#definition> "Declaration that can be applied to an si:Real quantity value to give an assessment of uncertainty"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -374,14 +396,14 @@
 <http://w3id.org/nfdi4ing/metadata4ing#UncertaintyDeclaration> <http://www.w3.org/2004/02/skos/core#prefLabel> "uncertainty declaration"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#UsageInstruction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#UsageInstruction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/nfdi4ing/metadata4ing#ProcessingStep> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#UsageInstruction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#UsageInstruction> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n41 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#UsageInstruction> <http://www.w3.org/2004/02/skos/core#definition> "Textual description of a processing step within a research process to enable or facilitate its reproducibility"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#UsageInstruction> <http://www.w3.org/2004/02/skos/core#definition> "Textuelle Beschreibung eines Verarbeitungsschritts innerhalb eines Forschungsprozesses, um dessen Reproduzierbarkeit zu erleichtern oder zu ermöglichen"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#UsageInstruction> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verwendungshinweis"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#UsageInstruction> <http://www.w3.org/2004/02/skos/core#prefLabel> "usage instruction"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#WorkPackageLeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#WorkPackageLeader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Role> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#WorkPackageLeader> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf?page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#WorkPackageLeader> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://schema.datacite.org/meta/kernel-4.4/doc/DataCite-MetadataKernel_v4.4.pdf#page=40"^^<http://www.w3.org/2001/XMLSchema#anyURI> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#WorkPackageLeader> <http://www.w3.org/2004/02/skos/core#definition> "A Work Package is a recognized data product, not all of which is included in publication. The package, instead, may include notes, discarded documents, etc. The Work Package Leader is responsible for ensuring the comprehensive contents, versioning, and availability of the Work Package during the development of the resource."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#WorkPackageLeader> <http://www.w3.org/2004/02/skos/core#prefLabel> "Arbeitspaketleiter*in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#WorkPackageLeader> <http://www.w3.org/2004/02/skos/core#prefLabel> "work package leader"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -393,18 +415,20 @@
 <http://w3id.org/nfdi4ing/metadata4ing#endOfProject> <http://www.w3.org/2004/02/skos/core#prefLabel> "Projektenddatum"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#endOfProject> <http://www.w3.org/2004/02/skos/core#prefLabel> "project end date"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://emmo.info/emmo#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/2000/01/rdf-schema#comment> "redundant information: applicable unit can be deduced from quantity kind. If one wants to enforce the use of a specific unit, use a SHACL constraint." <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n21 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/Unit> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/2004/02/skos/core#definition> "(x hasAdmissibleUnit y) means that y is a unit that can be associated with the variable x"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "hasAdmissibleUnit"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/2004/02/skos/core#definition> "DEPRECATED (x hasAdmissibleUnit y) means that y is a unit that can be associated with the variable x"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "has admissible unit"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat als zulässige Einheit"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleValue> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleValueFor> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleValue> <http://www.w3.org/2004/02/skos/core#definition> "(x hasAdmissibleValue y) means that y is a value that can be assigned to the variable x"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "hasAdmissibleValue"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has admissible value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasAdmissibleValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat als zulässigen Wert"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasAssignedValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasAssignedValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -484,15 +508,36 @@
 <http://w3id.org/nfdi4ing/metadata4ing#hasExpandedUnc> <http://www.w3.org/2004/02/skos/core#prefLabel> "has expanded uncertainty"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasExpandedUnc> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat erweiterte Unsicherheit"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasKindOfQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasKindOfQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasKindOfQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://w3id.org/nfdi4ing/metadata4ing#KindOfQuantity> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasKindOfQuantity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/nfdi4ing/metadata4ing#NumericalVariable> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasKindOfQuantity> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/QuantityKind> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasKindOfQuantity> <http://www.w3.org/2004/02/skos/core#definition> "Points to the property characterization (i.e., to the kind of quantity) from a controlled vocabulary"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasKindOfQuantity> <http://www.w3.org/2004/02/skos/core#note> "we recommend using a persistent identifier resolving to a persistent URL"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasKindOfQuantity> <http://www.w3.org/2004/02/skos/core#prefLabel> "has kind of quantity"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasKindOfQuantity> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Größenart"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMaximumValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMaximumValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ptb.de/si/Real> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMaximumValue> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n13 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMaximumValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/nfdi4ing/metadata4ing#hasValue> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMaximumValue> <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/schema/qudt/value> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMaximumValue> <http://www.w3.org/2004/02/skos/core#broader> <http://www.molmod.info/semantics/pims-ii.ttl#isLiterally> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMaximumValue> <http://www.w3.org/2004/02/skos/core#broader> <https://ptb.de/si/hasValue> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMaximumValue> <http://www.w3.org/2004/02/skos/core#definition> "Represents the highest value of a multi-valued variable"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMaximumValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has maximum value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMaximumValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Maximalwert"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMinimumValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMinimumValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ptb.de/si/Real> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMinimumValue> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n14 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMinimumValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/nfdi4ing/metadata4ing#hasValue> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMinimumValue> <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/schema/qudt/value> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMinimumValue> <http://www.w3.org/2004/02/skos/core#broader> <http://www.molmod.info/semantics/pims-ii.ttl#isLiterally> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMinimumValue> <http://www.w3.org/2004/02/skos/core#broader> <https://ptb.de/si/hasValue> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMinimumValue> <http://www.w3.org/2004/02/skos/core#definition> "Represents the lowest value of a multi-valued variable"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMinimumValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has minimum value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasMinimumValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Minimalwert"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasNumericalValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasNumericalValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ptb.de/si/Real> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasNumericalValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasNumericalValue> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n22 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasNumericalValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/nfdi4ing/metadata4ing#hasValue> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasNumericalValue> <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/schema/qudt/value> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasNumericalValue> <http://www.w3.org/2004/02/skos/core#broader> <http://www.molmod.info/semantics/pims-ii.ttl#isLiterally> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasNumericalValue> <http://www.w3.org/2004/02/skos/core#broader> <https://ptb.de/si/hasValue> <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -501,14 +546,14 @@
 <http://w3id.org/nfdi4ing/metadata4ing#hasNumericalValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has numerical value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasNumericalValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Zahlenwert"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasParameter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasParameter> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n12 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasParameter> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n15 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasParameter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasParameter> <http://www.w3.org/2004/02/skos/core#definition> "Points to a parameter of a given method or tool."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasParameter> <http://www.w3.org/2004/02/skos/core#prefLabel> "has parameter"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasParameter> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Parameter"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasRorId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasRorId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Organization> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasRorId> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n36 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasRorId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Organization> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasRorId> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n45 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasRorId> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/nfdi4ing/metadata4ing#identifier> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasRorId> <http://www.w3.org/2004/02/skos/core#altLabel> "has research organization registry id"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasRorId> <http://www.w3.org/2004/02/skos/core#altLabel> "hat Forschungsorganisationsid"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -520,10 +565,28 @@
 <http://w3id.org/nfdi4ing/metadata4ing#hasRuntimeAssignment> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/nfdi4ing/metadata4ing#ProcessingStep> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasRuntimeAssignment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasRuntimeAssignment> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.obolibrary.org/obo/RO_0000057> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasRuntimeAssignment> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> _:c14n11 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasRuntimeAssignment> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> _:c14n12 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasRuntimeAssignment> <http://www.w3.org/2004/02/skos/core#definition> "Points to an assignment that is neither input nor output"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasRuntimeAssignment> <http://www.w3.org/2004/02/skos/core#prefLabel> "has runtime assignment"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasRuntimeAssignment> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Laufzeitzuweisung"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStepSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStepSize> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ptb.de/si/Real> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStepSize> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n3 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStepSize> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/nfdi4ing/metadata4ing#hasValue> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStepSize> <http://www.w3.org/2004/02/skos/core#broader> <http://qudt.org/schema/qudt/value> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStepSize> <http://www.w3.org/2004/02/skos/core#broader> <http://www.molmod.info/semantics/pims-ii.ttl#isLiterally> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStepSize> <http://www.w3.org/2004/02/skos/core#broader> <https://ptb.de/si/hasValue> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStepSize> <http://www.w3.org/2004/02/skos/core#definition> "Describes the spacing of a multi-valued variable"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStepSize> <http://www.w3.org/2004/02/skos/core#prefLabel> "has step size"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStepSize> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Schrittweite"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStringValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStringValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/nfdi4ing/metadata4ing#TextVariable> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStringValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStringValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/nfdi4ing/metadata4ing#hasValue> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStringValue> <http://www.w3.org/2004/02/skos/core#definition> "A character string of any length"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStringValue> <http://www.w3.org/2004/02/skos/core#definition> "Eine Zeichenkette (Text) beliebiger Länge."@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStringValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has string value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasStringValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Zeichenwert"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasSymbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasSymbol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasSymbol> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -540,7 +603,7 @@
 <http://w3id.org/nfdi4ing/metadata4ing#hasUncertaintyDeclaration> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Unsicherheitsdeklaration"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasUnit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasUnit> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ptb.de/si/Real> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#hasUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://emmo.info/emmo#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasUnit> <http://www.w3.org/2000/01/rdf-schema#range> <http://qudt.org/schema/qudt/Unit> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasUnit> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://qudt.org/schema/qudt/unit> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasUnit> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://ptb.de/si/hasUnit> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasUnit> <http://www.w3.org/2004/02/skos/core#definition> "Represents the unit of a numerical (real) value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -552,6 +615,12 @@
 <http://w3id.org/nfdi4ing/metadata4ing#hasUnit> <http://www.w3.org/2004/02/skos/core#note> "obligation of this property for the description of a si:Real: recommended"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "has unit"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasUnit> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Einheit"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasValue> <http://www.w3.org/2004/02/skos/core#definition> "A value of any type"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasValue> <http://www.w3.org/2004/02/skos/core#definition> "Ein beliebiger Wert"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "has value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#hasValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Wert"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasVariable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasVariable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#hasVariable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -621,14 +690,14 @@
 <http://w3id.org/nfdi4ing/metadata4ing#isEmployedToolIn> <http://www.w3.org/2004/02/skos/core#prefLabel> "is employed tool"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#isEmployedToolIn> <http://www.w3.org/2004/02/skos/core#prefLabel> "ist eingesetztes Werkzeug"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#orcidId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#orcidId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#orcidId> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Person> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#orcidId> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#orcidId> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://w3id.org/nfdi4ing/metadata4ing#identifier> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#orcidId> <http://www.w3.org/2004/02/skos/core#prefLabel> "has ORCID ID"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#orcidId> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat ORCID ID"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#projectParticipant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#projectParticipant> <http://www.w3.org/2000/01/rdf-schema#domain> <https://schema.org/Project> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://w3id.org/nfdi4ing/metadata4ing#projectParticipant> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n13 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://w3id.org/nfdi4ing/metadata4ing#projectParticipant> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n16 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#projectParticipant> <http://www.w3.org/2004/02/skos/core#definition> "A property that connects a project with a person or an organisation."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#projectParticipant> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Projektmitglied"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://w3id.org/nfdi4ing/metadata4ing#projectParticipant> <http://www.w3.org/2004/02/skos/core#prefLabel> "project participant"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -657,45 +726,47 @@
 <http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/2000/01/rdf-schema#comment> "Assignment, i.e., a data item by which a value is assigned to a variable with respect to a particular referent (e.g., T = 200 K for substance o as it was measured in a particular cognitive step); therein, T is the variable, related to the assignment by m4i:hasVariable, 200 K is the value, related to the assignment by m4i:hasValue, and o is the referent, related to the assignment by isAssignmentFor"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Intangible> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n28 <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n32 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n35 <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, adjusted german labels" <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/2004/02/skos/core#prefLabel> "Assignment"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n40 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n44 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, adjusted german labels,  harmonized spelling to OBO naming conventions (lower case, space separated)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/2004/02/skos/core#prefLabel> "Zuweisung"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#Assignment> <http://www.w3.org/2004/02/skos/core#prefLabel> "assignment"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Property> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Property> <http://www.w3.org/2004/02/skos/core#broader> <http://purl.obolibrary.org/obo/BFO_0000020> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Property> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://emmo.info/emmo#EMMO_b7bcff25_ffc3_474e_9ab5_01b1664bd4ba> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Property> <http://www.w3.org/2004/02/skos/core#definition> "Property, i.e., a variable that can be considered (as an investigated property, i.e., target property) within a processing step"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#Property> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, adjusted german labels" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#Property> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, adjusted german labels, harmonized spelling to OBO naming conventions (lower case, space separated)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Property> <http://www.w3.org/2004/02/skos/core#prefLabel> "Eigenschaft"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#Property> <http://www.w3.org/2004/02/skos/core#prefLabel> "Property"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#Property> <http://www.w3.org/2004/02/skos/core#prefLabel> "property"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#QuantityValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#QuantityValue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#QuantityValue> <http://www.w3.org/2004/02/skos/core#definition> "Quantity value, i.e., a value that has a numerical magnitude and a physical unit"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#QuantityValue> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, adjusted german labels, harmonized spelling to OBO naming conventions (lower case, space separated)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#QuantityValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Größenwert"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#QuantityValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "Quantity value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#QuantityValue> <http://www.w3.org/2004/02/skos/core#prefLabel> "quantity value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Intangible> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n20 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n27 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://www.w3.org/2004/02/skos/core#definition> "Value, i.e., an articulation that is by social convention understood to be potentially assignable to a variable"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, adjusted german labels" <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://www.w3.org/2004/02/skos/core#prefLabel> "Value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, adjusted german labels, harmonized spelling to OBO naming conventions (lower case, space separated)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://www.w3.org/2004/02/skos/core#prefLabel> "Wert"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://www.w3.org/2004/02/skos/core#prefLabel> "value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Intangible> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://www.w3.org/2002/07/owl#equivalentClass> _:c14n22 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://www.w3.org/2002/07/owl#equivalentClass> _:c14n29 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://emmo.info/emmo#EMMO_1eed0732_e3f1_4b2c_a9c4_b4e75eeb5895> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://www.w3.org/2004/02/skos/core#definition> "Variable, i.e., a conventional that is employed for something to which values can be assigned (this may include different notations for the same variable including, e.g., computational representations); this is to be understood very generally, e.g., a variable may be an array or set of elements or have another kind of internal structure"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, adjusted german labels" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, adjusted german labels, harmonized spelling to OBO naming conventions (lower case, space separated)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://www.w3.org/2004/02/skos/core#prefLabel> "Variable"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://www.w3.org/2004/02/skos/core#prefLabel> "Variable"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://www.w3.org/2004/02/skos/core#prefLabel> "variable"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://emmo.info/emmo#EMMO_b081b346_7279_46ef_9a3d_2c088fcd79f4> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://www.w3.org/2004/02/skos/core#definition> "(x isAdmissibleUnitFor y) means that x is a unit that can be associated with the variable y; subsumption under msHPIPIR is explained as follows: There is a sign z for the variable y (where z is a description of admissible values of y) of which x is constitutive (and with which x hence overlaps)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://www.w3.org/2000/01/rdf-schema#comment> "redundant information: admissible unit can be deduced from quantity kind. If one wants to enforce the use of a specific unit, use a SHACL contraint." <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://qudt.org/schema/qudt/Unit> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n36 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://www.w3.org/2004/02/skos/core#definition> "DEPRECATED (x isAdmissibleUnitFor y) means that x is a unit that can be associated with the variable y; subsumption under msHPIPIR is explained as follows: There is a sign z for the variable y (where z is a description of admissible values of y) of which x is constitutive (and with which x hence overlaps)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, adjusted german labels, harmonized spelling to OBO naming conventions (lower case, space separated)" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://www.w3.org/2004/02/skos/core#prefLabel> "is admissible unit for"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleUnitFor> <http://www.w3.org/2004/02/skos/core#prefLabel> "ist zulässige Einheit für"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -840,27 +911,57 @@
 <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.molmod.info/semantics/pims-ii.ttl#Action> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/2004/02/skos/core#definition> "An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/2004/02/skos/core#definition> "Eine Aktivität ist etwas, das über einen Zeitraum und mit oder an Entitäten erfolgt; dazu kann das Verbrauchen, Verarbeiten, Transformieren, Modifizieren, Relokalisieren, Verwenden, oder die Genese von Entitäten gehören."@de <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.w3.org/ns/prov#Activity> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, added german label"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.w3.org/ns/prov#Activity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Activity"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Activity> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, added german label, harmonized spelling to OBO naming conventions (lower case, space separated)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#Activity> <http://www.w3.org/2004/02/skos/core#prefLabel> "Aktivität"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Activity> <http://www.w3.org/2004/02/skos/core#prefLabel> "activity"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov#> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/2004/02/skos/core#definition> "An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel, added skos:definition, added german definition, added instances"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Akteur"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/2004/02/skos/core#prefLabel> "agent"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#Association> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#Association> <http://www.w3.org/2000/01/rdf-schema#comment> "An instance of prov:Association provides additional descriptions about the binary prov:wasAssociatedWith relation from an prov:Activity to some prov:Agent that had some responsiblity for it. For example, :baking prov:wasAssociatedWith :baker; prov:qualifiedssociation [ a prov:Association; prov:agent :baker; :foo :bar ]."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.w3.org/ns/prov#Association> <http://www.w3.org/2004/02/skos/core#prefLabel> "Association"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Association> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: harmonized spelling to OBO naming conventions (lower case, space separated)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#Association> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verknüpfung"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Association> <http://www.w3.org/2004/02/skos/core#prefLabel> "association"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Organization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov#> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Organization> <http://www.w3.org/2004/02/skos/core#definition> "An organization is a social or legal institution such as a company, society, etc."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Organization> <http://www.w3.org/2004/02/skos/core#definition> "Eine Organisation ist eine soziale oder rechtliche Institution wie ein Unternehmen, ein Verein usw."@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Organization> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel, added skos:definition, added german definition, added instances"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Organization> <http://www.w3.org/2004/02/skos/core#prefLabel> "Organisation"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Organization> <http://www.w3.org/2004/02/skos/core#prefLabel> "organization"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Person> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov#> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Person> <http://www.w3.org/2004/02/skos/core#definition> "Eine Person als Akteur ist eine natürliche Person, also ein handelnder Mensch."@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Person> <http://www.w3.org/2004/02/skos/core#definition> "Person agents are people."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Person> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel, added skos:definition, added german definition, added instances"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Person> <http://www.w3.org/2004/02/skos/core#prefLabel> "Person"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Person> <http://www.w3.org/2004/02/skos/core#prefLabel> "person"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#Role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#Role> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov#> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#Role> <http://www.w3.org/2004/02/skos/core#definition> "A role is the function of an entity or agent with respect to an activity, in the context of a usage, generation, invalidation, association, start, and end."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.w3.org/ns/prov#Role> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel, added skos:definition, added german definition, added instances"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.w3.org/ns/prov#Role> <http://www.w3.org/2004/02/skos/core#prefLabel> "Role"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Role> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel, added skos:definition, added german definition, added instances, harmonized spelling to OBO naming conventions (lower case, space separated)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#Role> <http://www.w3.org/2004/02/skos/core#prefLabel> "Rolle des Akteurs"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#Role> <http://www.w3.org/2004/02/skos/core#prefLabel> "role"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#SoftwareAgent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#SoftwareAgent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov#> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#SoftwareAgent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#SoftwareAgent> <http://www.w3.org/2004/02/skos/core#definition> "A software agent is running software."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#SoftwareAgent> <http://www.w3.org/2004/02/skos/core#definition> "Ein Software als Akteur ist ein Stück laufender Programmcode, der eine Aufgabe in einem Prozess übernimmt."@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#SoftwareAgent> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel, added skos:definition, added german definition, added instances"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#SoftwareAgent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Software-Akteur"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#SoftwareAgent> <http://www.w3.org/2004/02/skos/core#prefLabel> "software agent"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.w3.org/ns/prov#agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.w3.org/ns/prov#agent> <http://www.w3.org/2000/01/rdf-schema#label> "agent"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.w3.org/ns/prov#agent> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#agent> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#agent> <http://www.w3.org/2004/02/skos/core#definition> "The prov:agent property is used to reference an agent that had a role in an activity."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.w3.org/ns/prov#agent> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german label"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.w3.org/ns/prov#agent> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: set foaf:Agent in range of this property"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#agent> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german label, added skos:prefLabel"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#agent> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: simplified definition"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#agent> <http://www.w3.org/2004/02/skos/core#prefLabel> "has agent"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#agent> <http://www.w3.org/2004/02/skos/core#prefLabel> "ist Akteur in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#hadRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#hadRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Association> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#hadRole> <http://www.w3.org/2000/01/rdf-schema#label> "had role"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -883,9 +984,9 @@
 <http://www.w3.org/ns/prov#qualifiedAssociation> <http://www.w3.org/2004/02/skos/core#prefLabel> "qualified association"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#wasRoleIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#wasRoleIn> <http://www.w3.org/2000/01/rdf-schema#label> "war Rolle in"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.w3.org/ns/prov#wasRoleIn> <http://www.w3.org/2000/01/rdf-schema#label> "wasRoleIn"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#wasRoleIn> <http://www.w3.org/2000/01/rdf-schema#label> "was role in"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/prov#wasRoleIn> <http://www.w3.org/2004/02/skos/core#definition> "prov:wasRoleIn references the association (e.g. between an agent and an activity) in which a role shall be defined. Inverse property of prov:hadRole." <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://www.w3.org/ns/prov#wasRoleIn> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german label, added skos:definition"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://www.w3.org/ns/prov#wasRoleIn> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german label, added skos:definition, harmonized spelling to OBO naming conventions (lower case, space separated)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/ssn/hasProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/ssn/hasProperty> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/ssn/> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/ssn/hasProperty> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/ssn/isPropertyOf> <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -905,39 +1006,36 @@
 <http://www.w3.org/ns/ssn/isPropertyOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "is property of"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://www.w3.org/ns/ssn/isPropertyOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "ist Eigenschaft von"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent (eg. person, group, software or physical artifact)." <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Agent"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2004/02/skos/core#prefLabel> "Akteur"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "DEPRECATED An agent (eg. person, group, software or physical artifact)." <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "exchanged foaf:Agent by prov:Agent to fulfill range definition of prov:agent property" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/prov#Agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/2000/01/rdf-schema#comment> "A class of Agents." <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/2000/01/rdf-schema#comment> "DEPRECATED A class of Agents." <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/2000/01/rdf-schema#comment> "Remove foaf:Group, use prov:Organization instead" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/prov#Organization> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/2004/02/skos/core#prefLabel> "Group"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/2004/02/skos/core#prefLabel> "Gruppe"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Group> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "An organization." <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "DEPRECATED An organization." <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "Replace foaf:Organization by prov:Organization" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/prov#Organization> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2002/07/owl#disjointWith> <http://xmlns.com/foaf/0.1/Person> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2004/02/skos/core#prefLabel> "Organisation"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2004/02/skos/core#prefLabel> "Organization"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A person." <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "DEPRECATED A person." <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "Replace foaf:Person by prov:Person" <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://www.w3.org/ns/prov#Person> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2004/02/skos/core#prefLabel> "Person"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2004/02/skos/core#prefLabel> "Person"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/firstName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/firstName> <http://www.w3.org/2000/01/rdf-schema#comment> "The first name of a person." <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/firstName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/firstName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/firstName> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/firstName> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vorname"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/firstName> <http://www.w3.org/2004/02/skos/core#prefLabel> "first name"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/lastName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/lastName> <http://www.w3.org/2000/01/rdf-schema#comment> "The last name of a person." <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/lastName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/lastName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/lastName> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/lastName> <http://www.w3.org/2004/02/skos/core#prefLabel> "Nachname"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -945,66 +1043,61 @@
 <http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/2000/01/rdf-schema#comment> "A personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that   there is (across time and change) at most one individual that ever has any particular value for foaf:mbox." <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://xmlns.com/foaf/0.1/> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/2004/02/skos/core#prefLabel> "E-Mail-Adresse"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/mbox> <http://www.w3.org/2004/02/skos/core#prefLabel> "personal mailbox"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates a member of a Group" <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Group> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.obolibrary.org/obo/BFO_0000051> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel, defined as subproperty of obo:BFO_0000051"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/2004/02/skos/core#prefLabel> "Mitglied"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/member> <http://www.w3.org/2004/02/skos/core#prefLabel> "member"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/title> <http://www.w3.org/2000/01/rdf-schema#comment> "Title (Mr, Mrs, Ms, Dr. etc)" <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/title> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/title> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <http://xmlns.com/foaf/0.1/title> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added german labels, added skos:prefLabel, defined rdfs:domain and rdfs:range"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/title> <http://www.w3.org/2004/02/skos/core#prefLabel> "Titel"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
-<http://xmlns.com/foaf/0.1/title> <http://www.w3.org/2004/02/skos/core#prefLabel> "title"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/title> <http://www.w3.org/2004/02/skos/core#prefLabel> "Anrede"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<http://xmlns.com/foaf/0.1/title> <http://www.w3.org/2004/02/skos/core#prefLabel> "salutation"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/dcc/formulaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/dcc/formulaType> <http://www.w3.org/2004/02/skos/core#definition> "A data type to express formulae in a markup language such as MathML or LaTeX. The preferred syntax is Semantic MathML."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/dcc/formulaType> <http://www.w3.org/2004/02/skos/core#editorialNote> "harmonized spelling to OBO naming conventions (lower case, space separated)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/dcc/formulaType> <http://www.w3.org/2004/02/skos/core#prefLabel> "Formel"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/dcc/formulaType> <http://www.w3.org/2004/02/skos/core#prefLabel> "formula"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/CoverageInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/CoverageInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/nfdi4ing/metadata4ing#UncertaintyDeclaration> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/CoverageInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n0 <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/CoverageInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n15 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/CoverageInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n19 <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/CoverageInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n30 <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/CoverageInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n34 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/CoverageInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n26 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/CoverageInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n38 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/CoverageInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n43 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/CoverageInterval> <http://www.w3.org/2004/02/skos/core#definition> "Structure for stating a probabilistic-symmetric coverage interval for a real uncertainty, to be applied to an si:Real quantity value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/CoverageInterval> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: harmonized spelling to OBO naming conventions (lower case, space separated), added skos:prefLabel" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/CoverageInterval> <http://www.w3.org/2004/02/skos/core#prefLabel> "coverage interval"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/CoverageInterval> <http://www.w3.org/2004/02/skos/core#prefLabel> "Überdeckungsintervall"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/ExpandedUnc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://w3id.org/nfdi4ing/metadata4ing#UncertaintyDeclaration> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n18 <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n23 <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n27 <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n4 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n25 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n30 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n34 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n5 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2004/02/skos/core#definition> "Structure for stating an expanded measurement, model, or simulation uncertainty, e.g., to be applied to an si:Real quantity value"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: harmonized spelling to OBO naming conventions (lower case, space separated), added skos:prefLabel" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2004/02/skos/core#prefLabel> "erweiterte Unsicherheit"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/ExpandedUnc> <http://www.w3.org/2004/02/skos/core#prefLabel> "expanded uncertainty"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/Real> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/Real> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.molmod.info/semantics/pims-ii.ttl#QuantityValue> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/Real> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n24 <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/Real> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n8 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/Real> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n31 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/Real> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:c14n9 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/Real> <http://www.w3.org/2004/02/skos/core#definition> "(Real value +- uncertainty) x measurement unit, i.e., a scalar value with a measurement unit and an uncertainty indication"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/Real> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: harmonized spelling to OBO naming conventions (lower case, space separated), added skos:prefLabel" <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/Real> <http://www.w3.org/2004/02/skos/core#prefLabel> "Real"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/Real> <http://www.w3.org/2004/02/skos/core#prefLabel> "Reell"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/Real> <http://www.w3.org/2004/02/skos/core#prefLabel> "real"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasCoverageFactor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasCoverageFactor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ptb.de/si/ExpandedUnc> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/hasCoverageFactor> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n9 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/hasCoverageFactor> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n10 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasCoverageFactor> <http://www.w3.org/2004/02/skos/core#definition> "points to the coverage factor, i.e., to a factor (greater than or equal to unity) by which the expanded uncertainty relates to the standard uncertainty"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasCoverageFactor> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: harmonized spelling to OBO naming conventions (lower case, space separated), added skos:prefLabel" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasCoverageFactor> <http://www.w3.org/2004/02/skos/core#prefLabel> "has coverage factor"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasCoverageFactor> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Überdeckungsfaktor"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasCoverageProbability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasCoverageProbability> <http://www.w3.org/2000/01/rdf-schema#domain> <http://w3id.org/nfdi4ing/metadata4ing#UncertaintyDeclaration> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/hasCoverageProbability> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n3 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/hasCoverageProbability> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n4 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasCoverageProbability> <http://www.w3.org/2004/02/skos/core#definition> "points to the probability (between 0 and 1) ascribed to the event of the actual value falling within the range asserted by the given uncertainty declaration"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasCoverageProbability> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: harmonized spelling to OBO naming conventions (lower case, space separated), added skos:prefLabel" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasCoverageProbability> <http://www.w3.org/2004/02/skos/core#prefLabel> "has coverage probability"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -1014,8 +1107,8 @@
 <https://ptb.de/si/hasDistribution> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasDistribution> <http://www.w3.org/2004/02/skos/core#definition> "points to a descriptor/label of the assumed underlying distribution"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasDistribution> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: harmonized spelling to OBO naming conventions (lower case, space separated), added skos:prefLabel" <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/hasDistribution> <http://www.w3.org/2004/02/skos/core#prefLabel> "has distribution"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/hasDistribution> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Verteilung"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/hasDistribution> <http://www.w3.org/2004/02/skos/core#prefLabel> "has statistical distribution"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/hasDistribution> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat statistische Verteilung"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasIntervalMax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasIntervalMax> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ptb.de/si/CoverageInterval> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasIntervalMax> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -1032,35 +1125,35 @@
 <https://ptb.de/si/hasIntervalMin> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Intervallminimum"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasStandardUnc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasStandardUnc> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ptb.de/si/CoverageInterval> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/hasStandardUnc> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n29 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/hasStandardUnc> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n37 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasStandardUnc> <http://www.w3.org/2004/02/skos/core#definition> "The standard measurement uncertainty is the measurement uncertainty expressed as a standard deviation"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasStandardUnc> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: harmonized spelling to OBO naming conventions (lower case, space separated), added skos:prefLabel" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasStandardUnc> <http://www.w3.org/2004/02/skos/core#prefLabel> "has standard uncertainty"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasStandardUnc> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Standardunsicherheit"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasUncertainty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasUncertainty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ptb.de/si/ExpandedUnc> <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://ptb.de/si/hasUncertainty> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n26 <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://ptb.de/si/hasUncertainty> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n33 <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasUncertainty> <http://www.w3.org/2004/02/skos/core#definition> "absolute magnitude of the indicated uncertainty"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasUncertainty> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: harmonized spelling to OBO naming conventions (lower case, space separated), added skos:prefLabel" <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasUncertainty> <http://www.w3.org/2004/02/skos/core#prefLabel> "has uncertainty"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://ptb.de/si/hasUncertainty> <http://www.w3.org/2004/02/skos/core#prefLabel> "hat Unsicherheit"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/DateTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/DateTime> <http://www.w3.org/2004/02/skos/core#definition> "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm] (see Chapter 5.4 of ISO 8601)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://schema.org/DateTime> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, added german label"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://schema.org/DateTime> <http://www.w3.org/2004/02/skos/core#prefLabel> "DateTime"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://schema.org/DateTime> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, added german label, harmonized spelling to OBO naming conventions (lower case, space separated)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/DateTime> <http://www.w3.org/2004/02/skos/core#prefLabel> "Datum mit Zeit"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://schema.org/DateTime> <http://www.w3.org/2004/02/skos/core#prefLabel> "date with time"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/Intangible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/Intangible> <http://www.w3.org/2004/02/skos/core#definition> "A utility class that serves as the umbrella for a number of 'intangible' things such as quantities, structured values, etc."@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://schema.org/Intangible> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, added german label"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://schema.org/Intangible> <http://www.w3.org/2004/02/skos/core#prefLabel> "Intangible"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://schema.org/Intangible> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added skos:prefLabel, added german label, harmonized spelling to OBO naming conventions (lower case, space separated)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/Intangible> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ungreifbares"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://schema.org/Intangible> <http://www.w3.org/2004/02/skos/core#prefLabel> "intangible"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/Project> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/Project> <http://www.w3.org/2000/01/rdf-schema#comment> "An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/Project> <http://www.w3.org/2000/01/rdf-schema#comment> "Ein typischerweise kollektives Unterfangen zum Erreichen eines vorab geplanten Ziels"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/Project> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: added German definition, added language tag to English definition, shortened definition"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://schema.org/Project> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: use of skos:prefLabel instead of rdfs:label, added German label, added language tag to English label"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
-<https://schema.org/Project> <http://www.w3.org/2004/02/skos/core#prefLabel> "Project"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://schema.org/Project> <http://www.w3.org/2004/02/skos/core#editorialNote> "changed by m4i: use of skos:prefLabel instead of rdfs:label, added German label, added language tag to English label, harmonized spelling to OBO naming conventions (lower case, space separated)"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/Project> <http://www.w3.org/2004/02/skos/core#prefLabel> "Projekt"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
+<https://schema.org/Project> <http://www.w3.org/2004/02/skos/core#prefLabel> "project"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/ResearchProject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/ResearchProject> <http://www.w3.org/2000/01/rdf-schema#comment> "A research project"@en <http://w3id.org/nfdi4ing/metadata4ing#> .
 <https://schema.org/ResearchProject> <http://www.w3.org/2000/01/rdf-schema#comment> "ein Forschungsprojekt"@de <http://w3id.org/nfdi4ing/metadata4ing#> .
@@ -1123,114 +1216,156 @@ _:c14n0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/200
 _:c14n0 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n0 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasDistribution> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n1 <http://www.w3.org/2002/07/owl#unionOf> _:c14n40 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n10 <http://www.w3.org/2001/XMLSchema#maxInclusive> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n11 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isAssignmentFor> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n12 <http://www.w3.org/2002/07/owl#unionOf> _:c14n14 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n13 <http://www.w3.org/2002/07/owl#unionOf> _:c14n42 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/nfdi4ing/metadata4ing#Method> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n6 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n15 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n15 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasCoverageProbability> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n16 <http://www.w3.org/2002/07/owl#onProperty> _:c14n38 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n16 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://ptb.de/si/Real> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n10 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n18 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n18 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasDistribution> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n1 <http://www.w3.org/2002/07/owl#unionOf> _:c14n51 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n10 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n10 <http://www.w3.org/2002/07/owl#withRestrictions> _:c14n63 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n11 <http://www.w3.org/2001/XMLSchema#maxInclusive> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n12 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isAssignmentFor> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n13 <http://www.w3.org/2002/07/owl#unionOf> _:c14n71 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n14 <http://www.w3.org/2002/07/owl#unionOf> _:c14n67 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n15 <http://www.w3.org/2002/07/owl#unionOf> _:c14n17 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n16 <http://www.w3.org/2002/07/owl#unionOf> _:c14n53 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/nfdi4ing/metadata4ing#Method> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n7 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2000/01/rdf-schema#Literal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n23 <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n19 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n19 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasIntervalMax> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n19 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasCoverageProbability> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n2 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleValueFor> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n20 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleValueFor> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n47 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n17 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n22 <http://www.w3.org/2002/07/owl#onProperty> _:c14n2 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n22 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n23 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n23 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasCoverageProbability> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n24 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n24 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/nfdi4ing/metadata4ing#hasUncertaintyDeclaration> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n7 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n26 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n26 <http://www.w3.org/2002/07/owl#withRestrictions> _:c14n46 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n20 <http://www.w3.org/2002/07/owl#onProperty> _:c14n55 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n20 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://ptb.de/si/Real> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n21 <http://www.w3.org/2002/07/owl#unionOf> _:c14n48 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n22 <http://www.w3.org/2002/07/owl#unionOf> _:c14n69 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#string> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n11 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n25 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n25 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasDistribution> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n26 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n26 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasIntervalMax> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n27 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n27 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasUncertainty> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n28 <http://www.w3.org/2002/07/owl#onProperty> _:c14n37 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n28 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n29 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n29 <http://www.w3.org/2002/07/owl#withRestrictions> _:c14n49 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n27 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.molmod.info/semantics/pims-ii.ttl#isAdmissibleValueFor> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n62 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n24 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n29 <http://www.w3.org/2002/07/owl#onProperty> _:c14n2 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n29 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n3 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n3 <http://www.w3.org/2002/07/owl#withRestrictions> _:c14n21 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n3 <http://www.w3.org/2002/07/owl#unionOf> _:c14n65 <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n30 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n30 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasIntervalMin> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n31 <http://www.w3.org/2001/XMLSchema#minInclusive> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n32 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.molmod.info/semantics/pims-ii.ttl#isAssignmentFor> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n33 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n33 <http://www.w3.org/2002/07/owl#onProperty> _:c14n44 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n30 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasCoverageProbability> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n31 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n31 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/nfdi4ing/metadata4ing#hasUncertaintyDeclaration> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#qualifiedAssociation> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n8 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n33 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n33 <http://www.w3.org/2002/07/owl#withRestrictions> _:c14n59 <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n34 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n34 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasStandardUnc> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n34 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasUncertainty> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n35 <http://www.w3.org/2002/07/owl#onProperty> _:c14n43 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n35 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n36 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#string> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n36 <http://www.w3.org/2002/07/owl#withRestrictions> _:c14n50 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n37 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isValueInAssignment> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n38 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isValueInAssignment> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Person> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n4 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n4 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasCoverageFactor> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Organization> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n39 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Person> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://xmlns.com/foaf/0.1/Organization> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n41 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n43 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isVariableInAssignment> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n44 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isVariableInAssignment> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n45 <http://www.w3.org/2001/XMLSchema#minInclusive> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n45 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n47 <http://www.w3.org/2001/XMLSchema#minInclusive> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n48 <http://www.w3.org/2001/XMLSchema#minInclusive> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n48 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n35 <http://www.w3.org/2002/07/owl#onProperty> _:c14n54 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n35 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.molmod.info/semantics/pims-ii.ttl#Value> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n36 <http://www.w3.org/2002/07/owl#unionOf> _:c14n46 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n37 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n37 <http://www.w3.org/2002/07/owl#withRestrictions> _:c14n61 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n38 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n38 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasIntervalMin> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n39 <http://www.w3.org/2001/XMLSchema#minInclusive> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n4 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n4 <http://www.w3.org/2002/07/owl#withRestrictions> _:c14n28 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n40 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n40 <http://www.w3.org/2002/07/owl#onProperty> <http://www.molmod.info/semantics/pims-ii.ttl#isAssignmentFor> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n41 <http://www.w3.org/2002/07/owl#unionOf> _:c14n18 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n42 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n42 <http://www.w3.org/2002/07/owl#onProperty> _:c14n56 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n43 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n43 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasStandardUnc> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n44 <http://www.w3.org/2002/07/owl#onProperty> _:c14n57 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n44 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.molmod.info/semantics/pims-ii.ttl#Variable> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n45 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#string> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n45 <http://www.w3.org/2002/07/owl#withRestrictions> _:c14n64 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://qudt.org/schema/qudt/QuantityKind> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n47 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/nfdi4ing/metadata4ing#NumericalVariable> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://qudt.org/schema/qudt/QuantityKind> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n49 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/nfdi4ing/metadata4ing#NumericalVariable> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n5 <http://www.w3.org/2001/XMLSchema#pattern> "https://ror.org/[0-9][0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][0-9][0-9]" <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n5 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n5 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n5 <http://www.w3.org/2002/07/owl#onProperty> <https://ptb.de/si/hasCoverageFactor> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Person> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n31 <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/nfdi4ing/metadata4ing#Tool> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Organization> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n50 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Person> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#Organization> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n52 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n54 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isValueInAssignment> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n55 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isValueInAssignment> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n56 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isVariableInAssignment> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n57 <http://www.w3.org/2002/07/owl#inverseOf> <http://www.molmod.info/semantics/pims-ii.ttl#isVariableInAssignment> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n58 <http://www.w3.org/2001/XMLSchema#minInclusive> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n58 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n6 <http://www.w3.org/2001/XMLSchema#pattern> "https://ror.org/[0-9][0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][a-z0-9][0-9][0-9]" <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n60 <http://www.w3.org/2001/XMLSchema#minInclusive> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n60 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n62 <http://www.w3.org/2001/XMLSchema#minInclusive> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n39 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:c14n6 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n66 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://ptb.de/dcc/formulaType> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n68 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://ptb.de/dcc/formulaType> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n70 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://w3id.org/nfdi4ing/metadata4ing#Tool> <http://w3id.org/nfdi4ing/metadata4ing#> .
 _:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n8 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n8 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/nfdi4ing/metadata4ing#hasNumericalValue> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n9 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
-_:c14n9 <http://www.w3.org/2002/07/owl#withRestrictions> _:c14n51 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://ptb.de/dcc/formulaType> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n72 <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://ptb.de/dcc/formulaType> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/prov#agent> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n9 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> <http://w3id.org/nfdi4ing/metadata4ing#> .
+_:c14n9 <http://www.w3.org/2002/07/owl#onProperty> <http://w3id.org/nfdi4ing/metadata4ing#hasNumericalValue> <http://w3id.org/nfdi4ing/metadata4ing#> .
