@@ -1,5 +1,14 @@
 # @zazuko/vocabularies
 
+## 2.0.2
+
+### Patch Changes
+
+- Updated dependencies [c055d61]
+- Updated dependencies [c055d61]
+  - @zazuko/vocabulary-loader@1.0.0
+  - @zazuko/prefixes@2.0.1
+
 ## 2.0.1
 
 ### Patch Changes
