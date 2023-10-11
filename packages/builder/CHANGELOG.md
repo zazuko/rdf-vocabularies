@@ -1,5 +1,11 @@
 # @vocabulary/builder
 
+## 1.0.4
+
+### Patch Changes
+
+- fc40e25: Running would fail on inexistent dataset method - rdf-ext leftover
+
 ## 1.0.3
 
 ### Patch Changes

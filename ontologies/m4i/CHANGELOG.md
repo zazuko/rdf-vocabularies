@@ -1,5 +1,11 @@
 # @vocabulary/m4i
 
+## 1.1.0
+
+### Minor Changes
+
+- 090bd43: Updated to 2023-09-27 snapshot (closes #170)
+
 ## 1.0.0
 
 ### Major Changes
