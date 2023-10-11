@@ -4,7 +4,8 @@ import { expand, getParts } from './expand.js'
 import { vocabularies, Datasets } from './vocabularies.js'
 
 // memoizing the prefixes already used in 'expand'
-export const loadedPrefixes: Datasets = {}
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const loadedPrefixes: Datasets<any> = {}
 
 type Types = (string | NamedNode)[]
 
