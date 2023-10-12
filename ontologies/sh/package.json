@@ -15,7 +15,15 @@
   "homepage": "https://prefix.zazuko.com/prefix/sh:",
   "vocabulary": {
     "prefix": "sh",
-    "namespace": "http://www.w3.org/ns/shacl#"
+    "namespace": "http://www.w3.org/ns/shacl#",
+    "files": [
+      {
+        "file": "http://www.w3.org/ns/shacl#"
+      },
+      {
+        "file": "file:src/shacl-af.ttl"
+      }
+    ]
   },
   "license": "MIT",
   "files": [

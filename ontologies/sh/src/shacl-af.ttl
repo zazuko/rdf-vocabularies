@@ -1,0 +1,230 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+sh:NodeExpression
+  a rdfs:Class ;
+.
+
+sh:nodes rdfs:range sh:NodeExpression .
+
+sh:ExistsExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Exists Expression" ;
+  rdfs:comment
+    "An exists expression is a blank node with exactly one value for sh:exists (which is a well-formed shape)." ;
+.
+
+sh:exists
+  a rdf:Property ;
+  rdfs:range sh:Shape ;
+.
+
+sh:IfExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "If Expression" ;
+  rdfs:comment
+    "An if expression is a blank node with exactly one value for sh:if (which is a well-formed node expression), at most one value for sh:then (which is a well-formed node expression) and at most one value for sh:else (which is a well-formed node expression)." ;
+.
+
+sh:if
+  a rdf:Property ;
+  rdfs:range sh:NodeExpression ;
+.
+
+sh:then
+  a rdf:Property ;
+  rdfs:range sh:NodeExpression ;
+.
+
+sh:else
+  a rdf:Property ;
+  rdfs:range sh:NodeExpression ;
+.
+
+sh:FilterShapeExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Filter Shape Expression" ;
+  rdfs:comment
+    "A filter shape expression is a blank node with exactly one value for sh:filterShape (which is a well-formed shape) and at most one value for sh:nodes (which is a well-formed node expression)." ;
+.
+
+sh:FunctionExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Function Expression" ;
+  rdfs:comment
+    "A function expression is a blank node that does not fulfill any of the syntax rules of the other node expression types and which is the subject of exactly one triple T where the object is a well-formed SHACL list, and each member of that list is a well-formed node expression." ;
+.
+
+sh:PathExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Path Expression" ;
+  rdfs:comment
+    "A path expression is a blank node with exactly one value of the property sh:path (which are well-formed property paths) and at most one value for sh:nodes (which is a well-formed node expression)." ;
+.
+
+sh:IntersectionExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Intersection Expression" ;
+  rdfs:comment
+    "An intersection expression is a blank node with exactly one value for the property sh:intersection which is a well-formed SHACL list with at least two members (which are well-formed node expressions)." ;
+.
+
+sh:UnionExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Union Expression" ;
+  rdfs:comment
+    "A union expression is a blank node with exactly one value for the property sh:union which is a well-formed SHACL list with at least two members (which are well-formed node expressions)." ;
+.
+
+sh:MinusExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Minus Expression" ;
+  rdfs:comment
+    "A minus expression is a blank node with exactly one value for the property sh:minus which is a well-formed node expression and exactly one value for the property sh:nodes which is a well-formed node expression." ;
+.
+
+sh:minus
+  a rdf:Property ;
+  rdfs:range sh:NodeExpression ;
+.
+
+sh:DistinctExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Distinct Expression" ;
+  rdfs:comment
+    "A distinct expression is a blank node with exactly one value for the property sh:distinct which is a well-formed node expression." ;
+.
+
+sh:distinct
+  a rdf:Property ;
+  rdfs:range sh:NodeExpression ;
+.
+
+sh:CountExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Count Expression" ;
+  rdfs:comment
+    "A count expression is a blank node with exactly one value for the property sh:count which is a well-formed node expression." ;
+.
+
+sh:count
+  a rdf:Property ;
+  rdfs:range sh:NodeExpression ;
+.
+
+sh:MinExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Min Expression" ;
+  rdfs:comment
+    "A min expression is a blank node with exactly one value for the property sh:min which is a well-formed node expression." ;
+.
+
+sh:min
+  a rdf:Property ;
+  rdfs:range sh:NodeExpression ;
+.
+
+sh:MaxExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Max Expression" ;
+  rdfs:comment
+    "A max expression is a blank node with exactly one value for the property sh:max which is a well-formed node expression." ;
+.
+
+sh:max
+  a rdf:Property ;
+  rdfs:range sh:NodeExpression ;
+.
+
+sh:SumExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Sum Expression" ;
+  rdfs:comment
+    "A sum expression is a blank node with exactly one value for the property sh:sum which is a well-formed node expression." ;
+.
+
+sh:sum
+  a rdf:Property ;
+  rdfs:range sh:NodeExpression ;
+.
+
+sh:GroupConcatExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Group Concat Expression" ;
+  rdfs:comment
+    "A group concat expression is a blank node with exactly one value for the property sh:groupConcat which is a well-formed node expression. A group concat expression can have a single value for the property sh:separator which is literal with datatype xsd:string." ;
+.
+
+sh:groupConcat
+  a rdf:Property ;
+  rdfs:subClassOf sh:NodeExpression ;
+.
+
+sh:separator
+  a rdf:Property ;
+  rdfs:range xsd:string ;
+.
+
+sh:OrderByExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "OrderBy Expression" ;
+  rdfs:comment
+    "An orderBy expression is a blank node with exactly one value for the property sh:orderBy which is a well-formed node expression and with exactly one value for the property sh:nodes which is a well-formed node expression. An orderBy expression can have one value for the property sh:desc which is either true or false." ;
+.
+
+sh:orderBy
+  a rdf:Property ;
+  rdfs:subClassOf sh:NodeExpression ;
+.
+
+sh:desc
+  a rdf:Property ;
+  rdfs:range xsd:boolean ;
+.
+
+sh:LimitExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Limit Expression" ;
+  rdfs:comment
+    "A limit expression is a blank node with exactly one value for the property sh:limit which is a literal with datatype xsd:integer and with exactly one value for the property sh:nodes which is a well-formed node expression." ;
+.
+
+sh:limit
+  a rdf:Property ;
+  rdfs:range xsd:integer ;
+.
+
+sh:OffsetExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "Offset Expression" ;
+  rdfs:comment
+    "An offset expression is a blank node with exactly one value for the property sh:offset which is a literal with datatype xsd:integer and with exactly one value for the property sh:nodes which is a well-formed node expression." ;
+.
+
+sh:offset
+  a rdf:Property ;
+  rdfs:range xsd:integer ;
+.
+
+sh:SPARQLAskExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "SPARQL ASK Expression" ;
+  rdfs:comment "A SPARQL ASK expression is a blank node with exactly one value for the property sh:ask which is string literal. The blank node may have values for the property sh:prefixes and these values are IRIs or blank nodes. Using the values of sh:prefixes as defined by 5.2.1 Prefix Declarations for SPARQL Queries, the value of sh:ask must be valid SPARQL 1.1 ASK query. The blank node may also have exactly one value for the property sh:nodes which is a well-formed node expression." ;
+.
+
+sh:SPARQLSelectExpression
+  rdfs:subClassOf sh:NodeExpression ;
+  rdfs:label "SPARQL SELECT Expression" ;
+  rdfs:comment "A SPARQL SELECT expression is a blank node with exactly one value for the property sh:select which is string literal. The blank node may have values for the property sh:prefixes and these values are IRIs or blank nodes. Using the values of sh:prefixes as defined by 5.2.1 Prefix Declarations for SPARQL Queries, the value of sh:select must be valid SPARQL 1.1 SELECT query with exactly one result variable. The blank node may also have exactly one value for the property sh:nodes which is a well-formed node expression." ;
+.
+
+sh:expression
+  rdfs:range sh:NodeExpression ;
+.
+
+sh:values
+  a rdf:Property ;
+  rdfs:range sh:NodeExpression ;
+.
