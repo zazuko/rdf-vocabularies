@@ -1,5 +1,11 @@
 # @vocabulary/sh
 
+## 1.1.2
+
+### Patch Changes
+
+- 56c4e34: Only now is `sh:string` gone completely
+
 ## 1.1.1
 
 ### Patch Changes
