@@ -17,6 +17,9 @@
     "prefix": "gn",
     "namespace": "http://www.geonames.org/ontology#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

@@ -18,6 +18,9 @@
     "file": "https://www.gs1.org/docs/gs1-smartsearch/gs1Voc_v1_9.ttl",
     "mediaType": "text/turtle"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

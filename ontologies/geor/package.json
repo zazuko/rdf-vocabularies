@@ -17,6 +17,9 @@
     "prefix": "geor",
     "namespace": "http://www.opengis.net/def/rule/geosparql/"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

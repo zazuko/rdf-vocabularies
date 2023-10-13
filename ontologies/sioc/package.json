@@ -17,6 +17,9 @@
     "prefix": "sioc",
     "namespace": "http://rdfs.org/sioc/ns#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

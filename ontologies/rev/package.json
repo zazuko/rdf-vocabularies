@@ -20,6 +20,9 @@
     "file": "https://github.com/taurenshaman/semantic-web/raw/cee9e421eed3f31a602f82375fb92fb109d638b7/data/review.rdf",
     "mediaType": "application/rdf+xml"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "files": [
     "*.js",
     "*.d.ts",

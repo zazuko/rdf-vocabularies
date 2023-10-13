@@ -17,6 +17,9 @@
     "prefix": "vcard",
     "namespace": "http://www.w3.org/2006/vcard/ns#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

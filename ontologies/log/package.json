@@ -22,6 +22,9 @@
       "baseIRI": "http://www.w3.org/2000/10/swap/log#"
     }
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "files": [
     "*.js",
     "*.d.ts",

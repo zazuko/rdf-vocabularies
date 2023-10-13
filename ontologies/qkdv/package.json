@@ -17,6 +17,9 @@
     "prefix": "qkdv",
     "namespace": "http://qudt.org/vocab/dimensionvector/"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

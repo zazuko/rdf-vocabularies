@@ -17,6 +17,9 @@
     "prefix": "hydra",
     "namespace": "http://www.w3.org/ns/hydra/core#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

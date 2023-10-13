@@ -19,6 +19,9 @@
     "file": "http://www.w3.org/2002/12/cal/icaltzd.rdf",
     "mediaType": "application/rdf+xml"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

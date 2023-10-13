@@ -18,6 +18,9 @@
     "namespace": "http://rdfs.org/ns/void#",
     "file": "http://vocab.deri.ie/void.ttl"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

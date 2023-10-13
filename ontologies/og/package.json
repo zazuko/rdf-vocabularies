@@ -20,6 +20,9 @@
     "file": "https://ogp.me/ns/ogp.me.ttl",
     "mediaType": "text/turtle"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "files": [
     "*.js",
     "*.d.ts",

@@ -17,6 +17,9 @@
     "prefix": "grddl",
     "namespace": "http://www.w3.org/2003/g/data-view#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

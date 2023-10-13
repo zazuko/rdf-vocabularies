@@ -17,6 +17,9 @@
     "prefix": "rdfs",
     "namespace": "http://www.w3.org/2000/01/rdf-schema#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

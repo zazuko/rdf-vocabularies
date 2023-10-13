@@ -17,6 +17,9 @@
     "prefix": "wdrs",
     "namespace": "http://www.w3.org/2007/05/powder-s#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

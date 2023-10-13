@@ -18,6 +18,9 @@
     "namespace": "http://schema.org/",
     "file": "https://schema.org/version/latest/schemaorg-current-http.nt"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

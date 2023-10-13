@@ -17,6 +17,9 @@
     "prefix": "prov",
     "namespace": "http://www.w3.org/ns/prov#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

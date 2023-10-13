@@ -18,6 +18,9 @@
     "namespace": "http://www.w3.org/2006/03/test-description#",
     "mediaType": "text/n3"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

@@ -17,6 +17,9 @@
     "prefix": "time",
     "namespace": "http://www.w3.org/2006/time#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

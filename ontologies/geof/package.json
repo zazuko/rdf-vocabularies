@@ -17,6 +17,9 @@
     "prefix": "geof",
     "namespace": "http://www.opengis.net/def/function/geosparql/"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

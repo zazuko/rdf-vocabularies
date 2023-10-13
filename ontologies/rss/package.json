@@ -19,6 +19,9 @@
     "file": "https://github.com/taurenshaman/semantic-web/raw/master/data/rss-schema.rdf",
     "mediaType": "application/rdf+xml"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

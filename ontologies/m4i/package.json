@@ -17,6 +17,9 @@
     "prefix": "m4i",
     "namespace": "http://w3id.org/nfdi4ing/metadata4ing#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

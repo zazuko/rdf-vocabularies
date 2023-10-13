@@ -17,6 +17,9 @@
     "prefix": "duv",
     "namespace": "http://www.w3.org/ns/duv#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

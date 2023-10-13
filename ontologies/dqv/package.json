@@ -17,6 +17,9 @@
     "prefix": "dqv",
     "namespace": "http://www.w3.org/ns/dqv#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",
