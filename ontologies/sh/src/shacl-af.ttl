@@ -1,0 +1,509 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix shsh: <http://www.w3.org/ns/shacl-shacl#> .
+@prefix dash: <http://datashapes.org/dash#> .
+
+sh:NodeExpression
+  a sh:NodeShape ;
+  sh:targetObjectsOf sh:expression, sh:values ;
+  sh:xone
+    (
+      sh:FocusNodeOrConstantTermExpression
+      [
+        sh:nodeKind sh:BlankNode ;
+        sh:not _:builtInExpression ;
+      ]
+      [
+        sh:xone _:builtInExpression ;
+      ]
+    )
+.
+
+_:builtInExpression
+  rdf:first sh:ExistsExpression ;
+  rdf:rest
+    (
+      sh:IfExpression
+      sh:FilterShapeExpression
+      sh:PathExpression
+      sh:IntersectionExpression
+      sh:UnionExpression
+      sh:MinusExpression
+      sh:DistinctExpression
+      sh:CountExpression
+      sh:MinExpression
+      sh:MaxExpression
+      sh:SumExpression
+      sh:GroupConcatExpression
+      sh:OrderByExpression
+      sh:LimitExpression
+      sh:OffsetExpression
+      sh:SPARQLAskExpression
+      sh:SPARQLSelectExpression
+    ) .
+
+sh:FocusNodeOrConstantTermExpression
+  a sh:NodeShape ;
+  sh:nodeKind sh:IRIOrLiteral ;
+.
+
+sh:ExistsExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:exists ;
+  rdfs:label "Exists Expression" ;
+  rdfs:comment
+    "An exists expression is a blank node with exactly one value for sh:exists (which is a well-formed shape)." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:exists ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node shsh:ShapeShape ;
+    ] ;
+.
+
+sh:exists a rdf:Property .
+
+sh:IfExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:if, sh:then, sh:else ;
+  rdfs:label "If Expression" ;
+  rdfs:comment
+    "An if expression is a blank node with exactly one value for sh:if (which is a well-formed node expression), at most one value for sh:then (which is a well-formed node expression) and at most one value for sh:else (which is a well-formed node expression)." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:if ;
+      sh:node sh:NodeExpression ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+    ],
+    [
+      sh:path sh:then ;
+      sh:node sh:NodeExpression ;
+      sh:maxCount 1 ;
+    ],
+    [
+      sh:path sh:else ;
+      sh:node sh:NodeExpression ;
+      sh:maxCount 1 ;
+    ] ;
+.
+
+sh:if a rdf:Property .
+
+sh:then a rdf:Property .
+
+sh:else a rdf:Property .
+
+sh:FilterShapeExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:filterShape ;
+  rdfs:label "Filter Shape Expression" ;
+  rdfs:comment
+    "A filter shape expression is a blank node with exactly one value for sh:filterShape (which is a well-formed shape) and at most one value for sh:nodes (which is a well-formed node expression)." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:filterShape ;
+      sh:node shsh:ShapeShape ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+    ],
+    [
+      sh:path sh:nodes ;
+      sh:node sh:NodeExpression ;
+      sh:maxCount 1 ;
+    ] ;
+.
+
+sh:FunctionExpression
+  a sh:NodeShape ;
+  rdfs:label "Function Expression" ;
+  rdfs:comment
+    "A function expression is a blank node that does not fulfill any of the syntax rules of the other node expression types and which is the subject of exactly one triple T where the object is a well-formed SHACL list, and each member of that list is a well-formed node expression." ;
+  sh:nodeKind sh:BlankNode ;
+# TODO: which is the subject of exactly one triple T where the object is a well-formed SHACL list
+.
+
+sh:PathExpression
+  a sh:NodeShape ;
+  rdfs:label "Path Expression" ;
+  rdfs:comment
+    "A path expression is a blank node with exactly one value of the property sh:path (which are well-formed property paths) and at most one value for sh:nodes (which is a well-formed node expression)." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:path ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node shsh:PathShape ;
+    ],
+    [
+      sh:path sh:nodes ;
+      sh:node sh:NodeExpression ;
+      sh:maxCount 1 ;
+    ] ;
+.
+
+sh:IntersectionExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:intersection ;
+  rdfs:label "Intersection Expression" ;
+  rdfs:comment
+    "An intersection expression is a blank node with exactly one value for the property sh:intersection which is a well-formed SHACL list with at least two members (which are well-formed node expressions)." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:intersection ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node dash:ListShape ;
+      sh:and ( _:hasAtLeastTwoNodeExpressions ) ;
+    ] ;
+.
+
+sh:UnionExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:union ;
+  rdfs:label "Union Expression" ;
+  rdfs:comment
+    "A union expression is a blank node with exactly one value for the property sh:union which is a well-formed SHACL list with at least two members (which are well-formed node expressions)." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:union ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node dash:ListShape ;
+      sh:and ( _:hasAtLeastTwoNodeExpressions ) ;
+    ] ;
+.
+
+sh:MinusExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:minus ;
+  rdfs:label "Minus Expression" ;
+  rdfs:comment
+    "A minus expression is a blank node with exactly one value for the property sh:minus which is a well-formed node expression and exactly one value for the property sh:nodes which is a well-formed node expression." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:minus ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ],
+    [
+      sh:path sh:nodes ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ] ;
+.
+
+sh:minus a rdf:Property .
+
+sh:DistinctExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:distinct ;
+  rdfs:label "Distinct Expression" ;
+  rdfs:comment
+    "A distinct expression is a blank node with exactly one value for the property sh:distinct which is a well-formed node expression." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:distinct ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ] ;
+.
+
+sh:distinct a rdf:Property .
+
+sh:CountExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:count ;
+  rdfs:label "Count Expression" ;
+  rdfs:comment
+    "A count expression is a blank node with exactly one value for the property sh:count which is a well-formed node expression." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:count ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ] ;
+.
+
+sh:count a rdf:Property .
+
+sh:MinExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:min ;
+  rdfs:label "Min Expression" ;
+  rdfs:comment
+    "A min expression is a blank node with exactly one value for the property sh:min which is a well-formed node expression." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:min ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ] ;
+.
+
+sh:min a rdf:Property .
+
+sh:MaxExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:max ;
+  rdfs:label "Max Expression" ;
+  rdfs:comment
+    "A max expression is a blank node with exactly one value for the property sh:max which is a well-formed node expression." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:max ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ] ;
+.
+
+sh:max a rdf:Property .
+
+sh:SumExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:sum ;
+  rdfs:label "Sum Expression" ;
+  rdfs:comment
+    "A sum expression is a blank node with exactly one value for the property sh:sum which is a well-formed node expression." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:sum ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ] ;
+.
+
+sh:sum a rdf:Property .
+
+sh:GroupConcatExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:groupConcat ;
+  rdfs:label "Group Concat Expression" ;
+  rdfs:comment
+    "A group concat expression is a blank node with exactly one value for the property sh:groupConcat which is a well-formed node expression. A group concat expression can have a single value for the property sh:separator which is literal with datatype xsd:string." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:groupConcat ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ],
+    [
+      sh:path sh:separator ;
+      sh:maxCount 1 ;
+      sh:datatype sh:string ;
+    ] ;
+.
+
+sh:groupConcat a rdf:Property .
+
+sh:separator a rdf:Property .
+
+sh:OrderByExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:orderBy ;
+  rdfs:label "OrderBy Expression" ;
+  rdfs:comment
+    "An orderBy expression is a blank node with exactly one value for the property sh:orderBy which is a well-formed node expression and with exactly one value for the property sh:nodes which is a well-formed node expression. An orderBy expression can have one value for the property sh:desc which is either true or false." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:orderBy ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ],
+    [
+      sh:path sh:nodes ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ],
+    [
+      sh:path sh:desc ;
+      sh:maxCount 1 ;
+      sh:datatype xsd:boolean ;
+    ] ;
+.
+
+sh:orderBy a rdf:Property .
+
+sh:desc a rdf:Property .
+
+sh:LimitExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:limit ;
+  rdfs:label "Limit Expression" ;
+  rdfs:comment
+    "A limit expression is a blank node with exactly one value for the property sh:limit which is a literal with datatype xsd:integer and with exactly one value for the property sh:nodes which is a well-formed node expression." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:limit ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:datatype xsd:integer ;
+    ],
+    [
+      sh:path sh:nodes ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ] ;
+.
+
+sh:limit a rdf:Property .
+
+sh:OffsetExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:offset ;
+  rdfs:label "Offset Expression" ;
+  rdfs:comment
+    "An offset expression is a blank node with exactly one value for the property sh:offset which is a literal with datatype xsd:integer and with exactly one value for the property sh:nodes which is a well-formed node expression." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:offset ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:datatype xsd:integer ;
+    ],
+    [
+      sh:path sh:nodes ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ] ;
+.
+
+sh:offset a rdf:Property .
+
+sh:SPARQLAskExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:ask ;
+  rdfs:label "SPARQL ASK Expression" ;
+  rdfs:comment
+    "A SPARQL ASK expression is a blank node with exactly one value for the property sh:ask which is string literal. The blank node may have values for the property sh:prefixes and these values are IRIs or blank nodes. Using the values of sh:prefixes as defined by 5.2.1 Prefix Declarations for SPARQL Queries, the value of sh:ask must be valid SPARQL 1.1 ASK query. The blank node may also have exactly one value for the property sh:nodes which is a well-formed node expression." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:ask ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:datatype xsd:string ;
+    ],
+    [
+      sh:path sh:prefixes ;
+      sh:maxCount 1 ;
+      sh:nodeKind sh:BlankNodeOrIRI ;
+    ],
+    [
+      sh:path sh:nodes ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ] ;
+.
+
+sh:SPARQLSelectExpression
+  a sh:NodeShape ;
+  sh:targetSubjectsOf sh:select ;
+  rdfs:label "SPARQL SELECT Expression" ;
+  rdfs:comment
+    "A SPARQL SELECT expression is a blank node with exactly one value for the property sh:select which is string literal. The blank node may have values for the property sh:prefixes and these values are IRIs or blank nodes. Using the values of sh:prefixes as defined by 5.2.1 Prefix Declarations for SPARQL Queries, the value of sh:select must be valid SPARQL 1.1 SELECT query with exactly one result variable. The blank node may also have exactly one value for the property sh:nodes which is a well-formed node expression." ;
+  sh:nodeKind sh:BlankNode ;
+  sh:property
+    [
+      sh:path sh:select ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:datatype xsd:string ;
+    ],
+    [
+      sh:path sh:prefixes ;
+      sh:maxCount 1 ;
+      sh:nodeKind sh:BlankNodeOrIRI ;
+    ],
+    [
+      sh:path sh:nodes ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ] ;
+.
+
+_:atLeastTwoNodeExpressions
+  sh:property
+    [
+      sh:path sh:intersection ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node dash:ListShape ;
+      sh:property
+        [
+          sh:path ( [ sh:zeroOrMorePath rdf:rest ] rdf:first ) ;
+          sh:node sh:NodeExpression ;
+          sh:minCount 2 ;
+        ] ;
+    ] ;
+.
+
+sh:TripleRule
+  a sh:NodeShape ;
+  sh:property
+    [
+      sh:path sh:subject ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ],
+    [
+      sh:path sh:predicate ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ],
+    [
+      sh:path sh:object ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:node sh:NodeExpression ;
+    ] ;
+.
+
+sh:SPARQLRule
+  a sh:NodeShape ;
+  sh:property
+    [
+      sh:path sh:construct ;
+      sh:minCount 1 ;
+      sh:maxCount 1 ;
+      sh:datatype xsd:string ;
+    ],
+    [
+      sh:path sh:prefixes ;
+      sh:maxCount 1 ;
+      sh:nodeKind sh:BlankNodeOrIRI ;
+    ] ;
+.
