@@ -1,5 +1,15 @@
 # @vocabulary/sh
 
+## 1.1.0
+
+### Minor Changes
+
+- 80f0132: Added triples which describe the new terms from [SHACL Advanced Features](https://w3c.github.io/shacl/shacl-af/) 1.1 draft
+
+### Patch Changes
+
+- 8d17feb: Added `bugs` link to package
+
 ## 1.0.1
 
 ### Patch Changes

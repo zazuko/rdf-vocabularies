@@ -1,5 +1,11 @@
 # @zazuko/prefixes
 
+## 2.1.0
+
+### Minor Changes
+
+- b13956f: New prefix: `shsh` (SHACL shapes to validate SHACL shapes)
+
 ## 2.0.1
 
 ### Patch Changes
