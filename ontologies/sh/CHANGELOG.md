@@ -1,5 +1,11 @@
 # @vocabulary/sh
 
+## 1.1.1
+
+### Patch Changes
+
+- 9d582b8: `sh:string` should have been `xsd:string`
+
 ## 1.1.0
 
 ### Minor Changes
