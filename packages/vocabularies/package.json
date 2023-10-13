@@ -100,6 +100,7 @@
     "@vocabulary/set": "^1.0.0",
     "@vocabulary/sf": "^1.0.0",
     "@vocabulary/sh": "^1.0.0",
+    "@vocabulary/shsh": "^0.0.0",
     "@vocabulary/shex": "^1.0.0",
     "@vocabulary/sioc": "^1.0.0",
     "@vocabulary/skos": "^1.0.0",
