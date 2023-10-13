@@ -1,8 +1,9 @@
 {
-  "name": "@vocabulary/sh",
-  "version": "1.0.1",
+  "name": "@vocabulary/shsh",
+  "version": "0.0.0",
   "type": "module",
   "main": "index.js",
+  "description": "This shapes graph can be used to validate SHACL shapes graphs against a subset of the syntax rules.",
   "scripts": {
     "fetch": "npx --node-options='--loader=ts-node/esm' vocab-build datasets",
     "prebuild": "npx --node-options='--loader=ts-node/esm' vocab-build module",
@@ -12,18 +13,10 @@
   "devDependencies": {
     "@vocabulary/builder": "^1.0.2"
   },
-  "homepage": "https://prefix.zazuko.com/prefix/sh:",
+  "homepage": "https://www.w3.org/TR/shacl/#shacl-shacl",
   "vocabulary": {
-    "prefix": "sh",
-    "namespace": "http://www.w3.org/ns/shacl#",
-    "files": [
-      {
-        "file": "http://www.w3.org/ns/shacl#"
-      },
-      {
-        "file": "file:src/shacl-af.ttl"
-      }
-    ]
+    "prefix": "shsh",
+    "namespace": "https://www.w3.org/ns/shacl-shacl#"
   },
   "bugs": {
     "url": "https://github.com/zazuko/rdf-vocabularies/issues"
