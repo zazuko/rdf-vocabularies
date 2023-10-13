@@ -314,7 +314,7 @@ sh:GroupConcatExpression
     [
       sh:path sh:separator ;
       sh:maxCount 1 ;
-      sh:datatype sh:string ;
+      sh:datatype xsd:string ;
     ] ;
 .
 
