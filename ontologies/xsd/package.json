@@ -19,6 +19,9 @@
     "file": "https://raw.githubusercontent.com/ruby-rdf/rdf/master/etc/xsd.ttl",
     "mediaType": "text/turtle"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

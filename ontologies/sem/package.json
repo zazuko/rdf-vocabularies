@@ -22,6 +22,9 @@
       "baseIRI": "http://semanticweb.cs.vu.nl/2009/11/sem"
     }
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

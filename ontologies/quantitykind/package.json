@@ -17,6 +17,9 @@
     "prefix": "quantitykind",
     "namespace": "http://qudt.org/vocab/quantitykind/"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

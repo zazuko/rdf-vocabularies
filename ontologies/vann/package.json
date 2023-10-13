@@ -22,6 +22,9 @@
       "baseIRI": "http://vocab.org/vann/"
     }
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

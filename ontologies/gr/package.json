@@ -19,6 +19,9 @@
     "file": "http://www.heppnetz.de/ontologies/goodrelations/v1.owl",
     "mediaType": "application/rdf+xml"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

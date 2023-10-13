@@ -25,5 +25,8 @@
     "*.d.ts",
     "*.nq",
     "*.nt"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  }
 }

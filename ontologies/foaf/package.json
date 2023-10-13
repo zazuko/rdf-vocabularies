@@ -17,6 +17,9 @@
     "prefix": "foaf",
     "namespace": "http://xmlns.com/foaf/0.1/"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

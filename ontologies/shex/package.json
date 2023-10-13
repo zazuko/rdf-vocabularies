@@ -17,6 +17,9 @@
     "prefix": "shex",
     "namespace": "http://www.w3.org/ns/shex#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

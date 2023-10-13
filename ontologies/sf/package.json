@@ -19,6 +19,9 @@
     "file": "http://schemas.opengis.net/sf/1.0/simple_features_geometries.rdf",
     "mediaType": "application/rdf+xml"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

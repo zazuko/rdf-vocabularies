@@ -17,6 +17,9 @@
     "prefix": "skos",
     "namespace": "http://www.w3.org/2004/02/skos/core#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

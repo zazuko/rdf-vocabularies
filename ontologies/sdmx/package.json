@@ -18,6 +18,9 @@
     "namespace": "http://purl.org/linked-data/sdmx#",
     "mediaType": "text/turtle"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

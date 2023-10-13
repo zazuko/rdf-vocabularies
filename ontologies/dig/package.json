@@ -20,6 +20,9 @@
     "file": "https://www.cidoc-crm.org/crmdig/sites/default/files/CRMdig_v3.2.1.rdfs",
     "mediaType": "application/rdf+xml"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "files": [
     "*.js",
     "*.d.ts",

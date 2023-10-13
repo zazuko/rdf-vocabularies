@@ -17,6 +17,9 @@
     "prefix": "pim",
     "namespace": "http://www.w3.org/ns/pim/space#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",

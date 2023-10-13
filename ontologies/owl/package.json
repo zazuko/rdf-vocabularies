@@ -17,6 +17,9 @@
     "prefix": "owl",
     "namespace": "http://www.w3.org/2002/07/owl#"
   },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
   "license": "MIT",
   "files": [
     "*.js",
