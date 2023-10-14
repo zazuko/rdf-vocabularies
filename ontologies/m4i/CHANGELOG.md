@@ -1,5 +1,11 @@
 # @vocabulary/m4i
 
+## 1.1.1
+
+### Patch Changes
+
+- a676187: Added `bugs` link to package
+
 ## 1.1.0
 
 ### Minor Changes
