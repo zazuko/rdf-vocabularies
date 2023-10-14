@@ -1,5 +1,11 @@
 # @vocabulary/gs1
 
+## 1.1.2
+
+### Patch Changes
+
+- a676187: Added `bugs` link to package
+
 ## 1.1.1
 
 ### Patch Changes

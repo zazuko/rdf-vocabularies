@@ -1,5 +1,11 @@
 # @vocabulary/earl
 
+## 2.0.2
+
+### Patch Changes
+
+- a676187: Added `bugs` link to package
+
 ## 2.0.1
 
 ### Patch Changes
