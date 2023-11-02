@@ -1,5 +1,11 @@
 # @vocabulary/sh
 
+## 1.1.3
+
+### Patch Changes
+
+- 868b751: Missing `sh:values`
+
 ## 1.1.2
 
 ### Patch Changes
