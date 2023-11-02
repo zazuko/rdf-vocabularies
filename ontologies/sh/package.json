@@ -33,6 +33,7 @@
     "*.js",
     "*.d.ts",
     "*.nq",
-    "*.nt"
+    "*.nt",
+    "CHANGELOG.md"
   ]
 }

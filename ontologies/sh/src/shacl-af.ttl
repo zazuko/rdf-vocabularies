@@ -5,6 +5,8 @@
 @prefix shsh: <http://www.w3.org/ns/shacl-shacl#> .
 @prefix dash: <http://datashapes.org/dash#> .
 
+sh:values a rdf:Property .
+
 sh:NodeExpression
   a sh:NodeShape ;
   sh:targetObjectsOf sh:expression, sh:values ;

@@ -1253,6 +1253,7 @@
 <http://www.w3.org/ns/shacl#value> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shacl#AbstractResult> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#value> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#value> <http://www.w3.org/2000/01/rdf-schema#label> "value"@en <http://www.w3.org/ns/shacl#> .
+<http://www.w3.org/ns/shacl#values> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#xone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#xone> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a list of shapes so that the value nodes must conform to exactly one of the shapes."@en <http://www.w3.org/ns/shacl#> .
 <http://www.w3.org/ns/shacl#xone> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shacl#> <http://www.w3.org/ns/shacl#> .
