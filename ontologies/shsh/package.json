@@ -16,7 +16,7 @@
   "homepage": "https://www.w3.org/TR/shacl/#shacl-shacl",
   "vocabulary": {
     "prefix": "shsh",
-    "namespace": "https://www.w3.org/ns/shacl-shacl#"
+    "namespace": "http://www.w3.org/ns/shacl-shacl#"
   },
   "bugs": {
     "url": "https://github.com/zazuko/rdf-vocabularies/issues"
