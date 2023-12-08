@@ -30,7 +30,7 @@ jobs:
         if: github.ref == 'refs/heads/master'
       - name: Build changed
         run: npx wsrun --changedSince origin/master -y 10 -lm --report -c prepack
-        if: github.event_name == 'pull_request'
+        if: github.ref != 'refs/heads/master'
 
       - name: Codecov
         uses: codecov/codecov-action@v3
