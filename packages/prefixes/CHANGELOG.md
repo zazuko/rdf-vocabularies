@@ -1,5 +1,11 @@
 # @zazuko/prefixes
 
+## 2.1.1
+
+### Patch Changes
+
+- 07d0706: Corrected the namespace of SHACL-SHACL (re #184)
+
 ## 2.1.0
 
 ### Minor Changes
