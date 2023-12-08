@@ -1,12 +1,6 @@
 name: Node.js CI
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+on: [push, pull_request]
 
 jobs:
   build:
@@ -21,6 +15,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: git fetch --prune
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
@@ -28,7 +25,12 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
       - run: npm run test
-      - run: npx wsrun -y 10 -lm --report -c prepack
+      - name: Build all
+        run: npx wsrun -y 10 -lm --report -c prepack
+        if: github.ref == 'refs/heads/master'
+      - name: Build changed
+        run: npx wsrun --changedSince origin/master -y 10 -lm --report -c prepack
+        if: github.ref != 'refs/heads/master'
 
       - name: Codecov
         uses: codecov/codecov-action@v3
