@@ -1,5 +1,11 @@
 # @vocabulary/builder
 
+## 1.0.5
+
+### Patch Changes
+
+- 0653527: Updated `@zazuko/env`
+
 ## 1.0.4
 
 ### Patch Changes
