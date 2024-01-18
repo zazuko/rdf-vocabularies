@@ -1,5 +1,13 @@
 # @zazuko/vocabularies
 
+## 2.0.4
+
+### Patch Changes
+
+- 0653527: Updated `@zazuko/env`
+- Updated dependencies [0653527]
+  - @zazuko/vocabulary-loader@1.0.2
+
 ## 2.0.3
 
 ### Patch Changes
