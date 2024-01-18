@@ -1,5 +1,4 @@
-import { readFileSync } from 'fs'
-import fs from 'fs/promises'
+import { readFileSync, promises as fs } from 'fs'
 import module from 'module'
 import { resolve as resolvePath } from 'path'
 import { expect } from 'chai'

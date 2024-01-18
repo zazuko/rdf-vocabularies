@@ -1,15 +1,15 @@
-import fs from 'fs/promises'
+import { promises as fs } from 'fs'
 import { resolve } from 'path'
-import { Readable } from 'stream'
 import RdfjsSerializer from '@rdfjs/serializer-rdfjs'
-import { fromFile } from 'rdf-utils-fs'
 import { array } from 'get-stream'
 import { Quad } from '@rdfjs/types'
+import rdf from '@zazuko/env-node'
 
 const rdfjsSerializer = new RdfjsSerializer({ module: 'ts' })
 
 export async function buildModule(path: string, prefix: string) {
-  const dataset = await array<Quad>(<Readable>fromFile(resolve(path, `${prefix}.nq`)))
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const dataset = await array<Quad>(<any>rdf.fromFile(resolve(path, `${prefix}.nq`)))
 
   const quadArray = [...dataset]
   for (const quad of quadArray) {
