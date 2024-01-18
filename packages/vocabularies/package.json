@@ -124,7 +124,7 @@
     "@vocabulary/xhv": "^1.0.0",
     "@vocabulary/xkos": "^1.0.0",
     "@vocabulary/xsd": "^1.0.0",
-    "@zazuko/env": "^1.3.0",
+    "@zazuko/env": "^2.0.2",
     "@zazuko/prefixes": "^2.1.0",
     "commander": "^10.0.0",
     "rdf-dataset-ext": "^1",

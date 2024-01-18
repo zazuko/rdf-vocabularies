@@ -1,13 +1,13 @@
 /* eslint-disable no-console,@typescript-eslint/no-explicit-any */
 import fs from 'fs'
 import { resolve } from 'path'
-import rdf from '@zazuko/env'
-import formats from '@rdfjs/formats-common'
+import rdf from '@zazuko/env-node'
+import formats from '@rdfjs/formats'
 import rdfFetch, { FactoryInit, DatasetResponse } from '@rdfjs/fetch-lite'
 import { RdfXmlParser } from 'rdfxml-streaming-parser'
 import { DatasetCore, NamedNode } from '@rdfjs/types'
 import { expand } from '@zazuko/prefixes'
-import { Dataset } from '@zazuko/env/lib/Dataset'
+import type { Dataset } from '@zazuko/env/lib/Dataset.js'
 import { Override } from './lib/overrides.js'
 import rawFetch from './lib/fetch.js'
 

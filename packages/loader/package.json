@@ -12,9 +12,9 @@
     "prepack": "tsc"
   },
   "dependencies": {
-    "@zazuko/env": "^1.6.1",
+    "@zazuko/env": "^2.0.2",
     "@rdfjs/parser-n3": "^2.0.1",
-    "@types/rdfjs__environment": "^0.1",
+    "@types/rdfjs__environment": "1",
     "rdf-dataset-ext": "^1.1.0"
   }
 }
