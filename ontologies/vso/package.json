@@ -1,0 +1,32 @@
+{
+  "name": "@vocabulary/vso",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.js",
+  "description": "Vehicle Sales Ontology",
+  "scripts": {
+    "fetch": "npx --node-options='--loader=ts-node/esm' vocab-build datasets",
+    "prebuild": "npx --node-options='--loader=ts-node/esm' vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.2"
+  },
+  "homepage": "https://prefix.zazuko.com/prefix/vso:",
+  "vocabulary": {
+    "prefix": "vso",
+    "namespace": "http://purl.org/vso/ns#",
+    "file": "https://www.heppnetz.de/ontologies/vso/ns.owl"
+  },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ]
+}

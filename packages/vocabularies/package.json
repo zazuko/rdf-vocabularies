@@ -119,6 +119,7 @@
     "@vocabulary/vcard": "^1.0.0",
     "@vocabulary/void": "^1.0.0",
     "@vocabulary/vs": "^1.0.0",
+    "@vocabulary/vso": "^0.0.0",
     "@vocabulary/wdrs": "^1.0.0",
     "@vocabulary/wgs": "^1.0.0",
     "@vocabulary/xhv": "^1.0.0",

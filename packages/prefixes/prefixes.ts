@@ -99,6 +99,7 @@ const packagedPrefixes = {
   vcard: 'http://www.w3.org/2006/vcard/ns#',
   void: 'http://rdfs.org/ns/void#',
   vs: 'http://www.w3.org/2003/06/sw-vocab-status/ns#',
+  vso: 'http://purl.org/vso/ns#',
   wdrs: 'http://www.w3.org/2007/05/powder-s#',
   wgs: 'http://www.w3.org/2003/01/geo/wgs84_pos#',
   xhv: 'http://www.w3.org/1999/xhtml/vocab#',
