@@ -1,0 +1,7 @@
+<https://prefix.zazuko.com/vso:> <http://dbpedia.org/ontology/filename> "@vocabulary/vso/vso.nq" .
+<https://prefix.zazuko.com/vso:> <http://purl.org/dc/terms/description> "VSO: The Vehicle Sales Ontology\n    \nA Web vocabulary for describings cars, boats, bikes, and other vehicles for e-commerce.\n\nVocabulary:    http://purl.org/vso/ns\nNamespace:     http://purl.org/vso/ns#\n\nThe Vehicle Sales Ontology is designed to be used in combination with GoodRelations, a standard vocabulary for the commercial aspects of offers for sale or rental. \n\nSee http://purl.org/goodrelations/ for more information." .
+<https://prefix.zazuko.com/vso:> <http://purl.org/dc/terms/title> "VSO: The Vehicle Sales Ontology for Semantic Web-based E-Commerce" .
+<https://prefix.zazuko.com/vso:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/vso:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.heppnetz.de/ontologies/vso/ns.owl> .
+<https://prefix.zazuko.com/vso:> <http://www.w3.org/ns/rdfa#prefix> "vso" .
+<https://prefix.zazuko.com/vso:> <http://www.w3.org/ns/rdfa#uri> <http://purl.org/vso/ns#> .
