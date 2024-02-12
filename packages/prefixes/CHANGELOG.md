@@ -1,5 +1,11 @@
 # @zazuko/prefixes
 
+## 2.2.0
+
+### Minor Changes
+
+- 3fd3e37: Added Vehicle Sales Ontology (`vso:`)
+
 ## 2.1.1
 
 ### Patch Changes
