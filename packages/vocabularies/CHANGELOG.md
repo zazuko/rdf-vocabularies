@@ -1,5 +1,18 @@
 # @zazuko/vocabularies
 
+## 2.1.0
+
+### Minor Changes
+
+- 3fd3e37: Added Vehicle Sales Ontology (`vso:`)
+
+### Patch Changes
+
+- Updated dependencies [3fd3e37]
+- Updated dependencies [3fd3e37]
+  - @vocabulary/vso@1.0.0
+  - @zazuko/prefixes@2.2.0
+
 ## 2.0.4
 
 ### Patch Changes

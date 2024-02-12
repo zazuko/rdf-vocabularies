@@ -1,6 +1,6 @@
 {
   "name": "@zazuko/vocabularies",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "Access most commonly used RDF ontologies/schemas/vocabularies as datasets or n-quads",
   "type": "module",
   "bin": {
@@ -119,14 +119,14 @@
     "@vocabulary/vcard": "^1.0.0",
     "@vocabulary/void": "^1.0.0",
     "@vocabulary/vs": "^1.0.0",
-    "@vocabulary/vso": "^0.0.0",
+    "@vocabulary/vso": "^1.0.0",
     "@vocabulary/wdrs": "^1.0.0",
     "@vocabulary/wgs": "^1.0.0",
     "@vocabulary/xhv": "^1.0.0",
     "@vocabulary/xkos": "^1.0.0",
     "@vocabulary/xsd": "^1.0.0",
     "@zazuko/env": "^2.0.2",
-    "@zazuko/prefixes": "^2.1.0",
+    "@zazuko/prefixes": "^2.2.0",
     "commander": "^10.0.0",
     "rdf-dataset-ext": "^1",
     "readable-stream": "^4.3.0"
