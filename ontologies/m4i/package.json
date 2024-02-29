@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/m4i",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "description": "Metadata4Ing: An ontology for describing the generation of research data within a scientific activity.",
   "scripts": {
@@ -10,7 +10,7 @@
     "prepack": "npm run build"
   },
   "devDependencies": {
-    "@vocabulary/builder": "^1.0.4"
+    "@vocabulary/builder": "^1.0.6"
   },
   "homepage": "https://prefix.zazuko.com/prefix/m4i:",
   "vocabulary": {

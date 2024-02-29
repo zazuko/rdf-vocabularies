@@ -1,5 +1,11 @@
 # @vocabulary/earl
 
+## 2.0.3
+
+### Patch Changes
+
+- e365e06: Replace usages of `rdf-js` with `@rdfjs/types` in type declarations
+
 ## 2.0.2
 
 ### Patch Changes

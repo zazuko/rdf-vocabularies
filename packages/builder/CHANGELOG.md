@@ -1,5 +1,11 @@
 # @vocabulary/builder
 
+## 1.0.6
+
+### Patch Changes
+
+- e365e06: Replace usages of `rdf-js` with `@rdfjs/types` in type declarations
+
 ## 1.0.5
 
 ### Patch Changes

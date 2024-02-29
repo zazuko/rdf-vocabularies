@@ -1,5 +1,11 @@
 # @vocabulary/gs1
 
+## 1.1.3
+
+### Patch Changes
+
+- e365e06: Replace usages of `rdf-js` with `@rdfjs/types` in type declarations
+
 ## 1.1.2
 
 ### Patch Changes
