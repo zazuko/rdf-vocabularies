@@ -21,6 +21,8 @@ export async function buildModule(path: string, prefix: string) {
     }
   }
 
-  const code = rdfjsSerializer.transform(quadArray)
+  const code = rdfjsSerializer
+    .transform(quadArray)
+    .replaceAll("import('rdf-js')", "import('@rdfjs/types')")
   await fs.writeFile('./index.ts', code)
 }
