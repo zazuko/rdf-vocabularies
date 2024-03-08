@@ -28,5 +28,8 @@
     "*.d.ts",
     "*.nq",
     "*.nt"
-  ]
+  ],
+  "peerDependencies": {
+    "@rdfjs/types": "^1.0.0"
+  }
 }
