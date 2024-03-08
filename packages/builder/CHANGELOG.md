@@ -1,5 +1,11 @@
 # @vocabulary/builder
 
+## 1.0.7
+
+### Patch Changes
+
+- d3570dc: Use `@rdfjs/types` instead of `rdf-js` in built TS module
+
 ## 1.0.6
 
 ### Patch Changes
