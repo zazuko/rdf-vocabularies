@@ -1,5 +1,11 @@
 # @vocabulary/m4i
 
+## 1.1.3
+
+### Patch Changes
+
+- d3570dc: Use `@rdfjs/types` instead of `rdf-js` in built TS module
+
 ## 1.1.2
 
 ### Patch Changes

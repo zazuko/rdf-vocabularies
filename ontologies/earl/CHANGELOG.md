@@ -1,5 +1,11 @@
 # @vocabulary/earl
 
+## 2.0.4
+
+### Patch Changes
+
+- d3570dc: Use `@rdfjs/types` instead of `rdf-js` in built TS module
+
 ## 2.0.3
 
 ### Patch Changes
