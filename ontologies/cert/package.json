@@ -26,5 +26,8 @@
   ],
   "bugs": {
     "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
+  "peerDependencies": {
+    "@rdfjs/types": "^1.0.0"
   }
 }

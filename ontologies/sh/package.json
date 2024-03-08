@@ -35,5 +35,8 @@
     "*.nq",
     "*.nt",
     "CHANGELOG.md"
-  ]
+  ],
+  "peerDependencies": {
+    "@rdfjs/types": "^1.0.0"
+  }
 }

@@ -11,7 +11,7 @@
   "dependencies": {
     "@rdfjs/fetch-lite": "^3.2.1",
     "@rdfjs/formats": "^4",
-    "@rdfjs/serializer-rdfjs": "^0.1.1",
+    "@rdfjs/serializer-rdfjs": "^0.1.2",
     "@rdfjs/types": "^1.1.0",
     "@zazuko/env-node": "^2.1.1",
     "@zazuko/prefixes": "^2.0.0",
