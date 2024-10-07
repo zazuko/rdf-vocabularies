@@ -1,5 +1,13 @@
 # @zazuko/vocabularies
 
+## 2.1.1
+
+### Patch Changes
+
+- 886c252: Updated m4i to v1.3
+- Updated dependencies [886c252]
+  - @vocabulary/m4i@1.2.0
+
 ## 2.1.0
 
 ### Minor Changes
