@@ -1,5 +1,11 @@
 # @vocabulary/m4i
 
+## 1.2.0
+
+### Minor Changes
+
+- 886c252: Updated m4i to v1.3.0 (closes #199)
+
 ## 1.1.3
 
 ### Patch Changes
