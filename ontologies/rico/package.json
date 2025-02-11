@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/rico",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "vocabulary": {
     "prefix": "rico",
     "namespace": "https://www.ica.org/standards/RiC/ontology#",
-    "file": "https://github.com/ICA-EGAD/RiC-O/raw/master/ontology/current-version/RiC-O_v0-2.rdf",
+    "file": "https://github.com/ICA-EGAD/RiC-O/raw/master/ontology/current-version/RiC-O_1-0-2.rdf",
     "mediaType": "application/rdf+xml"
   },
   "bugs": {
