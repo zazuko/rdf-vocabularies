@@ -1,6 +1,6 @@
 {
   "name": "@zazuko/vocabularies",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "description": "Access most commonly used RDF ontologies/schemas/vocabularies as datasets or n-quads",
   "type": "module",
   "bin": {
@@ -90,7 +90,7 @@
     "@vocabulary/rdfa": "^1.0.0",
     "@vocabulary/rdfs": "^1.0.0",
     "@vocabulary/rev": "^1.0.0",
-    "@vocabulary/rico": "^1.0.4",
+    "@vocabulary/rico": "^2.0.0",
     "@vocabulary/rr": "^1.0.0",
     "@vocabulary/rss": "^1.0.0",
     "@vocabulary/schema": "^1.0.0",
