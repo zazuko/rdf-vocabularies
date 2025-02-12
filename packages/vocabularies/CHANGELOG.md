@@ -1,5 +1,16 @@
 # @zazuko/vocabularies
 
+## 3.0.0
+
+### Major Changes
+
+- 1714028: Update RiC-O to latest version 1.0.2
+
+### Patch Changes
+
+- Updated dependencies [1714028]
+  - @vocabulary/rico@2.0.0
+
 ## 2.1.1
 
 ### Patch Changes

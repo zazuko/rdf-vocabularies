@@ -1,5 +1,11 @@
 # @vocabulary/rico
 
+## 2.0.0
+
+### Major Changes
+
+- 1714028: Update RiC-O to latest version 1.0.2
+
 ## 1.0.4
 
 ### Patch Changes
