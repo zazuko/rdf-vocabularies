@@ -90,7 +90,7 @@
     "@vocabulary/rdfa": "^1.0.0",
     "@vocabulary/rdfs": "^1.0.0",
     "@vocabulary/rev": "^1.0.0",
-    "@vocabulary/rico": "^1.1.0",
+    "@vocabulary/rico": "^1.0.4",
     "@vocabulary/rr": "^1.0.0",
     "@vocabulary/rss": "^1.0.0",
     "@vocabulary/schema": "^1.0.0",
