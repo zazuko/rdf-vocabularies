@@ -1,0 +1,32 @@
+{
+  "name": "@vocabulary/dprod",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.js",
+  "description": "The Data Product (DPROD) Ontology. Extends DCAT to enable publishers to describe Data Products and data services in a decentralized way.",
+  "scripts": {
+    "fetch": "npx --node-options='--loader=ts-node/esm' vocab-build datasets",
+    "prebuild": "npx --node-options='--loader=ts-node/esm' vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.7"
+  },
+  "license": "MIT",
+  "homepage": "https://prefix.zazuko.com/prefix/dprod:",
+  "vocabulary": {
+    "prefix": "dprod",
+    "namespace": "https://ekgf.github.io/dprod/",
+    "file": "https://ekgf.github.io/dprod/dprod.ttl"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ],
+  "peerDependencies": {
+    "@rdfjs/types": "^1.0.0"
+  }
+}
