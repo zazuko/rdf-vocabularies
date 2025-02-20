@@ -22,6 +22,7 @@ const packagedPrefixes = {
   dig: 'http://www.ics.forth.gr/isl/CRMdig/',
   discipline: 'http://qudt.org/vocab/discipline/',
   doap: 'http://usefulinc.com/ns/doap#',
+  dprod: 'https://ekgf.github.io/dprod/',
   dpv: 'http://www.w3.org/ns/dpv#',
   dqv: 'http://www.w3.org/ns/dqv#',
   dtype: 'http://www.linkedmodel.org/schema/dtype#',
