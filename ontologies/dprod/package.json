@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/dprod",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "main": "index.js",
   "description": "The Data Product (DPROD) Ontology. Extends DCAT to enable publishers to describe Data Products and data services in a decentralized way.",
