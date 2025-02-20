@@ -42,6 +42,7 @@
     "@vocabulary/dig": "^1.0.0",
     "@vocabulary/discipline": "^1.0.0",
     "@vocabulary/doap": "^1.0.0",
+    "@vocabulary/dprod": "^0.0.0",
     "@vocabulary/dpv": "^1.0.0",
     "@vocabulary/dqv": "^1.0.0",
     "@vocabulary/dtype": "^1.0.0",

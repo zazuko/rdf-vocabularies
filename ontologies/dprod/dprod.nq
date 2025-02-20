@@ -1,0 +1,147 @@
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://ekgf.github.io/dprod/> .
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://ekgf.github.io/dprod/> .
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://ekgf.github.io/dprod/> .
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://purl.org/dc/terms/contributor> <https://www.linkedin.com/in/jgeluk> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://purl.org/dc/terms/contributor> <https://www.linkedin.com/in/marcel-fr%C3%B6hlich-648a043> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://purl.org/dc/terms/contributor> <https://www.linkedin.com/in/matthias-jurisch> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://purl.org/dc/terms/contributor> <https://www.linkedin.com/in/natasavaritimou> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://purl.org/dc/terms/contributor> <https://www.linkedin.com/in/peterivett> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://purl.org/dc/terms/contributor> <https://www.linkedin.com/in/tonyseale> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://purl.org/dc/terms/description> "DPROD extends DCAT to enable publishers to describe Data Products and data services in a decentralized way."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://purl.org/dc/terms/modified> "2024-08-31"^^<http://www.w3.org/2001/XMLSchema#date> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://purl.org/dc/terms/publisher> <https://www.omg.org/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://purl.org/dc/terms/title> "The Data Product (DPROD) Ontology"@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://www.w3.org/2000/01/rdf-schema#comment> "DPROD is an OWL ontology designed to facilitate interoperability between data product descriptors."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://www.w3.org/2000/01/rdf-schema#comment> "The ontology utilizes the notion of Datasets as defined from DCAT vocabulary."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://www.w3.org/2000/01/rdf-schema#label> "DPROD ontology"@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/ns/dcat#> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/> <http://www.w3.org/2002/07/owl#versionInfo> "OMG Request For Comments Errata 2" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProduct> <http://purl.org/dc/terms/description> "A rational, managed, and governed collection of data, with purpose, value and ownership, meeting consumer needs over a planned life-cycle."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "A data product may have input and output ports, code and metadata"@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProduct> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProduct> <http://www.w3.org/2000/01/rdf-schema#label> "data product" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProduct> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/dcat#Resource> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProductLifecycleStatus> <http://purl.org/dc/terms/description> "The development status of the data product taken from a controlled list (e.g. Ideation, Design, Build, Deploy, Consume)."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProductLifecycleStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProductLifecycleStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProductLifecycleStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "The lifecycle of the data product as defined by EDM Council CDMC"@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProductLifecycleStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProductLifecycleStatus> <http://www.w3.org/2000/01/rdf-schema#label> "data product lifecycle status" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProductLifecycleStatus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://edmcouncil.org/wp-content/uploads/2024/03/EDMWebinar_DPSIG_04-30-Presentation.pdf#page=7> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/DataProductLifecycleStatus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://ekgf.github.io/dprod/Enumeration> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/Enumeration> <http://purl.org/dc/terms/description> "The superclass of enumeration lists referenced from data product related artifacts."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/Enumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/Enumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/Enumeration> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/Enumeration> <http://www.w3.org/2000/01/rdf-schema#label> "enumeration" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/InformationSensitivityClassification> <http://purl.org/dc/terms/description> "A classification of the information within a dataset to indicate the level of control and protection that must be applied."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/InformationSensitivityClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/InformationSensitivityClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/InformationSensitivityClassification> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/InformationSensitivityClassification> <http://www.w3.org/2000/01/rdf-schema#label> "information sensitivity classification" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/InformationSensitivityClassification> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://spec.edmcouncil.org/cdmc/ontology/Classification/InformationSensitivity> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/Protocol> <http://purl.org/dc/terms/description> "A detailed specification, possibly including a specific version, for how to communicate with a service."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/Protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/Protocol> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/Protocol> <http://www.w3.org/2000/01/rdf-schema#label> "protocol" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/SecuritySchemaType> <http://purl.org/dc/terms/description> "A classification encompassing a set of rules used for authentication and communication."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/SecuritySchemaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/SecuritySchemaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/SecuritySchemaType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/SecuritySchemaType> <http://www.w3.org/2000/01/rdf-schema#label> "security schema type" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/dataProductOwner> <http://purl.org/dc/terms/description> "The agent that is accountable overall for the data product, including managing it through its lifecycle."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/dataProductOwner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/dataProductOwner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/dataProductOwner> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ekgf.github.io/dprod/DataProduct> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/dataProductOwner> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/dataProductOwner> <http://www.w3.org/2000/01/rdf-schema#label> "data product owner" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/dataProductOwner> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Agent> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/domain> <http://purl.org/dc/terms/description> "The business or information area supported by the data product."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/domain> <http://www.w3.org/2000/01/rdf-schema#comment> "The domain is intended to be a resource in its own right. This specification does not constrain the class to be used."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/domain> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ekgf.github.io/dprod/DataProduct> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/domain> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/domain> <http://www.w3.org/2000/01/rdf-schema#label> "domain" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/informationSensitivityClassification> <http://purl.org/dc/terms/description> "More granular classification that indicates the level of control and protection that must be applied to the asset due to the nature of the data and its sensitivity or importance to the organization."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/informationSensitivityClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/informationSensitivityClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/informationSensitivityClassification> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Dataset> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/informationSensitivityClassification> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/informationSensitivityClassification> <http://www.w3.org/2000/01/rdf-schema#label> "information sensitivity classification" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/informationSensitivityClassification> <http://www.w3.org/2000/01/rdf-schema#range> <https://ekgf.github.io/dprod/InformationSensitivityClassification> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputDataset> <http://purl.org/dc/terms/description> "The source data made available to the data product through input data services. Depending on the lifecycle of the data product, this may be a stated or inferred relationship aligned with the input ports."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ekgf.github.io/dprod/DataProduct> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputDataset> <http://www.w3.org/2000/01/rdf-schema#label> "input dataset" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputPort> <http://purl.org/dc/terms/description> "A set of services exposed by a data product to collect its source data and makes it available for further internal transformation. An input port can receive data from one or more upstream sources in a push (i.e. asynchronous subscription) or pop mode (i.e. synchronous query). Each data product may have one or more input ports."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputPort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputPort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputPort> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ekgf.github.io/dprod/DataProduct> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputPort> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputPort> <http://www.w3.org/2000/01/rdf-schema#label> "input port" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/inputPort> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#DataService> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isAccessServiceOf> <http://purl.org/dc/terms/description> "The dataset distribution that is being offered through this data service."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isAccessServiceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isAccessServiceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isAccessServiceOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isAccessServiceOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isAccessServiceOf> <http://www.w3.org/2000/01/rdf-schema#label> "is access service of" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isAccessServiceOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Distribution> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isAccessServiceOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/dcat#accessService> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isDistributionOf> <http://purl.org/dc/terms/description> "The dataset that this distribution makes available."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isDistributionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isDistributionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isDistributionOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#Distribution> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isDistributionOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isDistributionOf> <http://www.w3.org/2000/01/rdf-schema#label> "is distribution of" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/isDistributionOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/ns/dcat#distribution> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/lifecycleStatus> <http://purl.org/dc/terms/description> "The development status of the data product. "@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/lifecycleStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/lifecycleStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/lifecycleStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ekgf.github.io/dprod/DataProduct> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/lifecycleStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/lifecycleStatus> <http://www.w3.org/2000/01/rdf-schema#label> "lifecycle status" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/lifecycleStatus> <http://www.w3.org/2000/01/rdf-schema#range> <https://ekgf.github.io/dprod/DataProductLifecycleStatus> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputDataset> <http://purl.org/dc/terms/description> "The data that is exposed by the data product through output data services in a way that can be understood and trusted. Depending on the lifecycle of the data product, this may be a stated or inferred relationship aligned with the output ports."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputDataset> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ekgf.github.io/dprod/DataProduct> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputDataset> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputDataset> <http://www.w3.org/2000/01/rdf-schema#label> "output dataset" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputDataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#Dataset> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputPort> <http://purl.org/dc/terms/description> "A set of services exposed by a data product to share the generated data in a way that can be understood and trusted."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputPort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputPort> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputPort> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ekgf.github.io/dprod/DataProduct> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputPort> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputPort> <http://www.w3.org/2000/01/rdf-schema#label> "output port" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/outputPort> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/dcat#DataService> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/protocol> <http://purl.org/dc/terms/description> "A protocol (possibly one of many options) used to communicate with this data service."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/protocol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/protocol> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/protocol> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/protocol> <http://www.w3.org/2000/01/rdf-schema#label> "protocol" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/purpose> <http://purl.org/dc/terms/description> "A description of the objectives and intended usage of the data product."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/purpose> <http://www.w3.org/2000/01/rdf-schema#domain> <https://ekgf.github.io/dprod/DataProduct> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/purpose> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/purpose> <http://www.w3.org/2000/01/rdf-schema#label> "purpose" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/purpose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/securitySchemaType> <http://purl.org/dc/terms/description> "The security schema type used for authentication and communication with this Data Service."@en <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/securitySchemaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "security schema type" <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/securitySchemaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/securitySchemaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/securitySchemaType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/dcat#DataService> <https://ekgf.github.io/dprod/> .
+<https://ekgf.github.io/dprod/securitySchemaType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ekgf.github.io/dprod/> <https://ekgf.github.io/dprod/> .
