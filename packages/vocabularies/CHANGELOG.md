@@ -1,5 +1,17 @@
 # @zazuko/vocabularies
 
+## 3.1.0
+
+### Minor Changes
+
+- 960cbb3: Added The Data Product (DPROD) Ontology
+
+### Patch Changes
+
+- Updated dependencies [960cbb3]
+  - @vocabulary/dprod@1.0.0
+  - @zazuko/prefixes@2.3.0
+
 ## 3.0.0
 
 ### Major Changes
