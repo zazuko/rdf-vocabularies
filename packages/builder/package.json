@@ -12,8 +12,8 @@
     "@rdfjs/fetch-lite": "^3.2.1",
     "@rdfjs/formats": "^4",
     "@rdfjs/serializer-rdfjs": "^0.1.2",
-    "@rdfjs/types": "^1.1.0",
-    "@zazuko/env-node": "^2.1.1",
+    "@rdfjs/types": "^2",
+    "@zazuko/env-node": "^2.1.5",
     "@zazuko/prefixes": "^2.0.0",
     "commander": "^10.0.0",
     "get-stream": "^6.0.1",
@@ -24,11 +24,11 @@
     "ts-node": "^10.9.1"
   },
   "devDependencies": {
-    "@types/file-fetch": "^1.6.3",
-    "@types/proto-fetch": "^1.0.2",
-    "@types/rdfjs__fetch-lite": "^3.0.1",
-    "@types/rdfjs__formats": "^4",
-    "@types/rdfjs__serializer-rdfjs": "^0.0.2"
+    "@types/file-fetch": "^1.6.6",
+    "@types/proto-fetch": "^1.0.5",
+    "@types/rdfjs__fetch-lite": "^3.0.11",
+    "@types/rdfjs__formats": "^4.0.1",
+    "@types/rdfjs__serializer-rdfjs": "^0.1.6"
   },
   "license": "MIT"
 }

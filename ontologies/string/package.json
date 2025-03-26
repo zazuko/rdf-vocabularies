@@ -32,6 +32,6 @@
     "*.nt"
   ],
   "peerDependencies": {
-    "@rdfjs/types": "^1.0.0"
+    "@rdfjs/types": "^2.0.0"
   }
 }

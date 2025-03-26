@@ -146,8 +146,8 @@
   "devDependencies": {
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10",
-    "@types/rdf-dataset-ext": "^1",
-    "@types/rdfjs__parser-n3": "^1.1.5",
+    "@types/rdf-dataset-ext": "^1.0.8",
+    "@types/rdfjs__parser-n3": "^2.0.6",
     "chai": "^4.3.7"
   },
   "repository": {
