@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/vso",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "index.js",
   "description": "Vehicle Sales Ontology",
@@ -11,7 +11,7 @@
     "prepack": "npm run build"
   },
   "devDependencies": {
-    "@vocabulary/builder": "^1.0.6"
+    "@vocabulary/builder": "^1.0.8"
   },
   "homepage": "https://prefix.zazuko.com/prefix/vso:",
   "vocabulary": {

@@ -1,5 +1,15 @@
 # @vocabulary/unit
 
+## 2.0.0
+
+### Major Changes
+
+- a2a3b9c: Updated QUDT to v3
+
+### Patch Changes
+
+- c82d252: Update `@rdfjs/types` to v2. Remove `rdf-js` completely
+
 ## 1.1.0
 
 ### Minor Changes

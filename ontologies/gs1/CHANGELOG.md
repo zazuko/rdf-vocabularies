@@ -1,5 +1,11 @@
 # @vocabulary/gs1
 
+## 1.1.5
+
+### Patch Changes
+
+- c82d252: Update `@rdfjs/types` to v2. Remove `rdf-js` completely
+
 ## 1.1.4
 
 ### Patch Changes

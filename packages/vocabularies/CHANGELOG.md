@@ -1,5 +1,123 @@
 # @zazuko/vocabularies
 
+## 4.0.0
+
+### Major Changes
+
+- a2a3b9c: Updated QUDT to v3
+
+### Patch Changes
+
+- c82d252: Update `@rdfjs/types` to v2. Remove `rdf-js` completely
+- Updated dependencies [c82d252]
+- Updated dependencies [a2a3b9c]
+  - @vocabulary/quantitykind@2.0.0
+  - @vocabulary/dash-sparql@1.0.5
+  - @vocabulary/discipline@1.0.5
+  - @vocabulary/constant@1.0.5
+  - @vocabulary/dcmitype@1.0.5
+  - @vocabulary/dcterms@1.0.5
+  - @vocabulary/ebucore@1.0.5
+  - @vocabulary/prefix@1.0.5
+  - @vocabulary/schema@1.0.5
+  - @vocabulary/skosxl@1.0.5
+  - @vocabulary/string@1.0.5
+  - @vocabulary/dprod@1.0.1
+  - @vocabulary/dtype@1.0.5
+  - @vocabulary/grddl@1.0.5
+  - @vocabulary/hydra@1.0.5
+  - @vocabulary/lvont@1.0.5
+  - @vocabulary/solid@1.0.4
+  - @vocabulary/vcard@1.0.5
+  - @vocabulary/bibo@1.0.5
+  - @vocabulary/cert@1.0.4
+  - @vocabulary/csvw@1.0.5
+  - @vocabulary/ctag@1.0.5
+  - @vocabulary/dash@1.0.5
+  - @vocabulary/dc11@1.0.5
+  - @vocabulary/dcam@1.0.5
+  - @vocabulary/dcat@1.0.5
+  - @vocabulary/doap@1.0.5
+  - @vocabulary/earl@2.0.5
+  - @vocabulary/exif@1.0.5
+  - @vocabulary/foaf@1.0.5
+  - @vocabulary/frbr@1.0.5
+  - @vocabulary/geof@1.0.5
+  - @vocabulary/geor@1.0.5
+  - @vocabulary/gtfs@1.0.5
+  - @vocabulary/http@1.0.5
+  - @vocabulary/ical@1.0.5
+  - @vocabulary/list@1.0.5
+  - @vocabulary/locn@1.0.5
+  - @vocabulary/mads@1.0.5
+  - @vocabulary/math@1.0.5
+  - @vocabulary/oidc@1.0.4
+  - @vocabulary/prov@1.0.5
+  - @vocabulary/qkdv@1.0.5
+  - @vocabulary/qudt@2.0.0
+  - @vocabulary/rdau@1.0.5
+  - @vocabulary/rdfa@1.0.5
+  - @vocabulary/rdfs@1.0.5
+  - @vocabulary/rico@2.0.1
+  - @vocabulary/sdmx@1.0.5
+  - @vocabulary/shex@1.0.5
+  - @vocabulary/shsh@1.0.4
+  - @vocabulary/sioc@1.0.5
+  - @vocabulary/skos@1.0.5
+  - @vocabulary/sosa@1.0.5
+  - @vocabulary/stat@1.0.4
+  - @vocabulary/test@1.0.5
+  - @vocabulary/time@1.0.5
+  - @vocabulary/unit@2.0.0
+  - @vocabulary/vaem@1.0.5
+  - @vocabulary/vann@1.0.5
+  - @vocabulary/void@1.0.5
+  - @vocabulary/wdrs@1.0.5
+  - @vocabulary/xkos@1.0.5
+  - @vocabulary/acl@1.0.4
+  - @vocabulary/cnt@1.0.5
+  - @vocabulary/crm@1.0.5
+  - @vocabulary/cur@1.0.1
+  - @vocabulary/dbo@1.0.5
+  - @vocabulary/dig@1.0.5
+  - @vocabulary/dpv@1.0.5
+  - @vocabulary/dqv@1.0.5
+  - @vocabulary/duv@1.0.5
+  - @vocabulary/geo@1.0.5
+  - @vocabulary/gml@1.0.5
+  - @vocabulary/gs1@1.1.5
+  - @vocabulary/ldp@1.0.5
+  - @vocabulary/log@1.0.5
+  - @vocabulary/m4i@1.2.1
+  - @vocabulary/org@1.0.5
+  - @vocabulary/owl@1.0.5
+  - @vocabulary/pim@1.0.4
+  - @vocabulary/rdf@1.0.5
+  - @vocabulary/rev@1.0.5
+  - @vocabulary/rss@1.0.5
+  - @vocabulary/sem@1.0.5
+  - @vocabulary/set@1.0.5
+  - @vocabulary/sou@1.0.5
+  - @vocabulary/ssn@1.0.5
+  - @vocabulary/wgs@1.0.5
+  - @vocabulary/xhv@1.0.5
+  - @vocabulary/xsd@1.0.5
+  - @vocabulary/as@1.0.5
+  - @vocabulary/cc@1.0.5
+  - @vocabulary/gn@1.0.5
+  - @vocabulary/gr@1.0.5
+  - @vocabulary/la@1.0.5
+  - @vocabulary/ma@1.0.5
+  - @vocabulary/oa@1.0.5
+  - @vocabulary/og@1.0.5
+  - @vocabulary/qb@1.0.5
+  - @vocabulary/rr@1.0.5
+  - @vocabulary/sd@1.0.5
+  - @vocabulary/sf@1.0.5
+  - @vocabulary/sh@1.1.6
+  - @vocabulary/vs@1.0.5
+  - @vocabulary/vso@1.0.2
+
 ## 3.2.0
 
 ### Minor Changes

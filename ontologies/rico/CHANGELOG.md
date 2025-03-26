@@ -1,5 +1,11 @@
 # @vocabulary/rico
 
+## 2.0.1
+
+### Patch Changes
+
+- c82d252: Update `@rdfjs/types` to v2. Remove `rdf-js` completely
+
 ## 2.0.0
 
 ### Major Changes

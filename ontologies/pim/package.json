@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/pim",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "Workspace Ontology",
   "scripts": {
@@ -10,7 +10,7 @@
     "prepack": "npm run build"
   },
   "devDependencies": {
-    "@vocabulary/builder": "^1.0.7"
+    "@vocabulary/builder": "^1.0.8"
   },
   "homepage": "https://prefix.zazuko.com/prefix/pim:",
   "vocabulary": {
