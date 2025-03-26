@@ -1,5 +1,11 @@
 # @zazuko/prefixes
 
+## 2.4.0
+
+### Minor Changes
+
+- 3a56e23: Added QUDT Currencies prefix (`cur:`)
+
 ## 2.3.0
 
 ### Minor Changes
