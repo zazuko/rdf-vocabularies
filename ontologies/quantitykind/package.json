@@ -16,7 +16,7 @@
   "vocabulary": {
     "prefix": "quantitykind",
     "namespace": "http://qudt.org/vocab/quantitykind/",
-    "file": "http://qudt.org/2.1/vocab/quantitykind"
+    "file": "http://qudt.org/3.1.0/vocab/quantitykind"
   },
   "bugs": {
     "url": "https://github.com/zazuko/rdf-vocabularies/issues"

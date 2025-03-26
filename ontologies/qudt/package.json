@@ -19,11 +19,11 @@
     "files": [
       {
         "mediaType": "text/turtle",
-        "file": "http://qudt.org/2.1/schema/qudt"
+        "file": "http://qudt.org/3.1.0/schema/qudt"
       },
       {
         "mediaType": "text/turtle",
-        "file": "http://qudt.org/2.1/schema/datatype"
+        "file": "http://qudt.org/3.1.0/schema/datatype"
       }
     ]
   },
