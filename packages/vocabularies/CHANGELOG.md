@@ -1,5 +1,20 @@
 # @zazuko/vocabularies
 
+## 3.2.0
+
+### Minor Changes
+
+- 640abf9: Added QUDT currencies
+
+### Patch Changes
+
+- Updated dependencies [1e4eb44]
+- Updated dependencies [640abf9]
+  - @vocabulary/quantitykind@1.1.0
+  - @vocabulary/qudt@1.1.0
+  - @vocabulary/unit@1.1.0
+  - @vocabulary/cur@1.0.0
+
 ## 3.1.0
 
 ### Minor Changes
