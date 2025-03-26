@@ -1,5 +1,11 @@
 # @vocabulary/earl
 
+## 2.0.5
+
+### Patch Changes
+
+- c82d252: Update `@rdfjs/types` to v2. Remove `rdf-js` completely
+
 ## 2.0.4
 
 ### Patch Changes

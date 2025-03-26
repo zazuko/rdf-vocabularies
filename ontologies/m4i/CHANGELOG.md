@@ -1,5 +1,11 @@
 # @vocabulary/m4i
 
+## 1.2.1
+
+### Patch Changes
+
+- c82d252: Update `@rdfjs/types` to v2. Remove `rdf-js` completely
+
 ## 1.2.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @vocabulary/sh
 
+## 1.1.6
+
+### Patch Changes
+
+- c82d252: Update `@rdfjs/types` to v2. Remove `rdf-js` completely
+
 ## 1.1.5
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @vocabulary/cert
 
+## 1.0.4
+
+### Patch Changes
+
+- c82d252: Update `@rdfjs/types` to v2. Remove `rdf-js` completely
+
 ## 1.0.3
 
 ### Patch Changes
