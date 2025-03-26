@@ -15,7 +15,8 @@
   "homepage": "https://prefix.zazuko.com/prefix/unit:",
   "vocabulary": {
     "prefix": "unit",
-    "namespace": "http://qudt.org/vocab/unit/"
+    "namespace": "http://qudt.org/vocab/unit/",
+    "file": "http://qudt.org/2.1/vocab/unit"
   },
   "bugs": {
     "url": "https://github.com/zazuko/rdf-vocabularies/issues"
