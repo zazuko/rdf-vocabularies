@@ -1,0 +1,6 @@
+<https://prefix.zazuko.com/cur:> <http://dbpedia.org/ontology/filename> "@vocabulary/cur/cur.nq" .
+<https://prefix.zazuko.com/cur:> <http://purl.org/dc/terms/title> "QUDT VOCAB Currency Units Release 3.0.0" .
+<https://prefix.zazuko.com/cur:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/cur:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://qudt.org/vocab/currency/> .
+<https://prefix.zazuko.com/cur:> <http://www.w3.org/ns/rdfa#prefix> "cur" .
+<https://prefix.zazuko.com/cur:> <http://www.w3.org/ns/rdfa#uri> <http://qudt.org/vocab/currency/> .

@@ -1,0 +1,33 @@
+{
+  "name": "@vocabulary/cur",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "npx --node-options='--loader=ts-node/esm' vocab-build datasets",
+    "prebuild": "npx --node-options='--loader=ts-node/esm' vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.7"
+  },
+  "homepage": "https://prefix.zazuko.com/prefix/cur:",
+  "vocabulary": {
+    "prefix": "cur",
+    "namespace": "http://qudt.org/vocab/currency/"
+  },
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ],
+  "peerDependencies": {
+    "@rdfjs/types": "^1.0.0"
+  }
+}

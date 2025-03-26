@@ -11,6 +11,7 @@ const packagedPrefixes = {
   crm: 'http://www.cidoc-crm.org/cidoc-crm/',
   csvw: 'http://www.w3.org/ns/csvw#',
   ctag: 'http://commontag.org/ns#',
+  cur: 'http://qudt.org/vocab/currency/',
   'dash-sparql': 'http://datashapes.org/sparql#',
   dash: 'http://datashapes.org/dash#',
   dbo: 'http://dbpedia.org/ontology/',
