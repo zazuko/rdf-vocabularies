@@ -1,5 +1,11 @@
 # @vocabulary/quantitykind
 
+## 1.1.0
+
+### Minor Changes
+
+- 1e4eb44: Updated QUDT to release 2.1.47
+
 ## 1.0.4
 
 ### Patch Changes
