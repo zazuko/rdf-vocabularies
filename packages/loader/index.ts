@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
-import { Stream, DataFactory, DatasetCore, DatasetCoreFactory } from 'rdf-js'
 import { Readable } from 'stream'
+import type { Stream, DataFactory, DatasetCore, DatasetCoreFactory } from '@rdfjs/types'
 import rdf from '@zazuko/env'
 import type { Environment } from '@rdfjs/environment/Environment.js'
 import ParserN3 from '@rdfjs/parser-n3'

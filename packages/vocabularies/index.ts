@@ -1,4 +1,4 @@
-import { NamedNode } from 'rdf-js'
+import type { NamedNode } from '@rdfjs/types'
 import { expand as _expand } from './expand.js'
 import { expandWithCheck } from './expandWithCheck.js'
 
