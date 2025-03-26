@@ -7,7 +7,7 @@ import rdfFetch, { FactoryInit, DatasetResponse } from '@rdfjs/fetch-lite'
 import { RdfXmlParser } from 'rdfxml-streaming-parser'
 import { DatasetCore, NamedNode } from '@rdfjs/types'
 import { expand } from '@zazuko/prefixes'
-import type { Dataset } from '@zazuko/env/lib/Dataset.js'
+import type { Dataset } from '@zazuko/env/lib/DatasetExt.js'
 import { Override } from './lib/overrides.js'
 import rawFetch from './lib/fetch.js'
 
