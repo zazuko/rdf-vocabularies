@@ -1,5 +1,11 @@
 # @zazuko/vocabulary-loader
 
+## 1.0.3
+
+### Patch Changes
+
+- 90ad47a: Removed `rdf-js` dependency
+
 ## 1.0.2
 
 ### Patch Changes
