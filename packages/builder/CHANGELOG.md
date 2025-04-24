@@ -1,5 +1,11 @@
 # @vocabulary/builder
 
+## 1.0.9
+
+### Patch Changes
+
+- b9da819: Updated `@zazuko/env(-node)` to v3
+
 ## 1.0.8
 
 ### Patch Changes
