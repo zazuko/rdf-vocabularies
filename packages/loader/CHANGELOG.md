@@ -1,5 +1,11 @@
 # @zazuko/vocabulary-loader
 
+## 1.0.4
+
+### Patch Changes
+
+- b9da819: Updated `@zazuko/env(-node)` to v3
+
 ## 1.0.3
 
 ### Patch Changes

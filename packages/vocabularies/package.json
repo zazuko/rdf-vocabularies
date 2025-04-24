@@ -1,6 +1,6 @@
 {
   "name": "@zazuko/vocabularies",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Access most commonly used RDF ontologies/schemas/vocabularies as datasets or n-quads",
   "type": "module",
   "bin": {
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@rdfjs/parser-n3": "^2.0.1",
-    "@zazuko/vocabulary-loader": "^1.0.2",
+    "@zazuko/vocabulary-loader": "^1.0.4",
     "@vocabulary/acl": "^1.0.4",
     "@vocabulary/as": "^1.0.5",
     "@vocabulary/bibo": "^1.0.5",
