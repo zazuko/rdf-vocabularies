@@ -13,7 +13,7 @@
     "@rdfjs/formats": "^4",
     "@rdfjs/serializer-rdfjs": "^0.1.2",
     "@rdfjs/types": "^2",
-    "@zazuko/env-node": "^2.1.5",
+    "@zazuko/env-node": "^3.0.0",
     "@zazuko/prefixes": "^2.0.0",
     "commander": "^10.0.0",
     "get-stream": "^6.0.1",

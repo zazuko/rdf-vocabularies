@@ -127,8 +127,8 @@
     "@vocabulary/xhv": "^1.0.5",
     "@vocabulary/xkos": "^1.0.5",
     "@vocabulary/xsd": "^1.0.5",
-    "@zazuko/env": "^2.0.2",
-    "@zazuko/prefixes": "^2.3.0",
+    "@zazuko/env": "^3",
+    "@zazuko/prefixes": "^2.4.0",
     "commander": "^10.0.0",
     "rdf-dataset-ext": "^1",
     "readable-stream": "^4.3.0"
