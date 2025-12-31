@@ -1,0 +1,42 @@
+<https://cube.link/> <http://www.w3.org/2000/01/rdf-schema#label> "Cube Schema" <https://cube.link/> .
+<https://cube.link/Constraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://cube.link/> .
+<https://cube.link/Constraint> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies constraints that need to be met on the Cube. Used for metadata and validation." <https://cube.link/> .
+<https://cube.link/Constraint> <http://www.w3.org/2000/01/rdf-schema#label> "Constraint" <https://cube.link/> .
+<https://cube.link/Cube> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://cube.link/> .
+<https://cube.link/Cube> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents the entry point for a collection of observations, conforming to some common dimensional structure." <https://cube.link/> .
+<https://cube.link/Cube> <http://www.w3.org/2000/01/rdf-schema#label> "Cube" <https://cube.link/> .
+<https://cube.link/KeyDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://cube.link/> .
+<https://cube.link/KeyDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "The KeyDimension tags one or multiple dimensions which are together uniquely identifying an observation. You can think of them as the Key in a relational database." <https://cube.link/> .
+<https://cube.link/KeyDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Key Dimension" <https://cube.link/> .
+<https://cube.link/MeasureDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://cube.link/> .
+<https://cube.link/MeasureDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "The MeasureDimension tags at least one dimension, but potentially multiple, which is the actual measurement, or statistical count attached to an observation." <https://cube.link/> .
+<https://cube.link/MeasureDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Measure Dimension" <https://cube.link/> .
+<https://cube.link/Observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://cube.link/> .
+<https://cube.link/Observation> <http://www.w3.org/2000/01/rdf-schema#comment> "A single observation in the cube, may have one or more associated dimensions." <https://cube.link/> .
+<https://cube.link/Observation> <http://www.w3.org/2000/01/rdf-schema#label> "Observation" <https://cube.link/> .
+<https://cube.link/ObservationSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://cube.link/> .
+<https://cube.link/ObservationSet> <http://www.w3.org/2000/01/rdf-schema#comment> "A set of observations." <https://cube.link/> .
+<https://cube.link/ObservationSet> <http://www.w3.org/2000/01/rdf-schema#label> "Observation Set" <https://cube.link/> .
+<https://cube.link/Undefined> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <https://cube.link/> .
+<https://cube.link/Undefined> <http://www.w3.org/2000/01/rdf-schema#comment> "An observation which is not defined." <https://cube.link/> .
+<https://cube.link/Undefined> <http://www.w3.org/2000/01/rdf-schema#label> "Undefined observation." <https://cube.link/> .
+<https://cube.link/observation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://cube.link/> .
+<https://cube.link/observation> <http://www.w3.org/2000/01/rdf-schema#comment> "Connects a set of observations with a single observation." <https://cube.link/> .
+<https://cube.link/observation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://cube.link/ObservationSet> <https://cube.link/> .
+<https://cube.link/observation> <http://www.w3.org/2000/01/rdf-schema#label> "observation" <https://cube.link/> .
+<https://cube.link/observation> <http://www.w3.org/2000/01/rdf-schema#range> <https://cube.link/Observation> <https://cube.link/> .
+<https://cube.link/observationConstraint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://cube.link/> .
+<https://cube.link/observationConstraint> <http://www.w3.org/2000/01/rdf-schema#comment> "Connects a cube with a constraint for metadata and validation." <https://cube.link/> .
+<https://cube.link/observationConstraint> <http://www.w3.org/2000/01/rdf-schema#domain> <https://cube.link/Cube> <https://cube.link/> .
+<https://cube.link/observationConstraint> <http://www.w3.org/2000/01/rdf-schema#label> "observation constraint" <https://cube.link/> .
+<https://cube.link/observationConstraint> <http://www.w3.org/2000/01/rdf-schema#range> <https://cube.link/Constraint> <https://cube.link/> .
+<https://cube.link/observationSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://cube.link/> .
+<https://cube.link/observationSet> <http://www.w3.org/2000/01/rdf-schema#comment> "Connects a cube with a set of observations." <https://cube.link/> .
+<https://cube.link/observationSet> <http://www.w3.org/2000/01/rdf-schema#domain> <https://cube.link/Cube> <https://cube.link/> .
+<https://cube.link/observationSet> <http://www.w3.org/2000/01/rdf-schema#label> "observation set" <https://cube.link/> .
+<https://cube.link/observationSet> <http://www.w3.org/2000/01/rdf-schema#range> <https://cube.link/ObservationSet> <https://cube.link/> .
+<https://cube.link/observedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://cube.link/> .
+<https://cube.link/observedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Connects an observation with the agent that created the observation. The agent can be a person, organisation, device or software. A description of the method to gather the data could be attached to the agent." <https://cube.link/> .
+<https://cube.link/observedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://cube.link/Observation> <https://cube.link/> .
+<https://cube.link/observedBy> <http://www.w3.org/2000/01/rdf-schema#label> "observed by" <https://cube.link/> .
+<https://cube.link/observedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <https://cube.link/> .
