@@ -31,6 +31,7 @@
     "@vocabulary/crm": "^1.0.5",
     "@vocabulary/csvw": "^1.0.5",
     "@vocabulary/ctag": "^1.0.5",
+    "@vocabulary/cube": "^1.0.0",
     "@vocabulary/cur": "^1.0.1",
     "@vocabulary/dash": "^1.0.5",
     "@vocabulary/dash-sparql": "^1.0.5",
