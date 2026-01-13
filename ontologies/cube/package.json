@@ -12,6 +12,9 @@
   "devDependencies": {
     "@vocabulary/builder": "^1.0.8"
   },
+  "repository": {
+    "url": ""
+  },
   "license": "MIT",
   "homepage": "https://cube.link",
   "vocabulary": {
