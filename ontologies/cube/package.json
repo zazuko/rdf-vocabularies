@@ -1,0 +1,30 @@
+{
+  "name": "@vocabulary/cube",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "npx --node-options='--loader=ts-node/esm' vocab-build datasets",
+    "prebuild": "npx --node-options='--loader=ts-node/esm' vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.8"
+  },
+  "license": "MIT",
+  "homepage": "https://cube.link",
+  "vocabulary": {
+    "prefix": "cube",
+    "namespace": "https://cube.link/"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ],
+  "peerDependencies": {
+    "@rdfjs/types": "^2.0.0"
+  }
+}
