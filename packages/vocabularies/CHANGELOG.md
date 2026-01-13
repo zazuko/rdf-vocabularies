@@ -1,5 +1,19 @@
 # @zazuko/vocabularies
 
+## 4.1.0
+
+### Minor Changes
+
+- 24d020f: Added Cube meta vocabulary
+
+### Patch Changes
+
+- Updated dependencies [7e8f15e]
+- Updated dependencies [24d020f]
+  - @vocabulary/cube@1.0.0
+  - @zazuko/prefixes@2.5.0
+  - @vocabulary/meta@1.0.0
+
 ## 4.0.1
 
 ### Patch Changes

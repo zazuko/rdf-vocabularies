@@ -1,5 +1,12 @@
 # @zazuko/prefixes
 
+## 2.5.0
+
+### Minor Changes
+
+- 7e8f15e: Added cube vocabulary
+- 24d020f: Added Cube meta vocabulary
+
 ## 2.4.0
 
 ### Minor Changes
