@@ -9,7 +9,7 @@ PREFIX_MAP=$(
     const path = require('node:path');
     const glob = require('glob');
     const files = glob.sync(path.join('$DIR_PATH/../../../ontologies/*/package.json'));
-    for (const file of files) {
+    for (const file of files.sort()) {
       const pkg = JSON.parse(fs.readFileSync(file, 'utf8'));
       if (pkg.vocabulary && pkg.vocabulary.prefix && pkg.vocabulary.namespace) {
         console.log(\`  '\` + pkg.vocabulary.prefix + \`': '\` + pkg.vocabulary.namespace + \`',\`);
