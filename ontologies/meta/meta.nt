@@ -1,0 +1,5 @@
+<https://prefix.zazuko.com/meta:> <http://dbpedia.org/ontology/filename> "@vocabulary/meta/meta.nq" .
+<https://prefix.zazuko.com/meta:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
+<https://prefix.zazuko.com/meta:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://cube.link/meta/> .
+<https://prefix.zazuko.com/meta:> <http://www.w3.org/ns/rdfa#prefix> "meta" .
+<https://prefix.zazuko.com/meta:> <http://www.w3.org/ns/rdfa#uri> <https://cube.link/meta/> .

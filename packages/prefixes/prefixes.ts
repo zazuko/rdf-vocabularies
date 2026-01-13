@@ -56,6 +56,7 @@ const packagedPrefixes = {
   ma: 'http://www.w3.org/ns/ma-ont#',
   mads: 'http://www.loc.gov/mads/rdf/v1#',
   math: 'http://www.w3.org/2000/10/swap/math#',
+  meta: 'https://cube.link/meta/',
   oa: 'http://www.w3.org/ns/oa#',
   og: 'http://ogp.me/ns#',
   oidc: 'http://www.w3.org/ns/solid/oidc#',

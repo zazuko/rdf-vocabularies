@@ -1,0 +1,32 @@
+<https://cube.link/meta/Hierarchy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://cube.link/meta/> .
+<https://cube.link/meta/Hierarchy> <http://www.w3.org/2000/01/rdf-schema#comment> "A hierarchy is defined and can be named schema:name. This can help user interfaces to allow a selection in case of multiple hierarchies." <https://cube.link/meta/> .
+<https://cube.link/meta/Hierarchy> <http://www.w3.org/2000/01/rdf-schema#label> "Hierarchy" <https://cube.link/meta/> .
+<https://cube.link/meta/Relation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://cube.link/meta/> .
+<https://cube.link/meta/Relation> <http://www.w3.org/2000/01/rdf-schema#comment> "A meta:Relation resource is used to express the relation or hiarchy between different dimensions, the nature of the relationship is determined by the properties used. A meta:Relation is linked to an observation through a meta:relation property. " <https://cube.link/meta/> .
+<https://cube.link/meta/Relation> <http://www.w3.org/2000/01/rdf-schema#label> "Relation" <https://cube.link/meta/> .
+<https://cube.link/meta/SharedDimension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://cube.link/meta/> .
+<https://cube.link/meta/SharedDimension> <http://www.w3.org/2000/01/rdf-schema#comment> "A schema:DefinedTermSet which holds the Resources used for a shared dimension." <https://cube.link/meta/> .
+<https://cube.link/meta/SharedDimension> <http://www.w3.org/2000/01/rdf-schema#label> "Shared Dimension" <https://cube.link/meta/> .
+<https://cube.link/meta/applicationIgnores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://cube.link/meta/> .
+<https://cube.link/meta/applicationIgnores> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used on a Dimension Constraint to be ignored by application specified. (It shall use the same objects as used on `schema:workExample`.)" <https://cube.link/meta/> .
+<https://cube.link/meta/applicationIgnores> <http://www.w3.org/2000/01/rdf-schema#label> "Ignored by Application" <https://cube.link/meta/> .
+<https://cube.link/meta/dataKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://cube.link/meta/> .
+<https://cube.link/meta/dataKind> <http://www.w3.org/2000/01/rdf-schema#comment> "The kind or variety of the data in a dimension. Often schema:GeoCoordinates and schema:GeoShape for Spatial and time:GeneralTimeDescription for Temporal is used." <https://cube.link/meta/> .
+<https://cube.link/meta/dataKind> <http://www.w3.org/2000/01/rdf-schema#label> "data Kind" <https://cube.link/meta/> .
+<https://cube.link/meta/dimensionRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Property> <https://cube.link/meta/> .
+<https://cube.link/meta/dimensionRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "A meta:dimensionRelation property is used to express the relation of this dimension in related to other dimension, examples are Deviation and StandardError" <https://cube.link/meta/> .
+<https://cube.link/meta/dimensionRelation> <http://www.w3.org/2000/01/rdf-schema#label> "dimension relation" <https://cube.link/meta/> .
+<https://cube.link/meta/dimensionRelation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://cube.link/meta/relatesTo> <https://cube.link/meta/> .
+<https://cube.link/meta/hierarchyRoot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://cube.link/meta/> .
+<https://cube.link/meta/hierarchyRoot> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is mandatory and defines one or multiple root concepts. It is the starting point of the hierarchy which is then defined through a cascade of levels where the use of shacl:path is connecting the concepts. The simplest case is only two levels, the root level and how they are connected to the observations in the dimension. If there are multiple levels they are nested with meta:nextInHierarchy." <https://cube.link/meta/> .
+<https://cube.link/meta/hierarchyRoot> <http://www.w3.org/2000/01/rdf-schema#label> "hierarchy root" <https://cube.link/meta/> .
+<https://cube.link/meta/inHierarchy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://cube.link/meta/> .
+<https://cube.link/meta/inHierarchy> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used on a Dimension Constraint to express a hierarchy implemented in such. It is possible to add multiple different hierarchies on one dimension. A hierarchy must have at least one meta:hierarchyRoot." <https://cube.link/meta/> .
+<https://cube.link/meta/inHierarchy> <http://www.w3.org/2000/01/rdf-schema#label> "in hierarchy" <https://cube.link/meta/> .
+<https://cube.link/meta/nextInHierarchy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://cube.link/meta/> .
+<https://cube.link/meta/nextInHierarchy> <http://www.w3.org/2000/01/rdf-schema#comment> "With meta:nextInHierarchy it is possible to " <https://cube.link/meta/> .
+<https://cube.link/meta/nextInHierarchy> <http://www.w3.org/2000/01/rdf-schema#label> "next in hierarchy" <https://cube.link/meta/> .
+<https://cube.link/meta/relatesTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://cube.link/meta/> .
+<https://cube.link/meta/relatesTo> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is used on a Dimension Constraint to express a relation with other properties through a meta:Relation instance, the nature of this relationship is determined by the properties used on the instance. " <https://cube.link/meta/> .
+<https://cube.link/meta/relatesTo> <http://www.w3.org/2000/01/rdf-schema#label> "relates to" <https://cube.link/meta/> .
+<https://cube.link/meta/relatesTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://cube.link/meta/Relation> <https://cube.link/meta/> .

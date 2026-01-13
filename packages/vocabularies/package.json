@@ -76,6 +76,7 @@
     "@vocabulary/ma": "^1.0.5",
     "@vocabulary/mads": "^1.0.5",
     "@vocabulary/math": "^1.0.5",
+    "@vocabulary/meta": "^0.0.0",
     "@vocabulary/oa": "^1.0.5",
     "@vocabulary/og": "^1.0.5",
     "@vocabulary/oidc": "^1.0.4",
