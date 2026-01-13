@@ -27,5 +27,8 @@
     "*.d.ts",
     "lib/*.js",
     "lib/*.d.ts"
-  ]
+  ],
+  "devDependencies": {
+    "glob": "^13.0.0"
+  }
 }

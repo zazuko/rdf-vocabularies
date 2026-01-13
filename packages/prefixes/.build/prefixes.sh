@@ -3,7 +3,20 @@
 DIR_PATH=$(dirname $0)
 IFS=;
 
-PREFIX_MAP="$(jq -r '"  '"'\(.vocabulary.prefix)'"': '"'\(.vocabulary.namespace)'"',"' $DIR_PATH/../../../ontologies/*/package.json)"
+PREFIX_MAP=$(
+  node -e "
+    const fs = require('node:fs');
+    const path = require('node:path');
+    const glob = require('glob');
+    const files = glob.sync(path.join('$DIR_PATH/../../../ontologies/*/package.json'));
+    for (const file of files) {
+      const pkg = JSON.parse(fs.readFileSync(file, 'utf8'));
+      if (pkg.vocabulary && pkg.vocabulary.prefix && pkg.vocabulary.namespace) {
+        console.log(\`  '\` + pkg.vocabulary.prefix + \`': '\` + pkg.vocabulary.namespace + \`',\`);
+      }
+    }
+  "
+)
 
 echo "import prefixesOnly from './lib/prefixesOnly.js'
 
