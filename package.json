@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/zazuko/rdf-vocabularies#readme",
   "devDependencies": {
-    "@changesets/cli": "^2.26.0",
+    "@changesets/cli": "^2.29.8",
     "@tpluscode/eslint-config": "^0.4.2",
     "@typescript-eslint/eslint-plugin": "^6",
     "@typescript-eslint/parser": "^6",
@@ -32,7 +32,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
     "mocha": "^10.8.2",
-    "patch-package": "^7",
+    "patch-package": "^8",
     "postinstall-postinstall": "^2.1.0",
     "typescript": "^5.3.3",
     "wsrun": "^5.2.4"
