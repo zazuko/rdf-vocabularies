@@ -1,0 +1,35 @@
+{
+  "name": "@vocabulary/b59",
+  "version": "0.1.1",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "npx --node-options='--loader=ts-node/esm' vocab-build datasets",
+    "prebuild": "npx --node-options='--loader=ts-node/esm' vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.8"
+  },
+  "license": "MIT",
+  "homepage": "https://barnard59.zazuko.com/",
+  "vocabulary": {
+    "prefix": "b59",
+    "namespace": "https://barnard59.zazuko.com/vocab#",
+    "file": "file:src/b59.ttl"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt",
+    "CHANGELOG.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
+  "peerDependencies": {
+    "@rdfjs/types": "^2.0.0"
+  }
+}

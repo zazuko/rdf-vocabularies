@@ -1,0 +1,42 @@
+<https://cube.link/relation/Confidence> <http://schema.org/about> <http://www.wikidata.org/entity/Q12483> <https://cube.link/relation/> .
+<https://cube.link/relation/Confidence> <http://schema.org/name> "Confidence" <https://cube.link/relation/> .
+<https://cube.link/relation/Confidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://cube.link/meta/DimensionRelation> <https://cube.link/relation/> .
+<https://cube.link/relation/Confidence> <http://www.w3.org/2000/01/rdf-schema#label> "Confidence" <https://cube.link/relation/> .
+<https://cube.link/relation/ConfidenceLowerBound> <http://schema.org/about> <http://www.wikidata.org/entity/Q12483> <https://cube.link/relation/> .
+<https://cube.link/relation/ConfidenceLowerBound> <http://schema.org/name> "Confidence (Lower Bound)" <https://cube.link/relation/> .
+<https://cube.link/relation/ConfidenceLowerBound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://cube.link/meta/DimensionRelation> <https://cube.link/relation/> .
+<https://cube.link/relation/ConfidenceLowerBound> <http://www.w3.org/2000/01/rdf-schema#label> "Confidence (Lower Bound)" <https://cube.link/relation/> .
+<https://cube.link/relation/ConfidenceUpperBound> <http://schema.org/about> <http://www.wikidata.org/entity/Q12483> <https://cube.link/relation/> .
+<https://cube.link/relation/ConfidenceUpperBound> <http://schema.org/name> "Confidence (Upper Bound)" <https://cube.link/relation/> .
+<https://cube.link/relation/ConfidenceUpperBound> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://cube.link/meta/DimensionRelation> <https://cube.link/relation/> .
+<https://cube.link/relation/ConfidenceUpperBound> <http://www.w3.org/2000/01/rdf-schema#label> "Confidence (Upper Bound)" <https://cube.link/relation/> .
+<https://cube.link/relation/StandardDeviation> <http://schema.org/about> <http://www.wikidata.org/entity/Q12483> <https://cube.link/relation/> .
+<https://cube.link/relation/StandardDeviation> <http://schema.org/alternateName> "SD" <https://cube.link/relation/> .
+<https://cube.link/relation/StandardDeviation> <http://schema.org/description> "Dispersion of the values of a random variable around its expected value." <https://cube.link/relation/> .
+<https://cube.link/relation/StandardDeviation> <http://schema.org/name> "Standard Deviation" <https://cube.link/relation/> .
+<https://cube.link/relation/StandardDeviation> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q159375> <https://cube.link/relation/> .
+<https://cube.link/relation/StandardDeviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://cube.link/meta/DimensionRelation> <https://cube.link/relation/> .
+<https://cube.link/relation/StandardDeviation> <http://www.w3.org/2000/01/rdf-schema#comment> "Dispersion of the values of a random variable around its expected value." <https://cube.link/relation/> .
+<https://cube.link/relation/StandardDeviation> <http://www.w3.org/2000/01/rdf-schema#label> "Standard Deviation" <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError1SD> <http://schema.org/alternateName> "SE" <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError1SD> <http://schema.org/name> "The standard error is the standard deviation of the mean of the sample." <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError1SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://cube.link/meta/DimensionRelation> <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError1SD> <http://www.w3.org/2000/01/rdf-schema#label> "The standard error is the standard deviation of the mean of the sample." <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError1SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://cube.link/relation/StandardError> <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError2SD> <http://schema.org/alternateName> "2SE" <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError2SD> <http://schema.org/name> "The standard error is 2 standard deviation of the mean of the sample." <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError2SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://cube.link/meta/DimensionRelation> <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError2SD> <http://www.w3.org/2000/01/rdf-schema#label> "The standard error is 2 standard deviation of the mean of the sample." <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError2SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://cube.link/relation/StandardError> <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError3SD> <http://schema.org/alternateName> "3SE" <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError3SD> <http://schema.org/name> "The standard error is 3 standard deviation of the mean of the sample." <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError3SD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://cube.link/meta/DimensionRelation> <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError3SD> <http://www.w3.org/2000/01/rdf-schema#label> "The standard error is 3 standard deviation of the mean of the sample." <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError3SD> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://cube.link/relation/StandardError> <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError> <http://schema.org/about> <http://www.wikidata.org/entity/Q12483> <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError> <http://schema.org/description> "The standard error is the standard deviation of the mean of the sample." <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError> <http://schema.org/name> "Standard Error" <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError> <http://schema.org/sameAs> <http://www.wikidata.org/entity/Q620994> <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://cube.link/meta/DimensionRelation> <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError> <http://www.w3.org/2000/01/rdf-schema#comment> "The standard error is the standard deviation of the mean of the sample." <https://cube.link/relation/> .
+<https://cube.link/relation/StandardError> <http://www.w3.org/2000/01/rdf-schema#label> "Standard Error" <https://cube.link/relation/> .
