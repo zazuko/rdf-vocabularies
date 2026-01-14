@@ -1,5 +1,11 @@
 # @vocabulary/pipeline
 
+## 1.0.1
+
+### Patch Changes
+
+- 9cfa3da: Package redeployed from new repo
+
 ## 1.1.3
 
 ### Patch Changes

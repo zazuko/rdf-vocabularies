@@ -1,5 +1,11 @@
 # @zazuko/prefixes
 
+## 2.6.0
+
+### Minor Changes
+
+- 9cfa3da: Added prefixes migrated from `zazuko/vocabulary-extras`: `b59`, `code`, `pipeline`, `relation`
+
 ## 2.5.0
 
 ### Minor Changes

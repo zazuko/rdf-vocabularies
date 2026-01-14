@@ -1,5 +1,11 @@
 # @vocabulary/b59
 
+## 0.1.2
+
+### Patch Changes
+
+- 9cfa3da: Package redeployed from new repo
+
 ## 0.1.1
 
 ### Patch Changes
