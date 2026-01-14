@@ -1,0 +1,60 @@
+<https://pipeline.described.at/FileContents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <https://pipeline.described.at/> .
+<https://pipeline.described.at/FileContents> <http://www.w3.org/2000/01/rdf-schema#label> "Type of a literal which represents a path to be loaded into a step" <https://pipeline.described.at/> .
+<https://pipeline.described.at/Operation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://pipeline.described.at/> .
+<https://pipeline.described.at/Operation> <http://www.w3.org/2000/01/rdf-schema#comment> "An operation is the definition of a reusable step" <https://pipeline.described.at/> .
+<https://pipeline.described.at/Operation> <http://www.w3.org/2000/01/rdf-schema#label> "Operation" <https://pipeline.described.at/> .
+<https://pipeline.described.at/Pipeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://pipeline.described.at/> .
+<https://pipeline.described.at/Pipeline> <http://www.w3.org/2000/01/rdf-schema#comment> "Definition of a Pipeline" <https://pipeline.described.at/> .
+<https://pipeline.described.at/Pipeline> <http://www.w3.org/2000/01/rdf-schema#label> "Pipeline" <https://pipeline.described.at/> .
+<https://pipeline.described.at/Readable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://pipeline.described.at/> .
+<https://pipeline.described.at/Readable> <http://www.w3.org/2000/01/rdf-schema#comment> "Readable Stream" <https://pipeline.described.at/> .
+<https://pipeline.described.at/Readable> <http://www.w3.org/2000/01/rdf-schema#label> "Readable" <https://pipeline.described.at/> .
+<https://pipeline.described.at/ReadableObjectMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://pipeline.described.at/> .
+<https://pipeline.described.at/ReadableObjectMode> <http://www.w3.org/2000/01/rdf-schema#comment> "Readable Stream in Object Mode" <https://pipeline.described.at/> .
+<https://pipeline.described.at/ReadableObjectMode> <http://www.w3.org/2000/01/rdf-schema#label> "Readable in Object Mode" <https://pipeline.described.at/> .
+<https://pipeline.described.at/Step> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://pipeline.described.at/> .
+<https://pipeline.described.at/Step> <http://www.w3.org/2000/01/rdf-schema#comment> "Definition of a Pipeline Step" <https://pipeline.described.at/> .
+<https://pipeline.described.at/Step> <http://www.w3.org/2000/01/rdf-schema#label> "Step" <https://pipeline.described.at/> .
+<https://pipeline.described.at/Variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://pipeline.described.at/> .
+<https://pipeline.described.at/Variable> <http://www.w3.org/2000/01/rdf-schema#label> "Pipeline Variable" <https://pipeline.described.at/> .
+<https://pipeline.described.at/VariableName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <https://pipeline.described.at/> .
+<https://pipeline.described.at/VariableName> <http://www.w3.org/2000/01/rdf-schema#label> "Variable name referenced in step arguments" <https://pipeline.described.at/> .
+<https://pipeline.described.at/Writable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://pipeline.described.at/> .
+<https://pipeline.described.at/Writable> <http://www.w3.org/2000/01/rdf-schema#comment> "Writable Stream" <https://pipeline.described.at/> .
+<https://pipeline.described.at/Writable> <http://www.w3.org/2000/01/rdf-schema#label> "Writable" <https://pipeline.described.at/> .
+<https://pipeline.described.at/WritableObjectMode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://pipeline.described.at/> .
+<https://pipeline.described.at/WritableObjectMode> <http://www.w3.org/2000/01/rdf-schema#comment> "Writable Stream in Object Mode" <https://pipeline.described.at/> .
+<https://pipeline.described.at/WritableObjectMode> <http://www.w3.org/2000/01/rdf-schema#label> "Writable in Object Mode" <https://pipeline.described.at/> .
+<https://pipeline.described.at/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://pipeline.described.at/> .
+<https://pipeline.described.at/name> <http://www.w3.org/2000/01/rdf-schema#label> "Name of a Pipeline Variable" <https://pipeline.described.at/> .
+<https://pipeline.described.at/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <https://pipeline.described.at/> .
+<https://pipeline.described.at/rdfs:Class> <http://schema.org/hasPart> <https://pipeline.described.at/Operation> <https://pipeline.described.at/> .
+<https://pipeline.described.at/rdfs:Class> <http://schema.org/hasPart> <https://pipeline.described.at/Pipeline> <https://pipeline.described.at/> .
+<https://pipeline.described.at/rdfs:Class> <http://schema.org/hasPart> <https://pipeline.described.at/Readable> <https://pipeline.described.at/> .
+<https://pipeline.described.at/rdfs:Class> <http://schema.org/hasPart> <https://pipeline.described.at/ReadableObjectMode> <https://pipeline.described.at/> .
+<https://pipeline.described.at/rdfs:Class> <http://schema.org/hasPart> <https://pipeline.described.at/Step> <https://pipeline.described.at/> .
+<https://pipeline.described.at/rdfs:Class> <http://schema.org/hasPart> <https://pipeline.described.at/Variable> <https://pipeline.described.at/> .
+<https://pipeline.described.at/rdfs:Class> <http://schema.org/hasPart> <https://pipeline.described.at/Writable> <https://pipeline.described.at/> .
+<https://pipeline.described.at/rdfs:Class> <http://schema.org/hasPart> <https://pipeline.described.at/WritableObjectMode> <https://pipeline.described.at/> .
+<https://pipeline.described.at/rdfs:Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> <https://pipeline.described.at/> .
+<https://pipeline.described.at/rdfs:Class> <http://www.w3.org/2000/01/rdf-schema#label> "Classes" <https://pipeline.described.at/> .
+<https://pipeline.described.at/required> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://pipeline.described.at/> .
+<https://pipeline.described.at/required> <http://www.w3.org/2000/01/rdf-schema#label> "Indicates that a variable is required" <https://pipeline.described.at/> .
+<https://pipeline.described.at/required> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <https://pipeline.described.at/> .
+<https://pipeline.described.at/sensitive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://pipeline.described.at/> .
+<https://pipeline.described.at/sensitive> <http://www.w3.org/2000/01/rdf-schema#label> "Indicates that a variable should be masked in pipeline logs" <https://pipeline.described.at/> .
+<https://pipeline.described.at/sensitive> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <https://pipeline.described.at/> .
+<https://pipeline.described.at/stepList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://pipeline.described.at/> .
+<https://pipeline.described.at/stepList> <http://www.w3.org/2000/01/rdf-schema#comment> "Ordered List of Pipeline Steps" <https://pipeline.described.at/> .
+<https://pipeline.described.at/stepList> <http://www.w3.org/2000/01/rdf-schema#label> "List of Steps" <https://pipeline.described.at/> .
+<https://pipeline.described.at/steps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://pipeline.described.at/> .
+<https://pipeline.described.at/steps> <http://www.w3.org/2000/01/rdf-schema#comment> "Definition of Steps for a Pipeline" <https://pipeline.described.at/> .
+<https://pipeline.described.at/steps> <http://www.w3.org/2000/01/rdf-schema#label> "Steps" <https://pipeline.described.at/> .
+<https://pipeline.described.at/value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://pipeline.described.at/> .
+<https://pipeline.described.at/value> <http://www.w3.org/2000/01/rdf-schema#label> "Default value of a Pipeline Variable" <https://pipeline.described.at/> .
+<https://pipeline.described.at/variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://pipeline.described.at/> .
+<https://pipeline.described.at/variable> <http://www.w3.org/2000/01/rdf-schema#label> "pipeline Variable" <https://pipeline.described.at/> .
+<https://pipeline.described.at/variable> <http://www.w3.org/2000/01/rdf-schema#range> <https://pipeline.described.at/Variable> <https://pipeline.described.at/> .
+<https://pipeline.described.at/variables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://pipeline.described.at/> .
+<https://pipeline.described.at/variables> <http://www.w3.org/2000/01/rdf-schema#comment> "It should be a subject of p:variable properties" <https://pipeline.described.at/> .
+<https://pipeline.described.at/variables> <http://www.w3.org/2000/01/rdf-schema#label> "Pipeline Variable container" <https://pipeline.described.at/> .

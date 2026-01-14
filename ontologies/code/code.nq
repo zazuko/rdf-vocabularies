@@ -1,0 +1,46 @@
+<https://code.described.at/EcmaScript> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://code.described.at/> .
+<https://code.described.at/EcmaScript> <http://www.w3.org/2000/01/rdf-schema#comment> "Code as defined by the ECMAScript specification" <https://code.described.at/> .
+<https://code.described.at/EcmaScript> <http://www.w3.org/2000/01/rdf-schema#label> "ECMAScript Code" <https://code.described.at/> .
+<https://code.described.at/EcmaScriptModule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://code.described.at/> .
+<https://code.described.at/EcmaScriptModule> <http://www.w3.org/2000/01/rdf-schema#comment> "ECMAScript code expressed as an ES Module" <https://code.described.at/> .
+<https://code.described.at/EcmaScriptModule> <http://www.w3.org/2000/01/rdf-schema#label> "ECMAScript Module Code" <https://code.described.at/> .
+<https://code.described.at/EcmaScriptTemplateLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <https://code.described.at/> .
+<https://code.described.at/EcmaScriptTemplateLiteral> <http://www.w3.org/2000/01/rdf-schema#comment> "Template Literal as defined in the ES2015 ECMAScript specification" <https://code.described.at/> .
+<https://code.described.at/EcmaScriptTemplateLiteral> <http://www.w3.org/2000/01/rdf-schema#label> "ECMAScript Template Literal" <https://code.described.at/> .
+<https://code.described.at/SparqlEcmaScriptTemplateLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <https://code.described.at/> .
+<https://code.described.at/SparqlEcmaScriptTemplateLiteral> <http://www.w3.org/2000/01/rdf-schema#comment> "ES2015 ECMAScript Template Literal enriched SPARQL query" <https://code.described.at/> .
+<https://code.described.at/SparqlEcmaScriptTemplateLiteral> <http://www.w3.org/2000/01/rdf-schema#label> "SPARQL ECMAScript Template Literal" <https://code.described.at/> .
+<https://code.described.at/Variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://code.described.at/> .
+<https://code.described.at/Variable> <http://www.w3.org/2000/01/rdf-schema#comment> "Definition of a variable" <https://code.described.at/> .
+<https://code.described.at/Variable> <http://www.w3.org/2000/01/rdf-schema#label> "Variable" <https://code.described.at/> .
+<https://code.described.at/VariableName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> <https://code.described.at/> .
+<https://code.described.at/VariableName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of a variable" <https://code.described.at/> .
+<https://code.described.at/VariableName> <http://www.w3.org/2000/01/rdf-schema#label> "Variable Name" <https://code.described.at/> .
+<https://code.described.at/arguments> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://code.described.at/> .
+<https://code.described.at/arguments> <http://www.w3.org/2000/01/rdf-schema#comment> "Arguments for a code call" <https://code.described.at/> .
+<https://code.described.at/arguments> <http://www.w3.org/2000/01/rdf-schema#label> "Arguments" <https://code.described.at/> .
+<https://code.described.at/implementedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://code.described.at/> .
+<https://code.described.at/implementedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of the implementation" <https://code.described.at/> .
+<https://code.described.at/implementedBy> <http://www.w3.org/2000/01/rdf-schema#label> "Implementation" <https://code.described.at/> .
+<https://code.described.at/link> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://code.described.at/> .
+<https://code.described.at/link> <http://www.w3.org/2000/01/rdf-schema#comment> "IRI of the executable code" <https://code.described.at/> .
+<https://code.described.at/link> <http://www.w3.org/2000/01/rdf-schema#label> "Code" <https://code.described.at/> .
+<https://code.described.at/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://code.described.at/> .
+<https://code.described.at/name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of a variable" <https://code.described.at/> .
+<https://code.described.at/name> <http://www.w3.org/2000/01/rdf-schema#label> "Name" <https://code.described.at/> .
+<https://code.described.at/rdfs:Class> <http://schema.org/hasPart> <https://code.described.at/EcmaScript> <https://code.described.at/> .
+<https://code.described.at/rdfs:Class> <http://schema.org/hasPart> <https://code.described.at/EcmaScriptTemplateLiteral> <https://code.described.at/> .
+<https://code.described.at/rdfs:Class> <http://schema.org/hasPart> <https://code.described.at/SparqlEcmaScriptTemplateLiteral> <https://code.described.at/> .
+<https://code.described.at/rdfs:Class> <http://schema.org/hasPart> <https://code.described.at/Variable> <https://code.described.at/> .
+<https://code.described.at/rdfs:Class> <http://schema.org/hasPart> <https://code.described.at/VariableName> <https://code.described.at/> .
+<https://code.described.at/rdfs:Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/CreativeWork> <https://code.described.at/> .
+<https://code.described.at/rdfs:Class> <http://www.w3.org/2000/01/rdf-schema#label> "Classes" <https://code.described.at/> .
+<https://code.described.at/value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://code.described.at/> .
+<https://code.described.at/value> <http://www.w3.org/2000/01/rdf-schema#comment> "Value of a variable" <https://code.described.at/> .
+<https://code.described.at/value> <http://www.w3.org/2000/01/rdf-schema#label> "Value" <https://code.described.at/> .
+<https://code.described.at/variable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://code.described.at/> .
+<https://code.described.at/variable> <http://www.w3.org/2000/01/rdf-schema#comment> "Definition of a variable" <https://code.described.at/> .
+<https://code.described.at/variable> <http://www.w3.org/2000/01/rdf-schema#label> "Variable" <https://code.described.at/> .
+<https://code.described.at/variables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://code.described.at/> .
+<https://code.described.at/variables> <http://www.w3.org/2000/01/rdf-schema#comment> "A set of variable definitions" <https://code.described.at/> .
+<https://code.described.at/variables> <http://www.w3.org/2000/01/rdf-schema#label> "Variable definitions" <https://code.described.at/> .

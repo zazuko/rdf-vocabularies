@@ -1,0 +1,30 @@
+prefix p: <https://pipeline.described.at/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix b59: <https://barnard59.zazuko.com/vocab#>
+
+b59:CliCommand
+  a rdfs:Class ;
+  rdfs:label "Dynamic command for barnard59's CLI" ;
+.
+
+b59:command
+  a rdf:Property ;
+  rdfs:domain <CliCommand> ;
+  rdfs:label "Command name" ;
+.
+
+b59:source
+  a rdf:Property ;
+  rdfs:domain <CliCommand> ;
+  rdfs:label "Path to the source file" ;
+  rdfs:comment "It must be a literal with a path relative to installation directory (node_modules)" ;
+.
+
+b59:pipeline
+  a rdf:Property ;
+  rdfs:domain <CliCommand> ;
+  rdfs:range p:Pipeline ;
+  rdfs:label "Pipeline" ;
+  rdfs:comment "The pipeline executed by a CLI command" ;
+.

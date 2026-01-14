@@ -1,0 +1,14 @@
+<https://barnard59.zazuko.com/vocab#CliCommand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#CliCommand> <http://www.w3.org/2000/01/rdf-schema#label> "Dynamic command for barnard59's CLI" <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#command> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#command> <http://www.w3.org/2000/01/rdf-schema#domain> <CliCommand> <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#command> <http://www.w3.org/2000/01/rdf-schema#label> "Command name" <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#pipeline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#pipeline> <http://www.w3.org/2000/01/rdf-schema#comment> "The pipeline executed by a CLI command" <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#pipeline> <http://www.w3.org/2000/01/rdf-schema#domain> <CliCommand> <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#pipeline> <http://www.w3.org/2000/01/rdf-schema#label> "Pipeline" <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#pipeline> <http://www.w3.org/2000/01/rdf-schema#range> <https://pipeline.described.at/Pipeline> <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#source> <http://www.w3.org/2000/01/rdf-schema#comment> "It must be a literal with a path relative to installation directory (node_modules)" <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#source> <http://www.w3.org/2000/01/rdf-schema#domain> <CliCommand> <https://barnard59.zazuko.com/vocab#> .
+<https://barnard59.zazuko.com/vocab#source> <http://www.w3.org/2000/01/rdf-schema#label> "Path to the source file" <https://barnard59.zazuko.com/vocab#> .

@@ -1,0 +1,34 @@
+{
+  "name": "@vocabulary/code",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "npx --node-options='--loader=ts-node/esm' vocab-build datasets",
+    "prebuild": "npx --node-options='--loader=ts-node/esm' vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.8"
+  },
+  "license": "MIT",
+  "homepage": "https://code.described.at/",
+  "vocabulary": {
+    "prefix": "code",
+    "namespace": "https://code.described.at/"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt",
+    "CHANGELOG.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/zazuko/rdf-vocabularies/issues"
+  },
+  "peerDependencies": {
+    "@rdfjs/types": "^2.0.0"
+  }
+}
