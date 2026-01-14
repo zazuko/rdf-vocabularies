@@ -6,7 +6,7 @@ program
   .command('datasets [indexBase]')
   .action(async (indexBase = 'https://prefix.zazuko.com/') => {
     const path = process.cwd()
-    const packageJson = await import(`${path}/package.json`, { assert: { type: 'json' } })
+    const packageJson = await import(`${path}/package.json`, { with: { type: 'json' } })
 
     if (!packageJson.default.vocabulary) {
       throw new Error('Missing key "vocabulary" in package.json')
@@ -24,7 +24,7 @@ program
   .command('module')
   .action(async () => {
     const path = process.cwd()
-    const packageJson = await import(`${path}/package.json`, { assert: { type: 'json' } })
+    const packageJson = await import(`${path}/package.json`, { with: { type: 'json' } })
     const prefix = packageJson.default.vocabulary.prefix
     return buildModule(process.cwd(), prefix)
   })
