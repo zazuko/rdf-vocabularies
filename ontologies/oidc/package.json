@@ -4,8 +4,8 @@
   "type": "module",
   "description": "The OpenID Connect vocabulary used by the Solid-OIDC authentication specification.",
   "scripts": {
-    "fetch": "npx --node-options='--loader=ts-node/esm' vocab-build datasets",
-    "prebuild": "npx --node-options='--loader=ts-node/esm' vocab-build module",
+    "fetch": "npx vocab-build datasets",
+    "prebuild": "npx vocab-build module",
     "build": "tsc",
     "prepack": "npm run build"
   },

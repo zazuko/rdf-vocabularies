@@ -3,7 +3,7 @@
   "version": "1.0.9",
   "type": "module",
   "bin": {
-    "vocab-build": "./bin/index.js"
+    "vocab-build": "./bin/builder.sh"
   },
   "scripts": {
     "prepack": "tsc"
@@ -20,8 +20,7 @@
     "file-fetch": "^1.7.0",
     "node-fetch": "^3.3.0",
     "proto-fetch": "^1.0.0",
-    "rdfxml-streaming-parser": "^2.2.1",
-    "ts-node": "^10.9.1"
+    "rdfxml-streaming-parser": "^2.2.1"
   },
   "devDependencies": {
     "@types/file-fetch": "^1.6.6",
