@@ -5,8 +5,8 @@
   "main": "index.js",
   "description": "String Processing Ontology",
   "scripts": {
-    "fetch": "npx --node-options='--loader=ts-node/esm' vocab-build datasets",
-    "prebuild": "npx --node-options='--loader=ts-node/esm' vocab-build module",
+    "fetch": "npx vocab-build datasets",
+    "prebuild": "npx vocab-build module",
     "build": "tsc",
     "prepack": "npm run build"
   },
