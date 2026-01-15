@@ -158,12 +158,15 @@ describe('user-defined prefixes', () => {
   before(() => {
     prefixes.zzz = 'http://foo/'
   })
+
   after(() => {
     delete prefixes.zzz
   })
+
   it('expands', () => {
     expect(expand('zzz:bar')).to.eq('http://foo/bar')
   })
+
   it('shrinks', () => {
     expect(shrink('http://foo/bar')).to.eq('zzz:bar')
   })

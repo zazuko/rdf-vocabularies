@@ -7,7 +7,8 @@
     "rdf-vocab": "bin/vocab.js"
   },
   "scripts": {
-    "prepack": "cat ../../ontologies/*/meta.nt > meta.nt && tsc"
+    "combine-meta": "cat ../../ontologies/*/meta.nt > meta.nt",
+    "prepack": "npm run combine-meta && tsc"
   },
   "exports": {
     ".": "./index.js",
@@ -179,9 +180,6 @@
     "extension": "ts",
     "watch-files": [
       "./**/*.ts"
-    ],
-    "require": [
-      "mocha-setup.js"
     ]
   }
 }
