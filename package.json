@@ -14,7 +14,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zazuko/rdf-vocabularies.git"
+    "url": "https://github.com/zazuko/rdf-vocabularies",
+    "directory": "."
   },
   "author": "Victor Felder <victor@draft.li> (https://draft.li)",
   "license": "MIT",
