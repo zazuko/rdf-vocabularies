@@ -1,7 +1,8 @@
 import type { NamedNode } from '@rdfjs/types'
 import rdf from '@zazuko/env'
 import { expand, getParts } from './expand.js'
-import { vocabularies, Datasets } from './vocabularies.js'
+import type { Datasets } from './vocabularies.js'
+import { vocabularies } from './vocabularies.js'
 
 // memoizing the prefixes already used in 'expand'
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import { Readable } from 'stream'
+import type { Readable } from 'stream'
 import type { Stream, DataFactory, DatasetCore, DatasetCoreFactory } from '@rdfjs/types'
 import rdf from '@zazuko/env'
 import type { Environment } from '@rdfjs/environment/Environment.js'

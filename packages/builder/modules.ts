@@ -2,7 +2,7 @@ import { promises as fs } from 'fs'
 import { resolve } from 'path'
 import RdfjsSerializer from '@rdfjs/serializer-rdfjs'
 import { array } from 'get-stream'
-import { Quad } from '@rdfjs/types'
+import type { Quad } from '@rdfjs/types'
 import rdf from '@zazuko/env-node'
 
 const rdfjsSerializer = new RdfjsSerializer({ module: 'ts' })

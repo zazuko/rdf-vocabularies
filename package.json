@@ -6,7 +6,7 @@
     "prepare": "husky install",
     "fetch": "wsrun -y 5 -lm --report -c fetch",
     "lint": "eslint . --ext .js,.ts --ignore-path .gitignore --ignore-path .eslintignore --quiet",
-    "pretest": "wsrun -p @zazuko/vocabularies -c prepack",
+    "pretest": "wsrun -p @zazuko/vocabularies -c combine-meta",
     "test": "c8 -i src mocha packages/**/*.test.ts",
     "posttest": "c8 report --reporter=text-lcov >> ./coverage/lcov.info",
     "postinstall": "patch-package",
@@ -25,11 +25,11 @@
   "homepage": "https://github.com/zazuko/rdf-vocabularies#readme",
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
-    "@tpluscode/eslint-config": "^0.4.2",
-    "@typescript-eslint/eslint-plugin": "^6",
-    "@typescript-eslint/parser": "^6",
+    "@tpluscode/eslint-config": "^0.6.4",
+    "@typescript-eslint/eslint-plugin": "^7",
+    "@typescript-eslint/parser": "^7",
     "c8": "^7.13.0",
-    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-import-resolver-typescript": "^4.4.4",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
     "mocha": "^10.8.2",
@@ -44,7 +44,7 @@
     "watch-files": [
       "./**/*.ts"
     ],
-    "import": "tsx"
+    "require": "tsx"
   },
   "workspaces": [
     "./packages/*",
