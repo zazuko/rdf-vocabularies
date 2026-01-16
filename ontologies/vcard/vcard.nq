@@ -7,6 +7,8 @@
 <http://www.w3.org/2006/vcard/ns#Address> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/vcard/ns> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#Address> <http://www.w3.org/2000/01/rdf-schema#label> "Address"@en <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#Address> <http://www.w3.org/2002/07/owl#equivalentClass> _:c14n17 <http://www.w3.org/2006/vcard/ns#> .
+<http://www.w3.org/2006/vcard/ns#AddressBook> <http://www.w3.org/2000/01/rdf-schema#comment> "This term is not part of vCard as defined by the IETF"@en <http://www.w3.org/2006/vcard/ns#> .
+<http://www.w3.org/2006/vcard/ns#AddressBook> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://raw.githack.com/solid/contacts/refs/heads/main/vcard-extension-addressbook.ttl> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/vcard/ns> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en <http://www.w3.org/2006/vcard/ns#> .
@@ -285,6 +287,8 @@
 <http://www.w3.org/2006/vcard/ns#Voice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/vcard/ns> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#Voice> <http://www.w3.org/2000/01/rdf-schema#label> "Voice"@en <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#Voice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/vcard/ns#TelephoneType> <http://www.w3.org/2006/vcard/ns#> .
+<http://www.w3.org/2006/vcard/ns#WebID> <http://www.w3.org/2000/01/rdf-schema#comment> "This term is not part of vCard as defined by the IETF"@en <http://www.w3.org/2006/vcard/ns#> .
+<http://www.w3.org/2006/vcard/ns#WebID> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://raw.githack.com/solid/contacts/refs/heads/main/vcard-extension-addressbook.ttl> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#Work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#Work> <http://www.w3.org/2000/01/rdf-schema#comment> "This implies that the property is related to an individual's work place"@en <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#Work> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/vcard/ns> <http://www.w3.org/2006/vcard/ns#> .
@@ -366,6 +370,8 @@
 <http://www.w3.org/2006/vcard/ns#given-name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/vcard/ns> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#given-name> <http://www.w3.org/2000/01/rdf-schema#label> "given name"@en <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#given-name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/2006/vcard/ns#> .
+<http://www.w3.org/2006/vcard/ns#groupIndex> <http://www.w3.org/2000/01/rdf-schema#comment> "This term is not part of vCard as defined by the IETF"@en <http://www.w3.org/2006/vcard/ns#> .
+<http://www.w3.org/2006/vcard/ns#groupIndex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://raw.githack.com/solid/contacts/refs/heads/main/vcard-extension-addressbook.ttl> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#hasAdditionalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#hasAdditionalName> <http://www.w3.org/2000/01/rdf-schema#comment> "Used to support property parameters for the additional name data property"@en <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#hasAdditionalName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/vcard/ns> <http://www.w3.org/2006/vcard/ns#> .
@@ -545,6 +551,10 @@
 <http://www.w3.org/2006/vcard/ns#honorific-suffix> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/vcard/ns> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#honorific-suffix> <http://www.w3.org/2000/01/rdf-schema#label> "honorific suffix"@en <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#honorific-suffix> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/2006/vcard/ns#> .
+<http://www.w3.org/2006/vcard/ns#inAddressBook> <http://www.w3.org/2000/01/rdf-schema#comment> "This term is not part of vCard as defined by the IETF"@en <http://www.w3.org/2006/vcard/ns#> .
+<http://www.w3.org/2006/vcard/ns#inAddressBook> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://raw.githack.com/solid/contacts/refs/heads/main/vcard-extension-addressbook.ttl> <http://www.w3.org/2006/vcard/ns#> .
+<http://www.w3.org/2006/vcard/ns#includesGroup> <http://www.w3.org/2000/01/rdf-schema#comment> "This term is not part of vCard as defined by the IETF"@en <http://www.w3.org/2006/vcard/ns#> .
+<http://www.w3.org/2006/vcard/ns#includesGroup> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://raw.githack.com/solid/contacts/refs/heads/main/vcard-extension-addressbook.ttl> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#key> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#key> <http://www.w3.org/2000/01/rdf-schema#comment> "This object property has been mapped"@en <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#key> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/vcard/ns> <http://www.w3.org/2006/vcard/ns#> .
@@ -589,6 +599,8 @@
 <http://www.w3.org/2006/vcard/ns#n> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/vcard/ns> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#n> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#n> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://www.w3.org/2006/vcard/ns#hasName> <http://www.w3.org/2006/vcard/ns#> .
+<http://www.w3.org/2006/vcard/ns#nameEmailIndex> <http://www.w3.org/2000/01/rdf-schema#comment> "This term is not part of vCard as defined by the IETF"@en <http://www.w3.org/2006/vcard/ns#> .
+<http://www.w3.org/2006/vcard/ns#nameEmailIndex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://raw.githack.com/solid/contacts/refs/heads/main/vcard-extension-addressbook.ttl> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#nickname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#nickname> <http://www.w3.org/2000/01/rdf-schema#comment> "The nick name associated with the object"@en <http://www.w3.org/2006/vcard/ns#> .
 <http://www.w3.org/2006/vcard/ns#nickname> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/vcard/ns> <http://www.w3.org/2006/vcard/ns#> .

@@ -11,7 +11,7 @@
 <http://www.w3.org/ns/rdfa#> <http://purl.org/dc/terms/title> "RDFa Vocabulary for Term and Prefix Assignment, and for Processor Graph Reporting" <http://www.w3.org/ns/rdfa#> .
 <http://www.w3.org/ns/rdfa#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/ns/rdfa#> .
 <http://www.w3.org/ns/rdfa#> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/TR/rdfa-core/#s_initialcontexts> <http://www.w3.org/ns/rdfa#> .
-<http://www.w3.org/ns/rdfa#> <http://www.w3.org/2002/07/owl#versionInfo> "$Date: 2013-03-11 07:54:23 $" <http://www.w3.org/ns/rdfa#> .
+<http://www.w3.org/ns/rdfa#> <http://www.w3.org/2002/07/owl#versionInfo> "2013-03-11 07:54:23" <http://www.w3.org/ns/rdfa#> .
 <http://www.w3.org/ns/rdfa#DocumentError> <http://purl.org/dc/terms/description> "error condition; to be used when the document fails to be fully processed as a result of non-conformant host language markup" <http://www.w3.org/ns/rdfa#> .
 <http://www.w3.org/ns/rdfa#DocumentError> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/rdfa#Error> <http://www.w3.org/ns/rdfa#> .
 <http://www.w3.org/ns/rdfa#Error> <http://purl.org/dc/terms/description> "is the class for all error conditions" <http://www.w3.org/ns/rdfa#> .

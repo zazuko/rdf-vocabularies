@@ -15,7 +15,7 @@
   "vocabulary": {
     "prefix": "gs1",
     "namespace": "https://gs1.org/voc/",
-    "file": "https://www.gs1.org/docs/gs1-smartsearch/gs1Voc_v1_9.ttl",
+    "file": "https://ref.gs1.org/voc/data/gs1Voc.ttl",
     "mediaType": "text/turtle"
   },
   "bugs": {
