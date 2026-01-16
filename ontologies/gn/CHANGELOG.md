@@ -1,5 +1,12 @@
 # @vocabulary/gn
 
+## 1.0.6
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+- 3b2ccd7: Updated latest from source
+
 ## 1.0.5
 
 ### Patch Changes

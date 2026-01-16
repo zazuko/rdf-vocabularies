@@ -1,5 +1,11 @@
 # @zazuko/prefixes
 
+## 2.6.1
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 2.6.0
 
 ### Minor Changes

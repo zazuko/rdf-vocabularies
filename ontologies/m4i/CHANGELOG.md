@@ -1,5 +1,15 @@
 # @vocabulary/m4i
 
+## 1.3.0
+
+### Minor Changes
+
+- 3b2ccd7: Updated to source version 1.4.0
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 1.2.1
 
 ### Patch Changes

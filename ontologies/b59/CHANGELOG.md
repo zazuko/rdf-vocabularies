@@ -1,5 +1,11 @@
 # @vocabulary/b59
 
+## 0.1.3
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 0.1.2
 
 ### Patch Changes

@@ -1,5 +1,13 @@
 # @vocabulary/builder
 
+## 1.0.10
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+- Updated dependencies [25b114a]
+  - @zazuko/prefixes@2.6.1
+
 ## 1.0.9
 
 ### Patch Changes

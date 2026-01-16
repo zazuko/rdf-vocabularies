@@ -1,5 +1,15 @@
 # @vocabulary/mads
 
+## 1.1.0
+
+### Minor Changes
+
+- 9aa1c0e: Updated to v1.5.0
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 1.0.5
 
 ### Patch Changes

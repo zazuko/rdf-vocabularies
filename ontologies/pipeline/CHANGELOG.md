@@ -1,5 +1,11 @@
 # @vocabulary/pipeline
 
+## 1.1.5
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 1.1.4
 
 ### Patch Changes

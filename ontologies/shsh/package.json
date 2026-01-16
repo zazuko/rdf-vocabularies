@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/shsh",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "main": "index.js",
   "description": "This shapes graph can be used to validate SHACL shapes graphs against a subset of the syntax rules.",
@@ -11,7 +11,7 @@
     "prepack": "npm run build"
   },
   "devDependencies": {
-    "@vocabulary/builder": "^1.0.8"
+    "@vocabulary/builder": "^1.0.10"
   },
   "homepage": "https://www.w3.org/TR/shacl/#shacl-shacl",
   "vocabulary": {

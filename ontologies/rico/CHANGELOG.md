@@ -1,5 +1,15 @@
 # @vocabulary/rico
 
+## 2.1.0
+
+### Minor Changes
+
+- 9aa1c0e: Updated to v1.1
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 2.0.1
 
 ### Patch Changes

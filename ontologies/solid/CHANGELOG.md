@@ -1,5 +1,15 @@
 # @vocabulary/solid
 
+## 1.1.0
+
+### Minor Changes
+
+- 9aa1c0e: Updated latest from source
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 1.0.4
 
 ### Patch Changes
