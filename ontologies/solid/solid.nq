@@ -149,6 +149,12 @@
 <http://www.w3.org/ns/solid/terms#patches> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
 <http://www.w3.org/ns/solid/terms#patches> <http://www.w3.org/2000/01/rdf-schema#label> "patches"@en <http://www.w3.org/ns/solid/terms#> .
 <http://www.w3.org/ns/solid/terms#patches> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#privateLabelIndex> <http://purl.org/dc/terms/issued> "2023-10-04"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#privateLabelIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#privateLabelIndex> <http://www.w3.org/2000/01/rdf-schema#comment> "Points to an unlisted label index resource."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#privateLabelIndex> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#privateLabelIndex> <http://www.w3.org/2000/01/rdf-schema#label> "private label index"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#privateLabelIndex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/solid/terms#UnlistedDocument> <http://www.w3.org/ns/solid/terms#> .
 <http://www.w3.org/ns/solid/terms#privateTypeIndex> <http://purl.org/dc/terms/issued> "2018-01-24"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
 <http://www.w3.org/ns/solid/terms#privateTypeIndex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
 <http://www.w3.org/ns/solid/terms#privateTypeIndex> <http://www.w3.org/2000/01/rdf-schema#comment> "Points to an unlisted type index resource."@en <http://www.w3.org/ns/solid/terms#> .
@@ -168,6 +174,13 @@
 <http://www.w3.org/ns/solid/terms#read> <http://www.w3.org/2000/01/rdf-schema#domain> <http://rdfs.org/sioc/ns#Post> <http://www.w3.org/ns/solid/terms#> .
 <http://www.w3.org/ns/solid/terms#read> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
 <http://www.w3.org/ns/solid/terms#read> <http://www.w3.org/2000/01/rdf-schema#label> "read"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageDescription> <http://purl.org/dc/terms/issued> "2024-12-28"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Refers to the resource that provides a description of the storage containing this resource."@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageDescription> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/solid/terms#> <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageDescription> <http://www.w3.org/2000/01/rdf-schema#label> "storage description"@en <http://www.w3.org/ns/solid/terms#> .
+<http://www.w3.org/ns/solid/terms#storageDescription> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://solidproject.org/TR/2024/protocol-20240512#server-storage-description> <http://www.w3.org/ns/solid/terms#> .
 <http://www.w3.org/ns/solid/terms#storageQuota> <http://purl.org/dc/terms/issued> "2018-10-26"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
 <http://www.w3.org/ns/solid/terms#storageQuota> <http://purl.org/dc/terms/modified> "2018-11-07"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .
 <http://www.w3.org/ns/solid/terms#storageQuota> <http://purl.org/dc/terms/modified> "2019-01-22"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/solid/terms#> .

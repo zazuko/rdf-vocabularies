@@ -234,8 +234,9 @@
 <http://www.w3.org/ns/hydra/core#member> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/hydra/core> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#member> <http://www.w3.org/2000/01/rdf-schema#label> "member" <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#member> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/hydra/core#> .
+<http://www.w3.org/ns/hydra/core#memberAssertion> <http://schema.org/domainIncludes> <http://www.w3.org/ns/hydra/core#Class> <http://www.w3.org/ns/hydra/core#> .
+<http://www.w3.org/ns/hydra/core#memberAssertion> <http://schema.org/domainIncludes> <http://www.w3.org/ns/hydra/core#Collection> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#memberAssertion> <http://www.w3.org/2000/01/rdf-schema#comment> "Semantics of each member provided by the collection." <http://www.w3.org/ns/hydra/core#> .
-<http://www.w3.org/ns/hydra/core#memberAssertion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/hydra/core#Collection> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#memberAssertion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/hydra/core> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#memberAssertion> <http://www.w3.org/2000/01/rdf-schema#label> "member assertion" <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#memberAssertion> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/hydra/core#> .
@@ -430,9 +431,10 @@
 <http://www.w3.org/ns/hydra/core#variable> <http://www.w3.org/2000/01/rdf-schema#label> "variable" <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#variable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#variable> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" <http://www.w3.org/ns/hydra/core#> .
+<http://www.w3.org/ns/hydra/core#variableRepresentation> <http://schema.org/domainIncludes> <http://www.w3.org/ns/hydra/core#IriTemplate> <http://www.w3.org/ns/hydra/core#> .
+<http://www.w3.org/ns/hydra/core#variableRepresentation> <http://schema.org/domainIncludes> <http://www.w3.org/ns/hydra/core#IriTemplateMapping> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#variableRepresentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#variableRepresentation> <http://www.w3.org/2000/01/rdf-schema#comment> "The representation format to use when expanding the IRI template." <http://www.w3.org/ns/hydra/core#> .
-<http://www.w3.org/ns/hydra/core#variableRepresentation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/hydra/core#IriTemplateMapping> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#variableRepresentation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/hydra/core> <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#variableRepresentation> <http://www.w3.org/2000/01/rdf-schema#label> "variable representation" <http://www.w3.org/ns/hydra/core#> .
 <http://www.w3.org/ns/hydra/core#variableRepresentation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/hydra/core#VariableRepresentation> <http://www.w3.org/ns/hydra/core#> .

@@ -1,5 +1,5 @@
 <https://prefix.zazuko.com/gs1:> <http://dbpedia.org/ontology/filename> "@vocabulary/gs1/gs1.nq" .
 <https://prefix.zazuko.com/gs1:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
-<https://prefix.zazuko.com/gs1:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://www.gs1.org/docs/gs1-smartsearch/gs1Voc_v1_9.ttl> .
+<https://prefix.zazuko.com/gs1:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ref.gs1.org/voc/data/gs1Voc.ttl> .
 <https://prefix.zazuko.com/gs1:> <http://www.w3.org/ns/rdfa#prefix> "gs1" .
 <https://prefix.zazuko.com/gs1:> <http://www.w3.org/ns/rdfa#uri> <https://gs1.org/voc/> .

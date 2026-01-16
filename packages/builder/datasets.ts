@@ -33,10 +33,8 @@ const fetchOptions = ({ headers, ...rest }: FactoryInit<DatasetCore>): FactoryIn
     'sec-fetch-site': 'cross-site',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': `Mozilla/${randomInt(4, 5)}.0 (Macintosh; Intel Mac OS X ` +
-      `10_${randomInt(0, 15)}_${randomInt(1, 5)}) ` +
-      `AppleWebKit/${randomInt(400, 537)}.${randomInt(1, 40)} (KHTML, like Gecko) ` +
-      `Chrome/${randomInt(11, 77)}.0.${randomInt(1, 6000)}.120 Safari/${randomInt(400, 537)}.${randomInt(1, 40)}`,
+    // Use a static, widely accepted user agent for w3.org compatibility
+    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     ...headers,
   },
   referrerPolicy: 'no-referrer-when-downgrade',
