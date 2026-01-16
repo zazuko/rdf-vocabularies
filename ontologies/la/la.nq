@@ -1,3 +1,16 @@
+<http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
+<http://www.cidoc-crm.org/cidoc-crm/E10_Transfer_of_Custody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://linked.art/ns/terms/Transfer> <https://linked.art/ns/terms/> .
+<http://www.cidoc-crm.org/cidoc-crm/E74_Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
+<http://www.cidoc-crm.org/cidoc-crm/E74_Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> <https://linked.art/ns/terms/> .
+<http://www.cidoc-crm.org/cidoc-crm/E74_Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://linked.art/ns/terms/Set> <https://linked.art/ns/terms/> .
+<http://www.cidoc-crm.org/cidoc-crm/E85_Joining> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
+<http://www.cidoc-crm.org/cidoc-crm/E85_Joining> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://linked.art/ns/terms/Addition> <https://linked.art/ns/terms/> .
+<http://www.cidoc-crm.org/cidoc-crm/E86_Leaving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
+<http://www.cidoc-crm.org/cidoc-crm/E86_Leaving> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://linked.art/ns/terms/Removal> <https://linked.art/ns/terms/> .
+<http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
+<http://www.cidoc-crm.org/cidoc-crm/E8_Acquisition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://linked.art/ns/terms/Transfer> <https://linked.art/ns/terms/> .
+<http://www.cidoc-crm.org/cidoc-crm/E9_Move> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
+<http://www.cidoc-crm.org/cidoc-crm/E9_Move> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://linked.art/ns/terms/Transfer> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Addition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Addition> <http://www.w3.org/2000/01/rdf-schema#comment> "The addition of some entity to a Set"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Addition> <http://www.w3.org/2000/01/rdf-schema#label> "Addition"@en <https://linked.art/ns/terms/> .
@@ -5,15 +18,11 @@
 <https://linked.art/ns/terms/DigitalService> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/DigitalService> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/DigitalService> <http://www.w3.org/2000/01/rdf-schema#label> "Digital Service"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/DigitalService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <dig:D1_Digital_Object> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/DigitalService> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Payment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Payment> <http://www.w3.org/2000/01/rdf-schema#comment> "Payment of Money"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Payment> <http://www.w3.org/2000/01/rdf-schema#label> "Payment"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/Payment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/Phase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/Phase> <http://www.w3.org/2000/01/rdf-schema#comment> " The period of time during which an entity is in a certain phase or state of its existence.  The phase can be physical (the box is open, the painting is 14 ft wide) or social (the sculpture is owned by some Actor, the building is used as a castle)."@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/Phase> <http://www.w3.org/2000/01/rdf-schema#label> "Phase"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/Phase> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E4_Period> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/Payment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://linked.art/ns/terms/Transfer> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Removal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Removal> <http://www.w3.org/2000/01/rdf-schema#comment> "The removal of some entity from a Set"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Removal> <http://www.w3.org/2000/01/rdf-schema#label> "Removal"@en <https://linked.art/ns/terms/> .
@@ -21,12 +30,16 @@
 <https://linked.art/ns/terms/RightAcquisition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/RightAcquisition> <http://www.w3.org/2000/01/rdf-schema#comment> "The acquiring or establishment of a particular E30 Right over some entity "@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/RightAcquisition> <http://www.w3.org/2000/01/rdf-schema#label> "Right Acquisition"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/RightAcquisition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/RightAcquisition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://linked.art/ns/terms/Transfer> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Set> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Set> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Set> <http://www.w3.org/2000/01/rdf-schema#label> "Set"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Set> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/Set> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/Transfer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/Transfer> <http://www.w3.org/2000/01/rdf-schema#comment> "Abstract transferral of something between entities"@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/Transfer> <http://www.w3.org/2000/01/rdf-schema#label> "Transfer"@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/Transfer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.cidoc-crm.org/cidoc-crm/E7_Activity> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/access_point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/access_point> <http://www.w3.org/2000/01/rdf-schema#comment> "From an ur- digital object to a single concrete representation.\n        A locator as opposed to an identifier, similar to the approximated_by for Place."@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/access_point> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.ics.forth.gr/isl/CRMdig/D1_Digital_Object> <https://linked.art/ns/terms/> .
@@ -56,6 +69,12 @@
 <https://linked.art/ns/terms/added_to_by> <http://www.w3.org/2000/01/rdf-schema#label> "added to by"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/added_to_by> <http://www.w3.org/2000/01/rdf-schema#range> <https://linked.art/ns/terms/Addition> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/added_to_by> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/added_to> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/contains_members_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/contains_members_of> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/contains_members_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/contains_members_of> <http://www.w3.org/2000/01/rdf-schema#label> "contains members of"@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/contains_members_of> <http://www.w3.org/2000/01/rdf-schema#range> <https://linked.art/ns/terms/Set> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/contains_members_of> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/members_contained_by> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/current_permanent_custodian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/current_permanent_custodian> <http://www.w3.org/2000/01/rdf-schema#comment> "This property records the normal custodian of the object at the time when the assertion was made. The object may have a temporary custodian, for example when it is loaned to another organization for an exhibition or between departments for conservation or storage."@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/current_permanent_custodian> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E19_Physical_Object> <https://linked.art/ns/terms/> .
@@ -127,24 +146,6 @@
 <https://linked.art/ns/terms/has_member> <http://www.w3.org/2000/01/rdf-schema#label> "has member"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/has_member> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/has_member> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/member_of> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/has_phase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/has_phase> <http://www.w3.org/2000/01/rdf-schema#comment> " The relationship between an E1 Entity and one of its Phases. A painting that had two sizes, 16 feet and 14 feet wide, would have two Phases, one for each width. "@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/has_phase> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/has_phase> <http://www.w3.org/2000/01/rdf-schema#label> "has phase"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/has_phase> <http://www.w3.org/2000/01/rdf-schema#range> <https://linked.art/ns/terms/Phase> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/has_phase> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/phase_of> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/initiated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/initiated> <http://www.w3.org/2000/01/rdf-schema#comment> " Events can start or initiate Phases, such as the Modification of a painting to trim it from 16 feet to 14 ft would initiate a 14 feet phase, or the Acquisition of a sculpture by some Actor would initiate that Actor's ownership phase. This relationship links the initiating Event to the Phase."@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/initiated> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E5_Event> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/initiated> <http://www.w3.org/2000/01/rdf-schema#label> "initiated"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/initiated> <http://www.w3.org/2000/01/rdf-schema#range> <https://linked.art/ns/terms/Phase> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/initiated> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/initiated_by> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/initiated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/initiated_by> <http://www.w3.org/2000/01/rdf-schema#comment> " The inverse of la:initiated."@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/initiated_by> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Phase> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/initiated_by> <http://www.w3.org/2000/01/rdf-schema#label> "initiated by"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/initiated_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E5_Event> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/initiated_by> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/initiated> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/invalidated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/invalidated_by> <http://www.w3.org/2000/01/rdf-schema#comment> "The RightAcquisition that invalidated this Right"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/invalidated_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E30_Right> <https://linked.art/ns/terms/> .
@@ -163,8 +164,19 @@
 <https://linked.art/ns/terms/member_of> <http://www.w3.org/2000/01/rdf-schema#label> "member of"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/member_of> <http://www.w3.org/2000/01/rdf-schema#range> <https://linked.art/ns/terms/Set> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/member_of> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/has_member> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/members_contained_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/members_contained_by> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/members_contained_by> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Set> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/members_contained_by> <http://www.w3.org/2000/01/rdf-schema#label> "members contained by"@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/members_contained_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/members_contained_by> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/contains_members_of> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/members_exemplified_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/members_exemplified_by> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/members_exemplified_by> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Set> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/members_exemplified_by> <http://www.w3.org/2000/01/rdf-schema#label> "members exemplified by"@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/members_exemplified_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/paid_amount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/paid_amount> <http://www.w3.org/2000/01/rdf-schema#comment> "The amount paid."@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/paid_amount> <http://www.w3.org/2000/01/rdf-schema#comment> "The amount paid"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/paid_amount> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Payment> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/paid_amount> <http://www.w3.org/2000/01/rdf-schema#label> "Paid Amount"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/paid_amount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E97_Monetary_Amount> <https://linked.art/ns/terms/> .
@@ -178,35 +190,11 @@
 <https://linked.art/ns/terms/paid_to> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Payment> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/paid_to> <http://www.w3.org/2000/01/rdf-schema#label> "Paid To"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/paid_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E39_Actor> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/phase_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/phase_of> <http://www.w3.org/2000/01/rdf-schema#comment> " The inverse of la:has_phase."@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/phase_of> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Phase> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/phase_of> <http://www.w3.org/2000/01/rdf-schema#label> "phase of"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/phase_of> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/phase_of> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/has_state> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/property_classified_as> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/property_classified_as> <http://www.w3.org/2000/01/rdf-schema#comment> "Record dot one properties via Attribute Assignments"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/property_classified_as> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/property_classified_as> <http://www.w3.org/2000/01/rdf-schema#label> "Property Classified As"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/property_classified_as> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/related_entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/related_entity> <http://www.w3.org/2000/01/rdf-schema#comment> " An E1 Entity that defines the nature of the Phase. For an ownership phase, this would be the owning E39 Actor. For the size of painting phase, this would be the E54 Dimension that describes the size."@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/related_entity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Phase> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/related_entity> <http://www.w3.org/2000/01/rdf-schema#label> "related entity"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/related_entity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/related_entity> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/terminated> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/related_entity_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/related_entity_of> <http://www.w3.org/2000/01/rdf-schema#comment> " The inverse of la:related_entity."@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/related_entity_of> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/related_entity_of> <http://www.w3.org/2000/01/rdf-schema#label> "related entity of"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/related_entity_of> <http://www.w3.org/2000/01/rdf-schema#range> <https://linked.art/ns/terms/Phase> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/related_entity_of> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/related_entity> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/relationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/relationship> <http://www.w3.org/2000/01/rdf-schema#comment> " The relationship between the Entity that the phase is of, and the defining entity. For an ownership phase, this would be P52 has current owner. For the size of painting phase, this would be P43 has dimension."@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/relationship> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Phase> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/relationship> <http://www.w3.org/2000/01/rdf-schema#label> "related by"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/relationship> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E55_Type> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/relationship> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.cidoc-crm.org/cidoc-crm/P2_has_type> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/removed_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/removed_from> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/removed_from> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Removal> <https://linked.art/ns/terms/> .
@@ -231,15 +219,18 @@
 <https://linked.art/ns/terms/removed_member_by> <http://www.w3.org/2000/01/rdf-schema#label> "removed by"@en <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/removed_member_by> <http://www.w3.org/2000/01/rdf-schema#range> <https://linked.art/ns/terms/Removal> <https://linked.art/ns/terms/> .
 <https://linked.art/ns/terms/removed_member_by> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/removed_member> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/terminated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/terminated> <http://www.w3.org/2000/01/rdf-schema#comment> " Events can end or terminate Phases, such as the Modification of a painting to trim it from 16 feet to 14 ft would end the 16 feet phase, or the Acquisition of a sculpture by some Actor would end the seller's ownership. This relationship links the terminating Event to the Phase."@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/terminated> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.cidoc-crm.org/cidoc-crm/E5_Event> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/terminated> <http://www.w3.org/2000/01/rdf-schema#label> "terminated"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/terminated> <http://www.w3.org/2000/01/rdf-schema#range> <https://linked.art/ns/terms/Phase> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/terminated> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/terminated_by> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/terminated_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/terminated_by> <http://www.w3.org/2000/01/rdf-schema#comment> " The inverse of la:terminated."@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/terminated_by> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Phase> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/terminated_by> <http://www.w3.org/2000/01/rdf-schema#label> "terminated by"@en <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/terminated_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E5_Event> <https://linked.art/ns/terms/> .
-<https://linked.art/ns/terms/terminated_by> <http://www.w3.org/2002/07/owl#inverseOf> <https://linked.art/ns/terms/terminated> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred> <http://www.w3.org/2000/01/rdf-schema#comment> "What was transferred"@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Transfer> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred> <http://www.w3.org/2000/01/rdf-schema#label> "transferred"@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred_from> <http://www.w3.org/2000/01/rdf-schema#comment> "Where or with whom did it start"@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred_from> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Transfer> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred_from> <http://www.w3.org/2000/01/rdf-schema#label> "transferred from"@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred_from> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred_to> <http://www.w3.org/2000/01/rdf-schema#comment> "Where or with whom did it end"@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred_to> <http://www.w3.org/2000/01/rdf-schema#domain> <https://linked.art/ns/terms/Transfer> <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred_to> <http://www.w3.org/2000/01/rdf-schema#label> "transferred to"@en <https://linked.art/ns/terms/> .
+<https://linked.art/ns/terms/transferred_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> <https://linked.art/ns/terms/> .

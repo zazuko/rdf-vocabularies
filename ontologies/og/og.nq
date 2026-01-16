@@ -51,6 +51,11 @@
 <http://ogp.me/ns#fax_number> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ogp.me/ns#> <http://ogp.me/ns#> .
 <http://ogp.me/ns#fax_number> <http://www.w3.org/2000/01/rdf-schema#label> "fax number"@en-US <http://ogp.me/ns#> .
 <http://ogp.me/ns#fax_number> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://xmlns.com/foaf/0.1/phone> <http://ogp.me/ns#> .
+<http://ogp.me/ns#image:alt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://ogp.me/ns#> .
+<http://ogp.me/ns#image:alt> <http://www.w3.org/2000/01/rdf-schema#comment> "A description of what is in the image."@en-US <http://ogp.me/ns#> .
+<http://ogp.me/ns#image:alt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ogp.me/ns#> <http://ogp.me/ns#> .
+<http://ogp.me/ns#image:alt> <http://www.w3.org/2000/01/rdf-schema#label> "image alternative text"@en-US <http://ogp.me/ns#> .
+<http://ogp.me/ns#image:alt> <http://www.w3.org/2000/01/rdf-schema#range> <http://ogp.me/ns/class#string> <http://ogp.me/ns#> .
 <http://ogp.me/ns#image:height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://ogp.me/ns#> .
 <http://ogp.me/ns#image:height> <http://www.w3.org/2000/01/rdf-schema#comment> "The height of an image."@en-US <http://ogp.me/ns#> .
 <http://ogp.me/ns#image:height> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ogp.me/ns#> <http://ogp.me/ns#> .
