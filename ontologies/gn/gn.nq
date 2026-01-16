@@ -160,7 +160,7 @@
 <http://www.geonames.org/ontology#A.PPLH> <http://www.w3.org/2004/02/skos/core#prefLabel> "historical populated place"@en <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#A.PRSH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#A.PRSH> <http://www.w3.org/2004/02/skos/core#definition> "an ecclesiastical district"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#A.PRSH> <http://www.w3.org/2004/02/skos/core#definition> "низший церковный округ в христианской церкви, цент��ом которого является храм"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#A.PRSH> <http://www.w3.org/2004/02/skos/core#definition> "низший церковный округ в христианской церкви, центром которого является храм"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#A.PRSH> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#A> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#A.PRSH> <http://www.w3.org/2004/02/skos/core#notation> "A.PRSH" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#A.PRSH> <http://www.w3.org/2004/02/skos/core#prefLabel> "kommun"@sv <http://www.geonames.org/ontology#> .
@@ -349,7 +349,7 @@
 <http://www.geonames.org/ontology#H.CHNL> <http://www.w3.org/2004/02/skos/core#prefLabel> "омут"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.CHNM> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.CHNM> <http://www.w3.org/2004/02/skos/core#definition> "that part of a body of water deep enough for navigation through an area otherwise not suitable"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#H.CHNM> <http://www.w3.org/2004/02/skos/core#definition> "канал, предназначенный для судоходной связи меж��у морями"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#H.CHNM> <http://www.w3.org/2004/02/skos/core#definition> "канал, предназначенный для судоходной связи между морями"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.CHNM> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#H> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.CHNM> <http://www.w3.org/2004/02/skos/core#notation> "H.CHNM" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.CHNM> <http://www.w3.org/2004/02/skos/core#prefLabel> "marine channel"@en <http://www.geonames.org/ontology#> .
@@ -683,7 +683,7 @@
 <http://www.geonames.org/ontology#H.GULF> <http://www.w3.org/2004/02/skos/core#prefLabel> "морской залив"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.GYSR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.GYSR> <http://www.w3.org/2004/02/skos/core#definition> "a type of hot spring with intermittent eruptions of jets of hot water and steam"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#H.GYSR> <http://www.w3.org/2004/02/skos/core#definition> "источник вулканического п��оисхождения, выбрасывающий через определённые промежутки времени фонтаны горячей воды и пара"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#H.GYSR> <http://www.w3.org/2004/02/skos/core#definition> "источник вулканического происхождения, выбрасывающий через определённые промежутки времени фонтаны горячей воды и пара"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.GYSR> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#H> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.GYSR> <http://www.w3.org/2004/02/skos/core#notation> "H.GYSR" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.GYSR> <http://www.w3.org/2004/02/skos/core#prefLabel> "geyser"@en <http://www.geonames.org/ontology#> .
@@ -843,7 +843,7 @@
 <http://www.geonames.org/ontology#H.LKS> <http://www.w3.org/2004/02/skos/core#prefLabel> "озера"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.LKSB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.LKSB> <http://www.w3.org/2004/02/skos/core#definition> "a standing body of water in a cave"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#H.LKSB> <http://www.w3.org/2004/02/skos/core#definition> "озеро в карстовых пещерах, питающееся подземными вода��и"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#H.LKSB> <http://www.w3.org/2004/02/skos/core#definition> "озеро в карстовых пещерах, питающееся подземными водами"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.LKSB> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#H> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.LKSB> <http://www.w3.org/2004/02/skos/core#notation> "H.LKSB" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.LKSB> <http://www.w3.org/2004/02/skos/core#prefLabel> "underground lake"@en <http://www.geonames.org/ontology#> .
@@ -878,7 +878,7 @@
 <http://www.geonames.org/ontology#H.LKSN> <http://www.w3.org/2004/02/skos/core#prefLabel> "saltsjöar"@sv <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.LKSN> <http://www.w3.org/2004/02/skos/core#prefLabel> "saltsjøer"@no <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.LKSN> <http://www.w3.org/2004/02/skos/core#prefLabel> "солени езера"@bg <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#H.LKSN> <http://www.w3.org/2004/02/skos/core#prefLabel> "сол��ные озера"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#H.LKSN> <http://www.w3.org/2004/02/skos/core#prefLabel> "соленые озера"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.LKSNI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.LKSNI> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#H> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.LKSNI> <http://www.w3.org/2004/02/skos/core#notation> "H.LKSNI" <http://www.geonames.org/ontology#> .
@@ -1069,7 +1069,7 @@
 <http://www.geonames.org/ontology#H.POOLI> <http://www.w3.org/2004/02/skos/core#prefLabel> "пресъхващи вирове"@bg <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.RCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.RCH> <http://www.w3.org/2004/02/skos/core#definition> "a straight section of a navigable stream or channel between two bends"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#H.RCH> <http://www.w3.org/2004/02/skos/core#definition> "участок реки между изгибами, перекатами с широким, спокойным течением и большей, чем на перекатах, г��убиной"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#H.RCH> <http://www.w3.org/2004/02/skos/core#definition> "участок реки между изгибами, перекатами с широким, спокойным течением и большей, чем на перекатах, глубиной"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.RCH> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#H> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.RCH> <http://www.w3.org/2004/02/skos/core#notation> "H.RCH" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.RCH> <http://www.w3.org/2004/02/skos/core#prefLabel> "reach"@en <http://www.geonames.org/ontology#> .
@@ -1175,7 +1175,7 @@
 <http://www.geonames.org/ontology#H.RVN> <http://www.w3.org/2004/02/skos/core#prefLabel> "овраг"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.SBKH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.SBKH> <http://www.w3.org/2004/02/skos/core#definition> "a salt flat or salt encrusted plain subject to periodic inundation from flooding or high tides"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#H.SBKH> <http://www.w3.org/2004/02/skos/core#definition> "замкнутое бессточное понижение рельефа с плоск��м глинистым днищем, занятым солончаками"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#H.SBKH> <http://www.w3.org/2004/02/skos/core#definition> "замкнутое бессточное понижение рельефа с плоским глинистым днищем, занятым солончаками"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.SBKH> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#H> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.SBKH> <http://www.w3.org/2004/02/skos/core#notation> "H.SBKH" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.SBKH> <http://www.w3.org/2004/02/skos/core#prefLabel> "sabkha (oversvømt område)"@no <http://www.geonames.org/ontology#> .
@@ -1191,8 +1191,8 @@
 <http://www.geonames.org/ontology#H.SD> <http://www.w3.org/2004/02/skos/core#prefLabel> "sound"@en <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.SD> <http://www.w3.org/2004/02/skos/core#prefLabel> "sund"@no <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.SD> <http://www.w3.org/2004/02/skos/core#prefLabel> "sund"@sv <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#H.SD> <http://www.w3.org/2004/02/skos/core#prefLabel> "морски ръкав"@bg <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.SD> <http://www.w3.org/2004/02/skos/core#prefLabel> "широкая лагуна"@ru <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#H.SD> <http://www.w3.org/2004/02/skos/core#prefLabel> "��орски ръкав"@bg <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.SEA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.SEA> <http://www.w3.org/2004/02/skos/core#definition> "a large body of salt water more or less confined by continuous land or chains of islands forming a subdivision of an ocean"@en <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.SEA> <http://www.w3.org/2004/02/skos/core#definition> "большое водное пространство, ограниченное с одной или нескольких сторон сушей и отделяемое от самого океана островами или возвышенностями подводного рельефа"@ru <http://www.geonames.org/ontology#> .
@@ -1361,7 +1361,7 @@
 <http://www.geonames.org/ontology#H.STMS> <http://www.w3.org/2004/02/skos/core#prefLabel> "ручьи"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.STMSB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.STMSB> <http://www.w3.org/2004/02/skos/core#definition> "a surface stream that disappears into an underground channel, or dries up in an arid area"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#H.STMSB> <http://www.w3.org/2004/02/skos/core#definition> "река,  полно��тью высохшая или превратившаяся в подземный канал"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#H.STMSB> <http://www.w3.org/2004/02/skos/core#definition> "река,  полностью высохшая или превратившаяся в подземный канал"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.STMSB> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#H> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.STMSB> <http://www.w3.org/2004/02/skos/core#notation> "H.STMSB" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.STMSB> <http://www.w3.org/2004/02/skos/core#prefLabel> "elv uten utløp"@no <http://www.geonames.org/ontology#> .
@@ -1486,7 +1486,7 @@
 <http://www.geonames.org/ontology#H.WHRL> <http://www.w3.org/2004/02/skos/core#prefLabel> "водовъртеж"@bg <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.WLL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.WLL> <http://www.w3.org/2004/02/skos/core#definition> "a cylindrical hole, pit, or tunnel drilled or dug down to a depth from which water, oil, or gas can be pumped or brought to the surface"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#H.WLL> <http://www.w3.org/2004/02/skos/core#definition> "глубокая яма с отвесными стенками, обычно защи��ённая от обвалов срубом, служащая для добывания воды из водоносных слоёв земли"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#H.WLL> <http://www.w3.org/2004/02/skos/core#definition> "глубокая яма с отвесными стенками, обычно защищённая от обвалов срубом, служащая для добывания воды из водоносных слоёв земли"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.WLL> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#H> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.WLL> <http://www.w3.org/2004/02/skos/core#notation> "H.WLL" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.WLL> <http://www.w3.org/2004/02/skos/core#prefLabel> "brunn, källa"@sv <http://www.geonames.org/ontology#> .
@@ -1514,7 +1514,7 @@
 <http://www.geonames.org/ontology#H.WLLS> <http://www.w3.org/2004/02/skos/core#prefLabel> "колодцы"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.WTLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.WTLD> <http://www.w3.org/2004/02/skos/core#definition> "an area subject to inundation, usually characterized by bog, marsh, or swamp vegetation"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#H.WTLD> <http://www.w3.org/2004/02/skos/core#definition> "территория, подвергающаяся частым наводнениям; здесь часто образуются болота, на которых растет характерная для них болот��ая растительность"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#H.WTLD> <http://www.w3.org/2004/02/skos/core#definition> "территория, подвергающаяся частым наводнениям; здесь часто образуются болота, на которых растет характерная для них болотная растительность"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.WTLD> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#H> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.WTLD> <http://www.w3.org/2004/02/skos/core#notation> "H.WTLD" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#H.WTLD> <http://www.w3.org/2004/02/skos/core#prefLabel> "våtmark"@no <http://www.geonames.org/ontology#> .
@@ -1684,7 +1684,7 @@
 <http://www.geonames.org/ontology#L.CTRB> <http://www.w3.org/2004/02/skos/core#prefLabel> "бизнес център"@bg <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.DEVH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.DEVH> <http://www.w3.org/2004/02/skos/core#definition> "a tract of land on which many houses of similar design are built according to a development plan"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#L.DEVH> <http://www.w3.org/2004/02/skos/core#definition> "часть застроенной территории населенного пункта, предполагающая целостность архитектурного замы��ла"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#L.DEVH> <http://www.w3.org/2004/02/skos/core#definition> "часть застроенной территории населенного пункта, предполагающая целостность архитектурного замысла"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.DEVH> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#L> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.DEVH> <http://www.w3.org/2004/02/skos/core#notation> "L.DEVH" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.DEVH> <http://www.w3.org/2004/02/skos/core#prefLabel> "boligområde"@no <http://www.geonames.org/ontology#> .
@@ -1804,7 +1804,7 @@
 <http://www.geonames.org/ontology#L.MVA> <http://www.w3.org/2004/02/skos/core#prefLabel> "полигон"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.NVB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.NVB> <http://www.w3.org/2004/02/skos/core#definition> "an area used to store supplies, provide barracks for troops and naval personnel, a port for naval vessels, and from which operations are initiated"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#L.NVB> <http://www.w3.org/2004/02/skos/core#definition> "оборудованный и обороняемый район (зона) побережья и прилегающего участка моря обы��но с несколькими пунктами базирования кораблей, с силами и средствами, предназначенными для обороны"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#L.NVB> <http://www.w3.org/2004/02/skos/core#definition> "оборудованный и обороняемый район (зона) побережья и прилегающего участка моря обычно с несколькими пунктами базирования кораблей, с силами и средствами, предназначенными для обороны"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.NVB> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#L> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.NVB> <http://www.w3.org/2004/02/skos/core#notation> "L.NVB" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.NVB> <http://www.w3.org/2004/02/skos/core#prefLabel> "marinbas"@sv <http://www.geonames.org/ontology#> .
@@ -1959,7 +1959,7 @@
 <http://www.geonames.org/ontology#L.RESW> <http://www.w3.org/2004/02/skos/core#prefLabel> "резерват"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.RGN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.RGN> <http://www.w3.org/2004/02/skos/core#definition> "an area distinguished by one or more observable physical or cultural characteristics"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#L.RGN> <http://www.w3.org/2004/02/skos/core#definition> "область, район, территория, часть страны, отличающиеся совокупностью естественных ��ли исторически сложившихся экономико-географических условий и национального состава населения"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#L.RGN> <http://www.w3.org/2004/02/skos/core#definition> "область, район, территория, часть страны, отличающиеся совокупностью естественных или исторически сложившихся экономико-географических условий и национального состава населения"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.RGN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#L> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.RGN> <http://www.w3.org/2004/02/skos/core#notation> "L.RGN" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.RGN> <http://www.w3.org/2004/02/skos/core#prefLabel> "region"@en <http://www.geonames.org/ontology#> .
@@ -2024,7 +2024,7 @@
 <http://www.geonames.org/ontology#L.SNOW> <http://www.w3.org/2004/02/skos/core#prefLabel> "перманентна снежна покривка"@bg <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.TRB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.TRB> <http://www.w3.org/2004/02/skos/core#definition> "a tract of land used by nomadic or other tribes"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#L.TRB> <http://www.w3.org/2004/02/skos/core#definition> "участок земли, яв��яющийся в течение некоторого времени местом жительства для кочующих племен"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#L.TRB> <http://www.w3.org/2004/02/skos/core#definition> "участок земли, являющийся в течение некоторого времени местом жительства для кочующих племен"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.TRB> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#L> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.TRB> <http://www.w3.org/2004/02/skos/core#notation> "L.TRB" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#L.TRB> <http://www.w3.org/2004/02/skos/core#prefLabel> "stammeområde"@no <http://www.geonames.org/ontology#> .
@@ -2090,7 +2090,7 @@
 <http://www.geonames.org/ontology#P.PPLC> <http://www.w3.org/2004/02/skos/core#prefLabel> "столица политического образования"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#P.PPLF> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#P.PPLF> <http://www.w3.org/2004/02/skos/core#definition> "a populated place where the population is largely engaged in agricultural activities"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#P.PPLF> <http://www.w3.org/2004/02/skos/core#definition> "населен��ый пункт, где большая часть населения занята в сельским хозяйством"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#P.PPLF> <http://www.w3.org/2004/02/skos/core#definition> "населенный пункт, где большая часть населения занята в сельским хозяйством"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#P.PPLF> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#P> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#P.PPLF> <http://www.w3.org/2004/02/skos/core#notation> "P.PPLF" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#P.PPLF> <http://www.w3.org/2004/02/skos/core#prefLabel> "farm village"@en <http://www.geonames.org/ontology#> .
@@ -2738,7 +2738,7 @@
 <http://www.geonames.org/ontology#S.CMPLA> <http://www.w3.org/2004/02/skos/core#prefLabel> "трудов лагер"@bg <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.CMPMN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.CMPMN> <http://www.w3.org/2004/02/skos/core#definition> "a camp used by miners"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#S.CMPMN> <http://www.w3.org/2004/02/skos/core#definition> "временное поселение гор��яков"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#S.CMPMN> <http://www.w3.org/2004/02/skos/core#definition> "временное поселение горняков"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.CMPMN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#S> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.CMPMN> <http://www.w3.org/2004/02/skos/core#notation> "S.CMPMN" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.CMPMN> <http://www.w3.org/2004/02/skos/core#prefLabel> "gruveleir"@no <http://www.geonames.org/ontology#> .
@@ -3314,7 +3314,7 @@
 <http://www.geonames.org/ontology#S.HSTS> <http://www.w3.org/2004/02/skos/core#prefLabel> "историческо място"@bg <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.HTL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.HTL> <http://www.w3.org/2004/02/skos/core#definition> "a building providing lodging and/or meals for the public"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#S.HTL> <http://www.w3.org/2004/02/skos/core#definition> "то же, что и гос��иница; дом для временного проживания туристов"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#S.HTL> <http://www.w3.org/2004/02/skos/core#definition> "то же, что и гостиница; дом для временного проживания туристов"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.HTL> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#S> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.HTL> <http://www.w3.org/2004/02/skos/core#notation> "S.HTL" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.HTL> <http://www.w3.org/2004/02/skos/core#prefLabel> "hotel"@en <http://www.geonames.org/ontology#> .
@@ -3480,7 +3480,7 @@
 <http://www.geonames.org/ontology#S.MFGC> <http://www.w3.org/2004/02/skos/core#prefLabel> "cannery"@en <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MFGC> <http://www.w3.org/2004/02/skos/core#prefLabel> "hermetikkfabrikk"@no <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MFGC> <http://www.w3.org/2004/02/skos/core#prefLabel> "konservfabrik"@sv <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#S.MFGC> <http://www.w3.org/2004/02/skos/core#prefLabel> "консервна ��абрика"@bg <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#S.MFGC> <http://www.w3.org/2004/02/skos/core#prefLabel> "консервна фабрика"@bg <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MFGC> <http://www.w3.org/2004/02/skos/core#prefLabel> "консервный завод"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MFGCU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MFGCU> <http://www.w3.org/2004/02/skos/core#definition> "a facility for processing copper ore"@en <http://www.geonames.org/ontology#> .
@@ -3632,7 +3632,7 @@
 <http://www.geonames.org/ontology#S.MLWTR> <http://www.w3.org/2004/02/skos/core#prefLabel> "водяная мельница"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MN> <http://www.w3.org/2004/02/skos/core#definition> "a site where mineral ores are extracted from the ground by excavating surface pits and subterranean passages"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#S.MN> <http://www.w3.org/2004/02/skos/core#definition> "горнопромышленное предприятие, ведущее добычу полезных ископаемых подземным способом; место проведения подземных раб��т"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#S.MN> <http://www.w3.org/2004/02/skos/core#definition> "горнопромышленное предприятие, ведущее добычу полезных ископаемых подземным способом; место проведения подземных работ"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#S> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MN> <http://www.w3.org/2004/02/skos/core#notation> "S.MN" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MN> <http://www.w3.org/2004/02/skos/core#prefLabel> "gruva(or)"@sv <http://www.geonames.org/ontology#> .
@@ -3780,7 +3780,7 @@
 <http://www.geonames.org/ontology#S.MSQE> <http://www.w3.org/2004/02/skos/core#prefLabel> "мечеть"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MSSN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MSSN> <http://www.w3.org/2004/02/skos/core#definition> "a place characterized by dwellings, school, church, hospital and other facilities operated by a religious group for the purpose of providing charitable services and to propagate religion"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#S.MSSN> <http://www.w3.org/2004/02/skos/core#definition> "жилые дома, больница, школа, принадлежащие религиозной организации, которая занимается благотворительностью и распространением собственной религии с��еди инаковерующих"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#S.MSSN> <http://www.w3.org/2004/02/skos/core#definition> "жилые дома, больница, школа, принадлежащие религиозной организации, которая занимается благотворительностью и распространением собственной религии среди инаковерующих"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MSSN> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#S> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MSSN> <http://www.w3.org/2004/02/skos/core#notation> "S.MSSN" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.MSSN> <http://www.w3.org/2004/02/skos/core#prefLabel> "beskickning"@sv <http://www.geonames.org/ontology#> .
@@ -3868,7 +3868,7 @@
 <http://www.geonames.org/ontology#S.OBS> <http://www.w3.org/2004/02/skos/core#prefLabel> "обсерватория"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OBSR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OBSR> <http://www.w3.org/2004/02/skos/core#definition> "a facility equipped with an array of antennae for receiving radio waves from space"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#S.OBSR> <http://www.w3.org/2004/02/skos/core#definition> "учреждение, оборудованное антеннами для приема радиовол�� из Космоса"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#S.OBSR> <http://www.w3.org/2004/02/skos/core#definition> "учреждение, оборудованное антеннами для приема радиоволн из Космоса"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OBSR> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#S> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OBSR> <http://www.w3.org/2004/02/skos/core#notation> "S.OBSR" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OBSR> <http://www.w3.org/2004/02/skos/core#prefLabel> "radio observatory"@en <http://www.geonames.org/ontology#> .
@@ -3896,7 +3896,7 @@
 <http://www.geonames.org/ontology#S.OILQ> <http://www.w3.org/2004/02/skos/core#prefLabel> "изоставен петролен кладенец"@bg <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OILR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OILR> <http://www.w3.org/2004/02/skos/core#definition> "a facility for converting crude oil into refined petroleum products"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#S.OILR> <http://www.w3.org/2004/02/skos/core#definition> "предприятие, которое занимается переработкой нефти в бензин, авиационный керосин, мазут, дизельное топливо, смазочные масла, смазки, битумы, ��ефтяной кокс сырьё для нефтехимии"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#S.OILR> <http://www.w3.org/2004/02/skos/core#definition> "предприятие, которое занимается переработкой нефти в бензин, авиационный керосин, мазут, дизельное топливо, смазочные масла, смазки, битумы, нефтяной кокс сырьё для нефтехимии"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OILR> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#S> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OILR> <http://www.w3.org/2004/02/skos/core#notation> "S.OILR" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OILR> <http://www.w3.org/2004/02/skos/core#prefLabel> "oil refinery"@en <http://www.geonames.org/ontology#> .
@@ -3912,7 +3912,7 @@
 <http://www.geonames.org/ontology#S.OILT> <http://www.w3.org/2004/02/skos/core#prefLabel> "depå"@sv <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OILT> <http://www.w3.org/2004/02/skos/core#prefLabel> "petrokjemisk anlegg"@no <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OILT> <http://www.w3.org/2004/02/skos/core#prefLabel> "tank farm"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#S.OILT> <http://www.w3.org/2004/02/skos/core#prefLabel> "нефтехранилищ��"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#S.OILT> <http://www.w3.org/2004/02/skos/core#prefLabel> "нефтехранилище"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OILT> <http://www.w3.org/2004/02/skos/core#prefLabel> "петролна база"@bg <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OILW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.OILW> <http://www.w3.org/2004/02/skos/core#definition> "a well from which oil may be pumped"@en <http://www.geonames.org/ontology#> .
@@ -4069,7 +4069,7 @@
 <http://www.geonames.org/ontology#S.PRNQ> <http://www.w3.org/2004/02/skos/core#prefLabel> "nedlagt fengsel"@no <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.PRNQ> <http://www.w3.org/2004/02/skos/core#prefLabel> "övergivet fängelse"@sv <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.PRNQ> <http://www.w3.org/2004/02/skos/core#prefLabel> "заброшенная тюрьма"@ru <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#S.PRNQ> <http://www.w3.org/2004/02/skos/core#prefLabel> "изос��авен затвор"@bg <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#S.PRNQ> <http://www.w3.org/2004/02/skos/core#prefLabel> "изоставен затвор"@bg <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.PS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.PS> <http://www.w3.org/2004/02/skos/core#definition> "a facility for generating electric power"@en <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.PS> <http://www.w3.org/2004/02/skos/core#definition> "предприятие, где производится электроэнергия из других видов энергии"@ru <http://www.geonames.org/ontology#> .
@@ -4112,7 +4112,7 @@
 <http://www.geonames.org/ontology#S.PSTC> <http://www.w3.org/2004/02/skos/core#prefLabel> "таможенный пост"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.PSTP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.PSTP> <http://www.w3.org/2004/02/skos/core#definition> "a post from which patrols are sent out"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#S.PSTP> <http://www.w3.org/2004/02/skos/core#definition> "вид наряда, который используется для несения патрульно-пост��вой службы"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#S.PSTP> <http://www.w3.org/2004/02/skos/core#definition> "вид наряда, который используется для несения патрульно-постовой службы"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.PSTP> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#S> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.PSTP> <http://www.w3.org/2004/02/skos/core#notation> "S.PSTP" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.PSTP> <http://www.w3.org/2004/02/skos/core#prefLabel> "patrol post"@en <http://www.geonames.org/ontology#> .
@@ -4234,7 +4234,7 @@
 <http://www.geonames.org/ontology#S.RLGR> <http://www.w3.org/2004/02/skos/core#prefLabel> "приют"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.RNCH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.RNCH> <http://www.w3.org/2004/02/skos/core#definition> "a large farm specializing in extensive grazing of livestock"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#S.RNCH> <http://www.w3.org/2004/02/skos/core#definition> "крупная ферма, основной специализацией которой является разв��дение крупного рогатого скота"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#S.RNCH> <http://www.w3.org/2004/02/skos/core#definition> "крупная ферма, основной специализацией которой является разведение крупного рогатого скота"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.RNCH> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#S> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.RNCH> <http://www.w3.org/2004/02/skos/core#notation> "S.RNCH" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.RNCH> <http://www.w3.org/2004/02/skos/core#prefLabel> "ranch"@no <http://www.geonames.org/ontology#> .
@@ -4484,7 +4484,7 @@
 <http://www.geonames.org/ontology#S.SQR> <http://www.w3.org/2004/02/skos/core#prefLabel> "площадь"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.STBL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.STBL> <http://www.w3.org/2004/02/skos/core#definition> "a building for the shelter and feeding of farm animals, especially horses"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#S.STBL> <http://www.w3.org/2004/02/skos/core#definition> "помещение для содержания лошадей, обычно представляет собой постро��ку, разделённую на индивидуальные для каждой лошади секции, которые называются денниками"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#S.STBL> <http://www.w3.org/2004/02/skos/core#definition> "помещение для содержания лошадей, обычно представляет собой постройку, разделённую на индивидуальные для каждой лошади секции, которые называются денниками"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.STBL> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#S> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.STBL> <http://www.w3.org/2004/02/skos/core#notation> "S.STBL" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#S.STBL> <http://www.w3.org/2004/02/skos/core#prefLabel> "stable"@en <http://www.geonames.org/ontology#> .
@@ -6287,7 +6287,7 @@
 <http://www.geonames.org/ontology#U.SCSU> <http://www.w3.org/2004/02/skos/core#prefLabel> "каналы на дне океана"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#U.SDLU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#U.SDLU> <http://www.w3.org/2004/02/skos/core#definition> "a low part, resembling in shape a saddle, in a ridge or between contiguous seamounts"@en <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#U.SDLU> <http://www.w3.org/2004/02/skos/core#definition> "продолговатая впадина, понижение между вершинам�� подводного горного хребта или возвышенности"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#U.SDLU> <http://www.w3.org/2004/02/skos/core#definition> "продолговатая впадина, понижение между вершинами подводного горного хребта или возвышенности"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#U.SDLU> <http://www.w3.org/2004/02/skos/core#inScheme> <http://www.geonames.org/ontology#U> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#U.SDLU> <http://www.w3.org/2004/02/skos/core#notation> "U.SDLU" <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#U.SDLU> <http://www.w3.org/2004/02/skos/core#prefLabel> "saddle"@en <http://www.geonames.org/ontology#> .
@@ -6374,7 +6374,7 @@
 <http://www.geonames.org/ontology#U.SMU> <http://www.w3.org/2004/02/skos/core#prefLabel> "undersjøisk fjell"@no <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#U.SMU> <http://www.w3.org/2004/02/skos/core#prefLabel> "undervattensberg"@sv <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#U.SMU> <http://www.w3.org/2004/02/skos/core#prefLabel> "Морски върхове"@bg <http://www.geonames.org/ontology#> .
-<http://www.geonames.org/ontology#U.SMU> <http://www.w3.org/2004/02/skos/core#prefLabel> "подвод��ая гора"@ru <http://www.geonames.org/ontology#> .
+<http://www.geonames.org/ontology#U.SMU> <http://www.w3.org/2004/02/skos/core#prefLabel> "подводная гора"@ru <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#U.SPRU> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.geonames.org/ontology#Code> <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#U.SPRU> <http://www.w3.org/2004/02/skos/core#definition> "a subordinate elevation, ridge, or rise projecting outward from a larger feature"@en <http://www.geonames.org/ontology#> .
 <http://www.geonames.org/ontology#U.SPRU> <http://www.w3.org/2004/02/skos/core#definition> "ряд гор, тянущихся в одном направлении, горная цепь"@ru <http://www.geonames.org/ontology#> .
