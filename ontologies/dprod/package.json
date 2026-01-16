@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/dprod",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "index.js",
   "description": "The Data Product (DPROD) Ontology. Extends DCAT to enable publishers to describe Data Products and data services in a decentralized way.",
@@ -11,7 +11,7 @@
     "prepack": "npm run build"
   },
   "devDependencies": {
-    "@vocabulary/builder": "^1.0.8"
+    "@vocabulary/builder": "^1.0.10"
   },
   "license": "MIT",
   "homepage": "https://prefix.zazuko.com/prefix/dprod:",

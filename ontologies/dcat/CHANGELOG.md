@@ -1,5 +1,15 @@
 # @vocabulary/dcat
 
+## 2.0.0
+
+### Major Changes
+
+- 9aa1c0e: Updated dcat to version 3
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 1.0.5
 
 ### Patch Changes

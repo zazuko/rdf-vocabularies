@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/set",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "main": "index.js",
   "description": "http://www.w3.org/2000/10/swap/set#",
@@ -11,7 +11,7 @@
     "prepack": "npm run build"
   },
   "devDependencies": {
-    "@vocabulary/builder": "^1.0.8"
+    "@vocabulary/builder": "^1.0.10"
   },
   "homepage": "https://prefix.zazuko.com/prefix/set:",
   "license": "MIT",

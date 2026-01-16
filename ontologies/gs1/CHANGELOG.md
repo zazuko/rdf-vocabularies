@@ -1,5 +1,15 @@
 # @vocabulary/gs1
 
+## 1.2.0
+
+### Minor Changes
+
+- 9aa1c0e: Updated latest from source
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 1.1.5
 
 ### Patch Changes

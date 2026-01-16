@@ -1,5 +1,12 @@
 # @vocabulary/prefix
 
+## 1.0.6
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+- 3b2ccd7: Updated to QUDT Prefix Vocabulary Version Metadata 2.1.47
+
 ## 1.0.5
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @vocabulary/bibo
 
+## 1.0.6
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 1.0.5
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@vocabulary/vcard",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "prepack": "npm run build"
   },
   "devDependencies": {
-    "@vocabulary/builder": "^1.0.8"
+    "@vocabulary/builder": "^1.0.10"
   },
   "homepage": "https://prefix.zazuko.com/prefix/vcard:",
   "vocabulary": {

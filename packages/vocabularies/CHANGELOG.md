@@ -1,5 +1,137 @@
 # @zazuko/vocabularies
 
+## 4.1.1
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+- Updated dependencies [9aa1c0e]
+- Updated dependencies [25b114a]
+- Updated dependencies [9aa1c0e]
+- Updated dependencies [3b2ccd7]
+- Updated dependencies [3b2ccd7]
+- Updated dependencies [3b2ccd7]
+- Updated dependencies [9aa1c0e]
+- Updated dependencies [3b2ccd7]
+- Updated dependencies [3b2ccd7]
+- Updated dependencies [3b2ccd7]
+- Updated dependencies [3b2ccd7]
+- Updated dependencies [9aa1c0e]
+  - @vocabulary/mads@1.1.0
+  - @vocabulary/quantitykind@2.0.1
+  - @vocabulary/dash-sparql@1.0.6
+  - @vocabulary/discipline@1.0.6
+  - @vocabulary/constant@2.0.0
+  - @vocabulary/dcmitype@1.0.6
+  - @vocabulary/pipeline@1.1.5
+  - @vocabulary/relation@1.0.2
+  - @vocabulary/dcterms@1.0.6
+  - @vocabulary/ebucore@1.0.6
+  - @vocabulary/prefix@1.0.6
+  - @vocabulary/schema@1.1.0
+  - @vocabulary/skosxl@1.0.6
+  - @vocabulary/string@1.0.6
+  - @zazuko/prefixes@2.6.1
+  - @vocabulary/dprod@1.0.2
+  - @vocabulary/dtype@1.1.0
+  - @vocabulary/grddl@1.0.6
+  - @vocabulary/hydra@1.0.6
+  - @vocabulary/lvont@1.0.6
+  - @vocabulary/solid@1.1.0
+  - @vocabulary/vcard@1.1.0
+  - @vocabulary/bibo@1.0.6
+  - @vocabulary/cert@1.0.5
+  - @vocabulary/code@1.0.2
+  - @vocabulary/csvw@1.0.6
+  - @vocabulary/ctag@1.0.6
+  - @vocabulary/cube@1.0.2
+  - @vocabulary/dash@1.0.6
+  - @vocabulary/dc11@1.0.6
+  - @vocabulary/dcam@1.0.6
+  - @vocabulary/dcat@2.0.0
+  - @vocabulary/doap@1.0.6
+  - @vocabulary/earl@2.0.6
+  - @vocabulary/exif@1.0.6
+  - @vocabulary/foaf@1.0.6
+  - @vocabulary/frbr@1.0.6
+  - @vocabulary/geof@1.0.6
+  - @vocabulary/geor@1.0.6
+  - @vocabulary/gtfs@1.0.6
+  - @vocabulary/http@1.0.6
+  - @vocabulary/ical@1.0.6
+  - @vocabulary/list@1.0.6
+  - @vocabulary/locn@1.0.6
+  - @vocabulary/math@1.0.6
+  - @vocabulary/meta@1.0.2
+  - @vocabulary/oidc@1.0.5
+  - @vocabulary/prov@1.0.6
+  - @vocabulary/qkdv@2.0.0
+  - @vocabulary/qudt@2.0.1
+  - @vocabulary/rdau@1.0.6
+  - @vocabulary/rdfa@1.0.6
+  - @vocabulary/rdfs@1.0.6
+  - @vocabulary/rico@2.1.0
+  - @vocabulary/sdmx@1.0.6
+  - @vocabulary/shex@1.0.6
+  - @vocabulary/shsh@1.0.5
+  - @vocabulary/sioc@1.0.6
+  - @vocabulary/skos@1.0.6
+  - @vocabulary/sosa@1.0.6
+  - @vocabulary/stat@1.0.5
+  - @vocabulary/test@1.0.6
+  - @vocabulary/time@1.0.6
+  - @vocabulary/unit@2.0.1
+  - @vocabulary/vaem@1.0.6
+  - @vocabulary/vann@1.0.6
+  - @vocabulary/void@1.0.6
+  - @vocabulary/wdrs@1.0.6
+  - @vocabulary/xkos@1.0.6
+  - @zazuko/vocabulary-loader@1.0.5
+  - @vocabulary/acl@1.0.5
+  - @vocabulary/b59@0.1.3
+  - @vocabulary/cnt@1.0.6
+  - @vocabulary/crm@2.0.0
+  - @vocabulary/cur@1.0.2
+  - @vocabulary/dbo@1.1.0
+  - @vocabulary/dig@1.0.6
+  - @vocabulary/dpv@1.0.6
+  - @vocabulary/dqv@1.0.6
+  - @vocabulary/duv@1.0.6
+  - @vocabulary/geo@1.0.6
+  - @vocabulary/gml@1.0.6
+  - @vocabulary/gs1@1.2.0
+  - @vocabulary/ldp@1.0.6
+  - @vocabulary/log@1.0.6
+  - @vocabulary/m4i@1.3.0
+  - @vocabulary/org@1.0.6
+  - @vocabulary/owl@1.0.6
+  - @vocabulary/pim@1.0.5
+  - @vocabulary/rdf@1.0.6
+  - @vocabulary/rev@1.0.6
+  - @vocabulary/rss@1.0.6
+  - @vocabulary/sem@1.0.6
+  - @vocabulary/set@1.0.6
+  - @vocabulary/sou@2.0.0
+  - @vocabulary/ssn@1.0.6
+  - @vocabulary/vso@1.0.3
+  - @vocabulary/wgs@1.0.6
+  - @vocabulary/xhv@1.0.6
+  - @vocabulary/xsd@1.0.6
+  - @vocabulary/as@1.0.6
+  - @vocabulary/cc@1.1.0
+  - @vocabulary/gn@1.0.6
+  - @vocabulary/gr@1.0.6
+  - @vocabulary/la@2.0.0
+  - @vocabulary/ma@1.0.6
+  - @vocabulary/oa@1.0.6
+  - @vocabulary/og@1.1.0
+  - @vocabulary/qb@1.0.6
+  - @vocabulary/rr@1.0.6
+  - @vocabulary/sd@1.0.6
+  - @vocabulary/sf@1.0.6
+  - @vocabulary/sh@2.0.0
+  - @vocabulary/vs@1.0.6
+
 ## 4.1.0
 
 ### Minor Changes

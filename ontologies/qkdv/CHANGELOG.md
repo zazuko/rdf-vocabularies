@@ -1,5 +1,15 @@
 # @vocabulary/qkdv
 
+## 2.0.0
+
+### Major Changes
+
+- 3b2ccd7: Updated to QUDT Dimension Vectors Version 3.1.10
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 1.0.5
 
 ### Patch Changes

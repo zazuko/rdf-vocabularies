@@ -1,5 +1,11 @@
 # @vocabulary/vso
 
+## 1.0.3
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 1.0.2
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @vocabulary/sh
 
+## 2.0.0
+
+### Major Changes
+
+- 3b2ccd7: Updated latest from source
+
+### Patch Changes
+
+- 25b114a: Filled in correct repository meta to `package.json`
+
 ## 1.1.6
 
 ### Patch Changes
