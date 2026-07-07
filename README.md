@@ -12,6 +12,17 @@ commonly used prefixes. Some popular prefixes do not resolve to dereferencable R
 The package is built for use in Node.js projects. We ship N-Quads files of the vocabularies so it could be useful for
 other programming languages as well as you do not have to take care of downloading the ontologies yourself.
 
+If you want to consume the data as plain RDF (e.g. from a non-JS application), you can build a
+language-neutral index of all prefixes, namespaces and their N-Quads files by concatenating the
+per-vocabulary metadata:
+
+```bash
+cat ontologies/*/meta.nt > meta.nt
+```
+
+The resulting `meta.nt` maps each prefix to its namespace and vocabulary file; load the referenced
+`.nq` files as needed.
+
 ## Installation
 
 This is a new release of the previous monolithic package which grew quite a lot. 
