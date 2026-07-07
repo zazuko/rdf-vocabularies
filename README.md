@@ -1,5 +1,5 @@
 # @zazuko/vocabularies -- Zazuko's Default Ontologies & Prefixes
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zazuko/rdf-vocabularies/node.js.yml)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zazuko/rdf-vocabularies/node.js.yaml)
 ![Codecov](https://img.shields.io/codecov/c/gh/zazuko/rdf-vocabularies)
 ![npm](https://img.shields.io/npm/v/@zazuko/vocabularies)
 
@@ -52,7 +52,8 @@ const dataset = $rdf.dataset(schema({ factory: $rdf }))
 
 ### Vocabularies Metadata
 
-See [`_index.nq`](./ontologies/_index.nq).
+Each vocabulary ships a `meta.nt` file (e.g. [`ontologies/skos/meta.nt`](./ontologies/skos/meta.nt))
+describing its prefix, namespace and title. This metadata is used by `prefix.zazuko.com`.
 
 ### `vocabularies()`
 
@@ -302,13 +303,19 @@ in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popu
 
 ### Steps to add a prefix
 
-1. Add a new directory under [ontologies](ontologies/) with a package.json. For a minimal 
-   example see [ACL vocabulary](ontologies/acl/package.json)
+1. Add a new directory under [ontologies](ontologies/) with a `package.json`. For a minimal
+   example see [ACL vocabulary](ontologies/acl/package.json). The `vocabulary` key must at
+   least declare the `prefix` and `namespace`.
 1. If necessary, add overrides to the `vocabulary` key, similar to the others
    * for the `file` option, a `file:` scheme IRI can be used, with path relative to the repository root
-1. Run `npm run fetch` in the vocabulary's dir to process the triples.
-2. Add a dependency to [vocabularies meta package](packages/vocabularies/package.json)
-1. Commit changes and submit a PR
+1. Run `npm run fetch` in the vocabulary's dir to process the triples. This creates the
+   `<prefix>.nq` (the triples) and `meta.nt` (metadata used by `prefix.zazuko.com`) files.
+1. Add a dependency to the [vocabularies meta package](packages/vocabularies/package.json).
+1. Regenerate the prefix map: run `npm run update-prefixes` in
+   [`packages/prefixes`](packages/prefixes/). This rewrites `prefixes.ts` from every
+   `ontologies/*/package.json`, so your new prefix shows up in `@zazuko/prefixes`. Skipping
+   this step is a common mistake — the vocabulary loads fine but `expand`/`shrink` won't know it.
+1. Add a changeset with `npx changeset`, commit the changes and submit a PR.
 
 ### Project-specific prefixes
 
