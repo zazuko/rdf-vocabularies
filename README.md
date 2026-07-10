@@ -324,8 +324,9 @@ in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popu
 4. Add a dependency to the [vocabularies meta package](packages/vocabularies/package.json).
 5. Regenerate the prefix map: run `npm run update-prefixes` in
    [`packages/prefixes`](packages/prefixes/). This rewrites `prefixes.ts` from every
-   `ontologies/*/package.json`, so your new prefix shows up in `@zazuko/prefixes`. Skipping
-   this step is a common mistake, the vocabulary loads fine but `expand`/`shrink` won't know it.
+   `ontologies/*/package.json`, so your new prefix shows up in `@zazuko/prefixes`. 
+   This is done automatically on a pre-commit hook, but in case it does not,
+   you may have to run it manually. 
 6. Add a changeset with `npx changeset`, commit the changes and submit a PR.
 
 ### Project-specific prefixes
