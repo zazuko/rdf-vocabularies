@@ -1,5 +1,5 @@
 # @zazuko/vocabularies -- Zazuko's Default Ontologies & Prefixes
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zazuko/rdf-vocabularies/node.js.yml)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zazuko/rdf-vocabularies/node.js.yaml)
 ![Codecov](https://img.shields.io/codecov/c/gh/zazuko/rdf-vocabularies)
 ![npm](https://img.shields.io/npm/v/@zazuko/vocabularies)
 
@@ -11,6 +11,17 @@ commonly used prefixes. Some popular prefixes do not resolve to dereferencable R
 
 The package is built for use in Node.js projects. We ship N-Quads files of the vocabularies so it could be useful for
 other programming languages as well as you do not have to take care of downloading the ontologies yourself.
+
+If you want to consume the data as plain RDF (e.g. from a non-JS application), you can build a
+language-neutral index of all prefixes, namespaces and their N-Quads files by concatenating the
+per-vocabulary metadata:
+
+```bash
+cat ontologies/*/meta.nt > meta.nt
+```
+
+The resulting `meta.nt` maps each prefix to its namespace and vocabulary file; load the referenced
+`.nq` files as needed.
 
 ## Installation
 
@@ -52,7 +63,8 @@ const dataset = $rdf.dataset(schema({ factory: $rdf }))
 
 ### Vocabularies Metadata
 
-See [`_index.nq`](./ontologies/_index.nq).
+Each vocabulary ships a `meta.nt` file (e.g. [`ontologies/skos/meta.nt`](./ontologies/skos/meta.nt))
+describing its prefix, namespace and title. This metadata is used by `prefix.zazuko.com`.
 
 ### `vocabularies()`
 
@@ -302,13 +314,20 @@ in the [DBpedia SPARQL endpoint](http://dbpedia.org/sparql?nsdecl) or other popu
 
 ### Steps to add a prefix
 
-1. Add a new directory under [ontologies](ontologies/) with a package.json. For a minimal 
-   example see [ACL vocabulary](ontologies/acl/package.json)
-1. If necessary, add overrides to the `vocabulary` key, similar to the others
+1. Add a new directory under [ontologies](ontologies/) with a `package.json`. For a minimal
+   example see [ACL vocabulary](ontologies/acl/package.json). The `vocabulary` key must at
+   least declare the `prefix` and `namespace`.
+2. If necessary, add overrides to the `vocabulary` key, similar to the others
    * for the `file` option, a `file:` scheme IRI can be used, with path relative to the repository root
-1. Run `npm run fetch` in the vocabulary's dir to process the triples.
-2. Add a dependency to [vocabularies meta package](packages/vocabularies/package.json)
-1. Commit changes and submit a PR
+3. Run `npm run fetch` in the vocabulary's dir to process the triples. This creates the
+   `<prefix>.nq` (the triples) and `meta.nt` (metadata used by `prefix.zazuko.com`) files.
+4. Add a dependency to the [vocabularies meta package](packages/vocabularies/package.json).
+5. Regenerate the prefix map: run `npm run update-prefixes` in
+   [`packages/prefixes`](packages/prefixes/). This rewrites `prefixes.ts` from every
+   `ontologies/*/package.json`, so your new prefix shows up in `@zazuko/prefixes`. 
+   This is done automatically on a pre-commit hook, but in case it does not,
+   you may have to run it manually. 
+6. Add a changeset with `npx changeset`, commit the changes and submit a PR.
 
 ### Project-specific prefixes
 
