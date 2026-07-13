@@ -1,9 +1,0 @@
-{
-  "extends": [ "@tpluscode" ],
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  },
-  "env": {
-    "mocha": true
-  }
-}
