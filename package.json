@@ -4,9 +4,9 @@
   "type": "module",
   "scripts": {
     "prepare": "husky install",
-    "fetch": "wsrun -y 5 -lm --report -c fetch",
+    "fetch": "npm run -ws --if-present fetch",
     "lint": "eslint . --ext .js,.ts --ignore-path .gitignore --ignore-path .eslintignore --quiet",
-    "pretest": "wsrun -p @zazuko/vocabularies -c combine-meta",
+    "pretest": "npm -w @zazuko/vocabularies run combine-meta",
     "test": "c8 -i src mocha packages/**/*.test.ts",
     "posttest": "c8 report --reporter=text-lcov >> ./coverage/lcov.info",
     "postinstall": "patch-package",
@@ -28,7 +28,7 @@
     "@tpluscode/eslint-config": "^0.6.4",
     "@typescript-eslint/eslint-plugin": "^7",
     "@typescript-eslint/parser": "^7",
-    "c8": "^7.13.0",
+    "c8": "^11.0.0",
     "eslint-import-resolver-typescript": "^4.4.4",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
@@ -36,8 +36,7 @@
     "patch-package": "^8",
     "postinstall-postinstall": "^2.1.0",
     "tsx": "^4.21.0",
-    "typescript": "^5.3.3",
-    "wsrun": "^5.2.4"
+    "typescript": "^5.3.3"
   },
   "mocha": {
     "extension": "ts",
