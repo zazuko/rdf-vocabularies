@@ -16,7 +16,7 @@
   "homepage": "https://prefix.zazuko.com/prefix/gist:",
   "vocabulary": {
     "prefix": "gist",
-    "namespace": "https://w3id.org/semanticarts/ontology/gist/",
+    "namespace": "https://w3id.org/semanticarts/ns/ontology/gist/",
     "file": "https://w3id.org/semanticarts/ontology/gistCore.ttl"
   },
   "files": [
