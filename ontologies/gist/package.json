@@ -1,0 +1,36 @@
+{
+  "name": "@vocabulary/gist",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "npx vocab-build datasets",
+    "prebuild": "npx vocab-build module",
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "devDependencies": {
+    "@vocabulary/builder": "^1.0.10"
+  },
+  "license": "MIT",
+  "homepage": "https://prefix.zazuko.com/prefix/gist:",
+  "vocabulary": {
+    "prefix": "gist",
+    "namespace": "https://w3id.org/semanticarts/ontology/gistCore/",
+    "file": "https://w3id.org/semanticarts/ontology/gistCore.ttl"
+  },
+  "files": [
+    "*.js",
+    "*.d.ts",
+    "*.nq",
+    "*.nt"
+  ],
+  "peerDependencies": {
+    "@rdfjs/types": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zazuko/rdf-vocabularies",
+    "directory": "ontologies/gist"
+  }
+}
