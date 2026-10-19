@@ -2,4 +2,4 @@
 <https://prefix.zazuko.com/gist:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/gist:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/semanticarts/ontology/gistCore.ttl> .
 <https://prefix.zazuko.com/gist:> <http://www.w3.org/ns/rdfa#prefix> "gist" .
-<https://prefix.zazuko.com/gist:> <http://www.w3.org/ns/rdfa#uri> <https://w3id.org/semanticarts/ontology/gistCore/> .
+<https://prefix.zazuko.com/gist:> <http://www.w3.org/ns/rdfa#uri> <https://w3id.org/semanticarts/ontology/gist/> .
