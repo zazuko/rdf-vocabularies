@@ -39,7 +39,7 @@ const packagedPrefixes = {
   'geo': 'http://www.opengis.net/ont/geosparql#',
   'geof': 'http://www.opengis.net/def/function/geosparql/',
   'geor': 'http://www.opengis.net/def/rule/geosparql/',
-  'gist': 'https://w3id.org/semanticarts/ontology/gist/',
+  'gist': 'https://w3id.org/semanticarts/ns/ontology/gist/',
   'gml': 'http://www.opengis.net/ont/gml#',
   'gn': 'http://www.geonames.org/ontology#',
   'gr': 'http://purl.org/goodrelations/v1#',
