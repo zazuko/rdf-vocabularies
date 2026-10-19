@@ -1,5 +1,11 @@
 # @zazuko/prefixes
 
+## 2.6.2
+
+### Patch Changes
+
+- 24f9edb: Gist Upper ontology v14.1
+
 ## 2.6.1
 
 ### Patch Changes
