@@ -1,5 +1,12 @@
 # @zazuko/vocabularies
 
+## 4.1.2
+
+### Patch Changes
+
+- Updated dependencies [fc793a7]
+  - @vocabulary/gist@1.0.0
+
 ## 4.1.1
 
 ### Patch Changes

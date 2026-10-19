@@ -1,6 +1,6 @@
 {
   "name": "@zazuko/vocabularies",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "description": "Access most commonly used RDF ontologies/schemas/vocabularies as datasets or n-quads",
   "type": "module",
   "bin": {
@@ -60,7 +60,7 @@
     "@vocabulary/geo": "^1.0.6",
     "@vocabulary/geof": "^1.0.6",
     "@vocabulary/geor": "^1.0.6",
-    "@vocabulary/gist": "^0.0.0",
+    "@vocabulary/gist": "^1.0.0",
     "@vocabulary/gml": "^1.0.6",
     "@vocabulary/gn": "^1.0.6",
     "@vocabulary/gr": "^1.0.6",
