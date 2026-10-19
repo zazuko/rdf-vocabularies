@@ -1,5 +1,11 @@
 # @zazuko/prefixes
 
+## 2.6.4
+
+### Patch Changes
+
+- 95f68fa: Fixed namespace of `gist:`
+
 ## 2.6.2
 
 ### Patch Changes
