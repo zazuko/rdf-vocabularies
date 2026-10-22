@@ -1,4 +1,4 @@
-/* eslint-disable no-console,@typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import fs from 'fs'
 import { resolve } from 'path'
 import rdf from '@zazuko/env-node'
@@ -26,15 +26,7 @@ const randomInt = (a: number, b: number) => Math.floor(a + Math.random() * (b + 
 const fetchOptions = ({ headers, ...rest }: FactoryInit<DatasetCore>): FactoryInit<DatasetCore> => ({
   credentials: 'omit',
   headers: {
-    'accept-language': 'en-US,en',
-    'cache-control': 'no-cache',
-    pragma: 'no-cache',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'cross-site',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    // Use a static, widely accepted user agent for w3.org compatibility
-    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'user-agent': '@vocabulary/builder (+https://github.com/zazuko/rdf-vocabularies)',
     ...headers,
   },
   referrerPolicy: 'no-referrer-when-downgrade',
@@ -62,9 +54,9 @@ function fetchWrapper(url: string, options: FactoryInit<DatasetCore>, timeout: n
   }) as Promise<DatasetResponse<DatasetCore>>
 }
 
-async function datasets(vocab: Vocab, indexOnly = false): Promise<Dataset> {
-  const prefix = vocab.prefix
+async function datasets(vocab: Vocab, indexOnly = false): Promise<{ dataset: Dataset, errors: Error[] }> {
   const mappings = vocab.files || [vocab]
+  const errors: Error[] = []
 
   let dataset = rdf.dataset()
 
@@ -92,7 +84,7 @@ async function datasets(vocab: Vocab, indexOnly = false): Promise<Dataset> {
       }
       const res = await fetchWrapper(uri, { factory: rdf, formats, headers }, 30000)
       if (!res.ok) {
-        console.warn(`${vocab.prefix}: HTTP${res.status} for ${uri}`)
+        throw new Error(`HTTP ${res.status} for ${uri}`)
       }
       if (mapping.mediaType) {
         res.headers.set('content-type', mapping.mediaType)
@@ -100,14 +92,12 @@ async function datasets(vocab: Vocab, indexOnly = false): Promise<Dataset> {
       const fetchedDataset = await res.dataset()
       dataset = dataset.addAll(fetchedDataset)
     } catch (err: any) {
-      console.warn(`${prefix}: failed fetching/processing: ${err.message}`)
+      console.error(`${vocab.prefix}: failed fetching/processing ${uri}: ${err.message}`)
+      errors.push(err)
     }
   }
 
-  if (!dataset.size) {
-    // return loadFile(prefix, { factory: rdf, customSelection: false })
-  }
-  return dataset
+  return { dataset, errors }
 }
 
 function firstVal(dataset: DatasetCore) {
@@ -200,7 +190,8 @@ export async function buildDatasets(path: string, packageName: string, indexBase
 
   let indexDataset = rdf.dataset()
 
-  let dataset = await datasets(vocab)
+  const { dataset: rawDataset, errors } = await datasets(vocab)
+  let dataset = rawDataset
   if (dataset && dataset.size) {
     const graph = rdf.namedNode(vocab.namespace)
     dataset = rdf.dataset([...dataset].map(({ subject, predicate, object }) => rdf.quad(subject, predicate, object, graph)))
@@ -212,7 +203,14 @@ export async function buildDatasets(path: string, packageName: string, indexBase
     const indexSubject = rdf.namedNode(`${indexBase}${vocab.prefix}:`)
     indexDataset.deleteMatches(indexSubject, null, null, null)
     indexDataset = indexDataset.merge(generateIndex(indexSubject, packageName, vocab, dataset))
+    fs.writeFileSync(indexPath, indexDataset.toCanonical())
   }
 
-  fs.writeFileSync(indexPath, indexDataset.toCanonical())
+  if (errors.length > 0) {
+    throw new Error(`${vocab.prefix}: ${errors.length} source(s) failed to fetch or parse:\n${errors.map(e => `  - ${e.message}`).join('\n')}`)
+  }
+
+  if (!dataset || !dataset.size) {
+    throw new Error(`${vocab.prefix}: no quads fetched`)
+  }
 }
