@@ -1,5 +1,11 @@
 # @vocabulary/dpv
 
+## 2.0.2
+
+### Patch Changes
+
+- a53fdd5: The new namespace for `dpv` was incorrect in the previous version, with `http` instead of `https`
+
 ## 2.0.1 (published in lieu of 2.0.0)
 
 ### Major Changes

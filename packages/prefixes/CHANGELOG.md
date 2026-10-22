@@ -1,5 +1,11 @@
 # @zazuko/prefixes
 
+## 3.0.1
+
+### Patch Changes
+
+- a53fdd5: The new namespace for `dpv` was incorrect in the previous version, with `http` instead of `https`
+
 ## 3.0.0
 
 ### Major Changes
