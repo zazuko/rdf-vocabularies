@@ -1,5 +1,11 @@
 # @vocabulary/locn
 
+## 1.0.7
+
+### Patch Changes
+
+- 08d7dc6: Modified triples/annotations (206 -> 206 quads) with no term changes
+
 ## 1.0.6
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @vocabulary/builder
 
+## 1.1.0
+
+### Minor Changes
+
+- 815a3c3: `datasets` command will now fail when any source fails to download or process
+
 ## 1.0.10
 
 ### Patch Changes

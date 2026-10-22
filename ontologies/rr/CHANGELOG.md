@@ -1,5 +1,11 @@
 # @vocabulary/rr
 
+## 1.0.7
+
+### Patch Changes
+
+- 1ebf189: Modified triples/annotations (297 -> 273 quads) with no term changes
+
 ## 1.0.6
 
 ### Patch Changes

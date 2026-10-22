@@ -1,5 +1,11 @@
 # @vocabulary/skosxl
 
+## 1.0.7
+
+### Patch Changes
+
+- bb8b46a: Update package meta
+
 ## 1.0.6
 
 ### Patch Changes

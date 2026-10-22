@@ -1,5 +1,11 @@
 # @vocabulary/exif
 
+## 1.0.7
+
+### Patch Changes
+
+- 273b84f: Updated UTF encoding in literals
+
 ## 1.0.6
 
 ### Patch Changes

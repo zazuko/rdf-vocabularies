@@ -1,5 +1,11 @@
 # @vocabulary/sd
 
+## 1.1.0
+
+### Minor Changes
+
+- c3c947c: Added 3 new term(s) (sd:SPARQLQuery, sd:SPARQLUpdate, sd:supportedVersion)
+
 ## 1.0.6
 
 ### Patch Changes
