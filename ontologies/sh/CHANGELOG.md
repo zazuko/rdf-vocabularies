@@ -1,5 +1,11 @@
 # @vocabulary/sh
 
+## 2.1.0
+
+### Minor Changes
+
+- c2cb71c: Added 274 new term(s) (sh:declare, sh:suggestedShapesGraph, sh:AbstractResult, sh:AndConstraintComponent-and, sh:Parameter and 269 more)
+
 ## 2.0.0
 
 ### Major Changes

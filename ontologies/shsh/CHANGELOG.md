@@ -1,5 +1,11 @@
 # @vocabulary/shsh
 
+## 2.0.0
+
+### Major Changes
+
+- 21af1c8: Removed 1 term(s) (shsh:PathListWithAtLeast2Members)
+
 ## 1.0.5
 
 ### Patch Changes

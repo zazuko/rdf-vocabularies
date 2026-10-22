@@ -1,5 +1,11 @@
 # @vocabulary/dpv
 
+## 2.0.0
+
+### Major Changes
+
+- 5ebd304: Removed 206 term(s) (dpv:Accent, dpv:Language, dpv:AccessControl, dpv:Security, dpv:AccountIdentifier and 201 more)
+
 ## 1.0.6
 
 ### Patch Changes

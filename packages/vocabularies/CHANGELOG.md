@@ -1,5 +1,30 @@
 # @zazuko/vocabularies
 
+## 4.1.3
+
+### Patch Changes
+
+- Updated dependencies [82bc88c]
+- Updated dependencies [5ebd304]
+- Updated dependencies [08d7dc6]
+- Updated dependencies [1ebf189]
+- Updated dependencies [c3c947c]
+- Updated dependencies [c2cb71c]
+- Updated dependencies [9d09452]
+- Updated dependencies [21af1c8]
+- Updated dependencies [bb8b46a]
+- Updated dependencies [273b84f]
+  - @vocabulary/xhv@1.0.7
+  - @vocabulary/dpv@2.0.0
+  - @vocabulary/locn@1.0.7
+  - @vocabulary/rr@1.0.7
+  - @vocabulary/sd@1.1.0
+  - @vocabulary/sh@2.1.0
+  - @vocabulary/shex@1.1.0
+  - @vocabulary/shsh@2.0.0
+  - @vocabulary/skosxl@1.0.7
+  - @vocabulary/exif@1.0.7
+
 ## 4.1.2
 
 ### Patch Changes
