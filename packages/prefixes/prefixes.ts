@@ -27,7 +27,7 @@ const packagedPrefixes = {
   'discipline': 'http://qudt.org/vocab/discipline/',
   'doap': 'http://usefulinc.com/ns/doap#',
   'dprod': 'https://ekgf.github.io/dprod/',
-  'dpv': 'http://www.w3.org/ns/dpv#',
+  'dpv': 'http://w3id.org/dpv#',
   'dqv': 'http://www.w3.org/ns/dqv#',
   'dtype': 'http://www.linkedmodel.org/schema/dtype#',
   'duv': 'http://www.w3.org/ns/duv#',

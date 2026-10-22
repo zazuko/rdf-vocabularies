@@ -16,7 +16,7 @@
   "homepage": "https://prefix.zazuko.com/prefix/dpv:",
   "vocabulary": {
     "prefix": "dpv",
-    "namespace": "http://www.w3.org/ns/dpv#",
+    "namespace": "http://w3id.org/dpv#",
     "file": "https://w3c-cg.github.io/dpv/2.0/dpv/dpv.ttl",
     "mediaType": "text/turtle"
   },
