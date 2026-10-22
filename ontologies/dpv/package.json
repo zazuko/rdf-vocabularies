@@ -17,24 +17,8 @@
   "vocabulary": {
     "prefix": "dpv",
     "namespace": "http://www.w3.org/ns/dpv#",
-    "files": [
-      {
-        "mediaType": "application/ld+json",
-        "file": "https://dpvcg.github.io/dpv/dpv.jsonld"
-      },
-      {
-        "mediaType": "application/rdf+xml",
-        "file": "https://dpvcg.github.io/dpv/dpv.rdf"
-      },
-      {
-        "mediaType": "text/n3",
-        "file": "https://dpvcg.github.io/dpv/dpv.n3"
-      },
-      {
-        "mediaType": "text/turtle",
-        "file": "https://dpvcg.github.io/dpv/dpv.ttl"
-      }
-    ]
+    "file": "https://w3c-cg.github.io/dpv/2.0/dpv/dpv.ttl",
+    "mediaType": "text/turtle"
   },
   "bugs": {
     "url": "https://github.com/zazuko/rdf-vocabularies/issues"
