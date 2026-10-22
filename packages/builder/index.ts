@@ -29,4 +29,4 @@ program
     return buildModule(process.cwd(), prefix)
   })
 
-program.parseAsync()
+await program.parseAsync()
