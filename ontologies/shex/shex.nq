@@ -1,9 +1,10 @@
-<http://www.w3.org/ns/shex#> <http://purl.org/dc/terms/date> "2017-07-07"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#> <http://purl.org/dc/terms/date> "2026-08-06"^^<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#> <http://purl.org/dc/terms/description> "This document describes the RDFS vocabulary description used in the Shape Expression Language (ShEx) [[shex-semantics]] along with the default JSON-LD Context and shape expression to validate RDF versions of shapes."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#> <http://purl.org/dc/terms/title> "Shape Expression Vocabulary"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://shex.io/shex-semantics> <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#> <http://www.w3.org/2002/07/owl#versionInfo> <https://github.com/shexSpec/shexspec.github.io/commit/e05f8e97471f5271f50612bed253102f770364b4> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#> <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://shexspec.github.io/shape-map/> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#> <http://www.w3.org/2002/07/owl#versionInfo> <https://github.com/shexSpec/shexTest/commit/e51237875c69bb1fbc86def8f3c895b213a6ff9c> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#Annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#Annotation> <http://www.w3.org/2000/01/rdf-schema#comment> "Annotations provide a format-independent way to provide additional information about elements in a schema. "@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#Annotation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
@@ -13,6 +14,10 @@
 <http://www.w3.org/ns/shex#EachOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#EachOf> <http://www.w3.org/2000/01/rdf-schema#label> "Each Of"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#EachOf> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/shex#TripleExpression> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#FOCUS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#FOCUS> <http://www.w3.org/2000/01/rdf-schema#comment> "In a triple pattern used as a node selector, indicates the position (subject or object) of the nodes to be selected. A triple pattern has exactly one focus selector."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#FOCUS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#FOCUS> <http://www.w3.org/2000/01/rdf-schema#label> "FOCUS"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#IriStem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#IriStem> <http://www.w3.org/2000/01/rdf-schema#comment> "An IRI prefix used for matching IRIs."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#IriStem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
@@ -61,6 +66,10 @@
 <http://www.w3.org/ns/shex#OneOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#OneOf> <http://www.w3.org/2000/01/rdf-schema#label> "One Of"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#OneOf> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/shex#TripleExpression> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#QueryMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#QueryMap> <http://www.w3.org/2000/01/rdf-schema#comment> "A map of node selectors to shape labels, used to select the nodes to be validated against particular shapes. Node selectors are RDF nodes or triple patterns."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#QueryMap> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#QueryMap> <http://www.w3.org/2000/01/rdf-schema#label> "Query Map"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#Schema> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#Schema> <http://www.w3.org/2000/01/rdf-schema#comment> "A Schema contains the set of shapes, used for matching a focus node."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#Schema> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
@@ -79,6 +88,10 @@
 <http://www.w3.org/ns/shex#ShapeAnd> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#ShapeAnd> <http://www.w3.org/2000/01/rdf-schema#label> "Shape And"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#ShapeAnd> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/shex#ShapeExpression> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#ShapeDecl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#ShapeDecl> <http://www.w3.org/2000/01/rdf-schema#comment> "Associates a shape expression with a label, and optionally declares it abstract. The shapes in a Schema are ShapeDecls."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#ShapeDecl> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#ShapeDecl> <http://www.w3.org/2000/01/rdf-schema#label> "Shape Declaration"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#ShapeExpression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#ShapeExpression> <http://www.w3.org/2000/01/rdf-schema#comment> "The abstract class of Shape Expressions."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#ShapeExpression> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
@@ -88,6 +101,11 @@
 <http://www.w3.org/ns/shex#ShapeExternal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#ShapeExternal> <http://www.w3.org/2000/01/rdf-schema#label> "Shape External"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#ShapeExternal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/shex#ShapeExpression> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#ShapeMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#ShapeMap> <http://www.w3.org/2000/01/rdf-schema#comment> "A QueryMap in which each node selector is an RDF node; associates RDF nodes with shapes, optionally recording the validation status of each association."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#ShapeMap> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#ShapeMap> <http://www.w3.org/2000/01/rdf-schema#label> "Shape Map"@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#ShapeMap> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/shex#QueryMap> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#ShapeNot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#ShapeNot> <http://www.w3.org/2000/01/rdf-schema#comment> "A ShapeNot is satisfied when it’s included ShapeExpression is not satisfied."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#ShapeNot> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
@@ -119,6 +137,16 @@
 <http://www.w3.org/ns/shex#Wildcard> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that a stem is a Wildcard, rather than a URI prefix."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#Wildcard> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#Wildcard> <http://www.w3.org/2000/01/rdf-schema#label> "Wildcard"@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#_> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#_> <http://www.w3.org/2000/01/rdf-schema#comment> "In a triple pattern used as a node selector, a wildcard indicating that the position (subject or object) may hold any value."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#_> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#_> <http://www.w3.org/2000/01/rdf-schema#label> "wildcard"@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#abstract> <http://www.w3.org/2000/01/rdf-schema#comment> "Declares a ShapeDecl abstract, meaning that every reference to it must also identify at least one non-abstract shape."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#abstract> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#ShapeDecl> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#abstract> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#abstract> <http://www.w3.org/2000/01/rdf-schema#label> "abstract"@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#abstract> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#annotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#annotation> <http://www.w3.org/2000/01/rdf-schema#comment> "Annotations on a TripleExpression."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#annotation> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n0 <http://www.w3.org/ns/shex#> .
@@ -170,7 +198,7 @@
 <http://www.w3.org/ns/shex#extends> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#Shape> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#extends> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#extends> <http://www.w3.org/2000/01/rdf-schema#label> "extends"@en <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#extends> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#extends> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shex#ShapeExpression> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#extra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#extra> <http://www.w3.org/2000/01/rdf-schema#comment> "Properties which may have extra values beyond those matched through a constraint."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#extra> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#Shape> <http://www.w3.org/ns/shex#> .
@@ -190,6 +218,12 @@
 <http://www.w3.org/ns/shex#fractiondigits> <http://www.w3.org/2000/01/rdf-schema#label> "fraction digits"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#fractiondigits> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#fractiondigits> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/shex#numericFacet> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#imports> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#imports> <http://www.w3.org/2000/01/rdf-schema#comment> "Schemas imported by this Schema; their shape and triple expression labels are also in scope here."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#imports> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#Schema> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#imports> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#imports> <http://www.w3.org/2000/01/rdf-schema#label> "imports"@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#imports> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#inverse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#inverse> <http://www.w3.org/2000/01/rdf-schema#comment> "Constrains the subject of a triple, rather than the object."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#inverse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#TripleConstraint> <http://www.w3.org/ns/shex#> .
@@ -219,7 +253,7 @@
 <http://www.w3.org/ns/shex#literal> <http://www.w3.org/2000/01/rdf-schema#label> "literal"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#max> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#max> <http://www.w3.org/2000/01/rdf-schema#comment> "Maximum number of times this TripleExpression may match; -1 for “*”"@en <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#max> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n20 <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#max> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n23 <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#max> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#max> <http://www.w3.org/2000/01/rdf-schema#label> "maximum cardinality"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#max> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/ns/shex#> .
@@ -228,14 +262,14 @@
 <http://www.w3.org/ns/shex#maxexclusive> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#NodeConstraint> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#maxexclusive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#maxexclusive> <http://www.w3.org/2000/01/rdf-schema#label> "max exclusive"@en <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#maxexclusive> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n22 <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#maxexclusive> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n25 <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#maxexclusive> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/shex#numericFacet> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#maxinclusive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#maxinclusive> <http://www.w3.org/2000/01/rdf-schema#comment> "An atomic property that contains a single number that is the maximum valid value (inclusive)."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#maxinclusive> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#NodeConstraint> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#maxinclusive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#maxinclusive> <http://www.w3.org/2000/01/rdf-schema#label> "max inclusive"@en <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#maxinclusive> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n24 <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#maxinclusive> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n27 <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#maxinclusive> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/shex#numericFacet> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#maxlength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#maxlength> <http://www.w3.org/2000/01/rdf-schema#comment> "A numeric atomic property that contains a single integer that is the maximum length of the value."@en <http://www.w3.org/ns/shex#> .
@@ -262,7 +296,7 @@
 <http://www.w3.org/ns/shex#mininclusive> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#NodeConstraint> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#mininclusive> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#mininclusive> <http://www.w3.org/2000/01/rdf-schema#label> "min inclusive"@en <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#mininclusive> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n12 <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#mininclusive> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n13 <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#mininclusive> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/shex#numericFacet> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#minlength> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#minlength> <http://www.w3.org/2000/01/rdf-schema#comment> "An atomic property that contains a single integer that is the minimum length of the value."@en <http://www.w3.org/ns/shex#> .
@@ -277,6 +311,12 @@
 <http://www.w3.org/ns/shex#name> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#node> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#node> <http://www.w3.org/2000/01/rdf-schema#comment> "An RDF node, or a triple pattern which is used to select RDF nodes to be validated."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#node> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#QueryMap> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#node> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#node> <http://www.w3.org/2000/01/rdf-schema#label> "node"@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#node> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#nodeKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#nodeKind> <http://www.w3.org/2000/01/rdf-schema#comment> "Restiction on the kind of node matched; restricted to the defined instances of NodeKind. One of shex:iri, shex:bnode, shex:literal, or shex:nonliteral."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#nodeKind> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#NodeConstraint> <http://www.w3.org/ns/shex#> .
@@ -307,19 +347,25 @@
 <http://www.w3.org/ns/shex#pattern> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/shex#stringFacet> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#predicate> <http://www.w3.org/2000/01/rdf-schema#comment> "The predicate of a TripleConstraint or Annotation."@en <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#predicate> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n17 <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#predicate> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n20 <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#predicate> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#predicate> <http://www.w3.org/2000/01/rdf-schema#label> "predicate"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#predicate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#semActs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#semActs> <http://www.w3.org/2000/01/rdf-schema#comment> "Semantic Actions on this TripleExpression."@en <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#semActs> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n21 <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#semActs> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n24 <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#semActs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#semActs> <http://www.w3.org/2000/01/rdf-schema#label> "semantic action"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#semActs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shex#SemAct> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#shape> <http://www.w3.org/2000/01/rdf-schema#comment> "A ShEx shape expression label identifying the shape expression against which the selected nodes are validated, or the string \"START\" for the schema's start shape expression."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#shape> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#QueryMap> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#shape> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#shape> <http://www.w3.org/2000/01/rdf-schema#label> "shape"@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#shape> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shex#ShapeExpression> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#shapeExpr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#shapeExpr> <http://www.w3.org/2000/01/rdf-schema#comment> "Shape Expression referenced by this shape."@en <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#shapeExpr> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#ShapeNot> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#shapeExpr> <http://www.w3.org/2000/01/rdf-schema#comment> "Shape Expression referenced by this shape or shape declaration."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#shapeExpr> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n17 <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#shapeExpr> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#shapeExpr> <http://www.w3.org/2000/01/rdf-schema#label> "shape expression"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#shapeExpr> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shex#ShapeExpression> <http://www.w3.org/ns/shex#> .
@@ -331,11 +377,11 @@
 <http://www.w3.org/ns/shex#shapeExprs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shex#ShapeExpression> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#shapeExprs> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/shex#shapeExpr> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#shapes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#shapes> <http://www.w3.org/2000/01/rdf-schema#comment> "Shapes in this Schema."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#shapes> <http://www.w3.org/2000/01/rdf-schema#comment> "Shape declarations in this Schema."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#shapes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#Schema> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#shapes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#shapes> <http://www.w3.org/2000/01/rdf-schema#label> "shapes"@en <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#shapes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shex#ShapeExpression> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#shapes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shex#ShapeDecl> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#start> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#start> <http://www.w3.org/2000/01/rdf-schema#comment> "A ShapeExpression matched against the focus node prior to any other mapped expressions."@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#start> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#Schema> <http://www.w3.org/ns/shex#> .
@@ -348,9 +394,15 @@
 <http://www.w3.org/ns/shex#startActs> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#startActs> <http://www.w3.org/2000/01/rdf-schema#label> "start actions"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#startActs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/shex#SemAct> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#status> <http://www.w3.org/2000/01/rdf-schema#comment> "The validation status of a node/shape association: \"conformant\" or \"nonconformant\". Defaults to \"conformant\"."@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#ShapeMap> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#status> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#status> <http://www.w3.org/2000/01/rdf-schema#label> "status"@en <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#stem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#stem> <http://www.w3.org/2000/01/rdf-schema#comment> "A stem value used for matching or excluding values."@en <http://www.w3.org/ns/shex#> .
-<http://www.w3.org/ns/shex#stem> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n15 <http://www.w3.org/ns/shex#> .
+<http://www.w3.org/ns/shex#stem> <http://www.w3.org/2000/01/rdf-schema#domain> _:c14n16 <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#stem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#stem> <http://www.w3.org/2000/01/rdf-schema#label> "stem"@en <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#stem> <http://www.w3.org/2000/01/rdf-schema#range> _:c14n4 <http://www.w3.org/ns/shex#> .
@@ -383,42 +435,41 @@
 <http://www.w3.org/ns/shex#xsFacet> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/shex#NodeConstraint> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#xsFacet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/shex#> <http://www.w3.org/ns/shex#> .
 <http://www.w3.org/ns/shex#xsFacet> <http://www.w3.org/2000/01/rdf-schema#label> ""@en <http://www.w3.org/ns/shex#> .
-_:c14n0 <http://www.w3.org/2002/07/owl#unionOf> _:c14n37 <http://www.w3.org/ns/shex#> .
-_:c14n1 <http://www.w3.org/2002/07/owl#unionOf> _:c14n54 <http://www.w3.org/ns/shex#> .
+_:c14n0 <http://www.w3.org/2002/07/owl#unionOf> _:c14n40 <http://www.w3.org/ns/shex#> .
+_:c14n1 <http://www.w3.org/2002/07/owl#unionOf> _:c14n57 <http://www.w3.org/ns/shex#> .
 _:c14n10 <http://www.w3.org/2002/07/owl#unionOf> _:c14n7 <http://www.w3.org/ns/shex#> .
-_:c14n11 <http://www.w3.org/2002/07/owl#unionOf> _:c14n53 <http://www.w3.org/ns/shex#> .
-_:c14n12 <http://www.w3.org/2002/07/owl#unionOf> _:c14n45 <http://www.w3.org/ns/shex#> .
-_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#ShapeOr> <http://www.w3.org/ns/shex#> .
-_:c14n13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
-_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#Stem> <http://www.w3.org/ns/shex#> .
-_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n39 <http://www.w3.org/ns/shex#> .
-_:c14n15 <http://www.w3.org/2002/07/owl#unionOf> _:c14n18 <http://www.w3.org/ns/shex#> .
-_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/ns/shex#> .
-_:c14n16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n19 <http://www.w3.org/ns/shex#> .
-_:c14n17 <http://www.w3.org/2002/07/owl#unionOf> _:c14n8 <http://www.w3.org/ns/shex#> .
-_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#Stem> <http://www.w3.org/ns/shex#> .
-_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n38 <http://www.w3.org/ns/shex#> .
-_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#Wildcard> <http://www.w3.org/ns/shex#> .
-_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
-_:c14n2 <http://www.w3.org/2002/07/owl#unionOf> _:c14n42 <http://www.w3.org/ns/shex#> .
-_:c14n20 <http://www.w3.org/2002/07/owl#unionOf> _:c14n30 <http://www.w3.org/ns/shex#> .
-_:c14n21 <http://www.w3.org/2002/07/owl#unionOf> _:c14n27 <http://www.w3.org/ns/shex#> .
-_:c14n22 <http://www.w3.org/2002/07/owl#unionOf> _:c14n51 <http://www.w3.org/ns/shex#> .
-_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#OneOf> <http://www.w3.org/ns/shex#> .
-_:c14n23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
-_:c14n24 <http://www.w3.org/2002/07/owl#unionOf> _:c14n48 <http://www.w3.org/ns/shex#> .
-_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#TripleConstraint> <http://www.w3.org/ns/shex#> .
-_:c14n25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
+_:c14n11 <http://www.w3.org/2002/07/owl#unionOf> _:c14n56 <http://www.w3.org/ns/shex#> .
+_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#ShapeDecl> <http://www.w3.org/ns/shex#> .
+_:c14n12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
+_:c14n13 <http://www.w3.org/2002/07/owl#unionOf> _:c14n48 <http://www.w3.org/ns/shex#> .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#ShapeOr> <http://www.w3.org/ns/shex#> .
+_:c14n14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
+_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#Stem> <http://www.w3.org/ns/shex#> .
+_:c14n15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n42 <http://www.w3.org/ns/shex#> .
+_:c14n16 <http://www.w3.org/2002/07/owl#unionOf> _:c14n21 <http://www.w3.org/ns/shex#> .
+_:c14n17 <http://www.w3.org/2002/07/owl#unionOf> _:c14n18 <http://www.w3.org/ns/shex#> .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#ShapeNot> <http://www.w3.org/ns/shex#> .
+_:c14n18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n12 <http://www.w3.org/ns/shex#> .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#string> <http://www.w3.org/ns/shex#> .
+_:c14n19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n22 <http://www.w3.org/ns/shex#> .
+_:c14n2 <http://www.w3.org/2002/07/owl#unionOf> _:c14n45 <http://www.w3.org/ns/shex#> .
+_:c14n20 <http://www.w3.org/2002/07/owl#unionOf> _:c14n8 <http://www.w3.org/ns/shex#> .
+_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#Stem> <http://www.w3.org/ns/shex#> .
+_:c14n21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n41 <http://www.w3.org/ns/shex#> .
+_:c14n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#Wildcard> <http://www.w3.org/ns/shex#> .
+_:c14n22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
+_:c14n23 <http://www.w3.org/2002/07/owl#unionOf> _:c14n33 <http://www.w3.org/ns/shex#> .
+_:c14n24 <http://www.w3.org/2002/07/owl#unionOf> _:c14n30 <http://www.w3.org/ns/shex#> .
+_:c14n25 <http://www.w3.org/2002/07/owl#unionOf> _:c14n51 <http://www.w3.org/ns/shex#> .
 _:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#OneOf> <http://www.w3.org/ns/shex#> .
-_:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n25 <http://www.w3.org/ns/shex#> .
-_:c14n27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#EachOf> <http://www.w3.org/ns/shex#> .
-_:c14n27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n26 <http://www.w3.org/ns/shex#> .
+_:c14n26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
+_:c14n27 <http://www.w3.org/2002/07/owl#unionOf> _:c14n54 <http://www.w3.org/ns/shex#> .
 _:c14n28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#TripleConstraint> <http://www.w3.org/ns/shex#> .
 _:c14n28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
 _:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#OneOf> <http://www.w3.org/ns/shex#> .
 _:c14n29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n28 <http://www.w3.org/ns/shex#> .
 _:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#Language> <http://www.w3.org/ns/shex#> .
-_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n14 <http://www.w3.org/ns/shex#> .
+_:c14n3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n15 <http://www.w3.org/ns/shex#> .
 _:c14n30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#EachOf> <http://www.w3.org/ns/shex#> .
 _:c14n30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n29 <http://www.w3.org/ns/shex#> .
 _:c14n31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#TripleConstraint> <http://www.w3.org/ns/shex#> .
@@ -429,23 +480,23 @@ _:c14n33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/n
 _:c14n33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n32 <http://www.w3.org/ns/shex#> .
 _:c14n34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#TripleConstraint> <http://www.w3.org/ns/shex#> .
 _:c14n34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
-_:c14n35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#TripleConstraint> <http://www.w3.org/ns/shex#> .
-_:c14n35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
-_:c14n36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#OneOf> <http://www.w3.org/ns/shex#> .
+_:c14n35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#OneOf> <http://www.w3.org/ns/shex#> .
+_:c14n35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n34 <http://www.w3.org/ns/shex#> .
+_:c14n36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#EachOf> <http://www.w3.org/ns/shex#> .
 _:c14n36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n35 <http://www.w3.org/ns/shex#> .
-_:c14n37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#EachOf> <http://www.w3.org/ns/shex#> .
-_:c14n37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n36 <http://www.w3.org/ns/shex#> .
-_:c14n38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#StemRange> <http://www.w3.org/ns/shex#> .
+_:c14n37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#TripleConstraint> <http://www.w3.org/ns/shex#> .
+_:c14n37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
+_:c14n38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#TripleConstraint> <http://www.w3.org/ns/shex#> .
 _:c14n38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
-_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#StemRange> <http://www.w3.org/ns/shex#> .
-_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
-_:c14n4 <http://www.w3.org/2002/07/owl#unionOf> _:c14n16 <http://www.w3.org/ns/shex#> .
-_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> <http://www.w3.org/ns/shex#> .
-_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
-_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> <http://www.w3.org/ns/shex#> .
-_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n40 <http://www.w3.org/ns/shex#> .
-_:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/ns/shex#> .
-_:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n41 <http://www.w3.org/ns/shex#> .
+_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#OneOf> <http://www.w3.org/ns/shex#> .
+_:c14n39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n38 <http://www.w3.org/ns/shex#> .
+_:c14n4 <http://www.w3.org/2002/07/owl#unionOf> _:c14n19 <http://www.w3.org/ns/shex#> .
+_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#EachOf> <http://www.w3.org/ns/shex#> .
+_:c14n40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n39 <http://www.w3.org/ns/shex#> .
+_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#StemRange> <http://www.w3.org/ns/shex#> .
+_:c14n41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
+_:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#StemRange> <http://www.w3.org/ns/shex#> .
+_:c14n42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
 _:c14n43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> <http://www.w3.org/ns/shex#> .
 _:c14n43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
 _:c14n44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> <http://www.w3.org/ns/shex#> .
@@ -460,21 +511,27 @@ _:c14n48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2
 _:c14n48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n47 <http://www.w3.org/ns/shex#> .
 _:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> <http://www.w3.org/ns/shex#> .
 _:c14n49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
-_:c14n5 <http://www.w3.org/2002/07/owl#unionOf> _:c14n33 <http://www.w3.org/ns/shex#> .
+_:c14n5 <http://www.w3.org/2002/07/owl#unionOf> _:c14n36 <http://www.w3.org/ns/shex#> .
 _:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> <http://www.w3.org/ns/shex#> .
 _:c14n50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n49 <http://www.w3.org/ns/shex#> .
 _:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/ns/shex#> .
 _:c14n51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n50 <http://www.w3.org/ns/shex#> .
-_:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#EachOf> <http://www.w3.org/ns/shex#> .
-_:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n23 <http://www.w3.org/ns/shex#> .
-_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shex#> .
-_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n9 <http://www.w3.org/ns/shex#> .
-_:c14n54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shex#> .
-_:c14n54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n3 <http://www.w3.org/ns/shex#> .
-_:c14n6 <http://www.w3.org/2002/07/owl#unionOf> _:c14n52 <http://www.w3.org/ns/shex#> .
+_:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#double> <http://www.w3.org/ns/shex#> .
+_:c14n52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
+_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#decimal> <http://www.w3.org/ns/shex#> .
+_:c14n53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n52 <http://www.w3.org/ns/shex#> .
+_:c14n54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/ns/shex#> .
+_:c14n54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n53 <http://www.w3.org/ns/shex#> .
+_:c14n55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#EachOf> <http://www.w3.org/ns/shex#> .
+_:c14n55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n26 <http://www.w3.org/ns/shex#> .
+_:c14n56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shex#> .
+_:c14n56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n9 <http://www.w3.org/ns/shex#> .
+_:c14n57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/ns/shex#> .
+_:c14n57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n3 <http://www.w3.org/ns/shex#> .
+_:c14n6 <http://www.w3.org/2002/07/owl#unionOf> _:c14n55 <http://www.w3.org/ns/shex#> .
 _:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#ShapeAnd> <http://www.w3.org/ns/shex#> .
-_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n13 <http://www.w3.org/ns/shex#> .
+_:c14n7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n14 <http://www.w3.org/ns/shex#> .
 _:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#Annotation> <http://www.w3.org/ns/shex#> .
-_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n34 <http://www.w3.org/ns/shex#> .
+_:c14n8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c14n37 <http://www.w3.org/ns/shex#> .
 _:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/ns/shex#Stem> <http://www.w3.org/ns/shex#> .
 _:c14n9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/ns/shex#> .
