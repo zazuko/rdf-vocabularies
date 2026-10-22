@@ -7,9 +7,10 @@
     "fetch": "npm run -ws --if-present fetch",
     "lint": "eslint . --ext .js,.ts --quiet",
     "pretest": "npm -w @zazuko/vocabularies run combine-meta",
-    "test": "c8 -i src mocha packages/**/*.test.ts",
+    "test": "c8 -i src mocha packages/**/*.test.ts test/**/*.test.ts",
     "posttest": "c8 report --reporter=text-lcov >> ./coverage/lcov.info",
     "postinstall": "patch-package",
+    "generate-changesets": "tsx scripts/generate-changesets.ts",
     "release": "changeset publish"
   },
   "repository": {
