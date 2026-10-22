@@ -175,14 +175,14 @@
 <http://www.w3.org/ns/locn> <http://www.w3.org/2001/02pd/rec54#editor> _:c14n3 <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://www.w3.org/2002/07/owl#versionInfo> "First version in w3.org/ns space"@en <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://www.w3.org/2007/05/powder-s#describedby> <https://joinup.ec.europa.eu/node/55858> <http://www.w3.org/ns/locn#> .
-<http://www.w3.org/ns/locn> <http://xmlns.com/foaf/0.1/depiction> <https://www.w3.org/ns/locn.svg> <http://www.w3.org/ns/locn#> .
+<http://www.w3.org/ns/locn> <http://xmlns.com/foaf/0.1/depiction> <https://semiceu.github.io/Core-Location-Vocabulary/releases/w3c/locn.svg> <http://www.w3.org/ns/locn#> .
 <http://www.w3.org/ns/locn> <http://xmlns.com/foaf/0.1/maker> _:c14n2 <http://www.w3.org/ns/locn#> .
 <https://joinup.ec.europa.eu/category/licence/isa-open-metadata-licence-v11> <http://creativecommons.org/ns#attributionName> "European Commission"@en <http://www.w3.org/ns/locn#> .
 <https://joinup.ec.europa.eu/category/licence/isa-open-metadata-licence-v11> <http://creativecommons.org/ns#attributionURL> <http://ec.europa.eu/> <http://www.w3.org/ns/locn#> .
 <https://joinup.ec.europa.eu/category/licence/isa-open-metadata-licence-v11> <http://purl.org/dc/terms/title> "ISA Open Metadata Licence v1.1" <http://www.w3.org/ns/locn#> .
 <https://joinup.ec.europa.eu/node/43160> <http://purl.org/dc/terms/title> "Process and Methodology for Developing Core Vocabularies" <http://www.w3.org/ns/locn#> .
 <https://joinup.ec.europa.eu/node/55858> <http://purl.org/dc/terms/title> "Core Vocabularies Specification" <http://www.w3.org/ns/locn#> .
-<https://www.w3.org/ns/locn.svg> <http://www.w3.org/2000/01/rdf-schema#label> "Class and property diagram of the LOCN vocabulary" <http://www.w3.org/ns/locn#> .
+<https://semiceu.github.io/Core-Location-Vocabulary/releases/w3c/locn.svg> <http://www.w3.org/2000/01/rdf-schema#label> "Class and property diagram of the LOCN vocabulary" <http://www.w3.org/ns/locn#> .
 _:c14n0 <http://schema.org/affiliation> _:c14n5 <http://www.w3.org/ns/locn#> .
 _:c14n0 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://philarcher.org/foaf.rdf#me> <http://www.w3.org/ns/locn#> .
 _:c14n0 <http://xmlns.com/foaf/0.1/homepage> <http://philarcher.org/> <http://www.w3.org/ns/locn#> .
