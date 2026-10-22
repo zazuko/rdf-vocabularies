@@ -1,15 +1,10 @@
 # @vocabulary/dpv
 
-## 3.0.0
+## 2.0.1 (published in lieu of 2.0.0)
 
 ### Major Changes
 
 - 5e915e2: Since `dpv` v2, the namespace has changed to http://w3id.org/dpv#
-
-## 2.0.0
-
-### Major Changes
-
 - 5ebd304: Removed 206 term(s) (dpv:Accent, dpv:Language, dpv:AccessControl, dpv:Security, dpv:AccountIdentifier and 201 more)
 
 ## 1.0.6

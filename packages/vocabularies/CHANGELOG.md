@@ -4,17 +4,13 @@
 
 ### Major Changes
 
-- 5e915e2: Since `dpv` v2, the namespace has changed to http://w3id.org/dpv#
+- 5e915e2: [dpv] Since `dpv` v2, the namespace has changed to http://w3id.org/dpv#
+- 21af1c8: [shsh] Removed 1 term(s) (shsh:PathListWithAtLeast2Members)
+- c3c947c: [sd] Added 3 new term(s) (sd:SPARQLQuery, sd:SPARQLUpdate, sd:supportedVersion)
 
 ### Patch Changes
 
 - Updated dependencies [5e915e2]
-  - @vocabulary/dpv@3.0.0
-
-## 4.1.3
-
-### Patch Changes
-
 - Updated dependencies [82bc88c]
 - Updated dependencies [5ebd304]
 - Updated dependencies [08d7dc6]
@@ -26,7 +22,7 @@
 - Updated dependencies [bb8b46a]
 - Updated dependencies [273b84f]
   - @vocabulary/xhv@1.0.7
-  - @vocabulary/dpv@2.0.0
+  - @vocabulary/dpv@2.0.1
   - @vocabulary/locn@1.0.7
   - @vocabulary/rr@1.0.7
   - @vocabulary/sd@1.1.0

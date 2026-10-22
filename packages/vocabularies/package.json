@@ -48,7 +48,7 @@
     "@vocabulary/discipline": "^1.0.6",
     "@vocabulary/doap": "^1.0.6",
     "@vocabulary/dprod": "^1.0.2",
-    "@vocabulary/dpv": "^3.0.0",
+    "@vocabulary/dpv": "^2.0.1",
     "@vocabulary/dqv": "^1.0.6",
     "@vocabulary/dtype": "^1.1.0",
     "@vocabulary/duv": "^1.0.6",
