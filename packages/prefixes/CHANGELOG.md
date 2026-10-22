@@ -1,5 +1,11 @@
 # @zazuko/prefixes
 
+## 3.0.0
+
+### Major Changes
+
+- 80e3620: Prefix of `dpv` changed
+
 ## 2.6.4
 
 ### Patch Changes

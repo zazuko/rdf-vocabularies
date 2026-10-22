@@ -1,5 +1,12 @@
 # @vocabulary/builder
 
+## 1.1.1
+
+### Patch Changes
+
+- Updated dependencies [80e3620]
+  - @zazuko/prefixes@3.0.0
+
 ## 1.1.0
 
 ### Minor Changes

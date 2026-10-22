@@ -1,5 +1,12 @@
 # @zazuko/vocabularies
 
+## 5.0.1
+
+### Patch Changes
+
+- Updated dependencies [80e3620]
+  - @zazuko/prefixes@3.0.0
+
 ## 5.0.0
 
 ### Major Changes
