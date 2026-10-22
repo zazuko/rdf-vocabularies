@@ -2,4 +2,4 @@
 <https://prefix.zazuko.com/dpv:> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/rdfa#PrefixMapping> .
 <https://prefix.zazuko.com/dpv:> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3c-cg.github.io/dpv/2.0/dpv/dpv.ttl> .
 <https://prefix.zazuko.com/dpv:> <http://www.w3.org/ns/rdfa#prefix> "dpv" .
-<https://prefix.zazuko.com/dpv:> <http://www.w3.org/ns/rdfa#uri> <http://www.w3.org/ns/dpv#> .
+<https://prefix.zazuko.com/dpv:> <http://www.w3.org/ns/rdfa#uri> <http://w3id.org/dpv#> .
