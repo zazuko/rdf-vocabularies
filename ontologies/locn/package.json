@@ -15,7 +15,9 @@
   "homepage": "https://prefix.zazuko.com/prefix/locn:",
   "vocabulary": {
     "prefix": "locn",
-    "namespace": "http://www.w3.org/ns/locn#"
+    "namespace": "http://www.w3.org/ns/locn#",
+    "file": "https://semiceu.github.io/Core-Location-Vocabulary/releases/w3c/locn.ttl",
+    "mediaType": "text/turtle"
   },
   "license": "MIT",
   "files": [
