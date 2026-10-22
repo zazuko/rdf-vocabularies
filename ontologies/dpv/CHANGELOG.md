@@ -1,5 +1,11 @@
 # @vocabulary/dpv
 
+## 3.0.0
+
+### Major Changes
+
+- 5e915e2: Since `dpv` v2, the namespace has changed to http://w3id.org/dpv#
+
 ## 2.0.0
 
 ### Major Changes

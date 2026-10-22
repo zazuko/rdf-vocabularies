@@ -1,5 +1,16 @@
 # @zazuko/vocabularies
 
+## 5.0.0
+
+### Major Changes
+
+- 5e915e2: Since `dpv` v2, the namespace has changed to http://w3id.org/dpv#
+
+### Patch Changes
+
+- Updated dependencies [5e915e2]
+  - @vocabulary/dpv@3.0.0
+
 ## 4.1.3
 
 ### Patch Changes
