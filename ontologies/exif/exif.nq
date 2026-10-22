@@ -721,7 +721,7 @@
 <http://www.w3.org/2003/12/exif/ns#sharpness> <http://www.w3.org/2003/12/exif/ns#tagNumber> "41994"@en <http://www.w3.org/2003/12/exif/ns#> .
 <http://www.w3.org/2003/12/exif/ns#shutterSpeedValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> <http://www.w3.org/2003/12/exif/ns#> .
 <http://www.w3.org/2003/12/exif/ns#shutterSpeedValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Shutter speed. The unit is the APEX (Additive System of Photographic Exposure) setting"@en <http://www.w3.org/2003/12/exif/ns#> .
-<http://www.w3.org/2003/12/exif/ns#shutterSpeedValue> <http://www.w3.org/2000/01/rdf-schema#comment> "シャッター速度（APEX値）。この値の2のベ��乗をとって逆数にすると、通常のシャッター速度表示になる。例えば'4'の場合だと1/(2^4)=1/16秒"@ja <http://www.w3.org/2003/12/exif/ns#> .
+<http://www.w3.org/2003/12/exif/ns#shutterSpeedValue> <http://www.w3.org/2000/01/rdf-schema#comment> "シャッター速度（APEX値）。この値の2のベキ乗をとって逆数にすると、通常のシャッター速度表示になる。例えば'4'の場合だと1/(2^4)=1/16秒"@ja <http://www.w3.org/2003/12/exif/ns#> .
 <http://www.w3.org/2003/12/exif/ns#shutterSpeedValue> <http://www.w3.org/2000/01/rdf-schema#label> "ShutterSpeedValue"@en <http://www.w3.org/2003/12/exif/ns#> .
 <http://www.w3.org/2003/12/exif/ns#shutterSpeedValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2003/12/exif/ns#pictTaking> <http://www.w3.org/2003/12/exif/ns#> .
 <http://www.w3.org/2003/12/exif/ns#shutterSpeedValue> <http://www.w3.org/2003/12/exif/ns#tagNumber> "37377"@en <http://www.w3.org/2003/12/exif/ns#> .
