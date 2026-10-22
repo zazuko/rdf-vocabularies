@@ -333,6 +333,19 @@ ${item.reason}
 `
     await fs.writeFile(filePath, content, 'utf8')
     createdFiles.push(filePath)
+
+    if (item.bump === 'major' && item.packageName !== '@zazuko/vocabularies') {
+      const vocabFileName = `bump-vocabularies-${cleanPrefix}.md`
+      const vocabFilePath = path.join(changesetDir, vocabFileName)
+      const vocabContent = `---
+"@zazuko/vocabularies": major
+---
+
+[${item.prefix}] ${item.reason}
+`
+      await fs.writeFile(vocabFilePath, vocabContent, 'utf8')
+      createdFiles.push(vocabFilePath)
+    }
   }
 
   return createdFiles

@@ -2,7 +2,7 @@ import { promises as fs } from 'node:fs'
 import path from 'node:path'
 import os from 'node:os'
 import { expect } from 'chai'
-import { computeBump, writeChangesets, type VocabularyBumpInspection } from '../scripts/generate-changesets.ts'
+import { computeBump, writeChangesets, type VocabularyBumpInspection } from '../scripts/generate-changesets.js'
 
 describe('generate-changesets', () => {
   const ns = 'http://example.org/vocab#'
@@ -95,7 +95,7 @@ describe('generate-changesets', () => {
     expect(result.details.addedTerms).to.deep.equal(['https://w3id.org/dpv#NewConcept'])
   })
 
-  it('writes changeset files correctly', async () => {
+  it('writes changeset files correctly for minor bump', async () => {
     const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), 'changeset-test-'))
     try {
       const inspections: VocabularyBumpInspection[] = [
@@ -122,7 +122,51 @@ describe('generate-changesets', () => {
 
       const fileContent = await fs.readFile(created[0], 'utf8')
       expect(fileContent).to.include('"@vocabulary/test": minor')
+      expect(fileContent).to.not.include('@zazuko/vocabularies')
       expect(fileContent).to.include('Added 2 new term(s)')
+    } finally {
+      await fs.rm(tempDir, { recursive: true, force: true })
+    }
+  })
+
+  it('creates separate major bump changeset for @zazuko/vocabularies prefixed with [prefix] when a vocabulary has breaking changes', async () => {
+    const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), 'changeset-test-'))
+    try {
+      const inspections: VocabularyBumpInspection[] = [
+        {
+          packageName: '@vocabulary/dpv',
+          prefix: 'dpv',
+          namespace: 'http://w3id.org/dpv#',
+          filePath: '/fake/path/dpv.nq',
+          relativeFilePath: 'ontologies/dpv/dpv.nq',
+          bump: 'major',
+          reason: 'Removed 1 term(s) (dpv:OldTerm)',
+          details: {
+            oldQuadsCount: 10,
+            newQuadsCount: 9,
+            addedTerms: [],
+            removedTerms: ['http://w3id.org/dpv#OldTerm'],
+            changedQuads: true,
+          },
+        },
+      ]
+
+      const created = await writeChangesets(inspections, tempDir)
+      expect(created).to.have.length(2)
+
+      const vocabPkgChangeset = created.find(f => path.basename(f) === 'bump-dpv.md')
+      expect(vocabPkgChangeset).to.exist
+      const vocabPkgContent = await fs.readFile(vocabPkgChangeset!, 'utf8')
+      expect(vocabPkgContent).to.include('"@vocabulary/dpv": major')
+      expect(vocabPkgContent).to.not.include('@zazuko/vocabularies')
+      expect(vocabPkgContent).to.include('Removed 1 term(s) (dpv:OldTerm)')
+
+      const aggregateChangeset = created.find(f => path.basename(f) === 'bump-vocabularies-dpv.md')
+      expect(aggregateChangeset).to.exist
+      const aggregateContent = await fs.readFile(aggregateChangeset!, 'utf8')
+      expect(aggregateContent).to.include('"@zazuko/vocabularies": major')
+      expect(aggregateContent).to.not.include('@vocabulary/dpv')
+      expect(aggregateContent).to.include('[dpv] Removed 1 term(s) (dpv:OldTerm)')
     } finally {
       await fs.rm(tempDir, { recursive: true, force: true })
     }
